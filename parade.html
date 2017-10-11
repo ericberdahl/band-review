@@ -1,0 +1,146 @@
+---
+---
+<!doctype html>
+<html>
+<head>
+    <title>Foothill Band Review {{site.data.review.year}} - Parade Competition</title>
+    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="parade.css">
+</head>
+<body>
+    <div class="page">
+        <div class="header">Parade Open</div>
+        <div>
+            Good morning ladies and gentlemen. Welcome to the Parade Competition for the {{site.data.review.citation}}.
+            We are joined today by nearly two score wonderful bands to entertain and delight us.
+            On behalf of Foothill High School, we wish good luck to all the bands performing today and hope you enjoy the competition.
+        </div>
+        <div class="footer">Parade Open</div>
+    </div>
+    
+    <div class="page">
+        <div class="header">Grand Marshal</div>
+        <div>
+            Now, please welcome our Grand Marshal, {{site.data.parade.grand_marshall}}.
+        </div>
+        <div class="footer">Grand Marshal</div>
+    </div>
+
+    <div class="page">
+        <div class="header">Presentation of the Colors</div>
+        <div>
+            At this time, please rise for the presentation of the colors.
+            Presenting the colors for today’s parade, please welcome {{site.data.parade.colors}}.
+        </div>
+        <div class="footer">Presentation of the Colors</div>
+    </div>
+
+    {% for plu in site.data.parade.lineup %}
+        <div class="page">
+        {% if plu.ref %}
+            {% assign plu_school = site.schools | where:"key",plu.ref
+                                                | first %}
+            {% assign plu_parade = site.parades | where:"key",plu.ref
+                                                | first %}
+            <div class="header">{{plu_school.name}}</div>
+            <div>
+                Our next band is the {{plu_school.nickname}}, from {{plu_school.name}} in {{plu_school.city}}.
+            </div>
+            <div>
+                {% include leader_citation.html school=plu_school band=plu_parade %}
+            </div>
+            <div>
+                The {{plu_school.nickname}} will perform {{plu_parade.music}}.
+            </div>
+            <div>
+                {{plu_parade.content}}
+            </div>
+            <div class="footer">{{plu_school.name}}</div>
+        {% elsif plu.break %}
+            <div class="header">{{plu.break}} minute break</div>
+            <div class="footer">{{plu.break}} minute break</div>
+        {% endif %}
+        </div>
+    {% endfor %}
+
+    <div class="page">
+        <div class="header">Close of Parade</div>
+        <div>
+            This concludes the Parade Competition for the {{site.data.review.citation}}.
+            Thank you and congratulations to all the bands we’ve seen this morning, and
+            thank you all for attending and cheering on these fine young performers.
+        </div>
+        <div>
+            Parade Awards will be presented at {{site.data.parade.awards_time}} in the {{site.data.parade.awards_location}}.
+        </div>
+        <div>
+            Please join us at the Foothill High School Stadium for the Field Show Competition,
+            starting at {{site.data.field.start_time}} this afternoon and running through the evening.
+        </div>
+        <div>
+            Mark your calendars to join us again next year, on {{site.data.review.next_year.date}},
+            for the {{site.data.review.next_year.citation}}.  On behalf of Foothill High School,
+            I wish you all a safe and enjoyable weekend. Good day.
+        </div>
+        <div class="footer">Close of Parade</div>
+    </div>
+
+    <div class="page">
+        <div class="header">Field Show Open</div>
+            Good afternoon ladies and gentlemen. Welcome to the Field Show Competition for
+            the {{site.data.review.citation}}. We are joined today by a score of talented
+            bands anxious to perform. On behalf of Foothill High School, we wish good luck
+            to all the bands performing today and hope you enjoy their shows.
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="header">Field Awards</div>
+        <div>
+            [at start of awards ceremony]
+            Tonight’s awards presentation is dedicated to the memory of Mary Cloyd, long term supporter of Foothill High School Band and its programs.
+        </div>
+        <div>
+            Foothill High School thanks our trophy sponsors: the Shin Family, the Piergrossi family, Target, and Dr. Bader-Omarali of Pleasanton Medical Group.
+        </div>
+        <div>
+            We would also like to thank the sponsors of the Foothill Band Review: Jimmy John’s Sandwiches, Double-D Transportation, and Orchard Supply
+        </div>
+        <div>
+            [before announcing the Grand Sweepstakes]
+            The Grand Sweepstakes Trophy is sponsored by John and Gretchen Clatworthy.
+        </div>
+        <div class="footer">Field Awards</div>
+    </div>
+
+    <div class="page">
+        <div class="header">Close of (Field) Show</div>
+            This concludes the {{site.data.review.citation}}. Thank you and congratulations
+            to all the bands we’ve seen today, and thank you all for attending and cheering
+            on these fine young performers.
+        </div>
+        <div>
+            Mark your calendars to join us again next year, on {{site.data.review.next_year.date}},
+            for the {{site.data.review.next_year.citation}}.  On behalf of Foothill High School,
+            I wish you all a safe and enjoyable weekend. Good night.
+        </div>
+        <div class="footer">Close of (Field) Show</div>
+    </div>
+
+    <div class="page">
+        <div class="header">5 Minute Break</div>
+    </div>
+
+    <div class="page">
+        <div class="header">10 Minute Break</div>
+    </div>
+
+    <div class="page">
+        <div class="header">15 Minute Break</div>
+    </div>
+
+    <div class="page">
+        <div class="header">30 Minute Break</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+plugins:
+-   "jekyll-tidy"
+
+timezone: "America/Los_Angeles"
+
+collections:
+    schools:
+    fields:
+    parades:
+
+defaults:
+#    - scope:
+#        path: ""
+#        type: "albums"
+#      values:
+#        director: "Other recordings"
+#        rating: 0
+#    - scope:
+#        path: ""
+#        type: "fylp"
+#      values:
+#        layout: "fylp"

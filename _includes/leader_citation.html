@@ -1,0 +1,48 @@
+{% assign staff_array = site.data.review.empty_array %}
+{% if include.school.colorguard_coaches.size %}
+    {%- capture temp_string -%}
+    color guard coaches {{ include.school.colorguard_coaches | array_to_sentence_string }}
+    {%- endcapture -%}
+    {% assign staff_array = staff_array | unshift: temp_string %}
+{% endif %}
+{% if include.school.drumline_coaches.size %}
+    {%- capture temp_string -%}
+    drum line coaches {{ include.school.drumline_coaches | array_to_sentence_string }}
+    {%- endcapture -%}
+    {% assign staff_array = staff_array | unshift: temp_string %}
+{% endif %}
+{% if include.school.instructors.size %}
+    {%- capture temp_string -%}
+    instructed by {{ include.school.instructors | array_to_sentence_string }}
+    {%- endcapture -%}
+    {% assign staff_array = staff_array | unshift: temp_string %}
+{% endif %}
+{% if include.school.directors.size %}
+    {%- capture temp_string -%}
+    directed by {{ include.school.directors | array_to_sentence_string }}
+    {%- endcapture -%}
+    {% assign staff_array = staff_array | unshift: temp_string %}
+{% endif %}
+{% assign leader_array = site.data.review.empty_array %}
+{% if include.band.percussion_captains.size %}
+    {%- capture temp_string -%}
+    percussion captains {{ include.band.percussion_captains | array_to_sentence_string }}
+    {%- endcapture -%}
+    {% assign leader_array = leader_array | unshift: temp_string %}
+{% endif %}
+{% if include.band.auxiliary_captains.size %}
+    {%- capture temp_string -%}
+    auxiliary captains {{ include.band.auxiliary_captains | array_to_sentence_string }}
+    {%- endcapture -%}
+    {% assign leader_array = leader_array | unshift: temp_string %}
+{% endif %}
+{% if include.band.drum_majors.size %}
+    {%- capture temp_string -%}
+    drum majors {{ include.band.drum_majors | array_to_sentence_string }}
+    {%- endcapture -%}
+    {% assign leader_array = leader_array | unshift: temp_string %}
+{% endif %}
+The {{ include.school.nickname }} is {{ staff_array | collapse
+                                                    | array_to_sentence_string }}
+and led by {{ leader_array | collapse
+                           | array_to_sentence_string }}.
