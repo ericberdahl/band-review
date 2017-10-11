@@ -1,0 +1,15 @@
+---
+---
+<!doctype html>
+<html>
+<head>
+    <title>Foothill Band Review {{site.data.review.year}} - {{ page.event_title }}</title>
+    <link rel="stylesheet" href="review.css">
+    {% for c in page.css %}
+        <link rel="stylesheet" href="{{ c }}">
+    {% endfor %}
+</head>
+<body>
+    {{ content }}
+</body>
+</html>
