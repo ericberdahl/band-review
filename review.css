@@ -1,9 +1,17 @@
-.header {
-    text-align: center;
+html, body {
+    font-family: Arial;
 }
 
-.footer {
+.header, .footer {
     text-align: center;
+
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.page, .page div {
+    margin-top: 10pt;
+    margin-bottom: 10pt;
 }
 
 /*@page {
