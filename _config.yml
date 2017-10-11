@@ -1,5 +1,5 @@
 plugins:
--   "jekyll-tidy"
+  - "jekyll-tidy"
 
 timezone: "America/Los_Angeles"
 
