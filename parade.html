@@ -40,7 +40,7 @@ css:
                                             | first %}
         <div class="header">{{plu_school.name}}</div>
         <div>
-            Our next band is the {% include nickname_citation.html school=plu_school %}, from {{plu_school.name}} in {{plu_school.city}}.
+            Our {% if forloop.first %}first{% else %}next{% endif %} band is the {% include nickname_citation.html school=plu_school %}, from {{plu_school.name}} in {{plu_school.city}}.
         </div>
         <div>
             {% include leader_citation.html school=plu_school band=plu_parade %}
