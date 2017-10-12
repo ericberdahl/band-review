@@ -38,15 +38,20 @@ css:
                                             | first %}
         {% assign plu_parade = site.parades | where:"key",plu.ref
                                             | first %}
+        {% if plu_school.nickname %}
+            {% assign plu_nickname = plu_school.nickname %}
+        {% else %}
+            {% assign plu_nickname = plu_school.name | append:' Marching Band' %}
+        {% endif %}
         <div class="header">{{plu_school.name}}</div>
         <div>
-            Our next band is the {{plu_school.nickname}}, from {{plu_school.name}} in {{plu_school.city}}.
+            Our next band is the {{plu_nickname}}, from {{plu_school.name}} in {{plu_school.city}}.
         </div>
         <div>
             {% include leader_citation.html school=plu_school band=plu_parade %}
         </div>
         <div>
-            The {{plu_school.nickname}} will perform {{plu_parade.music}}.
+            The {{plu_nickname}} will perform {{plu_parade.music}}.
         </div>
         <div>
             {{plu_parade.content}}
