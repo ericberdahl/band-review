@@ -2,7 +2,7 @@
 layout: announcer_sheets
 event_title: "Parade Competition"
 css:
-    - "parade.css"
+  - "parade.css"
 ---
 <div class="page">
     <div class="header">Parade Open</div>
@@ -55,6 +55,10 @@ css:
     {% elsif plu.break %}
         <div class="header">{{plu.break}} minute break</div>
         <div class="footer">{{plu.break}} minute break</div>
+    {% else %}
+        <div class="header">Error! Parade lineup data entry not recognized!</div>
+        <div>{{plu | inspect}}</div>
+        <div class="footer"></div>
     {% endif %}
     </div>
 {% endfor %}
@@ -123,18 +127,3 @@ css:
     <div class="footer">Close of (Field) Show</div>
 </div>
 
-<div class="page">
-    <div class="header">5 Minute Break</div>
-</div>
-
-<div class="page">
-    <div class="header">10 Minute Break</div>
-</div>
-
-<div class="page">
-    <div class="header">15 Minute Break</div>
-</div>
-
-<div class="page">
-    <div class="header">30 Minute Break</div>
-</div>
