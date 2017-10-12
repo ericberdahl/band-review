@@ -1,7 +1,7 @@
 {% assign staff_array = site.data.review.empty_array %}
 {% if include.school.directors.size %}
     {%- capture temp_string -%}
-    directed by {{ include.school.directors | array_to_sentence_string }}
+    {{ include.school.directors | array_to_sentence_string }}
     {%- endcapture -%}
     {% assign staff_array = staff_array | unshift: temp_string %}
 {% endif %}
@@ -29,9 +29,10 @@
     {%- endcapture -%}
     {% assign leader_array = leader_array | unshift: temp_string %}
 {% endfor %}
-The {{ include.school.nickname }} is {{ staff_array | reverse
-                                                    | collapse
-                                                    | array_to_sentence_string }}
+The {% include nickname_citation.html school=include.school %}
+is directed by {{ staff_array | reverse
+                              | collapse
+                              | array_to_sentence_string }}
 and led by {{ leader_array | reverse
                            | collapse
                            | array_to_sentence_string }}.
