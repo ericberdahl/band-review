@@ -4,31 +4,32 @@ event_title: "Parade Competition"
 css:
   - "parade.css"
 ---
+{% capture ignore %}{% increment band_ordinal %}{% endcapture %} {% comment %}Get the band ordinal to start at 1{% endcomment %}
 <div class="page">
-    <div class="header">Parade Open</div>
+    <div class="header">Parade - Open</div>
     <div>
         Good morning ladies and gentlemen. Welcome to the Parade Competition for the {{site.data.review.citation}}.
         We are joined today by nearly two score wonderful bands to entertain and delight us.
         On behalf of Foothill High School, we wish good luck to all the bands performing today and hope you enjoy the competition.
     </div>
-    <div class="footer">Parade Open</div>
+    <div class="footer">Parade - Open</div>
 </div>
 
 <div class="page">
-    <div class="header">Grand Marshal</div>
+    <div class="header">Parade - Grand Marshal</div>
     <div>
         Now, please welcome our Grand Marshal, {{site.data.parade.grand_marshall}}.
     </div>
-    <div class="footer">Grand Marshal</div>
+    <div class="footer">Parade - Grand Marshal</div>
 </div>
 
 <div class="page">
-    <div class="header">Presentation of the Colors</div>
+    <div class="header">Parade - Presentation of the Colors</div>
     <div>
         At this time, please rise for the presentation of the colors.
         Presenting the colors for today’s parade, please welcome {{site.data.parade.colors}}.
     </div>
-    <div class="footer">Presentation of the Colors</div>
+    <div class="footer">Parade - Presentation of the Colors</div>
 </div>
 
 {% for plu in site.data.parade.lineup %}
@@ -38,7 +39,7 @@ css:
                                             | first %}
         {% assign plu_parade = site.parades | where:"key",plu.ref
                                             | first %}
-        <div class="header">{{plu_school.name}}</div>
+        <div class="header">Parade - {{plu_school.name}} - {% increment band_ordinal %}</div>
         <div>
             Our {% if forloop.first %}first{% else %}next{% endif %} band is the {% include nickname_citation.html school=plu_school %}, from {{plu_school.name}} in {{plu_school.city}}.
         </div>
@@ -54,7 +55,7 @@ css:
         <div class="footer">{{plu_school.name}}</div>
     {% elsif plu.break %}
         <div class="header">{{plu.break}} minute break</div>
-        <div class="footer">{{plu.break}} minute break</div>
+        <div class="footer">Parade - {{plu.break}} minute break</div>
     {% else %}
         <div class="header">Error! Parade lineup data entry not recognized!</div>
         <div>{{plu | inspect}}</div>
@@ -64,7 +65,7 @@ css:
 {% endfor %}
 
 <div class="page">
-    <div class="header">Close of Parade</div>
+    <div class="header">Parade - Close</div>
     <div>
         This concludes the Parade Competition for the {{site.data.review.citation}}.
         Thank you and congratulations to all the bands we’ve seen this morning, and
@@ -82,50 +83,5 @@ css:
         for the {{site.data.review.next_year.citation}}.  On behalf of Foothill High School,
         I wish you all a safe and enjoyable weekend. Good day.
     </div>
-    <div class="footer">Close of Parade</div>
+    <div class="footer">Parade - Close</div>
 </div>
-
-<div class="page">
-    <div class="header">Field Show Open</div>
-    <div>
-        Good afternoon ladies and gentlemen. Welcome to the Field Show Competition for
-        the {{site.data.review.citation}}. We are joined today by a score of talented
-        bands anxious to perform. On behalf of Foothill High School, we wish good luck
-        to all the bands performing today and hope you enjoy their shows.
-    </div>
-    <div class="footer">Field Show Open</div>
-</div>
-
-<div class="page">
-    <div class="header">Field Awards</div>
-    <div>
-        [at start of awards ceremony]
-        Tonight’s awards presentation is dedicated to the memory of Mary Cloyd, long term supporter of Foothill High School Band and its programs.
-    </div>
-    <div>
-        Foothill High School thanks our trophy sponsors: the Shin Family, the Piergrossi family, Target, and Dr. Bader-Omarali of Pleasanton Medical Group.
-    </div>
-    <div>
-        We would also like to thank the sponsors of the Foothill Band Review: Jimmy John’s Sandwiches, Double-D Transportation, and Orchard Supply
-    </div>
-    <div>
-        [before announcing the Grand Sweepstakes]
-        The Grand Sweepstakes Trophy is sponsored by John and Gretchen Clatworthy.
-    </div>
-    <div class="footer">Field Awards</div>
-</div>
-
-<div class="page">
-    <div class="header">Close of (Field) Show</div>
-        This concludes the {{site.data.review.citation}}. Thank you and congratulations
-        to all the bands we’ve seen today, and thank you all for attending and cheering
-        on these fine young performers.
-    </div>
-    <div>
-        Mark your calendars to join us again next year, on {{site.data.review.next_year.date}},
-        for the {{site.data.review.next_year.citation}}.  On behalf of Foothill High School,
-        I wish you all a safe and enjoyable weekend. Good night.
-    </div>
-    <div class="footer">Close of (Field) Show</div>
-</div>
-

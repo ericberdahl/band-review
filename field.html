@@ -1,0 +1,54 @@
+---
+layout: announcer_sheets
+event_title: "Field Show Competition"
+css:
+  - "field.css"
+---
+{% capture ignore %}{% increment band_ordinal %}{% endcapture %} {% comment %}Get the band ordinal to start at 1{% endcomment %}
+<div class="page">
+    <div class="header">Field Show - Open</div>
+    <div>
+        Good afternoon ladies and gentlemen. Welcome to the Field Show Competition for
+        the {{site.data.review.citation}}. We are joined today by a score of talented
+        bands anxious to perform. On behalf of Foothill High School, we wish good luck
+        to all the bands performing today and hope you enjoy their shows.
+    </div>
+    <div class="footer">Field Show - Open</div>
+</div>
+
+<div class="page">
+    <div class="header">Field Show - Awards</div>
+    <div>
+        Tonight’s awards presentation is dedicated to the memory of Mary Cloyd, long time supporter of Foothill High School Band and its programs.
+    </div>
+    <div>
+        Foothill High School thanks our trophy sponsors: the Shin Family, the Piergrossi family, Target, and Dr. Bader-Omarali of Pleasanton Medical Group.
+    </div>
+    <div>
+        We would also like to thank the sponsors of the Foothill Band Review: Jimmy John’s Sandwiches, Double-D Transportation, and Orchard Supply.
+    </div>
+    <div>
+        [nth place] with a score of [score] goes to [pause] [name of school]!
+
+    </div>
+    <div>
+        [before announcing the Grand Sweepstakes]
+        The Grand Sweepstakes Trophy is sponsored by John and Gretchen Clatworthy.
+    </div>
+    <div class="footer">Field Show - Awards</div>
+</div>
+
+<div class="page">
+    <div class="header">Field Show - Close</div>
+    <div>
+        This concludes the {{site.data.review.citation}}. Thank you and congratulations
+        to all the bands we’ve seen today, and thank you all for attending and cheering
+        on these fine young performers.
+    </div>
+    <div>
+        Mark your calendars to join us again next year, on {{site.data.review.next_year.date}},
+        for the {{site.data.review.next_year.citation}}. On behalf of Foothill High School,
+        I wish you all a safe and enjoyable weekend. Good night.
+    </div>
+    <div class="footer">Field Show - Close</div>
+</div>

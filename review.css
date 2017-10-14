@@ -1,17 +1,17 @@
 html, body {
     font-family: Arial;
+    font-size: 18pt;
 }
 
 .header, .footer {
     text-align: center;
-
-    font-size: 2em;
     font-weight: bold;
 }
 
 .page, .page div {
     margin-top: 10pt;
     margin-bottom: 10pt;
+    line-height: 150%;
 }
 
 /*@page {
@@ -21,18 +21,21 @@ html, body {
 
 @media print {
     .footer {
-        position: fixed;
+        position: absolute;
         bottom: 0;
+        width: 100%;
     }
 
     .page {
+        position: relative;
+        height: 95%;
         page-break-inside: avoid;
         page-break-after: always;
     }
 
     html, body {
-        width: 210mm;
-        height: 297mm;
+        width: 8in;
+        height: 10.5in; /* 297mm; */
     }
 }
 
