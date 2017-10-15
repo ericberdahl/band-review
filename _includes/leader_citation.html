@@ -1,29 +1,33 @@
 {% assign staff_array = site.data.review.empty_array %}
-{% if include.school.directors.size %}
+{% assign directors = include.band.directors | default: include.school.directors %}
+{% assign other_directors = include.band.other_directors | default: include.school.other_directors %}
+{% assign drum_majors = include.band.drum_majors | default: include.school.drum_majors %}
+{% assign other_captains = include.band.other_captains | default: include.school.other_captains %}
+{% if directors.size %}
     {%- capture temp_string -%}
-    {{ include.school.directors | array_to_sentence_string }}
+    {{ directors | array_to_sentence_string }}
     {%- endcapture -%}
     {% assign staff_array = staff_array | unshift: temp_string %}
 {% endif %}
-{% for od in include.school.other_directors %}
+{% for od in other_directors %}
     {%- capture temp_string -%}
     {{ od[0] }} {{ od[1] | array_to_sentence_string }}
     {%- endcapture -%}
     {% assign staff_array = staff_array | unshift: temp_string %}
 {% endfor %}
 {% assign leader_array = site.data.review.empty_array %}
-{% if include.band.drum_majors.size %}
-    {% if include.band.percussion_captains.size > 1 %}
+{% if drum_majors.size %}
+    {% if drum_majors.size > 1 %}
         {% assign captain_label = "drum majors" %}
     {% else %}
         {% assign captain_label = "drum major" %}
     {% endif %}
     {%- capture temp_string -%}
-    {{ captain_label }} {{ include.band.drum_majors | array_to_sentence_string }}
+    {{ captain_label }} {{ drum_majors | array_to_sentence_string }}
     {%- endcapture -%}
     {% assign leader_array = leader_array | unshift: temp_string %}
 {% endif %}
-{% for oc in include.band.other_captains %}
+{% for oc in other_captains %}
     {%- capture temp_string -%}
     {{ oc[0] }} {{ oc[1] | array_to_sentence_string }}
     {%- endcapture -%}
