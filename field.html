@@ -16,6 +16,42 @@ css:
     <div class="footer">Field Show - Open</div>
 </div>
 
+{% for flu in site.data.field.lineup %}
+    <div class="page">
+    {% if flu.ref %}
+        {% assign flu_school = site.schools | where:"key",flu.ref
+                                            | first %}
+        {% assign flu_field = site.fields | where:"key",flu.ref
+                                          | first %}
+        <div class="header">Field Show - {{flu_school.name}} - {% increment band_ordinal %}</div>
+        {% include check_school.html school=flu_school ref=flu.ref %}
+        {% include check_field.html school=flu_school band=flu_field ref=flu.ref %}
+        {% include check_leaders.html school=flu_school band=flu_field ref=flu.ref %}
+        <div>
+            Our {% if forloop.first %}first{% else %}next{% endif %} band is the {% include nickname_citation.html school=flu_school %}, from {{flu_school.name}} in {{flu_school.city}}.
+        </div>
+        <div>
+            {% include leader_citation.html school=flu_school band=flu_field %}
+        </div>
+        <div>
+            The {% include nickname_citation.html school=flu_school %} will perform {{flu_field.program}}.
+        </div>
+        <div>
+            {{flu_field.content}}
+        </div>
+        <div class="footer">{{flu_school.name}}</div>
+    {% elsif flu.break %}
+        <div class="header">{{flu.break}} minute break</div>
+        <div class="footer">Field Show - {{flu.break}} minute break</div>
+    {% else %}
+        <div class="header error">Error! Field lineup data entry not recognized!</div>
+        <div>{{flu | inspect}}</div>
+        <div class="footer"></div>
+    {% endif %}
+    </div>
+{% endfor %}
+
+
 <div class="page">
     <div class="header">Field Show - Awards</div>
     <div>
