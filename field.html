@@ -28,13 +28,13 @@ css:
         {% include check_field.html school=flu_school band=flu_field ref=flu.ref %}
         {% include check_leaders.html school=flu_school band=flu_field ref=flu.ref %}
         <div>
-            Our {% if forloop.first %}first{% else %}next{% endif %} band is the {% include nickname_citation.html school=flu_school %}, from {{flu_school.name}} in {{flu_school.city}}.
+            Now taking the field is the {% include nickname_citation.html school=flu_school %}, from {{flu_school.name}} in {{flu_school.city}}.
         </div>
         <div>
             {% include leader_citation.html school=flu_school band=flu_field %}
         </div>
         <div>
-            The {% include nickname_citation.html school=flu_school %} will perform {{flu_field.program}}.
+            The {% include nickname_citation.html school=flu_school %} will perform their program, {{flu_field.program}}.
         </div>
         <div>
             {{flu_field.content}}
