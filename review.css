@@ -5,6 +5,12 @@ html, body {
 
 .error {
     color: red;
+    font-style: italic;
+}
+
+.missing {
+    color: orange;
+    font-style: italic;
 }
 
 .header, .footer {

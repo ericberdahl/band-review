@@ -40,12 +40,9 @@ css:
         {% assign plu_parade = site.parades | where:"key",plu.ref
                                             | first %}
         <div class="header">Parade - {{plu_school.name}} - {% increment band_ordinal %}</div>
-        {% unless plu_school %}
-            <div class="error">Error! School not found! : {{plu.ref | inspect}}</div>
-        {% endunless %}
-        {% unless plu_parade %}
-            <div class="error">Error! Parade not found! : {{plu.ref | inspect}}</div>
-        {% endunless %}
+        {% include check_school.html school=plu_school ref=plu.ref %}
+        {% include check_parade.html school=plu_school parade=plu_parade ref=plu.ref %}
+        {% include check_leaders.html school=plu_school band=plu_parade ref=plu.ref %}
         <div>
             Our {% if forloop.first %}first{% else %}next{% endif %} band is the {% include nickname_citation.html school=plu_school %}, from {{plu_school.name}} in {{plu_school.city}}.
         </div>
