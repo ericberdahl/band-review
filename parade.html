@@ -40,6 +40,12 @@ css:
         {% assign plu_parade = site.parades | where:"key",plu.ref
                                             | first %}
         <div class="header">Parade - {{plu_school.name}} - {% increment band_ordinal %}</div>
+        {% unless plu_school %}
+            <div class="error">Error! School not found! : {{plu.ref | inspect}}</div>
+        {% endunless %}
+        {% unless plu_parade %}
+            <div class="error">Error! Parade not found! : {{plu.ref | inspect}}</div>
+        {% endunless %}
         <div>
             Our {% if forloop.first %}first{% else %}next{% endif %} band is the {% include nickname_citation.html school=plu_school %}, from {{plu_school.name}} in {{plu_school.city}}.
         </div>
@@ -57,7 +63,7 @@ css:
         <div class="header">{{plu.break}} minute break</div>
         <div class="footer">Parade - {{plu.break}} minute break</div>
     {% else %}
-        <div class="header">Error! Parade lineup data entry not recognized!</div>
+        <div class="header error">Error! Parade lineup data entry not recognized!</div>
         <div>{{plu | inspect}}</div>
         <div class="footer"></div>
     {% endif %}

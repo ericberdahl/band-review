@@ -3,6 +3,10 @@ html, body {
     font-size: 18pt;
 }
 
+.error {
+    color: red;
+}
+
 .header, .footer {
     text-align: center;
     font-weight: bold;
