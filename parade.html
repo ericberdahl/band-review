@@ -52,9 +52,15 @@ css:
         <div>
             The {% include nickname_citation.html school=plu_school %} will perform {{plu_parade.music}}.
         </div>
-        <div>
-            {{plu_parade.content}}
-        </div>
+        {% unless plu_parade.content.size > 0 %}
+            <div class="missing">
+                {{plu_school.name}} has no parade notes.
+            </div>
+        {% else %}            
+            <div>
+                {{plu_parade.content}}
+            </div>
+        {% endunless %}
         <div class="footer">{{plu_school.name}}</div>
     {% elsif plu.break %}
         <div class="header">{{plu.break}} minute break</div>

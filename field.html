@@ -36,9 +36,15 @@ css:
         <div>
             The {% include nickname_citation.html school=flu_school %} will perform their program, {{flu_field.program}}.
         </div>
-        <div>
-            {{flu_field.content}}
-        </div>
+        {% unless flu_field.content.size > 0 %}
+            <div class="missing">
+                {{flu_school.name}} has no field notes.
+            </div>
+        {% else %}            
+            <div>
+                {{flu_field.content}}
+            </div>
+        {% endunless %}
         <div class="footer">{{flu_school.name}}</div>
     {% elsif flu.break %}
         <div class="header">{{flu.break}} minute break</div>
