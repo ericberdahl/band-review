@@ -13,6 +13,7 @@
     {%- capture temp_string -%}
     {{ od[0] }} {{ od[1] | array_to_sentence_string }}
     {%- endcapture -%}
+    {% assign temp_string = temp_string | prepend: "<br>" %}
     {% assign staff_array = staff_array | unshift: temp_string %}
 {% endfor %}
 {% assign leader_array = site.data.review.empty_array %}
@@ -25,12 +26,14 @@
     {%- capture temp_string -%}
     {{ captain_label }} {{ drum_majors | array_to_sentence_string }}
     {%- endcapture -%}
+    {% assign temp_string = temp_string | prepend: "<br>" %}
     {% assign leader_array = leader_array | unshift: temp_string %}
 {% endif %}
 {% for oc in other_captains %}
     {%- capture temp_string -%}
     {{ oc[0] }} {{ oc[1] | array_to_sentence_string }}
     {%- endcapture -%}
+    {% assign temp_string = temp_string | prepend: "<br>" %}
     {% assign leader_array = leader_array | unshift: temp_string %}
 {% endfor %}
 The {% include nickname_citation.html school=include.school %}
