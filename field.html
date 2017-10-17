@@ -34,7 +34,11 @@ css:
             {% include leader_citation.html school=flu_school band=flu_field %}
         </div>
         <div>
-            The {% include nickname_citation.html school=flu_school %} will perform their program, {{flu_field.program}}.
+            The {% include nickname_citation.html school=flu_school %} will perform their program, {{flu_field.program}}
+            {%- if flu_field.music -%}
+                , featuring {{flu_field.music}}
+            {%- endif -%}
+            .
         </div>
         {% unless flu_field.content.size > 0 %}
             <div class="missing">
