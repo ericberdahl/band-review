@@ -9,29 +9,28 @@ lineup:
   - ref: "solano ms"
   - ref: "vallemar cabrillo ms"
   - ref: "ingrid b lacy ms"
-  - ref: "davidson ms"  # dropped?
   - ref: "wells ms"
   - ref: "benicia ms"
+  - ref: "turlock christian hs"
+  - ref: "tracy hs"
   - ref: "del mar hs"
   - break: 10
   - ref: "jesse bethel hs"
   - ref: "capuchino hs"
-  - ref: "tracy hs"
   - ref: "vallejo hs"
   - ref: "hayward hs"
   - ref: "northgate hs"
   - ref: "franklin hs stockton"
   - ref: "merrill f west hs"
+  - break: 15
   - ref: "petaluma hs"
   - ref: "archbishop riordan hs"
   - ref: "santa cruz hs"
-  - break: 15
-  - ref: "liberty hs" # dropped?
   - ref: "north monterey county hs"
   - ref: "las plumas oroville alliance"
   - ref: "buhach colony hs"
   - ref: "washington hs"
-  - break: 10
+  - break: 15
   - ref: "benicia hs"
   - ref: "granada hs"
   - ref: "livermore hs"

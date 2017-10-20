@@ -5,11 +5,11 @@ lineup:
   - ref: "arroyo hs"
   - ref: "del mar hs"
   - ref: "lodi hs"
+  - ref: "phillip burton hs"
   - break: 15
+  - ref: "westmont hs"
   - ref: "st francis hs"
   - ref: "monte vista hs"
-  - ref: "phillip burton hs"
-  - ref: "westmont hs"
   - ref: "del oro hs"
   - ref: "vintage hs"
   - break: 30
