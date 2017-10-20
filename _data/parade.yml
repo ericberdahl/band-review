@@ -9,7 +9,7 @@ lineup:
   - ref: "solano ms"
   - ref: "vallemar cabrillo ms"
   - ref: "ingrid b lacy ms"
-  - ref: "davidson ms"
+  - ref: "davidson ms"  # dropped?
   - ref: "wells ms"
   - ref: "benicia ms"
   - ref: "del mar hs"
@@ -26,7 +26,7 @@ lineup:
   - ref: "archbishop riordan hs"
   - ref: "santa cruz hs"
   - break: 15
-  - ref: "liberty hs"
+  - ref: "liberty hs" # dropped?
   - ref: "north monterey county hs"
   - ref: "las plumas oroville alliance"
   - ref: "buhach colony hs"
