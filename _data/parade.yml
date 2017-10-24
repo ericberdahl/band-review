@@ -1,25 +1,24 @@
 grand_marshall: "Pleasanton Unified Superintendent, Dr. David Haglund"
 colors: "the color guard from Veterans of Foreign Wars Post 6298"
 
-awards_time: "three o'clock in the Amador High School Stadium"
+awards_time: "2:30pm in the Amador High School Stadium"
 awards_location: "Amador High School Stadium"
 
 lineup:
   - ref: "foothill hs"
   - ref: "solano ms"
   - ref: "vallemar cabrillo ms"
-  - ref: "ingrid b lacy ms"
   - ref: "wells ms"
   - ref: "benicia ms"
   - ref: "turlock christian hs"
   - ref: "tracy hs"
+  - ref: "northgate hs"
   - ref: "del mar hs"
-  - break: 10
+  - break: 15
   - ref: "jesse bethel hs"
   - ref: "capuchino hs"
   - ref: "vallejo hs"
   - ref: "hayward hs"
-  - ref: "northgate hs"
   - ref: "franklin hs stockton"
   - ref: "merrill f west hs"
   - break: 15
