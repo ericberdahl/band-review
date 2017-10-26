@@ -63,9 +63,9 @@ css:
                 {{plu_parade.content}}
             </div>
         {% endunless %}
-        <div class="footer">{{plu_school.name}}</div>
+        <div class="footer">Parade - {{plu_school.name}}</div>
     {% elsif plu.break %}
-        <div class="header">{{plu.break}} minute break</div>
+        <div class="header">Parade - {{plu.break}} minute break</div>
         <div class="footer">Parade - {{plu.break}} minute break</div>
     {% else %}
         <div class="header error">Error! Parade lineup data entry not recognized!</div>
@@ -142,9 +142,9 @@ css:
                 {{flu_field.content}}
             </div>
         {% endunless %}
-        <div class="footer">{{flu_school.name}}</div>
+        <div class="footer">Field Show - {{flu_school.name}}</div>
     {% elsif flu.break %}
-        <div class="header">{{flu.break}} minute break</div>
+        <div class="header">Field Show - {{flu.break}} minute break</div>
         <div class="footer">Field Show - {{flu.break}} minute break</div>
     {% else %}
         <div class="header error">Error! Field lineup data entry not recognized!</div>
@@ -166,7 +166,7 @@ css:
     <div class="footer">Field Show - End of Competition</div>
 </div>
 
-<div class="page">
+<div class="page awards">
     <div class="header">Field Show - Awards</div>
     <div>
         Foothill High School thanks the sponsors of the {{site.data.review.citation}}:
@@ -225,7 +225,7 @@ css:
     <div class="footer">Field Show - Close</div>
 </div>
 
-<div class="page">
+<div class="page awards">
     <div class="header">Parade and Concert - Awards</div>
     <div>
         Foothill High School thanks the sponsors of the {{site.data.review.citation}}:
@@ -239,5 +239,5 @@ css:
     <div>
         [announce scores and awards for Parade and Concert]
     </div>
-    <div class="footer">Field Show - Awards</div>
+    <div class="footer">Parade and Concert - Awards</div>
 </div>
