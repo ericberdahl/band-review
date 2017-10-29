@@ -18,20 +18,20 @@ css:
 </div>
 
 <div class="page">
-    <div class="header">Parade - Grand Marshal</div>
-    <div>
-        Leading off today's parade, please welcome our Grand Marshal, {{site.data.parade.grand_marshall}}.
-    </div>
-    <div class="footer">Parade - Grand Marshal</div>
-</div>
-
-<div class="page">
     <div class="header">Parade - Presentation of the Colors</div>
     <div>
         At this time, please rise and give respect to the presentation of the colors.<br>
         Presenting the colors for today’s parade, please welcome {{site.data.parade.colors}}.
     </div>
     <div class="footer">Parade - Presentation of the Colors</div>
+</div>
+
+<div class="page">
+    <div class="header">Parade - Grand Marshal</div>
+    <div>
+        Now, please welcome our Grand Marshal, {{site.data.parade.grand_marshall}}.
+    </div>
+    <div class="footer">Parade - Grand Marshal</div>
 </div>
 
 {% for plu in site.data.parade.lineup %}
@@ -87,7 +87,7 @@ css:
     </div>
     <div>
         Please join us at the Foothill High School Stadium for the Field Show Competition,
-        starting at {{site.data.field.start_time}} this afternoon and running through the evening.
+        starting at {{site.data.field.start_time}} this afternoon and running through this evening.
     </div>
     <div>
         Mark your calendars to join us again next year, on {{site.data.review.next_year.date}},
@@ -161,7 +161,7 @@ css:
         Please stay for the Field Show Awards, presented here in 15 minutes.
     </div>
     <div>
-        <span class="missing">[insert copy to thank all volunteers for the band review]</span>
+        Whether you're from Foothill or cheering your home school, you probably know how much work it takes to hold a successful band review, where student performers can share their talent with and their love of music. Today, {{site.data.review.counts.parade}} bands marched in parade, {{site.data.review.counts.concert}} performed in concert, and {{site.data.review.counts.field}} presented field shows. All this would not happen without the work of several hundred student and parent volunteers. Foothill High School thanks everyone who contributed to the success of today's Band Review. You all made it happen!
     </div>
     <div class="footer">Field Show - End of Competition</div>
 </div>
@@ -169,34 +169,35 @@ css:
 <div class="page awards">
     <div class="header">Field Show - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{site.data.review.citation}}:
-        <ol class="sponsors">
-            <li>John Santos with White Castle Tours,</li>
-            <li>Sean Jolley Real Estate,</li>
-            <li>Salesforce,</li>
-            <li>and Huntington of Pleasanton.</li>
-        </ol>
+        Foothill High School thanks the sponsors of the {{site.data.review.citation}}:<br>
+            John Santos with White Castle Tours,<br>
+            Sean Jolley Real Estate,<br>
+            Salesforce,<br>
+            and Huntington of Pleasanton.
     </div>
     <div>
         [General award announcement]
         With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
     </div>
     <div>
-        [1st place 6A]
-        The 1st place 6A trophy is sponsored by the parents of Roger Li.
+        [1st place 5A]
+        The 1st place 5A trophy is sponsored by the parents of Roger Li.
+    </div>
+    <div>
+        [Grand Sweepstakes]
+        The Grand Sweepstakes trophy is sponsored by John Santos and White Castle Tours.
     </div>
     <div>
         [3rd place brass]
-        The 3rd place brass trophy is sponsored by Huntington of Pleasanton.
-    </div>
-    <div>
-        [1st place brass]
-        The 1st place brass trophy is sponsored by the Goebel family, and is dedicated
-        on behalf of the Foothill Band and their favorite trumpet section!
+        The 3rd place brass trophy is sponsored by Huntington of Pleasanton and the Goebel family.
+        The Goebel family dedicates the 3rd place brass trophy on behalf of the Foothill Band and
+        their favorite trumpet section!
     </div>
     <div>
         [2nd place color guard]
-        The 2nd place color guard trophy is sponsored by the Carnes Family and Golden State Collision.
+        The 2nd place color guard trophy is sponsored by the Carnes family and Golden State Collision.
+        The Carnes family dedicates teh 2nd place color guard trophy to Vivi -- We can’t believe this
+        is your last Band Review! We are so proud of you. We love you! Mommy, Daddy and Izzy
     </div>
     <div>
         [3rd place percussion]
@@ -205,7 +206,8 @@ css:
     <div>
         [1st place percussion]
         The 1st place percussion trophy is sponsored by Woo family.
-        One band, one sound. This tropy is dedicated to their favorite Pit section!
+        The Woo family dedicates the 1st place percussion trophy to One band, one sound.
+        This tropy is dedicated to our favorite Pit section!
     </div>
     <div>
         [3rd place woodwinds]

@@ -7,3 +7,8 @@ next_year:
     citation: "44th Annual Foothill High School Band Review"
 
 empty_array: []
+
+counts:
+  parade: 33
+  concert: 17
+  field: 21
