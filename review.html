@@ -169,50 +169,13 @@ css:
 <div class="page awards">
     <div class="header">Field Show - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{site.data.review.citation}}:<br>
-            John Santos with White Castle Tours,<br>
-            Sean Jolley Real Estate,<br>
-            Salesforce,<br>
-            and Huntington of Pleasanton.
+        Foothill High School thanks the sponsors of the {{site.data.review.citation}}: {{ site.data.sponsors.field | array_to_sentence_string }}.
     </div>
     <div>
         [General award announcement]
         With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
     </div>
-    <div>
-        [1st place 5A]
-        The 1st place 5A trophy is sponsored by the parents of Roger Li.
-    </div>
-    <div>
-        [Grand Sweepstakes]
-        The Grand Sweepstakes trophy is sponsored by John Santos and White Castle Tours.
-    </div>
-    <div>
-        [3rd place brass]
-        The 3rd place brass trophy is sponsored by Huntington of Pleasanton and the Goebel family.
-        The Goebel family dedicates the 3rd place brass trophy on behalf of the Foothill Band and
-        their favorite trumpet section!
-    </div>
-    <div>
-        [2nd place color guard]
-        The 2nd place color guard trophy is sponsored by the Carnes family and Golden State Collision.
-        The Carnes family dedicates teh 2nd place color guard trophy to Vivi -- We can’t believe this
-        is your last Band Review! We are so proud of you. We love you! Mommy, Daddy and Izzy
-    </div>
-    <div>
-        [3rd place percussion]
-        The 3rd place percussion trophy is sponsored by Huntington of Pleasanton.
-    </div>
-    <div>
-        [1st place percussion]
-        The 1st place percussion trophy is sponsored by Woo family.
-        The Woo family dedicates the 1st place percussion trophy to One band, one sound.
-        This tropy is dedicated to our favorite Pit section!
-    </div>
-    <div>
-        [3rd place woodwinds]
-        The 3rd place woodwind trophy is sponsored by Huntington of Pleasanton.
-    </div>
+    {% include trophysponsor_citation.html sponsors=site.data.sponsors.field_trophies %}
     <div class="footer">Field Show - Awards</div>
 </div>
 
@@ -234,17 +197,9 @@ css:
 <div class="page awards">
     <div class="header">Parade and Concert - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{site.data.review.citation}}:
-        <ol class="sponsors">
-            <li>John Santos with White Castle Tours,</li>
-            <li>Sean Jolley Real Estate,</li>
-            <li>Ben Woo and Salesforce,</li>
-            <li>Huntington of Pleasanton,</li>
-            <li>Golden Gate Collision with the Carnes Family,</li>
-            <li>the parents of Roger Li,</li>
-            <li>and the Goebel Family.</li>
-        </ol>
+        Foothill High School thanks the sponsors of the {{site.data.review.citation}}: {{ site.data.sponsors.parade | array_to_sentence_string }}.
     </div>
+    {% include trophysponsor_citation.html sponsors=site.data.sponsors.parade_trophies %}
     <div>
         [announce scores and awards for Parade and Concert]
     </div>
