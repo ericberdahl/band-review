@@ -97,10 +97,10 @@ sponsors:
 {% for plu in site.data.parade.lineup %}
     <div class="page">
     {% if plu.ref %}
+        {% assign plu_unit_ref = plu.unit | default: "parade" %}
         {% assign plu_school = site.schools | where:"key",plu.ref
                                             | first %}
-        {% assign plu_parade = site.parades | where:"key",plu.ref
-                                            | first %}
+        {% assign plu_parade = plu_school[plu_unit_ref] %}
         <div class="header">Parade - {{plu_school.name}} - {% increment parade_ordinal %}</div>
         {% include check_school.html school=plu_school ref=plu.ref %}
         {% include check_parade.html school=plu_school parade=plu_parade ref=plu.ref %}
