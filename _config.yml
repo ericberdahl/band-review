@@ -5,7 +5,6 @@ timezone: "America/Los_Angeles"
 
 collections:
     schools:
-    fields:
     parades:
 
 defaults:
