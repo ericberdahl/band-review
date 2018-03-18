@@ -7,7 +7,6 @@ collections:
     schools:
     fields:
     parades:
-    winter_guards:
     winter_percussions:
 
 defaults:

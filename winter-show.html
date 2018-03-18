@@ -164,13 +164,11 @@ sponsors:
 {% for glu in site.data.guard.lineup %}
     <div class="page">
     {% if glu.ref %}
-        {% assign glu_guard = site.winter_guards | where:"key",glu.ref
+        {% assign glu_school = site.schools | where:"key",glu.ref
                                             | first %}
-        {% assign glu_school_key = glu_guard.school | default:glu.ref %}
-        {% assign glu_school = site.schools | where:"key",glu_school_key
-                                            | first %}
+        {% assign glu_guard = glu_school['winterguard'] %}
         <div class="header">Winter Guard - {{glu_school.name}} - {% increment guard_ordinal %}</div>
-        {% include check_school.html school=glu_school ref=glu_school_key %}
+        {% include check_school.html school=glu_school ref=glu.ref %}
         {% include check_guard.html school=glu_school unit=glu_guard ref=glu.ref %}
         {% include check_leaders.html school=glu_school unit=glu_guard ref=glu.ref %}
         {%- capture nickname -%}
