@@ -75,13 +75,12 @@ sponsors:
 {% for plu in site.data.percussion.lineup %}
     <div class="page">
     {% if plu.ref %}
-        {% assign plu_percussion = site.winter_percussions | where:"key",plu.ref
-                                                           | first %}
-        {% assign plu_school_key = plu_percussion.school | default:plu.ref %}
-        {% assign plu_school = site.schools | where:"key",plu_school_key
+        {% assign plu_unit_ref = plu.unit | default: "winterpercussion" %}
+        {% assign plu_school = site.schools | where:"key",plu.ref
                                             | first %}
+        {% assign plu_percussion = plu_school[plu_unit_ref] %}
         <div class="header">Winter Percussion - {{plu_school.name}} - {% increment perc_ordinal %}</div>
-        {% include check_school.html school=plu_school ref=plu_school_key %}
+        {% include check_school.html school=plu_school ref=plu.ref %}
         {% include check_percussion.html school=plu_school unit=plu_percussion ref=plu.ref %}
         {% include check_leaders.html school=plu_school unit=plu_percussion ref=plu.ref %}
         {%- capture nickname -%}
@@ -164,9 +163,10 @@ sponsors:
 {% for glu in site.data.guard.lineup %}
     <div class="page">
     {% if glu.ref %}
+        {% assign glu_unit_ref = glu.unit | default: "winterguard" %}
         {% assign glu_school = site.schools | where:"key",glu.ref
                                             | first %}
-        {% assign glu_guard = glu_school['winterguard'] %}
+        {% assign glu_guard = glu_school[glu_unit_ref] %}
         <div class="header">Winter Guard - {{glu_school.name}} - {% increment guard_ordinal %}</div>
         {% include check_school.html school=glu_school ref=glu.ref %}
         {% include check_guard.html school=glu_school unit=glu_guard ref=glu.ref %}

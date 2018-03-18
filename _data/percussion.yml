@@ -22,5 +22,6 @@ lineup:
 -   ref: "mission sj hs"
 -   ref: "cesar chavez hs"
 -   ref: "benicia hs"
--   ref: "foothill hs intermediate"
--   ref: "foothill hs open"
+-   ref: "foothill hs"
+    unit: "winterpercussion-intermediate"
+-   ref: "foothill hs"
