@@ -1,0 +1,25 @@
+key: "las plumas oroville alliance"
+
+name: "Las Plumas and Oroville High Schools"
+
+city: "Oroville, CA"
+
+parade:
+    nickname: "Las Plumas Oroville Alliance Band"
+
+    music: "Atlantis by Derek M. Broadbent"
+
+    directors:
+    -   "Michael Taylor"
+
+    leaders:
+        drum major:
+        -   "Hailey McGovern"
+
+        auxiliary captains:
+        -   "Hailey Floyd"
+        -   "Natalie Saechao"
+
+        percussion captains:
+        -   "Paul Elesha"
+        -   "Jonavin Thao"

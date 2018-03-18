@@ -1,0 +1,52 @@
+key: "livermore hs"
+
+name: "Livermore High School"
+
+city: "Livermore, CA"
+
+directors:
+-   "Justin Enright"
+
+parade:
+    nickname: "Cowboy Marching Band"
+
+    music: "Block M March by Jerry Bilik"
+
+    directors:
+    -   "Justin Enright"
+
+    other_directors:
+
+    leaders:
+        drum major:
+        -   "Katie Seidl"
+
+        assistant drum major:
+        -   "Luca Cuppoletti"
+
+        auxiliary captains:
+        -   "Hannah Dolan"
+        -   "Serena Dolan"
+        -   "Siliyah Greer"
+
+        percussion captains:
+        -   "Alex Paterson"
+        -   "Maverik Wilson"
+
+winterguard:
+    nickname: 
+
+    program: 
+
+    music: 
+
+    leaders:
+
+winterpercussion:
+    nickname: 
+
+    program: 
+
+    music: 
+
+    leaders:

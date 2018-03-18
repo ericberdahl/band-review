@@ -1,0 +1,30 @@
+key: "hayward hs"
+
+name: "Hayward High School"
+
+city: "Hayward, CA"
+
+parade:
+    nickname: "Pride of Hayward High"
+
+    music: "A Slavic Farewell by Vasily Agapkin (vah-SEE-lee ah-GAHP-kihn)"
+
+    directors:
+    -   "Nicholas Tocco (Nicolas TOE-ko)"
+
+    leaders:
+        drum major:
+        -   "Katrina Granados (Katrina grah-NAH-dohs)"
+
+
+winterguard:
+    nickname: 
+
+    program: 
+
+    music: 
+
+    leaders:
+
+    directors:
+    -   "Nicholas Tocco (Nicolas TOE-ko)"

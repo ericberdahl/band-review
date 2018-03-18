@@ -98,8 +98,8 @@ sponsors:
     <div class="page">
     {% if plu.ref %}
         {% assign plu_unit_ref = plu.unit | default: "parade" %}
-        {% assign plu_school = site.schools | where:"key",plu.ref
-                                            | first %}
+        {% assign plu_school = site.data.schools | where:"key",plu.ref
+                                                 | first %}
         {% assign plu_parade = plu_school[plu_unit_ref] %}
         <div class="header">Parade - {{plu_school.name}} - {% increment parade_ordinal %}</div>
         {% include check_school.html school=plu_school ref=plu.ref %}
@@ -176,8 +176,8 @@ sponsors:
     <div class="page">
     {% if flu.ref %}
         {% assign flu_unit_ref = flu.unit | default: "fieldshow" %}
-        {% assign flu_school = site.schools | where:"key",flu.ref
-                                            | first %}
+        {% assign flu_school = site.data.schools | where:"key",flu.ref
+                                                 | first %}
         {% assign flu_field = flu_school[flu_unit_ref] %}
         <div class="header">Field Show - {{flu_school.name}} - {% increment field_ordinal %}</div>
         {% include check_school.html school=flu_school ref=flu.ref %}

@@ -4,17 +4,5 @@ plugins:
 timezone: "America/Los_Angeles"
 
 collections:
-    schools:
 
 defaults:
-#    - scope:
-#        path: ""
-#        type: "albums"
-#      values:
-#        director: "Other recordings"
-#        rating: 0
-#    - scope:
-#        path: ""
-#        type: "fylp"
-#      values:
-#        layout: "fylp"

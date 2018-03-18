@@ -1,0 +1,27 @@
+key: "san benito hs"
+
+name: "San Benito High School"
+
+city: "Hollister, CA"
+
+fieldshow:
+    nickname: "Scarlet Regiment"
+
+    program: "Carmen"
+
+    music: "music by Georges Bizet (ZHOHR-jes bih-ZAY), arranged by Key Poulan (KEE poh-LAN)"
+
+    directors:
+    -   "Joey Fortino"
+
+    leaders:
+        drum major:
+        -   "Nina Jorgensen"
+
+        auxiliary captain:
+        -   "Jillian Clark"
+
+        percussion captain:
+        -   "Joaquin Zepeda"
+
+    content: "This is the Scarlet Regiment's first return to the field show genre since 2007 on the heels of many years of success in parade venues. With the constant help of the Baler Band Boosters and SBHS administration, the Scarlet Regiment is excited to take on this new challenge and opportunity. The students you see before you are a volunteer half of the band program which is comprised of two concert bands, winter guard, percussion ensemble, and jazz band."

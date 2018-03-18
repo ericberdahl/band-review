@@ -1,0 +1,44 @@
+key: "del mar hs"
+
+name: "Del Mar High School"
+
+city: "San Jose, CA"
+
+directors:
+-   "William D Burkhead"
+
+parade:
+    nickname: "Del Mar High School Marching Band and Colorguard"
+
+    music: "Semper Fidelis by John Philip Sousa"
+
+    leaders:
+        drum major:
+        -   "Noah Rojas"
+
+        auxiliary captain:
+        -   "Max Rosenfeld"
+
+        percussion captain:
+        -   "Joshua Salgado"
+
+fieldshow:
+    nickname: "Del Mar High School Marching Band and Colorguard"
+
+    program: "Welcome to The Moulin Rouge"
+
+    leaders:
+        drum majors:
+        -   "Mia Nicolacoudis (Mia nih-ko-lah-KOO-dihs)"
+        -   "Katherine Butler"
+
+        auxiliary captain:
+        -   "Max Rosenfeld"
+
+        battery captain:
+        -   "Noah Rojas"
+
+        front ensemble captain:
+        -   "Arturo Montes (Arturo mohn-TEZ)"
+
+    content: "Del Mar gives very special thanks to their awesome staff and amazing parent teams for their tireless work on behalf of the students. You are quite simply, the best!"

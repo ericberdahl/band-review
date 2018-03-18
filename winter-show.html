@@ -76,8 +76,8 @@ sponsors:
     <div class="page">
     {% if plu.ref %}
         {% assign plu_unit_ref = plu.unit | default: "winterpercussion" %}
-        {% assign plu_school = site.schools | where:"key",plu.ref
-                                            | first %}
+        {% assign plu_school = site.data.schools | where:"key",plu.ref
+                                                 | first %}
         {% assign plu_percussion = plu_school[plu_unit_ref] %}
         <div class="header">Winter Percussion - {{plu_school.name}} - {% increment perc_ordinal %}</div>
         {% include check_school.html school=plu_school ref=plu.ref %}
@@ -164,8 +164,8 @@ sponsors:
     <div class="page">
     {% if glu.ref %}
         {% assign glu_unit_ref = glu.unit | default: "winterguard" %}
-        {% assign glu_school = site.schools | where:"key",glu.ref
-                                            | first %}
+        {% assign glu_school = site.data.schools | where:"key",glu.ref
+                                                 | first %}
         {% assign glu_guard = glu_school[glu_unit_ref] %}
         <div class="header">Winter Guard - {{glu_school.name}} - {% increment guard_ordinal %}</div>
         {% include check_school.html school=glu_school ref=glu.ref %}

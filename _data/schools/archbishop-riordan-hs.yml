@@ -1,0 +1,38 @@
+key: "archbishop riordan hs"
+
+name: "Archbishop Riordan High School"
+
+city: "San Francisco, CA"
+
+parade:
+    nickname: "Crusader Marching Band"
+
+    music: "Anima Nobile (AH-nee-mah no-BEE-lay) by Jack C. Lentini"
+
+    directors:
+    -   "Kyle Hildebrant"
+    -   "Edwin Serrano"
+
+    other_directors:
+        auxiliary staff:
+        -   "Briana Yamagata"
+        -   "Noah Peters"
+
+        percussion staff:
+        -   "John Howard"
+        -   "Kyle Baldwin"
+
+    leaders:
+        drum majors:
+        -   "Stephen Aguirre (Stephen ah-GIH-rray)"
+        -   "John-Paul Jacinto (John Paul ha-SEEN-to)"
+
+        auxiliary captains:
+        -   "Audrey Lai"
+        -   "Jocelyn Suazo (Jocelyn SOO-AH-zo)"
+
+        percussion captain:
+        -   "Dean De Leon (Dean day lay-OHN)"
+    
+    content: >
+        The Crusader Band would like to dedicate this performance to those affected in the recent North Bay Fires and those still affected from the hurricanes. The Crusader Band is in preparation for the London New Year's Day Parade in 2019, to which they were invited this year!

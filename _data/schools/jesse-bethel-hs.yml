@@ -1,0 +1,24 @@
+key: "jesse bethel hs"
+
+name: "Jesse Bethel High School"
+
+city: "Vallejo, CA"
+
+parade:
+    nickname: "Jaguar Band"
+
+    music: "Black Granite by James L. Hosay"
+
+    directors:
+    -   "Alan Perkins"
+
+    leaders:
+        drum major:
+        -   "Jared Tating (Jared TAY-ting)"
+
+        auxilliary captains:
+        -   "Hope David"
+        -   "Jasmine Cahayag (Jasmine cah-HAH-yahg)"
+
+    content: >
+        The Jesse Bethel High School Band program has a rich tradition of excellence spanning more than 20 years.

@@ -1,0 +1,31 @@
+key: "ponderosa hs"
+
+name: "Ponderosa High School"
+
+city: "Shingle Springs, CA"
+
+fieldshow:
+    nickname: "Ponderosa Bruin Band"
+
+    program: "Casting Call!"
+
+    music:
+
+    directors:
+    -   "Santiago Sabado"
+
+    leaders:
+        drum major:
+        -   "Andrew Maloney"
+
+        auxiliary captains:
+        -   "Quinn McCallion (Quinn mk-KAH-lee-on)"
+        -   "Rebecca Cox"
+
+        percussion captain:
+        -   "Kailey Magentti (KAY-lee mah-JEN-tee)"
+
+        wind captain:
+        -   "Jacob Lambert"
+
+    content: "The band is wearing their brand new uniforms and would like to thank all the parent volunteers for all they do. We couldn’t do it without you!"
