@@ -24,7 +24,7 @@
     {% assign temp_string = temp_string | prepend: "<br>" %}
     {% assign leader_array = leader_array | unshift: temp_string %}
 {% endfor %}
-The {% include nickname_citation.html school=include.school %}
+The {{ include.nickname }}
 is directed by {{ staff_array | reverse
                               | collapse
                               | array_to_sentence_string }}

@@ -1,7 +1,3 @@
 {% unless include.school %}
     <div class="error">Error! School not found! : {{include.ref | inspect}}</div>
-{% else %}
-    {% unless include.school.nickname %}
-        <div class="missing">Missing! {{include.school.name}} is missing nickname.</div>
-    {% endunless %}
 {% endunless %}

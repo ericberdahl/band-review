@@ -1,5 +1,5 @@
-{%- if include.school.nickname -%}
-    {{ include.school.nickname }}
+{%- if include.unit.nickname -%}
+    {{ include.unit.nickname }}
 {%- else -%}
-    {{ include.school.name | append:' Marching Band' }}
+    {{ include.school.name | append:" " | append:include.generic }}
 {%- endif -%}

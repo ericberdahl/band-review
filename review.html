@@ -105,14 +105,17 @@ sponsors:
         {% include check_school.html school=plu_school ref=plu.ref %}
         {% include check_parade.html school=plu_school parade=plu_parade ref=plu.ref %}
         {% include check_leaders.html school=plu_school band=plu_parade ref=plu.ref %}
+        {%- capture nickname -%}
+            {% include nickname_citation.html unit=plu_parade school=plu_school generic="Marching Band" %}
+        {%- endcapture -%}
         <div>
-            Our {% if forloop.first %}first{% else %}next{% endif %} band is the {% include nickname_citation.html school=plu_school %}, from {{plu_school.name}} in {{plu_school.city}}.
+            Our {% if forloop.first %}first{% else %}next{% endif %} band is the {{ nickname }}, from {{plu_school.name}} in {{plu_school.city}}.
         </div>
         <div>
-            {% include leader_citation.html school=plu_school band=plu_parade %}
+            {% include leader_citation.html school=plu_school band=plu_parade nickname=nickname %}
         </div>
         <div>
-            The {% include nickname_citation.html school=plu_school %} will perform {{plu_parade.music}}.
+            The {{ nickname }} will perform {{plu_parade.music}}.
         </div>
         {% unless plu_parade.content.size > 0 %}
             <div class="missing">
@@ -180,14 +183,17 @@ sponsors:
         {% include check_school.html school=flu_school ref=flu.ref %}
         {% include check_field.html school=flu_school band=flu_field ref=flu.ref %}
         {% include check_leaders.html school=flu_school band=flu_field ref=flu.ref %}
+        {%- capture nickname -%}
+            {% include nickname_citation.html unit=flu_field school=flu_school generic="Marching Band" %}
+        {%- endcapture -%}
         <div>
-            Now taking the field is the {% include nickname_citation.html school=flu_school %}, from {{flu_school.name}} in {{flu_school.city}}.
+            Now taking the field is the {{ nickname }}, from {{flu_school.name}} in {{flu_school.city}}.
         </div>
         <div>
-            {% include leader_citation.html school=flu_school band=flu_field %}
+            {% include leader_citation.html school=flu_school band=flu_field nickname=nickname %}
         </div>
         <div>
-            The {% include nickname_citation.html school=flu_school %} will perform their program, {{flu_field.program}}
+            The {{ nickname }} will perform their program, {{flu_field.program}}
             {%- if flu_field.music -%}
                 , featuring {{flu_field.music}}
             {%- endif -%}
