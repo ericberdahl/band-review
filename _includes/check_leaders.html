@@ -1,10 +1,9 @@
 {% assign directors = include.band.directors | default: include.school.directors %}
 {% assign other_directors = include.band.other_directors | default: include.school.other_directors %}
-{% assign drum_majors = include.band.drum_majors | default: include.school.drum_majors %}
-{% assign other_captains = include.band.other_captains | default: include.school.other_captains %}
+{% assign leaders = include.band.leaders | default: include.school.leaders %}
 {% unless directors %}
     <div class="missing">Missing! {{include.school.name}} has no directors</div>
 {% endunless %}
-{% unless drum_majors %}
-    <div class="missing">Missing! {{include.school.name}} has no drum majors</div>
+{% unless leaders %}
+    <div class="missing">Missing! {{include.school.name}} has no leaders</div>
 {% endunless %}
