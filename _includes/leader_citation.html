@@ -16,7 +16,6 @@
     {% assign staff_array = staff_array | unshift: temp_string %}
 {% endfor %}
 {% assign leader_array = site.data.review.empty_array %}
-{% assign leader_array = site.data.review.empty_array %}
 {% for oc in leaders %}
     {%- capture temp_string -%}
     {{ oc[0] }} {{ oc[1] | array_to_sentence_string }}
