@@ -6,6 +6,20 @@ awards_time: "2:30pm"
 
 awards_location: "Amador High School Stadium"
 
+count: 33
+
+sponsors:
+    general:
+    -   "John Santos with White Castle Tours"
+    -   "Sean Jolley Real Estate"
+    -   "Ben Woo and Salesforce"
+    -   "Huntington of Pleasanton"
+    -   "Golden Gate Collision with the Carnes Family"
+    -   "the parents of Roger Li"
+    -   "the Goebel Family"
+
+    trophies: []
+
 lineup:
 -   ref: "foothill hs"
 -   ref: "solano ms"

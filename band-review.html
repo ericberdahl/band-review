@@ -14,57 +14,6 @@ next_year:
     date: "October 27th, 2018"
     year: 2018
     citation: "44th Annual Foothill High School Band Review"
-
-counts:
-    parade: 33
-    concert: 17
-    field: 21
-
-sponsors:
-    parade:
-    -   "John Santos with White Castle Tours"
-    -   "Sean Jolley Real Estate"
-    -   "Ben Woo and Salesforce"
-    -   "Huntington of Pleasanton"
-    -   "Golden Gate Collision with the Carnes Family"
-    -   "the parents of Roger Li"
-    -   "the Goebel Family"
-
-    parade_trophies: []
-
-    field:
-    -   "John Santos with White Castle Tours"
-    -   "Sean Jolley Real Estate"
-    -   "Salesforce"
-    -   "Huntington of Pleasanton"
-
-    field_trophies:
-        1st place 5A:
-        -   sponsor: "the parents of Roger Li"
-
-        Grand Sweepstakes:
-        -   sponsor: "John Santos"
-        -   sponsor: "White Castle Tours"
-
-        3rd place brass:
-        -   sponsor: "Huntington of Pleasanton"
-        -   sponsor: "the Goebel family"
-            dedication: "the Foothill Band and their favorite trumpet section"
-
-        2nd place color guard:
-        -   sponsor: "the Carnes family"
-            dedication: "Vivi -- We can’t believe this is your last Band Review! We are so proud of you. We love you! Mommy, Daddy and Izzy"
-        -   sponsor: "Golden State Collision"
-
-        3rd place percussion:
-        -   sponsor: "Huntington of Pleasanton"
-
-        1st place percussion:
-        -   sponsor: "the Woo family"
-            dedication: "One band, one sound. This trophy is dedicated to our favorite Pit section"
-
-        3rd place woodwinds:
-        -   sponsor: "Huntington of Pleasanton"
 ---
 {% capture ignore %}{% increment parade_ordinal %}{% endcapture %} {% comment %}Get the parade ordinal to start at 1{% endcomment %}
 <div class="page">
@@ -227,7 +176,7 @@ sponsors:
         Please stay for the Field Show Awards, presented here in 15 minutes.
     </div>
     <div>
-        Whether you're from Foothill or cheering your home school, you probably know how much work it takes to hold a successful band review, where student performers can share their talent with and their love of music. Today, {{page.counts.parade}} bands marched in parade, {{page.counts.concert}} performed in concert, and {{page.counts.field}} presented field shows. All this would not happen without the work of several hundred student and parent volunteers. Foothill High School thanks everyone who contributed to the success of today's Band Review. You all made it happen!
+        Whether you're from Foothill or cheering your home school, you probably know how much work it takes to hold a successful band review, where student performers can share their talent with and their love of music. Today, {{ site.data.parade.count }} bands marched in parade, {{ site.data.concert.count }} performed in concert, and {{ site.data.field.count }} presented field shows. All this would not happen without the work of several hundred student and parent volunteers. Foothill High School thanks everyone who contributed to the success of today's Band Review. You all made it happen!
     </div>
     <div class="footer">Field Show - End of Competition</div>
 </div>
@@ -235,13 +184,13 @@ sponsors:
 <div class="page awards">
     <div class="header">Field Show - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{page.this_year.citation}}: {{ page.sponsors.field | array_to_sentence_string }}.
+        Foothill High School thanks the sponsors of the {{page.this_year.citation}}: {{ site.data.field.sponsors.general | array_to_sentence_string }}.
     </div>
     <div>
         [General award announcement]
         With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
     </div>
-    {% include trophysponsor_citation.html sponsors=page.sponsors.field_trophies %}
+    {% include trophysponsor_citation.html sponsors=site.data.field.sponsors.trophies %}
     <div class="footer">Field Show - Awards</div>
 </div>
 
@@ -263,9 +212,9 @@ sponsors:
 <div class="page awards">
     <div class="header">Parade and Concert - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{page.this_year.citation}}: {{ page.sponsors.parade | array_to_sentence_string }}.
+        Foothill High School thanks the sponsors of the {{page.this_year.citation}}: {{ site.data.parade.sponsors.general | array_to_sentence_string }}.
     </div>
-    {% include trophysponsor_citation.html sponsors=page.sponsors.parade_trophies %}
+    {% include trophysponsor_citation.html sponsors=site.data.parade.sponsors.trophies %}
     <div>
         [announce scores and awards for Parade and Concert]
     </div>

@@ -1,27 +1,64 @@
 start_time: "3:30pm"
 
+count: 21
+
 lineup:
-  - ref: "san benito hs"
-  - ref: "tracy learning"
-  - ref: "arroyo hs"
-  - ref: "del mar hs"
-  - ref: "lodi hs"
-  - ref: "phillip burton hs"
-  - break: 15
-  - ref: "westmont hs"
-  - ref: "st francis hs"
-  - ref: "monte vista hs"
-  - ref: "del oro hs"
-  - ref: "vintage hs"
-  - break: 30
-  - ref: "james c enochs hs"
-  - ref: "ponderosa hs"
-  - ref: "dublin hs"
-  - ref: "john f kennedy hs"
-  - ref: "mountain view hs"
-  - ref: "rodriguez hs"
-  - break: 15
-  - ref: "milpitas hs"
-  - ref: "granite bay hs"
-  - ref: "cupertino hs"
-  - ref: "foothill hs"
+-   ref: "san benito hs"
+-   ref: "tracy learning"
+-   ref: "arroyo hs"
+-   ref: "del mar hs"
+-   ref: "lodi hs"
+-   ref: "phillip burton hs"
+-   break: 15
+-   ref: "westmont hs"
+-   ref: "st francis hs"
+-   ref: "monte vista hs"
+-   ref: "del oro hs"
+-   ref: "vintage hs"
+-   break: 30
+-   ref: "james c enochs hs"
+-   ref: "ponderosa hs"
+-   ref: "dublin hs"
+-   ref: "john f kennedy hs"
+-   ref: "mountain view hs"
+-   ref: "rodriguez hs"
+-   break: 15
+-   ref: "milpitas hs"
+-   ref: "granite bay hs"
+-   ref: "cupertino hs"
+-   ref: "foothill hs"
+
+sponsors:
+    general:
+    -   "John Santos with White Castle Tours"
+    -   "Sean Jolley Real Estate"
+    -   "Salesforce"
+    -   "Huntington of Pleasanton"
+
+    trophies:
+        1st place 5A:
+        -   sponsor: "the parents of Roger Li"
+
+        Grand Sweepstakes:
+        -   sponsor: "John Santos"
+        -   sponsor: "White Castle Tours"
+
+        3rd place brass:
+        -   sponsor: "Huntington of Pleasanton"
+        -   sponsor: "the Goebel family"
+            dedication: "the Foothill Band and their favorite trumpet section"
+
+        2nd place color guard:
+        -   sponsor: "the Carnes family"
+            dedication: "Vivi -- We can’t believe this is your last Band Review! We are so proud of you. We love you! Mommy, Daddy and Izzy"
+        -   sponsor: "Golden State Collision"
+
+        3rd place percussion:
+        -   sponsor: "Huntington of Pleasanton"
+
+        1st place percussion:
+        -   sponsor: "the Woo family"
+            dedication: "One band, one sound. This trophy is dedicated to our favorite Pit section"
+
+        3rd place woodwinds:
+        -   sponsor: "Huntington of Pleasanton"
