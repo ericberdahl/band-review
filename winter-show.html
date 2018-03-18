@@ -1,0 +1,258 @@
+---
+layout: announcer_sheets
+
+event_title: "Foothill Winter Show"
+book_title: "Announcer's Book"
+
+css:
+
+this_year:
+    year: 2018
+    citation: "2018 Foothill High School Winter Show"
+
+next_year:
+    date: "March 23rd, 2019"
+    citation: "2019 Foothill High School Winter Show"
+
+sponsors:
+    percussion: []
+    # -   "John Santos with White Castle Tours"
+    # -   "Sean Jolley Real Estate"
+    # -   "Ben Woo and Salesforce"
+    # -   "Huntington of Pleasanton"
+    # -   "Golden Gate Collision with the Carnes Family"
+    # -   "the parents of Roger Li"
+    # -   "the Goebel Family"
+
+    percussion_trophies: []
+
+    guard: []
+    # -   "John Santos with White Castle Tours"
+    # -   "Sean Jolley Real Estate"
+    # -   "Salesforce"
+    # -   "Huntington of Pleasanton"
+
+    guard_trophies: []
+        # 1st place 5A:
+        # -   sponsor: "the parents of Roger Li"
+
+        # Grand Sweepstakes:
+        # -   sponsor: "John Santos"
+        # -   sponsor: "White Castle Tours"
+
+        # 3rd place brass:
+        # -   sponsor: "Huntington of Pleasanton"
+        # -   sponsor: "the Goebel family"
+        #     dedication: "the Foothill Band and their favorite trumpet section"
+
+        # 2nd place color guard:
+        # -   sponsor: "the Carnes family"
+        #     dedication: "Vivi -- We can’t believe this is your last Band Review! We are so proud of you. We love you! Mommy, Daddy and Izzy"
+        # -   sponsor: "Golden State Collision"
+
+        # 3rd place percussion:
+        # -   sponsor: "Huntington of Pleasanton"
+
+        # 1st place percussion:
+        # -   sponsor: "the Woo family"
+        #     dedication: "One band, one sound. This trophy is dedicated to our favorite Pit section"
+
+        # 3rd place woodwinds:
+        # -   sponsor: "Huntington of Pleasanton"
+---
+{% capture ignore %}{% increment perc_ordinal %}{% endcapture %} {% comment %}Get the percussion ordinal to start at 1{% endcomment %}
+<div class="page">
+    <div class="header">Winter Percussion - Open</div>
+    <div>
+        Good morning ladies and gentlemen. Welcome to the Percussion Competition for
+        the {{page.this_year.citation}}. We are joined today by {{ site.data.percussion.count }} talented
+        units anxious to perform. On behalf of Foothill High School, we wish good luck
+        to all the units performing today and hope you enjoy their shows.
+    </div>
+    <div class="footer">Winter Percussion - Open</div>
+</div>
+
+{% for plu in site.data.percussion.lineup %}
+    <div class="page">
+    {% if plu.ref %}
+        {% assign plu_percussion = site.winter_percussions | where:"key",plu.ref
+                                                           | first %}
+        {% assign plu_school_key = plu_percussion.school | default:plu.ref %}
+        {% assign plu_school = site.schools | where:"key",plu_school_key
+                                            | first %}
+        <div class="header">Winter Percussion - {{plu_school.name}} - {% increment perc_ordinal %}</div>
+        {% include check_school.html school=plu_school ref=plu_school_key %}
+        {% include check_percussion.html school=plu_school unit=plu_percussion ref=plu.ref %}
+        {% include check_leaders.html school=plu_school unit=plu_percussion ref=plu.ref %}
+        {%- capture nickname -%}
+            {% include nickname_citation.html unit=plu_percussion school=plu_school generic="Percussion Unit" %}
+        {%- endcapture -%}
+        <div>
+            Now taking the floor is the {{ nickname }}, from {{plu_school.name}} in {{plu_school.city}}.
+        </div>
+        <div>
+            {% include leader_citation.html school=plu_school unit=plu_percussion nickname=nickname %}
+        </div>
+        <div>
+            The {{ nickname }} will perform their program, {{plu_percussion.program}}
+            {%- if plu_percussion.music -%}
+                , featuring {{plu_percussion.music}}
+            {%- endif -%}
+            .
+        </div>
+        {% unless plu_percussion.content.size > 0 %}
+            <div class="missing">
+                {{plu_school.name}} has no percussion notes.
+            </div>
+        {% else %}            
+            <div>
+                {{plu_percussion.content}}
+            </div>
+        {% endunless %}
+        <div>
+            [wait for cue from judge]<br>
+            Are the judges ready? [wait for cue from judge]<br>
+            {{ plu_school.name }}, is your percussion unit ready? [wait for cue from judge]<br>
+            Performing their 2018 show, {{ plu_percussion.program }}, NCBA is proud to present the {{ nickname }}.
+        </div>
+        <div class="footer">Winter Percussion - {{plu_school.name}}</div>
+    {% elsif plu.break %}
+        <div class="header">Winter Percussion - {{plu.break}} minute break</div>
+        <div class="footer">Winter Percussion - {{plu.break}} minute break</div>
+    {% else %}
+        <div class="header error">Error! Percussion lineup data entry not recognized!</div>
+        <div>{{plu | inspect}}</div>
+        <div class="footer"></div>
+    {% endif %}
+    </div>
+{% endfor %}
+
+<div class="page">
+    <div class="header">Winter Percussion - End of Competition</div>
+    <div>
+        This concludes the Percussion Competition for the {{page.this_year.citation}}.
+        Please stay for the Percussion Awards, presented here in 20 minutes, and for the Color Guard competition,
+        beginning at {{ site.data.guard.start_time }}.
+    </div>
+    <div class="footer">Winter Percussion - End of Competition</div>
+</div>
+
+<div class="page awards">
+    <div class="header">Winter Percussion - Awards</div>
+    <div>
+        Foothill High School thanks the sponsors of the {{page.this_year.citation}}: {{ page.sponsors.percussion | array_to_sentence_string }}.
+    </div>
+    {% include trophysponsor_citation.html sponsors=page.sponsors.percussion_trophies %}
+    <div>
+        [General award announcement]
+        With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
+    </div>
+    <div class="footer">Winter Percussion - Awards</div>
+</div>
+
+{% capture ignore %}{% increment guard_ordinal %}{% endcapture %} {% comment %}Get the guard ordinal to start at 1{% endcomment %}
+<div class="page">
+    <div class="header">Winter Guard - Open</div>
+    <div>
+        Good afternoon ladies and gentlemen. Welcome to the Color Guard Competition for the {{ page.this_year.citation }}.
+        We are joined today by {{ site.data.guard.count }} wonderful guard units to entertain and delight us.
+        On behalf of Foothill High School, we wish good luck to all the units performing today and hope you enjoy the competition.
+    </div>
+    <div class="footer">Winter Guard - Open</div>
+</div>
+
+{% for glu in site.data.guard.lineup %}
+    <div class="page">
+    {% if glu.ref %}
+        {% assign glu_guard = site.winter_guards | where:"key",glu.ref
+                                            | first %}
+        {% assign glu_school_key = glu_guard.school | default:glu.ref %}
+        {% assign glu_school = site.schools | where:"key",glu_school_key
+                                            | first %}
+        <div class="header">Winter Guard - {{glu_school.name}} - {% increment guard_ordinal %}</div>
+        {% include check_school.html school=glu_school ref=glu_school_key %}
+        {% include check_guard.html school=glu_school unit=glu_guard ref=glu.ref %}
+        {% include check_leaders.html school=glu_school unit=glu_guard ref=glu.ref %}
+        {%- capture nickname -%}
+            {% include nickname_citation.html unit=glu_guard school=glu_school generic="Winter Guard" %}
+        {%- endcapture -%}
+        <div>
+            Now taking the floor is the {{ nickname }}, from {{glu_school.name}} in {{glu_school.city}}.
+        </div>
+        <div>
+            {% include leader_citation.html school=glu_school unit=glu_guard nickname=nickname %}
+        </div>
+        <div>
+            The {{ nickname }} will perform {{glu_guard.program}}
+            {%- if glu_guard.music -%}
+                , featuring {{glu_guard.music}}
+            {%- endif -%}
+            .
+        </div>
+        {% unless glu_guard.content.size > 0 %}
+            <div class="missing">
+                {{glu_school.name}} has no guard notes.
+            </div>
+        {% else %}            
+            <div>
+                {{glu_guard.content}}
+            </div>
+        {% endunless %}
+        <div>
+            [wait for cue from judge]<br>
+            Are the judges ready? [wait for cue from judge]<br>
+            {{ glu_school.name }}, is your guard unit ready? [wait for cue from judge]<br>
+            Performing their 2018 show, {{ glu_guard.program }}, NCBA is proud to present the {{ nickname }}.
+        </div>
+        <div class="footer">Winter Guard - {{glu_school.name}}</div>
+    {% elsif glu.break %}
+        <div class="header">Winter Guard - {{glu.break}} minute break</div>
+        <div class="footer">Winter Guard - {{glu.break}} minute break</div>
+    {% else %}
+        <div class="header error">Error! Guard lineup data entry not recognized!</div>
+        <div>{{glu | inspect}}</div>
+        <div class="footer"></div>
+    {% endif %}
+    </div>
+{% endfor %}
+
+<div class="page">
+    <div class="header">Winter Guard - Close</div>
+    <div>
+        This concludes the Color Guard Competition for the {{page.this_year.citation}}.
+        Thank you and congratulations to all the guard units we’ve seen this morning, and
+        thank you all for attending and cheering on these fine young performers.
+    </div>
+    <div>
+        Please stay for the Color Guard Awards, presented here in 20 minutes.
+    </div>
+    <div class="footer">Winter Guard - Close</div>
+</div>
+
+<div class="page awards">
+    <div class="header">Winter Guard - Awards</div>
+    <div>
+        Foothill High School thanks the sponsors of the {{page.this_year.citation}}: {{ page.sponsors.guard | array_to_sentence_string }}.
+    </div>
+    <div>
+        [General award announcement]
+        With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
+    </div>
+    {% include trophysponsor_citation.html sponsors=page.sponsors.guard_trophies %}
+    <div class="footer">Winter Guard - Awards</div>
+</div>
+
+<div class="page">
+    <div class="header">Winter Show - Close</div>
+    <div>
+        This concludes the {{ page.this_year.citation }}. Thank you and congratulations
+        to all the units we’ve seen today, and thank you all for attending and cheering
+        on these talented performers.
+    </div>
+    <div>
+        Mark your calendars to join us again next year, on {{ page.next_year.date }},
+        for the {{ page.next_year.citation }}. On behalf of Foothill High School,
+        I wish you all a safe and enjoyable weekend. Good night.
+    </div>
+    <div class="footer">Winter Show - Close</div>
+</div>

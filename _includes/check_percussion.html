@@ -1,0 +1,7 @@
+{% unless include.unit %}
+    <div class="error">Error! Winter Percussion not found! : {{include.ref | inspect}}</div>
+{% else %}
+    {% unless include.unit.program %}
+        <div class="missing">Missing! {{include.school.name}} is missing winter percussion program name.</div>
+    {% endunless %}
+{% endunless %}

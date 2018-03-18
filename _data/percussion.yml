@@ -1,0 +1,26 @@
+# version 6
+
+start_time: "9:00am"
+
+count: 17
+
+lineup:
+-   ref: "eleanor murray ms"
+-   ref: "solano ms"
+-   ref: "crystal ms"
+-   ref: "franklin ms"
+-   ref: "benicia ms"
+-   break: 10
+-   ref: "phillip burton hs"
+-   ref: "millennium hs"
+-   ref: "american hs"
+-   ref: "concord hs"
+-   ref: "maria carrillo hs"
+-   ref: "livermore hs"
+-   break: 20
+-   ref: "petaluma hs"
+-   ref: "mission sj hs"
+-   ref: "cesar chavez hs"
+-   ref: "benicia hs"
+-   ref: "foothill hs intermediate"
+-   ref: "foothill hs open"

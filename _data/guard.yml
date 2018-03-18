@@ -1,0 +1,31 @@
+# version 6
+
+start_time: "1:30pm"
+
+count: 22
+
+lineup:
+-   ref: "hart ms"
+-   ref: "benicia ms"
+-   ref: "eleanor murray ms"
+-   ref: "benicia ms"
+-   ref: "franklin ms"
+-   ref: "park ms"
+-   ref: "crystal ms"
+-   ref: "livermore hs"
+-   break: 20
+-   ref: "dixon hs"
+-   ref: "willow glen hs"
+-   ref: "terra nova hs"
+-   ref: "american hs"
+-   ref: "concord hs"
+-   ref: "cesar chavez hs"
+-   ref: "freedom hs"
+-   ref: "hayward hs"
+-   break: 20
+-   ref: "antioch hs"
+-   ref: "millennium hs"
+-   ref: "san mateo hs"
+-   ref: "mission sj hs"
+-   ref: "vacaville hs"
+-   ref: "foothill hs"
