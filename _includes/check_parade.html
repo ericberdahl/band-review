@@ -1,7 +1,7 @@
 {% unless include.parade %}
     <div class="error">Error! Parade not found! : {{include.ref | inspect}}</div>
 {% else %}
-	{% unless include.parade.music %}
-	    <div class="missing">Missing! {{include.school.name}} is missing parade music.</div>
-	{% endunless %}
+    {% unless include.parade.music %}
+        <div class="missing">Missing! {{include.school.name}} is missing parade music.</div>
+    {% endunless %}
 {% endunless %}

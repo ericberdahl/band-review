@@ -1,7 +1,7 @@
 {% unless include.band %}
     <div class="error">Error! Field show not found! : {{include.ref | inspect}}</div>
 {% else %}
-	{% unless include.band.program %}
-	    <div class="missing">Missing! {{include.school.name}} is missing field show program name.</div>
-	{% endunless %}
+    {% unless include.band.program %}
+        <div class="missing">Missing! {{include.school.name}} is missing field show program name.</div>
+    {% endunless %}
 {% endunless %}
