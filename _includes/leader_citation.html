@@ -1,7 +1,7 @@
 {% assign staff_array = site.data.review.empty_array %}
-{% assign directors = include.band.directors | default: include.school.directors %}
-{% assign other_directors = include.band.other_directors | default: include.school.other_directors %}
-{% assign leaders = include.band.leaders | default: include.school.leaders %}
+{% assign directors = include.unit.directors | default: include.school.directors %}
+{% assign other_directors = include.unit.other_directors | default: include.school.other_directors %}
+{% assign leaders = include.unit.leaders | default: include.school.leaders %}
 {% if directors.size %}
     {%- capture temp_string -%}
     {{ directors | array_to_sentence_string }}
