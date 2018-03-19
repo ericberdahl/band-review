@@ -10,8 +10,6 @@ next_show:
 percussion:
     start_time: "9:00am"
 
-    count: 17
-
     lineup:
     -   ref: "eleanor murray ms"
     -   ref: "solano ms"
@@ -40,8 +38,6 @@ percussion:
 
 guard:
     start_time: "1:30pm"
-
-    count: 22
 
     lineup:
     -   ref: "hart ms"
