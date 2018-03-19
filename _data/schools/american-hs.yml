@@ -4,23 +4,42 @@ name: "American High School"
 
 city: "Fremont, CA"
 
-directors:
--   "Richard F Wong"
-
 winterguard:
-    nickname: 
+  nickname: "American Eagles Winter Guard"
 
-    program: 
+  directors: &directors
+  - "Richard Wong"
 
-    music: 
+  other_directors:
+    instructed by:
+    - "Omar Gomez"
+    - "Jennifer Wong"
 
-    leaders:
+  leaders:
+    captains:
+    - "Emily House"
+    - "Lynn Phan"
+
+  program: "Be With Me"
+
+  content: >
+    American Eagles Winter Guard won the Mission San Jose Winter Review Grand Sweepstakes
 
 winterpercussion:
-    nickname: 
+  nickname: "American Eagles Winter Percussion"
 
-    program: 
+  directors: *directors
 
-    music: 
+  other_directors:
+    instructed by:
+    - "Anthony Nunes (Anthony NOONS)"
 
-    leaders:
+  leaders:
+    captains:
+    - "Kimiko Scherf-Motoyoshi"
+    - "Miranda Ying" 
+
+  program: "Love is a Beautiful Pain"
+
+  content: >
+    American Eagles Winter Percussion won the Mission San Jose Winter Show Grand Sweepstakes and took first place at the Granada Winter Show.

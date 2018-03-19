@@ -4,13 +4,6 @@ name: "Millennium High School"
 
 city: "Tracy, CA"
 
-directors:
--   "Roland Zepeda"
-
-other_directors:
-    instructed by:
-    -   "Andrew Cardwell"
-
 winterguard:
     nickname: 
 
@@ -23,11 +16,18 @@ winterguard:
 winterpercussion:
     nickname: "Millennium High Percussion Ensemble"
 
-    program: "ICE"
+    directors:
+    -   "Roland Zepeda"
 
-    music: "ICE By Brian Mudgett and Alan Keown"
+    other_directors:
+        instructed by:
+        -   "Andrew Cardwell"
 
     leaders:
         captains:
         -   "Josiah Adrineda"
         -   "Daniel Harrison"
+
+    program: "ICE"
+
+    music: "music by Brian Mudgett and Alan Keown"

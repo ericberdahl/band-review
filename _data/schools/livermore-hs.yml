@@ -4,18 +4,11 @@ name: "Livermore High School"
 
 city: "Livermore, CA"
 
-directors:
--   "Justin Enright"
-
 parade:
     nickname: "Cowboy Marching Band"
 
-    music: "Block M March by Jerry Bilik"
-
-    directors:
+    directors: &directors
     -   "Justin Enright"
-
-    other_directors:
 
     leaders:
         drum major:
@@ -33,14 +26,26 @@ parade:
         -   "Alex Paterson"
         -   "Maverik Wilson"
 
+    music: "Block M March by Jerry Bilik"
+
 winterguard:
-    nickname: 
+    nickname: "Livermore Winter Guard"
 
-    program: 
+    directors: *directors
 
-    music: 
+    other_directors:
+        instructed by:
+        -   "Aislinn Rocamora"
+        -   "Luis Cardoza" 
 
     leaders:
+        captains:
+        -   "Hannah Dolan"
+        -   "Siliyah Greer"
+
+    program: "Come Sail Away"
+
+    music: "Come Sail Away by Styx"
 
 winterpercussion:
     nickname: 

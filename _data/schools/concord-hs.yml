@@ -4,25 +4,25 @@ name: "Concord High School"
 
 city: "Concord, CA"
 
-directors:
--   "Andrea Riley-Sorem"
-
-other_directors:
-    instructors:
-    -   "Nicole Slattengren"
-    -   "Maddie Rittmann"
-
 winterguard:
     nickname: "Concord High Winter Guard"
 
-    program: "You're Not Alone"
+    directors:
+    -   "Andrea Riley-Sorem"
 
-    music: "Praying by Kesha"
+    other_directors:
+        instructors:
+        -   "Nicole Slattengren"
+        -   "Maddie Rittmann"
 
     leaders:
         captains:
         -   "Marena Brett-Blunt"
         -   "Teagan Del Castillo"
+
+    program: "You're Not Alone"
+
+    music: "Praying by Kesha"
 
     content: >
         The guard placed second at the Granada Winter Fiesta last weekend. They are hoping to show improvement today in

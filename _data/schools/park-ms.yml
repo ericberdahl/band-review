@@ -5,13 +5,31 @@ name: "Park Middle School"
 city: "Antioch, CA"
 
 winterguard:
-    nickname: 
-
-    program: 
-
-    music: 
-
-    leaders:
+    nickname: "Park Middle School Colorguard "
 
     directors:
-    -   "Alicia 'Nikki' Adreatta-Jacques (ah-LEE-see-ah ah-dray-AH-tah ZHAH-kh)"
+    -   "Nikki Andreatta-Jacques (NIH-kee ahn-dray-AH-tah JAX)"
+
+    other_directors:
+      teacher advisor:
+      - "Kathe Saylor"
+
+      assistant coaches:
+      - "Tristynn Gonzaga"
+      - "Zia Tedford"
+
+      equipment manager:
+      - "Kyle Andreatta-Jacques (KAI-uhl ahn-dray-AH-tah JAX)"
+
+    leaders:
+      captain:
+      - "Brooke Rotolo"
+
+      co-captain:
+      - "Kylie Sousa"
+
+    program: "Waving through a window"
+
+    music: "music from the Dear evan hansen original cast recording"
+
+
