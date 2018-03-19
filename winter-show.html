@@ -6,13 +6,18 @@ book_title: "Announcer's Book"
 
 css:
 ---
+{% assign num_breaks = site.data.wintershow.guard.lineup | where_exp:"item","item.break > 0" | size %}
+{% assign num_guard = site.data.wintershow.guard.lineup | size | minus: num_breaks %}
+
+{% assign num_breaks = site.data.wintershow.percussion.lineup | where_exp:"item","item.break > 0" | size %}
+{% assign num_percussion = site.data.wintershow.percussion.lineup | size | minus: num_breaks %}
+
 {% capture ignore %}{% increment perc_ordinal %}{% endcapture %} {% comment %}Get the percussion ordinal to start at 1{% endcomment %}
 <div class="page">
     <div class="header">Winter Percussion - Open</div>
     <div>
-        {% assign num_breaks = site.data.wintershow.percussion.lineup | where_exp:"item","item.break > 0" | size %}
         Good morning ladies and gentlemen. Welcome to the Percussion Competition for
-        the {{ site.data.wintershow.citation }}. We are joined today by {{ site.data.wintershow.percussion.lineup | size | minus: num_breaks }} talented
+        the {{ site.data.wintershow.citation }}. We are joined today by {{ num_percussion }} talented
         units anxious to perform. On behalf of Foothill High School, we wish good luck
         to all the units performing today and hope you enjoy their shows.
     </div>
@@ -100,9 +105,8 @@ css:
 <div class="page">
     <div class="header">Winter Guard - Open</div>
     <div>
-        {% assign num_breaks = site.data.wintershow.guard.lineup | where_exp:"item","item.break > 0" | size %}
         Good afternoon ladies and gentlemen. Welcome to the Color Guard Competition for the {{ site.data.wintershow.citation }}.
-        We are joined today by {{ site.data.wintershow.guard.lineup | size | minus: num_breaks }} wonderful guard units to entertain and delight us.
+        We are joined today by {{ num_guard }} wonderful guard units to entertain and delight us.
         On behalf of Foothill High School, we wish good luck to all the units performing today and hope you enjoy the competition.
     </div>
     <div class="footer">Winter Guard - Open</div>
