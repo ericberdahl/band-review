@@ -1,6 +1,74 @@
+# Data based on version 6 of the schedule
+
 year: 2018
 citation: "2018 Foothill High School Winter Show"
 
 next_show:
     date: "March 23rd, 2019"
     citation: "2019 Foothill High School Winter Show"
+
+percussion:
+    start_time: "9:00am"
+
+    count: 17
+
+    lineup:
+    -   ref: "eleanor murray ms"
+    -   ref: "solano ms"
+    -   ref: "crystal ms"
+    -   ref: "franklin ms"
+    -   ref: "benicia ms"
+    -   break: 10
+    -   ref: "phillip burton hs"
+    -   ref: "millennium hs"
+    -   ref: "american hs"
+    -   ref: "concord hs"
+    -   ref: "maria carrillo hs"
+    -   ref: "livermore hs"
+    -   break: 20
+    -   ref: "petaluma hs"
+    -   ref: "mission sj hs"
+    -   ref: "cesar chavez hs"
+    -   ref: "benicia hs"
+    -   ref: "foothill hs"
+        unit: "winterpercussion-intermediate"
+    -   ref: "foothill hs"
+
+    sponsors:
+        general: []
+        trophies: []
+
+guard:
+    start_time: "1:30pm"
+
+    count: 22
+
+    lineup:
+    -   ref: "hart ms"
+    -   ref: "benicia ms"
+    -   ref: "eleanor murray ms"
+    -   ref: "benicia ms"
+    -   ref: "franklin ms"
+    -   ref: "park ms"
+    -   ref: "crystal ms"
+    -   ref: "livermore hs"
+    -   break: 20
+    -   ref: "dixon hs"
+    -   ref: "willow glen hs"
+    -   ref: "terra nova hs"
+    -   ref: "american hs"
+    -   ref: "concord hs"
+    -   ref: "cesar chavez hs"
+    -   ref: "freedom hs"
+    -   ref: "hayward hs"
+    -   break: 20
+    -   ref: "antioch hs"
+    -   ref: "millennium hs"
+    -   ref: "san mateo hs"
+    -   ref: "mission sj hs"
+    -   ref: "vacaville hs"
+    -   ref: "foothill hs"
+
+    sponsors:
+        general: []
+        trophies: []

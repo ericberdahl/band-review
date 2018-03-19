@@ -4,3 +4,133 @@ citation: "43rd Annual Foothill High School Band Review"
 next_show:
     date: "October 27th, 2018"
     citation: "44th Annual Foothill High School Band Review"
+
+parade:
+    grand_marshall: "Pleasanton Unified Superintendent, Dr. David Haglund"
+
+    colors: "the color guard from Veterans of Foreign Wars Post 6298"
+
+    awards_time: "2:30pm"
+
+    awards_location: "Amador High School Stadium"
+
+    count: 33
+
+    sponsors:
+        general:
+        -   "John Santos with White Castle Tours"
+        -   "Sean Jolley Real Estate"
+        -   "Ben Woo and Salesforce"
+        -   "Huntington of Pleasanton"
+        -   "Golden Gate Collision with the Carnes Family"
+        -   "the parents of Roger Li"
+        -   "the Goebel Family"
+
+        trophies: []
+
+    lineup:
+    -   ref: "foothill hs"
+    -   ref: "solano ms"
+    -   ref: "vallemar cabrillo ms"
+    -   ref: "wells ms"
+    -   ref: "benicia ms"
+    -   ref: "turlock christian hs"
+    -   ref: "tracy hs"
+    -   ref: "northgate hs"
+    -   ref: "del mar hs"
+    -   break: 15
+    -   ref: "jesse bethel hs"
+    -   ref: "capuchino hs"
+    -   ref: "vallejo hs"
+    -   ref: "hayward hs"
+    -   ref: "franklin hs stockton"
+    -   ref: "merrill f west hs"
+    -   break: 15
+    -   ref: "petaluma hs"
+    -   ref: "archbishop riordan hs"
+    -   ref: "santa cruz hs"
+    -   ref: "north monterey county hs"
+    -   ref: "las plumas oroville alliance"
+    -   ref: "buhach colony hs"
+    -   ref: "washington hs"
+    -   break: 15
+    -   ref: "benicia hs"
+    -   ref: "granada hs"
+    -   ref: "livermore hs"
+    -   ref: "pitman hs"
+    -   ref: "lincoln hs"
+    -   ref: "merced hs"
+    -   ref: "irvington hs"
+    -   ref: "fairfield hs"
+    -   ref: "armijo hs"
+    -   ref: "rodriguez hs"
+    -   ref: "franklin hs"
+
+fieldshow:
+    start_time: "3:30pm"
+
+    count: 21
+
+    lineup:
+    -   ref: "san benito hs"
+    -   ref: "tracy learning"
+    -   ref: "arroyo hs"
+    -   ref: "del mar hs"
+    -   ref: "lodi hs"
+    -   ref: "phillip burton hs"
+    -   break: 15
+    -   ref: "westmont hs"
+    -   ref: "st francis hs"
+    -   ref: "monte vista hs"
+    -   ref: "del oro hs"
+    -   ref: "vintage hs"
+    -   break: 30
+    -   ref: "james c enochs hs"
+    -   ref: "ponderosa hs"
+    -   ref: "dublin hs"
+    -   ref: "john f kennedy hs"
+    -   ref: "mountain view hs"
+    -   ref: "rodriguez hs"
+    -   break: 15
+    -   ref: "milpitas hs"
+    -   ref: "granite bay hs"
+    -   ref: "cupertino hs"
+    -   ref: "foothill hs"
+
+    sponsors:
+        general:
+        -   "John Santos with White Castle Tours"
+        -   "Sean Jolley Real Estate"
+        -   "Salesforce"
+        -   "Huntington of Pleasanton"
+
+        trophies:
+            1st place 5A:
+            -   sponsor: "the parents of Roger Li"
+
+            Grand Sweepstakes:
+            -   sponsor: "John Santos"
+            -   sponsor: "White Castle Tours"
+
+            3rd place brass:
+            -   sponsor: "Huntington of Pleasanton"
+            -   sponsor: "the Goebel family"
+                dedication: "the Foothill Band and their favorite trumpet section"
+
+            2nd place color guard:
+            -   sponsor: "the Carnes family"
+                dedication: "Vivi -- We can’t believe this is your last Band Review! We are so proud of you. We love you! Mommy, Daddy and Izzy"
+            -   sponsor: "Golden State Collision"
+
+            3rd place percussion:
+            -   sponsor: "Huntington of Pleasanton"
+
+            1st place percussion:
+            -   sponsor: "the Woo family"
+                dedication: "One band, one sound. This trophy is dedicated to our favorite Pit section"
+
+            3rd place woodwinds:
+            -   sponsor: "Huntington of Pleasanton"
+
+concert:
+    count: 17

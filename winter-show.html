@@ -11,14 +11,14 @@ css:
     <div class="header">Winter Percussion - Open</div>
     <div>
         Good morning ladies and gentlemen. Welcome to the Percussion Competition for
-        the {{ site.data.wintershow.citation }}. We are joined today by {{ site.data.percussion.count }} talented
+        the {{ site.data.wintershow.citation }}. We are joined today by {{ site.data.wintershow.percussion.count }} talented
         units anxious to perform. On behalf of Foothill High School, we wish good luck
         to all the units performing today and hope you enjoy their shows.
     </div>
     <div class="footer">Winter Percussion - Open</div>
 </div>
 
-{% for plu in site.data.percussion.lineup %}
+{% for plu in site.data.wintershow.percussion.lineup %}
     <div class="page">
     {% if plu.ref %}
         {% assign plu_unit_ref = plu.unit | default: "winterpercussion" %}
@@ -77,7 +77,7 @@ css:
     <div>
         This concludes the Percussion Competition for the {{ site.data.wintershow.citation }}.
         Please stay for the Percussion Awards, presented here in 20 minutes, and for the Color Guard competition,
-        beginning at {{ site.data.guard.start_time }}.
+        beginning at {{ site.data.wintershow.guard.start_time }}.
     </div>
     <div class="footer">Winter Percussion - End of Competition</div>
 </div>
@@ -85,9 +85,9 @@ css:
 <div class="page awards">
     <div class="header">Winter Percussion - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{ site.data.wintershow.citation }}: {{ site.data.percussion.sponsors.general | array_to_sentence_string }}.
+        Foothill High School thanks the sponsors of the {{ site.data.wintershow.citation }}: {{ site.data.wintershow.percussion.sponsors.general | array_to_sentence_string }}.
     </div>
-    {% include trophysponsor_citation.html sponsors=site.data.percussion.sponsors.trophies %}
+    {% include trophysponsor_citation.html sponsors=site.data.wintershow.percussion.sponsors.trophies %}
     <div>
         [General award announcement]
         With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
@@ -100,13 +100,13 @@ css:
     <div class="header">Winter Guard - Open</div>
     <div>
         Good afternoon ladies and gentlemen. Welcome to the Color Guard Competition for the {{ site.data.wintershow.citation }}.
-        We are joined today by {{ site.data.guard.count }} wonderful guard units to entertain and delight us.
+        We are joined today by {{ site.data.wintershow.guard.count }} wonderful guard units to entertain and delight us.
         On behalf of Foothill High School, we wish good luck to all the units performing today and hope you enjoy the competition.
     </div>
     <div class="footer">Winter Guard - Open</div>
 </div>
 
-{% for glu in site.data.guard.lineup %}
+{% for glu in site.data.wintershow.guard.lineup %}
     <div class="page">
     {% if glu.ref %}
         {% assign glu_unit_ref = glu.unit | default: "winterguard" %}
@@ -176,13 +176,13 @@ css:
 <div class="page awards">
     <div class="header">Winter Guard - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{ site.data.wintershow.citation }}: {{ site.data.guard.sponsors.general | array_to_sentence_string }}.
+        Foothill High School thanks the sponsors of the {{ site.data.wintershow.citation }}: {{ site.data.wintershow.guard.sponsors.general | array_to_sentence_string }}.
     </div>
     <div>
         [General award announcement]
         With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
     </div>
-    {% include trophysponsor_citation.html sponsors=site.data.guard.sponsors.trophies %}
+    {% include trophysponsor_citation.html sponsors=site.data.wintershow.guard.sponsors.trophies %}
     <div class="footer">Winter Guard - Awards</div>
 </div>
 
