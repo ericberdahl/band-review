@@ -4,5 +4,6 @@ name: "Santa Clara High School"
 
 city: "Santa Clara, CA"
 
-directors:
--   "Johnny Erdman"
+parade:
+    directors:
+    -   "Johnny Erdman"

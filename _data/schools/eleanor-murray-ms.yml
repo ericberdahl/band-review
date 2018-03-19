@@ -4,23 +4,25 @@ name: "Eleanor Murray Fallon Middle School"
 
 city: "Dublin, CA"
 
-directors:
--   "Tony Cavalleri"
-
 winterguard:
     nickname: 
+
+    directors: &directors
+    -   "Tony Cavalleri"
+        
+    leaders:
 
     program: 
 
     music: 
-
-    leaders:
 
 winterpercussion:
     nickname: 
 
+    directors: *directors
+        
+    leaders:
+
     program: 
 
     music: 
-
-    leaders:

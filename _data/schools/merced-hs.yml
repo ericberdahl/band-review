@@ -7,8 +7,6 @@ city: "Merced, CA"
 parade:
     nickname: "Merced Marching 100"
 
-    music: "British Eighth by Zo Elliott"
-
     directors:
     -   "Jon Schmid"
 
@@ -22,5 +20,7 @@ parade:
         percussion captain:
         -   "Andrew Rocco"
     
+    music: "British Eighth by Zo Elliott"
+
     content: >
         The Merced Marching 100 would like to thank their incredible boosters for all of their amazing support.

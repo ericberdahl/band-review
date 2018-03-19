@@ -4,5 +4,12 @@ name: "McQueen High School"
 
 city: "Reno, NV"
 
-directors:
--   "Rick Moffitt"
+fieldshow:
+    nickname:
+
+    directors:
+    -   "Rick Moffitt"
+
+    leaders:
+
+    program:

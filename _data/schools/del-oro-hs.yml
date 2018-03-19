@@ -7,10 +7,6 @@ city: "Loomis, CA"
 fieldshow:
     nickname: "Del Oro Golden Eagle Band"
 
-    program: "Beyond the Threshold"
-
-    music: "selections and arrangements from Key Poulan (KEE poh-LAN), John Meehan, and John Mackey"
-
     directors:
     -   "Ben Duncan"
 
@@ -20,3 +16,8 @@ fieldshow:
 
         auxiliary captain:
         -   "Ashley Parrott"
+
+    program: "Beyond the Threshold"
+
+    music: "selections and arrangements from Key Poulan (KEE poh-LAN), John Meehan, and John Mackey"
+

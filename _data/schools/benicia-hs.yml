@@ -4,13 +4,11 @@ name: "Benicia High School"
 
 city: "Benicia, CA"
 
-directors:
--   "Patrick Martin"
-
 parade:
     nickname: "Panther Marching Band"
 
-    music: "Castell Coch by T.J. Powell"
+    directors: &directors
+    -   "Patrick Martin"
 
     leaders:
         drum major:
@@ -24,11 +22,16 @@ parade:
         -   "Andrew Sante"
         -   "Tyler Ward"
 
+    music: "Castell Coch by T.J. Powell"
+
 winterpercussion:
     nickname: 
+
+    directors: *directors
+        
+    leaders:
 
     program: 
 
     music: 
 
-    leaders:

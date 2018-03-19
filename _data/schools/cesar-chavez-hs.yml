@@ -4,23 +4,27 @@ name: "Cesar Chavez High School"
 
 city: "Stockton, CA"
 
-directors:
--   "Art Coleman"
-
 winterguard:
     nickname: 
+
+    directors: &directors
+    -   "Art Coleman"
+
+    leaders:
 
     program: 
 
     music: 
 
-    leaders:
 
 winterpercussion:
     nickname: 
 
+    directors: *directors
+
+    leaders:
+
     program: 
 
     music: 
 
-    leaders:

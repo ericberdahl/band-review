@@ -7,14 +7,6 @@ city: "San Jose, CA"
 winterguard:
     nickname: "Willow Glen High School Color Guard"
 
-    program: "On Top of the World"
-
-    music: 
-
-    leaders:
-        captain:
-        -   "Helen Beaton Grover"
-
     directors:
     -   "Kelly Walker"
 
@@ -23,4 +15,12 @@ winterguard:
         -   "Rachel Okada"
         -   "Johnny Rodriguez"
     
+    leaders:
+        captain:
+        -   "Helen Beaton Grover"
+
+    program: "On Top of the World"
+
+    music: 
+
     content: "This is the inaugural season for the Willow Glen High School Color Guard and the first time they have competed in the school’s 68 year history. Please welcome Willow Glen to NCBA Winterguard!"

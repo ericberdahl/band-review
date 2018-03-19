@@ -7,10 +7,6 @@ city: "Danville, CA"
 fieldshow:
     nickname: "Monte Vista High School Marching Band"
 
-    program: "Heroes and Villains"
-
-    music: "music by Kevin Shah"
-
     directors:
     -   "Ed Cloyd"
 
@@ -24,3 +20,7 @@ fieldshow:
         percussion captains:
         -   "Ian McMurry"
         -   "Nick Bortolon (Nick bohr-TOE-lohn)"
+
+    program: "Heroes and Villains"
+
+    music: "music by Kevin Shah"

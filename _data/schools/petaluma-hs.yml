@@ -7,8 +7,6 @@ city: "Petaluma, CA"
 parade:
     nickname: "Trojan Marching Band and Color Guard"
 
-    music: "Illinois March by Edwin Franko Goldman"
-
     directors:
     -   "Cliff Eveland"
 
@@ -33,19 +31,19 @@ parade:
         percussion captain:
         -   "Kobe Barry"
 
+    music: "Illinois March by Edwin Franko Goldman"
+
     content: >
         The students and directors wish to thank the PHS Music Boosters and the “Uniform Moms” for all of their time and hard work that made their performance possible today.
 
 winterpercussion:
     nickname: 
 
-    program: 
-
-    music: 
-
-    leaders:
-
     directors:
     -   "Cliff Eveland"
 
-    other_directors:
+    leaders:
+
+    program: 
+
+    music: 

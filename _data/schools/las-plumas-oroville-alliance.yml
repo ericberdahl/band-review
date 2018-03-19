@@ -7,8 +7,6 @@ city: "Oroville, CA"
 parade:
     nickname: "Las Plumas Oroville Alliance Band"
 
-    music: "Atlantis by Derek M. Broadbent"
-
     directors:
     -   "Michael Taylor"
 
@@ -23,3 +21,5 @@ parade:
         percussion captains:
         -   "Paul Elesha"
         -   "Jonavin Thao"
+
+    music: "Atlantis by Derek M. Broadbent"

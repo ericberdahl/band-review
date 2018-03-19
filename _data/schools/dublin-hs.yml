@@ -7,10 +7,6 @@ city: "Dublin, CA"
 fieldshow:
     nickname: "Irish Guard"
 
-    program: "Mirror Image"
-
-    music: "music by Gary Gilroy"
-
     directors:
     -   "Melissa Williams"
 
@@ -20,3 +16,7 @@ fieldshow:
         -   "Vade Shah"
         -   "Yeseo Han"
         -   "Joseph Wanzenried"
+
+    program: "Mirror Image"
+
+    music: "music by Gary Gilroy"

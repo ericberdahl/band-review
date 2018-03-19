@@ -7,8 +7,6 @@ city: "Pacifica, CA"
 parade:
     nickname: "Vallemar-Cabrillo Band Together"
 
-    music: "Captain Dane by William Owens"
-
     directors:
     -   "Samantha Johns"
 
@@ -16,3 +14,5 @@ parade:
         drum majors:
         -   "Madi Morales (MAH-dee moh-RAH-les)"
         -   "Aiden Sablinsky (AY-dehn sahb-LIHN-skee)"
+
+    music: "Captain Dane by William Owens"

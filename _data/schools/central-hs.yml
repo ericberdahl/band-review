@@ -1,10 +1,11 @@
 key: "central hs"
 
-nickname: "Grizzly Marching Band"
-
 name: "Central High School"
 
 city: "Fresno, CA"
 
-directors:
--   "Leonard Ingrande"
+parade:
+  nickname: "Grizzly Marching Band"
+
+  directors:
+  - "Leonard Ingrande"

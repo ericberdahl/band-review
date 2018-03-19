@@ -7,11 +7,11 @@ city: "San Mateo, CA"
 winterguard:
     nickname: 
 
-    program: 
-
-    music: 
+    directors:
+    -   "Attilio Tribuzi (ah-TIH-lee-oh trih-BYOO-zee)"
 
     leaders:
 
-    directors:
-    -   "Attilio Tribuzi (ah-TIH-lee-oh trih-BYOO-zee)"
+    program: 
+
+    music: 

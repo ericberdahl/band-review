@@ -4,5 +4,6 @@ name: "Templeton High School"
 
 city: "Templeton, CA"
 
-directors:
--   "David Landers"
+parade:
+    directors:
+    -   "David Landers"

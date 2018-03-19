@@ -4,5 +4,12 @@ name: "Hogan Middle School"
 
 city: "Vallejo, CA"
 
-directors:
--   "George Carrasco"
+parade:
+    nickname:
+
+    directors:
+    -   "George Carrasco"
+
+    leaders:
+
+    music:

@@ -7,8 +7,6 @@ city: "Fremont, CA"
 parade:
     nickname: "WHS Marching Band"
 
-    music: "Brighton Beach by William Latham"
-
     directors:
     -   "Amberie Mitchell"
 
@@ -18,5 +16,7 @@ parade:
 
         percussion captain:
         -   "Casey Quevedo"
+
+    music: "Brighton Beach by William Latham"
 
     content: "WHS Marching Band recently won 3rd place at Newark Days Parade and a Silver Award at Forum Music Festival."

@@ -4,14 +4,8 @@ name: "Freedom High School"
 
 city: "Oakley, CA"
 
-other_directors:
-
 winterguard:
     nickname: "Freedom High School Winter Guard"
-
-    program: "Dule of Fates, a star wars classic"
-
-    music: 
 
     directors:
     -   "Sondra Van Meter"
@@ -19,3 +13,7 @@ winterguard:
     leaders:
         captain:
         -   "Minnie Martinez"
+
+    program: "Dule of Fates, a star wars classic"
+
+    music: 

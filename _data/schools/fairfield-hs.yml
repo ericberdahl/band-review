@@ -7,8 +7,6 @@ city: "Fairfield, CA"
 parade:
     nickname: "Scarlet Brigade"
 
-    music: "Joyce's 71st New York Regiment by Thornton Boyer"
-
     directors:
     -   "Brian Swetland"
 
@@ -37,6 +35,8 @@ parade:
 
         drum sergeant:
         -   "Jaden James"
+
+    music: "Joyce's 71st New York Regiment by Thornton Boyer"
 
     content: >
         The Scarlet Brigade Band from Fairfield High is proud of their long heritage of musical and marching excellence. The Band's motto can be seen in their Coat of Arms and reads "In Hoc Signo Vinces" translated "Under This Banner Thou Shalt Conquer".

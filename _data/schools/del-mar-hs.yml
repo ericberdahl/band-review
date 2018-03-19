@@ -4,13 +4,11 @@ name: "Del Mar High School"
 
 city: "San Jose, CA"
 
-directors:
--   "William D Burkhead"
-
 parade:
     nickname: "Del Mar High School Marching Band and Colorguard"
 
-    music: "Semper Fidelis by John Philip Sousa"
+    directors: &directors
+    -   "William D Burkhead"
 
     leaders:
         drum major:
@@ -22,10 +20,12 @@ parade:
         percussion captain:
         -   "Joshua Salgado"
 
+    music: "Semper Fidelis by John Philip Sousa"
+
 fieldshow:
     nickname: "Del Mar High School Marching Band and Colorguard"
 
-    program: "Welcome to The Moulin Rouge"
+    directors: *directors
 
     leaders:
         drum majors:
@@ -40,5 +40,7 @@ fieldshow:
 
         front ensemble captain:
         -   "Arturo Montes (Arturo mohn-TEZ)"
+
+    program: "Welcome to The Moulin Rouge"
 
     content: "Del Mar gives very special thanks to their awesome staff and amazing parent teams for their tireless work on behalf of the students. You are quite simply, the best!"

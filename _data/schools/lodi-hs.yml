@@ -7,10 +7,6 @@ city: "Lodi, CA"
 fieldshow:
     nickname: "Lodi High School Marching Band and Color Guard"
 
-    program: "España"
-
-    music:
-
     directors:
     -   "Glen Guevara"
 
@@ -22,5 +18,9 @@ fieldshow:
         -   "Mateo Tiscareno (Mateo tihs-kah-RAY-no)"
         -   "Jordan Wells"
         -   "Robert Perrin"
+
+    program: "España"
+
+    music:
 
     content: "The Lodi High School Band would like to thank its boosters and parents for their continuing support."

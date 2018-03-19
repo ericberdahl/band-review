@@ -7,11 +7,11 @@ city: "Pacifica, CA"
 winterguard:
     nickname: 
 
-    program: 
-
-    music: 
+    directors:
+    -   "Brian Lewsadder"
 
     leaders:
 
-    directors:
-    -   "Brian Lewsadder"
+    program: 
+
+    music: 

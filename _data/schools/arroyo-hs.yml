@@ -7,10 +7,6 @@ city: "San Lorenzo, CA"
 fieldshow:
     nickname: "Marching Dons"
 
-    program: "1001 Arabian Nights"
-
-    music: "Scheherazade by Nikolai Rimsky-Korsakov"
-
     directors:
     -   "Vernon Miyata"
 
@@ -26,3 +22,8 @@ fieldshow:
 
         co-captain:
         -   "Dillan Starr"
+
+    program: "1001 Arabian Nights"
+
+    music: "Scheherazade by Nikolai Rimsky-Korsakov"
+

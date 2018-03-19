@@ -7,8 +7,6 @@ city: "Stockton, CA"
 parade:
     nickname: "Marching Yellowjackets"
 
-    music: "Invercargil (ihn-vehr-CAHR-gihl) by Alex F. Lithgow, arranged by Andrew Balent (Andrew BAY-lehnt)"
-
     directors:
     -   "Jacqueline Hairston (JAH-kuh-lehn HEHR-ston)"
 
@@ -38,3 +36,5 @@ parade:
         percussion captains:
         -   "John Swing"
         -   "Julio Garibay (Julio gah-REE-bay)"
+
+    music: "Invercargil (ihn-vehr-CAHR-gihl) by Alex F. Lithgow, arranged by Andrew Balent (Andrew BAY-lehnt)"

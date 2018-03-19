@@ -1,7 +1,8 @@
 key: "cordova hs"
 
-nickname: "Cordova High School Marching Band"
-
 name: "Cordova High School"
 
 city: "Rancho Cordova, CA"
+
+parade:
+  nickname: "Cordova High School Marching Band"

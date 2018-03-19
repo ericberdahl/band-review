@@ -7,11 +7,11 @@ city: "Santa Rosa, CA"
 winterpercussion:
     nickname: 
 
-    program: 
-
-    music: 
+    directors:
+    -   "Matt Bringedahl"
 
     leaders:
 
-    directors:
-    -   "Matt Bringedahl"
+    program: 
+
+    music: 

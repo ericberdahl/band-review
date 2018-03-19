@@ -7,8 +7,6 @@ city: "Walnut Creek, CA"
 parade:
     nickname: "Marching Broncos"
 
-    music: "The Directorate by John Philip Sousa"
-
     directors:
     -   "Sara Stafford"
 
@@ -26,5 +24,7 @@ parade:
         auxiliary captain:
         -   "Jade Wong"
     
+    music: "The Directorate by John Philip Sousa"
+
     content: >
         The Marching Broncos ask that the judges and audience, "Please watch us until we stop playing, DON'T MISS OUR VERY SPECIAL ENDING!!! Enjoy The Directorate"

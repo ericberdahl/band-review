@@ -7,8 +7,6 @@ city: "Atwater, CA"
 parade:
     nickname: "Thunder Band"
 
-    music: "Army of the Nile"
-
     directors:
     -   "Chad J Humpal"
 
@@ -34,6 +32,8 @@ parade:
         percussion captains:
         -   "Ryan Scott"
         -   "Brock Bartholomew"
+
+    music: "Army of the Nile"
     
     content: >
         The Thunder Band has shown continuous improvement during the past decade, earning a CMEA Bay Section Unanimous Superior seven times. The band was selected to perform at the State Capital in 2014 and 2016 at the Stand Up 4 Music Advocacy Concert. The band has traveled to Disneyland and Hawaii and will return to the Magic Kingdom during the Spring of 2019.

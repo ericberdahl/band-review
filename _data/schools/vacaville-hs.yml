@@ -9,10 +9,6 @@ city: "Vacaville, CA"
 winterguard:
     nickname: "Vacaville Bulldog Color Guard"
 
-    program: "A Wonder of the World"
-
-    music: "Funeral of Amenhotep by Phillip Glass"
-
     directors:
     -   "Tricia Crist"
     -   "Jeremy Garrett"
@@ -24,5 +20,9 @@ winterguard:
     leaders:
         captain:
         -   "Reyna Rodriguez"
+
+    program: "A Wonder of the World"
+
+    music: "Funeral of Amenhotep by Phillip Glass"
 
     content: "Vacaville Bulldog Color Guard thanks the parents and friends for your awesome support this season! We all are very proud of you ladies. Go Bulldogs and kick some boo-dee! SEVEN!!!!"

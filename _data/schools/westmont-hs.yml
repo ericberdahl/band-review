@@ -7,10 +7,6 @@ city: "Campbell, CA"
 fieldshow:
     nickname: "Westmont Marching Regiment"
 
-    program: "Heavenly Bodies"
-
-    music: "three movements by Key Poulan (KEE poh-LAN)"
-
     directors:
     -   "Christiana Mandler Smith"
 
@@ -25,5 +21,9 @@ fieldshow:
 
         percussion captain:
         -   "Chris Mathney (Chris MATH-nee)"
+
+    program: "Heavenly Bodies"
+
+    music: "three movements by Key Poulan (KEE poh-LAN)"
 
     content: "The Westmont Marching Regiment thanks their students, parents, boosters, and administration."

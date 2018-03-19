@@ -1,10 +1,11 @@
 key: "jefferson ms"
 
-nickname: "Wildcat Marching Band"
-
 name: "Jefferson Middle School"
 
 city: "Tracy, CA"
 
-directors:
--   "Amanda Gieseke (Amanda geh-SEH-kee)"
+parade:
+    nickname: "Wildcat Marching Band"
+
+    directors:
+    -   "Amanda Gieseke (Amanda geh-SEH-kee)"

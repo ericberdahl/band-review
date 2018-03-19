@@ -7,10 +7,6 @@ city: "San Francisco, CA"
 fieldshow:
     nickname: "Puma Marching Band"
 
-    program: "Cirque Solei, La Nouba"
-
-    music: "Distorted, Reve Rouge, and Urban"
-
     directors:
     -   "Manuel Young"
 
@@ -26,18 +22,20 @@ fieldshow:
         -   "Byronne Rodrigo"
         -   "Sabrina Du"
 
+    program: "Cirque Solei, La Nouba"
+
+    music: "Distorted, Reve Rouge, and Urban"
+
     content: "This year marks the first year for the Burton High School Marching Band's participation in a competitive field show event. The band program is only 6 years old and has since placed top three in various winter percussion and winter guard competitions since 2015, and the band program was the recipient of the 2015 GRAMMY Signature Schools Enterprise Award."
 
 winterpercussion:
     nickname: 
 
-    program: 
-
-    music: 
-
-    leaders:
-
     directors:
     -   "Manuel Young"
 
-    other_directors:
+    leaders:
+
+    program: 
+
+    music: 

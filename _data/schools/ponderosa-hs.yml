@@ -7,10 +7,6 @@ city: "Shingle Springs, CA"
 fieldshow:
     nickname: "Ponderosa Bruin Band"
 
-    program: "Casting Call!"
-
-    music:
-
     directors:
     -   "Santiago Sabado"
 
@@ -27,5 +23,9 @@ fieldshow:
 
         wind captain:
         -   "Jacob Lambert"
+
+    program: "Casting Call!"
+
+    music:
 
     content: "The band is wearing their brand new uniforms and would like to thank all the parent volunteers for all they do. We couldn’t do it without you!"

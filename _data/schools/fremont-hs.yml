@@ -4,5 +4,13 @@ name: "Fremont High School"
 
 city: "Sunnyvale, CA"
 
-directors:
--   "Joe Kelly"
+parade:
+    nickname:
+
+    directors:
+    -   "Joe Kelly"
+
+    leaders:
+
+    music:
+        

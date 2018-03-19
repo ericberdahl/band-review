@@ -7,10 +7,6 @@ city: "Mountain View, CA"
 fieldshow:
     nickname: "Lancer Marching Band"
 
-    program: "The Outcast"
-
-    music: "music from Swan Lake by Tchaikovsky, New World Symphony by Dvorak, and Carnival of the Animals by Saint-Saens, arranged by Craig Fitzpatrick"
-
     directors:
     -   "Javier Cerna (Javier SEHR-nah)"
 
@@ -26,3 +22,7 @@ fieldshow:
         percussion captains:
         -   "Annabel Su"
         -   "Sahana Jain"
+
+    program: "The Outcast"
+
+    music: "music from Swan Lake by Tchaikovsky, New World Symphony by Dvorak, and Carnival of the Animals by Saint-Saens, arranged by Craig Fitzpatrick"

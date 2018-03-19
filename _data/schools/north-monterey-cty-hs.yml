@@ -7,8 +7,6 @@ city: "Castroville, CA"
 parade:
     nickname: "Condors"
 
-    music: "High School Cadets by John Philip Sousa"
-
     directors:
     -   "Marcie Chapa"
     -   "Kelly Matz"
@@ -25,5 +23,7 @@ parade:
         -   "Cameron Reyes"
         -   "Nina Harrison"
     
+    music: "High School Cadets by John Philip Sousa"
+
     content: >
         The Condors were the sole representative for the State of California in the 53rd Presidential Inauguration Parade in Washington, D.C. for President Bill Clinton. In March of 2001, 2005, 2009, 2013, and 2017 the Condors were the special guests of the Hebei (heh-BAY) Provincial Government of the Peoples Republic of China and participated in "Friendship Concerts" that later became known as "Peace Through Music."

@@ -7,8 +7,6 @@ city: "Santa Cruz, CA"
 parade:
     nickname: "Cardinal Regiment"
 
-    music: "B.B. and C.F. by James Ord Hume"
-
     directors:
     -   "Christina Latham (kris-TEE-nah LAY-tham)"
 
@@ -22,6 +20,8 @@ parade:
 
         percussion captain:
         -   "Colby Hanson"
+
+    music: "B.B. and C.F. by James Ord Hume"
 
     content: |
         The band recently earned Showmanship Sweepstakes at their first band review.<br>

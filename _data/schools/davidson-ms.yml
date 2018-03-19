@@ -4,7 +4,6 @@ name: "Davidson Middle School"
 
 city: "San Rafael, CA"
 
-directors:
--   "Dana Trillo"
-
 parade:
+    directors:
+    -   "Dana Trillo"

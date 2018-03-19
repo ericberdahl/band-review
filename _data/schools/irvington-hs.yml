@@ -7,8 +7,6 @@ city: "Fremont, CA"
 parade:
     nickname: "Viking Marching Band"
 
-    music: "Mephistopheles by Shipley Douglas"
-
     directors:
     -   "Charlie Rodda (Charlie RAH-dah)"
     -   "Adam Anaya"
@@ -36,6 +34,8 @@ parade:
 
         percussion captain:
         -   "Garrett Mark"
+
+    music: "Mephistopheles by Shipley Douglas"
 
     content: >
         At last year's Foothill Band Review, Irvington earned the Music and Marching Sweepstakes. At this year's Del Mar band Review they earned the Music, Marching, and Parade sweepstakes.

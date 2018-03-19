@@ -7,10 +7,6 @@ city: "Modesto, CA"
 fieldshow:
     nickname: "Enochs High School Marching Band"
 
-    program: "Shine"
-
-    music: "music by Vince Oliver, Andrew Ziehm, and Michael Flores"
-
     directors:
     -   "Phil Vallejo"
 
@@ -18,3 +14,7 @@ fieldshow:
         drum majors:
         -   "Aaron Hilliker"
         -   "Annyher Reyes-Ayala (A-nee-air RAY-ess ah-YAH-lah)"
+
+    program: "Shine"
+
+    music: "music by Vince Oliver, Andrew Ziehm, and Michael Flores"

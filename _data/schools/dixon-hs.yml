@@ -7,11 +7,11 @@ city: "Dixon, CA"
 winterguard:
     nickname: 
 
-    program: 
-
-    music: 
+    directors:
+    -   "Adrain Coulson"
 
     leaders:
 
-    directors:
-    -   "Adrain Coulson"
+    program: 
+
+    music: 

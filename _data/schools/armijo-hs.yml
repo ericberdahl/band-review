@@ -7,11 +7,11 @@ city: "Fairfield, CA"
 parade:
     nickname: "Armijo Super Band"
 
-    music: "Number 3 Fighter Squadron by Brian Cunningham"
-
     directors:
     -   "Louise B Jacob"
 
     leaders:
         drum major:
         -   "Maiann Le (MY-anne LAY)"
+
+    music: "Number 3 Fighter Squadron by Brian Cunningham"

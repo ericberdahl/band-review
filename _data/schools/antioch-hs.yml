@@ -7,11 +7,12 @@ city: "Antioch, CA"
 winterguard:
     nickname: 
 
+    directors:
+    -   "Maryann Peddicord"
+    
+    leaders:
+
     program: 
 
     music: 
 
-    leaders:
-
-    directors:
-    -   "Maryann Peddicord"

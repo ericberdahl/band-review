@@ -7,8 +7,6 @@ city: "Vallejo, CA"
 parade:
     nickname: "Jaguar Band"
 
-    music: "Black Granite by James L. Hosay"
-
     directors:
     -   "Alan Perkins"
 
@@ -19,6 +17,8 @@ parade:
         auxilliary captains:
         -   "Hope David"
         -   "Jasmine Cahayag (Jasmine cah-HAH-yahg)"
+
+    music: "Black Granite by James L. Hosay"
 
     content: >
         The Jesse Bethel High School Band program has a rich tradition of excellence spanning more than 20 years.

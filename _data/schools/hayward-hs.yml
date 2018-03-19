@@ -7,8 +7,6 @@ city: "Hayward, CA"
 parade:
     nickname: "Pride of Hayward High"
 
-    music: "A Slavic Farewell by Vasily Agapkin (vah-SEE-lee ah-GAHP-kihn)"
-
     directors:
     -   "Nicholas Tocco (Nicolas TOE-ko)"
 
@@ -16,15 +14,16 @@ parade:
         drum major:
         -   "Katrina Granados (Katrina grah-NAH-dohs)"
 
+    music: "A Slavic Farewell by Vasily Agapkin (vah-SEE-lee ah-GAHP-kihn)"
 
 winterguard:
     nickname: 
 
-    program: 
-
-    music: 
+    directors:
+    -   "Nicholas Tocco (Nicolas TOE-ko)"
 
     leaders:
 
-    directors:
-    -   "Nicholas Tocco (Nicolas TOE-ko)"
+    program: 
+
+    music: 

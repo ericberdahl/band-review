@@ -4,23 +4,26 @@ name: "Mission San Jose High School"
 
 city: "Fremont, CA"
 
-directors:
--   "Monica Kraft"
-
 winterguard:
     nickname: 
+
+    directors: &directors
+    -   "Monica Kraft"
+
+    leaders:
 
     program: 
 
     music: 
 
-    leaders:
 
 winterpercussion:
     nickname: 
 
+    directors: *directors
+
+    leaders:
+
     program: 
 
     music: 
-
-    leaders:

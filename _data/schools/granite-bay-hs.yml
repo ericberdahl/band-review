@@ -7,10 +7,6 @@ city: "Granite Bay, CA"
 fieldshow:
     nickname: "Emerald Brigade"
 
-    program: "Flight 19: Lost in the Bermuda Triangle"
-
-    music: "Undertow, Lightning Fields, and Wine Dark Sea by John Mackey"
-
     directors:
     -   "Lynn Lewis"
 
@@ -25,5 +21,9 @@ fieldshow:
 
         percussion captain:
         -   "Alaina Boone (ah-LA-EE-nah BOO-nh)"
+
+    program: "Flight 19: Lost in the Bermuda Triangle"
+
+    music: "Undertow, Lightning Fields, and Wine Dark Sea by John Mackey"
 
     content: "Emerald Brigade would like to dedicate their performance to their friend Chance who could not be with us tonight."

@@ -4,23 +4,27 @@ name: "Franklin Middle School"
 
 city: "Vallejo, CA"
 
-directors:
--   "Jorge E Ruvalcaba"
-
 winterguard:
     nickname: 
+
+    directors: &directors
+    -   "Jorge E Ruvalcaba"
+
+    leaders:
 
     program: 
 
     music: 
 
-    leaders:
 
 winterpercussion:
     nickname: 
 
+    directors: *directors
+
+    leaders:
+
     program: 
 
     music: 
 
-    leaders:

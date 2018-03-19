@@ -7,8 +7,6 @@ city: "Turlock, CA"
 parade:
     nickname: "Marching Pride"
 
-    music: "The Cossack by William Rimmer"
-
     directors:
     -   "Ruben Modesto"
 
@@ -24,3 +22,5 @@ parade:
         percussion captain:
         -   "Kyle Soriano"
         -   "Isai Rodriquez"
+
+    music: "The Cossack by William Rimmer"

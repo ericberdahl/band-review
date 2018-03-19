@@ -7,8 +7,6 @@ city: "Dublin, CA"
 parade:
     nickname: "Roadrunner Band"
 
-    music: "United Nations by K.L. King"
-
     directors:
     -   "Erik Bertelson"
 
@@ -25,5 +23,7 @@ parade:
 
         auxiliary captain:
         -   "Mourissa DeMello"
+
+    music: "United Nations by K.L. King"
 
     content: "The Roaddrunner Band gives special thanks to their Color Guard Instructors, Kayla Dow, Meghan Van Lare, Michala Viazzo, and Amanda Dow."
