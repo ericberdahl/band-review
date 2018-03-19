@@ -5,21 +5,13 @@ event_title: "Foothill Winter Show"
 book_title: "Announcer's Book"
 
 css:
-
-this_year:
-    year: 2018
-    citation: "2018 Foothill High School Winter Show"
-
-next_year:
-    date: "March 23rd, 2019"
-    citation: "2019 Foothill High School Winter Show"
 ---
 {% capture ignore %}{% increment perc_ordinal %}{% endcapture %} {% comment %}Get the percussion ordinal to start at 1{% endcomment %}
 <div class="page">
     <div class="header">Winter Percussion - Open</div>
     <div>
         Good morning ladies and gentlemen. Welcome to the Percussion Competition for
-        the {{page.this_year.citation}}. We are joined today by {{ site.data.percussion.count }} talented
+        the {{ site.data.wintershow.citation }}. We are joined today by {{ site.data.percussion.count }} talented
         units anxious to perform. On behalf of Foothill High School, we wish good luck
         to all the units performing today and hope you enjoy their shows.
     </div>
@@ -66,7 +58,7 @@ next_year:
             [wait for cue from judge]<br>
             Are the judges ready? [wait for cue from judge]<br>
             {{ plu_school.name }}, is your percussion unit ready? [wait for cue from judge]<br>
-            Performing their 2018 show, {{ plu_percussion.program }}, NCBA is proud to present the {{ nickname }}.
+            Performing their {{ site.data.wintershow.year }} show, {{ plu_percussion.program }}, NCBA is proud to present the {{ nickname }}.
         </div>
         <div class="footer">Winter Percussion - {{plu_school.name}}</div>
     {% elsif plu.break %}
@@ -83,7 +75,7 @@ next_year:
 <div class="page">
     <div class="header">Winter Percussion - End of Competition</div>
     <div>
-        This concludes the Percussion Competition for the {{page.this_year.citation}}.
+        This concludes the Percussion Competition for the {{ site.data.wintershow.citation }}.
         Please stay for the Percussion Awards, presented here in 20 minutes, and for the Color Guard competition,
         beginning at {{ site.data.guard.start_time }}.
     </div>
@@ -93,7 +85,7 @@ next_year:
 <div class="page awards">
     <div class="header">Winter Percussion - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{page.this_year.citation}}: {{ site.data.percussion.sponsors.general | array_to_sentence_string }}.
+        Foothill High School thanks the sponsors of the {{ site.data.wintershow.citation }}: {{ site.data.percussion.sponsors.general | array_to_sentence_string }}.
     </div>
     {% include trophysponsor_citation.html sponsors=site.data.percussion.sponsors.trophies %}
     <div>
@@ -107,7 +99,7 @@ next_year:
 <div class="page">
     <div class="header">Winter Guard - Open</div>
     <div>
-        Good afternoon ladies and gentlemen. Welcome to the Color Guard Competition for the {{ page.this_year.citation }}.
+        Good afternoon ladies and gentlemen. Welcome to the Color Guard Competition for the {{ site.data.wintershow.citation }}.
         We are joined today by {{ site.data.guard.count }} wonderful guard units to entertain and delight us.
         On behalf of Foothill High School, we wish good luck to all the units performing today and hope you enjoy the competition.
     </div>
@@ -154,7 +146,7 @@ next_year:
             [wait for cue from judge]<br>
             Are the judges ready? [wait for cue from judge]<br>
             {{ glu_school.name }}, is your guard unit ready? [wait for cue from judge]<br>
-            Performing their 2018 show, {{ glu_guard.program }}, NCBA is proud to present the {{ nickname }}.
+            Performing their {{ site.data.wintershow.year }} show, {{ glu_guard.program }}, NCBA is proud to present the {{ nickname }}.
         </div>
         <div class="footer">Winter Guard - {{glu_school.name}}</div>
     {% elsif glu.break %}
@@ -171,7 +163,7 @@ next_year:
 <div class="page">
     <div class="header">Winter Guard - Close</div>
     <div>
-        This concludes the Color Guard Competition for the {{page.this_year.citation}}.
+        This concludes the Color Guard Competition for the {{ site.data.wintershow.citation }}.
         Thank you and congratulations to all the guard units we’ve seen this morning, and
         thank you all for attending and cheering on these fine young performers.
     </div>
@@ -184,7 +176,7 @@ next_year:
 <div class="page awards">
     <div class="header">Winter Guard - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{page.this_year.citation}}: {{ site.data.guard.sponsors.general | array_to_sentence_string }}.
+        Foothill High School thanks the sponsors of the {{ site.data.wintershow.citation }}: {{ site.data.guard.sponsors.general | array_to_sentence_string }}.
     </div>
     <div>
         [General award announcement]
@@ -197,13 +189,13 @@ next_year:
 <div class="page">
     <div class="header">Winter Show - Close</div>
     <div>
-        This concludes the {{ page.this_year.citation }}. Thank you and congratulations
+        This concludes the {{ site.data.wintershow.citation }}. Thank you and congratulations
         to all the units we’ve seen today, and thank you all for attending and cheering
         on these talented performers.
     </div>
     <div>
-        Mark your calendars to join us again next year, on {{ page.next_year.date }},
-        for the {{ page.next_year.citation }}. On behalf of Foothill High School,
+        Mark your calendars to join us again next year, on {{ site.data.wintershow.next_show.date }},
+        for the {{ site.data.wintershow.next_show.citation }}. On behalf of Foothill High School,
         I wish you all a safe and enjoyable weekend. Good night.
     </div>
     <div class="footer">Winter Show - Close</div>

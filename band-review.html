@@ -5,21 +5,12 @@ event_title: "Foothill Band Review"
 book_title: "Announcer's Book"
 
 css:
-
-this_year:
-    year: 2017
-    citation: "43rd Annual Foothill High School Band Review"
-
-next_year:
-    date: "October 27th, 2018"
-    year: 2018
-    citation: "44th Annual Foothill High School Band Review"
 ---
 {% capture ignore %}{% increment parade_ordinal %}{% endcapture %} {% comment %}Get the parade ordinal to start at 1{% endcomment %}
 <div class="page">
     <div class="header">Parade - Open</div>
     <div>
-        Good morning ladies and gentlemen. Welcome to the Parade Competition for the {{page.this_year.citation}}.
+        Good morning ladies and gentlemen. Welcome to the Parade Competition for the {{ site.data.bandreview.citation }}.
         We are joined today by nearly two score wonderful bands to entertain and delight us.
         On behalf of Foothill High School, we wish good luck to all the bands performing today and hope you enjoy the competition.
     </div>
@@ -90,7 +81,7 @@ next_year:
 <div class="page">
     <div class="header">Parade - Close</div>
     <div>
-        This concludes the Parade Competition for the {{page.this_year.citation}}.
+        This concludes the Parade Competition for the {{ site.data.bandreview.citation }}.
         Thank you and congratulations to all the bands we’ve seen this morning, and
         thank you all for attending and cheering on these fine young performers.
     </div>
@@ -102,8 +93,8 @@ next_year:
         starting at {{site.data.field.start_time}} this afternoon and running through this evening.
     </div>
     <div>
-        Mark your calendars to join us again next year, on {{page.next_year.date}},
-        for the {{page.next_year.citation}}.  On behalf of Foothill High School,
+        Mark your calendars to join us again next year, on {{ site.data.bandreview.next_show.date }},
+        for the {{ site.data.bandreview.next_show.citation }}.  On behalf of Foothill High School,
         I wish you all a safe and enjoyable weekend. Good day.
     </div>
     <div class="footer">Parade - Close</div>
@@ -114,7 +105,7 @@ next_year:
     <div class="header">Field Show - Open</div>
     <div>
         Good afternoon ladies and gentlemen. Welcome to the Field Show Competition for
-        the {{page.this_year.citation}}. We are joined today by a score of talented
+        the {{ site.data.bandreview.citation }}. We are joined today by a score of talented
         bands anxious to perform. On behalf of Foothill High School, we wish good luck
         to all the bands performing today and hope you enjoy their shows.
     </div>
@@ -172,7 +163,7 @@ next_year:
 <div class="page">
     <div class="header">Field Show - End of Competition</div>
     <div>
-        This concludes the Field Show Competition for the {{page.this_year.citation}}.
+        This concludes the Field Show Competition for the {{ site.data.bandreview.citation }}.
         Please stay for the Field Show Awards, presented here in 15 minutes.
     </div>
     <div>
@@ -184,7 +175,7 @@ next_year:
 <div class="page awards">
     <div class="header">Field Show - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{page.this_year.citation}}: {{ site.data.field.sponsors.general | array_to_sentence_string }}.
+        Foothill High School thanks the sponsors of the {{ site.data.bandreview.citation }}: {{ site.data.field.sponsors.general | array_to_sentence_string }}.
     </div>
     <div>
         [General award announcement]
@@ -197,13 +188,13 @@ next_year:
 <div class="page">
     <div class="header">Field Show - Close</div>
     <div>
-        This concludes the {{page.this_year.citation}}. Thank you and congratulations
+        This concludes the {{ site.data.bandreview.citation }}. Thank you and congratulations
         to all the bands we’ve seen today, and thank you all for attending and cheering
         on these fine young performers.
     </div>
     <div>
-        Mark your calendars to join us again next year, on {{page.next_year.date}},
-        for the {{page.next_year.citation}}. On behalf of Foothill High School,
+        Mark your calendars to join us again next year, on {{ site.data.bandreview.next_show.date }},
+        for the {{ site.data.bandreview.next_show.citation }}. On behalf of Foothill High School,
         I wish you all a safe and enjoyable weekend. Good night.
     </div>
     <div class="footer">Field Show - Close</div>
@@ -212,7 +203,7 @@ next_year:
 <div class="page awards">
     <div class="header">Parade and Concert - Awards</div>
     <div>
-        Foothill High School thanks the sponsors of the {{page.this_year.citation}}: {{ site.data.parade.sponsors.general | array_to_sentence_string }}.
+        Foothill High School thanks the sponsors of the {{ site.data.bandreview.citation }}: {{ site.data.parade.sponsors.general | array_to_sentence_string }}.
     </div>
     {% include trophysponsor_citation.html sponsors=site.data.parade.sponsors.trophies %}
     <div>
