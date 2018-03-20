@@ -7,7 +7,7 @@ city: "Hayward, CA"
 parade:
     nickname: "Pride of Hayward High"
 
-    directors:
+    directors: &directors
     -   "Nicholas Tocco (Nicolas TOE-ko)"
 
     leaders:
@@ -17,13 +17,19 @@ parade:
     music: "A Slavic Farewell by Vasily Agapkin (vah-SEE-lee ah-GAHP-kihn)"
 
 winterguard:
-    nickname: 
+    nickname: "Hayward High Winter Guard"
 
-    directors:
-    -   "Nicholas Tocco (Nicolas TOE-ko)"
+    directors: *directors
+
+    other_directors:
+        instructed by:
+        -   "Fatima Shefa"
 
     leaders:
+        captains:
+        -   "Paulina Pen-ya"
+        -   "Jazmyne Stone"
 
-    program: 
+    program: "Feel it Still"
 
-    music: 
+    music: "Portugal The Man"

@@ -5,14 +5,29 @@ name: "Antioch High School"
 city: "Antioch, CA"
 
 winterguard:
-    nickname: 
+    nickname: "Antioch High School Panther Winterguard Team"
 
     directors:
-    -   "Maryann Peddicord"
+    -   "Maryann Peddicord-Guard"
+
+    other_directors:
+        instructed by:
+        -   "Laura Mendez"
+        -   "Ingrid Chapman"
+        -   "Susan Reimche"
+        -   "Michelle Peters"
     
     leaders:
+        captains:
+        -   "Anne-Marie Chapman"
+        -   "Nicole Mendez"
+        -   "Kekoa Peters"
+        -   "Mariah Capote"
 
-    program: 
+    program: "Diamonds in the Rough"
 
-    music: 
+    music: "Diamonds"
 
+    content: >
+        Ms M gives a very special thank you to her team for all your hard work and dedication,
+        and to all the parent volunteers who make it possible for us to be here. You are all awesome! Hugs and kisses from  Ms. M.

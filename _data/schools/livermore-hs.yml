@@ -50,7 +50,7 @@ winterguard:
 winterpercussion:
     nickname: 
 
-    directors:
+    directors: *directors
 
     leaders:
 

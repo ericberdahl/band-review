@@ -7,7 +7,7 @@ city: "Petaluma, CA"
 parade:
     nickname: "Trojan Marching Band and Color Guard"
 
-    directors:
+    directors: &directors
     -   "Cliff Eveland"
 
     other_directors:
@@ -39,8 +39,7 @@ parade:
 winterpercussion:
     nickname: 
 
-    directors:
-    -   "Cliff Eveland"
+    directors: *directors
 
     leaders:
 

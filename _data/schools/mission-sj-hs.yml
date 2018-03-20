@@ -5,25 +5,52 @@ name: "Mission San Jose High School"
 city: "Fremont, CA"
 
 winterguard:
-    nickname: 
+    nickname: "Mission San Jose Winter Guard"
 
     directors: &directors
     -   "Monica Kraft"
 
+    other_directors:
+        assistant director:
+        -   "Bill Flaherty"
+        instructors:
+        -   "Maggie Taylor"
+        -   "Jennessa Takagi"
+
     leaders:
+        captains:
+        -   "Athena Lim"
+        -   "Jolene Tsai"
+        -   "YuTing Chou"
+        -   "Lynn Friedmans"
 
-    program: 
+    program: "A Perfect Love"
 
-    music: 
+    music: "music by Ed Sheeran"
 
+    content: >
+        This show is dedicated to the memory of Joan Fong, a long time supporter of the Mission San Jose Band program and
+        Performing Arts Parent Board member. Joan's voice and advice is heard at the start of our show.
 
 winterpercussion:
-    nickname: 
+    nickname: "Mission San Jose Percussion Unit"
 
     directors: *directors
 
+    other_directors:
+        assistant director:
+        -   "Bill Flaherty"
+        instructors:
+        -   "Steve Slater"
+        -   "Stan Muncy"
+        -   "Alex Chen"
+        -   "Aaron Kim"
+
     leaders:
+        captain:
+        -   "Andrew Kinoshita"
 
-    program: 
+    program: "C.P.U."
 
-    music: 
+    content: >
+        The Percussionists would like to thank their parents and the Winter Guard for their support this season.

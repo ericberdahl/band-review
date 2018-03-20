@@ -7,7 +7,8 @@ city: "Tracy, CA"
 winterguard:
     nickname: 
 
-    directors:
+    directors: &directors
+    -   "Roland Zepeda"
 
     leaders:
 
@@ -19,8 +20,7 @@ winterguard:
 winterpercussion:
     nickname: "Millennium High Percussion Ensemble"
 
-    directors:
-    -   "Roland Zepeda"
+    directors: *directors
 
     other_directors:
         instructed by:

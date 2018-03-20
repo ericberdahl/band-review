@@ -25,13 +25,22 @@ parade:
     content: "The Titan Band would like to thank our staff who gives of their time freely and, we hope, happily: Percussion Head Kaman Poon, Omar Andrade, Kimberly Zavala, and Diana Guzman. And a special \"thanks\" to our parents and boosters."
 
 winterpercussion:
-    nickname: 
+    nickname: "Solano Middle School Winter Percussion Ensemble"
 
     directors: *directors
 
+    other_directors:
+        caption head:
+        -   "Kaman Poon"
+        instructor:
+        -   "Omar Andrade"
+
     leaders:
+        captains:
+        -   "Rachel Contreras"
+        -   "Cynthia Ngu"
 
-    program: 
+    program: "Somebody's Out There"
 
-    music: 
+    music: "music by Jim Wunderlich"
 

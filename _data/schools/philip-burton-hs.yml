@@ -7,10 +7,10 @@ city: "San Francisco, CA"
 fieldshow:
     nickname: "Puma Marching Band"
 
-    directors:
+    directors: &directors
     -   "Manuel Young"
 
-    other_directors:
+    other_directors: &other-directors
         assistant director:
         -   "Divesh Karamchandani (dih-VESH ka-ram-chahn-DAHN-ee)"
 
@@ -29,13 +29,17 @@ fieldshow:
     content: "This year marks the first year for the Burton High School Marching Band's participation in a competitive field show event. The band program is only 6 years old and has since placed top three in various winter percussion and winter guard competitions since 2015, and the band program was the recipient of the 2015 GRAMMY Signature Schools Enterprise Award."
 
 winterpercussion:
-    nickname: 
+    nickname: "Burton Winter Percussion Ensemble"
 
-    directors:
-    -   "Manuel Young"
+    directors: *directors
+
+    other_directors: *other-directors
 
     leaders:
+        captains:
+        -   "Byronne Rodrigo"
+        -   "Sabrina Du"
 
-    program: 
+    program: "The Deadliest Catch"
 
     music: 

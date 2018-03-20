@@ -7,7 +7,7 @@ city: "Vallejo, CA"
 parade:
     nickname: "Proud Heritage Band and Colorguard"
 
-    directors:
+    directors: &directors
     -   "Carmel Pajita (kahr-MEL pah-HEE-tah)"
 
     leaders:
@@ -22,3 +22,25 @@ parade:
         -   "Alyssa Catap (ah-LIE-sah cah-TOHP)"
 
     music: "Slavic Woman's Farewell by Vasily Agapkin (vah-SEE-lee ah-GAHP-kihn)"
+
+winterguard:
+    nickname:
+
+    directors: *directors
+
+    leaders:
+
+    program:
+
+    music:
+
+winterpercussion:
+    nickname:
+
+    directors: *directors
+
+    leaders:
+
+    program:
+
+    music:

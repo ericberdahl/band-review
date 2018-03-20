@@ -1,7 +1,5 @@
 key: "vacaville hs"
 
-nickname: 
-
 name: "Vacaville High School"
 
 city: "Vacaville, CA"
@@ -11,10 +9,10 @@ winterguard:
 
     directors:
     -   "Tricia Crist"
-    -   "Jeremy Garrett"
 
     other_directors:
-        instructor:
+        instructors:
+        -   "Jeremy Garrett"
         -   "Taylor Allen"
 
     leaders:
@@ -23,6 +21,8 @@ winterguard:
 
     program: "A Wonder of the World"
 
-    music: "Funeral of Amenhotep by Phillip Glass"
+    music: "music by Phillip Glass"
 
-    content: "Vacaville Bulldog Color Guard thanks the parents and friends for your awesome support this season! We all are very proud of you ladies. Go Bulldogs and kick some boo-dee! SEVEN!!!!"
+    content: >
+        Vacaville Bulldog Color Guard thanks the parents and friends for your awesome support this season! We all are very proud of you ladies.
+        Go Bulldogs and kick some boo-dee! SEVEN!!!!
