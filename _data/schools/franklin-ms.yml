@@ -5,26 +5,47 @@ name: "Franklin Middle School"
 city: "Vallejo, CA"
 
 winterguard:
-    nickname: 
+    nickname: "Franklin Middle School Color guard"
 
     directors: &directors
-    -   "Jorge E Ruvalcaba"
+    -   "Jorge Ruvalcaba"
+
+    other_directors:
+        instructed by:
+        -   "Alexandria Dees"
+        -   "Shawnee Garris"
 
     leaders:
+        captains:
+        -   "Grace Thompson"
+        -   "Rubi Diaz"
 
-    program: 
+    program: "Free At Last"
 
     music: 
+
+    contents: >
+        Franklin Middle School Color guard would like to thank all the parents for all their support and Anty Shay you Rock!
 
 
 winterpercussion:
-    nickname: 
+    nickname: "Franklin Middle School Percussion"
 
     directors: *directors
 
-    leaders:
+    other_directors:
+        instructed by:
+        -   "Lexus Miguel"
 
-    program: 
+    leaders:
+        captains:
+        -   "Claire Gonzales"
+        -   "Jericho Santos"
+
+    program: "Kiakoa"
 
     music: 
+
+    content: >
+        Franklin Middle School Percussion would like to thank all the parents for their support!
 

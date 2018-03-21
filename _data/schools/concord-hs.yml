@@ -30,14 +30,24 @@ winterguard:
         Cassie, Teagan, and Marena for their efforts as student leaders. You are loved and appreciated.
 
 winterpercussion:
-    nickname: 
+    nickname: "The Minutemen"
 
     directors:
     -   "Gary Coartney"
     -   "Martin Lejano"
         
-    leaders:
+    other_directors:
+        instructed by:
+        -   "Jacob Dowd"
+        -   "Heston Kent"
+        -   "Nick Mello"
+        -   "Cameron Munoz"
 
-    program: 
+    leaders:
+        captains:
+        -   "Destani Derrico"
+        -   "Aixa Ortiz"
+
+    program: "Haunted Castle"
 
     music: 
