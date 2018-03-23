@@ -5,24 +5,33 @@ name: "Eleanor Murray Fallon Middle School"
 city: "Dublin, CA"
 
 winterguard:
-    nickname: 
+    nickname: "Fallon Middle School Colorguard"
 
     directors: &directors
     -   "Tony Cavalleri"
-        
-    leaders:
+    
+    other_directors:
+        instucted by:
+        -   "Lilyann Day"
+        -   "Carina Chen"
+        -   "Spandana Janapati"
 
-    program: 
+    leaders:        
+
+    program: "Highs and Lows" 
 
     music: 
 
 winterpercussion:
-    nickname: 
+    nickname: "Mustang Drumline"
 
     directors: *directors
         
     leaders:
+        captains:
+        -   "Jordan Rivero"
+        -   "Valerie Ding"
 
-    program: 
+    program: "Here We Go!"
 
     music: 

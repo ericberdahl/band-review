@@ -5,13 +5,19 @@ name: "Dixon High School"
 city: "Dixon, CA"
 
 winterguard:
-    nickname: 
+    nickname: "Dixon High Winter Guard"
 
     directors:
-    -   "Adrain Coulson"
+    -   "Kevin Butt"
+
+    other_directors:
+        instucted by:
+        -   "Alex Shaffer"
 
     leaders:
+        captain:
+        -   "Vicky Villapando"
 
-    program: 
+    program: "Don’t Let Go"
 
     music: 

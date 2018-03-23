@@ -48,12 +48,25 @@ winterguard:
     music: "Come Sail Away by Styx"
 
 winterpercussion:
-    nickname: 
+    nickname: "Livermore High School Drumline"
 
     directors: *directors
 
-    leaders:
+    other_directors:
+        instructed by:
+        -   "David Alatorre"
+        -   "Anthony Maganon"
+        -   "Steven Drummer"
+        -   "Sarah Culbertson"
 
-    program: 
+    leaders:
+        captains:
+        -   "Elijah Maravilla"
+        -   "Alex Paterson"
+
+    program: "Breaking Free"
 
     music: 
+
+    content: >
+        Livermore High School would like to thank the Foothill parents, students and staff for hosting a fantastic winter show.
