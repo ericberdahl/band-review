@@ -5,26 +5,40 @@ name: "Cesar Chavez High School"
 city: "Stockton, CA"
 
 winterguard:
-    nickname: 
+    nickname: "Cesar Chavez Winterguard"
 
-    directors: &directors
-    -   "Art Coleman"
+    directors:
+    -   &art-coleman "Art Coleman"
+
+    other_directors:
+        instructed by:
+        -   "Tammy Petborisooth"
 
     leaders:
+        captain:
+        -   "Genevive Escalona"
 
-    program: 
+    program: "Mirage"
 
-    music: 
+    music: "Mirage by Lindsey Stirling featuring Raja Kumari"
 
 
 winterpercussion:
-    nickname: 
+    nickname: "Cesar Chavez Winter Percussion"
 
-    directors: *directors
+    directors:
+    -   *art-coleman
+    -   "Chris McCoy"
+
+    other_directors:
+        instructed by:
+        -   "Jerry Hernandez"
+        -   "OnHey-Lee-O Tela"
+        -   "Cris Garcia"
+        -   "Amani Khalil"
 
     leaders:
 
-    program: 
+    program: "Where The Ligh Is"
 
-    music: 
-
+    music: "music by Weston Amaro and Eric Shriver"

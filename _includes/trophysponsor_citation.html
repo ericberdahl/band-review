@@ -3,8 +3,7 @@
         [{{ ts[0] }}] The {{ ts[0] }} trophy is sponsored by {{ ts[1] | map:'sponsor' | array_to_sentence_string }}.
         {% for ts_sponsor in ts[1] %}
             {% if ts_sponsor.dedication %}
-                {% assign spa = ts_sponsor.sponsor | split:' ' %}
-                {{ spa | first | capitalize }} {{ spa | shift | join:' ' }} dedicates the {{ ts[0] }} trophy to {{ ts_sponsor.dedication }}.
+                {{ ts_sponsor.dedication }}
             {% endif %}
         {% endfor %}
     </div>

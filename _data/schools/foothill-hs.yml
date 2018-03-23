@@ -13,19 +13,19 @@ parade:
 
     leaders:
         drum major:
-        -   "Zachary Townsend"
+        -   &zachary-townsend "Zachary Townsend"
 
         auxiliary captain:
-        -   "Makoto McCann (mah-KOH-to mk-CAN)"
+        -   &makoto-mccann "Makoto McCann (mah-KOH-to mk-CAN)"
 
         percussion captain:
-        -   "Bailey Yang"
+        -   &bailey-yang "Bailey Yang"
 
         woodwind captain:
-        -   "Alex Lee"
+        -   &alex-lee "Alex Lee"
 
         brass captain:
-        -   "Ian Crane"
+        -   &ian-crane "Ian Crane"
     
     music: "B.B. and C.F. March by James Ord Hume"
 
@@ -40,22 +40,22 @@ fieldshow:
     leaders:
         drum majors:
         -   "Elena Zhang (eh-LEE-nah zhahn)"
-        -   "Zach Townsend"
+        -   *zachary-townsend
         -   "Derek Dressler"
 
         auxiliary captains:
-        -   "Makoto McCann (mah-KOH-to mk-CAN)"
-        -   "Sierra Sowa (Sierra SOH-wa)"
-        -   "Ayla Johnson (EYE-lah Johnson)"
+        -   *makoto-mccann
+        -   &sierra-sowa "Sierra Sowa (Sierra SOH-wa)"
+        -   &ayla-johnson "Ayla Johnson (EYE-lah Johnson)"
 
         percussion captain:
-        -   "Bailey Yang"
+        -   *bailey-yang
 
         woodwind captain:
-        -   "Alex Lee"
+        -   *alex-lee
 
         brass captain:
-        -   "Ian Crane"
+        -   *ian-crane
 
     program: "Everest"
 
@@ -64,34 +64,74 @@ fieldshow:
     content: "The Foothill High School Marching Band and Color Guard would like to thank the Foothill Band Boosters, the Pleasanton Unified School District administration, and the Local Community for all of their support."
 
 winterguard:
-    nickname: 
+    nickname: "Foothill High School Winter Guard"
 
     directors: *directors
+
+    other_directors:
+        instructed by:
+        -   "Nick Duenas"
+        -   "Kristi LaDuca"
+        -   "Alexina Manriquez"
         
     leaders:
+        captains:
+        -   *sierra-sowa
+        -   *ayla-johnson
 
-    program: 
+    program: "To Leave No Stone Unturned"
 
     music: 
+
+    content: >
+        The Foothill Guard program would like to thank their booster program for all of their help throughout the season.
+        Special thanks go to Mr. Bill Sowa for taking the lead as Guard Dad. 
 
 winterpercussion:
-    nickname: 
+    nickname: "Foothill High School Open Percussion"
 
     directors: *directors
+
+    other_directors: &other-perc-directors
+        instructed by:
+        -   "Chris Cyr"
+        -   "Charles Cachero"
+        -   "Alex Pfiefer"
+        -   "Shubham Gupta"
+        -   "Will Edmonds"
+        -   "Connor Carroll"
+        -   "Randy Chow"
+        -   "Sohrab Nawim"
         
     leaders:
+        captains:
+        -   *bailey-yang
+        -   "Allison Phan"
 
-    program: 
+    program: "Through The Eyes Of Kuhbler Ross"
 
-    music: 
+    music: "music by Mike Jackson and Kevin Shah"
+
+    content: >
+        The Foothill Percussion program would like to thank the Band Boosters for all of their help throughout the season.
+        Special thanks go out to Mr. and Mrs. Miller for taking the lead on the winter percussion season. 
 
 winterpercussion-intermediate:
-    nickname: 
+    nickname: "Foothill High School A Percussion"
 
     directors: *directors
+
+    other_directors: *other-perc-directors
         
     leaders:
+        captains:
+        -   "Claire Kim"
+        -   "Kellen Sowa"
 
-    program: 
+    program: "Adrift"
 
-    music: 
+    music: "music arranged by Chris Cyr and Connor Carrol"
+
+    content: >
+        The Foothill Percussion program would like to thank the Band Boosters for all of their help throughout the season.
+        Special thanks go out to Mr. and Mrs. Miller for taking the lead on the winter percussion season

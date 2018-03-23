@@ -33,8 +33,60 @@ percussion:
     -   ref: "foothill hs"
 
     sponsors:
-        general: []
-        trophies: []
+        general:
+        -   "Chris and Karmin Lampson"
+        -   "the Gopalswamy Family"
+        -   "the Sowa Family"
+        -   &ben-woo "Ben Woo with Salesforce"
+        -   &miller-family "the Miller family"
+        -   &kanakasabapthy-family "the Kanakasabapthy family"
+        -   &catura-family "the Catura family"
+        -   &caldwell-family "the Caldwell family"
+        -   &powell-family "the Powell family with RK Logistics Group"
+        -   &magann-family "the Magann family"
+        -   &woo-family "the Woo family"
+        -   &huey-family "the Huey family"
+
+        trophies:
+            1st place Advanced Middle School:
+            -   sponsor: *ben-woo
+
+            6th place Novice High School:
+            -   sponsor: *miller-family
+                dedication: "(Aaron, Michael, and Julie). Congratulations. Your hard work, dedication, and practice pays off."
+
+            5th place Novice High School:
+            -   sponsor: *kanakasabapthy-family
+                dedication: "We are proud to see you summit, marching up from Foothill. Love – Amma, Appa, and Niyanth"
+
+            4th place Novice High School:
+            -   sponsor: *catura-family
+                dedication: "Dedicated to Mr. Hinojosa, Mr. Nishimori, and drum line techs - Chris, Will, Charels, Alex, and Shubham"
+
+            3rd place Novice High School:
+            -   sponsor: *caldwell-family
+
+            2nd place Novice High School:
+            -   sponsor: *powell-family
+
+            1st place Novice High School:
+            -   sponsor: *powell-family
+
+            2nd place Intermediate High School:
+            -   sponsor: *magann-family
+                dedication: >
+                    FHS Winter Percussion, you are an amazing group of people and remarkably talented group of musicians. We are so
+                    proud of you! You have a bright, beautiful future ahead. Much love from the Magann Family
+
+            1st place Intermediate High School:
+            -   sponsor: *miller-family
+
+            2nd place Advanced High School:
+            -   sponsor: *woo-family
+                dedication: "We love you Melanie. YOU DO YOU!"
+
+            1st place Advanced High School:
+            -   sponsor: *huey-family
 
 guard:
     start_time: "1:30pm"
@@ -66,5 +118,11 @@ guard:
     -   ref: "foothill hs"
 
     sponsors:
-        general: []
-        trophies: []
+        general:
+        -   &sowa-family "the Sowa family"
+
+        trophies:
+            1st place Intermediate High School:
+            -   sponsor: *sowa-family
+                dedication: "Dedicated to Sierra for her hard work and dedication for being part of Guard for 7 years. We are very proud of you!!!"
+

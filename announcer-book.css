@@ -4,7 +4,7 @@ html, body {
 }
 
 .awards {
-    font-size: 16pt;
+    font-size: 12pt;
 }
 
 .error {
@@ -49,7 +49,7 @@ html, body {
 
     html, body {
         width: 8in;
-        height: 10.5in; /* 297mm; */
+        height: 11in; /* 297mm; */
     }
 }
 

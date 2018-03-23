@@ -37,12 +37,21 @@ parade:
         The students and directors wish to thank the PHS Music Boosters and the “Uniform Moms” for all of their time and hard work that made their performance possible today.
 
 winterpercussion:
-    nickname: 
+    nickname: "Petaluma High School Drumline"
 
     directors: *directors
 
+    other_directors:
+        instructed by:
+        -   "Dustin Friel"
+        -   "Nick Dibley"
+        -   "Abel Moya"
+
     leaders:
+        captains:
+        -   "Kobe Barry"
+        -   "Cheyenne Cercos"
 
-    program: 
+    program: "The Jungle"
 
-    music: 
+    music: "music by Dustin Friel"

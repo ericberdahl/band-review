@@ -181,9 +181,11 @@ css:
 
 <div class="page awards">
     <div class="header">Winter Guard - Awards</div>
+    {% if site.data.wintershow.guard.sponsors.general %}
     <div>
         Foothill High School thanks the sponsors of the {{ site.data.wintershow.citation }}: {{ site.data.wintershow.guard.sponsors.general | array_to_sentence_string }}.
     </div>
+    {% endif %}
     <div>
         [General award announcement]
         With a score of {score}, {nth} place {category} goes to [pause] {name of school}!

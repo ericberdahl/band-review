@@ -5,16 +5,23 @@ name: "Terra Nova High School"
 city: "Pacifica, CA"
 
 winterguard:
-    nickname: 
+    nickname: "Terra Nova High School Winterguard"
 
     directors: &directors
     -   "Brian Lewsadder"
 
+    other_directors:
+        instructed by:
+        -   "Jessika Mercado"
+
     leaders:
+        captains:
+        -   "Audrey Resella"
+        -   "Danika Xavier"
 
-    program: 
+    program: "Rise!"
 
-    music: 
+    music: "music by Jessika Mercado"
 
 winterpercussion:
     nickname: 

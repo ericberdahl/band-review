@@ -5,13 +5,25 @@ name: "Maria Carrillo High School"
 city: "Santa Rosa, CA"
 
 winterpercussion:
-    nickname: 
+    nickname: "Maria Carrillo High School Drumline"
 
     directors:
     -   "Matt Bringedahl"
 
+    other_directors:
+        instructed by:
+        -   "Dustin Friel"
+        -   "AJ Gonsales"
+
     leaders:
+        captains:
+        -   "Jai Dhiman"
+        -   "Sheldon Alexander"
 
-    program: 
+    program: "Dreamcatcher"
 
-    music: 
+    music: "music by Dustin Friel"
+
+    content: >
+        The Maria Carrillo High School drumline placed 3rd and 2nd in their most recent competitions.
+    

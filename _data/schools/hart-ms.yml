@@ -5,12 +5,20 @@ name: "Thomas Hart Middle School"
 city: "Pleasanton, CA"
 
 winterguard:
-    nickname: 
+    nickname: "Hart Middle School Color Guard"
 
     directors:
+    -   "Makoto McCann"
+
+    other_directors:
+        instructed by:
+        -   "Lucy Lee"
+        -   "Maya Harrell"
 
     leaders:
+        captain:
+        -   "Esha Chrabarty"
 
-    program: 
+    program: "Another Day of Sun"
 
-    music: 
+    music: "music by Justin Hurwitz"
