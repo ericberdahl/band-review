@@ -8,7 +8,7 @@ parade:
     nickname: "Viking Marching Band"
 
     directors: &directors
-    -   "Matthew Ferreira (Matthew feh-REH-ruh)"
+    -   "Matthew Ferreira (Matt feh-REH-ruh)"
 
     leaders:
         drum major:
@@ -46,12 +46,23 @@ winterguard:
 
 
 winterpercussion:
-    nickname: 
+    nickname: "Benicia Middle School Drumline"
 
-    directors: *directors
+    directors:
+    -   "Glenn Walp"
+
+    other_directors:
+        instructed by:
+        -   "Matthew Lowe"
+        -   "Zac Clay"
         
     leaders:
+        captains:
+        -   "Keith Ruxton"
+        -   "Gabe Haarberg"
+        -   "Jake Zimmerman"
+        -   "Mark Racher"
 
-    program: 
+    program: "The Wanderers"
 
-    music: 
+    music: "music arranged by Matthew Lowe and Zac Clay"

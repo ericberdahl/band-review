@@ -25,13 +25,22 @@ parade:
     music: "Castell Coch by T.J. Powell"
 
 winterpercussion:
-    nickname: 
+    nickname: "Benicia High School Percussion Ensemble"
 
     directors: *directors
+
+    other_directors:
+        instructed by:
+        -   "Ayden Bradley"
         
     leaders:
+        captains:
+        -   "Derryl"
+        -   "Tyler"
 
-    program: 
+    program: "Spark!"
 
     music: 
 
+    content: >
+        This show is dedicated in loving memory of Steve McBurney.

@@ -33,7 +33,7 @@ percussion:
     -   ref: "foothill hs"
 
     sponsors:
-        general:
+        general: &winter-show-sponsors
         -   "Chris and Karmin Lampson"
         -   "the Gopalswamy Family"
         -   "the Sowa Family"
@@ -46,6 +46,7 @@ percussion:
         -   &magann-family "the Magann family"
         -   &woo-family "the Woo family"
         -   &huey-family "the Huey family"
+        -   &sowa-family "the Sowa family"
 
         trophies:
             1st place Advanced Middle School:
@@ -118,8 +119,7 @@ guard:
     -   ref: "foothill hs"
 
     sponsors:
-        general:
-        -   &sowa-family "the Sowa family"
+        general: *winter-show-sponsors
 
         trophies:
             1st place Intermediate High School:

@@ -28,6 +28,8 @@ is directed by {{ staff_array | reverse
                               | collapse
                               | array_to_sentence_string }}
 {% comment %}Change AND to WITH for other directors {% endcomment %}
+{% if leader_array.size > 0 %}
 and led by {{ leader_array | reverse
                            | collapse
                            | array_to_sentence_string }}.
+{% endif %}

@@ -5,14 +5,21 @@ name: "Millennium High School"
 city: "Tracy, CA"
 
 winterguard:
-    nickname: 
+    nickname: "Millennium High School Winter Guard"
 
     directors: &directors
     -   "Roland Zepeda"
 
-    leaders:
+    other_directors:
+        instructed by:
+        -   "Michael McClain"
 
-    program: 
+    leaders:
+        captains:
+        -   "Yaretzy Moshan"
+        -   "Molly Contreras"
+
+    program: "Protocol"
 
     music: 
 
