@@ -95,8 +95,10 @@ guard:
     lineup:
     -   ref: "hart ms"
     -   ref: "benicia ms"
+        unit: "winterguard-novice"
     -   ref: "eleanor murray ms"
     -   ref: "benicia ms"
+        unit: "winterguard-scholastic"
     -   ref: "franklin ms"
     -   ref: "park ms"
     -   ref: "crystal ms"

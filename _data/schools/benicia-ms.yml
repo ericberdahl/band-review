@@ -7,7 +7,7 @@ city: "Benicia, CA"
 parade:
     nickname: "Viking Marching Band"
 
-    directors: &directors
+    directors:
     -   "Matthew Ferreira (Matt feh-REH-ruh)"
 
     leaders:
@@ -33,23 +33,45 @@ parade:
     content: >
         The Viking Drumline, with instructors Matt Lowe and Zac Clay, are the 2017 champions of the Northern California Band Association Advanced Winter Percussion. Instructors for the award-winning Viking Color Guard are Ben Wilkinson and Vianca Jiminez.
 
-winterguard:
-    nickname: 
+winterguard-novice:
+    nickname: "Benicia Middle School B Guard"
 
-    directors: *directors
+    directors: &winter-directors
+    -   "Glenn Walp"
+
+    other_directors: &winter-other-directors
+        instructed by:
+        -   "Ben Wilkinson"
+        -   "Vianca Jimenez"
         
     leaders:
 
-    program: 
+    program: "Malibu"
 
-    music: 
+    music: "Malibu by Miley Cyrus"
 
+winterguard-scholastic:
+    nickname: "Benicia Middle School A Guard"
 
+    directors: *winter-directors
+
+    other_directors: *winter-other-directors
+
+    other_directors:
+        instructed by:
+        -   "Ben Wilkinson"
+        -   "Vianca Jimenez"
+        
+    leaders:
+
+    program: "Rise Up"
+
+    music: "Rise Up by Andra Day"
+    
 winterpercussion:
     nickname: "Benicia Middle School Drumline"
 
-    directors:
-    -   "Glenn Walp"
+    directors: *winter-directors
 
     other_directors:
         instructed by:
