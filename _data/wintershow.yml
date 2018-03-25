@@ -104,7 +104,6 @@ guard:
     -   ref: "crystal ms"
     -   ref: "livermore hs"
     -   break: 20
-    -   ref: "dixon hs"
     -   ref: "willow glen hs"
     -   ref: "terra nova hs"
     -   ref: "american hs"
