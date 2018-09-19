@@ -1,14 +1,14 @@
 == Parade - {{school.name}}
 
-{{#unless school.parade.music}}WARNING: {{{school.name}}} is missing parade music.{{/unless}}
-{{#unless school.parade.directors}}WARNING: {{{school.name}}} has no directors.{{/unless}}
-{{#unless school.parade.leaders}}WARNING: {{{school.name}}} has no leaders.{{/unless}}
-{{#unless school.parade.nickname}}NOTE: {{{school.name}}} is missing nickname.{{/unless}}
+{{#unless school.parade.music}}WARNING: school.name}} is missing parade music.{{/unless}}
+{{#unless school.parade.directors}}WARNING: {{school.name}} has no directors.{{/unless}}
+{{#unless school.parade.leaders}}WARNING: {{school.name}} has no leaders.{{/unless}}
+{{#unless school.parade.nickname}}NOTE: {{school.name}} is missing nickname.{{/unless}}
 
-Our {{#if isFirst}}first{{else}}next{{/if}} band is the {{{school.parade.nickname}}}, from {{{school.name}}} in {{{school.city}}}.
+Our {{#if isFirst}}first{{else}}next{{/if}} band is the {{school.parade.nickname}}, from {{school.name}} in {{school.city}}.
 
 {{> leaders unit=school.parade}}
 
-The {{{school.parade.nickname}}} will perform {{{school.parade.music}}}.
+The {{school.parade.nickname}} will perform {{school.parade.music}}.
 
-{{#if school.parade.notes}}{{{school.parade.notes}}}{{else}}NOTE: {{{school.name}}} has no parade notes.{{/if}}
+{{#if school.parade.notes}}{{school.parade.notes}}{{else}}NOTE: {{school.name}} has no parade notes.{{/if}}

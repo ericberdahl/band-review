@@ -1,7 +1,7 @@
 == Parade - Open
 
 Good morning ladies and gentlemen. Welcome to the Parade Competition for the
-{{{citation}}}. We are joined today by nearly two score wonderful bands to
+{{citation}}. We are joined today by nearly two score wonderful bands to
 entertain and delight us. On behalf of Foothill High School, we wish good
 luck to all the bands performing today and hope you enjoy the competition.
 
@@ -10,13 +10,13 @@ luck to all the bands performing today and hope you enjoy the competition.
 == Parade - Presentation of the Colors
 
 At this time, please rise and give respect to the presentation of the colors.
-Presenting the colors for today's parade, please welcome {{{parade.colors}}}.
+Presenting the colors for today's parade, please welcome {{parade.colors}}.
 
 <<<
 
 == Parade - Grand Marshal
 
-Now, please welcome our Grand Marshal, {{{parade.grand_marshall}}}.
+Now, please welcome our Grand Marshal, {{parade.grand_marshall}}.
 
 <<<
 
@@ -33,17 +33,17 @@ Now, please welcome our Grand Marshal, {{{parade.grand_marshall}}}.
 
 == Parade - Close
 
-This concludes the Parade Competition for the {{{citation}}}.
+This concludes the Parade Competition for the {{citation}}.
 Thank you and congratulations to all the bands we've seen this morning, and
 thank you all for attending and cheering on these fine young performers.
 
-Parade Awards will be presented at {{{parade.awards_time}}} in the {{{parade.awards_location}}}.
+Parade Awards will be presented at {{parade.awards_time}} in the {{parade.awards_location}}.
 
 Please join us at the Foothill High School Stadium for the Field Show Competition,
-starting at {{{fieldshow.start_time}}} this afternoon and running through this evening.
+starting at {{fieldshow.start_time}} this afternoon and running through this evening.
 
-Mark your calendars to join us again next year, on {{{next_show.date}}},
-for the {{{next_show.citation}}}.  On behalf of Foothill High School,
+Mark your calendars to join us again next year, on {{next_show.date}},
+for the {{next_show.citation}}.  On behalf of Foothill High School,
 I wish you all a safe and enjoyable weekend. Good day.
 
 <<<

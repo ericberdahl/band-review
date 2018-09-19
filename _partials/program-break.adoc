@@ -1,2 +1,2 @@
-== {{{competition}}} - {{{break}}} minute break
+== {{competition}} - {{break}} minute break
 
