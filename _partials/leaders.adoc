@@ -1,0 +1,7 @@
+The {{{unit.nickname}}} is directed by {{#each unit.directors}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{.}}{{/each}}{{#each unit.staff}}, +
+{{#if @last}}and {{/if}}{{{title}}} {{#each members}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}
+{{/each}}{{/each}}
+{{#each unit.leaders}}{{#if @first}}and led by +
+{{/if}}{{#unless @first}}, +
+{{/unless}}{{#unless @first}}{{#if @last}}and {{/if}}{{/unless}}{{{title}}} {{#each members}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}
+{{/each}}{{/each}}.

@@ -7,13 +7,7 @@
 
 Our {{#if isFirst}}first{{else}}next{{/if}} band is the {{{school.parade.nickname}}}, from {{{school.name}}} in {{{school.city}}}.
 
-The {{{school.parade.nickname}}} is directed by {{#each school.parade.directors}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{.}}{{/each}}{{#each school.parade.staff}}, +
-{{#if @last}}and {{/if}}{{{title}}} {{#each members}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}
-{{/each}}{{/each}}
-{{#each school.parade.leaders}}{{#if @first}}and led by +
-{{/if}}{{#unless @first}}, +
-{{/unless}}{{#unless @first}}{{#if @last}}and {{/if}}{{/unless}}{{{title}}} {{#each members}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}
-{{/each}}{{/each}}.
+{{> leaders unit=school.parade}}
 
 The {{{school.parade.nickname}}} will perform {{{school.parade.music}}}.
 
