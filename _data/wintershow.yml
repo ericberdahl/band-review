@@ -1,7 +1,8 @@
 # Data based on version 6 of the schedule
 
-year: 2018
-citation: "2018 Foothill High School Winter Show"
+show:
+    date: "March 24th, 2018"
+    citation: "2018 Foothill High School Winter Show"
 
 next_show:
     date: "March 23rd, 2019"

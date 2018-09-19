@@ -1,7 +1,7 @@
 == Parade - Open
 
 Good morning ladies and gentlemen. Welcome to the Parade Competition for the
-{{citation}}. We are joined today by nearly two score wonderful bands to
+{{show.citation}}. We are joined today by nearly two score wonderful bands to
 entertain and delight us. On behalf of Foothill High School, we wish good
 luck to all the bands performing today and hope you enjoy the competition.
 
@@ -33,7 +33,7 @@ Now, please welcome our Grand Marshal, {{parade.grand_marshall}}.
 
 == Parade - Close
 
-This concludes the Parade Competition for the {{citation}}.
+This concludes the Parade Competition for the {{show.citation}}.
 Thank you and congratulations to all the bands we've seen this morning, and
 thank you all for attending and cheering on these fine young performers.
 
