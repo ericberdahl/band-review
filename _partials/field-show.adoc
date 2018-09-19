@@ -1,3 +1,42 @@
-== Field Show
+== Field Show - Open
 
-Not yet done!!!
+Good afternoon ladies and gentlemen. Welcome to the Field Show Competition for
+the {{show.citation}}. We are joined today by a score of talented
+bands anxious to perform. On behalf of Foothill High School, we wish good luck
+to all the bands performing today and hope you enjoy their shows.
+
+<<<
+
+{{#each fieldshow.lineup}}
+{{#if ref}}
+{{> field-entry school=(lookup ../schools ref) isFirst=@first}}
+{{else}} {{#if break}}
+{{> program-break competition="Field Show" break=break}}
+{{/if}} {{/if}}
+
+<<<
+
+{{/each}}
+
+== Field Show - End of Competition
+
+This concludes the Field Show Competition for the {{show.citation}}.
+Please stay for the Field Show Awards, presented here in 15 minutes.
+
+Whether you're from Foothill or cheering your home school, you probably know how much work it takes to hold a successful band review, where student performers can share their talent with and their love of music. Today, {{parade.count}} bands marched in parade, {{concert.count}} performed in concert, and {{fieldshow.count}} presented field shows. All this would not happen without the work of several hundred student and parent volunteers. Foothill High School thanks everyone who contributed to the success of today's Band Review. You all made it happen!
+
+<<<
+
+== Field Show - Awards
+
+Foothill High School thanks the sponsors of the {{show.citation}}: {{#each fieldshow.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
+
+(General award announcement)
+With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
+
+{{#each fieldshow.sponsors.trophies}}
+({{place}}) The {{place}} trophy is sponsored by {{#each sponsors}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{sponsor}}{{/each}}.
+{{#each sponsors}}{{#if dedication}}{{sponsor}} dedicates the {{../place}} trophy to {{{dedication}}}.{{/if}}
+{{/each}}
+
+{{/each}}

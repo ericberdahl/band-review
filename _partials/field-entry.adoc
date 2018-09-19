@@ -1,0 +1,14 @@
+== Field Show - {{school.name}}
+
+{{#unless school.fieldshow.program}}WARNING: school.name}} is missing field show program.{{/unless}}
+{{#unless school.fieldshow.directors}}WARNING: {{school.name}} has no directors.{{/unless}}
+{{#unless school.fieldshow.leaders}}WARNING: {{school.name}} has no leaders.{{/unless}}
+{{#unless school.fieldshow.nickname}}NOTE: {{school.name}} is missing nickname.{{/unless}}
+
+Now taking the field is the {{school.fieldshow.nickname}}, from {{school.name}} in {{school.city}}.
+
+{{> leaders unit=school.fieldshow}}
+
+The {{school.fieldshow.nickname}} will perform their program, {{{school.fieldshow.program}}}{{#if school.fieldshow.music}}, featuring {{{school.fieldshow.music}}}{{/if}}.
+
+{{#if school.fieldshow.notes}}{{{school.fieldshow.notes}}}{{else}}NOTE: {{school.name}} has no field notes.{{/if}}

@@ -110,31 +110,38 @@ fieldshow:
         -   "Huntington of Pleasanton"
 
         trophies:
-            1st place 5A:
+        -   place: "1st place 5A"
+            sponsors:
             -   sponsor: "the parents of Roger Li"
 
-            Grand Sweepstakes:
+        -   place: "Grand Sweepstakes"
+            sponsors:
             -   sponsor: "John Santos"
             -   sponsor: "White Castle Tours"
 
-            3rd place brass:
+        -   place: "3rd place brass"
+            sponsors:
             -   sponsor: "Huntington of Pleasanton"
             -   sponsor: "the Goebel family"
                 dedication: "the Foothill Band and their favorite trumpet section"
 
-            2nd place color guard:
+        -   place: "2nd place color guard"
+            sponsors:
             -   sponsor: "the Carnes family"
                 dedication: "Vivi -- We can't believe this is your last Band Review! We are so proud of you. We love you! Mommy, Daddy and Izzy"
             -   sponsor: "Golden State Collision"
 
-            3rd place percussion:
+        -   place: "3rd place percussion"
+            sponsors:
             -   sponsor: "Huntington of Pleasanton"
 
-            1st place percussion:
+        -   place: "1st place percussion"
+            sponsors:
             -   sponsor: "the Woo family"
                 dedication: "One band, one sound. This trophy is dedicated to our favorite Pit section"
 
-            3rd place woodwinds:
+        -   place: "3rd place woodwinds"
+            sponsors:
             -   sponsor: "Huntington of Pleasanton"
 
 concert:
