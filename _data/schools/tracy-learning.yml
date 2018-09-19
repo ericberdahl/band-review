@@ -11,13 +11,16 @@ fieldshow:
     -   "Roland Zepeda"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Justin Chen"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Yaretzy Moshan (yah-REHT-zee mow-SHAN)"
 
-        percussion captains:
+    -   title: "percussion captains"
+        members:
         -   "Josiah Adrineda (joe-ZAI-ah ah-drih-NAY-dah)"
         -   "Danny Harrison"
 

@@ -11,13 +11,16 @@ parade:
     -   "William D Burkhead"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Noah Rojas"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Max Rosenfeld"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Joshua Salgado"
 
     music: "Semper Fidelis by John Philip Sousa"
@@ -28,19 +31,25 @@ fieldshow:
     directors: *directors
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Mia Nicolacoudis (Mia nih-ko-lah-KOO-dihs)"
         -   "Katherine Butler"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Max Rosenfeld"
 
-        battery captain:
+    -   title: "battery captain"
+        members:
         -   "Noah Rojas"
 
-        front ensemble captain:
+    -   title: "front ensemble captain"
+        members:
         -   "Arturo Montes (Arturo mohn-TEZ)"
 
     program: "Welcome to The Moulin Rouge"
 
-    content: "Del Mar gives very special thanks to their awesome staff and amazing parent teams for their tireless work on behalf of the students. You are quite simply, the best!"
+    notes: >
+        Del Mar gives very special thanks to their awesome staff and amazing parent teams for their
+        tireless work on behalf of the students. You are quite simply, the best!

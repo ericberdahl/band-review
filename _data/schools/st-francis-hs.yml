@@ -11,15 +11,18 @@ fieldshow:
     -   "Javier Cerna (Javier SEHR-nah)"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Trevor Parcella (Trevor pahr-SELL-ah)"
         -   "Kae Nurge"
         -   "Jackson Butler"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Sam Ruzon"
 
-        percussion captains:
+    -   title: "percussion captains"
+        members:
         -   "Annabel Su"
         -   "Sahana Jain"
 

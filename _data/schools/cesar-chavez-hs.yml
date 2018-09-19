@@ -10,12 +10,14 @@ winterguard:
     directors:
     -   &art-coleman "Art Coleman"
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Tammy Petborisooth (TA-mee pet-BOHR-ih-sooth)"
 
     leaders:
-        captain:
+    -   title: captain
+        members:
         -   "Genevive Escalona"
 
     program: "Mirage"
@@ -30,8 +32,9 @@ winterpercussion:
     -   *art-coleman
     -   "Chris McCoy"
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Jerry Hernandez"
         -   "OnHey-Lee-O Tela (ohn-HAY-lee-oh TAY-la)"
         -   "Cris Garcia"

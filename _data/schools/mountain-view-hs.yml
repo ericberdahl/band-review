@@ -12,20 +12,25 @@ fieldshow:
     -   "Dana McDonnell"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Braydon Ross"
         -   "Jennifer Hartley"
         -   "Winn Hartford"
         -   "Alex Pun"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Joanna Sandland"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Sasha Heye (Sasha hi)"
 
     program: "Divinity, the music of Final Fantasy"
 
     music: "music by Nobuo Uematsu (noh-BOO-oh oo-eh-MAH-tsu), Dashiel Reed, Casey Brohard, and Jonathan Zuniga"
 
-    content: "The Spartan Marching Band would like to thank the Instrumental Music Parents Association for their continued support."
+    notes: >
+        The Spartan Marching Band would like to thank the Instrumental Music Parents Association for
+        their continued support.

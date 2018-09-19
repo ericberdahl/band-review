@@ -10,45 +10,53 @@ parade:
     directors: &directors
     -   "Cliff Eveland"
 
-    other_directors:
-        assistant directors:
+    staff:
+    -   title: "assistant directors"
+        members:
         -   "Nick Dibley"
         -   "Dustin Friel"
 
-        percussion instructor:
+    -   title: "percussion instructor"
+        members:
         -   "Dustin Friel"
 
-        color guard instructor:
+    -   title: "color guard instructor"
+        members:
         -   "Andrea Tobin"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Hannah Morris"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Emma Hoffman"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Kobe Barry"
 
     music: "Illinois March by Edwin Franko Goldman"
 
-    content: >
-        The students and directors wish to thank the PHS Music Boosters and the “Uniform Moms” for all of their time and hard work that made their performance possible today.
+    notes: >
+        The students and directors wish to thank the PHS Music Boosters and the "Uniform Moms" for all of their time and hard work that made their performance possible today.
 
 winterpercussion:
     nickname: "Petaluma High School Drumline"
 
     directors: *directors
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Dustin Friel"
         -   "Nick Dibley"
         -   "Abel Moya"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Kobe Barry"
         -   "Cheyenne Cercos"
 

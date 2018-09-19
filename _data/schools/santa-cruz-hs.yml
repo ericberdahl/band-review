@@ -11,18 +11,21 @@ parade:
     -   "Christina Latham (kris-TEE-nah LAY-tham)"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Emily Daniels-Flechtner (emily daniels FLECK-nehr)"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   "Anda Amorim (AHN-dah ah-MOHR-im)"
         -   "Maddie Villaverde (maddie vee-ya-VEHR-day)"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Colby Hanson"
 
     music: "B.B. and C.F. by James Ord Hume"
 
-    content: |
-        The band recently earned Showmanship Sweepstakes at their first band review.<br>
+    notes: |
+        The band recently earned Showmanship Sweepstakes at their first band review. +
         Their percussion composition is a commissioned work and is titled "Tiger" in memoriam  of dear friend and mentor Rowland Nielson.

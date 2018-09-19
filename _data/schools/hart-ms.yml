@@ -10,13 +10,15 @@ winterguard:
     directors:
     -   "Makoto McCann"
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Lucy Lee"
         -   "Maya Harrell"
 
     leaders:
-        captain:
+    -   title: "captain"
+        members:
         -   "Esha Chakrabarty (AY-shah chah-krah-BAHR-tee)"
 
     program: "Another Day of Sun"

@@ -11,19 +11,23 @@ fieldshow:
     -   "Christiana Mandler Smith"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Musa Imam-Darling"
         -   "Andrew Ngo"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   "Miyu Haguro"
         -   "Savannah Yew"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Chris Mathney (Chris MATH-nee)"
 
     program: "Heavenly Bodies"
 
     music: "three movements by Key Poulan (KEE poh-LAN)"
 
-    content: "The Westmont Marching Regiment thanks their students, parents, boosters, and administration."
+    notes: >
+        The Westmont Marching Regiment thanks their students, parents, boosters, and administration.

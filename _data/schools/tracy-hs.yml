@@ -11,7 +11,8 @@ parade:
     -   "Jeff Kumagai (Jeff KOO-muh-gai)"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Nick Mahedy (Nick mah-HEH-dee)"
 
     music: "The Black Horse Troop by John Philip Sousa"

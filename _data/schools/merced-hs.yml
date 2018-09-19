@@ -11,16 +11,19 @@ parade:
     -   "Jon Schmid"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Zachary Calzadillas"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Karena Vang"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Andrew Rocco"
     
     music: "British Eighth by Zo Elliott"
 
-    content: >
+    notes: >
         The Merced Marching 100 would like to thank their incredible boosters for all of their amazing support.

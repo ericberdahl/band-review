@@ -10,13 +10,15 @@ winterguard:
     directors:
     -   "Andrea Riley-Sorem"
 
-    other_directors:
-        instructors:
+    staff:
+    -   title: "instructors"
+        members:
         -   "Nicole Slattengren"
         -   "Maddie Rittmann"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Marena Brett-Blunt"
         -   "Teagan Del Castillo"
 
@@ -24,7 +26,7 @@ winterguard:
 
     music: "Praying by Kesha"
 
-    content: >
+    notes: >
         The guard placed second at the Granada Winter Fiesta last weekend. They are hoping to show improvement today in
         both their technique and presentation. The "Mauvelous Moonstone" Brigade would also like to thank Leslie,
         Cassie, Teagan, and Marena for their efforts as student leaders. You are loved and appreciated.
@@ -36,15 +38,17 @@ winterpercussion:
     -   "Gary Coartney"
     -   "Martin Lejano"
         
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Jacob Dowd"
         -   "Heston Kent"
         -   "Nick Mello"
         -   "Cameron Munoz"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Destani Derrico"
         -   "Aixa Ortiz"
 

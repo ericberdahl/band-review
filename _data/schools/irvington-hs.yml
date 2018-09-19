@@ -11,31 +11,37 @@ parade:
     -   "Charlie Rodda (Charlie RAH-dah)"
     -   "Adam Anaya"
 
-    other_directors:
-        marching coach:
+    staff:
+    -   title: "marching coach"
+        members:
         -   "Ben Benavides"
 
-        auxiliary coach:
+    -   title: "auxiliary coach"
+        members:
         -   "Jessica Toro"
 
-        percussion coaches:
+    -   title: "percussion coaches"
+        members:
         -   "Charles Cachero"
         -   "Eric Wong"
         -   "Hari Kuthevelil (Hari KOO-theh-veh-lihl)"
         -   "Eddie Shin"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Rukmini Bose (rook-MEE-nee Bose)"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   "Kelsey Lu"
         -   "Christina Tran"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Garrett Mark"
 
     music: "Mephistopheles by Shipley Douglas"
 
-    content: >
+    notes: >
         At last year's Foothill Band Review, Irvington earned the Music and Marching Sweepstakes. At this year's Del Mar band Review they earned the Music, Marching, and Parade sweepstakes.

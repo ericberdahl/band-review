@@ -10,12 +10,14 @@ winterguard:
     directors: &directors
     -   "Brian Lewsadder"
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Jessika Mercado"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Audrey Resella"
         -   "Danika Xavier"
 

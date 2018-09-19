@@ -10,15 +10,17 @@ winterguard:
     directors:
     -   "Maryann Peddicord"
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Laura Mendez"
         -   "Ingrid Chapman"
         -   "Susan Reimche"
         -   "Michelle Peters"
     
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Anne-Marie Chapman"
         -   "Nicole Mendez"
         -   "Kekoa Peters"
@@ -28,6 +30,6 @@ winterguard:
 
     music: "Diamonds"
 
-    content: >
+    notes: >
         Ms M gives a very special thank you to her team for all your hard work and dedication,
         and to all the parent volunteers who make it possible for us to be here. You are all awesome! Hugs and kisses from  Ms. M.

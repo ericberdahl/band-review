@@ -10,13 +10,15 @@ winterpercussion:
     directors:
     -   "Matt Bringedahl"
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Dustin Friel"
         -   "AJ Gonsales"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Jai Dhiman (JAH-ee DIH-man)"
         -   "Sheldon Alexander"
 
@@ -24,6 +26,6 @@ winterpercussion:
 
     music: "music by Dustin Friel"
 
-    content: >
+    contnotesent: >
         The Maria Carrillo High School drumline placed 3rd and 2nd in their most recent competitions.
     

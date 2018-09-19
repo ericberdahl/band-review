@@ -11,12 +11,16 @@ parade:
     -   "Amberie Mitchell"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Sara Mameesh"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Casey Quevedo"
 
     music: "Brighton Beach by William Latham"
 
-    content: "WHS Marching Band recently won 3rd place at Newark Days Parade and a Silver Award at Forum Music Festival."
+    notes: >
+        WHS Marching Band recently won 3rd place at Newark Days Parade and a Silver Award at
+        Forum Music Festival.

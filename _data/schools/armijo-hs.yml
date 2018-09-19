@@ -11,7 +11,8 @@ parade:
     -   "Louise B Jacob"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Maiann Le (MY-anne LAY)"
 
     music: "Number 3 Fighter Squadron by Brian Cunningham"

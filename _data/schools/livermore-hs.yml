@@ -11,18 +11,22 @@ parade:
     -   "Justin Enright"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Katie Seidl"
 
-        assistant drum major:
+    -   title: "assistant drum major"
+        members:
         -   "Luca Cuppoletti"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   "Hannah Dolan"
         -   "Serena Dolan"
         -   "Siliyah Greer"
 
-        percussion captains:
+    -   title: "percussion captains"
+        members:
         -   "Alex Paterson"
         -   "Maverik Wilson"
 
@@ -33,13 +37,15 @@ winterguard:
 
     directors: *directors
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Aislinn Rocamora"
         -   "Luis Cardoza" 
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Hannah Dolan"
         -   "Siliyah Greer"
 
@@ -52,15 +58,17 @@ winterpercussion:
 
     directors: *directors
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "David Alatorre"
         -   "Anthony Maganon"
         -   "Steven Drummer"
         -   "Sarah Culbertson"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Elijah Maravilla"
         -   "Alex Paterson"
 
@@ -68,5 +76,5 @@ winterpercussion:
 
     music: 
 
-    content: >
+    notes: >
         Livermore High School would like to thank the Foothill parents, students and staff for hosting a fantastic winter show.

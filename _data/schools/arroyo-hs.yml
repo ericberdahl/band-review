@@ -11,16 +11,20 @@ fieldshow:
     -   "Vernon Miyata"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Miranda Rocco"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Mya Chaplin (MY-uh Chaplin)"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Mikaela Gomez (mee-kuh-ELLA Gomez)"
 
-        co-captain:
+    -   title: "co-captain"
+        members:
         -   "Dillan Starr"
 
     program: "1001 Arabian Nights"

@@ -11,14 +11,17 @@ parade:
     -   "Carmel Pajita (kahr-MEL pah-HEE-tah)"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Diana Guanzon (dy-EH-nah gwahn-ZOHN)"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   "Jasmine Chavez"
         -   "Kenny Renderos"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Alyssa Catap (ah-LIE-sah cah-TOHP)"
 
     music: "Slavic Woman's Farewell by Vasily Agapkin (vah-SEE-lee ah-GAHP-kihn)"

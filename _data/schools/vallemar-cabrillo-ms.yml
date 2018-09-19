@@ -11,7 +11,8 @@ parade:
     -   "Samantha Johns"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Madi Morales (MAH-dee moh-RAH-les)"
         -   "Aiden Sablinsky (AY-dehn sahb-LIHN-skee)"
 

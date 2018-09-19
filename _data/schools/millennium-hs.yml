@@ -10,12 +10,14 @@ winterguard:
     directors: &directors
     -   "Roland Zepeda"
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Michael McClain"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Yaretzy Moshan"
         -   "Molly Contreras"
 
@@ -29,12 +31,14 @@ winterpercussion:
 
     directors: *directors
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Andrew Cardwell"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Josiah Adrineda"
         -   "Daniel Harrison"
 

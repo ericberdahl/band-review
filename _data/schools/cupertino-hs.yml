@@ -11,16 +11,19 @@ fieldshow:
     -   "Gilbert Iruegas"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Serena Sawhney (Serena SAW-nee)"
         -   "Emmanuel Muriuki (Emmanuel moo-ree-OO-kee)"
         -   "Rohan Mohta"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   "Sue Chiang"
         -   "Stephanie Chen"
 
-        percussion captains:
+    -   title: "percussion captains"
+        members:
         -   "Joshua Franklin"
         -   "Aviv Benchorin (Aviv ben-CHO-rin)"
         -   "Christine Fang"
@@ -29,4 +32,8 @@ fieldshow:
 
     music: "the Beautiful Earth, the Fall of the Earth, Reflection, and Hope"
 
-    content: "The Cupertino High School students and staff would like to thank all their awesome band parents and volunteers for all they do to make to make wonderful nights like tonight possible. They would also like to wish all bands a safe and successful rest of the marching band season."
+    notes: >
+        The Cupertino High School students and staff would like to thank all their awesome
+        band parents and volunteers for all they do to make to make wonderful nights like
+        tonight possible. They would also like to wish all bands a safe and successful rest of
+        the marching band season.

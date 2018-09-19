@@ -11,28 +11,33 @@ parade:
     -   "Kyle Hildebrant"
     -   "Edwin Serrano"
 
-    other_directors:
-        auxiliary staff:
+    staff:
+    -   title: "auxiliary staff"
+        members:
         -   "Briana Yamagata"
         -   "Noah Peters"
 
-        percussion staff:
+    -   title: "percussion staff"
+        members:
         -   "John Howard"
         -   "Kyle Baldwin"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Stephen Aguirre (Stephen ah-GIH-rray)"
         -   "John-Paul Jacinto (John Paul ha-SEEN-to)"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   "Audrey Lai"
         -   "Jocelyn Suazo (Jocelyn SOO-AH-zo)"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Dean De Leon (Dean day lay-OHN)"
     
     music: "Anima Nobile (AH-nee-mah no-BEE-lay) by Jack C. Lentini"
 
-    content: >
+    notes: >
         The Crusader Band would like to dedicate this performance to those affected in the recent North Bay Fires and those still affected from the hurricanes. The Crusader Band is in preparation for the London New Year's Day Parade in 2019, to which they were invited this year!

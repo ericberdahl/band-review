@@ -11,7 +11,8 @@ winterguard:
     -   "Sondra Van Meter"
 
     leaders:
-        captain:
+    -   title: "captain"
+        members:
         -   "Minnie Martinez"
 
     program: "Duel of Fates, a star wars classic"

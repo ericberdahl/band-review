@@ -11,26 +11,31 @@ parade:
     -   "Matthew Ferreira (Matt feh-REH-ruh)"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Meadow Iñiquez (Meadow ihn-YEE-kehz)"
 
-        flag captain:
+    -   title: "flag captain"
+        members:
         -   "Ava Cheung (AY-vah chung)"
 
-        id captains:
+    -   title: "id captains"
+        members:
         -   "Haley Reid"
         -   "Grace Gardner"
 
-        rifle captains:
+    -   title: "rifle captains"
+        members:
         -   "Hanna Lucero (Hanna loo-SEH-roh)"
         -   "Tara Thompson"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Keith Ruxton"
 
     music: "Coburger March by Michael Haydn"
     
-    content: >
+    notes: >
         The Viking Drumline, with instructors Matt Lowe and Zac Clay, are the 2017 champions of the Northern California Band Association Advanced Winter Percussion. Instructors for the award-winning Viking Color Guard are Ben Wilkinson and Vianca Jiminez.
 
 winterguard-novice:
@@ -39,8 +44,9 @@ winterguard-novice:
     directors: &winter-directors
     -   "Glenn Walp"
 
-    other_directors: &winter-other-directors
-        instructed by:
+    staff: &winter-other-directors
+    -   title: "instructed by"
+        members:
         -   "Ben Wilkinson"
         -   "Vianca Jimenez"
         
@@ -55,13 +61,8 @@ winterguard-scholastic:
 
     directors: *winter-directors
 
-    other_directors: *winter-other-directors
+    staff: *winter-other-directors
 
-    other_directors:
-        instructed by:
-        -   "Ben Wilkinson"
-        -   "Vianca Jimenez"
-        
     leaders:
 
     program: "Rise Up"
@@ -73,13 +74,15 @@ winterpercussion:
 
     directors: *winter-directors
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Matthew Lowe"
         -   "Zac Clay"
         
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Keith Ruxton"
         -   "Gabe Haarberg"
         -   "Jake Zimmerman"

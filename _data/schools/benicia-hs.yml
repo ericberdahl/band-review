@@ -11,14 +11,17 @@ parade:
     -   "Patrick Martin"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Andrew Sante"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Mackenzie Ludlam"
         -   "Katie Simonson"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Andrew Sante"
         -   "Tyler Ward"
 
@@ -29,12 +32,14 @@ winterpercussion:
 
     directors: *directors
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Ayden Bradley"
         
     leaders:
-        captains:
+    -   title: captains
+        members:
         -   "Derryl"
         -   "Tyler"
 
@@ -42,5 +47,5 @@ winterpercussion:
 
     music: 
 
-    content: >
+    notes: >
         This show is dedicated in loving memory of Steve McBurney.

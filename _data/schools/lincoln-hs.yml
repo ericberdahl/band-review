@@ -13,16 +13,19 @@ parade:
     -   "Cody Johnson"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Jackson Goudreau (jackson guh-DROW)"
 
-        color guard captain:
+    -   title: "color guard captain"
+        members:
         -   "Fatima Vela (FAH-tih-ma VEH-lah)"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "D'Angelo Aguilera (DAHN-geh-low ah-gee-LEH-ra)"
 
     music: "Colchester Castle by Earl Bringham"
 
-    content: >
+    notes: >
         The Lincoln High School Marching Band and Auxiliary would like to thank all of the parents, teachers, and supporters throughout the Stockton community that help our program continue to develop and thrive.

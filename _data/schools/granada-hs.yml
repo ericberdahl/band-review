@@ -11,13 +11,16 @@ parade:
     -   "Thomas E Jones"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Rachel Myers"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Jessica Vassalo"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Joaquin Roldan-Cruz"
 
     music: "Through Bolts and Bars, by Ernst Urbach"

@@ -11,7 +11,8 @@ parade:
     -   "Nicholas Tocco (Nicolas TOE-ko)"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Katrina Granados (Katrina grah-NAH-dohs)"
 
     music: "A Slavic Farewell by Vasily Agapkin (vah-SEE-lee ah-GAHP-kihn)"
@@ -21,12 +22,14 @@ winterguard:
 
     directors: *directors
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Fatima Shefa"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Paulina Pen-ya"
         -   "Jazmyne Stone"
 

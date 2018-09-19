@@ -10,20 +10,25 @@ parade:
     directors:
     -   "Erik Bertelson"
 
-    other_directors:
-        color guard instructors:
+    staff:
+    -   title: "color guard instructors"
+        members:
         -   "Kayla Dow"
         -   "Meghan Van Lare"
         -   "Michala Viazzo (mih-CAH-lah Viazzo)"
         -   "Amanda Dow"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Gabe Rouse (Gabe RAH-oo-s)"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Mourissa DeMello"
 
     music: "United Nations by K.L. King"
 
-    content: "The Roaddrunner Band gives special thanks to their Color Guard Instructors, Kayla Dow, Meghan Van Lare, Michala Viazzo, and Amanda Dow."
+    notes: >
+        The Roaddrunner Band gives special thanks to their Color Guard Instructors, Kayla Dow,
+        Meghan Van Lare, Michala Viazzo, and Amanda Dow.

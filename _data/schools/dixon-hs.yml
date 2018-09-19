@@ -10,14 +10,16 @@ winterguard:
     directors:
     -   "Kevin Butt"
 
-    other_directors:
-        instucted by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Alex Shaffer"
 
     leaders:
-        captain:
+    -   title: "captain"
+        members:
         -   "Vicky Villapando"
 
-    program: "Don’t Let Go"
+    program: "Don't Let Go"
 
     music: 

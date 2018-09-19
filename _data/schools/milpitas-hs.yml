@@ -12,17 +12,20 @@ fieldshow:
     -   "Emily Moore"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Pratima Prabala (prah-TEE-mah prah-BAH-lah)"
         -   "Lisa Yan"
         -   "Neal Xia (Neal shah)"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   "Alana Leong"
         -   "Virginia Lien"
         -   "Ziyuan Lei (SHIH-wahn lee)"
 
-        percussion captains:
+    -   title: "percussion captains"
+        members:
         -   "Serena Wang"
         -   "Anna Kaenjak (Anna CAIN-jack)"
         -   "Jonathan Lai"
@@ -31,4 +34,5 @@ fieldshow:
 
     music: "Crossing the Desert, Sandstorm, Gifts of the Earth, and Agrabah by Lewis Norfleet and Alan Keown"
 
-    content: "The Milpitas High School Marching Band hopes you enjoy this musical journey through the exotic landscapes and famous folk stories of Persia, India, the Middle East, and Egypt."
+    notes: >
+        The Milpitas High School Marching Band hopes you enjoy this musical journey through the exotic landscapes and famous folk stories of Persia, India, the Middle East, and Egypt.

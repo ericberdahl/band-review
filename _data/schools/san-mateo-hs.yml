@@ -10,13 +10,15 @@ winterguard:
     directors:
     -   "Til Tribuzi (TIHL trih-BYOO-zee)"
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Becca Vogt"
         -   "Samantha Radzikowski"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Bella Jimenez"
         -   "Shelley Suazo"
 

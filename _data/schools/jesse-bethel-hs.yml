@@ -11,14 +11,16 @@ parade:
     -   "Alan Perkins"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Jared Tating (Jared TAY-ting)"
 
-        auxilliary captains:
+    -   title: "auxilliary captains"
+        members:
         -   "Hope David"
         -   "Jasmine Cahayag (Jasmine cah-HAH-yahg)"
 
     music: "Black Granite by James L. Hosay"
 
-    content: >
+    notes: >
         The Jesse Bethel High School Band program has a rich tradition of excellence spanning more than 20 years.

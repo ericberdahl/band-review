@@ -11,7 +11,8 @@ fieldshow:
     -   "Phil Vallejo"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Aaron Hilliker"
         -   "Annyher Reyes-Ayala (A-nee-air RAY-ess ah-YAH-lah)"
 

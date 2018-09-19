@@ -11,13 +11,16 @@ fieldshow:
     -   "Ed Cloyd"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Krista Cleary"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Bridgett Taylor"
 
-        percussion captains:
+    -   title: "percussion captains"
+        members:
         -   "Ian McMurry"
         -   "Nick Bortolon (Nick bohr-TOE-lohn)"
 

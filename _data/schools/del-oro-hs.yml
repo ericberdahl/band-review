@@ -11,10 +11,12 @@ fieldshow:
     -   "Ben Duncan"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Katherine Hanson"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Ashley Parrott"
 
     program: "Beyond the Threshold"

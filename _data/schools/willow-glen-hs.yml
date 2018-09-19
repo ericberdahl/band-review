@@ -10,17 +10,22 @@ winterguard:
     directors:
     -   "Kelly Walker"
 
-    other_directors:
-        instructors:
+    staff:
+    -   title: "instructors"
+        members:
         -   "Rachel Okada"
         -   "Johnny Rodriguez"
     
     leaders:
-        captain:
+    -   title: "captain"
+        members:
         -   "Helen Beaton Grover"
 
     program: "On Top of the World"
 
     music: 
 
-    content: "This is the inaugural season for the Willow Glen High School Color Guard and the first time they have competed in the school’s 68 year history. Please welcome Willow Glen to NCBA Winterguard!"
+    notes: >
+        This is the inaugural season for the Willow Glen High School Color Guard and the first time
+        they have competed in the school's 68 year history. Please welcome Willow Glen to NCBA
+        Winterguard!

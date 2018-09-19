@@ -11,12 +11,14 @@ parade:
     -   "Jonathan Raman (Jonathan RAY-man)"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Angela Gonzalez (Angela gohn-ZAH-lez"
         -   "Nikolas Beedy (NIH-koh-las BEE-dee)"
         -   "Fernanda Tapia (fehr-NAHN-dah TAH-pia)"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Wilder Loayza (WHILE-dehr loh-AY-zah)"
 
     music: "His Honor by Henry Fillmore"

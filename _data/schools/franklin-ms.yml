@@ -10,13 +10,15 @@ winterguard:
     directors: &directors
     -   "Jorge Ruvalcaba"
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Alexandria Dees"
         -   "Shawnee Garris"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Grace Thompson"
         -   "Rubi Diaz"
 
@@ -33,12 +35,14 @@ winterpercussion:
 
     directors: *directors
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Lexus Miguel"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Claire Gonzales"
         -   "Jericho Santos"
 
@@ -46,6 +50,6 @@ winterpercussion:
 
     music: 
 
-    content: >
+    notes: >
         Franklin Middle School Percussion would like to thank all the parents for their support!
 

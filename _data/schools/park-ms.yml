@@ -10,23 +10,28 @@ winterguard:
     directors:
     -   "Nikki Andreatta-Jacques (NIH-kee ahn-dray-AH-tah JAX)"
 
-    other_directors:
-      teacher advisor:
-      - "Kathe Saylor"
+    staff:
+    -   title: "teacher advisor"
+        members:
+        -   "Kathe Saylor"
 
-      assistant coaches:
-      - "Tristynn Gonzaga"
-      - "Zia Tedford"
+    -   title: "assistant coaches"
+        members:
+        -   "Tristynn Gonzaga"
+        -   "Zia Tedford"
 
-      equipment manager:
-      - "Kyle Andreatta-Jacques (KAI-uhl ahn-dray-AH-tah JAX)"
+    -   title: "equipment manager"
+        members:
+        -   "Kyle Andreatta-Jacques (KAI-uhl ahn-dray-AH-tah JAX)"
 
     leaders:
-      captain:
-      - "Brooke Rotolo"
+    -   title: "captain"
+        members:
+        -   "Brooke Rotolo"
 
-      co-captain:
-      - "Kylie Sousa"
+    -   title: "co-captain"
+        members:
+        -   "Kylie Sousa"
 
     program: "Waving through a window"
 

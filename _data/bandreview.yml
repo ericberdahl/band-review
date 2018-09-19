@@ -1,5 +1,8 @@
 year: 2017
 citation: "43rd Annual Foothill High School Band Review"
+announcer:
+    name: "Eric Berdahl"
+    email: "berdahl@serendipity.org"
 
 next_show:
     date: "October 27th, 2018"
@@ -29,42 +32,42 @@ parade:
         trophies: []
 
     lineup:
-    -   ref: "foothill hs"
-    -   ref: "solano ms"
-    -   ref: "vallemar cabrillo ms"
-    -   ref: "wells ms"
-    -   ref: "benicia ms"
-    -   ref: "turlock christian hs"
-    -   ref: "tracy hs"
-    -   ref: "northgate hs"
-    -   ref: "del mar hs"
+    -   ref: "foothill-hs"
+    -   ref: "solano-ms"
+    -   ref: "vallemar-cabrillo-ms"
+    -   ref: "wells-ms"
+    -   ref: "benicia-ms"
+    -   ref: "turlock-christian-hs"
+    -   ref: "tracy-hs"
+    -   ref: "northgate-hs"
+    -   ref: "del-mar-hs"
     -   break: 15
-    -   ref: "jesse bethel hs"
-    -   ref: "capuchino hs"
-    -   ref: "vallejo hs"
-    -   ref: "hayward hs"
-    -   ref: "franklin hs stockton"
-    -   ref: "merrill f west hs"
+    -   ref: "jesse-bethel-hs"
+    -   ref: "capuchino-hs"
+    -   ref: "vallejo-hs"
+    -   ref: "hayward-hs"
+    -   ref: "franklin-hs-stockton"
+    -   ref: "merrill-f-west-hs"
     -   break: 15
-    -   ref: "petaluma hs"
-    -   ref: "archbishop riordan hs"
-    -   ref: "santa cruz hs"
-    -   ref: "north monterey county hs"
-    -   ref: "las plumas oroville alliance"
-    -   ref: "buhach colony hs"
-    -   ref: "washington hs"
+    -   ref: "petaluma-hs"
+    -   ref: "archbishop-riordan-hs"
+    -   ref: "santa-cruz-hs"
+    -   ref: "north-monterey-cty-hs"
+    -   ref: "las-plumas-oroville-alliance"
+    -   ref: "buhach-colony-hs"
+    -   ref: "washington-hs"
     -   break: 15
-    -   ref: "benicia hs"
-    -   ref: "granada hs"
-    -   ref: "livermore hs"
-    -   ref: "pitman hs"
-    -   ref: "lincoln hs"
-    -   ref: "merced hs"
-    -   ref: "irvington hs"
-    -   ref: "fairfield hs"
-    -   ref: "armijo hs"
-    -   ref: "rodriguez hs"
-    -   ref: "franklin hs"
+    -   ref: "benicia-hs"
+    -   ref: "granada-hs"
+    -   ref: "livermore-hs"
+    -   ref: "pitman-hs"
+    -   ref: "lincoln-hs"
+    -   ref: "merced-hs"
+    -   ref: "irvington-hs"
+    -   ref: "fairfield-hs"
+    -   ref: "armijo-hs"
+    -   ref: "rodriguez-hs"
+    -   ref: "franklin-hs"
 
 fieldshow:
     start_time: "3:30pm"
@@ -72,30 +75,30 @@ fieldshow:
     count: 21
 
     lineup:
-    -   ref: "san benito hs"
-    -   ref: "tracy learning"
-    -   ref: "arroyo hs"
-    -   ref: "del mar hs"
-    -   ref: "lodi hs"
-    -   ref: "phillip burton hs"
+    -   ref: "san-benito-hs"
+    -   ref: "tracy-learning"
+    -   ref: "arroyo-hs"
+    -   ref: "del-mar-hs"
+    -   ref: "lodi-hs"
+    -   ref: "phillip-burton-hs"
     -   break: 15
-    -   ref: "westmont hs"
-    -   ref: "st francis hs"
-    -   ref: "monte vista hs"
-    -   ref: "del oro hs"
-    -   ref: "vintage hs"
+    -   ref: "westmont-hs"
+    -   ref: "st-francis-hs"
+    -   ref: "monte-vista-hs"
+    -   ref: "del-oro-hs"
+    -   ref: "vintage-hs"
     -   break: 30
-    -   ref: "james c enochs hs"
-    -   ref: "ponderosa hs"
-    -   ref: "dublin hs"
-    -   ref: "john f kennedy hs"
-    -   ref: "mountain view hs"
-    -   ref: "rodriguez hs"
+    -   ref: "james-c-enochs-hs"
+    -   ref: "ponderosa-hs"
+    -   ref: "dublin-hs"
+    -   ref: "john-f-kennedy-hs"
+    -   ref: "mountain-view-hs"
+    -   ref: "rodriguez-hs"
     -   break: 15
-    -   ref: "milpitas hs"
-    -   ref: "granite bay hs"
-    -   ref: "cupertino hs"
-    -   ref: "foothill hs"
+    -   ref: "milpitas-hs"
+    -   ref: "granite-bay-hs"
+    -   ref: "cupertino-hs"
+    -   ref: "foothill-hs"
 
     sponsors:
         general:
@@ -119,7 +122,7 @@ fieldshow:
 
             2nd place color guard:
             -   sponsor: "the Carnes family"
-                dedication: "Vivi -- We can’t believe this is your last Band Review! We are so proud of you. We love you! Mommy, Daddy and Izzy"
+                dedication: "Vivi -- We can't believe this is your last Band Review! We are so proud of you. We love you! Mommy, Daddy and Izzy"
             -   sponsor: "Golden State Collision"
 
             3rd place percussion:

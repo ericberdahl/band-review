@@ -10,21 +10,25 @@ parade:
     directors:
     -   "Sara Stafford"
 
-    other_directors:
-        auxiliary director:
+    staff:
+    -   title: "assistant director"
+        members:
         -   "Jessica Aduan"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Christopher Cheung"
 
-        assistant drum major:
+    -   title: "assistant drum major"
+        members:
         -   "Cameron Paloutzian (Cameron pah-LOOT-zee-an)"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Jade Wong"
     
     music: "The Directorate by John Philip Sousa"
 
-    content: >
+    notes: >
         The Marching Broncos ask that the judges and audience, "Please watch us until we stop playing, DON'T MISS OUR VERY SPECIAL ENDING!!! Enjoy The Directorate"

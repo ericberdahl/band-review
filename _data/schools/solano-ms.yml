@@ -11,32 +11,42 @@ parade:
     -   "Merlin Chestnut"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Rachel Contreras"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Jemima Wong (jeh-MEE-mah wong)"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Rachel Contreras"
 
     music: "Sound Brilliante by Walters and Foster"
 
-    content: "The Titan Band would like to thank our staff who gives of their time freely and, we hope, happily: Percussion Head Kaman Poon, Omar Andrade, Kimberly Zavala, and Diana Guzman. And a special \"thanks\" to our parents and boosters."
+    notes: >
+        The Titan Band would like to thank our staff who gives of their time freely and, we hope, happily:
+        Percussion Head Kaman Poon, Omar Andrade, Kimberly Zavala, and Diana Guzman. And a special "thanks"
+        to our parents and boosters.
 
 winterpercussion:
     nickname: "Solano Middle School Winter Percussion Ensemble"
 
     directors: *directors
 
-    other_directors:
-        caption head:
+    staff:
+    -   title: "caption head"
+        members:
         -   "Kaman Poon"
-        instructor:
+    
+    -   title: "instructor"
+        members:
         -   "Omar Andrade"
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Rachel Contreras"
         -   "Cynthia Ngu"
 

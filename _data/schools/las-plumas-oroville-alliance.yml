@@ -11,14 +11,17 @@ parade:
     -   "Michael Taylor"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Hailey McGovern"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   "Hailey Floyd"
         -   "Natalie Saechao"
 
-        percussion captains:
+    -   title: "percussion captains"
+        members:
         -   "Paul Elesha"
         -   "Jonavin Thao"
 

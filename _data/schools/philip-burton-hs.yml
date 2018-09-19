@@ -10,15 +10,18 @@ fieldshow:
     directors: &directors
     -   "Manuel Young"
 
-    other_directors: &other-directors
-        assistant director:
+    staff: &other-directors
+    -   title: "assistant director"
+        members:
         -   "Divesh Karamchandani (dih-VESH ka-ram-chahn-DAHN-ee)"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Patricia Fong"
 
-        percussion captains:
+    -   title: "percussion captains"
+        members:
         -   "Byronne Rodrigo"
         -   "Sabrina Du"
 
@@ -26,17 +29,22 @@ fieldshow:
 
     music: "Distorted, Reve Rouge, and Urban"
 
-    content: "This year marks the first year for the Burton High School Marching Band's participation in a competitive field show event. The band program is only 6 years old and has since placed top three in various winter percussion and winter guard competitions since 2015, and the band program was the recipient of the 2015 GRAMMY Signature Schools Enterprise Award."
+    notes: >
+        This year marks the first year for the Burton High School Marching Band's participation in
+        a competitive field show event. The band program is only 6 years old and has since placed
+        top three in various winter percussion and winter guard competitions since 2015, and the band
+        program was the recipient of the 2015 GRAMMY Signature Schools Enterprise Award.
 
 winterpercussion:
     nickname: "Burton Winter Percussion Ensemble"
 
     directors: *directors
 
-    other_directors: *other-directors
+    staff: *other-directors
 
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Byronne Rodrigo"
         -   "Sabrina Du"
 

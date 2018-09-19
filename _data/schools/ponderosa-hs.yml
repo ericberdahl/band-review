@@ -11,21 +11,27 @@ fieldshow:
     -   "Santiago Sabado"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Andrew Maloney"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   "Quinn McCallion (Quinn mk-KAH-lee-on)"
         -   "Rebecca Cox"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Kailey Magentti (KAY-lee mah-JEN-tee)"
 
-        wind captain:
+    -   title: "wind captain"
+        members:
         -   "Jacob Lambert"
 
     program: "Casting Call!"
 
     music:
 
-    content: "The band is wearing their brand new uniforms and would like to thank all the parent volunteers for all they do. We couldn’t do it without you!"
+    notes: >
+        The band is wearing their brand new uniforms and would like to thank all the parent volunteers
+        for all they do. We couldn't do it without you!

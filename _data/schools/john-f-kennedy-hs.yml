@@ -11,8 +11,9 @@ fieldshow:
     -   "Jeremy Hammond"
     -   "Bryan Stroh"
 
-    other_directors:
-        staff members:
+    staff:
+    -   title: "staff members"
+        members:
         -   "George Miles"
         -   "Sheryl Miles"
         -   "Alex Pfiefer"
@@ -35,7 +36,8 @@ fieldshow:
         -   "Jack the Pumpkin King"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Peter Fuller"
         -   "Calvin Elliott"
         -   "Grace Hibbs"

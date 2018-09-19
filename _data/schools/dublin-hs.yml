@@ -11,7 +11,8 @@ fieldshow:
     -   "Melissa Williams"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Noah Villanueava"
         -   "Vade Shah"
         -   "Yeseo Han"

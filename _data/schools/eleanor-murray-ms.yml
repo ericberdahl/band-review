@@ -10,8 +10,9 @@ winterguard:
     directors: &directors
     -   "Tony Cavalleri (Tony ca-vah-LEHR-ee)"
     
-    other_directors:
-        instucted by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Lilyann Day"
         -   "Carina Chen"
         -   "Spandana Janapati"
@@ -28,7 +29,8 @@ winterpercussion:
     directors: *directors
         
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Jordan Rivero"
         -   "Valerie Ding"
 

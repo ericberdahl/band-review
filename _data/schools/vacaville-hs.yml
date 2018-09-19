@@ -10,19 +10,21 @@ winterguard:
     directors:
     -   "Tricia Crist"
 
-    other_directors:
-        instructors:
+    staff:
+    -   title: "instructors"
+        members:
         -   "Jeremy Garrett"
         -   "Taylor Allen"
 
     leaders:
-        captain:
+    -   title: "captain"
+        members:
         -   "Reyna Rodriguez"
 
     program: "A Wonder of the World"
 
     music: "music by Phillip Glass"
 
-    content: >
+    notes: >
         Vacaville Bulldog Color Guard thanks the parents and friends for your awesome support this season! We all are very proud of you ladies.
         Go Bulldogs and kick some boo-dee! SEVEN!!!!

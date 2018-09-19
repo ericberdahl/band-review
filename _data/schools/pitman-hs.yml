@@ -11,15 +11,18 @@ parade:
     -   "Ruben Modesto"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "John Fish"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Brooklynn Adame"
         -   "Kassidy Santos"
         -   "Crystal Chavez"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Kyle Soriano"
         -   "Isai Rodriquez"
 

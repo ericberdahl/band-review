@@ -10,30 +10,38 @@ parade:
     directors:
     -   "Jacqueline Hairston (JAH-kuh-lehn HEHR-ston)"
 
-    other_directors:
-        assistant director:
+    staff:
+    -   title: "assistant director"
+        members:
         -   "Jerren Robinson (JEHR-rehn Robinson)"
 
-        guard instructor:
+    -   title: "guard instructor"
+        members:
         -   "Alejandro Moreno"
 
-        percussion instructor:
+    -   title: "percussion instructor"
+        members:
         -   "Edward Brown"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   "Arianna Flores"
 
-        flag captain:
+    -   title: "flag captain"
+        members:
         -   "Azelea Acevez (ah-ZAY-lee-ah ah-SEH-vez)"
 
-        rifle captain:
+    -   title: "rifle captain"
+        members:
         -   "Brisa Madrigal"
 
-        id captain:
+    -   title: "id captain"
+        members:
         -   "Magali Pizana"
 
-        percussion captains:
+    -   title: "percussion captains"
+        members:
         -   "John Swing"
         -   "Julio Garibay (Julio gah-REE-bay)"
 

@@ -12,24 +12,29 @@ parade:
     -   "Erik Nishimori (EH-rik nih-shee-MO-ree)"
 
     leaders:
-        drum major:
+    -   title: "drum major"
+        members:
         -   &zachary-townsend "Zachary Townsend"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   &makoto-mccann "Makoto McCann (mah-KOH-to mk-CAN)"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   &bailey-yang "Bailey Yang"
 
-        woodwind captain:
+    -   title: "woodwind captain"
+        members:
         -   &alex-lee "Alex Lee"
 
-        brass captain:
+    -   title: "brass captain"
+        members:
         -   &ian-crane "Ian Crane"
     
     music: "B.B. and C.F. March by James Ord Hume"
 
-    content: >
+    notes: >
         The Foothill High School Marching Band and Color Guard would like to thank the Foothill Band Boosters, the Pleasanton Unified District administration, and their Local Community for all of their support throughout the season.
 
 fieldshow:
@@ -38,44 +43,54 @@ fieldshow:
     directors: *directors
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Elena Zhang (eh-LEE-nah zhahn)"
         -   *zachary-townsend
         -   "Derek Dressler"
 
-        auxiliary captains:
+    -   title: "auxiliary captains"
+        members:
         -   *makoto-mccann
         -   &sierra-sowa "Sierra Sowa (Sierra SOH-wa)"
         -   &ayla-johnson "Ayla Johnson (EYE-lah Johnson)"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   *bailey-yang
 
-        woodwind captain:
+    -   title: "woodwind captain"
+        members:
         -   *alex-lee
 
-        brass captain:
+    -   title: "brass captain"
+        members:
         -   *ian-crane
 
     program: "Everest"
 
     music: "original music by Mike Jackson and Kevin Shah"
 
-    content: "The Foothill High School Marching Band and Color Guard would like to thank the Foothill Band Boosters, the Pleasanton Unified School District administration, and the Local Community for all of their support."
+    notes: >
+        The Foothill High School Marching Band and Color Guard would like to thank the Foothill Band
+        Boosters, the Pleasanton Unified School District administration, and the Local Community for
+        all of their support.
 
 winterguard:
     nickname: "Foothill High School Winter Guard"
 
     directors: *directors
 
-    other_directors:
-        instructed by:
+    staff:
+    -   title: "instructed by"
+        members:
         -   "Nick Duenas"
         -   "Kristi LaDuca"
         -   "Alexina Manriquez"
         
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   *sierra-sowa
         -   *ayla-johnson
 
@@ -83,7 +98,7 @@ winterguard:
 
     music: 
 
-    content: >
+    notes: >
         The Foothill Guard program would like to thank their booster program for all of their help throughout the season.
         Special thanks go to Mr. Bill Sowa for taking the lead as Guard Dad. 
 
@@ -92,8 +107,9 @@ winterpercussion:
 
     directors: *directors
 
-    other_directors: &other-perc-directors
-        instructed by:
+    staff: &other-perc-directors
+    -   title: "instructed by"
+        members:
         -   "Chris Cyr"
         -   "Charles Cachero"
         -   "Alex Pfiefer"
@@ -104,7 +120,8 @@ winterpercussion:
         -   "Sohrab Nawim"
         
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   *bailey-yang
         -   "Allison Phan"
 
@@ -112,7 +129,7 @@ winterpercussion:
 
     music: "music by Mike Jackson and Kevin Shah"
 
-    content: >
+    notes: >
         The Foothill Percussion program would like to thank the Band Boosters for all of their help throughout the season.
         Special thanks go out to Mr. and Mrs. Miller for taking the lead on the winter percussion season. 
 
@@ -121,10 +138,11 @@ winterpercussion-intermediate:
 
     directors: *directors
 
-    other_directors: *other-perc-directors
+    staff: *other-perc-directors
         
     leaders:
-        captains:
+    -   title: "captains"
+        members:
         -   "Claire Kim"
         -   "Kellen Sowa"
 
@@ -132,6 +150,6 @@ winterpercussion-intermediate:
 
     music: "music arranged by Chris Cyr and Connor Carrol"
 
-    content: >
+    notes: >
         The Foothill Percussion program would like to thank the Band Boosters for all of their help throughout the season.
         Special thanks go out to Mr. and Mrs. Miller for taking the lead on the winter percussion season

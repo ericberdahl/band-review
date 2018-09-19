@@ -11,19 +11,23 @@ fieldshow:
     -   "Lynn Lewis"
 
     leaders:
-        drum majors:
+    -   title: "drum majors"
+        members:
         -   "Elizabeth Gozalez"
         -   "Sylvie Vo"
         -   "Daven Kashyap (DAH-ven KAH-shop)"
 
-        auxiliary captain:
+    -   title: "auxiliary captain"
+        members:
         -   "Nayana Tiwari (nah-YAH-nah tih-WAH-ree)"
 
-        percussion captain:
+    -   title: "percussion captain"
+        members:
         -   "Alaina Boone (ah-LA-EE-nah BOO-nh)"
 
     program: "Flight 19: Lost in the Bermuda Triangle"
 
     music: "Undertow, Lightning Fields, and Wine Dark Sea by John Mackey"
 
-    content: "Emerald Brigade would like to dedicate their performance to their friend Chance who could not be with us tonight."
+    notes: >
+        Emerald Brigade would like to dedicate their performance to their friend Chance who could not be with us tonight.

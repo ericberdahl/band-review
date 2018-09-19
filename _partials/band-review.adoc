@@ -1,0 +1,6 @@
+= 2017 Foothill Band Review Announcer's Book
+{{{announcer.name}}} <{{{announcer.email}}}>
+
+{{> parade}}
+
+{{> field-show}}
