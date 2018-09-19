@@ -9,6 +9,6 @@ Our {{#if isFirst}}first{{else}}next{{/if}} band is the {{school.parade.nickname
 
 {{> leaders unit=school.parade}}
 
-The {{school.parade.nickname}} will perform {{school.parade.music}}.
+The {{school.parade.nickname}} will perform {{{school.parade.music}}}.
 
-{{#if school.parade.notes}}{{school.parade.notes}}{{else}}NOTE: {{school.name}} has no parade notes.{{/if}}
+{{#if school.parade.notes}}{{{school.parade.notes}}}{{else}}NOTE: {{school.name}} has no parade notes.{{/if}}
