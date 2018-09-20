@@ -1,6 +1,6 @@
 == Field Show - {{school.name}}
 
-{{#unless school.fieldshow.program}}WARNING: school.name}} is missing field show program.{{/unless}}
+{{#unless school.fieldshow.program}}WARNING: {{school.name}} is missing field show program.{{/unless}}
 {{#unless school.fieldshow.directors}}WARNING: {{school.name}} has no directors.{{/unless}}
 {{#unless school.fieldshow.leaders}}WARNING: {{school.name}} has no leaders.{{/unless}}
 {{#unless school.fieldshow.nickname}}NOTE: {{school.name}} is missing nickname.{{/unless}}
