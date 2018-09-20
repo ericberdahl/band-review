@@ -1,4 +1,7 @@
 # Data based on version 6 of the schedule
+announcer:
+    name: "Eric Berdahl"
+    email: "berdahl@serendipity.org"
 
 show:
     date: "March 24th, 2018"
@@ -11,27 +14,29 @@ next_show:
 percussion:
     start_time: "9:00am"
 
+    count: 18
+
     lineup:
-    -   ref: "eleanor murray ms"
-    -   ref: "solano ms"
-    -   ref: "crystal ms"
-    -   ref: "franklin ms"
-    -   ref: "benicia ms"
+    -   ref: "eleanor-murray-ms"
+    -   ref: "solano-ms"
+    -   ref: "crystal-ms"
+    -   ref: "franklin-ms"
+    -   ref: "benicia-ms"
     -   break: 10
-    -   ref: "phillip burton hs"
-    -   ref: "millennium hs"
-    -   ref: "american hs"
-    -   ref: "concord hs"
-    -   ref: "maria carrillo hs"
-    -   ref: "livermore hs"
+    -   ref: "phillip-burton-hs"
+    -   ref: "millennium-hs"
+    -   ref: "american-hs"
+    -   ref: "concord-hs"
+    -   ref: "maria-carrillo-hs"
+    -   ref: "livermore-hs"
     -   break: 20
-    -   ref: "petaluma hs"
-    -   ref: "mission sj hs"
-    -   ref: "cesar chavez hs"
-    -   ref: "benicia hs"
-    -   ref: "foothill hs"
+    -   ref: "petaluma-hs"
+    -   ref: "mission-sj-hs"
+    -   ref: "cesar-chavez-hs"
+    -   ref: "benicia-hs"
+    -   ref: "foothill-hs"
         unit: "winterpercussion-intermediate"
-    -   ref: "foothill hs"
+    -   ref: "foothill-hs"
 
     sponsors:
         general: &winter-show-sponsors
@@ -50,81 +55,100 @@ percussion:
         -   &sowa-family "the Sowa family"
 
         trophies:
-            1st place Advanced Middle School:
+        -   place: "1st place Advanced Middle School"
+            sponsors:
             -   sponsor: *ben-woo
 
-            6th place Novice High School:
+        -   place: "6th place Novice High School"
+            sponsors:
             -   sponsor: *miller-family
-                dedication: "(Aaron, Michael, and Julie). Congratulations. Your hard work, dedication, and practice pays off."
+                dedication: >
+                    (Aaron, Michael, and Julie). Congratulations. Your hard work, dedication, and practice pays off.
 
-            5th place Novice High School:
+        -   place: "5th place Novice High School"
+            sponsors:
             -   sponsor: *kanakasabapthy-family
-                dedication: "We are proud to see you summit, marching up from Foothill. Love – Amma, Appa, and Niyanth"
+                dedication: >
+                    We are proud to see you summit, marching up from Foothill. Love – Amma, Appa, and Niyanth.
 
-            4th place Novice High School:
+        -   place: "4th place Novice High School"
+            sponsors:
             -   sponsor: *catura-family
-                dedication: "Dedicated to Mr. Hinojosa, Mr. Nishimori, and drum line techs - Chris, Will, Charels, Alex, and Shubham"
+                dedication: >
+                    Dedicated to Mr. Hinojosa, Mr. Nishimori, and drum line techs - Chris, Will, Charels, Alex, and Shubham.
 
-            3rd place Novice High School:
+        -   place: "3rd place Novice High School"
+            sponsors:
             -   sponsor: *caldwell-family
 
-            2nd place Novice High School:
+        -   place: "2nd place Novice High School"
+            sponsors:
             -   sponsor: *powell-family
 
-            1st place Novice High School:
+        -   place: "1st place Novice High School"
+            sponsors:
             -   sponsor: *powell-family
 
-            2nd place Intermediate High School:
+        -   place: "2nd place Intermediate High School"
+            sponsors:
             -   sponsor: *magann-family
                 dedication: >
-                    FHS Winter Percussion, you are an amazing group of people and remarkably talented group of musicians. We are so
-                    proud of you! You have a bright, beautiful future ahead. Much love from the Magann Family
+                    FHS Winter Percussion, you are an amazing group of people and remarkably talented group of musicians.
+                    We are so proud of you! You have a bright, beautiful future ahead. Much love from the Magann Family.
 
-            1st place Intermediate High School:
+        -   place: "1st place Intermediate High School"
+            sponsors:
             -   sponsor: *miller-family
 
-            2nd place Advanced High School:
+        -   place: "2nd place Advanced High School"
+            sponsors:
             -   sponsor: *woo-family
-                dedication: "We love you Melanie. YOU DO YOU!"
+                dedication: >
+                    We love you Melanie. YOU DO YOU!
 
-            1st place Advanced High School:
+        -   place: "1st place Advanced High School"
+            sponsors:
             -   sponsor: *huey-family
 
 guard:
     start_time: "1:30pm"
 
+    count: 21
+
     lineup:
-    -   ref: "hart ms"
-    -   ref: "benicia ms"
+    -   ref: "hart-ms"
+    -   ref: "benicia-ms"
         unit: "winterguard-novice"
-    -   ref: "eleanor murray ms"
-    -   ref: "benicia ms"
+    -   ref: "eleanor-murray-ms"
+    -   ref: "benicia-ms"
         unit: "winterguard-scholastic"
-    -   ref: "franklin ms"
-    -   ref: "park ms"
-    -   ref: "crystal ms"
-    -   ref: "livermore hs"
+    -   ref: "franklin -ms"
+    -   ref: "park-ms"
+    -   ref: "crystal-ms"
+    -   ref: "livermore-hs"
     -   break: 20
-    -   ref: "willow glen hs"
-    -   ref: "terra nova hs"
-    -   ref: "american hs"
-    -   ref: "concord hs"
-    -   ref: "cesar chavez hs"
-    -   ref: "freedom hs"
-    -   ref: "hayward hs"
+    -   ref: "willow-glen-hs"
+    -   ref: "terra-nova-hs"
+    -   ref: "american-hs"
+    -   ref: "concord-hs"
+    -   ref: "cesar-chavez-hs"
+    -   ref: "freedom-hs"
+    -   ref: "hayward-hs"
     -   break: 20
-    -   ref: "antioch hs"
-    -   ref: "millennium hs"
-    -   ref: "san mateo hs"
-    -   ref: "mission sj hs"
-    -   ref: "vacaville hs"
-    -   ref: "foothill hs"
+    -   ref: "antioch-hs"
+    -   ref: "millennium-hs"
+    -   ref: "san mateo-hs"
+    -   ref: "mission sj-hs"
+    -   ref: "vacaville-hs"
+    -   ref: "foothill-hs"
 
     sponsors:
         general: *winter-show-sponsors
 
         trophies:
-            1st place Intermediate High School:
+        -   place: "1st place Intermediate High School"
+            sponsors:
             -   sponsor: *sowa-family
-                dedication: "Dedicated to Sierra for her hard work and dedication for being part of Guard for 7 years. We are very proud of you!!!"
-
+                dedication: >
+                    Dedicated to Sierra for her hard work and dedication for being part of Guard for 7 years.
+                    We are very proud of you!!!
