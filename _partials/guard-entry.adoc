@@ -1,4 +1,4 @@
-== Winter Percussion - {{school.name}}
+== Winter Guard - {{school.name}}
 
 {{#unless unit}}IMPORTANT: {{school.name}} has no unit.{{/unless}}
 {{#unless unit.program}}WARNING: {{school.name}} is missing a program name.{{/unless}}
@@ -10,11 +10,11 @@ Now taking the floor is the {{unit.nickname}}, from {{school.name}} in {{school.
 
 {{> leaders unit=unit}}
 
-The {{unit.nickname}} will perform their program, {{{unit.program}}}{{#if unit.music}}, featuring {{unit.music}}{{/if}}.
+The {{unit.nickname}} will perform {{{unit.program}}}{{#if unit.music}}, featuring {{unit.music}}{{/if}}.
 
-{{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{school.name}} has no percussion notes.{{/if}}
+{{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{school.name}} has no guard notes.{{/if}}
 
 (wait for cue from judge) +
 Are the judges ready? (wait for cue from judge) +
-{{school.name}}, is your percussion unit ready? (wait for cue from judge) +
+{{school.name}}, is your guard unit ready? (wait for cue from judge) +
 Performing their {{year}} show, {{{unit.program}}}, NCBA is proud to present the {{unit.nickname}}.
