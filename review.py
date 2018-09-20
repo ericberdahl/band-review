@@ -31,10 +31,13 @@ def collectPartials(basePath, compiler):
                 partials[filename] = compiler.compile(readUTF8(os.path.join(root, f)))
     return partials
 
-def buildBook(eventDataPath, schoolDataDir, partialsDir, rootPartial):
+def buildBook(eventDataPath, schoolDataDir, partialsDir, rootPartial, outputDir):
     rootTemplate = '{{> ' + rootPartial + ' }}'
-    adocFilepath = rootPartial + '-book.adoc'
-    pdfFilepath = rootPartial + '-book.pdf'
+    adocFilepath = os.path.join(outputDir, rootPartial + '-book.adoc')
+    pdfFilepath = os.path.join(outputDir, rootPartial + '-book.pdf')
+
+    if (not os.path.exists(outputDir)):
+        os.makedirs(outputDir)
 
     compiler = pybars.Compiler()
 
@@ -59,17 +62,18 @@ def buildBook(eventDataPath, schoolDataDir, partialsDir, rootPartial):
         ])
 
 def main(argv):
-    bandReviewDataPath = '../_data/bandreview.yml'
+    bandReviewDataPath = './_data/bandreview.yml'
     bandReviewPartial = 'band-review'
 
-    winterShowDataPath = '../_data/wintershow.yml'
+    winterShowDataPath = './_data/wintershow.yml'
     winterShowPartial = 'winter-show'
 
-    schoolDataDir = '../_data/schools'
-    partialsDir = '../_partials'
+    schoolDataDir = './_data/schools'
+    partialsDir = './_partials'
+    outputDir = './_books'
 
-    buildBook(bandReviewDataPath, schoolDataDir, partialsDir, bandReviewPartial)
-    buildBook(winterShowDataPath, schoolDataDir, partialsDir, winterShowPartial)
+    buildBook(bandReviewDataPath, schoolDataDir, partialsDir, bandReviewPartial, outputDir)
+    buildBook(winterShowDataPath, schoolDataDir, partialsDir, winterShowPartial, outputDir)
 
 if __name__ == "__main__":
 	main(sys.argv)
