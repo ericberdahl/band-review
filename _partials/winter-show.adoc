@@ -1,0 +1,6 @@
+= {{show.citation}} Announcer's Book: {{show.date}}
+{{announcer.name}} <{{announcer.email}}>
+
+{{> percussion}}
+
+{{> guard}}

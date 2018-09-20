@@ -1,0 +1,38 @@
+== Winter Percussion - Open
+
+Good morning ladies and gentlemen. Welcome to the Percussion Competition for
+the {{show.citation}}. We are joined today by {{percussion.count}} talented
+units anxious to perform and entertain. On behalf of Foothill High School, we wish good luck
+to all the units performing today and hope you enjoy their shows.
+
+<<<
+
+{{#each percussion.lineup}}
+{{#if ref}}
+{{> percussion-entry school=(lookup ../schools ref) isFirst=@first}}
+{{else}} {{#if break}}
+{{> program-break competition="Winter Percussion" break=break}}
+{{/if}} {{/if}}
+
+<<<
+
+{{/each}}
+
+== Winter Percussion - End of Competition
+
+This concludes the Percussion Competition for the {{show.citation}}.
+Please stay for the Percussion Awards, presented here in 20 minutes, and for the Color Guard competition,
+beginning at {{guard.start_time}}.
+
+<<<
+
+== Winter Percussion - Awards
+
+Foothill High School thanks the sponsors of the {{show.citation}}: {{#each percussion.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
+
+(General award announcement)
+With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
+
+{{> trophy-sponsors trophies=percussion.sponsors.trophies}}
+
+<<<
