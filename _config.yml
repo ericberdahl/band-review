@@ -1,8 +1,0 @@
-plugins:
-  - "jekyll-tidy"
-
-timezone: "America/Los_Angeles"
-
-collections:
-
-defaults:

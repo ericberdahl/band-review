@@ -1,7 +1,0 @@
-{% unless include.unit %}
-    <div class="error">Error! Winter Guard not found! : {{include.ref | inspect}}</div>
-{% else %}
-    {% unless include.unit.program %}
-        <div class="missing">Missing! {{include.school.name}} is missing winter guard program name.</div>
-    {% endunless %}
-{% endunless %}

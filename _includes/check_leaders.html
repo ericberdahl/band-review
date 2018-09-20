@@ -1,9 +1,0 @@
-{% assign directors = include.unit.directors | default: include.school.directors %}
-{% assign other_directors = include.unit.other_directors | default: include.school.other_directors %}
-{% assign leaders = include.unit.leaders | default: include.school.leaders %}
-{% unless directors %}
-    <div class="missing">Missing! {{include.school.name}} has no directors</div>
-{% endunless %}
-{% unless leaders %}
-    <div class="missing">Missing! {{include.school.name}} has no leaders</div>
-{% endunless %}
