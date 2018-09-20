@@ -34,9 +34,18 @@ Foothill High School thanks the sponsors of the {{show.citation}}: {{#each field
 (General award announcement)
 With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
 
-{{#each fieldshow.sponsors.trophies}}
-({{place}}) The {{place}} trophy is sponsored by {{#each sponsors}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{sponsor}}{{/each}}.
-{{#each sponsors}}{{#if dedication}}{{sponsor}} dedicates the {{../place}} trophy to {{{dedication}}}.{{/if}}
-{{/each}}
+{{> trophy-sponsors trophies=fieldshow.sponsors.trophies}}
 
-{{/each}}
+<<<
+
+== Field Show - Close
+
+This concludes the {{show.citation}}. Thank you and congratulations
+to all the bands we’ve seen today, and thank you all for attending and cheering
+on these fine young performers.
+
+Mark your calendars to join us again next year, on {{next_show.date}},
+for the {{next_show.citation}}. On behalf of Foothill High School,
+I wish you all a safe and enjoyable weekend. Good night.
+
+<<<
