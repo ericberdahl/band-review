@@ -9,7 +9,11 @@ to all the units performing today and hope you enjoy their shows.
 
 {{#each percussion.lineup}}
 {{#if ref}}
-{{> percussion-entry school=(lookup ../schools ref) isFirst=@first}}
+{{#if unit}}
+{{> percussion-entry school=(lookup ../schools ref) unit=(lookup (lookup ../schools ref) unit) year=../show.year isFirst=@first}}
+{{else}}
+{{> percussion-entry school=(lookup ../schools ref) unit=(lookup (lookup ../schools ref) 'winterpercussion') year=../show.year isFirst=@first}}
+{{/if}}
 {{else}} {{#if break}}
 {{> program-break competition="Winter Percussion" break=break}}
 {{/if}} {{/if}}

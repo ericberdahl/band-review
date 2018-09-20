@@ -1,20 +1,20 @@
 == Winter Percussion - {{school.name}}
 
-{{#unless school.winterpercussion}}IMPORTANT: {{school.name}} has no winter percussion entry.{{/unless}}
-{{#unless school.winterpercussion.program}}WARNING: {{school.name}} is missing percussion program.{{/unless}}
-{{#unless school.winterpercussion.directors}}WARNING: {{school.name}} has no directors.{{/unless}}
-{{#unless school.winterpercussion.leaders}}WARNING: {{school.name}} has no leaders.{{/unless}}
-{{#unless school.winterpercussion.nickname}}NOTE: {{school.name}} is missing nickname.{{/unless}}
+{{#unless unit}}IMPORTANT: {{school.name}} has no winter percussion entry.{{/unless}}
+{{#unless unit.program}}WARNING: {{school.name}} is missing percussion program.{{/unless}}
+{{#unless unit.directors}}WARNING: {{school.name}} has no directors.{{/unless}}
+{{#unless unit.leaders}}WARNING: {{school.name}} has no leaders.{{/unless}}
+{{#unless unit.nickname}}NOTE: {{school.name}} is missing nickname.{{/unless}}
 
-Now taking the floor is the {{school.winterpercussion.nickname}}, from {{school.name}} in {{school.city}}.
+Now taking the floor is the {{unit.nickname}}, from {{school.name}} in {{school.city}}.
 
-{{> leaders unit=school.winterpercussion}}
+{{> leaders unit=unit}}
 
-The {{school.winterpercussion.nickname}} will perform their program, {{{school.winterpercussion.program}}}{{#if school.percussion.music}}, featuring {{school.winterpercussion.music}}{{/if}}.
+The {{unit.nickname}} will perform their program, {{{unit.program}}}{{#if unit.music}}, featuring {{unit.music}}{{/if}}.
 
-{{#if school.winterpercussion.notes}}{{{school.winterpercussion.notes}}}{{else}}NOTE: {{school.name}} has no percussion notes.{{/if}}
+{{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{school.name}} has no percussion notes.{{/if}}
 
 (wait for cue from judge) +
 Are the judges ready? (wait for cue from judge) +
 {{school.name}}, is your percussion unit ready? (wait for cue from judge) +
-Performing their {{../year}} show, {{{school.winterpercussion.program}}}, NCBA is proud to present the {{school.winterpercussion.nickname}}.
+Performing their {{year}} show, {{{unit.program}}}, NCBA is proud to present the {{unit.nickname}}.
