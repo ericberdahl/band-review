@@ -5,6 +5,8 @@ name: "Cesar Chavez High School"
 city: "Stockton, CA"
 
 winterguard:
+    last-updated: 2018
+
     nickname: "Cesar Chavez Winterguard"
 
     directors:
@@ -26,6 +28,8 @@ winterguard:
 
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Cesar Chavez Winter Percussion"
 
     directors:

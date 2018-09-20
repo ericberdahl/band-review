@@ -5,5 +5,7 @@ name: "Bella Vista High School"
 city: "Fair Oaks, CA"
 
 parade:
-  directors:
-  - "Mark Calvo"
+    last-updated: 0
+
+    directors:
+    -   "Mark Calvo"

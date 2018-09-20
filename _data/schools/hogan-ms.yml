@@ -5,6 +5,8 @@ name: "Hogan Middle School"
 city: "Vallejo, CA"
 
 parade:
+    last-updated: 0
+
     nickname:
 
     directors:

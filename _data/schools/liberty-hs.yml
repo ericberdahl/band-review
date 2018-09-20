@@ -5,6 +5,8 @@ name: "Liberty High School"
 city: "Brentwood, CA"
 
 parade:
+    last-updated: 0
+
     nickname: "Liberty Lions Marching Pride"
 
     directors:

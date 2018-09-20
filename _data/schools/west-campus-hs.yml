@@ -5,5 +5,7 @@ name: "West Campus High School"
 city: "Sacramento, CA"
 
 parade:
+    last-updated: 0
+
     directors:
     -   "John Ousley"

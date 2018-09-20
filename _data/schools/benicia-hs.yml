@@ -5,6 +5,8 @@ name: "Benicia High School"
 city: "Benicia, CA"
 
 parade:
+    last-updated: 2017
+
     nickname: "Panther Marching Band"
 
     directors: &directors
@@ -28,6 +30,8 @@ parade:
     music: "Castell Coch by T.J. Powell"
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Benicia High School Percussion Ensemble"
 
     directors: *directors

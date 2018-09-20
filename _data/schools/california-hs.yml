@@ -5,8 +5,10 @@ name: "California High School"
 city: "San Ramon, CA"
 
 parade:
-  nickname: "California High School Marching Ensemble and Colorguard"
+    last-updated: 0
 
-  directors:
-  - "Kent Johnson"
-  - "Ramiro Barrera"
+    nickname: "California High School Marching Ensemble and Colorguard"
+
+    directors:
+    -   "Kent Johnson"
+    -   "Ramiro Barrera"

@@ -5,6 +5,8 @@ name: "American High School"
 city: "Fremont, CA"
 
 winterguard:
+    last-updated: 2018
+
     nickname: "American Eagles Winter Guard"
 
     directors: &directors
@@ -28,6 +30,8 @@ winterguard:
         American Eagles Winter Guard won the Mission San Jose Winter Review Grand Sweepstakes
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "American Eagles Winter Percussion"
 
     directors: *directors

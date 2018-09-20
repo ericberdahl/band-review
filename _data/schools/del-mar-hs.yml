@@ -5,6 +5,8 @@ name: "Del Mar High School"
 city: "San Jose, CA"
 
 parade:
+    last-updated: 2017
+
     nickname: "Del Mar High School Marching Band and Colorguard"
 
     directors: &directors
@@ -26,6 +28,8 @@ parade:
     music: "Semper Fidelis by John Philip Sousa"
 
 fieldshow:
+    last-updated: 2017
+
     nickname: "Del Mar High School Marching Band and Colorguard"
 
     directors: *directors

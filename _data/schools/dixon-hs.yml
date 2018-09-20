@@ -5,6 +5,8 @@ name: "Dixon High School"
 city: "Dixon, CA"
 
 winterguard:
+    last-updated: 0
+
     nickname: "Dixon High Winter Guard"
 
     directors:

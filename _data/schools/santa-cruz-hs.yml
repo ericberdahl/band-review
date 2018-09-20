@@ -5,6 +5,8 @@ name: "Santa Cruz High School"
 city: "Santa Cruz, CA"
 
 parade:
+    last-updated: 2017
+
     nickname: "Cardinal Regiment"
 
     directors:

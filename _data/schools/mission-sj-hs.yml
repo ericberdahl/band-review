@@ -5,6 +5,8 @@ name: "Mission San Jose High School"
 city: "Fremont, CA"
 
 winterguard:
+    last-updated: 2018
+
     nickname: "Mission San Jose Winter Guard"
 
     directors: &directors
@@ -37,6 +39,8 @@ winterguard:
         Performing Arts Parent Board member. Joan's voice and advice is heard at the start of our show.
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Mission San Jose Percussion Unit"
 
     directors: *directors

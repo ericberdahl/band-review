@@ -5,6 +5,8 @@ name: "Millennium High School"
 city: "Tracy, CA"
 
 winterguard:
+    last-updated: 2018
+
     nickname: "Millennium High School Winter Guard"
 
     directors: &directors
@@ -27,6 +29,8 @@ winterguard:
 
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Millennium High Percussion Ensemble"
 
     directors: *directors

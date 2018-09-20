@@ -5,5 +5,7 @@ name: "Templeton High School"
 city: "Templeton, CA"
 
 parade:
+    last-updated: 0
+
     directors:
     -   "David Landers"

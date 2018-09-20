@@ -5,6 +5,8 @@ name: "El Dorado High School"
 city: "Placerville, CA"
 
 parade:
+    last-updated: 0
+
     nickname: "Cougar Marching Band"
 
     directors:

@@ -5,6 +5,8 @@ name: "Jefferson Middle School"
 city: "Tracy, CA"
 
 parade:
+    last-updated: 0
+
     nickname: "Wildcat Marching Band"
 
     directors:

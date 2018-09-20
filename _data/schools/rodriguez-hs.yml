@@ -5,6 +5,8 @@ name: "Rodriguez High School"
 city: "Fairfield, CA"
 
 parade:
+    last-updated: 2017
+
     nickname: "Rodriguez Entertainment Unit"
 
     directors: &directors
@@ -47,6 +49,8 @@ parade:
 
 
 fieldshow:
+    last-updated: 2017
+
     nickname: "Rodriguez Entertainment Unit"
 
     directors: *directors

@@ -5,6 +5,8 @@ name: "Livermore High School"
 city: "Livermore, CA"
 
 parade:
+    last-updated: 2017
+
     nickname: "Cowboy Marching Band"
 
     directors: &directors
@@ -33,6 +35,8 @@ parade:
     music: "Block M March by Jerry Bilik"
 
 winterguard:
+    last-updated: 2018
+
     nickname: "Livermore Winter Guard"
 
     directors: *directors
@@ -54,6 +58,8 @@ winterguard:
     music: "Come Sail Away by Styx"
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Livermore High School Drumline"
 
     directors: *directors

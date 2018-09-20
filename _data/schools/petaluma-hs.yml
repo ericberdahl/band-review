@@ -5,6 +5,8 @@ name: "Petaluma High School"
 city: "Petaluma, CA"
 
 parade:
+    last-updated: 2017
+
     nickname: "Trojan Marching Band and Color Guard"
 
     directors: &directors
@@ -43,6 +45,8 @@ parade:
         The students and directors wish to thank the PHS Music Boosters and the "`Uniform Moms`" for all of their time and hard work that made their performance possible today.
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Petaluma High School Drumline"
 
     directors: *directors

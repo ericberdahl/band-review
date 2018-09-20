@@ -5,6 +5,8 @@ name: "Foothill High School"
 city: "Pleasanton, CA"
 
 parade:
+    last-updated: 2017
+
     nickname: &band-nickname "Foothill High School Marching Band and Color Guard"
 
     directors: &directors
@@ -38,6 +40,8 @@ parade:
         The Foothill High School Marching Band and Color Guard would like to thank the Foothill Band Boosters, the Pleasanton Unified District administration, and their Local Community for all of their support throughout the season.
 
 fieldshow:
+    last-updated: 2017
+
     nickname: *band-nickname
 
     directors: *directors
@@ -77,6 +81,8 @@ fieldshow:
         all of their support.
 
 winterguard:
+    last-updated: 2018
+
     nickname: "Foothill High School Winter Guard"
 
     directors: *directors
@@ -103,6 +109,8 @@ winterguard:
         Special thanks go to Mr. Bill Sowa for taking the lead as Guard Dad. 
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Foothill High School Open Percussion"
 
     directors: *directors
@@ -134,6 +142,8 @@ winterpercussion:
         Special thanks go out to Mr. and Mrs. Miller for taking the lead on the winter percussion season. 
 
 winterpercussion-intermediate:
+    last-updated: 2018
+
     nickname: "Foothill High School A Percussion"
 
     directors: *directors

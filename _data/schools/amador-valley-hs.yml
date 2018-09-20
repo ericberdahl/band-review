@@ -5,6 +5,8 @@ name: "Amador Valley High School"
 city: "Pleasanton, CA"
 
 parade:
-  directors:
-  - "Jonathan Grantham"
-  - "Patrick Dandrea (Patrick dan-DRAY-uh)"
+    last-updated: 0
+
+    directors:
+    -   "Jonathan Grantham"
+    -   "Patrick Dandrea (Patrick dan-DRAY-uh)"

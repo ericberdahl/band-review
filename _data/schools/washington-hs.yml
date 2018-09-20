@@ -5,6 +5,8 @@ name: "Washington High School"
 city: "Fremont, CA"
 
 parade:
+    last-updated: 2017
+
     nickname: "WHS Marching Band"
 
     directors:

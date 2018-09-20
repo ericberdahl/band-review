@@ -5,6 +5,8 @@ name: "Terra Nova High School"
 city: "Pacifica, CA"
 
 winterguard:
+    last-updated: 2018
+
     nickname: "Terra Nova High School Winterguard"
 
     directors: &directors
@@ -24,14 +26,3 @@ winterguard:
     program: "Rise!"
 
     music: "music by Jessika Mercado"
-
-winterpercussion:
-    nickname: 
-
-    directors: *directors
-
-    leaders:
-
-    program: 
-
-    music: 

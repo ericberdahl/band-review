@@ -5,6 +5,8 @@ name: "Franklin High School"
 city: "Elk Grove, CA"
 
 parade:
+    last-updated: 2017
+
     nickname: "Wildcats Soundpower Marching Band"
 
     directors:
@@ -30,6 +32,8 @@ parade:
 
 
 winterguard:
+    last-updated: 0
+
     nickname: "Freedom High School Winter Guard"
 
     directors:

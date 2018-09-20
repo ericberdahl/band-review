@@ -5,6 +5,8 @@ name: "Phillip Burton High School"
 city: "San Francisco, CA"
 
 fieldshow:
+    last-updated: 2017
+
     nickname: "Puma Marching Band"
 
     directors: &directors
@@ -36,6 +38,8 @@ fieldshow:
         program was the recipient of the 2015 GRAMMY Signature Schools Enterprise Award.
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Burton Winter Percussion Ensemble"
 
     directors: *directors

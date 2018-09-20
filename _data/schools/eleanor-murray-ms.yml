@@ -5,6 +5,8 @@ name: "Eleanor Murray Fallon Middle School"
 city: "Dublin, CA"
 
 winterguard:
+    last-updated: 2018
+
     nickname: "Fallon Middle School Colorguard"
 
     directors: &directors
@@ -24,6 +26,8 @@ winterguard:
     music: 
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Mustang Drumline"
 
     directors: *directors

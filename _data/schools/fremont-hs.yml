@@ -5,6 +5,8 @@ name: "Fremont High School"
 city: "Sunnyvale, CA"
 
 parade:
+    last-updated: 0
+
     nickname:
 
     directors:

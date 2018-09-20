@@ -5,6 +5,8 @@ name: "Franklin Middle School"
 city: "Vallejo, CA"
 
 winterguard:
+    last-updated: 2018
+
     nickname: "Franklin Middle School Color guard"
 
     directors: &directors
@@ -31,6 +33,8 @@ winterguard:
 
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Franklin Middle School Percussion"
 
     directors: *directors

@@ -5,6 +5,8 @@ name: "Solano Middle School"
 city: "Vallejo, CA"
 
 parade:
+    last-updated: 2017
+
     nickname: "Titan Band"
 
     directors: &directors
@@ -31,6 +33,8 @@ parade:
         to our parents and boosters.
 
 winterpercussion:
+    last-updated: 2018
+
     nickname: "Solano Middle School Winter Percussion Ensemble"
 
     directors: *directors

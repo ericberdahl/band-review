@@ -5,5 +5,7 @@ name: "Whitney High School"
 city: "Rocklin, CA"
 
 parade:
+    last-updated: 0
+
     directors:
     -   "Kris Harper"
