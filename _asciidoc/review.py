@@ -59,12 +59,17 @@ def buildBook(eventDataPath, schoolDataDir, partialsDir, rootPartial):
         ])
 
 def main(argv):
-    eventDataPath = '../_data/bandreview.yml'
+    bandReviewDataPath = '../_data/bandreview.yml'
+    bandReviewPartial = 'band-review'
+
+    winterShowDataPath = '../_data/wintershow.yml'
+    winterShowPartial = 'winter-show'
+
     schoolDataDir = '../_data/schools'
     partialsDir = '../_partials'
-    rootPartial = 'band-review'
 
-    buildBook(eventDataPath, schoolDataDir, partialsDir, rootPartial)
+    buildBook(bandReviewDataPath, schoolDataDir, partialsDir, bandReviewPartial)
+    buildBook(winterShowDataPath, schoolDataDir, partialsDir, winterShowPartial)
 
 if __name__ == "__main__":
 	main(sys.argv)
