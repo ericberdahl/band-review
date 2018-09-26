@@ -22,7 +22,7 @@ Now, please welcome our Grand Marshal, {{parade.grand_marshall}}.
 
 {{#each parade.lineup}}
 {{#if ref}}
-{{> parade-entry school=(lookup ../schools ref) isFirst=@first}}
+{{> parade-entry school=(lookup ../_schools ref) isFirst=@first}}
 {{else}} {{#if break}}
 {{> program-break competition="Parade" break=break}}
 {{/if}} {{/if}}

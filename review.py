@@ -19,7 +19,7 @@ def collectViewdata(eventDataPath, schoolDataDir):
             filename, extension = os.path.splitext(f)
             if (extension == '.yml'):
                 schools[filename] = yaml.load(readUTF8(os.path.join(root, f)))
-    data['schools'] = schools
+    data['_schools'] = schools
     return data
 
 def collectPartials(basePath, compiler):

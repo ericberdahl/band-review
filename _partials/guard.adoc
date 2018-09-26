@@ -9,9 +9,9 @@ On behalf of Foothill High School, we wish good luck to all the units performing
 {{#each guard.lineup}}
 {{#if ref}}
 {{#if unit}}
-{{> guard-entry school=(lookup ../schools ref) unit=(lookup (lookup ../schools ref) unit) year=../show.year isFirst=@first}}
+{{> guard-entry school=(lookup ../_schools ref) unit=(lookup (lookup ../_schools ref) unit) year=../show.year isFirst=@first}}
 {{else}}
-{{> guard-entry school=(lookup ../schools ref) unit=(lookup (lookup ../schools ref) 'winterguard') year=../show.year isFirst=@first}}
+{{> guard-entry school=(lookup ../_schools ref) unit=(lookup (lookup ../_schools ref) 'winterguard') year=../show.year isFirst=@first}}
 {{/if}}
 {{else}} {{#if break}}
 {{> program-break competition="Winter Guard" break=break}}
