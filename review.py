@@ -42,10 +42,36 @@ def collectPartials(basePath, compiler):
                 partials[filename] = compiler.compile(readUTF8(os.path.join(root, f)))
     return partials
 
-def buildBook(eventDataPath, schoolDataDir, partialsDir, rootPartial, outputDir):
+def buildPDF(rootPartial, outputDir):
+    basename = rootPartial + '-book'
+    adocFilepath = os.path.join(outputDir, basename + '.adoc')
+    pdfFilepath = os.path.join(outputDir, basename + '.pdf')
+
+    print '# Compiling pdf book {}'.format(pdfFilepath)
+    subprocess.call([
+        'asciidoctor-pdf',
+        '-a', 'pdf-stylesdir=.',
+        '-a', 'pdf-style=announcer',
+        adocFilepath,
+        '-o', pdfFilepath
+        ])
+
+def buildHTML(rootPartial, outputDir):
+    basename = rootPartial + '-book'
+    adocFilepath = os.path.join(outputDir, basename + '.adoc')
+    htmlFilepath = os.path.join(outputDir, basename + '.html')
+
+    print '# Compiling HTML {}'.format(htmlFilepath)
+    subprocess.call([
+        'asciidoctor',
+        adocFilepath
+        ])
+
+def buildAdoc(eventDataPath, schoolDataDir, partialsDir, rootPartial, outputDir):
     rootTemplate = '{{> ' + rootPartial + ' }}'
-    adocFilepath = os.path.join(outputDir, rootPartial + '-book.adoc')
-    pdfFilepath = os.path.join(outputDir, rootPartial + '-book.pdf')
+    basename = rootPartial + '-book'
+    adocFilepath = os.path.join(outputDir, basename + '.adoc')
+    pdfFilepath = os.path.join(outputDir, basename + '.pdf')
 
     if (not os.path.exists(outputDir)):
         os.makedirs(outputDir)
@@ -63,14 +89,10 @@ def buildBook(eventDataPath, schoolDataDir, partialsDir, rootPartial, outputDir)
     with io.open(adocFilepath, mode='wt', encoding='utf-8') as f:
         f.write(template(viewdata, partials=partials))
     
-    print '# Compiling pdf book {}'.format(pdfFilepath)
-    subprocess.call([
-        'asciidoctor-pdf',
-        '-a', 'pdf-stylesdir=.',
-        '-a', 'pdf-style=announcer',
-        adocFilepath,
-        '-o', pdfFilepath
-        ])
+def buildAll(eventDataPath, schoolDataDir, partialsDir, rootPartial, outputDir):
+    buildAdoc(eventDataPath, schoolDataDir, partialsDir, rootPartial, outputDir)
+    buildHTML(rootPartial, outputDir)
+    buildPDF(rootPartial, outputDir)
 
 def main(argv):
     bandReviewDataPath = './_data/bandreview.yml'
@@ -83,8 +105,8 @@ def main(argv):
     partialsDir = './_partials'
     outputDir = './_books'
 
-    buildBook(bandReviewDataPath, schoolDataDir, partialsDir, bandReviewPartial, outputDir)
-    buildBook(winterShowDataPath, schoolDataDir, partialsDir, winterShowPartial, outputDir)
+    buildAll(bandReviewDataPath, schoolDataDir, partialsDir, bandReviewPartial, outputDir)
+    buildAll(winterShowDataPath, schoolDataDir, partialsDir, winterShowPartial, outputDir)
 
 if __name__ == "__main__":
 	main(sys.argv)
