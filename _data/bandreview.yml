@@ -15,6 +15,7 @@ next_show:
 units:
 -   "parade"
 -   "fieldshow"
+-   "concert"
 
 parade:
     grand_marshall:
@@ -120,6 +121,29 @@ fieldshow:
         #        dedication: "the Foothill Band and their favorite trumpet section"
 
 concert:
-    _count:
-        number: 20
-        cite: "a score of"
+    lineup:
+    -   ref: "lincoln-hs"
+        unit: "concert-1"
+    -   ref: "irvington-hs"
+        unit: "concert-1"
+    -   ref: "franklin-hs"
+    -   ref: "livermore-hs"
+    -   ref: "mt-eden-hs"
+    -   break: 25
+    -   ref: "benicia-hs"
+    -   ref: "lincoln-hs"
+        unit: "concert-2"
+    -   ref: "fairfield-hs"
+    -   ref: "jesse-bethel-hs"
+    -   break: -1
+    -   ref: "cesar-chavez-hs"
+    -   ref: "del-mar-hs"
+    -   ref: "capuchino-hs"
+    -   ref: "philip-burton-hs"
+    -   ref: "turlock-christian-hs"
+    -   ref: "lincoln-hs"
+        unit: "concert-3"
+    -   ref: "wells-ms"
+    -   ref: "harvest-park-ms"
+    -   ref: "pleasanton-ms"
+    -   ref: "benicia-ms"
