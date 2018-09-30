@@ -3,12 +3,17 @@ announcer:
     email: "berdahl@serendipity.org"
 
 show:
+    year: 2017
     date: "October 28th, 2017"
     citation: "43th Annual Foothill High School Band Review"
 
 next_show:
     date: "October 27th, 2018"
     citation: "44th Annual Foothill High School Band Review"
+
+units:
+-   "parade"
+-   "fieldshow"
 
 parade:
     grand_marshall: "Pleasanton Unified Superintendent, Dr. David Haglund"

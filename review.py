@@ -13,6 +13,8 @@ def readUTF8(filename):
 
 def collectViewdata(eventDataPath, schoolDataDir):
     data = yaml.load(readUTF8(eventDataPath))
+
+    # Add each school into a large array property that holds all the schools
     schools = { }
     for root, dirs, files in os.walk(schoolDataDir):
         for f in files:
@@ -20,6 +22,15 @@ def collectViewdata(eventDataPath, schoolDataDir):
             if (extension == '.yml'):
                 schools[filename] = yaml.load(readUTF8(os.path.join(root, f)))
     data['_schools'] = schools
+
+    # In each unit of each school, add a property that indicates whether the unit
+    # data is up to date for the current program
+    for s in schools:
+        aSchool = schools[s]
+        for unitname in data['units']:
+            if unitname in aSchool:
+                aSchool[unitname]['_upToDate'] = (aSchool[unitname]['last-updated'] >= data['show']['year'])
+
     return data
 
 def collectPartials(basePath, compiler):

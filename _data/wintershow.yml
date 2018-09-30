@@ -12,6 +12,12 @@ next_show:
     date: "March 23rd, 2019"
     citation: "2019 Foothill High School Winter Show"
 
+units:
+-   "winterpercussion"
+-   "winterpercussion-intermediate"
+-   "winterguard"
+-   "winterguard-scholastic"
+
 percussion:
     start_time: "9:00am"
 
