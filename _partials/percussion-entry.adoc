@@ -1,11 +1,17 @@
 == Winter Percussion - {{school.name}}
 
-{{#unless unit}}IMPORTANT: {{school.name}} has no unit.{{/unless}}
-{{#unless unit._upToDate}}IMPORTANT: {{school.name}} data is out of date.{{/unless}}
-{{#unless unit.program}}WARNING: {{school.name}} is missing a program name.{{/unless}}
-{{#unless unit.directors}}WARNING: {{school.name}} has no directors.{{/unless}}
-{{#unless unit.leaders}}WARNING: {{school.name}} has no leaders.{{/unless}}
-{{#unless unit.nickname}}WARNING: {{school.name}} is missing a nickname.{{/unless}}
+{{#unless unit}}IMPORTANT: {{school.name}} has no unit.
+{{/unless}}
+{{#unless unit._upToDate}}IMPORTANT: {{school.name}} data is out of date.
+{{/unless}}
+{{#unless unit.program}}WARNING: {{school.name}} is missing a program name.
+{{/unless}}
+{{#unless unit.directors}}WARNING: {{school.name}} has no directors.
+{{/unless}}
+{{#unless unit.leaders}}WARNING: {{school.name}} has no leaders.
+{{/unless}}
+{{#unless unit.nickname}}WARNING: {{school.name}} is missing a nickname.
+{{/unless}}
 
 Now taking the floor is the {{unit.nickname}}, from {{school.name}} in {{school.city}}.
 

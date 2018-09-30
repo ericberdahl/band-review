@@ -1,10 +1,15 @@
 == Field Show - {{school.name}}
 
-{{#unless school.fieldshow._upToDate}}IMPORTANT: {{school.name}} field show data is out of date.{{/unless}}
-{{#unless school.fieldshow.program}}WARNING: {{school.name}} is missing field show program.{{/unless}}
-{{#unless school.fieldshow.directors}}WARNING: {{school.name}} has no directors.{{/unless}}
-{{#unless school.fieldshow.leaders}}WARNING: {{school.name}} has no leaders.{{/unless}}
-{{#unless school.fieldshow.nickname}}WARNING: {{school.name}} is missing nickname.{{/unless}}
+{{#unless school.fieldshow._upToDate}}IMPORTANT: {{school.name}} field show data is out of date.
+{{/unless}}
+{{#unless school.fieldshow.program}}WARNING: {{school.name}} is missing field show program.
+{{/unless}}
+{{#unless school.fieldshow.directors}}WARNING: {{school.name}} has no directors.
+{{/unless}}
+{{#unless school.fieldshow.leaders}}WARNING: {{school.name}} has no leaders.
+{{/unless}}
+{{#unless school.fieldshow.nickname}}WARNING: {{school.name}} is missing nickname.
+{{/unless}}
 
 Now taking the field is the {{school.fieldshow.nickname}}, from {{school.name}} in {{school.city}}.
 
