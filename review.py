@@ -11,9 +11,23 @@ def readUTF8(filename):
     with io.open(filename, mode='rt', encoding='utf-8') as f:
         return f.read()
 
-def collectViewdata(eventDataPath, schoolDataDir):
-    data = yaml.load(readUTF8(eventDataPath))
+config = yaml.load(readUTF8('./_data/config.yml'))
 
+def computeNumericCitation(count):
+    try:
+        found = next(cite for cite in config['count_citation'] if cite['min'] <= count and count <= cite['max'])
+        return found['cite']
+    except StopIteration:
+        return count
+
+def countLineup(lineup):
+    condition = lambda x: 'ref' in x
+    return sum(condition(x) for x in lineup)
+
+def fixupUnit(show, unit):
+    unit['_upToDate'] = (unit['last-updated'] >= show['year'])
+
+def collectSchoolData(schoolDataDir):
     # Add each school into a large array property that holds all the schools
     schools = { }
     for root, dirs, files in os.walk(schoolDataDir):
@@ -21,6 +35,12 @@ def collectViewdata(eventDataPath, schoolDataDir):
             filename, extension = os.path.splitext(f)
             if (extension == '.yml'):
                 schools[filename] = yaml.load(readUTF8(os.path.join(root, f)))
+    return schools
+
+def collectViewdata(eventDataPath, schoolDataDir):
+    data = yaml.load(readUTF8(eventDataPath))
+
+    schools = collectSchoolData(schoolDataDir)
     data['_schools'] = schools
 
     # In each unit of each school, add a property that indicates whether the unit
@@ -28,8 +48,16 @@ def collectViewdata(eventDataPath, schoolDataDir):
     for s in schools:
         aSchool = schools[s]
         for unitname in data['units']:
+            if unitname in data:
+                lineupCount = countLineup(data[unitname]['lineup'])
+                _count = {
+                    'number': lineupCount,
+                    'citation': computeNumericCitation(lineupCount)
+                }
+                data[unitname]['_count'] = _count
             if unitname in aSchool:
-                aSchool[unitname]['_upToDate'] = (aSchool[unitname]['last-updated'] >= data['show']['year'])
+                # aSchool[unitname]['_upToDate'] = (aSchool[unitname]['last-updated'] >= data['show']['year'])
+                fixupUnit(data['show'], aSchool[unitname])
 
     return data
 

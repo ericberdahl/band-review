@@ -1,13 +1,13 @@
 == Winter Percussion - Open
 
 Good morning ladies and gentlemen. Welcome to the Percussion Competition for
-the {{show.citation}}. We are joined today by {{percussion.count}} talented
+the {{show.citation}}. We are joined today by {{winterpercussion._count.citation}} talented
 units anxious to perform and entertain. On behalf of Foothill High School, we wish good luck
 to all the units performing today and hope you enjoy their shows.
 
 <<<
 
-{{#each percussion.lineup}}
+{{#each winterpercussion.lineup}}
 {{#if ref}}
 {{#if unit}}
 {{> percussion-entry school=(lookup ../_schools ref) unit=(lookup (lookup ../_schools ref) unit) year=../show.year isFirst=@first}}
@@ -26,17 +26,17 @@ to all the units performing today and hope you enjoy their shows.
 
 This concludes the Percussion Competition for the {{show.citation}}.
 Please stay for the Percussion Awards, presented here in 20 minutes, and for the Color Guard competition,
-beginning at {{guard.start_time}}.
+beginning at {{winterguard.start_time}}.
 
 <<<
 
 == Winter Percussion - Awards
 
-Foothill High School thanks the sponsors of the {{show.citation}}: {{#each percussion.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
+Foothill High School thanks the sponsors of the {{show.citation}}: {{#each winterpercussion.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
 
 (General award announcement)
 With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
 
-{{> trophy-sponsors trophies=percussion.sponsors.trophies}}
+{{> trophy-sponsors trophies=winterpercussion.sponsors.trophies}}
 
 <<<

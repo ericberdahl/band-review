@@ -29,8 +29,6 @@ parade:
 
     awards_location: "Amador High School Large Gym"
 
-    count: 37
-
     sponsors:
         general:
 
@@ -79,8 +77,6 @@ parade:
 fieldshow:
     start_time: "2:30pm"
 
-    count: 27
-
     lineup:
     -   ref: "whitney-hs"
     -   ref: "willow-glen-hs"
@@ -124,4 +120,6 @@ fieldshow:
         #        dedication: "the Foothill Band and their favorite trumpet section"
 
 concert:
-    count: 20
+    _count:
+        number: 20
+        cite: "a score of"

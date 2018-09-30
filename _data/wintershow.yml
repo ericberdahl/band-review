@@ -18,10 +18,8 @@ units:
 -   "winterguard"
 -   "winterguard-scholastic"
 
-percussion:
+winterpercussion:
     start_time: "9:00am"
-
-    count: 18
 
     lineup:
     -   ref: "eleanor-murray-ms"
@@ -117,10 +115,8 @@ percussion:
             sponsors:
             -   sponsor: *huey-family
 
-guard:
+winterguard:
     start_time: "1:30pm"
-
-    count: 21
 
     lineup:
     -   ref: "hart-ms"

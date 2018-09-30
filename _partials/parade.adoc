@@ -1,9 +1,9 @@
 == Parade - Open
 
-Good morning ladies and gentlemen. Welcome to the Parade Competition for the
-{{show.citation}}. We are joined today by nearly two score wonderful bands to
-entertain and delight us. On behalf of Foothill High School, we wish good
-luck to all the bands performing today and hope you enjoy the competition.
+Good morning ladies and gentlemen.
+Welcome to the Parade Competition for the {{show.citation}}.
+We are joined today by {{parade._count.citation}} wonderful bands to entertain and delight us.
+On behalf of Foothill High School, we wish good luck to all the bands performing today and hope you enjoy the competition.
 
 <<<
 
@@ -34,16 +34,14 @@ Presenting the colors for today's parade, please welcome {{parade.colors}}.
 == Parade - Close
 
 This concludes the Parade Competition for the {{show.citation}}.
-Thank you and congratulations to all the bands we've seen this morning, and
-thank you all for attending and cheering on these fine young performers.
+Thank you and congratulations to all the bands we've seen this morning, and thank you all for attending and cheering on these fine young performers.
 
 Parade Awards will be presented at {{parade.awards_time}} in the {{parade.awards_location}}.
 
-Please join us at the Foothill High School Stadium for the Field Show Competition,
-starting at {{fieldshow.start_time}} this afternoon and running through this evening.
+Please join us at the Foothill High School Stadium for the Field Show Competition, starting at {{fieldshow.start_time}} this afternoon and running through this evening.
 
-Mark your calendars to join us again next year, on {{next_show.date}},
-for the {{next_show.citation}}.  On behalf of Foothill High School,
-I wish you all a safe and enjoyable weekend. Good day.
+Mark your calendars to join us again next year, on {{next_show.date}}, for the {{next_show.citation}}.
+On behalf of Foothill High School, I wish you all a safe and enjoyable weekend.
+Good day.
 
 <<<

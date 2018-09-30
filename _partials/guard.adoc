@@ -1,12 +1,12 @@
 == Winter Guard - Open
 
 Good afternoon ladies and gentlemen. Welcome to the Color Guard Competition for the {{show.citation}}.
-We are joined today by {{guard.count}} wonderful guard units to entertain and delight us.
+We are joined today by {{winterguard._count.citation}} wonderful guard units to entertain and delight us.
 On behalf of Foothill High School, we wish good luck to all the units performing today and hope you enjoy the competition.
 
 <<<
 
-{{#each guard.lineup}}
+{{#each winterguard.lineup}}
 {{#if ref}}
 {{#if unit}}
 {{> guard-entry school=(lookup ../_schools ref) unit=(lookup (lookup ../_schools ref) unit) year=../show.year isFirst=@first}}
@@ -33,11 +33,11 @@ Please stay for the Color Guard Awards, presented here in 20 minutes.
 
 == Winter Guard - Awards
 
-Foothill High School thanks the sponsors of the {{show.citation}}: {{#each guard.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
+Foothill High School thanks the sponsors of the {{show.citation}}: {{#each winterguard.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
 
 (General award announcement)
 With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
 
-{{> trophy-sponsors trophies=guard.sponsors.trophies}}
+{{> trophy-sponsors trophies=winterguard.sponsors.trophies}}
 
 <<<
