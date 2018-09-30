@@ -1,6 +1,7 @@
 == Winter Guard - {{school.name}}
 
 {{#unless unit}}IMPORTANT: {{school.name}} has no unit.{{/unless}}
+{{#unless unit._upToDate}}IMPORTANT: {{school.name}} data is out of date.{{/unless}}
 {{#unless unit.program}}WARNING: {{school.name}} is missing a program name.{{/unless}}
 {{#unless unit.directors}}WARNING: {{school.name}} has no directors.{{/unless}}
 {{#unless unit.leaders}}WARNING: {{school.name}} has no leaders.{{/unless}}
@@ -10,7 +11,7 @@ Now taking the floor is the {{unit.nickname}}, from {{school.name}} in {{school.
 
 {{> leaders unit=unit}}
 
-The {{unit.nickname}} will perform {{{unit.program}}}{{#if unit.music}}, featuring {{unit.music}}{{/if}}.
+The {{unit.nickname}} will perform their program, {{{unit.program}}}{{#if unit.music}}, featuring {{unit.music}}{{/if}}.
 
 {{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{school.name}} has no guard notes.{{/if}}
 
