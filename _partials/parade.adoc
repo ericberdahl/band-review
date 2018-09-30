@@ -7,16 +7,16 @@ luck to all the bands performing today and hope you enjoy the competition.
 
 <<<
 
+== Parade - Grand Marshal
+
+Now, please welcome our {{parade.grand_marshall.title}}, {{#each parade.grand_marshall.members}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{.}}{{/each}}.
+
+<<<
+
 == Parade - Presentation of the Colors
 
 At this time, please rise and give respect to the presentation of the colors.
 Presenting the colors for today's parade, please welcome {{parade.colors}}.
-
-<<<
-
-== Parade - Grand Marshal
-
-Now, please welcome our Grand Marshal, {{parade.grand_marshall}}.
 
 <<<
 
