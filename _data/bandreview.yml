@@ -3,13 +3,14 @@ announcer:
     email: "berdahl@serendipity.org"
 
 show:
-    year: 2017
-    date: "October 28th, 2017"
-    citation: "43th Annual Foothill High School Band Review"
-
-next_show:
+    year: 2018
     date: "October 27th, 2018"
     citation: "44th Annual Foothill High School Band Review"
+
+next_show:
+    year: 2019
+    date: "October 26th, 2019"
+    citation: "45th Annual Foothill High School Band Review"
 
 units:
 -   "parade"
