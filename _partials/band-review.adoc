@@ -3,8 +3,6 @@
 
 {{> parade}}
 
-{{> field-show}}
-
 == Parade and Concert - Awards
 
 Foothill High School thanks the sponsors of the {{show.citation}}: {{#each parade.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
@@ -12,3 +10,7 @@ Foothill High School thanks the sponsors of the {{show.citation}}: {{#each parad
 {{> trophy-sponsors trophies=parade.sponsors.trophies }}
 
 (announce scores and awards for Parade and Concert)
+
+<<<
+
+{{> field-show}}
