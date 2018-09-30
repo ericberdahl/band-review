@@ -1,16 +1,31 @@
-key: "american hs"
-
 name: "American High School"
 
 city: "Fremont, CA"
 
+fieldshow:
+    last-updated: 0
+
+    nickname: "American High School Marching Band"
+
+    directors: &directors
+    -   "Richard Wong"
+    
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes:
+    
 winterguard:
     last-updated: 2018
 
     nickname: "American Eagles Winter Guard"
 
-    directors: &directors
-    -   "Richard Wong"
+    directors: *directors
 
     staff:
     -   title: "instructed by"

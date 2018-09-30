@@ -1,18 +1,20 @@
-name: "Fremont High School"
+name: "Mt Eden High School"
 
-city: "Sunnyvale, CA"
+city: "Hayward, CA"
 
 parade:
     last-updated: 0
 
-    nickname: &nickname "Fremont High School Marching Band"
+    nickname: &nickname "Mt Eden High School Marching Band"
 
     directors: &directors
-    -   "Joseph Kelly"
+    -   "Kevin Cato (Kevin KAY-toh)"
 
     leaders:
-
+    
     music:
+
+    notes: 
 
 fieldshow:
     last-updated: 0

@@ -1,16 +1,32 @@
-key: "willow glen hs"
-
 name: "Willow Glen High School"
 
 city: "San Jose, CA"
 
+fieldshow:
+    last-updated: 0
+
+    nickname: "Willow Glen High School Marching Band"
+
+    directors:
+    -   &kelly-walker "Kelly Walker"
+    
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes:
+    
 winterguard:
     last-updated: 2018
 
     nickname: "Willow Glen High School Color Guard"
 
     directors:
-    -   "Kelly Walker"
+    -   *kelly-walker
 
     staff:
     -   title: "instructors"

@@ -1,16 +1,28 @@
-key: "cesar chavez hs"
-
 name: "Cesar Chavez High School"
 
 city: "Stockton, CA"
 
+parade:
+    last-updated: 0
+
+    nickname: "Cesar Chavez High School Marching Band"
+
+    directors:
+    -   &art-coleman "Art Coleman"
+
+    leaders:
+    
+    music:
+
+    notes: 
+    
 winterguard:
     last-updated: 2018
 
     nickname: "Cesar Chavez Winterguard"
 
     directors:
-    -   &art-coleman "Art Coleman"
+    -   *art-coleman
 
     staff:
     -   title: "instructed by"

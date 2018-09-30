@@ -1,5 +1,3 @@
-key: "whitney hs"
-
 name: "Whitney High School"
 
 city: "Rocklin, CA"
@@ -9,3 +7,27 @@ parade:
 
     directors:
     -   "Kris Harper"
+
+fieldshow:
+    last-updated: 0
+
+    nickname: "Whitney High School Marching Band"
+
+    directors:
+    -   "Kasey Searles"
+    
+    staff:
+    -   title: "assistant directors"
+        members:
+        -   "Kristyn Lorek"
+        -   "Misty Reece"
+        -   "Eric Wong"
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes:
+    

@@ -1,5 +1,3 @@
-key: "tracy hs"
-
 name: "Tracy High School"
 
 city: "Tracy, CA"
@@ -9,7 +7,7 @@ parade:
 
     nickname: "Pride of Tracy Marching Band and Color Guard"
 
-    directors:
+    directors: &directors
     -   "Jeff Kumagai (Jeff KOO-muh-gai)"
 
     leaders:
@@ -18,3 +16,21 @@ parade:
         -   "Nick Mahedy (Nick mah-HEH-dee)"
 
     music: "The Black Horse Troop by John Philip Sousa"
+
+fieldshow:
+    last-updated: 0
+
+    nickname: "Tracy High School Marching Band"
+
+    directors: *directors
+    
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes:
+    

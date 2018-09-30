@@ -1,5 +1,3 @@
-key: "amador valley hs"
-
 name: "Amador Valley High School"
 
 city: "Pleasanton, CA"
@@ -8,5 +6,24 @@ parade:
     last-updated: 0
 
     directors:
-    -   "Jonathan Grantham"
+    -   &jonathan-grantham "Jonathan Grantham"
     -   "Patrick Dandrea (Patrick dan-DRAY-uh)"
+
+fieldshow:
+    last-updated: 0
+
+    nickname: "Amador Valley High School Marching Band"
+
+    directors:
+    -   *jonathan-grantham
+    
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes:
+    

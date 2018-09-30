@@ -1,5 +1,3 @@
-key: "hogan ms"
-
 name: "Hogan Middle School"
 
 city: "Vallejo, CA"
@@ -7,10 +5,10 @@ city: "Vallejo, CA"
 parade:
     last-updated: 0
 
-    nickname:
+    nickname: "Hogan Middle School Marching Band"
 
     directors:
-    -   "George Carrasco"
+    -   "James Walker"
 
     leaders:
 
