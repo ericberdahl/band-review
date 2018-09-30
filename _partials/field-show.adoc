@@ -9,7 +9,7 @@ to all the bands performing today and hope you enjoy their shows.
 
 {{#each fieldshow.lineup}}
 {{#if ref}}
-{{> field-entry school=(lookup ../_schools ref) isFirst=@first}}
+{{> field-entry school=(lookup ../_schools ref) unit=(lookup (lookup ../_schools ref) 'fieldshow') isFirst=@first}}
 {{else}} {{#if break}}
 {{> program-break competition="Field Show" break=break}}
 {{/if}} {{/if}}

@@ -1,20 +1,20 @@
 == Field Show - {{school.name}}
 
-{{#unless school.fieldshow._upToDate}}IMPORTANT: {{school.name}} field show data is out of date.
+{{#unless unit._upToDate}}IMPORTANT: {{school.name}} field show data is out of date.
 {{/unless}}
-{{#unless school.fieldshow.program}}WARNING: {{school.name}} is missing field show program.
+{{#unless unit.program}}WARNING: {{school.name}} is missing field show program.
 {{/unless}}
-{{#unless school.fieldshow.directors}}WARNING: {{school.name}} has no directors.
+{{#unless unit.directors}}WARNING: {{school.name}} has no directors.
 {{/unless}}
-{{#unless school.fieldshow.leaders}}WARNING: {{school.name}} has no leaders.
+{{#unless unit.leaders}}WARNING: {{school.name}} has no leaders.
 {{/unless}}
-{{#unless school.fieldshow.nickname}}WARNING: {{school.name}} is missing nickname.
+{{#unless unit.nickname}}WARNING: {{school.name}} is missing nickname.
 {{/unless}}
 
-Now taking the field is the {{school.fieldshow.nickname}}, from {{school.name}} in {{school.city}}.
+Now taking the field is the {{unit.nickname}}, from {{school.name}} in {{school.city}}.
 
-{{> leaders unit=school.fieldshow}}
+{{> leaders unit=unit}}
 
-The {{school.fieldshow.nickname}} will perform their program, {{{school.fieldshow.program}}}{{#if school.fieldshow.music}}, featuring {{{school.fieldshow.music}}}{{/if}}.
+The {{unit.nickname}} will perform their program, {{{unit.program}}}{{#if unit.music}}, featuring {{{unit.music}}}{{/if}}.
 
-{{#if school.fieldshow.notes}}{{{school.fieldshow.notes}}}{{else}}NOTE: {{school.name}} has no field notes.{{/if}}
+{{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{school.name}} has no field notes.{{/if}}

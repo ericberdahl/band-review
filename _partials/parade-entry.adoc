@@ -1,20 +1,20 @@
 == Parade - {{school.name}}
 
-{{#unless school.parade._upToDate}}IMPORTANT: {{school.name}} parade data is out of date.
+{{#unless unit._upToDate}}IMPORTANT: {{school.name}} parade data is out of date.
 {{/unless}}
-{{#unless school.parade.music}}WARNING: {{school.name}} is missing parade music.
+{{#unless unit.music}}WARNING: {{school.name}} is missing parade music.
 {{/unless}}
-{{#unless school.parade.directors}}WARNING: {{school.name}} has no directors.
+{{#unless unit.directors}}WARNING: {{school.name}} has no directors.
 {{/unless}}
-{{#unless school.parade.leaders}}WARNING: {{school.name}} has no leaders.
+{{#unless unit.leaders}}WARNING: {{school.name}} has no leaders.
 {{/unless}}
-{{#unless school.parade.nickname}}WARNING: {{school.name}} is missing nickname.
+{{#unless unit.nickname}}WARNING: {{school.name}} is missing nickname.
 {{/unless}}
 
-Our {{#if isFirst}}first{{else}}next{{/if}} band is the {{school.parade.nickname}}, from {{school.name}} in {{school.city}}.
+Our {{#if isFirst}}first{{else}}next{{/if}} band is the {{unit.nickname}}, from {{school.name}} in {{school.city}}.
 
-{{> leaders unit=school.parade}}
+{{> leaders unit=unit}}
 
-The {{school.parade.nickname}} will perform {{{school.parade.music}}}.
+The {{unit.nickname}} will perform {{{unit.music}}}.
 
-{{#if school.parade.notes}}{{{school.parade.notes}}}{{else}}NOTE: {{school.name}} has no parade notes.{{/if}}
+{{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{school.name}} has no parade notes.{{/if}}
