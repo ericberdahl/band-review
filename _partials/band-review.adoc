@@ -1,5 +1,7 @@
 = {{show.citation}} Announcer's Book: {{show.date}}
 {{announcer.name}} <{{announcer.email}}>
+Printed on {{_generationDate}}
+:toc:
 
 {{> parade}}
 

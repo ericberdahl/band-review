@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import datetime
 import io
 import os
 import pybars
@@ -42,6 +43,9 @@ def collectViewdata(eventDataPath, schoolDataDir):
 
     schools = collectSchoolData(schoolDataDir)
     data['_schools'] = schools
+    
+    today = datetime.date.today()
+    data['_generationDate'] = today.strftime('%d %B %Y')
 
     # In each unit of each school, add a property that indicates whether the unit
     # data is up to date for the current program
