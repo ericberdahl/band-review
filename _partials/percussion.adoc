@@ -32,6 +32,11 @@ beginning at {{winterguard.start_time}}.
 
 == Winter Percussion - Awards
 
+{{#unless winterpercussion.sponsors.general}}IMPORTANT: There are no winter percussion sponsors.
+{{/unless}}
+{{#unless winterpercussion.sponsors.trophies}}IMPORTANT: There are no winter percussion sponsors.
+{{/unless}}
+
 Foothill High School thanks the sponsors of the {{show.citation}}: {{#each winterpercussion.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
 
 (General award announcement)
