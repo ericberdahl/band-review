@@ -45,3 +45,18 @@ On behalf of Foothill High School, I wish you all a safe and enjoyable weekend.
 Good day.
 
 <<<
+
+== Parade and Concert - Awards
+
+{{#unless parade.sponsors.general}}IMPORTANT: There are no parade sponsors.
+{{/unless}}
+{{#unless parade.sponsors.trophies}}IMPORTANT: There are no parade trophy sponsors.
+{{/unless}}
+
+Foothill High School thanks the sponsors of the {{show.citation}}: {{#each parade.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
+
+{{> trophy-sponsors trophies=parade.sponsors.trophies }}
+
+(announce scores and awards for Parade and Concert)
+
+<<<

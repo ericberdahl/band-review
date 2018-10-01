@@ -18,7 +18,7 @@ On behalf of Foothill High School, we wish good luck to all the bands performing
 
 {{/each}}
 
-== Field Show - End of Competition
+== Field Show - Close
 
 This concludes the Field Show Competition for the {{show.citation}}.
 Please stay for the Field Show Awards, presented here in 15 minutes.
@@ -44,15 +44,5 @@ Foothill High School thanks the sponsors of the {{show.citation}}: {{#each field
 With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
 
 {{> trophy-sponsors trophies=fieldshow.sponsors.trophies}}
-
-<<<
-
-== Field Show - Close
-
-This concludes the {{show.citation}}.
-Thank you and congratulations to all the bands we’ve seen today, and thank you all for attending and cheering on these fine young performers.
-
-Mark your calendars to join us again next year, on {{next_show.date}}, for the {{next_show.citation}}.
-On behalf of Foothill High School, I wish you all a safe and enjoyable weekend. Good night.
 
 <<<

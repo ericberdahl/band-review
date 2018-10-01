@@ -9,10 +9,9 @@ Printed on {{_generationDate}}
 
 == Winter Show - Close
 
-This concludes the {{show.citation}}. Thank you and congratulations
-to all the units we’ve seen today, and thank you all for attending and cheering
-on these talented performers.
+This concludes the {{show.citation}}.
+Thank you and congratulations to all the units we’ve seen today, and thank you all for attending and cheering on these talented performers.
 
-Mark your calendars to join us again next year, on {{next_show.date}},
-for the {{next_show.citation}}. On behalf of Foothill High School,
-I wish you all a safe and enjoyable weekend. Good night.
+Mark your calendars to join us again next year, on {{next_show.date}}, for the {{next_show.citation}}.
+On behalf of Foothill High School, I wish you all a safe and enjoyable weekend.
+Good night.
