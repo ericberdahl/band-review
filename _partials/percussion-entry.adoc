@@ -1,4 +1,4 @@
-== Winter Percussion - {{school.name}}
+== Winter Percussion - {{school.name}}{{#unless unit._upToDate}} - INCOMPLETE{{/unless}}
 
 {{#unless unit}}IMPORTANT: {{school.name}} has no unit.
 {{/unless}}

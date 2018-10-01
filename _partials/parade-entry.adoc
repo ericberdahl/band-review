@@ -1,4 +1,4 @@
-== Parade - {{school.name}}
+== Parade - {{school.name}}{{#unless unit._upToDate}} - INCOMPLETE{{/unless}}
 
 {{#unless unit._upToDate}}IMPORTANT: {{school.name}} parade data is out of date.
 {{/unless}}
