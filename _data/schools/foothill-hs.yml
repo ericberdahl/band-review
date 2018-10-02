@@ -5,7 +5,7 @@ name: "Foothill High School"
 city: "Pleasanton, CA"
 
 parade:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: &band-nickname "Foothill High School Marching Band and Color Guard"
 
@@ -13,34 +13,37 @@ parade:
     -   "Efrain Hinojosa (EH-fren ee-no-HO-sah)"
     -   "Erik Nishimori (EH-rik nih-shee-MO-ree)"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   &chris-cyr "Chris Cyr"
+        -   &charles-cachero "Charles Cachero"
+        -   &will-edmonds "Will Edmonds"
+        -   &alex-pfiefer "Alex Pfiefer"
+        -   &connor-carroll "Connor Carroll"
+        -   &randy-chow "Randy Chow"
+        -   &michelle-cheng "Michelle Cheng"
+
     leaders:
     -   title: "drum major"
         members:
-        -   &zachary-townsend "Zachary Townsend"
+        -   &alex-zhang "Alex Zhang"
 
-    -   title: "auxiliary captain"
-        members:
-        -   &makoto-mccann "Makoto McCann (mah-KOH-to mk-CAN)"
+    -   title: "auxiliary captains"
+        members: &auxiliary-captains
+        -   &lucy-lee "Lucy Lee"
+        -   &ayla-johnson "Ayla Johnson (EYE-lah Johnson)"
 
     -   title: "percussion captain"
         members:
-        -   &bailey-yang "Bailey Yang"
-
-    -   title: "woodwind captain"
-        members:
-        -   &alex-lee "Alex Lee"
-
-    -   title: "brass captain"
-        members:
-        -   &ian-crane "Ian Crane"
+        -   &nate-huey "Nate Huey"
     
-    music: "B.B. and C.F. March by James Ord Hume"
+    music: "Invictus by Karl King, arranged by Andrew Glover"
 
-    notes: >
-        The Foothill High School Marching Band and Color Guard would like to thank the Foothill Band Boosters, the Pleasanton Unified District administration, and their Local Community for all of their support throughout the season.
+    notes:
 
 fieldshow:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: *band-nickname
 
@@ -49,36 +52,30 @@ fieldshow:
     leaders:
     -   title: "drum majors"
         members:
-        -   "Elena Zhang (eh-LEE-nah zhahn)"
-        -   *zachary-townsend
+        -   "Zoey Castillo"
         -   "Derek Dressler"
+        -   "Michael Lampson"
 
     -   title: "auxiliary captains"
-        members:
-        -   *makoto-mccann
-        -   &sierra-sowa "Sierra Sowa (Sierra SOH-wa)"
-        -   &ayla-johnson "Ayla Johnson (EYE-lah Johnson)"
+        members: *auxiliary-captains
 
     -   title: "percussion captain"
         members:
-        -   *bailey-yang
-
-    -   title: "woodwind captain"
-        members:
-        -   *alex-lee
+        -   *nate-huey
 
     -   title: "brass captain"
         members:
-        -   *ian-crane
+        -   "Jonathan Min"
 
-    program: "Everest"
+    -   title: "woodwind captain"
+        members:
+        -   "Connor Iwata"
+
+    program: "Always Now"
 
     music: "original music by Mike Jackson and Kevin Shah"
 
-    notes: >
-        The Foothill High School Marching Band and Color Guard would like to thank the Foothill Band
-        Boosters, the Pleasanton Unified School District administration, and the Local Community for
-        all of their support.
+    notes:
 
 winterguard:
     last-updated: 2018
@@ -97,7 +94,7 @@ winterguard:
     leaders:
     -   title: "captains"
         members:
-        -   *sierra-sowa
+        -   &sierra-sowa "Sierra Sowa (Sierra SOH-wa)"
         -   *ayla-johnson
 
     program: "To Leave No Stone Unturned"
@@ -118,19 +115,18 @@ winterpercussion:
     staff: &other-perc-directors
     -   title: "instructed by"
         members:
-        -   "Chris Cyr"
-        -   "Charles Cachero"
-        -   "Alex Pfiefer"
+        -   *chris-cyr
+        -   *charles-cachero
+        -   *alex-pfiefer
         -   "Shubham Gupta"
-        -   "Will Edmonds"
-        -   "Connor Carroll"
-        -   "Randy Chow"
+        -   *will-edmonds
+        -   *connor-carroll
+        -   *randy-chow
         -   "Sohrab Nawim"
         
     leaders:
     -   title: "captains"
         members:
-        -   *bailey-yang
         -   "Allison Phan"
 
     program: "Through The Eyes Of Kuhbler Ross"
