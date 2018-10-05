@@ -5,34 +5,54 @@ name: "Mountain View High School"
 city: "Mountain View, CA"
 
 fieldshow:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: "Spartan Marching Band"
 
     directors:
     -   "Jason Kneebone"
-    -   "Dana McDonnell"
+    -   "Anna Linde"
+
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Thomas Peters"
+        -   "Zubin Bhandari"
+        -   "Ian Hattan"
+        -   "AJ Duprey"
+        -   "Suzi Laverty"
+        -   "Bruce Paulson"
+        -   "Samantha Radzikowski"
+        -   "Casey Brohard"
+        -   "Angela Grace Mendoza"
+        -   "Chris Swan"
+        -   "Colton Short"
+        -   "Mike Reppucci"
+        -   "Reese Villafranca"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Braydon Ross"
-        -   "Jennifer Hartley"
-        -   "Winn Hartford"
         -   "Alex Pun"
+        -   "Winn Hartford"
+        -   "Stephanie Evanson"
+        -   "Zach Hinz"
 
     -   title: "auxiliary captain"
         members:
-        -   "Joanna Sandland"
+        -   "Delia Darrah"
 
     -   title: "percussion captain"
         members:
-        -   "Sasha Heye (Sasha hi)"
+        -   "Josh Stukenborg"
 
-    program: "Divinity, the music of Final Fantasy"
+    program: "Interstellar"
 
-    music: "music by Nobuo Uematsu (noh-BOO-oh oo-eh-MAH-tsu), Dashiel Reed, Casey Brohard, and Jonathan Zuniga"
+    music: "music by Amin Bhatia, Dashiel Reed, Casey Brohard, and Jonathan Zuniga"
 
     notes: >
-        The Spartan Marching Band would like to thank the Instrumental Music Parents Association for
-        their continued support.
+        The Spartan Marching Band would like to thank our Instrumental Music Boosters for their continued support in making our program run smoothly.
+        Special thanks to Bob Reay and Judi Fan whose generosity has shaped the way we look for the past four years.
+        Shout-out to Chris and Teresa Moura for their guidance with our upcoming performance in the 2019 London New Years Day Parade!
+        The Spartan Marching Band would like to dedicate our 2018 production to the memory of Eddie Keep.
+        We hold him and his family in our hearts.

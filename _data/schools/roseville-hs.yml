@@ -3,18 +3,44 @@ name: "Roseville High School"
 city: "Roseville, CA"
 
 fieldshow:
-    last-updated: 0
+    last-updated: 2018
 
-    nickname: "Roseville High School Marching Band"
+    nickname: "RHS Tiger Band and Color Guard"
 
     directors:
     -   "Matthew Koutney"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Justin Miller"
+        -   "Melanie Miller"
+        -   "Jordan Shippy"
+        -   "Robbie Wanamaker"
+        -   "Lindsay Dow"
+        -   "Tommy Inthavongavid"
+        -   "Sam Haynes"
+        -   "Ryan Moskun"
+
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Alissa Prosser"
+    
+    -   title: "auxilliary captain"
+        members:
+        -   "Khaeilene Epan"
 
-    program:
+    program: "Scheherazade"
 
-    music:
+    music: >
+        music by Nikolai Rimsky-Korsakov.
+        First, the Sea and Sinbad's Ship.
+        Second, the Kalandar Prince.
+        Third, The young Prince and young Princess.
+        And fourth, Festival at Baghdad.
 
-    notes:
+    notes: >
+        The RHS Tiger Band and Color Guard would like to thank our Boosters and all of our parent volunteers who help us week after week during marching band season to provide our students with the best experience possible.
+        We can't do this without you!
     

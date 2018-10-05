@@ -5,36 +5,48 @@ name: "Milpitas High School"
 city: "Milpitas, CA"
 
 fieldshow:
-    last-updated: 2017
+    last-updated: 2018
 
-    nickname: "Milpitas High School Marching Band"
+    nickname: "Milpitas High School Marching Band and Color Guard"
 
     directors:
-    -   "Chris Kaldy (Chris KAHL-dee)"
     -   "Emily Moore"
+    -   "Maxwell Lowe"
+    -   "Moises Fagundes"
+
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Trey Lem"
+        -   "Olivia Torino"
+        -   "Jordan Losongco"
+        -   "Shane Pineda"
+        -   "Tom Schmitz"
+        -   "Wesley Lin"
+        -   "John Suico"
+        -   "Riley Leggin"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Pratima Prabala (prah-TEE-mah prah-BAH-lah)"
         -   "Lisa Yan"
-        -   "Neal Xia (Neal shah)"
+        -   "Bao Tran"
+        -   "Michael Ngyuen"
 
     -   title: "auxiliary captains"
         members:
-        -   "Alana Leong"
-        -   "Virginia Lien"
-        -   "Ziyuan Lei (SHIH-wahn lee)"
+        -   "Angelica Tongohan"
+        -   "EJ Munoz"
+        -   "Brianna Alvarado"
 
     -   title: "percussion captains"
         members:
-        -   "Serena Wang"
+        -   "EJ Tagle"
         -   "Anna Kaenjak (Anna CAIN-jack)"
         -   "Jonathan Lai"
 
-    program: "One Thousand and One Nights"
+    program: "Dead Men Tell No Tales"
 
-    music: "Crossing the Desert, Sandstorm, Gifts of the Earth, and Agrabah by Lewis Norfleet and Alan Keown"
+    music: "Ghost Ship, Fog Dance, ...and a bottle of rum, Treasure Sunken all by Gary Gilroy."
 
-    notes: >
-        The Milpitas High School Marching Band hopes you enjoy this musical journey through the exotic landscapes and famous folk stories of Persia, India, the Middle East, and Egypt.
+    notes:

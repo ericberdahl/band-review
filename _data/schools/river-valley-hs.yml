@@ -3,15 +3,35 @@ name: "River Valley High School"
 city: "Yuba City, CA"
 
 parade:
-    last-updated: 0
+    last-updated: 2018
 
-    nickname: "River Valley High School Marching Band"
+    nickname: "River Valley Falcon Marching Band"
 
     directors:
     -   "Michael Taylor"
 
+    staff:
+    -   title: "guard coach"
+        members:
+        -   "Jovanie Romero"
+
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Steven Cramer"
     
-    music:
+    -   title: "shield captain"
+        members:
+        -   "Shirley Camacho"
+        
+    -   title: "flag captain"
+        members:
+        -   "Jacob Huerta"
+    
+    -   title: "percussion captain"
+        members:
+        -   "Delaney Timms"
+    
+    music: "King Karl King by Henry Fillmore"
 
     notes: 
