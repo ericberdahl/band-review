@@ -9,7 +9,7 @@ parade:
     -   "Kris Harper"
 
 fieldshow:
-    last-updated: 0
+    last-updated: 2018
 
     nickname: "Whitney High School Marching Band"
 
@@ -20,12 +20,21 @@ fieldshow:
     -   title: "assistant directors"
         members:
         -   "Kristyn Lorek"
-        -   "Misty Reece"
         -   "Eric Wong"
 
-    leaders:
+    -   title: "instructed by"
+        members:
+        -   "Brianna Padilla"
+        -   "Sam Oddo"
+        -   "Alyssa Hannigan"
+        -   "Candi Kelly"
 
-    program: 
+    leaders:
+    -   title: "drum major"
+        members:
+        -   "Carl Porras"
+
+    program: "Above the Stars"
 
     music: 
 
