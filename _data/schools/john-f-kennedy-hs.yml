@@ -5,9 +5,9 @@ name: "John F Kennedy High School"
 city: "Sacramento, CA"
 
 fieldshow:
-    last-updated: 2017
+    last-updated: 2018
 
-    nickname: "JFK Marching Band and Color Guard"
+    nickname: "JFK Marching Band"
 
     directors:
     -   "Jeremy Hammond"
@@ -16,34 +16,35 @@ fieldshow:
     staff:
     -   title: "staff members"
         members:
-        -   "George Miles"
-        -   "Sheryl Miles"
         -   "Alex Pfiefer"
-        -   "Devon Edmonds"
-        -   "Ryan Lee"
-        -   "Kevin Bowlson"
-        -   "john Garcia"
-        -   "lindsay Dow"
-        -   "Vincent Salvitti"
-        -   "Susan Levine"
-        -   "Rebecca Miles"
-        -   "Marcelino Nambo"
-        -   "Maddie Bright"
-        -   "Sheldon Caldera"
-        -   "Jakara Rogers"
         -   "Claire King"
-        -   "Jacob Quintanilla"
-        -   "Marvin Reed"
-        -   "Dan Fong"
-        -   "Jack the Pumpkin King"
+        -   "Daniel Fong"
+        -   "Devon Edmonds"
+        -   "George Miles"
+        -   "Kevin Bowlson"
+        -   "Lindsay Dow"
+        -   "Rebecca Miles"
+        -   "Rose Roberts"
+        -   "Sheldon Caldera"
+        -   "Sheryl Miles"
+        -   "Trevor Hall"
+        -   "Vincent Salvitti"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Peter Fuller"
-        -   "Calvin Elliott"
+        -   "Calvin Elliot"
         -   "Grace Hibbs"
+        -   &edson-saechao "Edson Saechao (Edson SAY-shah-oh)"
+    
+    -   title: "auxilliary captain"
+        members:
+        -   *edson-saechao
 
-    program: "Phantom"
+    program: "Nightmare"
 
-    music: "music from Phantom of the Opera, composed by Andrew Lloyd Webber, musical arrangement by Jeremy Hammond, percussion arrangement by John Garcia and George Miles, drill design by Jeremy Hammond, and guard design by Sheldon Caldera."
+    music: >
+        selections from "The Nightmare Before Christmas" by Danny Elfman, arranged by Jeremy Hammond
+
+    notes: >
+        The JFK Marching Band gives special thanks to their boosters for their support!

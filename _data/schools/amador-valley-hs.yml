@@ -2,28 +2,82 @@ name: "Amador Valley High School"
 
 city: "Pleasanton, CA"
 
-parade:
-    last-updated: 0
+fieldshow:
+    last-updated: 2018
+
+    nickname: "Marching Dons"
 
     directors:
     -   &jonathan-grantham "Jonathan Grantham"
-    -   "Patrick Dandrea (Patrick dan-DRAY-uh)"
-
-fieldshow:
-    last-updated: 0
-
-    nickname: "Amador Valley High School Marching Band"
-
-    directors:
-    -   *jonathan-grantham
     
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Matt Sieve"
+        -   "Gaby Bonilla"
+        -   "Nick Garcia"
+        -   "Rachel Doolittle"
+        -   "Chris Chervet"
+        -   "Ricky Liedtke"
+        -   "Brandon Yim"
+        -   "Ben Kane"
+        -   "John Meehan"
+        -   "Keith Dunton"
+        -   "Jamey Thompson"
+        -   "Brian Harmsen"
+        -   "Casey Brohard"
+        -   "Brandon Hussey"
+        -   "Matt Lowe"
+        -   "Chris Cyr"
+        -   "Tiffany Castelan"
+        -   "Rob Keedy"
+        -   "Glenn Imai"
+        -   "David Ziehm"
+        -   "TJ Doucette"
+        -   "Ryan Madayag"
+        -   "Nick Lucero"
+        -   "Rachel Nishijima"
 
     leaders:
+    -   title: "drum majors"
+        members:
+        -   "Marianna Szambelan (Mariana SZAHM-beh-lahn)"
+        -   "Joseph Nazareno (Joseph nah-zah-RAY-noh)"
+        -   "Allison Gable"
 
-    program: 
+    -   title: "auxilliary captains"
+        members:
+        -   "Hailey Maldonado"
+        -   "Wendy Su"
 
-    music: 
+    -   title: "battery captains"
+        members:
+        -   "Max Alvarado"
+        -   "Ellie Benton"
+        -   "Gabe Michels (Gabe MIH-chehls)"
+        
+    -   title: "front ensemble captains"
+        members:
+        -   "Nina Lim"
+        -   "Anika Mehra"
+        -   "Trenton VerKuilen (Trenton vehr-KYOO-lehn)"
 
-    notes:
-    
+    -   title: "brass captain"
+        members:
+        -   "Robin Hwang"
+
+    -   title: "woodwind captain"
+        members:
+        -   "Evan Yang"
+
+    program: "Intertwined"
+
+    music: >
+        featuring original music from John Meehan and the soundtrack of Maleficent as well as the famous song "The Sound of Silence".
+        The band will close with "Aurora Awakes" by John Mackey.
+
+    notes: >
+        Amador Valley is a thirteen-time Western Band Association finalist, and a five-time Bands of America regional finalist.
+        The wind ensemble has been a featured performer at The Midwest Clinic, the state music conference and performed at Carnegie Hall last spring.
+        The band members would like to thank the administration of Amador Valley High School as well as the Sea of Purple for all of the amazing support you give us!
+        We love you and appreciate you!

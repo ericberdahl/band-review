@@ -5,9 +5,9 @@ name: "Del Oro High School"
 city: "Loomis, CA"
 
 fieldshow:
-    last-updated: 2017
+    last-updated: 2018
 
-    nickname: "Del Oro Golden Eagle Band"
+    nickname: "Golden Eagle Marching Band"
 
     directors:
     -   "Ben Duncan"
@@ -15,13 +15,15 @@ fieldshow:
     leaders:
     -   title: "drum major"
         members:
-        -   "Katherine Hanson"
+        -   "Antony Rozic"
 
     -   title: "auxiliary captain"
         members:
-        -   "Ashley Parrott"
+        -   "Nora Herrick"
 
-    program: "Beyond the Threshold"
+    program: "Outside the Box"
 
-    music: "selections and arrangements from Key Poulan (KEE poh-LAN), John Meehan, and John Mackey"
+    music: "selections from Key Poulan (KEE poh-LAN)"
 
+    notes: >
+        The Del Oro band would like to thank the Foothill music program and boosters for hosting today's event allowing them to participate.

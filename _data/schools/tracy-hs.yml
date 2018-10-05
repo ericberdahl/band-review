@@ -3,34 +3,59 @@ name: "Tracy High School"
 city: "Tracy, CA"
 
 parade:
-    last-updated: 2017
+    last-updated: 2018
 
-    nickname: "Pride of Tracy Marching Band and Color Guard"
+    nickname: &band-nickname "Pride of Tracy Marching Band and Color Guard"
 
     directors: &directors
     -   "Jeff Kumagai (Jeff KOO-muh-gai)"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   &amanda-gieseke "Amanda Gieseke (Amanda geh-SEH-kee)"
+        -   &cj-julian "CJ Julian"
+        -   &danielle-masters "Danielle Masters"
+        -   &matt-masters "Matt Masters"
+
     leaders:
     -   title: "drum major"
         members:
-        -   "Nick Mahedy (Nick mah-HEH-dee)"
+        -   &brianna-rojas "Brianna Rojas"
 
-    music: "The Black Horse Troop by John Philip Sousa"
+    music: "A Slavic Farewell by Vasilij Agapkin (vah-SEE-lee ah-GAHP-kihn), arranged by John R. Bourgeois"
+
+    notes: >
+        The Pride of Tracy would like to thank the Tracy High staff and administration, and the Band Boosters for everything they do.
+        We appreciate everything you do to help make our season possible.
 
 fieldshow:
-    last-updated: 0
+    last-updated: 2018
 
-    nickname: "Tracy High School Marching Band"
+    nickname: *band-nickname
 
     directors: *directors
     
     staff:
+    -   title: "instructed by"
+        members:
+        -   *amanda-gieseke
+        -   *cj-julian
+        -   *danielle-masters
+        -   *matt-masters
+        -   "RJ Sambrano"
+        -   "Jaden McComas"
 
     leaders:
+    -   title: "drum majors"
+        members:
+        -   *brianna-rojas
+        -   "Lauren McKelvey"
 
-    program: 
+    program: "Pandora's Box"
 
-    music: 
+    music: "music composed and arranged by Key Poulan (KEE poh-LAN)"
 
-    notes:
-    
+    notes: >
+        The Pride of Tracy would like to thank the Tracy High School staff and administration, as well as the Band Boosters for all of their continued support.
+        We appreciate everything you do to help make our season possible.

@@ -5,34 +5,42 @@ name: "Livermore High School"
 city: "Livermore, CA"
 
 parade:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: "Cowboy Marching Band"
 
     directors: &directors
     -   "Justin Enright"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "David Alattore (David ah-lah-TOHRR-ay)"
+        -   "Steven Drummer"
+        -   "Anthony Mogannom (Anthony MOH-gah-nohm)"
+        -   "Luis Cardoza"
+        -   "Hannah Dolan"
+
     leaders:
     -   title: "drum major"
-        members:
-        -   "Katie Seidl"
-
-    -   title: "assistant drum major"
         members:
         -   "Luca Cuppoletti"
 
     -   title: "auxiliary captains"
         members:
-        -   "Hannah Dolan"
-        -   "Serena Dolan"
-        -   "Siliyah Greer"
+        -   "Phoenix McPeake"
+        -   "Aracely Rios (ah-rah-SEHL-ee Rios)"
 
     -   title: "percussion captains"
         members:
         -   "Alex Paterson"
-        -   "Maverik Wilson"
+        -   "Kaylee Cherry"
 
-    music: "Block M March by Jerry Bilik"
+    music: "Slaidburn (SLAYD-burn) by William Rimmer"
+
+    notes: >
+        The Livermore High School Cowboy Marching Band would like to thank Livermore Music, their fantastic booster program for all of their support.
+        Also, a special thanks to the Foothill High School families, staff, and community for making this spectacular event possible!
 
 winterguard:
     last-updated: 2018

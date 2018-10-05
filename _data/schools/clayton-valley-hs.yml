@@ -3,18 +3,46 @@ name: "Clayton Valley Charter High School"
 city: "Concord, CA"
 
 fieldshow:
-    last-updated: 0
+    last-updated: 2018
 
-    nickname: "Clayton Valley Charter High School Marching Band"
+    nickname: "Eagle Marching Band"
 
     directors:
     -   "Lydia Lim"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Kyle Banda"
+        -   "Makoto McCann"
+        -   "Brandon Duenas"
+        -   "Chris Chervet"
+
     leaders:
-
-    program:
-
-    music:
-
-    notes:
+    -   title: "drum majors"
+        members:
+        -   "Sarah Kidd"
+        -   "Jack Simpkins"
     
+    -   title: "auxiliary captain"
+        members:
+        -   "Jenna Simpkins"
+    
+    -   title: "percussion captain"
+        members:
+        -   "Mia Propersi (Mia proh-PEHR-see)"
+    
+    -   title: "brass captain"
+        members:
+        -   "Reese Romero"
+    
+    -   title: "woodwind captain"
+        members:
+        -   "Alicia Lane"
+
+    program: "The Bringer of Joy"
+
+    music: "music arranged by Kevin Shah and Tony Nunez"
+
+    notes: >
+        The Eagle Marching Band gives a huge thank you to the Clayton Valley Music Boosters for working tirelessly to support this program!
