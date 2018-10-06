@@ -3,22 +3,39 @@ name: "Willow Glen High School"
 city: "San Jose, CA"
 
 fieldshow:
-    last-updated: 0
+    last-updated: 2018
 
-    nickname: "Willow Glen High School Marching Band"
+    nickname: "Willow Glen High School Marching Band and Color Guard"
 
     directors:
     -   &kelly-walker "Kelly Walker"
     
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Trevor Walker"
+        -   "Rachel Okada"
+        -   "Johnny Rodriguez"
+        -   "Edwin Sanchez"
+        -   "Paul Sawyer"
+        -   "Stuart Langsam"
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Sierra Coffman"
+    
+    -   title: "auxiliary captain"
+        members:
+        -   "Helen Beaton Grover"
 
-    program: 
+    program: "Poco a Poco"
 
-    music: 
+    music: "Capriccio Espagnol by Rimsky-Korsakov, Intermezzo from Carmen by Georges Bizet, and Libertango by Astor Piazzolla."
 
-    notes:
+    notes: >
+        The 2018 season marks the second year of existence for the Willow Glen High School Marching Band and Color Guard and their first season of competition.
+        They would like to thank the Willow Glen Performing Arts Boosters for their ongoing support of the arts at Willow Glen High School.
     
 winterguard:
     last-updated: 2018
