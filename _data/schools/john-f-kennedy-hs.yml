@@ -37,10 +37,6 @@ fieldshow:
         -   "Grace Hibbs"
         -   &edson-saechao "Edson Saechao (Edson SAY-shah-oh)"
     
-    -   title: "auxilliary captain"
-        members:
-        -   *edson-saechao
-
     program: "Nightmare"
 
     music: >
