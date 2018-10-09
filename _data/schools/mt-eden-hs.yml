@@ -3,33 +3,76 @@ name: "Mt Eden High School"
 city: "Hayward, CA"
 
 parade:
-    last-updated: 0
+    last-updated: 2018
 
-    nickname: &nickname "Mt Eden High School Marching Band"
+    nickname: &nickname "Mount Eden High School Marching Monarchs"
 
     directors: &directors
     -   "Kevin Cato (Kevin KAY-toh)"
 
-    leaders:
-    
-    music:
+    staff:
+    -   title: "instructed by"
+        members:
+        -   &adriano-tecson "Adriano Tecson"
+        -   &tom-dreiman "Tom Dreiman"
+        -   &elvis-ordiniza "Elvis Ordiniza"
+        -   &eliza-huerta "Eliza Huerta"
+        -   &jackie-rodriguez "Jackie Rodriguez"
 
-    notes: 
+    leaders:
+    -   title: "auxiliary captains"
+        members:
+        -   &misty-nguyen "Misty Nguyen"
+        -   &edwin-ramos "Edwin Ramos"
+
+    -   title: "percussion captains"
+        members:
+        -   &hamaad-hassan "Hammaad Hassan"
+        -   &adriel-flores "Adriel Flores"
+    
+    music: "The 3 Amigos by Kevin Cato"
+
+    notes: >
+        The Mount Eden High School Marching Monarchs would like to thank the parents and YEP for their continued support.
 
 fieldshow:
-    last-updated: 0
+    last-updated: 2018
 
     nickname: *nickname
 
     directors: *directors
     
     staff:
+    -   title: "instructed by"
+        members:
+        -   *elvis-ordiniza
+        -   *adriano-tecson
+        -   *tom-dreiman
+        -   *jackie-rodriguez
+        -   *eliza-huerta
 
     leaders:
+    -   title: "drum majors"
+        members:
+        -   "Cristian Gonzalez"
+        -   "Elyza Santos"
+    
+    -   title: "auxiliary captains"
+        members:
+        -   *misty-nguyen
+        -   *edwin-ramos
+        -   "Charisse Garcia"
+    
+    -   title: "percussion captains"
+        members:
+        -   *hammaad-hassan
+        -   *adriel-flores
 
-    program: 
+    program: "Another Day in the West"
 
-    music: 
+    music: "Power of 3 by Kevin Cato; The 3 Amigos, 3 Wishes, and Triple Threat"
 
-    notes:
+    notes: >
+        Our story begins with the capture of the Outlaws only to have escape and terrorize the town folks.
+        It’s up to the Sheriff and Deputies to bring them to justice in Another Day in the West.
     
