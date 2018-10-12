@@ -53,14 +53,13 @@ parade:
     -   ref: "vallejo-hs"
     -   ref: "capuchino-hs"
     -   ref: "del-mar-hs"
-    -   break: 10
+    -   break: 15
     -   ref: "mt-eden-hs"
     -   ref: "cesar-chavez-hs"
     -   ref: "tracy-hs"
     -   ref: "el-capitan-hs"
     -   ref: "patterson-hs"
     -   ref: "benicia-hs"
-    -   ref: "merrill-f-west-hs"
     -   ref: "granada-hs"
     -   ref: "buhach-colony-hs"
     -   ref: "santa-cruz-hs"
@@ -70,13 +69,12 @@ parade:
     -   ref: "irvington-hs"
     -   ref: "franklin-hs"
     -   ref: "lincoln-hs"
-    -   ref: "golden-valley-hs"
     -   ref: "fairfield-hs"
     -   ref: "rodriguez-hs"
     -   ref: "merced-hs"
 
 fieldshow:
-    start_time: "2:30pm"
+    start_time: "2:45pm"
 
     lineup:
     -   ref: "whitney-hs"
@@ -89,12 +87,12 @@ fieldshow:
     -   ref: "tracy-learning"
     -   ref: "oakmont-hs"
     -   break: 30
-    -   ref: "phillip-burton-hs"
     -   ref: "st-francis-hs"
     -   ref: "mt-eden-hs"
     -   ref: "american-canyon-hs"
-    -   ref: "fremont-hs"
     -   ref: "del-oro-hs"
+    -   ref: "phillip-burton-hs"
+    -   ref: "fremont-hs"
     -   ref: "vintage-hs"
     -   break: 30
     -   ref: "american-hs"
@@ -122,28 +120,35 @@ fieldshow:
 
 concert:
     lineup:
+    -   ref: "livermore-hs"
     -   ref: "lincoln-hs"
         unit: "concert-1"
     -   ref: "irvington-hs"
         unit: "concert-1"
-    -   ref: "franklin-hs"
-    -   ref: "livermore-hs"
-    -   ref: "mt-eden-hs"
-    -   break: 25
-    -   ref: "benicia-hs"
     -   ref: "lincoln-hs"
         unit: "concert-2"
+    -   ref: "franklin-hs"
+    -   ref: "irvington-hs"
+        unit: "concert-2"
     -   ref: "fairfield-hs"
+    -   break: 125
     -   ref: "jesse-bethel-hs"
+    -   ref: "mt-eden-hs"
+    -   ref: "benicia-hs"
     -   break: -1
-    -   ref: "cesar-chavez-hs"
-    -   ref: "del-mar-hs"
-    -   ref: "capuchino-hs"
-    -   ref: "philip-burton-hs"
     -   ref: "turlock-christian-hs"
+    -   ref: "del-mar-hs"
+    -   ref: "cesar-chavez-hs"
+    -   break: 25
     -   ref: "lincoln-hs"
         unit: "concert-3"
-    -   ref: "wells-ms"
+    -   break: 25
     -   ref: "harvest-park-ms"
     -   ref: "pleasanton-ms"
     -   ref: "benicia-ms"
+    -   ref: "wells-ms"
+    -   break: 25
+    -   ref: "capuchino-hs"
+    -   break: 50
+    -   ref: "lincoln-hs"
+        unit: "symphonic"
