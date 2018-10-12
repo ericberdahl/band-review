@@ -4,14 +4,19 @@ name: "Irvington High School"
 
 city: "Fremont, CA"
 
+students:
+-   &lauren-hughes "Lauren Hughes"
+-   &vivian-liu "Vivian Liu"
+-   &christina-tran "Christina Tran"
+-   &raymong-zhao "Raymong Zhao"
+
 parade:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: "Viking Marching Band"
 
     directors:
     -   "Charlie Rodda (Charlie RAH-dah)"
-    -   "Adam Anaya"
 
     staff:
     -   title: "marching coach"
@@ -26,24 +31,21 @@ parade:
         members:
         -   "Charles Cachero"
         -   "Eric Wong"
-        -   "Hari Kuthevelil (Hari KOO-theh-veh-lihl)"
-        -   "Eddie Shin"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Rukmini Bose (rook-MEE-nee Bose)"
+        -   *raymong-zhao
 
     -   title: "auxiliary captains"
         members:
-        -   "Kelsey Lu"
-        -   "Christina Tran"
+        -   *christina-tran
+        -   *vivian-liu
 
     -   title: "percussion captain"
         members:
-        -   "Garrett Mark"
+        -   *lauren-hughes
 
-    music: "Mephistopheles by Shipley Douglas"
+    music: "Centaur by Derek Broadbent as arranged by Jeffrey Stratton"
 
-    notes: >
-        At last year's Foothill Band Review, Irvington earned the Music and Marching Sweepstakes. At this year's Del Mar band Review they earned the Music, Marching, and Parade sweepstakes.
+    notes: 

@@ -5,7 +5,7 @@ name: "Phillip Burton High School"
 city: "San Francisco, CA"
 
 fieldshow:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: "Puma Marching Band"
 
@@ -13,29 +13,42 @@ fieldshow:
     -   "Manuel Young"
 
     staff: &other-directors
-    -   title: "assistant director"
+    -   title: "percussion coachs"
         members:
         -   "Divesh Karamchandani (dih-VESH ka-ram-chahn-DAHN-ee)"
+        -   "Alex Chen"
+    
+    -   title: "color guard coach"
+        members:
+        -   "Benny Serrato"
 
     leaders:
-    -   title: "drum major"
+    -   title: "drum majors"
         members:
-        -   "Patricia Fong"
+        -   "Patti Fong"
+        -   "Nathaniel Wong"
+
+    -   title: "auxiliary captains"
+        members:
+        -   "Akira Son"
+        -   "Lily Chen"
 
     -   title: "percussion captains"
         members:
-        -   "Byronne Rodrigo"
-        -   "Sabrina Du"
+        -   "Aaron Balot"
+        -   "Karissa Wong"
 
-    program: "Cirque Solei, La Nouba"
+    program: "Shades of Latin"
 
-    music: "Distorted, Reve Rouge, and Urban"
+    music: >
+        Aztec Fire by Jay Bocook,
+        Malaquena by Ernesto Lecuona arranged by Michael Sweeney,
+        adn Latin Closer by Jay Bocook
 
     notes: >
-        This year marks the first year for the Burton High School Marching Band's participation in
-        a competitive field show event. The band program is only 6 years old and has since placed
-        top three in various winter percussion and winter guard competitions since 2015, and the band
-        program was the recipient of the 2015 GRAMMY Signature Schools Enterprise Award.
+        This is the Puma Marching Band's second year being a competitive marching band and being the only public high school competitive marching band in San Francisco.
+        The Burton Band was also nominated by Congresswoman Nancy Pelosi to represent our community and California in the National Independence Day Parade in Washington DC next summer.
+        All of this wouldn't be possible without the amazing support of the Burton Band Boosters, Burton High School Admin and SFUSD.
 
 winterpercussion:
     last-updated: 2018

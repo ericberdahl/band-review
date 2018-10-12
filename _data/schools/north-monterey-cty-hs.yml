@@ -5,34 +5,31 @@ name: "North Monterey County High School"
 city: "Castroville, CA"
 
 parade:
-    last-updated: 2017
+    last-updated: 2018
 
-    nickname: "Condors"
+    nickname: "Marching Condors"
 
     directors:
     -   "Marcie Chapa"
-    -   "Kelly Matz"
+
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Alison Schroyer"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Erik Martinez"
+        -   "Nayla Anastacio"
 
-    -   title: "auxiliary captains"
+    -   title: "auxiliary captain"
         members:
-        -   "Jaqueline Magallon (Jaqueline MAEH-geh-lon)"
-        -   "Nancy Sagrero (Nancy seh-GREH-row)"
+        -   "Jaqueline Magallon-Delgado (Jaqueline MAEH-geh-lon Delgado)"
 
-    -   title: "percussion captains"
+    -   title: "percussion captain"
         members:
-        -   "Cameron Reyes"
-        -   "Nina Harrison"
+        -   "Joel Espinoza"
     
-    music: "High School Cadets by John Philip Sousa"
+    music: "Aces of the Air by Karl L. King"
 
-    notes: >
-        The Condors were the sole representative for the State of California in the 53rd
-        Presidential Inauguration Parade in Washington, D.C. for President Bill Clinton.
-        In March of 2001, 2005, 2009, 2013, and 2017 the Condors were the special guests of
-        the Hebei (heh-BAY) Provincial Government of the Peoples Republic of China and
-        participated in "`Friendship Concerts`" that later became known as "`Peace Through Music.`"
+    notes: 

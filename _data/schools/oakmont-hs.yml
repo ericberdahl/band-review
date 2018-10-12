@@ -3,18 +3,60 @@ name: "Oakmont High School"
 city: "Roseville, CA"
 
 fieldshow:
-    last-updated: 0
+    last-updated: 2018
 
-    nickname: "Oakmont High School Marching Band"
+    nickname: "Royal Blue Regiment"
 
     directors:
     -   "Paul D. Everts"
 
+    staff:
+    -   title: "visual, marching, and brass instructor"
+        members:
+        -   "Julian Mitchell"
+
+    -   title: "front ensemble, sound tech, and brass instructor"
+        members:
+        -   "Boston Ferrera"
+
+    -   title: "color guard instructor"
+        members:
+        -   "Louis Moreno"
+
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Jon Sandwell"
+    
+    -   title: "assistant drum major"
+        members:
+        -   "Elyzabeth Merryman"
+    
+    -   title: "auxiliary captain"
+        members:
+        -   "Tyla Bartz"
 
-    program:
+    -   title: "percussion captains"
+        members:
+        -   "Kayla Strever"
+        -   "Brett Cook"
+        -   "Landon Stewart"
+        -   "Gage Easley"
 
-    music:
+    program: "We Are Oakmont!"
 
-    notes:
+    music: "Every Which Way by Gary P. Gilroy, drill design by Aaron Hines"
+
+    notes: >
+        After many years, the Oakmont Royal Blue Regiment returns to Foothill.
+        Mr. Everts and his students thank the parents very much for all they do to help support the organization.
+        Also, they thank Foothill High School for hosting the event.
+        Oakmont hosts an event, as well, and knows how much work it takes to host a field show competition.
+        Last year, there were 42 students in band with 14 freshmen.
+        This year...57 students with 27 freshmen.
+        This year will be the first year for 65% of the band ever competing in a field show!  Very exciting!  
+
+        On a personal note, Mr. Everts returns to the Tri-Valley.
+        From 2008-2017, Mr. Everts was the Dublin High School instrumental music teacher.
+        He wishes the new Dublin High School Instrumental Music Teacher, Mr. Polot and his students and organization the very best.
     

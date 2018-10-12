@@ -4,33 +4,38 @@ name: "Northgate High School"
 
 city: "Walnut Creek, CA"
 
-parade:
-    last-updated: 2017
+students:
+-   &elijah-canlas "Elijah Canlas"
+-   &cameron-paloutzian "Cameron Paloutzian (Cameron pah-LOOT-zee-ihn)"
+-   &hawson-wang "Hawson Wang"
 
-    nickname: "Marching Broncos"
+parade:
+    last-updated: 2018
+
+    nickname: "Northgate High School Marching Band and Auxiliary"
 
     directors:
     -   "Sara Stafford"
 
     staff:
-    -   title: "assistant director"
+    -   title: "auxiliary director"
         members:
         -   "Jessica Aduan"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Christopher Cheung"
+        -   *cameron-paloutzian
 
     -   title: "assistant drum major"
         members:
-        -   "Cameron Paloutzian (Cameron pah-LOOT-zee-an)"
+        -   *elijah-canlas
 
     -   title: "auxiliary captain"
         members:
-        -   "Jade Wong"
+        -   *hawson-wang
     
-    music: "The Directorate by John Philip Sousa"
+    music: "Manhattan Beach by John Philip Sousa"
 
     notes: >
-        The Marching Broncos ask that the judges and audience, "`Please watch us until we stop playing, DON'T MISS OUR VERY SPECIAL ENDING!!! Enjoy The Directorate`"
+        The Northgate High School Marching Band and Auxiliary gives a special thank you to the Northgate Instrumental Music Boosters for such a wonderful season!!! 

@@ -4,28 +4,49 @@ name: "Merced High School"
 
 city: "Merced, CA"
 
+students:
+-   &william-moua "William Moua"
+-   &pilar-yanez "Pilar Yanez"
+
 parade:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: "Merced Marching 100"
 
     directors:
-    -   "Jon Schmid"
+    -   "Jonathan L. Schmid"
+
+    staff:
+    -   title: "color guard instructors"
+        members:
+        -   "Jennifer Lawton"
+        -   "Armando Francisco"
+        -   "Alondra Hernandez"
+
+    -   title: "percussion instructors"
+        members:
+        -   "Juan Martinez"
+        -   "Emily Green"
+        -   "Fernando Barragan (Fernando BEHR-ah-gahn)"
+        -   "Justin Garcia"
+        -   "Raymond Herrera"
+        -   "Edgar Cepeda"
+        -   "Andrew Rocco"
+
+    -   title: "winds instructor"
+        members:
+        -   "Raymond Willis"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Zachary Calzadillas"
-
-    -   title: "auxiliary captain"
-        members:
-        -   "Karena Vang"
+        -   *william-moua
 
     -   title: "percussion captain"
         members:
-        -   "Andrew Rocco"
+        -   *pilar-yanez
     
-    music: "British Eighth by Zo Elliott"
+    music: "March - Rosehill by Albert Jakeway"
 
     notes: >
-        The Merced Marching 100 would like to thank their incredible boosters for all of their amazing support.
+        The Merced Marching 100 would like to thank our wonderful boosters for their tireless efforts in making our program successful.

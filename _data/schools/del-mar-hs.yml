@@ -4,55 +4,98 @@ name: "Del Mar High School"
 
 city: "San Jose, CA"
 
+people:
+        -   "Mia Nicolacoudis (Mia nih-ko-lah-KOO-dihs)"
+        -   "Katherine Butler"
+
 parade:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: "Del Mar High School Marching Band and Colorguard"
 
     directors: &directors
-    -   "William D Burkhead"
+    -   "William Burkhead"
+
+    staff: &band-staff
+    -   title: "assistant to the director"
+        members:
+        -   "Kale Duprey"
+
+    -   title: "colorguard instructor"
+        members:
+        -   "Russ Cabudol (Russ KAH-boo-doll)"
+
+    -   title: "woodwind instructor"
+        members:
+        -   "Rene Canto-Adams"
+
+    -   title: "brass instructor"
+        members:
+        -   "Vincent Jurado"
+
+    -   title: "battery instructor"
+        members:
+        -   "Jeffrey Marcos"
+
+    -   title: "front ensemble instructor"
+        members:
+        -   "Wyatt Holtkamp"
+
+    -   title: "visual coaches"
+        members:
+        -   "Pia Satana"
+        -   "AJ Gonzalez"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Noah Rojas"
+        -   &noah-rojas "Noah Rojas"
 
-    -   title: "auxiliary captain"
+    -   title: "auxiliary captains"
         members:
-        -   "Max Rosenfeld"
+        -   &marianna-castinon "Marianna Castinon"
+        -   &nancy-perez "Nancy Perez"
 
     -   title: "percussion captain"
         members:
-        -   "Joshua Salgado"
+        -   &josh-salgado "Josh Salgado"
 
-    music: "Semper Fidelis by John Philip Sousa"
+    music: "H.H. Jollies by Kenneth Alford, arranged by Matt Mackey"
 
 fieldshow:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: "Del Mar High School Marching Band and Colorguard"
 
     directors: *directors
 
-    leaders:
-    -   title: "drum majors"
-        members:
-        -   "Mia Nicolacoudis (Mia nih-ko-lah-KOO-dihs)"
-        -   "Katherine Butler"
+    staff: *band-staff
 
-    -   title: "auxiliary captain"
+    leaders:
+    -   title: "drum major"
         members:
-        -   "Max Rosenfeld"
+        -   *noah-rojas
+
+    -   title: "auxiliary captains"
+        members:
+        -   *marianna-castinon
+        -   *nancy-perez
 
     -   title: "battery captain"
         members:
-        -   "Noah Rojas"
+        -   *josh-salgado
 
     -   title: "front ensemble captain"
         members:
-        -   "Arturo Montes (Arturo mohn-TEZ)"
+        -   &arturo-montes "Arturo Montes (Arturo mohn-TEZ)"
 
-    program: "Welcome to The Moulin Rouge"
+    program: "Investigating Russia: The Music of the Giants"
+
+    music: >
+        Festive Overture by Dmitri Shostakovich,
+        Romance, from Lieutenant Kije by Serge Prokofiev,
+        Night on Bald Mountain by Modest Mousorgsky,
+        and Finale to The Firebird by Igor Stravinsky
 
     notes: >
         Del Mar gives very special thanks to their awesome staff and amazing parent teams for their

@@ -4,8 +4,13 @@ name: "Wells Middle School"
 
 city: "Dublin, CA"
 
+students:
+-   &grace-holmes "Grace Holmes"
+-   &gabe-rouse "Gabe Rouse (Gabe RAH-oo-s)"
+-   &kate-wiser "Kate Wiser"
+
 parade:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: "Roadrunner Band"
 
@@ -13,24 +18,24 @@ parade:
     -   "Erik Bertelson"
 
     staff:
-    -   title: "color guard instructors"
+    -   title: "instructed by"
         members:
-        -   "Kayla Dow"
         -   "Meghan Van Lare"
         -   "Michala Viazzo (mih-CAH-lah Viazzo)"
-        -   "Amanda Dow"
+        -   "Emeline Crowder"
+        -   "Anna Baalman"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Gabe Rouse (Gabe RAH-oo-s)"
+        -   *gabe-rouse
 
-    -   title: "auxiliary captain"
+    -   title: "auxiliary captains"
         members:
-        -   "Mourissa DeMello"
+        -   *grace-holmes
+        -   *kate-wiser
 
-    music: "United Nations by K.L. King"
+    music: "Host of Freedom by K.L. King"
 
     notes: >
-        The Roaddrunner Band gives special thanks to their Color Guard Instructors, Kayla Dow,
-        Meghan Van Lare, Michala Viazzo, and Amanda Dow.
+        The Roaddrunner Band gives a big thanks to our Band and Color Guard Parents for your wonderful help and support.

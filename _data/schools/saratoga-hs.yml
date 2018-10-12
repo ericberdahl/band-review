@@ -2,19 +2,80 @@ name: "Saratoga High School"
 
 city: "Saratoga, CA"
 
-fieldshow:
-    last-updated: 0
+students:
+-   &dylan-boselli "Dylan Boselli"
+-   &alena-jarrett "Alena Jarrett"
+-   &aj-lee "AJ Lee"
+-   &deyshna-pai "Deyshna Pai"
+-   &alexandra-propach "Alexandra Propach"
+-   &meera-ravichandran "Meera Ravichandran"
+-   &alex-ruemmler "Alex Ruemmler"
+-   &rishub-tamirisa "Rishub Tamirisa"
+-   &kimi-uenaka "Kimi Uenaka"
 
-    nickname: "Saratoga High School Marching Band"
+fieldshow:
+    last-updated: 2018
+
+    nickname: "Saratoga High School Marching Band and Color Guard"
 
     directors:
     -   "Jason Shiuan (Jason schwan)"
+    -   "Michael Boitz"
+
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Todd Ryan"
+        -   "Jonathan Pwu"
+        -   "KK Sullivan"
+        -   "Lauren Casey-Clyde"
+        -   "Oliver Chen"
+        -   "Vivi Kung"
+        -   "Katie Starnes"
+        -   "Jazz Kristophe Legaspi"
+        -   "Gustavo Morales"
+        -   "Brittany Bennet"
+        -   "Austin Sugai"
+        -   "Chavadith Tantavirojn (kah-vah-dith tan-tah-vih-RHO-geen)"
+        -   "Sean Clark"
+        -   "Jared Baltazar"
+        -   "Brandon Adamson"
+        -   "Frank Peacock"
+        -   "Gabe Boquerin"
+        -   "Steven Drummer"
+        -   "Jaewoo Lee"
+        -   "Uday Singh"
 
     leaders:
+    -   title: "drum majors"
+        members:
+        -   *aj-lee
+        -   *deyshna-pai
+        -   *alena-jarrett
 
-    program:
+    -   title: "auxiliary captains"
+        members:
+        -   *alex-ruemmler
+        -   *meera-ravichandran
+        -   *kimi-uenaka
+        -   *alexandra-propach
 
-    music:
+    -   title: "percussion captains"
+        members:
+        -   *dylan-boselli
+        -   *rishub-tamirisa
 
-    notes:
+    program: "A Dream Within"
+
+    music: >
+        Alice in Wonderland by Sammy Fain and Bob Hillard,
+        The Sunken Cathedral by Claude Debussy,
+        Serenada Schizophrana by Danny Elfman,
+        Concerto for Violin and Orchestra by Samuel Barber,
+        and The Armed Man - A Mass for Peace by Karl Jenkins.
+
+    notes: >
+        The Saratoga High School Marching Band performed in the 2016 Tournament of Roses Parade, the 2012 Macy's Thanksgiving Day Parade, and Concert Performances in the 2017 WASBE and WMC in Europe.
+        The Band has been Class Champion the past five years at BOA Regionals and in 2015 were the overall BOA NorCal Regional Champion.
+        SHS Marching Band would like to extend heartfelt appreciation to all of the parents, families, friends, administration, SHS community members, and Music for All for their unyielding support.
     

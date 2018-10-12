@@ -3,15 +3,31 @@ name: "El Capitan High School"
 city: "Merced, CA"
 
 parade:
-    last-updated: 0
+    last-updated: 2018
 
-    nickname: "El Capitan High School Marching Band"
+    nickname: "El Capitan Guacho Marching Brigade"
 
     directors:
     -   "Maria Brouillard (Maria BROO-ih-yard)"
 
-    leaders:
-    
-    music:
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Cesario Juarez"
+        -   "Jesus Chavez"
+        -   "Aris Sandoval"
+        -   "Jay Wheeler"
+        -   "Zack Robinson"
 
-    notes: 
+    leaders:
+    -   title: "drum major"
+        members:
+        -   "Bryan Garcia"
+    
+    music: "Front Section by E. E. Bagley"
+
+    notes: >
+        The Gaucho Marching Brigade is in it's 6th year and has already established a history of excellence, with numerous sweepstakes and 1st place awards.
+        We would like to dedicate our performance to our beloved guard senior Riley Hanson.
+        Riley, we love you and miss you, and we know you are watching us from above right now.
+        We hope our performance makes you proud.

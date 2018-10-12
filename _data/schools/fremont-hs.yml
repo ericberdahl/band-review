@@ -2,32 +2,82 @@ name: "Fremont High School"
 
 city: "Sunnyvale, CA"
 
-parade:
-    last-updated: 0
+fieldshow:
+    last-updated: 2018
 
-    nickname: &nickname "Fremont High School Marching Band"
+    nickname: &nickname "Firebird Marching Band"
 
     directors: &directors
-    -   "Joseph Kelly"
-
-    leaders:
-
-    music:
-
-fieldshow:
-    last-updated: 0
-
-    nickname: *nickname
-
-    directors: *directors
+    -   "Joe Kelly"
     
     staff:
+    -   title: "music instructors"
+        members:
+        -   "Joe Kelly"
+        -   "Warren Scott"
+        -   "Bryan Rodriguez"
+        -   "Katie Gu"
+        -   "Garon Fok"
+        -   "Paul Olivo"
+
+    -   title: "percussion instructors"
+        members:
+        -   "Ben Newsome"
+        -   "Angelica Soriano"
+        -   "Daniel Valdez"
+        -   "Jerrence Capingian"
+
+    -   title: "color guard instructors"
+        members:
+        -   "Jazz Legaspi"
+        -   "Garrett Moya"
+        -   "Jenely Lozares"
+        -   "Mary Ordanza"
+        -   "Megan Ogden"
+
+    -   title: "visual design instructor"
+        members:
+        -   "Ryan Schlieper"
+
+    -   title: "visual instructors"
+        members:
+        -   "Dennis Tracey"
+        -   "Hector Mendoza"
+        -   "Ryoken Apostal"
+        -   "Lenny Ramirez"
+        -   "Dominic Team"
+        -   "Kevin Fang"
 
     leaders:
+    -   title: "drum majors"
+        members:
+        -   "Stephanie Lo"
+        -   "Rohan Walia"
+    
+    -   title: "auxiliary captains"
+        members:
+        -   "Anvitha That"
+        -   "Teju Kshatriya"
+    
+    -   title: "percussion captains"
+        members:
+        -   "Erik Bach"
+        -   "Johanna Refuerzo"
+    
+    -   title: "assistant drum majors"
+        members:
+        -   "Jacob Raabe"
+        -   "Keerthana Ananda"
 
-    program: 
+    program: "The New World"
 
-    music: 
+    music: "The New World Symphony by Antonin Dvorak, arranged by Key Poulan (KEE poh-LAN) and adapted by Ben Newsome"
 
-    notes:
+    notes: >
+        The Fremont Firebird Marching Band would like to thank all of the parents for carpooling, props, food and general support to make this season possible.
+        We’d also like to thank our parents for their generous donations in this era of no fees allowed.
+        Your support allows us to continue to exist despite economic challenges.
+        Special thanks go to all of the parents in the audience for allowing your kids to participate in this great activity.
+        Enjoy the shows!
+        Thank you Foothill for hosting this wonderful show!
     
