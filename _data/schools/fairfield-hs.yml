@@ -4,50 +4,61 @@ name: "Fairfield High School"
 
 city: "Fairfield, CA"
 
+students:
+-   &clay-ellison "Clay Ellison"
+-   &jaden-james "Jaden James"
+-   &chloe-tope "Chloe Tope"
+-   &lucero-vega "Lucero Vega"
+-   &norber-villaluna "Norber Villaluna"
+-   &mitchell-wells "Mitchell Wells"
+
 parade:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: "Scarlet Brigade"
 
     directors:
-    -   "Brian Swetland"
+    -   "Brian K. Swetland"
 
     staff:
-    -   title: "lead instructors"
+    -   title: "bagpipe instructor"
         members:
-        - "Teresa Pierce"
-        - "Fou Saelee (foo SAY-lee)"
-        - "Shealley Lee (she-AH-lee Lee)"
-        - "Jonathan Lee"
+        -   "Phillip Elder"
+
+    -   title: "guard instructor"
+        members:
+        -   "Fou Salee (foo SAY-lee)"
+
+    -   title: "percussion instructors"
+        members:
+        -   "Shealley Lee (she-AH-lee Lee)"
+        -   "Jonathan Lee"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Joshua Purvis"
+        -   *clay-ellison
 
     -   title: "auxiliary captain"
         members:
-        -   "Mandy Durden"
+        -   *lucero-vega
 
     -   title: "percussion captain"
         members:
-        -   "Jeff Jones"
+        -   *chloe-tope
 
     -   title: "pipe major"
         members:
-        -   "Andres Gil"
+        -   *norber-villaluna
 
     -   title: "pipe sergeant"
         members:
-        -   "Aislynn Brown (ACE-lihn Brown)"
+        -   *mitchell-wells
 
     -   title: "drum sergeant"
         members:
-        -   "Jaden James"
+        -   *jaden-james
 
-    music: "Joyce's 71st New York Regiment by Thornton Boyer"
+    music: "Invictus by Karl L. King and arranged by Andrew Glover"
 
     notes: >
-        The Scarlet Brigade Band from Fairfield High is proud of their long heritage of musical
-        and marching excellence. The Band's motto can be seen in their Coat of Arms and reads
-        "`In Hoc Signo Vinces`" translated "`Under This Banner Thou Shalt Conquer`".

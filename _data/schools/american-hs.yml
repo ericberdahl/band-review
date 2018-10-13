@@ -2,23 +2,105 @@ name: "American High School"
 
 city: "Fremont, CA"
 
-fieldshow:
-    last-updated: 0
+students:
+-   &namitha-bhat "Namitha Bhat"
+-   &desna-bui "Desna Bui"
+-   &sophia-chan "Sophia Chan"
+-   &lucy-chen "Lucy Chen"
+-   &serena-choo "Serena Choo"
+-   &anthony-di-paola "Anthony Di Paola"
+-   &andrew-lee "Andrew Lee"
+-   &rachel-lin "Rachel Lin"
+-   &sebastian-moreira "Sebastian Moreira"
+-   &ashley-nguyen "Ashley Nguyen"
+-   &purnima-qamar "Purnima Qamar"
+-   &samantha-silva "Samantha Silva"
+-   &ronit-singh "Ronit Singh"
+-   &henry-susantin "Henry Susantin"
+-   &aparajita-vemuri "Aparajita Vemuri"
+-   &alvin-wang "Alvin Wang"
+-   &joshua-wong "Joshua Wong"
+-   &alison-zhao "Alison Zhao"
 
-    nickname: "American High School Marching Band"
+fieldshow:
+    last-updated: 2018
+
+    nickname: "American Eagles Marching Band"
 
     directors: &directors
-    -   "Richard Wong"
+    -   "Richard F. Wong"
     
     staff:
+    -   Percussion Instructor - Anthony Nunes ("noons"), Color Guard Instructor - Jennifer Wong
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   *namitha-bhat
 
-    program: 
+    -   title: "assistant drum majors"
+        members:
+        -   *aparajita-vemuri
+        -   *alvin-wang
 
-    music: 
+    -   title: "auxilliary captains"
+        members:
+        -   *joshua-wong
+        -   *ashley-nguyen
 
-    notes:
+    -   title: "flute lead"
+        members:
+        -   *purnima-qamar
+
+    -   title: "assistant flute lead"
+        members:
+        -   *serena-choo
+
+    -   title: "clarinet leads"
+        members:
+        -   *rachel-lin
+        -   *sebastian-moreira
+
+    -   title: "alto saxophone lead"
+        members:
+        -   *desna-bui
+
+    -   title: "trumpet lead"
+        members:
+        -   *samantha-silva
+
+    -   title: "assistant trumpet lead"
+        members:
+        -   *ronit-singh
+
+    -   title: "low brass lead"
+        members:
+        -   *henry-susantin
+
+    -   title: "low winds lead"
+        members:
+        -   *anthony-di-paola
+
+    -   title: "assistant color guard captain"
+        members:
+        -   *alison-zhao
+
+    -   title: "music librarians"
+        members:
+        -   *sophia-chan
+        -   *lucy-chen
+        -   *andrew-lee
+
+    -   title: "equipment manager"
+        members:
+        -   *anthony-di-paola
+
+    program: "Minimally Speaking"
+
+    music: "New Rhythmics, Layers, Echoes, composed by Richard Saucedo"
+
+    notes: >
+        The American Eagles Marching Band thanks all our band parents for their support of our students in the program.
     
 winterguard:
     last-updated: 2018

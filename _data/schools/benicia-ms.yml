@@ -4,41 +4,59 @@ name: "Benicia Middle School"
 
 city: "Benicia, CA"
 
-parade:
-    last-updated: 2017
+students:
+-   &ava-cheung "Ava Cheung (AY-vah chung)"
+-   &cedric-ham "Cedric Ham"
+-   &rosalie-sackett "Rosalie Sackett"
+-   &maya-schwartz "Maya Schwartz"
+-   &tara-thompson "Tara Thompson"
+-   &keanu-villanueva "Keanu Villanueva"
 
-    nickname: "Viking Marching Band"
+parade:
+    last-updated: 2018
+
+    nickname: "Benicia Middle School Viking Band"
 
     directors:
-    -   "Matthew Ferreira (Matt feh-REH-ruh)"
+    -   "Candice Crismond"
+
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Jamie Roman"
+        -   "Vianca Jiminez"
+        -   "Matt Lowe"
+        -   "Zach Clay"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Meadow Iñiquez (Meadow ihn-YEE-kehz)"
+        -   *cedric-ham
 
-    -   title: "flag captain"
+    -   title: "auxiliary captains"
         members:
-        -   "Ava Cheung (AY-vah chung)"
-
-    -   title: "id captains"
-        members:
-        -   "Haley Reid"
-        -   "Grace Gardner"
-
-    -   title: "rifle captains"
-        members:
-        -   "Hanna Lucero (Hanna loo-SEH-roh)"
-        -   "Tara Thompson"
+        -   *maya-schwartz
+        -   *rosalie-sackett
 
     -   title: "percussion captain"
         members:
-        -   "Keith Ruxton"
+        -   *keanu-villanueva
 
-    music: "Coburger March by Michael Haydn"
+    -   title: "rifle captain"
+        members:
+        -   *tara-thompson
+
+    -   title: "flag captain"
+        members:
+        -   *ava-cheung
+
+    music: "Lexington March by Karl King and arranged by James Swearingen"
     
     notes: >
-        The Viking Drumline, with instructors Matt Lowe and Zac Clay, are the 2017 champions of the Northern California Band Association Advanced Winter Percussion. Instructors for the award-winning Viking Color Guard are Ben Wilkinson and Vianca Jiminez.
+        The Benicia Middle School Color Guard has placed at all of their NCBA competitions for more than 10 years.
+        The members of the  Viking Drumline are the 2018 champions of the Northern California Band Association Advanced Winter Percussion.
+        They would like to thank all of their parents and boosters.
+        Without you, none of this would be possible!
 
 winterguard-novice:
     last-updated: 2018

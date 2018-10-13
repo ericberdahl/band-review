@@ -4,24 +4,27 @@ name: "Turlock Christian High School"
 
 city: "Turlock, CA"
 
-parade:
-    last-updated: 2017
+students:
+-   &rosie-rojas "Rosie Rojas"
 
-    nickname: "Marching Eagles"
+parade:
+    last-updated: 2018
+
+    nickname: "Turlock Christian Marching Eagles"
 
     directors:
     -   "Richard Winkler"
 
+    staff:
+
     leaders:
     -   title: "drum major"
         members:
-        -   "Rosie Rojas"
+        -   *rosie-rojas
 
-    music: "Our Heritage by Karl King"
+    music: "Alamo by Karl King and arranged by James Swearingen"
 
     notes: >
-        The Marching Eagles are competing in their 5th year as a marching band. Under the
-        Direction of Mr. Richard Winkler, the band has been very successful in their class,
-        placing consistently at their reviews. This year, the band took 3rd place at the
-        Pitman High School Preview of Champions. The band would like to thank all the school
-        administration for their continued support of music education at Turlock Christian Schools.
+        The Turlock Christian Marching Eagles, under the direction of Mr. Richard Winkler, have been very successful in past years, placing 2nd place at the Pitman Preview of Champions, 2nd Place at the Foothill Band Review, and 1st Place at the Central California Band Review.
+        This year the band has placed 1st place at the Pitman Preview of Champions.
+        The Students would like to thank all the parents and Administration at Turlock Christian for their continued support of the music program.

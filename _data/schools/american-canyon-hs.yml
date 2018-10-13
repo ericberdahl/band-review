@@ -2,19 +2,54 @@ name: "American Canyon High School"
 
 city: "American Canyon, CA"
 
+students:
+-   &nathan-banks "Nathan Banks"
+-   &vince-dionisio "Vince Dionisio (Vince dee-on-EE-see-oh)"
+-   &zach-lacson "Zach Lacson"
+-   &erica-nunez "Erica Nunez"
+-   &ruth-santiago "Ruth Santiago"
+
 fieldshow:
-    last-updated: 0
+    last-updated: 2018
 
     nickname: "American Canyon High School Marching Band"
 
     directors:
     -   "Brendan Day"
 
+    staff:
+    -   title: "visual instructor and drill writer"
+        members:
+        -   "Shane Weller"
+
+    -   title: "colorguard instructors"
+        members:
+        -   "Rachel Coleman"
+        -   "Taylor Chavez"
+
+    -   title: "percussion instructors"
+        members:
+        -   "Alden Maningas"
+        -   "Christian Bactad"
+
     leaders:
+    -   title: "drum major"
+        members:
+        -   *nathan-banks
 
-    program:
+    -   title: "auxiliary captains"
+        members:
+        -   *erica-nunez
+        -   *ruth-santiago
 
-    music:
+    -   title: "percussion captains"
+        members:
+        -   *vince-dionisio
+        -   *zach-lacson
+
+    program: "Fearless"
+
+    music: "original music by Brendan Day"
 
     notes:
     

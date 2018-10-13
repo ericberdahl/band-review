@@ -4,30 +4,66 @@ name: "Santa Cruz High School"
 
 city: "Santa Cruz, CA"
 
+students:
+-   &quinn-allen "Quinn Allen"
+-   &anda-amorim "Anda Amorim (AHN-dah ah-MOHR-im)"
+-   &johnny-armstrong "Johnny Armstrong"
+-   &emily-daniels-flechtner "Emily Daniels-Flechtner (emily daniels FLECK-nehr)"
+-   &kai-porterfield "Kai Porterfield"
+-   &faith-trowbridge "Faith Trowbridge"
+-   &maddie-villaverde "Maddie Villaverde (maddie vee-ya-VEHR-day)"
+
 parade:
-    last-updated: 2017
+    last-updated: 2018
 
     nickname: "Cardinal Regiment"
 
     directors:
     -   "Christina Latham (kris-TEE-nah LAY-tham)"
 
+    staff:
+    -   title: "assistant director"
+        members:
+        -   "Ron Salinas"
+
+    -   title: "bagpipe instructor"
+        members:
+        -   "Jay Salter"
+
+    -   title: "color guard instructor"
+        members:
+        -   "Danielle Kline"
+
+    -   title: "drum major instructor"
+        members:
+        -   "Jack Goudreau"
+
+    -   title: "percussion instructors"
+        members:
+        -   "Randy Villegas"
+        -   "Ashwin Krishnan"
+        -   "Anthony Aceves"
+
     leaders:
     -   title: "drum major"
         members:
-        -   "Emily Daniels-Flechtner (emily daniels FLECK-nehr)"
+        -   *emily-daniels-flechtner
 
     -   title: "auxiliary captains"
         members:
-        -   "Anda Amorim (AHN-dah ah-MOHR-im)"
-        -   "Maddie Villaverde (maddie vee-ya-VEHR-day)"
+        -   *anda-amorim
+        -   *johnny-armstrong
+        -   *faith-trowbridge
+        -   *maddie-villaverde
 
     -   title: "percussion captain"
         members:
-        -   "Colby Hanson"
+        -   *quinn-allen
+        -   *kai-porterfield
 
-    music: "B.B. and C.F. by James Ord Hume"
+    music: "Purple Carnival by Harry L. Alford"
 
-    notes: |
-        The band recently earned Showmanship Sweepstakes at their first band review. +
-        Their percussion composition is a commissioned work and is titled "`Tiger`" in memoriam  of dear friend and mentor Rowland Nielson.
+    notes: >
+        The band recently earned Music and Showmanship Sweepstakes at the Del Mar Band Review. 
+        Thank you to the Foothill Band students and parents for hosting this event.
+        Thank you to the Santa Cruz parents and community for making this possible.

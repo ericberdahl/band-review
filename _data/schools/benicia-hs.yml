@@ -4,30 +4,47 @@ name: "Benicia High School"
 
 city: "Benicia, CA"
 
-parade:
-    last-updated: 2017
+students:
+-   &zoe-babot "Zoe Babot (ZOH beh-BOH)"
+-   &lucas-barnard "Lucas Barnard"
+-   &steven-bui "Steven Bui"
+-   &elijah-burckin "Elijah Burckin"
+-   &kevin-insaurralde "Kevin Insaurralde (Kevin ihn-sow-AHL-day)"
+-   &lindsay-olson "Lindsay Olson"
 
-    nickname: "Panther Marching Band"
+parade:
+    last-updated: 2018
+
+    nickname: "Benicia High School Panther Marching Band"
 
     directors: &directors
     -   "Patrick Martin"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Aki Ross"
+        -   "Kayla Ford"
+
     leaders:
     -   title: "drum major"
         members:
-        -   "Andrew Sante"
+        -   *elijah-burckin
 
-    -   title: "auxiliary captain"
+    -   title: "auxiliary captains"
         members:
-        -   "Mackenzie Ludlam"
-        -   "Katie Simonson"
+        -   *steven-bui
+        -   *zoe-babot
+        -   *lindsay-olson
 
     -   title: "percussion captain"
         members:
-        -   "Andrew Sante"
-        -   "Tyler Ward"
+        -   *lucas-barnard
+        -   *kevin-insaurralde
 
-    music: "Castell Coch by T.J. Powell"
+    music: "Glemdene by John R. Carr, arranged by Aki Ross"
+
+    notes:
 
 winterpercussion:
     last-updated: 2018

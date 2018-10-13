@@ -4,25 +4,41 @@ name: "Jesse Bethel High School"
 
 city: "Vallejo, CA"
 
-parade:
-    last-updated: 2017
+students:
+-   &florence-cadiz "Florence Cadiz"
+-   &jasmine-cahayag "Jasmine Cahayag (Jasmine cah-HAH-yahg)"
+-   &hope-marie-david "Hope Marie David"
+-   &michaela-perez "Michaela Perez"
 
-    nickname: "Jaguar Band"
+parade:
+    last-updated: 2018
+
+    nickname: "Jesse Bethel High School Band"
 
     directors:
-    -   "Alan Perkins"
+    -   "David Peterson"
+
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Paige Peterson"
+        -   "Julius Salanga"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Jared Tating (Jared TAY-ting)"
+        -   *michaela-perez
 
     -   title: "auxilliary captains"
         members:
-        -   "Hope David"
-        -   "Jasmine Cahayag (Jasmine cah-HAH-yahg)"
+        -   *hope-marie-david
+        -   *jasmine-cahayag
 
-    music: "Black Granite by James L. Hosay"
+    -   title: "percussion captain"
+        members:
+        -   *florence-cadiz
+
+    music: "Mercury by Jan Van Der Roost"
 
     notes: >
-        The Jesse Bethel High School Band program has a rich tradition of excellence spanning more than 20 years.
+        Jesse Bethel High School Band says thank you to the JBHS Band Boosters for their endless support!

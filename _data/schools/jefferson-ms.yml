@@ -4,10 +4,50 @@ name: "Jefferson Middle School"
 
 city: "Tracy, CA"
 
-parade:
-    last-updated: 0
+students:
+-   &kayleen-freitas "Kayleen Freitas"
+-   &jenna-greene "Jenna Greene"
+-   &susana-lara "Susana Lara"
+-   &kamron-qasimi "Kamron Qasimi (KAHM-ron kah-SEE-me)"
+-   &jonathan-shin "Jonathan Shin"
+-   &hillary-tran "Hillary Tran"
 
-    nickname: "Wildcat Marching Band"
+parade:
+    last-updated: 2018
+
+    nickname: "Jefferson Wildcat Marching Band"
 
     directors:
     -   "Amanda Gieseke (Amanda geh-SEH-kee)"
+
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Abby Frye"
+        -   "C.J. Julian"
+
+    leaders:
+    -   title: "drum major"
+        members:
+        -   *susana-lara
+    
+    -   title: "auxiliary captains"
+        members:
+        -   *jenna-greene
+        -   *hillary-tran
+
+    -   title: "percussion captain"
+        members:
+        -   *kamron-qasimi
+
+    -   title: "woodwind captain"
+        members:
+        -   *kayleen-freitas
+
+    -   title: "brass captain"
+        members:
+        -   *jonathan-shin
+
+    music: "Hiland March by Harold Bennett and arranged by Larry Clark"
+
+    notes: 
