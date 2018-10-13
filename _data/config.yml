@@ -11,6 +11,9 @@ count_citation:
 -   min: 24
     max: 24
     cite: "two dozen"
+-   min: 25
+    max: 27
+    cite: "more than two dozen"
 -   min: 33
     max: 35
     cite: "nearly three dozen"
