@@ -2,26 +2,52 @@ name: "West Campus High School"
 
 city: "Sacramento, CA"
 
-parade:
-    last-updated: 1
-
-    directors: &directors
-    -   "John Ousley"
+students:
+-   &beatriz-barreracisneros "Beatriz Barrera-Cisneros"
+-   &evan-fulton "Evan Fulton"
+-   &dillon-pham "Dillon Pham"
+-   &aurora-rudd "Aurora Rudd"
+-   &mike-spagnolo "Mike Spagnolo"
 
 fieldshow:
-    last-updated: 1
+    last-updated: "2018-10-15 12:16:41 PDT"
 
-    nickname: "West Campus High School Marching Band"
+    nickname: "West Campus Marching Band and Color Guard"
 
-    directors: *directors
+    directors: &directors
+    -   "Briana Fonseca"
     
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Noah Clark"
+        -   "Timothy Lee"
+        -   "Tammy Petborisooth (Tammy peht-BOHR-ih-sooth)"
+        -   "Matt Amato"
+        -   "Shoshana Levy"
+        -   "Amanda Lopes"
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   *aurora-rudd
 
-    program: 
+    -   title: "auxiliary captains"
+        members:
+        -   *beatriz-barreracisneros
+        -   *dillon-pham
 
-    music: 
+    -   title: "percussion captains"
+        members:
+        -   *mike-spagnolo
+        -   *evan-fulton
+
+    program: "The Phoenix"
+
+    music: >
+        Russian Easter Overture by Rimsky-Korsokov, arranged by Noah Clark,
+        Blackbird, When Doves Cry, and I'm Like a Bird arranged by Noah Clark 
+        and The Firebird Suite by Stravinsky, arranged by Noah Clark
 
     notes:
     
