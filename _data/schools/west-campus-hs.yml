@@ -3,13 +3,13 @@ name: "West Campus High School"
 city: "Sacramento, CA"
 
 parade:
-    last-updated: 0
+    last-updated: 1
 
     directors: &directors
     -   "John Ousley"
 
 fieldshow:
-    last-updated: 0
+    last-updated: 1
 
     nickname: "West Campus High School Marching Band"
 

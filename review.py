@@ -26,7 +26,12 @@ def countLineup(lineup):
     return sum(condition(x) for x in lineup)
 
 def fixupUnit(show, unit):
-    unit['_upToDate'] = (unit['last-updated'] >= show['year'])
+    if (isinstance(unit['last-updated'], basestring)):
+        d = datetime.datetime.strptime(unit['last-updated'], "%Y-%m-%d %H:%M:%S %Z")
+    else:
+        d = datetime.datetime(unit['last-updated'], 1, 1)
+    unit['_upToDate'] = (d.year >= show['year'])
+    unit['_lastUpdated'] = d
 
 def collectSchoolData(schoolDataDir):
     # Add each school into a large array property that holds all the schools

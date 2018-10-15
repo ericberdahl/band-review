@@ -5,7 +5,7 @@ name: "Santa Clara High School"
 city: "Santa Clara, CA"
 
 parade:
-    last-updated: 0
+    last-updated: 1
 
     directors:
     -   "Johnny Erdman"
