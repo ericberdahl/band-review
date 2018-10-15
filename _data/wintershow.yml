@@ -140,8 +140,8 @@ winterguard:
     -   break: 20
     -   ref: "antioch-hs"
     -   ref: "millennium-hs"
-    -   ref: "san mateo-hs"
-    -   ref: "mission sj-hs"
+    -   ref: "san-mateo-hs"
+    -   ref: "mission-sj-hs"
     -   ref: "vacaville-hs"
     -   ref: "foothill-hs"
 
