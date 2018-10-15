@@ -3,7 +3,7 @@ name: "Mt Eden High School"
 city: "Hayward, CA"
 
 parade:
-    last-updated: "2018-10-08 11:12:32 PDT"
+    last-updated: "2018-10-08 11:12:32"
 
     nickname: &nickname "Mount Eden High School Marching Monarchs"
 
@@ -36,7 +36,7 @@ parade:
         The Mount Eden High School Marching Monarchs would like to thank the parents and YEP for their continued support.
 
 fieldshow:
-    last-updated: "2018-10-08 11:12:32 PDT"
+    last-updated: "2018-10-08 11:12:32"
 
     nickname: *nickname
 

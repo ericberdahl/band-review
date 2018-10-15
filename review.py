@@ -27,7 +27,7 @@ def countLineup(lineup):
 
 def fixupUnit(show, unit):
     if (isinstance(unit['last-updated'], basestring)):
-        d = datetime.datetime.strptime(unit['last-updated'], "%Y-%m-%d %H:%M:%S %Z")
+        d = datetime.datetime.strptime(unit['last-updated'], "%Y-%m-%d %H:%M:%S")
     else:
         d = datetime.datetime(unit['last-updated'], 1, 1)
     unit['_upToDate'] = (d.year >= show['year'])
