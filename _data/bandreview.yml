@@ -28,7 +28,7 @@ parade:
 
     awards_time: "2:30pm"
 
-    awards_location: "Amador High School Large Gym"
+    awards_location: "Amador Valley High School Stadium"
 
     sponsors:
         general:
@@ -39,7 +39,6 @@ parade:
     -   ref: "foothill-hs"
     -   ref: "hogan-ms"
     -   ref: "ingrid-b-lacy-ms"
-    -   ref: "solano-ms"
     -   ref: "benicia-ms"
     -   ref: "jefferson-ms"
     -   ref: "wells-ms"
