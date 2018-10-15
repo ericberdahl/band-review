@@ -1,7 +1,5 @@
 == Winter Guard - {{school.name}}{{#unless unit._upToDate}} - MISSING DATA{{/unless}}
 
-{{#unless unit}}IMPORTANT: {{school.name}} has no unit.
-{{/unless}}
 {{#unless unit._upToDate}}IMPORTANT: {{school.name}} data is out of date.
 {{/unless}}
 {{#unless unit.program}}WARNING: {{school.name}} is missing a program name.
@@ -12,6 +10,8 @@
 {{/unless}}
 {{#unless unit.nickname}}WARNING: {{school.name}} is missing a nickname.
 {{/unless}}
+
+NOTE: Last updated {{unit._lastUpdated}}
 
 Now taking the floor is the {{unit.nickname}}, from {{school.name}} in {{school.city}}.
 
