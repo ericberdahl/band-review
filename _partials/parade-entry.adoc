@@ -11,7 +11,7 @@
 {{#unless unit.nickname}}WARNING: {{school.name}} is missing nickname.
 {{/unless}}
 
-Our {{#if isFirst}}first{{else}}next{{/if}} band is the {{unit.nickname}}, from {{school.name}} in {{school.city}}.
+Our {{#if isFirst}}first{{else}}next{{/if}} band is {{#if unit.isHost}}your host, {{/if}}the {{unit.nickname}}, from {{school.name}} in {{school.city}}.
 
 {{> leaders unit=unit}}
 

@@ -11,7 +11,7 @@
 {{#unless unit.nickname}}WARNING: {{school.name}} is missing nickname.
 {{/unless}}
 
-Now taking the field is the {{unit.nickname}}, from {{school.name}} in {{school.city}}.
+Now taking the field is {{#if unit.isHost}}your host, {{/if}}the {{unit.nickname}}, from {{school.name}} in {{school.city}}.
 
 {{> leaders unit=unit}}
 

@@ -5,6 +5,8 @@ name: "Foothill High School"
 city: "Pleasanton, CA"
 
 parade:
+    isHost: true
+
     last-updated: 2018
 
     nickname: &band-nickname "Foothill High School Marching Band and Color Guard"
@@ -43,6 +45,8 @@ parade:
     notes:
 
 fieldshow:
+    isHost: true
+
     last-updated: 2018
 
     nickname: *band-nickname
@@ -78,6 +82,8 @@ fieldshow:
     notes:
 
 winterguard:
+    isHost: true
+
     last-updated: 2018
 
     nickname: "Foothill High School Winter Guard"
@@ -106,6 +112,8 @@ winterguard:
         Special thanks go to Mr. Bill Sowa for taking the lead as Guard Dad. 
 
 winterpercussion:
+    isHost: true
+
     last-updated: 2018
 
     nickname: "Foothill High School Open Percussion"
@@ -138,6 +146,8 @@ winterpercussion:
         Special thanks go out to Mr. and Mrs. Miller for taking the lead on the winter percussion season. 
 
 winterpercussion-intermediate:
+    isHost: true
+
     last-updated: 2018
 
     nickname: "Foothill High School A Percussion"
