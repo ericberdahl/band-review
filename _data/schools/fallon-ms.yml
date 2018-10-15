@@ -2,16 +2,27 @@ name: "Fallon Middle School"
 
 city: "Dublin, CA"
 
-parade:
-    last-updated: 1
+students:
+-   &elizabeth-koh "Elizabeth Koh"
+-   &manu-korupolu "Manu Korupolu"
 
-    nickname: "Fallon Middle School Marching Band"
+parade:
+    last-updated: "2018-10-15 15:38:06"
+
+    nickname: "Mustang Marching Band and Colorguard"
 
     directors:
     -   "Tony Cavalleri"
 
     leaders:
-    
-    music:
+    -   title: "drum major"
+        members:
+        -   *manu-korupolu
+
+    -   title: "auxiliary captain"
+        members:
+        -   *elizabeth-koh
+
+    music: "Fidelity by Karl King, arranged by Andrew Glover"
 
     notes: 
