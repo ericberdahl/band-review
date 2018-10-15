@@ -25,7 +25,7 @@ def countLineup(lineup):
     condition = lambda x: 'ref' in x
     return sum(condition(x) for x in lineup)
 
-def fixupUnit(show, unit):
+def computeUnitUpToDate(show, unit):
     if (isinstance(unit['last-updated'], basestring)):
         d = datetime.datetime.strptime(unit['last-updated'], "%Y-%m-%d %H:%M:%S")
     else:
@@ -52,22 +52,32 @@ def collectViewdata(eventDataPath, schoolDataDir):
     today = datetime.date.today()
     data['_generationDate'] = today.strftime('%d %B %Y')
 
+    #
     # In each unit of each school, add a property that indicates whether the unit
     # data is up to date for the current program
+    #
     for s in schools:
         aSchool = schools[s]
         for unitname in data['units']:
-            if unitname in data:
-                lineupCount = countLineup(data[unitname]['lineup'])
-                _count = {
-                    'number': lineupCount,
-                    'citation': computeNumericCitation(lineupCount)
-                }
-                data[unitname]['_count'] = _count
             if unitname in aSchool:
-                # aSchool[unitname]['_upToDate'] = (aSchool[unitname]['last-updated'] >= data['show']['year'])
-                fixupUnit(data['show'], aSchool[unitname])
+                computeUnitUpToDate(data['show'], aSchool[unitname])
 
+    #
+    # In each event, compute stats on the lineups
+    #
+    for unitname in data['units']:
+        if unitname in data:
+            # Count the number of schools in each lineup
+            lineupCount = countLineup(data[unitname]['lineup'])
+            _count = {
+                'number': lineupCount,
+                'citation': computeNumericCitation(lineupCount)
+            }
+            data[unitname]['_count'] = _count
+
+            # TODO Collect the schools with up to date information and
+            # those without up to date information
+    
     return data
 
 def collectPartials(basePath, compiler):
