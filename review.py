@@ -43,6 +43,19 @@ def collectSchoolData(schoolDataDir):
                 schools[filename] = yaml.load(readUTF8(os.path.join(root, f)))
     return schools
 
+def normalizeSchoolData(schools, units, yearOfShow):
+    for s in schools:
+        aSchool = schools[s]
+        for unitname in units:
+            if unitname in aSchool:
+                # Ensure that city and schoolName properties are set, taking them from the school itself if necessary
+                aSchool[unitname].setdefault('city', aSchool['city'])
+                aSchool[unitname].setdefault('schoolName', aSchool['name'])
+
+                # Add a computed property that indicates whether the unit data is up to date for the current program
+                computeUnitUpToDate(yearOfShow, aSchool[unitname])
+
+
 def lookupUnitRef(ref, defaultUnit, schools):
     result = ref
     if 'ref' in ref:
@@ -56,24 +69,11 @@ def collectViewdata(eventDataPath, schoolDataDir):
     data = yaml.load(readUTF8(eventDataPath))
 
     schools = collectSchoolData(schoolDataDir)
+    normalizeSchoolData(schools, data['units'], data['show'])
     data['_schools'] = schools
     
     today = datetime.date.today()
     data['_generationDate'] = today.strftime('%d %B %Y')
-
-    #
-    # Pre-process each unit of each school
-    #
-    for s in schools:
-        aSchool = schools[s]
-        for unitname in data['units']:
-            if unitname in aSchool:
-                # Ensure that city and schoolName properties are set, taking them from the school itself if necessary
-                aSchool[unitname].setdefault('city', aSchool['city'])
-                aSchool[unitname].setdefault('schoolName', aSchool['name'])
-
-                # Add a computed property that indicates whether the unit data is up to date for the current program
-                computeUnitUpToDate(data['show'], aSchool[unitname])
 
     #
     # In each event, compute stats on the lineups
