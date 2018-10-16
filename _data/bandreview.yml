@@ -16,6 +16,10 @@ units:
 -   "parade"
 -   "fieldshow"
 -   "concert"
+-   "concert-1"
+-   "concert-2"
+-   "concert-3"
+-   "symphonic"
 
 parade:
     grand_marshall:

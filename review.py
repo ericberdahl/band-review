@@ -68,7 +68,9 @@ def computeLineupStats(unit):
     lineupCount = countLineup(unit['lineup'])
     _count = {
         'number': lineupCount,
-        'citation': computeNumericCitation(lineupCount)
+        'citation': computeNumericCitation(lineupCount),
+        'upToDate': len(unit['_schoolsUpToDate']),
+        'missingData': len(unit['_schoolsMissingData'])
     }
     unit['_count'] = _count
 
@@ -90,8 +92,13 @@ def collectViewdata(eventDataPath, schoolDataDir):
     for unitname in data['units']:
         if unitname in data:
             data[unitname]['lineup'] = map(lambda item: lookupUnitRef(item, unitname, schools), data[unitname]['lineup'])
+
+            lineupSchools = filter(lambda unit: 'break' not in unit, data[unitname]['lineup'])
+            data[unitname]['_schoolsUpToDate'] = filter(lambda unit: unit['_upToDate'], lineupSchools)
+            data[unitname]['_schoolsMissingData'] = filter(lambda unit: not unit['_upToDate'], lineupSchools)
+
             computeLineupStats(data[unitname])
-    
+
     return data
 
 def collectPartials(basePath, compiler):

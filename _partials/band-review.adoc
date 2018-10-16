@@ -3,6 +3,30 @@
 Printed on {{_generationDate}}
 :toc:
 
+== Band Review - Checkup
+
+=== {{parade._count.missingData}} Schools Missing Parade Data
+
+{{#each parade._schoolsMissingData}}{{schoolName}} +
+{{/each}}
+
+=== {{fieldshow._count.missingData}} Schools Missing Field Show Data
+
+{{#each fieldshow._schoolsMissingData}}{{schoolName}} +
+{{/each}}
+
+=== {{parade._count.upToDate}} Schools with Parade Data
+
+{{#each parade._schoolsUpToDate}}{{schoolName}} +
+{{/each}}
+
+=== {{fieldshow._count.upToDate}} Schools with Field Show Data
+
+{{#each fieldshow._schoolsUpToDate}}{{schoolName}} +
+{{/each}}
+
+<<<
+
 {{> parade}}
 
 {{> field-show}}
