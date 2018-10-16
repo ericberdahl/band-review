@@ -22,8 +22,8 @@ def computeNumericCitation(count):
         return count
 
 def countLineup(lineup):
-    condition = lambda x: 'ref' in x
-    return sum(condition(x) for x in lineup)
+    condition = lambda x: 'break' in x
+    return len(lineup) - sum(condition(x) for x in lineup)
 
 def computeUnitUpToDate(show, unit):
     if (isinstance(unit['last-updated'], basestring)):
@@ -42,6 +42,15 @@ def collectSchoolData(schoolDataDir):
             if (extension == '.yml'):
                 schools[filename] = yaml.load(readUTF8(os.path.join(root, f)))
     return schools
+
+def lookupUnitRef(ref, defaultUnit, schools):
+    result = ref
+    if 'ref' in ref:
+        unitname = defaultUnit
+        if 'unit' in ref:
+            unitname = ref['unit']
+        result = schools[ ref['ref'] ][unitname]
+    return ref
 
 def collectViewdata(eventDataPath, schoolDataDir):
     data = yaml.load(readUTF8(eventDataPath))
