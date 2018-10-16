@@ -1,13 +1,26 @@
-key: "foothill hs"
-
 name: "Foothill High School"
 
 city: "Pleasanton, CA"
 
+students:
+-   &alex-zhang "Alex Zhang"
+-   &ayla-johnson "Ayla Johnson (EYE-lah Johnson)"
+-   &lucy-lee "Lucy Lee"
+-   &nate-huey "Nate Huey"
+-   &zoey-castillo "Zoey Castillo"
+-   &derek-dressler "Derek Dressler"
+-   &michael-lampson "Michael Lampson"
+-   &jonathan-min "Jonathan Min"
+-   &connor-iwata "Connor Iwata"
+-   &sierra-sowa "Sierra Sowa (Sierra SOH-wa)"
+-   &allison-phan "Allison Phan"
+-   &claire-kim "Claire Kim"
+-   &kellen-sowa "Kellen Sowa"
+
 parade:
     isHost: true
 
-    last-updated: 2018
+    last-updated: &band-review-updated "2018-10-15 17:14:06"
 
     nickname: &band-nickname "Foothill High School Marching Band and Color Guard"
 
@@ -15,7 +28,7 @@ parade:
     -   "Efrain Hinojosa (EH-fren ee-no-HO-sah)"
     -   "Erik Nishimori (EH-rik nih-shee-MO-ree)"
 
-    staff:
+    staff: &band-staff
     -   title: "instructed by"
         members:
         -   &chris-cyr "Chris Cyr"
@@ -24,62 +37,80 @@ parade:
         -   &alex-pfiefer "Alex Pfiefer"
         -   &connor-carroll "Connor Carroll"
         -   &randy-chow "Randy Chow"
-        -   &michelle-cheng "Michelle Cheng"
+        -   "Michelle Cheng"
+        -   "Mikey Sowell"
+        -   "Sharon Parker"
+        -   "Marvin Reed"
+        -   "Grace Edgar"
+        -   "Bailey Yang"
+        -   "Ian Crane"
+        -   "Makoto McCann"
+        -   "Karen Pham"
+        -   "Andrew Lawton"
+        -   "Audrey Esmenda"
+        -   "Nick Duenas"
+        -   "Marcus Hersh"
+        -   "Alexina Manriquez"
 
     leaders:
     -   title: "drum major"
         members:
-        -   &alex-zhang "Alex Zhang"
+        -   *alex-zhang
 
     -   title: "auxiliary captains"
         members: &auxiliary-captains
-        -   &lucy-lee "Lucy Lee"
-        -   &ayla-johnson "Ayla Johnson (EYE-lah Johnson)"
+        -   *ayla-johnson
+        -   *lucy-lee
 
     -   title: "percussion captain"
-        members:
-        -   &nate-huey "Nate Huey"
+        members: &percussion-captains
+        -   *nate-huey
     
     music: "Invictus by Karl King, arranged by Andrew Glover"
 
-    notes:
+    notes: >
+        The Foothill High Marching Band would like to thank our boosters and our school district for their support of music in our schools.
+        A special thanks goes out to our Grand Marshalls, Sebastian Bull and Ruth Highstreet.
 
 fieldshow:
     isHost: true
 
-    last-updated: 2018
+    last-updated: *band-review-updated
 
     nickname: *band-nickname
 
     directors: *directors
 
+    staff: *band-staff
+
     leaders:
     -   title: "drum majors"
         members:
-        -   "Zoey Castillo"
-        -   "Derek Dressler"
-        -   "Michael Lampson"
+        -   *zoey-castillo
+        -   *derek-dressler
+        -   *michael-lampson
 
     -   title: "auxiliary captains"
         members: *auxiliary-captains
 
     -   title: "percussion captain"
-        members:
-        -   *nate-huey
+        members: *percussion-captains
 
     -   title: "brass captain"
         members:
-        -   "Jonathan Min"
+        -   *jonathan-min
 
     -   title: "woodwind captain"
         members:
-        -   "Connor Iwata"
+        -   *connor-iwata
 
     program: "Always Now"
 
     music: "original music by Mike Jackson and Kevin Shah"
 
-    notes:
+    notes: >
+        The Foothill High Marching Band would like to thank our boosters and our school district for their support of music in our schools.
+        A special thanks goes out to our Grand Marshalls Sebastian Bull and Ruth Highstreet.
 
 winterguard:
     isHost: true
@@ -100,7 +131,7 @@ winterguard:
     leaders:
     -   title: "captains"
         members:
-        -   &sierra-sowa "Sierra Sowa (Sierra SOH-wa)"
+        -   *sierra-sowa
         -   *ayla-johnson
 
     program: "To Leave No Stone Unturned"
@@ -133,9 +164,9 @@ winterpercussion:
         -   "Sohrab Nawim"
         
     leaders:
-    -   title: "captains"
+    -   title: "captain"
         members:
-        -   "Allison Phan"
+        -   *allison-phan
 
     program: "Through The Eyes Of Kuhbler Ross"
 
@@ -159,8 +190,8 @@ winterpercussion-intermediate:
     leaders:
     -   title: "captains"
         members:
-        -   "Claire Kim"
-        -   "Kellen Sowa"
+        -   *claire-kim
+        -   *kellen-sowa
 
     program: "Adrift"
 
