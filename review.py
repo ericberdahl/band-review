@@ -65,6 +65,18 @@ def lookupUnitRef(ref, defaultUnit, schools):
         result = schools[ ref['ref'] ][unitname]
     return ref
 
+def computeLineupStats(unit):
+    # Count the number of schools in each lineup
+    lineupCount = countLineup(unit['lineup'])
+    _count = {
+        'number': lineupCount,
+        'citation': computeNumericCitation(lineupCount)
+    }
+    unit['_count'] = _count
+
+    # TODO Collect the schools with up to date information and
+    # those without up to date information
+
 def collectViewdata(eventDataPath, schoolDataDir):
     data = yaml.load(readUTF8(eventDataPath))
 
@@ -80,16 +92,7 @@ def collectViewdata(eventDataPath, schoolDataDir):
     #
     for unitname in data['units']:
         if unitname in data:
-            # Count the number of schools in each lineup
-            lineupCount = countLineup(data[unitname]['lineup'])
-            _count = {
-                'number': lineupCount,
-                'citation': computeNumericCitation(lineupCount)
-            }
-            data[unitname]['_count'] = _count
-
-            # TODO Collect the schools with up to date information and
-            # those without up to date information
+            computeLineupStats(data[unitname])
     
     return data
 
