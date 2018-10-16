@@ -20,11 +20,11 @@ At this time, please rise and give respect to the presentation of the colors by 
 <<<
 
 {{#each parade.lineup}}
-{{#if ref}}
-{{> parade-entry school=(lookup ../_schools ref) unit=(lookup (lookup ../_schools ref) 'parade') isFirst=@first}}
-{{else}} {{#if break}}
+{{#if break}}
 {{> program-break competition="Parade" break=break}}
-{{/if}} {{/if}}
+{{else}}
+{{> parade-entry unit=. isFirst=@first}}
+{{/if}}
 
 <<<
 

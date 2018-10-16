@@ -8,11 +8,11 @@ On behalf of Foothill High School, we wish good luck to all the bands performing
 <<<
 
 {{#each fieldshow.lineup}}
-{{#if ref}}
-{{> field-entry school=(lookup ../_schools ref) unit=(lookup (lookup ../_schools ref) 'fieldshow') isFirst=@first}}
-{{else}} {{#if break}}
+{{#if break}}
 {{> program-break competition="Field Show" break=break}}
-{{/if}} {{/if}}
+{{else}} 
+{{> field-entry unit=. isFirst=@first}}
+{{/if}}
 
 <<<
 

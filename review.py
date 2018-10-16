@@ -59,11 +59,9 @@ def normalizeSchoolData(schools, units, yearOfShow):
 def lookupUnitRef(ref, defaultUnit, schools):
     result = ref
     if 'ref' in ref:
-        unitname = defaultUnit
-        if 'unit' in ref:
-            unitname = ref['unit']
+        unitname = defaultUnit if 'unit' not in ref else ref['unit']
         result = schools[ ref['ref'] ][unitname]
-    return ref
+    return result
 
 def computeLineupStats(unit):
     # Count the number of schools in each lineup
@@ -82,7 +80,6 @@ def collectViewdata(eventDataPath, schoolDataDir):
 
     schools = collectSchoolData(schoolDataDir)
     normalizeSchoolData(schools, data['units'], data['show'])
-    data['_schools'] = schools
     
     today = datetime.date.today()
     data['_generationDate'] = today.strftime('%d %B %Y')
@@ -92,6 +89,7 @@ def collectViewdata(eventDataPath, schoolDataDir):
     #
     for unitname in data['units']:
         if unitname in data:
+            data[unitname]['lineup'] = map(lambda item: lookupUnitRef(item, unitname, schools), data[unitname]['lineup'])
             computeLineupStats(data[unitname])
     
     return data
