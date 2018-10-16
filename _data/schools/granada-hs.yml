@@ -5,24 +5,32 @@ name: "Granada High School"
 city: "Livermore, CA"
 
 parade:
-    last-updated: 2017
+    last-updated: "2018-10-16 14:09:40"
 
-    nickname: "Matador Marching Band"
+    nickname: "Granada Marching Matadors"
 
     directors:
     -   "Thomas E Jones"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Dustin Friel"
+        -   "Jaimie Roman"
+        -   "Leigha Roeder"
+
     leaders:
     -   title: "drum major"
         members:
-        -   "Rachel Myers"
+        -   "Rachel Meyers"
 
-    -   title: "auxiliary captain"
+    -   title: "auxiliary captains"
         members:
-        -   "Jessica Vassalo"
+        -   "Jessie Vassallo"
+        -   "Jinjer Townsend"
 
     -   title: "percussion captain"
         members:
-        -   "Joaquin Roldan-Cruz"
+        -   "Nick Gottero"
 
-    music: "Through Bolts and Bars, by Ernst Urbach"
+    music: "Eagle Squadron by Kenneth Alford"

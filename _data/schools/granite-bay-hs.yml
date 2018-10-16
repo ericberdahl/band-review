@@ -1,35 +1,61 @@
-key: "granite bay hs"
-
 name: "Granite Bay High School"
 
 city: "Granite Bay, CA"
 
+students:
+-   &piper-bacon "Piper Bacon"
+-   &tyler-branham "Tyler Branham"
+-   &jack-crawford "Jack Crawford"
+-   &daven-kashyap "Daven Kashyap (DAH-ven KAH-shop)"
+-   &paul-stamas "Paul Stamas"
+-   &sylvie-vo "Sylvie Vo"
+-   &gabriel-weber "Gabriel Weber"
+
 fieldshow:
-    last-updated: 2017
+    last-updated: "2018-10-16 13:58:12"
 
     nickname: "Emerald Brigade"
 
     directors:
     -   "Lynn Lewis"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Jay Murphy"
+        -   "Jeff Edom"
+        -   "Paul Marr"
+        -   "J. Russell Finch"
+        -   "Wade Quinn"
+        -   "Liam Kurata"
+        -   "Sylvester Marcus"
+        -   "Jenna Boone"
+        -   "Chris Marr"
+        -   "Otto Meyer"
+        -   "Valerie Lehrer"
+        -   "Faith Atkins"
+        -   "Jed Roach"
+
     leaders:
     -   title: "drum majors"
         members:
-        -   "Elizabeth Gozalez"
-        -   "Sylvie Vo"
-        -   "Daven Kashyap (DAH-ven KAH-shop)"
+        -   *daven-kashyap
+        -   *sylvie-vo
+        -   *gabriel-weber
+        -   *piper-bacon
 
     -   title: "auxiliary captain"
         members:
-        -   "Nayana Tiwari (nah-YAH-nah tih-WAH-ree)"
+        -   *tyler-branham
 
-    -   title: "percussion captain"
+    -   title: "percussion captains"
         members:
-        -   "Alaina Boone (ah-LA-EE-nah BOO-nh)"
+        -   *paul-stamas
+        -   *jack-crawford
 
-    program: "Flight 19: Lost in the Bermuda Triangle"
+    program: "Odyssey to A New World"
 
-    music: "Undertow, Lightning Fields, and Wine Dark Sea by John Mackey"
+    music: "Persistence, Dvorak New World Symphony, and Dolls of New Albion"
 
     notes: >
-        Emerald Brigade would like to dedicate their performance to their friend Chance who could not be with us tonight.
+        The Emerald Brigade would like to thank our parents and all the other parents out there for everything they do to support our young musicians.

@@ -2,22 +2,46 @@ name: "Cesar Chavez High School"
 
 city: "Stockton, CA"
 
-parade:
-    last-updated: 1
+students:
+-   &genevive-escalona "Genevive Escalona"
+-   &jose-antonio-gonzalez "Jose Antonio Gonzalez"
+-   &william-rios "William Rios"
 
-    nickname: "Cesar Chavez High School Marching Band"
+parade:
+    last-updated: "2018-10-16 12:44:27"
+
+    nickname: "Chavez Titans"
 
     directors:
     -   &art-coleman "Art Coleman"
+    -   "Chris McCoy"
+
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Tammy Petboorisooth"
 
     leaders:
-    
-    music:
+    -   title: "drum major"
+        members:
+        -   *william-rios
 
-    notes: 
+    -   title: "auxiliary captain"
+        members:
+        -   *genevive-escalona
+
+    -   title: "percussion captain"
+        members:
+        -   *jose-antonio-gonzalez
+    
+    music: "Arnhem by A.E. Kelly"
+
+    notes: >
+        The Cesar Chavez High School Marching Band and Color Guard would like to thank their Band Boosters and Parents for all their support.
+        They would also like to thank their administrative staff led by Dr. Sherry Jackson. 
     
 concert:
-    last-updated: 1
+    last-updated: "2018-10-16 12:44:27"
 
 winterguard:
     last-updated: 2018
