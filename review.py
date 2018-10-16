@@ -53,13 +53,17 @@ def collectViewdata(eventDataPath, schoolDataDir):
     data['_generationDate'] = today.strftime('%d %B %Y')
 
     #
-    # In each unit of each school, add a property that indicates whether the unit
-    # data is up to date for the current program
+    # Pre-process each unit of each school
     #
     for s in schools:
         aSchool = schools[s]
         for unitname in data['units']:
             if unitname in aSchool:
+                # Ensure that city and schoolName properties are set, taking them from the school itself if necessary
+                aSchool[unitname].setdefault('city', aSchool['city'])
+                aSchool[unitname].setdefault('schoolName', aSchool['name'])
+
+                # Add a computed property that indicates whether the unit data is up to date for the current program
                 computeUnitUpToDate(data['show'], aSchool[unitname])
 
     #

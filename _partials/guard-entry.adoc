@@ -1,27 +1,27 @@
-== Winter Guard - {{school.name}}{{#unless unit._upToDate}} - MISSING DATA{{/unless}}
+== Winter Guard - {{unit.schoolName}}{{#unless unit._upToDate}} - MISSING DATA{{/unless}}
 
-{{#unless unit._upToDate}}IMPORTANT: {{school.name}} data is out of date.
+{{#unless unit._upToDate}}IMPORTANT: {{unit.schoolName}} data is out of date.
 {{/unless}}
-{{#unless unit.program}}WARNING: {{school.name}} is missing a program name.
+{{#unless unit.program}}WARNING: {{unit.schoolName}} is missing a program name.
 {{/unless}}
-{{#unless unit.directors}}WARNING: {{school.name}} has no directors.
+{{#unless unit.directors}}WARNING: {{unit.schoolName}} has no directors.
 {{/unless}}
-{{#unless unit.leaders}}WARNING: {{school.name}} has no leaders.
+{{#unless unit.leaders}}WARNING: {{unit.schoolName}} has no leaders.
 {{/unless}}
-{{#unless unit.nickname}}WARNING: {{school.name}} is missing a nickname.
+{{#unless unit.nickname}}WARNING: {{unit.schoolName}} is missing a nickname.
 {{/unless}}
 
 NOTE: Last updated {{unit._lastUpdated}}
 
-Now taking the floor is the {{unit.nickname}}, from {{school.name}} in {{school.city}}.
+Now taking the floor is the {{unit.nickname}}, from {{unit.schoolName}} in {{unit.city}}.
 
 {{> leaders unit=unit}}
 
 The {{unit.nickname}} will perform their program, {{{unit.program}}}{{#if unit.music}}, featuring {{unit.music}}{{/if}}.
 
-{{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{school.name}} has no guard notes.{{/if}}
+{{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{unit.schoolName}} has no guard notes.{{/if}}
 
 (wait for cue from judge) +
 Are the judges ready? (wait for cue from judge) +
-{{school.name}}, is your guard unit ready? (wait for cue from judge) +
+{{unit.schoolName}}, is your guard unit ready? (wait for cue from judge) +
 Performing their {{year}} show, {{{unit.program}}}, NCBA is proud to present the {{unit.nickname}}.
