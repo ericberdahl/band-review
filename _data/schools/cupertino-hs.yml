@@ -3,37 +3,43 @@ name: "Cupertino High School"
 city: "Cupertino, CA"
 
 fieldshow:
-    last-updated: 2017
+    last-updated: "2018-10-17 10:58:35"
 
-    nickname: "Proud Pioneer Band"
+    nickname: "Cupertino High School Proud Pioneer Band"
 
     directors:
     -   "Gilbert Iruegas"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Chavadith Tantavirojn"
+        -   "Matt Costales"
+        -   "Cameron Cornejo"
+        -   "Colin Whitcomb"
+
     leaders:
     -   title: "drum majors"
         members:
-        -   "Serena Sawhney (Serena SAW-nee)"
         -   "Emmanuel Muriuki (Emmanuel moo-ree-OO-kee)"
-        -   "Rohan Mohta"
+        -   "Vidushi Bansal"
+        -   "Shunji Nezu"
 
     -   title: "auxiliary captains"
         members:
         -   "Sue Chiang"
-        -   "Stephanie Chen"
+        -   "Jezabel Belasco"
 
     -   title: "percussion captains"
         members:
         -   "Joshua Franklin"
-        -   "Aviv Benchorin (Aviv ben-CHO-rin)"
         -   "Christine Fang"
+        -   "Dev Shah"
 
-    program: "The Earth We Share"
+    program: "In a Beat"
 
-    music: "the Beautiful Earth, the Fall of the Earth, Reflection, and Hope"
+    music: 
 
     notes: >
-        The Cupertino High School students and staff would like to thank all their awesome
-        band parents and volunteers for all they do to make to make wonderful nights like
-        tonight possible. They would also like to wish all bands a safe and successful rest of
-        the marching band season.
+        The Cupertino HS Proud Pioneer Band has been awarded numerous Sweepstakes awards in all captions throughout the years.
+        This coming April, the band will travel to Hawaii and will have the honor of performing at Pearl Harbor and other historical venues.

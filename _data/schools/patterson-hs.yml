@@ -3,15 +3,27 @@ name: "Patterson High School"
 city: "Patterson, CA"
 
 parade:
-    last-updated: 1
+    last-updated: "2018-10-17 10:55:58"
 
-    nickname: "Patterson High School Marching Band"
+    nickname: "Tiger Marching Band and Colorguard"
 
     directors:
     -   "Spencer Jepson"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Alberto Mercado"
+
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Jayliena Le'i"
     
-    music:
+    -   title: "auxiliary captain"
+        members:
+        -   "David Garcia Barba"
+    
+    music: "The American Red Cross March by Louis Panella"
 
     notes: 
