@@ -53,7 +53,6 @@ parade:
     -   ref: "river-valley-hs"
     -   ref: "ygnacio-valley-hs"
     -   ref: "northgate-hs"
-    -   ref: "vallejo-hs"
     -   ref: "capuchino-hs"
     -   ref: "del-mar-hs"
     -   break: 15
@@ -100,9 +99,9 @@ fieldshow:
     -   break: 30
     -   ref: "american-hs"
     -   ref: "mountain-view-hs"
-    -   ref: "john-f-kennedy-hs"
     -   ref: "milpitas-hs"
     -   ref: "saratoga-hs"
+    -   ref: "john-f-kennedy-hs"
     -   ref: "dublin-hs"
     -   ref: "amador-valley-hs"
     -   ref: "cupertino-hs"
@@ -136,7 +135,7 @@ concert:
     -   ref: "fairfield-hs"
     -   break: 125
     -   ref: "jesse-bethel-hs"
-    -   ref: "mt-eden-hs"
+    -   break: 25
     -   ref: "benicia-hs"
     -   break: -1
     -   ref: "turlock-christian-hs"
