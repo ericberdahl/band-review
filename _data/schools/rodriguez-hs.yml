@@ -2,81 +2,109 @@ name: "Rodriguez High School"
 
 city: "Fairfield, CA"
 
-parade:
-    last-updated: 2017
+students:
+-   &madison-blanc "Madison Blanc"
+-   &angela-borja "Angela Borja"
+-   &leda-brockman "Leda Brockman"
+-   &tori-cox "Tori Cox"
+-   &jhiana-illenberg "Jhiana Illenberg"
+-   &erica-nelson "Erica Nelson"
+-   &katelyn-peacock "Katelyn Peacock"
+-   &malerie-peralta "Malerie Peralta"
+-   &jace-sears "Jace Sears"
+-   &taylor-slight "Taylor Slight"
+-   &brian-tran "Brian Tran"
 
-    nickname: "Rodriguez Entertainment Unit"
+parade:
+    last-updated: "2018-10-17 14:04:42"
+
+    nickname: &band-nickname "Rodriguez Entertainment Unit"
 
     directors: &directors
     -   "Scott Miller"
 
-    staff: &other-directors
+    staff: &band-staff
     -   title: "instructors"
         members:
-        -   "Brandon Orta"
-        -   "Mae Elise-Salvador"
         -   "Jaclyn Wren"
-        -   "Vince Salvacruz"
+        -   "Mae Elise-Salvador"
         -   "Jaleel Gospel"
+        -   "Derrick Surio"
+        -   "Kaitlyn Ramorin"
         -   "Gabrielle Perez"
         -   "Kasey Willes (Kasey WY-lz)"
+        -   "Michael McClain"
 
     leaders:
-    -   title: "drum majors"
+    -   title: "drum major"
         members:
-        -   "Adam Engle-Sorrell"
-        -   "David Brochman (David BROHK-man)"
+        -   *leda-brockman
 
-    -   title: "color guard captains"
+    -   title: "auxiliary captains"
         members:
-        -   "Savannah Sears"
-        -   "Erica Nelson"
+        -   *erica-nelson
+        -   *tori-cox
 
-    -   title: "front ensemble captain"
+    -   title: "percussion captains"
         members:
-        -   "Taylor Slight"
+        -   *taylor-slight
+        -   *angela-borja
+        -   *jace-sears
+        -   *brian-tran
 
-    -   title: "drum line captain"
+    -   title: "color guard leaders"
         members:
-        -   "Isabelle Nocon (Isabelle noh-COHN)"
+        -   *katelyn-peacock
+        -   *malerie-peralta
+        -   *madison-blanc
+        -   *jhiana-illenberg
 
-    music: "Sarafand by G.H. Wilcocks"
+    music: "Centaur by Derek M Broadbent, arranged by Jeffrey Stratton"
 
     notes: >
-        The Rodriguez Entertainment Unit would like to thank their corporate sponsors! Thank you Freedom Equity Group, Certified Coatings, Manuel Morillo's State Farm Agency, Ahern Rentals, Sherman Williams, Red Label Automotive, Green Valley Orthodontics, Bank of the West, Gordon's Music and Sound, Mazzetta Foods, and the International Union of Painters and Allied Trades. A special Thank you to the Rodriguez Music Boosters for your love, dedication, and support. Now please sit back and put your hands together for the award winning Rodriguez Entertainment Unit!
-
+        The Rodriguez Entertainment Unit says thank you to our Rodriguez Music Boosters for your love, dedication and support.
 
 fieldshow:
-    last-updated: 2017
+    last-updated: "2018-10-17 14:04:42"
 
-    nickname: "Rodriguez Entertainment Unit"
+    nickname: *band-nickname
 
     directors: *directors
 
-    staff: *other-directors
+    staff: *band-staff
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Adam Engle-Sorrell"
-        -   "David Brochman (David BROHK-man)"
+        -   "Adrianna Vree"
+        -   "Marissa Grimes"
+        -   *leda-brockman
 
-    -   title: "color guard captains"
+    -   title: "auxiliary captain"
         members:
-        -   "Savannah Sears"
-        -   "Erica Nelson"
+        -   *erica-nelson
 
-    -   title: "pit captain"
+    -   title: "front ensemble captains"
         members:
-        -   "Taylor Slight"
-
-    -   title: "drum line captain"
+        -   *taylor-slight
+        -   *angela-borja
+        
+    -   title: "battery captains"
         members:
-        -   "Isabelle Nocon (Isabelle noh-COHN)"
+        -   *jace-sears
+        -   *brian-tran
+    
+    -   title: "auxiliary Leaders"
+        members:
+        -   *tori-cox
+        -   *katelyn-peacock
+        -   *malerie-peralta
+        -   *madison-blanc
+        -   *jhiana-illenberg
 
-    program: "Paint The Sky"
+    program: "Shifting Perspective"
 
-    music: "music by Frank Sullivan"
+    music: "three movements by John Meehan: Darkness, Transformation, and Light"
     
     notes: >
-        The Rodriguez Entertainment Unit would like to thank their corporate sponsors! Thank you Jim Brown with Freedom Equity Group, Certified Coatings, Manuel Morillo's State Farm Agency, Ahern Rentals, Sherman Williams, Red Label Automotive, Green Valley Orthodontics, Bank of the West, Gordon's Music and Sound, Mazzetta Foods, and the International Union of Painters and Allied Trades. REU encourages you to thank them for supporting the kids and to patronize their businesses if you are in need of the products and services they offer. A special Thank you to the Rodriguez Music Boosters for your love, dedication, and support. Now please sit back and put your hands together for the award winning Rodriguez Entertainment Unit.
+        The Rodriguez Entertainment Unit says thank you to our Rodriguez Music Boosters for your love, dedication and support.

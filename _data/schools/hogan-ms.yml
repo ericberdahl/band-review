@@ -3,13 +3,33 @@ name: "Hogan Middle School"
 city: "Vallejo, CA"
 
 parade:
-    last-updated: 1
+    last-updated: "2018-10-17 13:33:08"
 
-    nickname: "Hogan Middle School Marching Band"
+    nickname: "Hogan Performance Ensemble"
 
     directors:
     -   "James Walker"
 
-    leaders:
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Julius Salanga"
 
-    music:
+    leaders:
+    -   title: "drum major"
+        members:
+        -   "Charmine Junio"
+
+    -   title: "auxiliary captains"
+        members:
+        -   "Reign Ramos"
+        -   "Kaila Layug"
+
+    -   title: "percussion captain"
+        members:
+        -   "Dylan Deleon"
+
+    music: "Honor by Sandy Feldstein and Larry Clark"
+
+    notes: >
+        Thank you HPE Boosters for all that you do!!

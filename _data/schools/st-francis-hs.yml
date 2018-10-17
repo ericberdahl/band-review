@@ -3,29 +3,50 @@ name: "Saint Francis High School"
 city: "Mountain View, CA"
 
 fieldshow:
-    last-updated: 2017
+    last-updated: "2018-10-17 16:00:55"
 
-    nickname: "Lancer Marching Band"
+    nickname: "Lancer Band and Color Guard"
 
     directors:
-    -   "Javier Cerna (Javier SEHR-nah)"
+    -   "Mr. Javier Cerna (Javier SEHR-nah)"
+
+    staff:
+    -   title: "visual staff"
+        members:
+        -   "Justin Cunha"
+        -   "Dan Lehnert"
+        -   "Andre Garcia"
+
+    -   title: "color guard staff"
+        members:
+        -   "Jenny Lyons"
+        -   "Isabel Guerrero"
+
+    -   title: "music staff"
+        members:
+        -   "Ken Nakamoto"
+        -   "Patrick Weber"
+        -   "Doug Durando"
+        -   "Mikaela Valenciano"
+        -   "Kevin Giannini"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Trevor Parcella (Trevor pahr-SELL-ah)"
         -   "Kae Nurge"
         -   "Jackson Butler"
+        -   "Marcella Ledesma"
 
     -   title: "auxiliary captain"
         members:
-        -   "Sam Ruzon"
+        -   "Claire Becker"
 
-    -   title: "percussion captains"
+    -   title: "percussion captain"
         members:
-        -   "Annabel Su"
-        -   "Sahana Jain"
+        -   "Matthew Quan"
 
-    program: "The Outcast"
+    program: "Push"
 
-    music: "music from Swan Lake by Tchaikovsky, New World Symphony by Dvorak, and Carnival of the Animals by Saint-Saens, arranged by Craig Fitzpatrick"
+    music: "music by Aaron Railey"
+    
+    notes:

@@ -3,13 +3,19 @@ name: "Ingrid B. Lacy and Ocean Shore Schools"
 city: "Pacifica, CA"
 
 parade:
-    last-updated: 1
+    last-updated: "2018-10-17 14:15:09"
 
-    nickname: "Pacifica Coastal Regiment"
+    nickname: "Ingrd B. Lacy and Ocean Shore Marching Band"
 
     directors:
     -   "Ben Gower"
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Bridgitt Reynolds"
 
-    music: 
+    music: "Peacemaker March by Karl L. King, arranged by James Swearingen"
+
+    notes: >
+        We would like to thank the Pacifica Education Foundation, our Hosts at Amador Valley and Foothill High schools, and all of our fantastic parents that make this possible.
