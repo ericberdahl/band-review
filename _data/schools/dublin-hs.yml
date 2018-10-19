@@ -3,21 +3,57 @@ name: "Dublin High School"
 city: "Dublin, CA"
 
 fieldshow:
-    last-updated: 2017
+    last-updated: "2018-10-18 14:57:28"
 
-    nickname: "Irish Guard"
+    nickname: "Irish Guard Marching Band and Color Guard"
 
     directors:
-    -   "Melissa Williams"
+    -   "Elliot J. Polot"
+
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Rob Van Loben Sels"
+        -   "Russell Olmstead"
+        -   "Justin Shebert"
+        -   "Chris Morales"
+        -   "Antony Ruiz"
+        -   "Brian Ward"
+        -   "Kyle Koch"
+        -   "Annika Butler"
+        -   "Mike Sowell"
+        -   "Adam Borden"
+        -   "Nico Peruzzi"
+        -   "Eli Maes-Brown"
+        -   "Jenny Dusendang"
 
     leaders:
-    -   title: "drum majors"
+    -   title: "head drum major"
         members:
         -   "Noah Villanueava"
-        -   "Vade Shah"
-        -   "Yeseo Han"
+
+    -   title: "drum majors"
+        members:
         -   "Joseph Wanzenried"
+        -   "Yeseo Han"
+        -   "Aaron Lim"
 
-    program: "Mirror Image"
+    -   title: "color guard captains"
+        members:
+        -   "Meghan Van Lare"
+        -   "Michela Viazzo"
 
-    music: "music by Gary Gilroy"
+    program: "Balance"
+
+    music: >
+        Prelude / Chaos,
+        Searching For Balance,
+        and The Quest For Equilibrium,
+        composed by
+        Andy Yozviak,
+        Daniel Mark,
+        Jabin Baxter,
+        and Rob van Loben Sels
+
+    notes: >
+        The Dublin Irish Guard would like to thank its wonderful parents and supportive administration, including Principal Maureen Byrne and Assistant Principal, Krista Taylor.
