@@ -21,6 +21,11 @@ units:
 -   "concert-3"
 -   "symphonic"
 
+sponsors-general: &sponsors-general
+-   "Ben Woo with Salesforce.org"
+-   "the Magann Family"
+-   "Aaron Miller and Family"
+
 parade:
     grand_marshall:
         title: "Grand Marshalls"
@@ -35,7 +40,7 @@ parade:
     awards_location: "Amador Valley High School Stadium"
 
     sponsors:
-        general:
+        general: *sponsors-general
 
         trophies:
 
@@ -110,7 +115,7 @@ fieldshow:
     -   ref: "foothill-hs"
 
     sponsors:
-        general:
+        general: *sponsors-general
         #-   "John Q Public"
 
         trophies:
