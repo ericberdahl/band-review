@@ -38,9 +38,11 @@ You all made it happen!
 {{#unless fieldshow.sponsors.trophies}}IMPORTANT: There are no field show sponsors.
 {{/unless}}
 
-Foothill High School thanks the sponsors of the {{show.citation}}: {{#each fieldshow.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
+Foothill High School thanks the sponsors of the {{show.citation}}: +
+{{#each fieldshow.sponsors.general}}{{#unless @first}}, +
+{{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
 
-(General award announcement)
+=== General award announcement
 With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
 
 {{> trophy-sponsors trophies=fieldshow.sponsors.trophies}}

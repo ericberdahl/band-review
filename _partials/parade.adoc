@@ -9,13 +9,13 @@ On behalf of Foothill High School, we wish good luck to all the bands performing
 
 == Parade - Grand Marshal
 
-Now, please welcome our {{parade.grand_marshall.title}}, {{#each parade.grand_marshall.members}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{.}}{{/each}}.
+Leading off today's parade, please welcome our {{parade.grand_marshall.title}}, {{#each parade.grand_marshall.members}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{.}}{{/each}}.
 
 <<<
 
 == Parade - Presentation of the Colors
 
-At this time, please rise and give respect to the presentation of the colors by {{parade.colors}}.
+At this time, please rise and give respect to the colors, presented by by {{parade.colors}}.
 
 <<<
 
@@ -52,7 +52,9 @@ Good day.
 {{#unless parade.sponsors.trophies}}IMPORTANT: There are no parade trophy sponsors.
 {{/unless}}
 
-Foothill High School thanks the sponsors of the {{show.citation}}: {{#each parade.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
+Foothill High School thanks the sponsors of the {{show.citation}}: +
+{{#each parade.sponsors.general}}{{#unless @first}}, +
+{{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
 
 {{> trophy-sponsors trophies=parade.sponsors.trophies }}
 
