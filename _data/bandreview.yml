@@ -86,8 +86,8 @@ fieldshow:
     lineup:
     -   ref: "whitney-hs"
     -   ref: "willow-glen-hs"
-    -   ref: "west-campus-hs"
     -   ref: "del-mar-hs"
+    -   ref: "west-campus-hs"
     -   ref: "clayton-valley-hs"
     -   ref: "roseville-hs"
     -   ref: "tracy-hs"
@@ -97,10 +97,10 @@ fieldshow:
     -   ref: "st-francis-hs"
     -   ref: "mt-eden-hs"
     -   ref: "american-canyon-hs"
+    -   ref: "vintage-hs"
     -   ref: "del-oro-hs"
     -   ref: "phillip-burton-hs"
     -   ref: "fremont-hs"
-    -   ref: "vintage-hs"
     -   break: 30
     -   ref: "american-hs"
     -   ref: "mountain-view-hs"
