@@ -59,11 +59,11 @@ parade:
     -   ref: "ygnacio-valley-hs"
     -   ref: "northgate-hs"
     -   ref: "capuchino-hs"
+    -   ref: "tracy-hs"
     -   ref: "del-mar-hs"
     -   break: 15
     -   ref: "mt-eden-hs"
     -   ref: "cesar-chavez-hs"
-    -   ref: "tracy-hs"
     -   ref: "el-capitan-hs"
     -   ref: "patterson-hs"
     -   ref: "benicia-hs"
