@@ -24,6 +24,7 @@ units:
 sponsors-general: &sponsors-general
 -   "Ben Woo with Salesforce.org"
 -   "the Magann Family"
+-   "Rodger Li and Family"
 -   "the Chabrier Family"
 -   "the Nevin Family"
 -   "the Huey Family"
@@ -124,6 +125,74 @@ fieldshow:
         #-   "John Q Public"
 
         trophies:
+        -   place: "3rd place brass"
+            sponsors:
+            -   sponsor: "The Goebel Family"
+                dedication: >
+                    in honor of our own "sassy brass" players on the trumpets and sousaphones!
+                message: 
+
+        -   place: "2nd place brass"
+            sponsors:
+            -   sponsor: "The Chabrier Family"
+                message: >
+                    Love you bunches, Dana!
+ 
+        -   place: "2nd place percussion"
+            sponsors:
+            -   sponsor: "The Nevin Family"
+                message: >
+                    Shout out to our Peaches! Four years on drumline went by way too fast! We are so very proud of you and love you so much!
+ 
+        -   place: "1st place percussion"
+            sponsors:
+            -   sponsor: "The Magann Family"
+                dedication: >
+                    to the FHS Marching Band program, past, present and future.
+                message: >
+                    Love and thanks to our directors, our instructors, and our band families, fellow band and guard members, and a very special shout out to percussion for an incredible four years of music and friendship.
+
+        -   place: "3rd place 5A"
+            sponsors:
+            -   sponsor: "Sean Wang and Family"
+                dedication: >
+                    to the Foothill Music Program!
+                message: 
+ 
+        -   place: "2nd place 5A"
+            sponsors:
+            -   sponsor: "Aaron Miller and Family"
+                dedication: 
+                message: 
+ 
+        -   place: "2nd place 6A"
+            sponsors:
+            -   sponsor: "The Huey Family"
+                dedication: 
+                message: >
+                    Thank you percussion seniors for sharing the past four years with us.
+                    We have enjoyed watching your journey and the great music you have shared.
+                    Enjoy this year to the fullest!
+ 
+        -   place: "1st place 6A"
+            sponsors:
+            -   sponsor: "Rodger Li and Family"
+                dedication: >
+                    to the Foothill Marching Band
+                message: 
+
+        -   place: "Grand Sweepstakes"
+            sponsors:
+            -   sponsor: "Ben Woo with Salesforce.org"
+                dedication: >
+                    to the Foothill Marching Band who have become a second family for us.
+                message: >
+                    A special shout out to Melanie Woo who is in her last year with the Marching Band.
+                    Your transformation and dedication over the past four years has been an inspiration to your mother and father.
+                    To Josh Woo; welcome to the Marching Band journey as you enter the newest chapter of your life.
+                    Remember to live in the moment.....Always now!
+
+
         #-   place: "3rd place brass"
         #    sponsors:
         #    -   sponsor: "Huntington of Pleasanton"
