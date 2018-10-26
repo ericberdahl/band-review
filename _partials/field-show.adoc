@@ -33,9 +33,9 @@ You all made it happen!
 
 == Field Show - Awards
 
-{{#unless fieldshow.sponsors.general}}IMPORTANT: There are no field show sponsors.
+{{#unless fieldshow.sponsors.general}}NOTE: There are no field show sponsors.
 {{/unless}}
-{{#unless fieldshow.sponsors.trophies}}IMPORTANT: There are no field show sponsors.
+{{#unless fieldshow.sponsors.trophies}}NOTE: There are no field show sponsors.
 {{/unless}}
 
 Foothill High School thanks the sponsors of the {{show.citation}}: +

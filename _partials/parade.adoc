@@ -47,9 +47,9 @@ Good day.
 
 == Parade and Concert - Awards
 
-{{#unless parade.sponsors.general}}IMPORTANT: There are no parade sponsors.
+{{#unless parade.sponsors.general}}NOTE: There are no parade sponsors.
 {{/unless}}
-{{#unless parade.sponsors.trophies}}IMPORTANT: There are no parade trophy sponsors.
+{{#unless parade.sponsors.trophies}}NOTE: There are no parade trophy sponsors.
 {{/unless}}
 
 Foothill High School thanks the sponsors of the {{show.citation}}: +
