@@ -1,6 +1,8 @@
 {{#each trophies}}
-({{place}}) The {{place}} trophy is sponsored by {{#each sponsors}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{sponsor}}{{/each}}.
-{{#each sponsors}}{{#if dedication}}{{sponsor}} dedicates the {{../place}} trophy to {{{dedication}}}.{{/if}}
+=== {{place}}
+
+The {{place}} trophy is sponsored by {{#each sponsors}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{sponsor}}{{/each}}.
+{{#each sponsors}}{{#if dedication}}{{sponsor}} dedicates the {{../place}} trophy {{{dedication}}}{{/if}} {{message}}
 {{/each}}
 
 
