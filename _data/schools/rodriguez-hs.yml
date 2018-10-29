@@ -24,7 +24,7 @@ parade:
     -   "Scott Miller"
 
     staff: &band-staff
-    -   title: "instructors"
+    -   title: "instructed by"
         members:
         -   "Jaclyn Wren"
         -   "Mae Elise-Salvador"
@@ -80,19 +80,19 @@ fieldshow:
         -   "Marissa Grimes"
         -   *leda-brockman
 
-    -   title: "auxiliary captain"
+    -   title: "color guard captain"
         members:
         -   *erica-nelson
 
-    -   title: "front ensemble captains"
+    -   title: "pit captains"
         members:
         -   *taylor-slight
         -   *angela-borja
         
-    -   title: "battery captains"
+    -   title: "drum line captains"
         members:
-        -   *jace-sears
         -   *brian-tran
+        -   *jace-sears
     
     -   title: "auxiliary Leaders"
         members:
@@ -104,7 +104,11 @@ fieldshow:
 
     program: "Shifting Perspective"
 
-    music: "three movements by John Meehan: Darkness, Transformation, and Light"
+    music: "music by John Meehan"
     
     notes: >
-        The Rodriguez Entertainment Unit says thank you to our Rodriguez Music Boosters for your love, dedication and support.
+        The Rodriguez Entertainment Unit would like to thank our corporate sponsors!
+        Thank you Certified Coatings, Red Label Automotive, Gordon's Music and Sound, Mazzetta Foods, and Carboline.
+        REU encourages you to thank them for supporting our kids and patronize their businesses if you are in need of the products and services they offer.
+        We would like to give a special Thank you to the Rodriguez Music Boosters for your love, dedication, and support.
+        Now please sit back and put your hands together for the award winning Rodriguez Enertainment Unit.

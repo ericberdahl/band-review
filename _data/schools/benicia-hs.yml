@@ -19,9 +19,12 @@ parade:
     -   "Patrick Martin"
 
     staff:
-    -   title: "instructed by"
+    -   title: "assistant director"
         members:
         -   "Aki Ross"
+
+    -   title: "color guard instructor"
+        members:
         -   "Kayla Ford"
 
     leaders:
@@ -29,18 +32,18 @@ parade:
         members:
         -   *elijah-burckin
 
-    -   title: "auxiliary captains"
+    -   title: "color guard captains"
         members:
         -   *steven-bui
         -   *zoe-babot
         -   *lindsay-olson
 
-    -   title: "percussion captain"
+    -   title: "percussion captains"
         members:
-        -   *lucas-barnard
         -   *kevin-insaurralde
+        -   *lucas-barnard
 
-    music: "Glemdene by John R. Carr, arranged by Aki Ross"
+    music: "Glemdene by John R. Carr"
 
     notes:
 

@@ -5,6 +5,8 @@ Welcome to the Field Show Competition for the {{show.citation}}.
 We are joined today by {{fieldshow._count.citation}} talented bands anxious to perform.
 On behalf of Foothill High School, we wish good luck to all the bands performing today and hope you enjoy their shows.
 
+{{#if anthem_performer}}And now, I ask you to please rise, remove your caps, and enjoy our National Anthem, performed by {{anthem_performer}}.{{/if}}
+
 <<<
 
 {{#each fieldshow.lineup}}
@@ -27,7 +29,7 @@ Whether you're from Foothill or cheering your home school, you probably know how
 Today, {{parade._count.number}} bands marched in parade, {{concert._count.number}} performed in concert, and {{fieldshow._count.number}} presented field shows.
 All this would not happen without the work of several hundred student and parent volunteers.
 Foothill High School thanks everyone who contributed to the success of today's Band Review.
-You all made it happen!
+You all make our Band Review happen!
 
 <<<
 

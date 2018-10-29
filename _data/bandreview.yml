@@ -22,6 +22,14 @@ units:
 -   "symphonic"
 
 sponsors-general: &sponsors-general
+-   "Debernardi Development Construction Remodeling"
+-   "Double D Transportation"
+-   "El Monte RV"
+-   "Corner Bakery Café"
+-   "Minuteman Press"
+-   "Reichert Lumber"
+-   "Cool Beads Ice Cream"
+-   "Iron Horse Kettle Corn"
 -   "Ben Woo with Salesforce.org"
 -   "the Magann Family"
 -   "Rodger Li and Family"
@@ -89,6 +97,8 @@ parade:
 fieldshow:
     start_time: "2:45pm"
 
+    anthem_performer: "Foothill High School Junior, Kylie Pickard (Kylie pih-KARD)"
+
     lineup:
     -   ref: "whitney-hs"
     -   ref: "willow-glen-hs"
@@ -128,6 +138,7 @@ fieldshow:
         -   place: "3rd place brass"
             sponsors:
             -   sponsor: "The Goebel Family"
+                presenter: "Elizabeth and Thomas Goebel"
                 dedication: >
                     in honor of our own "sassy brass" players on the trumpets and sousaphones!
                 message: 
@@ -135,12 +146,14 @@ fieldshow:
         -   place: "2nd place brass"
             sponsors:
             -   sponsor: "The Chabrier Family"
+                presenter: "Dana Chabrier"
                 message: >
                     Love you bunches, Dana!
  
         -   place: "2nd place percussion"
             sponsors:
             -   sponsor: "The Nevin Family"
+                presenter: "Georgia Nevin"
                 message: >
                     Shout out to our Peaches! Four years on drumline went by way too fast! We are so very proud of you and love you so much!
  
@@ -169,6 +182,7 @@ fieldshow:
         -   place: "2nd place 6A"
             sponsors:
             -   sponsor: "The Huey Family"
+                presenter: "Nate Huey"
                 dedication: 
                 message: >
                     Thank you percussion seniors for sharing the past four years with us.
@@ -178,6 +192,7 @@ fieldshow:
         -   place: "1st place 6A"
             sponsors:
             -   sponsor: "Rodger Li and Family"
+                presenter: "Rodger Li"
                 dedication: >
                     to the Foothill Marching Band
                 message: 
@@ -185,6 +200,7 @@ fieldshow:
         -   place: "Grand Sweepstakes"
             sponsors:
             -   sponsor: "Ben Woo with Salesforce.org"
+                presenter: "Melanie Woo"
                 dedication: >
                     to the Foothill Marching Band who have become a second family for us.
                 message: >

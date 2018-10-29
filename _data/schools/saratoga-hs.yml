@@ -4,14 +4,13 @@ city: "Saratoga, CA"
 
 students:
 -   &dylan-boselli "Dylan Boselli"
--   &alena-jarrett "Alena Jarrett"
+-   &alena-jarrett "Alena Jarrett (uh-LEE-nuh Jarrett)"
 -   &aj-lee "AJ Lee"
--   &deyshna-pai "Deyshna Pai"
--   &alexandra-propach "Alexandra Propach"
--   &meera-ravichandran "Meera Ravichandran"
--   &alex-ruemmler "Alex Ruemmler"
--   &rishub-tamirisa "Rishub Tamirisa"
--   &kimi-uenaka "Kimi Uenaka"
+-   &deyshna-pai "Deyshna Pai (DAY-shnuh Pai)"
+-   &alexandra-propach "Alexandra Propach (Alexandra PRO-pah-k)"
+-   &meera-ravichandran "Meera Ravichandran (Meera rah-vee-CHAHN-drehn)"
+-   &alex-ruemmler "Alex Ruemmler (Alex ROOM-luhr)"
+-   &kimi-uenaka "Kimi Uenaka (Kimi oo-eh-NAH-kuh)"
 
 fieldshow:
     last-updated: "2018-10-11 15:47:25"
@@ -19,32 +18,18 @@ fieldshow:
     nickname: "Saratoga High School Marching Band and Color Guard"
 
     directors:
-    -   "Jason Shiuan (Jason schwan)"
-    -   "Michael Boitz"
+    -   "Jason Shiuan (Jason sh-wen)"
+    -   "Michael Boitz (Michael boy-tz)"
 
     staff:
-    -   title: "instructed by"
+    -   title: "assisted by"
         members:
+        -   "Andrew Ford"
         -   "Todd Ryan"
-        -   "Jonathan Pwu"
-        -   "KK Sullivan"
-        -   "Lauren Casey-Clyde"
-        -   "Oliver Chen"
-        -   "Vivi Kung"
-        -   "Katie Starnes"
-        -   "Jazz Kristophe Legaspi"
-        -   "Gustavo Morales"
-        -   "Brittany Bennet"
-        -   "Austin Sugai"
-        -   "Chavadith Tantavirojn (kah-vah-dith tan-tah-vih-RHO-geen)"
+        -   "Jonathan Pwu (Jonathan pw-oo)"
+        -   "Chavadith Tantavirojn (CHAH-vah-dith TAHN-tuh-viuh-rone)"
         -   "Sean Clark"
-        -   "Jared Baltazar"
-        -   "Brandon Adamson"
-        -   "Frank Peacock"
-        -   "Gabe Boquerin"
-        -   "Steven Drummer"
-        -   "Jaewoo Lee"
-        -   "Uday Singh"
+        -   "Jazz Legaspi (Jazz luh-GAS-pee)"
 
     leaders:
     -   title: "drum majors"
@@ -53,17 +38,24 @@ fieldshow:
         -   *deyshna-pai
         -   *alena-jarrett
 
-    -   title: "auxiliary captains"
+    -   title: "colorguard captains"
         members:
         -   *alex-ruemmler
         -   *meera-ravichandran
-        -   *kimi-uenaka
         -   *alexandra-propach
+        -   *kimi-uenaka
 
-    -   title: "percussion captains"
+    -   title: "woodwind captain"
+        members:
+        -   "Eric Huang"
+
+    -   title: "brass captain"
+        members:
+        -   "Joshua Yoon"
+
+    -   title: "percussion captain"
         members:
         -   *dylan-boselli
-        -   *rishub-tamirisa
 
     program: "A Dream Within"
 
@@ -73,9 +65,13 @@ fieldshow:
         Serenada Schizophrana by Danny Elfman,
         Concerto for Violin and Orchestra by Samuel Barber,
         and The Armed Man - A Mass for Peace by Karl Jenkins.
+        Musical arrangements by Dave Glyde, Jason Shiuan (Jason sh-wen), Chavadith Tantavirojn (CHAH-vah-dith TAHN-tuh-viuh-rone), and Sean Clark.
 
     notes: >
-        The Saratoga High School Marching Band performed in the 2016 Tournament of Roses Parade, the 2012 Macy's Thanksgiving Day Parade, and Concert Performances in the 2017 WASBE and WMC in Europe.
-        The Band has been Class Champion the past five years at BOA Regionals and in 2015 were the overall BOA NorCal Regional Champion.
-        SHS Marching Band would like to extend heartfelt appreciation to all of the parents, families, friends, administration, SHS community members, and Music for All for their unyielding support.
+        The Saratoga High School Marching Band performed in the 2016 Tournament of Roses Parade, as well as the 2012 Macy's Thanksgiving Day Parade.
+        The Band has been Class Champion the past five years at the Bands of America Regional Competitions, and in 2015 were the overall Bands of America Regional Champion.
+        In 2017, the Saratoga Symphonic Wind Ensemble was a featured performer at the WASBE Conference in Utrecht, the Netherlands.
+        
+        The SHS Marching Band would like to extend heartfelt appreciation to all of the parents, families, friends, administration, Saratoga High community members for unyielding support.
+        The SHS Marching Band would also liek to thank Foothill High School and all volunteers for helping make the Foothill Band Review possible every year, as well as NCBA for providing educational performance opportunities to thousands of students annually.
     
