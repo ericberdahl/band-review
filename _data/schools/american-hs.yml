@@ -22,6 +22,9 @@ students:
 -   &joshua-wong "Joshua Wong"
 -   &alison-zhao "Alison Zhao"
 
+staff:
+-   &anthony-nunes "Anthony Nunes (Anthony NOONS)"
+
 fieldshow:
     last-updated: "2018-10-12 07:50:40"
 
@@ -110,21 +113,12 @@ winterguard:
     directors: *directors
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Omar Gomez"
-        -   "Jennifer Wong"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Emily House"
-        -   "Lynn Phan"
 
-    program: "Be With Me"
+    program: 
 
-    notes: >
-        American Eagles Winter Guard won the Mission San Jose Winter Review Grand Sweepstakes
+    notes: 
 
 winterpercussion:
     last-updated: 2018
@@ -134,17 +128,9 @@ winterpercussion:
     directors: *directors
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Anthony Nunes (Anthony NOONS)"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Kimiko Scherf-Motoyoshi"
-        -   "Miranda Ying" 
 
-    program: "Love is a Beautiful Pain"
+    program: 
 
-    notes: >
-        American Eagles Winter Percussion won the Mission San Jose Winter Show Grand Sweepstakes and took first place at the Granada Winter Show.
+    notes: 

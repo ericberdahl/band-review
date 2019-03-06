@@ -7,7 +7,7 @@ fieldshow:
 
     nickname: "Vintage Crusher Marching Band"
 
-    directors:
+    directors: &directors
     -   "Brendan Galvin"
 
     staff:
@@ -41,3 +41,18 @@ fieldshow:
     music: 
 
     notes: >
+
+winterpercussion:
+    last-updated: 1901
+
+    nickname: "Vintage High School Winter Percussion"
+
+    directors: *directors
+        
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 

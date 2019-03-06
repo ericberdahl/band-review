@@ -52,4 +52,37 @@ fieldshow:
     music: "original music by Brendan Day"
 
     notes:
-    
+
+winterpercussion:
+    last-updated: 1901
+
+    nickname: "American Canyon Winter Percussion"
+
+    directors: &directors
+    -   "Brendan Day"
+        
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+winterguard:
+    last-updated: 1901
+
+    nickname: "American Canyon High School Winter Guard"
+
+    directors: *directors
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes:
+

@@ -1,158 +1,72 @@
-# Data based on version 6 of the schedule
 announcer:
     name: "Eric Berdahl"
     email: "berdahl@serendipity.org"
 
 show:
-    year: 2018
-    date: "March 24th, 2018"
-    citation: "2018 Foothill High School Winter Show"
-
-next_show:
+    year: 2019
     date: "March 23rd, 2019"
     citation: "2019 Foothill High School Winter Show"
 
+next_show:
+    date: "March 28th, 2019"
+    citation: "2020 Foothill High School Winter Show"
+
 units:
 -   "winterpercussion"
--   "winterpercussion-intermediate"
 -   "winterguard"
--   "winterguard-novice"
--   "winterguard-scholastic"
 
 winterpercussion:
-    start_time: "9:00am"
+    start_time: "10:30am"
 
     lineup:
-    -   ref: "eleanor-murray-ms"
-    -   ref: "solano-ms"
-    -   ref: "crystal-ms"
     -   ref: "franklin-ms"
-    -   ref: "benicia-ms"
-    -   break: 10
+    -   ref: "solano-ms"
     -   ref: "phillip-burton-hs"
-    -   ref: "millennium-hs"
-    -   ref: "american-hs"
+    -   ref: "archbishop-riordan-hs"
     -   ref: "concord-hs"
-    -   ref: "maria-carrillo-hs"
     -   ref: "livermore-hs"
     -   break: 20
-    -   ref: "petaluma-hs"
+    -   ref: "millennium-hs"
     -   ref: "mission-sj-hs"
     -   ref: "cesar-chavez-hs"
-    -   ref: "benicia-hs"
-    -   ref: "foothill-hs"
-        unit: "winterpercussion-intermediate"
+    -   ref: "deer-valley-hs"
+    -   ref: "american-canyon-hs"
+    -   ref: "vintage-hs"
     -   ref: "foothill-hs"
 
     sponsors:
         general: &winter-show-sponsors
-        -   "Chris and Karmin Lampson"
-        -   "the Gopalswamy Family"
-        -   "the Sowa Family"
-        -   &ben-woo "Ben Woo with Salesforce"
-        -   &miller-family "the Miller family"
-        -   &kanakasabapthy-family "the Kanakasabapthy family"
-        -   &catura-family "the Catura family"
-        -   &caldwell-family "the Caldwell family"
-        -   &powell-family "the Powell family with RK Logistics Group"
-        -   &magann-family "the Magann family"
-        -   &woo-family "the Woo family"
-        -   &huey-family "the Huey family"
-        -   &sowa-family "the Sowa family"
 
         trophies:
-        -   place: "1st place Advanced Middle School"
-            sponsors:
-            -   sponsor: *ben-woo
-
-        -   place: "6th place Novice High School"
-            sponsors:
-            -   sponsor: *miller-family
-                dedication: >
-                    (Aaron, Michael, and Julie). Congratulations. Your hard work, dedication, and practice pays off.
-
-        -   place: "5th place Novice High School"
-            sponsors:
-            -   sponsor: *kanakasabapthy-family
-                dedication: >
-                    We are proud to see you summit, marching up from Foothill. Love – Amma, Appa, and Niyanth.
-
-        -   place: "4th place Novice High School"
-            sponsors:
-            -   sponsor: *catura-family
-                dedication: >
-                    Dedicated to Mr. Hinojosa, Mr. Nishimori, and drum line techs - Chris, Will, Charels, Alex, and Shubham.
-
-        -   place: "3rd place Novice High School"
-            sponsors:
-            -   sponsor: *caldwell-family
-
-        -   place: "2nd place Novice High School"
-            sponsors:
-            -   sponsor: *powell-family
-
-        -   place: "1st place Novice High School"
-            sponsors:
-            -   sponsor: *powell-family
-
-        -   place: "2nd place Intermediate High School"
-            sponsors:
-            -   sponsor: *magann-family
-                dedication: >
-                    FHS Winter Percussion, you are an amazing group of people and remarkably talented group of musicians.
-                    We are so proud of you! You have a bright, beautiful future ahead. Much love from the Magann Family.
-
-        -   place: "1st place Intermediate High School"
-            sponsors:
-            -   sponsor: *miller-family
-
-        -   place: "2nd place Advanced High School"
-            sponsors:
-            -   sponsor: *woo-family
-                dedication: >
-                    We love you Melanie. YOU DO YOU!
-
-        -   place: "1st place Advanced High School"
-            sponsors:
-            -   sponsor: *huey-family
-
+ 
 winterguard:
-    start_time: "1:30pm"
+    start_time: "2:00pm"
 
     lineup:
     -   ref: "hart-ms"
-    -   ref: "benicia-ms"
-        unit: "winterguard-novice"
-    -   ref: "eleanor-murray-ms"
-    -   ref: "benicia-ms"
-        unit: "winterguard-scholastic"
+    -   ref: "fallon-ms"
     -   ref: "franklin-ms"
     -   ref: "park-ms"
-    -   ref: "crystal-ms"
-    -   ref: "livermore-hs"
-    -   break: 20
-    -   ref: "willow-glen-hs"
-    -   ref: "terra-nova-hs"
-    -   ref: "american-hs"
-    -   ref: "concord-hs"
-    -   ref: "cesar-chavez-hs"
-    -   ref: "freedom-hs"
+    -   break: 10
     -   ref: "hayward-hs"
-    -   break: 20
-    -   ref: "antioch-hs"
+    -   ref: "phillip-burton-hs"
+    -   ref: "archbishop-riordan-hs"
+    -   ref: "american-hs"
+    -   ref: "deer-valley-hs"
     -   ref: "millennium-hs"
-    -   ref: "san-mateo-hs"
+    -   break: 20
     -   ref: "mission-sj-hs"
-    -   ref: "vacaville-hs"
+    -   ref: "cesar-chavez-hs"
+    -   ref: "concord-hs"
+    -   ref: "livermore-hs"
+    -   ref: "antioch-hs"
+    -   break: 10
+    -   ref: "california-hs"
+    -   ref: "american-canyon-hs"
+    -   ref: "tri-city"
     -   ref: "foothill-hs"
 
     sponsors:
         general: *winter-show-sponsors
 
         trophies:
-        -   place: "1st place Intermediate High School"
-            sponsors:
-            -   sponsor: *sowa-family
-                dedication: >
-                    Dedicated to Sierra for her hard work and dedication for being part of Guard for 7 years.
-                    We are very proud of you!!!

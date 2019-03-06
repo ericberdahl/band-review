@@ -121,59 +121,33 @@ winterguard:
     directors: *directors
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Nick Duenas"
-        -   "Kristi LaDuca"
-        -   "Alexina Manriquez"
         
     leaders:
-    -   title: "captains"
-        members:
-        -   *sierra-sowa
-        -   *ayla-johnson
 
-    program: "To Leave No Stone Unturned"
+    program: 
 
     music: 
 
-    notes: >
-        The Foothill Guard program would like to thank their booster program for all of their help throughout the season.
-        Special thanks go to Mr. Bill Sowa for taking the lead as Guard Dad. 
+    notes: 
 
 winterpercussion:
     isHost: true
 
     last-updated: 2018
 
-    nickname: "Foothill High School Open Percussion"
+    nickname: "Foothill High School Winter Percussion"
 
     directors: *directors
 
     staff: &other-perc-directors
-    -   title: "instructed by"
-        members:
-        -   *chris-cyr
-        -   *charles-cachero
-        -   *alex-pfiefer
-        -   "Shubham Gupta"
-        -   *will-edmonds
-        -   *connor-carroll
-        -   *randy-chow
-        -   "Sohrab Nawim"
         
     leaders:
-    -   title: "captain"
-        members:
-        -   *allison-phan
 
-    program: "Through The Eyes Of Kuhbler Ross"
+    program: 
 
-    music: "music by Mike Jackson and Kevin Shah"
+    music: 
 
-    notes: >
-        The Foothill Percussion program would like to thank the Band Boosters for all of their help throughout the season.
-        Special thanks go out to Mr. and Mrs. Miller for taking the lead on the winter percussion season. 
+    notes: 
 
 winterpercussion-intermediate:
     isHost: true

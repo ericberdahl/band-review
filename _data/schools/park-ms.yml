@@ -11,30 +11,9 @@ winterguard:
     -   "Nikki Andreatta-Jacques (NIH-kee ahn-dray-AH-tah JAX)"
 
     staff:
-    -   title: "teacher advisor"
-        members:
-        -   "Kathe Saylor"
-
-    -   title: "assistant coaches"
-        members:
-        -   "Tristynn Gonzaga"
-        -   "Zia Tedford"
-
-    -   title: "equipment manager"
-        members:
-        -   "Kyle Andreatta-Jacques (KAI-uhl ahn-dray-AH-tah JAX)"
 
     leaders:
-    -   title: "captain"
-        members:
-        -   "Brooke Rotolo"
 
-    -   title: "co-captain"
-        members:
-        -   "Kylie Sousa"
+    program: 
 
-    program: "Waving through a window"
-
-    music: "music from the Dear evan hansen original cast recording"
-
-
+    music: 

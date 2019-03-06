@@ -11,17 +11,10 @@ winterguard:
     -   "Roland Zepeda"
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Michael McClain"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Yaretzy Moshan"
-        -   "Molly Contreras"
 
-    program: "Protocol"
+    program: 
 
     music: 
 
@@ -34,16 +27,9 @@ winterpercussion:
     directors: *directors
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Andrew Cardwell"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Josiah Adrineda"
-        -   "Daniel Harrison"
 
-    program: "ICE"
+    program: 
 
-    music: "music by Brian Mudgett and Alan Keown"
+    music: 

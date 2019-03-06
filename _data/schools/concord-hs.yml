@@ -7,8 +7,8 @@ winterguard:
 
     nickname: "Concord High Winter Guard"
 
-    directors:
-    -   "Andrea Riley-Sorem"
+    directors: &directors
+    -   "Martin Lejano"
 
     staff:
     -   title: "instructors"
@@ -36,24 +36,12 @@ winterpercussion:
 
     nickname: "The Minutemen"
 
-    directors:
-    -   "Gary Coartney"
-    -   "Martin Lejano"
+    directors: *directors
         
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Jacob Dowd"
-        -   "Heston Kent"
-        -   "Nick Mello"
-        -   "Cameron Munoz"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Destani Derrico"
-        -   "Aixa Ortiz"
 
-    program: "Haunted Castle"
+    program: 
 
     music: 

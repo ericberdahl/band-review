@@ -38,21 +38,10 @@ winterpercussion:
     directors: *directors
 
     staff:
-    -   title: "caption head"
-        members:
-        -   "Kaman Poon"
-    
-    -   title: "instructor"
-        members:
-        -   "Omar Andrade"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Rachel Contreras"
-        -   "Cynthia Ngu"
 
-    program: "Somebody's Out There"
+    program: 
 
-    music: "music by Jim Wunderlich"
+    music: 
 

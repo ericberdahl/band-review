@@ -8,5 +8,24 @@ parade:
     nickname: "California High School Marching Ensemble and Colorguard"
 
     directors:
-    -   "Kent Johnson"
+    -   &kent-johnson "Kent Johnson"
     -   "Ramiro Barrera"
+
+winterguard:
+    last-updated: 1901
+
+    nickname: "California High School Winter Guard"
+
+    directors:
+    -   *kent-johnson
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes:
+

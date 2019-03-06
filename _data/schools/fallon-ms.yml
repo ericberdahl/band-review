@@ -1,4 +1,4 @@
-name: "Fallon Middle School"
+name: "Eleanor Murray Fallon Middle School"
 
 city: "Dublin, CA"
 
@@ -6,13 +6,16 @@ students:
 -   &elizabeth-koh "Elizabeth Koh"
 -   &manu-korupolu "Manu Korupolu"
 
+staff:
+-   &tony-cavalleri "Tony Cavalleri (Tony ca-vah-LEHR-ee)"
+
 parade:
     last-updated: "2018-10-15 15:38:06"
 
     nickname: "Mustang Marching Band and Colorguard"
 
-    directors:
-    -   "Tony Cavalleri"
+    directors: &directors
+    -   *tony-cavalleri
 
     leaders:
     -   title: "drum major"
@@ -26,3 +29,31 @@ parade:
     music: "Fidelity by Karl King, arranged by Andrew Glover"
 
     notes: 
+
+winterguard:
+    last-updated: 2018
+
+    nickname: "Fallon Middle School Colorguard"
+
+    directors: *directors
+    
+    staff:
+
+    leaders:        
+
+    program: 
+
+    music: 
+
+winterpercussion:
+    last-updated: 2018
+
+    nickname: "Mustang Drumline"
+
+    directors: *directors
+        
+    leaders:
+
+    program: 
+
+    music: 

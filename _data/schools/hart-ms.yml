@@ -8,19 +8,12 @@ winterguard:
     nickname: "Hart Middle School Color Guard"
 
     directors:
-    -   "Makoto McCann"
+    -   "Dennis Aquilina"
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Lucy Lee"
-        -   "Maya Harrell"
 
     leaders:
-    -   title: "captain"
-        members:
-        -   "Esha Chakrabarty (AY-shah chah-krah-BAHR-tee)"
 
-    program: "Another Day of Sun"
+    program: 
 
-    music: "music by Justin Hurwitz"
+    music: 

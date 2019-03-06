@@ -11,30 +11,14 @@ winterguard:
     -   "Monica Kraft"
 
     staff:
-    -   title: "assistant director"
-        members:
-        -   "Bill Flaherty"
-
-    -   title: "instructors"
-        members:
-        -   "Maggie Taylor"
-        -   "Jennessa Takagi"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Athena Lim"
-        -   "Jolene Tsai"
-        -   "YuTing Chou"
-        -   "Lynn Friedmans"
 
-    program: "A Perfect Love"
+    program: 
 
-    music: "music by Ed Sheeran"
+    music: 
 
-    notes: >
-        This show is dedicated to the memory of Joan Fong, a long time supporter of the Mission San Jose Band program and
-        Performing Arts Parent Board member. Joan's voice and advice is heard at the start of our show.
+    notes: 
 
 winterpercussion:
     last-updated: 2018
@@ -44,23 +28,9 @@ winterpercussion:
     directors: *directors
 
     staff:
-    -   title: "assistant director"
-        members:
-        -   "Bill Flaherty"
-
-    -   title: "instructors"
-        members:
-        -   "Steve Slater"
-        -   "Stan Muncy"
-        -   "Alex Chen"
-        -   "Aaron Kim"
 
     leaders:
-    -   title: "captain"
-        members:
-        -   "Andrew Kinoshita"
 
-    program: "C.P.U."
+    program: 
 
-    notes: >
-        The Percussionists would like to thank their parents and the Winter Guard for their support this season.
+    notes: 

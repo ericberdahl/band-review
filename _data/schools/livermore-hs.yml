@@ -51,20 +51,12 @@ winterguard:
     directors: *directors
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Aislinn Rocamora"
-        -   "Luis Cardoza" 
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Hannah Dolan"
-        -   "Siliyah Greer"
 
-    program: "Come Sail Away"
+    program: 
 
-    music: "Come Sail Away by Styx"
+    music: 
 
 winterpercussion:
     last-updated: 2018
@@ -74,22 +66,11 @@ winterpercussion:
     directors: *directors
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "David Alatorre"
-        -   "Anthony Maganon"
-        -   "Steven Drummer"
-        -   "Sarah Culbertson"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Elijah Maravilla"
-        -   "Alex Paterson"
 
-    program: "Breaking Free"
+    program: 
 
     music: 
 
-    notes: >
-        Livermore High School would like to thank the Foothill parents, students and staff for hosting a fantastic winter show.
+    notes: 

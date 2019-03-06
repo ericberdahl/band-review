@@ -7,6 +7,10 @@ students:
 -   &jose-antonio-gonzalez "Jose Antonio Gonzalez"
 -   &william-rios "William Rios"
 
+staff:
+-   &tammy-petborisooth "Tammy Petborisooth (TA-mee pet-BOHR-ih-sooth)"
+-   &onhey-lee-o-tela "OnHey-Lee-O Tela (ohn-HAY-lee-oh TAY-la)"
+
 parade:
     last-updated: "2018-10-16 12:44:27"
 
@@ -52,18 +56,12 @@ winterguard:
     -   *art-coleman
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Tammy Petborisooth (TA-mee pet-BOHR-ih-sooth)"
 
     leaders:
-    -   title: captain
-        members:
-        -   "Genevive Escalona"
 
-    program: "Mirage"
+    program: 
 
-    music: "Mirage by Lindsey Stirling featuring Raja Kumari"
+    music: 
 
 
 winterpercussion:
@@ -76,15 +74,9 @@ winterpercussion:
     -   "Chris McCoy"
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Jerry Hernandez"
-        -   "OnHey-Lee-O Tela (ohn-HAY-lee-oh TAY-la)"
-        -   "Cris Garcia"
-        -   "Amani Khalil"
 
     leaders:
 
-    program: "Where The Ligh Is"
+    program: 
 
-    music: "music by Weston Amaro and Eric Shriver"
+    music: 

@@ -55,14 +55,28 @@ winterpercussion:
 
     directors: *directors
 
-    staff: *other-directors
+    staff: 
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Byronne Rodrigo"
-        -   "Sabrina Du"
 
-    program: "The Deadliest Catch"
+    program: 
 
     music: 
+
+winterguard:
+    last-updated: 1901
+
+    nickname: "Phillip Burton High School Winter Guard"
+
+    directors: *directors
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes:
+

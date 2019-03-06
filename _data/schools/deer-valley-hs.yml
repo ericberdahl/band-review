@@ -1,0 +1,37 @@
+name: "Deer Valley High School"
+
+city: "Antioch, CA"
+
+winterguard:
+    last-updated: 1901
+
+    nickname: "Deer Valley Winter Guard"
+
+    directors:
+    -   &courtney-trantham "Courtney Trantham"
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes:
+
+winterpercussion:
+    last-updated: 1901
+
+    nickname: "Deer Valley Winter Percussion"
+
+    directors:
+    -   *courtney-trantham
+        
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 

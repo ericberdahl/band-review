@@ -25,16 +25,9 @@ winterguard:
     directors: *directors
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Fatima Shefa"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Paulina Pen-ya"
-        -   "Jazmyne Stone"
 
-    program: "Feel it Still"
+    program: 
 
-    music: "Portugal The Man"
+    music: 

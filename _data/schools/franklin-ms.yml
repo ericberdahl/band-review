@@ -11,23 +11,14 @@ winterguard:
     -   "Jorge Ruvalcaba"
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Alexandria Dees"
-        -   "Shawnee Garris"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Grace Thompson"
-        -   "Rubi Diaz"
 
-    program: "Free At Last"
+    program: 
 
     music: 
 
-    contents: >
-        Franklin Middle School Color guard would like to thank all the parents for all their support and Anty Shay you Rock!
+    notes: 
 
 
 winterpercussion:
@@ -38,20 +29,12 @@ winterpercussion:
     directors: *directors
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Lexus Miguel"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Claire Gonzales"
-        -   "Jericho Santos"
 
-    program: "Kiakoa"
+    program: 
 
     music: 
 
-    notes: >
-        Franklin Middle School Percussion would like to thank all the parents for their support!
+    notes: 
 
