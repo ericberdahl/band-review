@@ -60,6 +60,10 @@ def lookupUnitRef(ref, defaultUnit, schools):
     result = ref
     if 'ref' in ref:
         unitname = defaultUnit if 'unit' not in ref else ref['unit']
+        if ref['ref'] not in schools:
+            print '# ERROR {} school not found'.format(ref['ref'])
+        elif unitname not in schools[ ref['ref'] ]:
+            print '# ERROR {} unit not found in {} school.'.format(unitname, ref['ref'])
         result = schools[ ref['ref'] ][unitname]
     return result
 
