@@ -17,7 +17,7 @@ Now taking the floor is the {{unit.nickname}}, from {{unit.schoolName}} in {{uni
 
 {{> leaders unit=unit}}
 
-The {{unit.nickname}} will perform their program, {{{unit.program}}}{{#if unit.music}}, featuring {{unit.music}}{{/if}}.
+The {{unit.nickname}} will perform their program, {{{unit.program}}}{{#if unit.music}}, featuring {{{unit.music}}}{{/if}}.
 
 {{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{unit.schoolName}} has no percussion notes.{{/if}}
 
