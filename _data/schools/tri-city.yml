@@ -3,19 +3,28 @@ name: "Tri City Band Corps"
 city: "Fremont, CA"
 
 winterguard:
-    last-updated: 1901
+    last-updated: "2019-03-13 11:55:21"
 
-    nickname: "Tri-City Winter Guard"
+    nickname: "Tri City Winterguard"
 
     directors:
-    -   "Harrison Cheng"
+    -   "Ben Wilkinson"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Fou Saelee"
+        -   "Grantis Peranda"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Isabel Guerrero-Lebarsky"
+        -   "Lulu Payne"
 
-    program: 
+    program: "To Charm a Snake" 
 
-    music: 
+    music: "Boat to Nowhere by Anoushka Shankar"
 
-    notes: 
+    notes: >
+        To join the bay area's only independent guard, email tcwg@tricitybandcorps.org

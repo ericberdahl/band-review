@@ -49,34 +49,45 @@ fieldshow:
         All of this wouldn't be possible without the amazing support of the Burton Band Boosters, Burton High School Admin and SFUSD.
 
 winterpercussion:
-    last-updated: 2018
+    last-updated: "2019-03-13 11:22:02"
 
-    nickname: "Burton Winter Percussion Ensemble"
+    nickname: "Burton Percussion Ensemble"
 
     directors: *directors
 
     staff: 
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Aaron Balot"
+        -   "Karissa Wong"
 
-    program: 
+    program: "Supernatural"
 
-    music: 
+    music: "Tubular Bells and Don't Fear the Reaper, arranged by Luke Aylsworth"
 
 winterguard:
-    last-updated: 1901
+    last-updated: "2019-03-13 11:22:02"
 
-    nickname: "Phillip Burton High School Winter Guard"
+    nickname: "Burton Winter Guard"
 
     directors: *directors
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Benny Serrato"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Akira Son"
+        -   "Lily Chen"
 
-    program: 
+    program: "We Belong Together"
 
-    music: 
+    music: "We Belong Together by Mariah Carey"
 
     notes:
 

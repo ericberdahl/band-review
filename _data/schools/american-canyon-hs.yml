@@ -54,9 +54,9 @@ fieldshow:
     notes:
 
 winterpercussion:
-    last-updated: 1901
+    last-updated: "2019-03-13 10:52:59"
 
-    nickname: "American Canyon Winter Percussion"
+    nickname: "ACHS Winter Percussion Ensemble"
 
     directors: &directors
     -   "Brendan Day"
@@ -64,25 +64,39 @@ winterpercussion:
     staff:
 
     leaders:
+    -   title: "captains"
+        members:
+        -   *vince-dionisio
+        -   "Justin Respicio"
 
-    program: 
+    program: "In the Beginning…"
 
-    music: 
+    music: "music by Matthew Hernandez and Chris Morales"
 
 winterguard:
-    last-updated: 1901
+    last-updated: "2019-03-13 10:52:59"
 
-    nickname: "American Canyon High School Winter Guard"
+    nickname: "American Canyon Color Guard"
 
     directors: *directors
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Rachel Coleman"
+        -   "Taylor Chavez"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   *erica-nunez
+        -   *ruth-santiago
 
-    program: 
+    program: "Somebody to Love"
 
-    music: 
+    music: "Somebody to Love by Queen"
 
-    notes:
+    notes: >
+        This is the color guard's first year competing after a three year hiatus.
+        The ACHS Color Guard would like to thank their instructors and parents for their motivation and support!
 

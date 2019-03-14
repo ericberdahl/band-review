@@ -5,17 +5,26 @@ city: "Antioch, CA"
 winterguard:
     last-updated: 2018
 
-    nickname: "Antioch High School Panther Winterguard Team"
+    nickname: "Antioch High School Winterguard"
 
     directors:
     -   "Brooke Kofford"
+    -   "Maryann Peddicord"
 
     staff:
     
     leaders:
+    -   title: "captains"
+        members:
+        -   "Nicole Mendez"
+        -   "Kekoa Peters"
+        -   "Mariah Capote"
 
-    program: 
+    program: "Internal Takeover" 
 
-    music: 
+    music: "Battle Cry by Imagine Dragons"
 
-    notes: 
+    notes: >
+        Antioch High School Winterguard says thank you to choreographer, Luis Cardoza;
+        to all the volunteer parents who do so much to support us,
+        and to the team who has done great things with this show…we love you all!

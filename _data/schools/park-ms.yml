@@ -3,17 +3,32 @@ name: "Park Middle School"
 city: "Antioch, CA"
 
 winterguard:
-    last-updated: 2018
+    last-updated: "2019-03-13 11:46:55"
 
-    nickname: "Park Middle School Colorguard"
+    nickname: "Park Middle School Color Guard"
 
     directors:
-    -   "Nikki Andreatta-Jacques (NIH-kee ahn-dray-AH-tah JAX)"
+    -   "Nikki Andreatta (NIH-kee ahn-dray-AH-tah)"
 
     staff:
+    -   title: "teacher advisor"
+        members:
+        -   "Kathy Saylor"
+    -   title: "assistant coach"
+        members:
+        -   "Beth Rhodes"
+    -   title: "equipment manager"
+        members:
+        -   "Zia Tedford"
 
     leaders:
+    -   title: "captain"
+        members:
+        -   "Kalaia Gonzales (cah-LAY-ah Gonzales)"
 
-    program: 
+    program: "Jolly Holiday"
 
-    music: 
+    music: "selections from Mary Poppins"
+
+    notes: >
+        The team would like to thank the parents for all their help and support this year!

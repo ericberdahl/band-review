@@ -31,17 +31,20 @@ parade:
         to our parents and boosters.
 
 winterpercussion:
-    last-updated: 2018
+    last-updated: "2019-03-13 13:15:12"
 
-    nickname: "Solano Middle School Winter Percussion Ensemble"
+    nickname: "SMS Percussion Ensemble"
 
     directors: *directors
 
     staff:
 
     leaders:
+    -   title: "captain"
+        members:
+        -   "Andrea Garrido"
 
-    program: 
+    program: "Broken Times"
 
-    music: 
+    music: "music by Aaron Hines and Shealley Lee"
 

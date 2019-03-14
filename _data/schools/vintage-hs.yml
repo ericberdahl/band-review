@@ -43,7 +43,7 @@ fieldshow:
     notes: >
 
 winterpercussion:
-    last-updated: 1901
+    last-updated: "2019-03-06 10:24:25"
 
     nickname: "Vintage High School Winter Percussion"
 
@@ -52,7 +52,11 @@ winterpercussion:
     staff:
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Alex Covarrubias"
+        -   "Christian Cendejas"
 
-    program: 
+    program: "Tribal Affect"
 
     music: 

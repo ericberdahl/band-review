@@ -3,35 +3,50 @@ name: "Deer Valley High School"
 city: "Antioch, CA"
 
 winterguard:
-    last-updated: 1901
+    last-updated: "2019-03-13 14:50:00"
 
     nickname: "Deer Valley Winter Guard"
 
-    directors:
+    directors: &directors
     -   &courtney-trantham "Courtney Trantham"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "YEH-suh-meen SUH-dah-tee"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Marissa Kittleson"
+        -   "Angela KWEN-ko"
+        -   "Stephany Calderon"
+        -   "Mariah TOH-cow"
 
-    program: 
+    program: "Blame it on the Girls"
 
-    music: 
+    music: "Blame it on the Girls by Mika"
 
-    notes:
+    notes: >
+        The group would like to thank their coach for two great years of color guard.
+        Best of luck and we will miss you, YEH-suh-meen!
 
 winterpercussion:
-    last-updated: 1901
+    last-updated: "2019-03-13 14:50:00"
 
     nickname: "Deer Valley Winter Percussion"
 
-    directors:
-    -   *courtney-trantham
+    directors: *directors
         
     staff:
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Abraham Molina"
+        -   "Maya you-REE-bay"
+        -   "Joshua Suarez"
 
-    program: 
+    program: "Disillusion"
 
-    music: 
+    music: "original compositions by captains Abraham Molina and Joshua Suarez"

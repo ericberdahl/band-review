@@ -106,19 +106,31 @@ fieldshow:
         The American Eagles Marching Band thanks all our band parents for their support of our students in the program.
     
 winterguard:
-    last-updated: 2018
+    last-updated: "2019-03-11 22:30:18"
 
     nickname: "American Eagles Winter Guard"
 
     directors: *directors
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Jennifer Wong"
+        -   "Omar Gomez"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   *joshua-wong
+        -   *ashley-nguyen
+        -   *alison-zhao
 
-    program: 
+    program: "Resilience"
 
-    notes: 
+    music: "The Arena by Lindsey Stirling"
+
+    notes: >
+        The American Eagles say thank you to their parent volunteers for their support, and thanks to Foothill for hosting the show.
 
 winterpercussion:
     last-updated: 2018
