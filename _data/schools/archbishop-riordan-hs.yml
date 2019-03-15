@@ -30,8 +30,8 @@ parade:
 
     -   title: "auxiliary captains"
         members:
-        -   "Audrey Lai"
-        -   "Jocelyn Suazo (Jocelyn SOO-AH-zo)"
+        -   &audrey-lai "Audrey Lai"
+        -   &jocelyn-suazo "Jocelyn Suazo (Jocelyn SOO-AH-zo)"
 
     -   title: "percussion captain"
         members:
@@ -43,35 +43,53 @@ parade:
         The Crusader Band would like to dedicate this performance to those affected in the recent North Bay Fires and those still affected from the hurricanes. The Crusader Band is in preparation for the London New Year's Day Parade in 2019, to which they were invited this year!
 
 winterpercussion:
-    last-updated: 1901
+    last-updated: "2019-03-14 15:06:27"
 
-    nickname: "Archbishop Riordan High School Winter Percussion"
+    nickname: "Archbishop Riordan Winter Drumline"
 
     directors: &directors
     -   "Kyle Hildebrant"
-        
+    -   "Edwin Serrano"
+
     staff:
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Jared Lindenmuth"
+        -   "D'Angelo Garcia"
 
-    program: 
+    program: "Una notte all'opera"
 
-    music: 
+    music: "various operatic themes and overtures arranged by Kyle Baldwin and Oliver Bishop"
+
+    notes: >
+        The Archbishop Riordan Winter Drumline won first place Novice Percussion group at the Mission San Jose Winter Showcase.
 
 winterguard:
-    last-updated: 1901
+    last-updated: "2019-03-14 15:06:27"
 
-    nickname: "Archbishop Riordan High School Winter Guard"
+    nickname: "Archbishop Riordan Winter Color Guard"
 
     directors: *directors
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Briana Yamagata"
+        -   "Noah Peters"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   *audrey-lai
+        -   *jocelyn-suazo
 
-    program: 
+    program: "As One"
 
-    music: 
+    music: "Freedom by Beyoncé"
 
-    notes:
+    notes: >
+        The Archbishop Riordan Winter Color Guard won first place Novice guard at the Mission San Jose Winter Showcase,
+        and third place Novice Guard at the Fairfield Pageantry on Parade Winter Show.
 

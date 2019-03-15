@@ -18,16 +18,27 @@ parade:
     music: "A Slavic Farewell by Vasily Agapkin (vah-SEE-lee ah-GAHP-kihn)"
 
 winterguard:
-    last-updated: 2018
+    last-updated: "2019-03-14 10:38:06"
 
-    nickname: "Hayward High Winter Guard"
+    nickname: "Hayward High School Guard"
 
     directors: *directors
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "fuh-TEE-ma Shefa"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Renee Rothe"
+        -   "Nora Kamlin"
 
     program: 
 
-    music: 
+    music: "Never Enough by Loren Allred"
+
+    notes: >
+        This past year, Hayward High Guard and Band traveled to Anaheim, California to perform in Disneyland.
+        The students were also able to perform in this year's Chinese New Year parade.

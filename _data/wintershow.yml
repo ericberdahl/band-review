@@ -43,25 +43,22 @@ winterguard:
     start_time: "2:00pm"
 
     lineup:
+    -   ref: "livermore-hs"
     -   ref: "hart-ms"
     -   ref: "fallon-ms"
     -   ref: "franklin-ms"
     -   ref: "park-ms"
-    -   break: 10
     -   ref: "hayward-hs"
     -   ref: "phillip-burton-hs"
     -   ref: "archbishop-riordan-hs"
     -   ref: "american-hs"
-    -   ref: "deer-valley-hs"
     -   ref: "millennium-hs"
     -   break: 20
+    -   ref: "deer-valley-hs"
     -   ref: "mission-sj-hs"
     -   ref: "cesar-chavez-hs"
     -   ref: "concord-hs"
-    -   ref: "livermore-hs"
     -   ref: "antioch-hs"
-    -   break: 10
-    -   ref: "california-hs"
     -   ref: "american-canyon-hs"
     -   ref: "tri-city"
     -   ref: "foothill-hs"
