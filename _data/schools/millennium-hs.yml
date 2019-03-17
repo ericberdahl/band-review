@@ -3,24 +3,30 @@ name: "Millennium High School"
 city: "Tracy, CA"
 
 winterguard:
-    last-updated: 2018
+    last-updated: "2019-03-16 14:42:35"
 
-    nickname: "Millennium High School Winter Guard"
+    nickname: "Millennium High School Winterguard"
 
     directors: &directors
     -   "Roland Zepeda"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Michael McClain"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Yaretzy Moshan (yuh-RHET-zee moh-SHAN)"
 
-    program: 
+    program: "This is Me"
 
-    music: 
+    music: "This is Me by Benj Pasek and Justin Paul"
 
 
 winterpercussion:
-    last-updated: 2018
+    last-updated: "2019-03-16 14:42:35"
 
     nickname: "Millennium High Percussion Ensemble"
 
@@ -29,7 +35,11 @@ winterpercussion:
     staff:
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Daniel Harrison"
+        -   "Josiah Adrineda"
 
-    program: 
+    program: "Orpheus"
 
-    music: 
+    music: "Layers of Darkness by Brian Mudgett"

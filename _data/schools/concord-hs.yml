@@ -3,45 +3,50 @@ name: "Concord High School"
 city: "Concord, CA"
 
 winterguard:
-    last-updated: 2018
+    last-updated: "2019-03-15 10:41:06"
 
     nickname: "Concord High Winter Guard"
 
-    directors: &directors
-    -   "Martin Lejano"
-
-    staff:
-    -   title: "instructors"
-        members:
-        -   "Nicole Slattengren"
-        -   "Maddie Rittmann"
+    directors:
+        -   "Luis Cardoza"
+        -   "Andrea Riley-Sorem"
 
     leaders:
     -   title: "captains"
         members:
-        -   "Marena Brett-Blunt"
-        -   "Teagan Del Castillo"
+        -   "Lindsey Chan"
+        -   "Teagan Del Castillo,"
+        -   "Melissa Ouellette"
 
-    program: "You're Not Alone"
+    program: "Childish Adventures"
 
-    music: "Praying by Kesha"
+    music: "Hunting Wabbits by Big Phat Band"
 
     notes: >
-        The guard placed second at the Granada Winter Fiesta last weekend. They are hoping to show improvement today in
-        both their technique and presentation. The "Mauvelous Moonstone" Brigade would also like to thank Leslie,
-        Cassie, Teagan, and Marena for their efforts as student leaders. You are loved and appreciated.
+        At Fairfield, two weeks ago, the guard placed second in their division.
+        They are excited to perform their completed show for you today.
+        A huge thank you to the Concord High Boosters, family, friends, and especially the percussion unit for their support.
 
 winterpercussion:
-    last-updated: 2018
+    last-updated: "2019-03-15 10:41:06"
 
-    nickname: "The Minutemen"
+    nickname: "Concord High Winter Percussion"
 
-    directors: *directors
+    directors:
         
     staff:
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Rainero Sernaque"
+        -   "Alex Theissen"
+        -   "Renna Clarino"
 
-    program: 
+    program: "15 and a Half Bit"
 
-    music: 
+    music: "music arranged and composed by Cameron Munoz"
+
+    notes: >
+        The unit would like to thank their boosters, family, friends and the guard members for their support today.
+        Please enjoy the show.
