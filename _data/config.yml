@@ -2,6 +2,9 @@ count_citation:
 -   min: 12
     max: 12
     cite: "a dozen"
+-   min: 13
+    max: 15
+    cite: "more than a dozen"
 -   min: 17
     max: 19
     cite: "nearly a score of"
