@@ -17,11 +17,15 @@ Now taking the floor is the {{unit.nickname}}, from {{unit.schoolName}} in {{uni
 
 {{> leaders unit=unit}}
 
+{{#if unit.program}}
 The {{unit.nickname}} will perform their program, {{{unit.program}}}{{#if unit.music}}, featuring {{{unit.music}}}{{/if}}.
+{{else}}{{#if unit.music}}
+The {{unit.nickname}} will perform a program featuring {{{unit.music}}}.
+{{/if}}{{/if}}
 
 {{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{unit.schoolName}} has no guard notes.{{/if}}
 
 (wait for cue from judge) +
 Are the judges ready? (wait for cue from judge) +
 {{unit.schoolName}}, is your guard unit ready? (wait for cue from judge) +
-Performing their {{year}} show, {{{unit.program}}}, NCBA is proud to present the {{unit.nickname}}.
+Performing their {{year}} show, {{#if unit.program}}{{{unit.program}}},{{/if}} NCBA is proud to present the {{unit.nickname}}.
