@@ -48,35 +48,46 @@ concert:
     last-updated: "2018-10-16 12:44:27"
 
 winterguard:
-    last-updated: 2018
+    last-updated: "2019-03-18 15:36:22"
 
-    nickname: "Cesar Chavez Winterguard"
+    nickname: "Cesar Chavez Winter Guard"
 
-    directors:
-    -   *art-coleman
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-
-winterpercussion:
-    last-updated: 2018
-
-    nickname: "Cesar Chavez Winter Percussion"
-
-    directors:
+    directors: &winter-directors
     -   *art-coleman
     -   "Chris McCoy"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   *tammy-petborisooth
 
     leaders:
+    -   title: "captain"
+        members:
+        -   "Genevieve Escalona"
 
-    program: 
+    program: "Frozen"
 
-    music: 
+    music: "Frozen by Piano Guys"
+
+
+winterpercussion:
+    last-updated: "2019-03-18 15:36:22"
+
+    nickname: "Cesar Chavez Winter Drumlime"
+
+    directors: *winter-directors
+
+    staff:
+
+    leaders:
+    -   title: "captains"
+        members:
+        -   "Jose Gonzales"
+        -   "Rosie Fox"
+
+    program: "Welcome to Drumville"
+
+    music: "music by Chris McCoy"
+
+    notes:

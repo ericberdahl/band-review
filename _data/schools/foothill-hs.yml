@@ -4,7 +4,7 @@ city: "Pleasanton, CA"
 
 students:
 -   &alex-zhang "Alex Zhang"
--   &ayla-johnson "Ayla Johnson (EYE-lah Johnson)"
+-   &ayla-johnson "Ayla Johnson (AY-lah Johnson)"
 -   &lucy-lee "Lucy Lee"
 -   &nate-huey "Nate Huey"
 -   &zoey-castillo "Zoey Castillo"
@@ -114,40 +114,54 @@ fieldshow:
 winterguard:
     isHost: true
 
-    last-updated: 2018
+    last-updated: "2019-03-18 16:09:26"
 
     nickname: "Foothill High School Winter Guard"
 
     directors: *directors
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Nick Duenas"
+        -   "Alexina Manriquez"
+        -   "Marcus Hersh"
         
     leaders:
+    -   title: "captain"
+        members:
+        -   *ayla-johnson
 
-    program: 
+    program: "Second Law"
 
-    music: 
+    music: "the isolated system by Muse"
 
-    notes: 
+    notes: >
+        The Foothill High Guard would like to thank the Guard parents for all of their help throughout the season.
 
 winterpercussion:
     isHost: true
 
-    last-updated: 2018
+    last-updated: "2019-03-18 16:09:26"
 
-    nickname: "Foothill High School Winter Percussion"
+    nickname: "Foothill High School A"
 
     directors: *directors
 
-    staff: &other-perc-directors
+    staff:
         
     leaders:
+    -   title: "captains"
+        members:
+        -   "Nicholas Pinnesault"
+        -   "Erin Chang"
 
-    program: 
+    program: "Badlands" 
 
-    music: 
+    music: "original music by Chris Cyr and Connor Carroll"
 
-    notes: 
+    notes: >
+        The Foothill A Line would like to thank the percussion parents for all of their help throughout the season.
 
 winterpercussion-intermediate:
     isHost: true
@@ -158,7 +172,7 @@ winterpercussion-intermediate:
 
     directors: *directors
 
-    staff: *other-perc-directors
+    staff:
         
     leaders:
     -   title: "captains"

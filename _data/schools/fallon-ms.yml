@@ -31,19 +31,28 @@ parade:
     notes: 
 
 winterguard:
-    last-updated: 2018
+    last-updated: "2019-03-18 10:01:54"
 
     nickname: "Fallon Middle School Colorguard"
 
     directors: *directors
     
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Carina Chen"
+        -   "Gabrielle Garingarao (Gabrielle gah-rihn-gah-RAH-oh)"
+        -   "Maggie Nguyen"
+        -   "Jessica Wang"
 
-    leaders:        
+    leaders:
+    -   title: "captain"
+        members:
+        -   *elizabeth-koh
 
-    program: 
+    program: "Beautiful Thing"
 
-    music: 
+    music: "music by Grace Vanderwol"
 
 winterpercussion:
     last-updated: 2018

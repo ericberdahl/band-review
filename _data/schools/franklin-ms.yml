@@ -3,38 +3,50 @@ name: "Franklin Middle School"
 city: "Vallejo, CA"
 
 winterguard:
-    last-updated: 2018
+    last-updated: "2019-03-18 08:20:48"
 
-    nickname: "Franklin Middle School Color guard"
+    nickname: "Franklin Middle Colorguard"
 
     directors: &directors
-    -   "Jorge Ruvalcaba"
+    -   "Lexus Miguel"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Latisha Jenkins"
 
     leaders:
+    -   title: "captain"
+        members:
+        -   "Grace Thompson"
 
-    program: 
+    program: "Don't Stop Me Now"
 
-    music: 
+    music: "music by Queen and Freddy Mercury"
 
-    notes: 
+    notes: >
+        Franklin Middle Colorguard turned in a second place win at the NCBA Championship 2018.
 
 
 winterpercussion:
-    last-updated: 2018
+    last-updated: "2019-03-18 08:20:48"
 
-    nickname: "Franklin Middle School Percussion"
+    nickname: "Franklin Middle Drumline"
 
     directors: *directors
 
     staff:
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Michaela Dorantes"
+        -   "Takara Bryant"
 
-    program: 
+    program: "Fire and Ice"
 
     music: 
 
-    notes: 
+    notes: >
+        Franklin Middle Drumline won first place at the San Mateo, Armijo, and Vallejo Shows.
 

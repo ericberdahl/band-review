@@ -3,34 +3,48 @@ name: "Mission San Jose High School"
 city: "Fremont, CA"
 
 winterguard:
-    last-updated: 2018
+    last-updated: "2019-03-18 14:56:57"
 
-    nickname: "Mission San Jose Winter Guard"
+    nickname: "Mission San Jose Winterguard"
 
     directors: &directors
     -   "Monica Kraft"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Maggie Taylor Aherne"
+        -   "Jenessa Takagi"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Cathy Wang"
+        -   "Mona Lam"
+        -   "Sophie Lee"
 
-    program: 
+    program: "Warriors"
 
-    music: 
+    music: "music from The Great Wall movie soundtrack"
 
-    notes: 
+    notes: >
+        Mission San Jose Band, Orchestra and Guard will be traveling this April to Central Europe with performances in Austria.
+        The Mission Guard would like to give a special shoutout to their percussion unit for being amazing helpers!
 
 winterpercussion:
-    last-updated: 2018
+    last-updated: "2019-03-18 14:56:57"
 
-    nickname: "Mission San Jose Percussion Unit"
+    nickname: "Mission San Jose Percussion"
 
     directors: *directors
 
     staff:
 
     leaders:
+    -   title: "captain"
+        members:
+        -   "Tiffany Tan"
 
-    program: 
+    program: "Left Brain Right Brain"
 
     notes: 

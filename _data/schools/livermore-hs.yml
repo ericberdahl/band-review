@@ -2,6 +2,9 @@ name: "Livermore High School"
 
 city: "Livermore, CA"
 
+students:
+-   &aracely-rios "Aracely Rios (ah-rah-SEHL-ee Rios)"
+
 parade:
     last-updated: "2018-10-04 12:23:36"
 
@@ -27,7 +30,7 @@ parade:
     -   title: "auxiliary captains"
         members:
         -   "Phoenix McPeake"
-        -   "Aracely Rios (ah-rah-SEHL-ee Rios)"
+        -   *aracely-rios
 
     -   title: "percussion captains"
         members:
@@ -44,33 +47,49 @@ concert:
     last-updated: "2018-10-04 12:23:36"
 
 winterguard:
-    last-updated: 2018
+    last-updated: "2019-03-18 12:52:52"
 
-    nickname: "Livermore Winter Guard"
+    nickname: "LHS Winter Guard"
 
     directors: *directors
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Aislynn Rocamora"
+        -   "Luis Cardoza"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Phoenix McPeake"
+        -   *aracely-rios
 
-    program: 
+    program: "Humans"
 
     music: 
+
+    notes: >
+        Livermore High School would like to thank the Foothill students, parents, and staff for hosting a wonderful festival!
 
 winterpercussion:
-    last-updated: 2018
+    last-updated: "2019-03-18 12:52:52"
 
-    nickname: "Livermore High School Drumline"
+    nickname: "LHS Winter Percussion"
 
     directors: *directors
 
     staff:
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Alex Paterson"
+        -   "Kaylee Cherry"
 
-    program: 
+    program: "The Fifth Wheel"
 
-    music: 
+    music: "music arranged by Sarah Culbertson"
 
-    notes: 
+    notes: >
+        Livermore High School would like to thank the Foothill students, parents, and staff for hosting a wonderful festival!
