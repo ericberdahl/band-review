@@ -13,7 +13,7 @@
 
 NOTE: Last updated {{unit._lastUpdated}}
 
-Now taking the floor is the {{unit.nickname}}, from {{unit.schoolName}} in {{unit.city}}.
+Now taking the floor is {{#if unit.isHost}}your host, {{/if}}the {{unit.nickname}}, from {{unit.schoolName}} in {{unit.city}}.
 
 {{> leaders unit=unit}}
 
