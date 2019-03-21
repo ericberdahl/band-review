@@ -19,8 +19,8 @@ winterpercussion:
     start_time: "10:30am"
 
     lineup:
-    -   ref: "franklin-ms"
     -   ref: "solano-ms"
+    -   ref: "franklin-ms"
     -   ref: "phillip-burton-hs"
     -   ref: "archbishop-riordan-hs"
     -   ref: "concord-hs"
@@ -36,9 +36,27 @@ winterpercussion:
 
     sponsors:
         general: &winter-show-sponsors
+        -   "Perazul Capital with Mano Chidambaram"
+        -   "Julia(Jia) Wang"
+        -   "the Chabrier girls"
+        -   "the Sowa Family"
+        -   "Georgia and the Nevin Family"
 
         trophies:
- 
+         -  place: "3rd place Intermediate High School"
+            sponsors:
+            -   sponsor: "the Chabrier girls"
+                presenter: "Dana Chabrier"
+                dedication:
+                message: 
+         -  place: "2nd place Scholastic High School"
+            sponsors:
+            -   sponsor: "The Sowa Family"
+                presenter:
+                dedication: >
+                    to Grandma Pat Sowa for all her dedication to the band this year. With love from the Sowa Family.
+                message: 
+
 winterguard:
     start_time: "2:00pm"
 
