@@ -29,9 +29,9 @@ Please stay for the Color Guard Awards, presented here in 20 minutes.
 
 == Winter Guard - Awards
 
-{{#unless winterguard.sponsors.general}}IMPORTANT: There are no winter guard sponsors.
+{{#unless winterguard.sponsors.general}}IMPORTANT: There are no winter guard general sponsors.
 {{/unless}}
-{{#unless winterguard.sponsors.trophies}}IMPORTANT: There are no winter guard sponsors.
+{{#unless winterguard.sponsors.trophies}}IMPORTANT: There are no winter guard trophy sponsors.
 {{/unless}}
 
 Foothill High School thanks the sponsors of the {{show.citation}}: {{#each winterguard.sponsors.general}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
