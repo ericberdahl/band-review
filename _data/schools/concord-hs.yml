@@ -3,7 +3,7 @@ name: "Concord High School"
 city: "Concord, CA"
 
 winterguard:
-    last-updated: "2019-03-15 10:41:06"
+    last-updated: "2019-03-18 22:03:24"
 
     nickname: "Concord High Winter Guard"
 
@@ -23,12 +23,11 @@ winterguard:
     music: "Hunting Wabbits by Big Phat Band"
 
     notes: >
-        At Fairfield, two weeks ago, the guard placed second in their division.
-        They are excited to perform their completed show for you today.
-        A huge thank you to the Concord High Boosters, family, friends, and especially the percussion unit for their support.
+        The guard would like to send a huge thank you to their boosters, family, friends, and especially the percussion unit for their support.
+        This performance is dedicated to you!
 
 winterpercussion:
-    last-updated: "2019-03-15 10:41:06"
+    last-updated: "2019-03-18 22:03:24"
 
     nickname: "Concord High Winter Percussion"
 
@@ -41,6 +40,7 @@ winterpercussion:
     -   title: "captains"
         members:
         -   "Rainero Sernaque"
+        -   "Max Frengs"
         -   "Alex Theissen"
         -   "Renna Clarino"
 
