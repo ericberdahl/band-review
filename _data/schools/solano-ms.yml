@@ -10,6 +10,8 @@ parade:
     directors: &directors
     -   "Merlin Chestnut"
 
+    staff:
+
     leaders:
     -   title: "drum major"
         members:
@@ -38,6 +40,12 @@ winterpercussion:
     directors: *directors
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Kaman Poon (kah-MOHN POON)"
+        -   "Cynthia Ngu (Cynthia NOO)"
+        -   "Omar Andrade"
+        -   "Rubi Andrade"
 
     leaders:
     -   title: "captain"
@@ -48,3 +56,9 @@ winterpercussion:
 
     music: "music by Aaron Hines and Shealley Lee"
 
+    notes: >
+        Throughout history, mankind, has been in constant turmoil, constant battle, constant confict, chaos, a never ending struggle of ideology and power.
+        Is there a future? Is there determination, commitment, sacrifice for the good of all?
+        Will "mankind" ever find a solution of Peace, Equality, Justice, and Liberty for All???
+        Are we doomed to, once again, live and struggle in another era of Broken Times?
+    
