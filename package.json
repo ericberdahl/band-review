@@ -1,0 +1,25 @@
+{
+  "name": "review",
+  "version": "1.0.0",
+  "description": "Generate Announcer's book for Band Review and Winter Show",
+  "main": "review.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericberdahl/band-review.git"
+  },
+  "author": "Eric Berdahl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericberdahl/band-review/issues"
+  },
+  "homepage": "https://github.com/ericberdahl/band-review#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "handlebars": "^4.1.1",
+    "node-yaml": "^3.1.1",
+    "walk": "^2.3.14"
+  }
+}

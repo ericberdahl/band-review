@@ -3,3 +3,6 @@ _site
 _sublime
 _reference
 _books
+_jbooks
+node_modules/
+package-lock.json

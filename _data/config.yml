@@ -1,3 +1,9 @@
+schoolDataDir: "_data/schools"
+
+partialsDir: "_partials"
+
+outputDir: "_jbooks"
+
 count_citation:
 -   min: 12
     max: 12
