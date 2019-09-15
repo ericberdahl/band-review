@@ -7,6 +7,9 @@ const path = require('path');
 const walk = require('walk');
 const yaml = require('node-yaml');
 
+const info = require('debug')('review*');
+const error = require('debug')('review:<error>*');
+
 async function collectSchoolData(config)
 {
     // Add each school into a large array property that holds all the schools
@@ -57,14 +60,14 @@ function lookupUnitRef(ref, defaultUnit, schools)
     let result = ref
     if ('ref' in ref)
     {
-        const unitname = (!('unit' in ref) ? defaultUnit : ref.unit);
+        const unitname = ('unit' in ref ? ref.unit : defaultUnit);
         if (!(ref.ref in schools))
         {
-            console.log('# ERROR %s school not found', ref.ref);
+            error('%s school not found', ref.ref);
         }
         else if (!(unitname in schools[ ref.ref ]))
         {
-            console.log('# ERROR %s unit not found in %s school.', unitname, ref.ref);
+            error('%s unit not found in %s school.', unitname, ref.ref);
         }
 
         result = schools[ ref.ref ][unitname];
@@ -163,13 +166,13 @@ async function buildAdoc(event, config)
         fs.mkdirSync(config.outputDir, { recursive: true });
     }
 
-    console.log('# Collecting data');
+    info('Collecting data');
     const viewdata = await collectViewdata(event, config);
 
-    console.log('# Compiling partials');
+    info('Compiling partials');
     await collectPartials(config.partialsDir);
     
-    console.log('# Compiling asciidoc book %s', adocFilepath);
+    info('Compiling asciidoc book %s', adocFilepath);
     const template = Handlebars.compile(rootTemplate);
 
     fs.writeFileSync(adocFilepath, template(viewdata));
@@ -181,7 +184,7 @@ async function buildHTML(event, config)
     const adocFilepath = path.join(config.outputDir, basename + '.adoc');
     const htmlFilepath = path.join(config.outputDir, basename + '.html');
 
-    console.log('# Compiling HTML %s', htmlFilepath);
+    info('Compiling HTML %s', htmlFilepath);
     child_process.spawnSync('asciidoctor', [ adocFilepath ]);
 }
 
@@ -191,7 +194,7 @@ async function buildPDF(event, config)
     const adocFilepath = path.join(config.outputDir, basename + '.adoc');
     const pdfFilepath = path.join(config.outputDir, basename + '.pdf');
 
-    console.log('# Compiling pdf book %s', pdfFilepath);
+    info('Compiling pdf book %s', pdfFilepath);
     child_process.spawnSync('asciidoctor-pdf', [
         '-a', 'pdf-stylesdir=.',
         '-a', 'pdf-style=announcer',
@@ -232,7 +235,7 @@ function main()
             return buildAll(bandReview, config);
         })
         .then(() => {
-            console.log('# main : done');
+            info('done');
         });
 }
 
