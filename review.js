@@ -2,6 +2,7 @@
 
 const child_process = require('child_process');
 const fs = require('fs');
+const glob = require('glob');
 const Handlebars = require('handlebars');
 const path = require('path');
 const walk = require('walk');
@@ -13,22 +14,20 @@ const error = require('debug')('review:<error>*');
 async function collectSchoolData(config)
 {
     // Add each school into a large array property that holds all the schools
-    let schools = { };
-    const walker = walk.walk(config.schoolDataDir);
     return new Promise((resolve, reject) => {
-        walker.on('file', (root, stat, next) => {
-            const extension = path.extname(stat.name);
-            if (extension == '.yml')
-            {
-                schools[path.basename(stat.name, extension)] = yaml.readSync(path.join(root, stat.name));
+        const globOptions = {
+            cwd: config.schoolDataDir,
+            nodir: true,
+        }
+        glob('*.yml', globOptions, (err, files) => {
+            if (err) {
+                reject(err);
+                return;
             }
-            next();
-        });
-        walker.on('errors', (root, stats, next) => {
-            reject(stats.error);
-            next();
-        });
-        walker.on('end', () => {
+            let schools = { };
+            files.forEach((f) => {
+                schools[path.basename(f, path.extname(f))] = yaml.readSync(path.join(config.schoolDataDir, f));
+            });
             resolve(schools);
         });
     });
@@ -136,20 +135,23 @@ async function collectPartials(basePath)
 {
     const walker = walk.walk(basePath);
     return new Promise((resolve, reject) => {
-        walker.on('file', (root, stat, next) => {
-            const extension = path.extname(stat.name);
-            if (extension == '.adoc')
-            {
-                Handlebars.registerPartial(path.basename(stat.name, extension),
-                                           fs.readFileSync(path.join(root, stat.name), { encoding:'utf8'}));
+        const globOptions = {
+            cwd: basePath,
+            nodir: true,
+        }
+        glob('*.adoc', globOptions, (err, files) => {
+            if (err) {
+                reject(err);
+                return;
             }
-            next();
-        });
-        walker.on('errors', (root, stats, next) => {
-            reject(stats.error);
-            next();
-        });
-        walker.on('end', () => {
+            files.forEach((f) => {
+                const extension = path.extname(f);
+                if (extension == '.adoc')
+                {
+                    Handlebars.registerPartial(path.basename(f, extension),
+                                            fs.readFileSync(path.join(basePath, f), { encoding:'utf8'}));
+                }
+            });
             resolve();
         });
     });
