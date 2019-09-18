@@ -5,7 +5,6 @@ const fs = require('fs');
 const glob = require('glob');
 const Handlebars = require('handlebars');
 const path = require('path');
-const walk = require('walk');
 const yaml = require('node-yaml');
 
 const info = require('debug')('review*');
@@ -133,7 +132,6 @@ async function collectViewdata(event, config)
 
 async function collectPartials(basePath)
 {
-    const walker = walk.walk(basePath);
     return new Promise((resolve, reject) => {
         const globOptions = {
             cwd: basePath,
