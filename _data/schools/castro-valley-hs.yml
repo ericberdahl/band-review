@@ -3,19 +3,54 @@ name: "Castro Valley High School"
 city: "Castro Valley, CA"
 
 fieldshow:
-    last-updated: 1967-12-01 04:30:00 -08
+    last-updated: 2019-09-18 19:56:39 -07
 
-    nickname: 
+    nickname: "Castro Valley High School Band and Guard"
 
     directors:
     -   "Steven Hendee"
+    -   "Keita Hasegawa"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Rawnna Hudson"
+        -   "Jhay Delos Rios"
+        -   "Phoebe Chou"
+        -   "Aidan Wong"
 
     leaders:
+    -   title: "drum majors"
+        members:
+        -   "Christian Decano"
+        -   "Alex Low"
+        -   "Makayla Thai"
 
-    program: 
+    -   title: "auxiliary captains"
+        members:
+        -   "Caitlin Lyons"
+        -   "Sonia Andrade"
+    
+    -   title: "percussion captains"
+        members:
+        -   "Ryan Yee"
+        -   "Sam Lu"
+        -   "Seth Miu"
+    
+    -   title: "general manager"
+        members:
+        -   "Nathan Liu"
 
-    music: 
+    program: "The Color of Where You Are Not"
 
-    notes: 
+    music: >
+        On the Nature of Daylight by Max Richter,
+        You are Variations by Steve Reich,
+        Closing In by Imogen Heap,
+        and Dunes of Sand by Bjork.
+
+    description: >
+        Life is a journey, You're Lost...It's ok, we're still here.
+
+    notes: >
+        Thanks to all of our parent and community supporters, without your generosity we couldn't have accomplished so much.

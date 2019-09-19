@@ -1,18 +1,41 @@
 name: "Woodcreek High School"
 
-city: "Roseville , CA"
+city: "Roseville, CA"
 
 parade:
-    last-updated: 1967-12-01 04:30:00 -08
+    last-updated: 2019-09-18 09:58:13 -07
 
-    nickname: 
+    nickname: "Woodcreek High School Marching Band"
 
     directors:
     -   "Austin Gaesser (Austin GAY-sehr)"
     -   "Chris Baker"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Nick Jaynes"
+        -   "Caleb Schauer (Caleb SHAU-er)"
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Alfredo Bonifacio"
 
-    music: 
+    -   title: "auxillary captains"
+        members:
+        -   "Abby Nickerson"
+        -   "Allyssa Traylor"
+
+    -   title: "percussion captains"
+        members:
+        -   "Sydney Chance"
+        -   "Maddie Taylor"
+        -   "Maddie Cahoon"
+        -   "Sam Hockaday"
+
+    music: "Voice of the Guns by Kenneth Alford"
+
+    notes: >
+        Woodcreek High School Marching Band would like to say thank to their Boosters
+        and support parents for all that they do.

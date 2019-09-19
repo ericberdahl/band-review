@@ -3,81 +3,83 @@ name: "Amador Valley High School"
 city: "Pleasanton, CA"
 
 fieldshow:
-    last-updated: "2018-10-04 10:29:04"
+    last-updated: 2019-09-18 12:55:12 -07
 
     nickname: "Marching Dons"
 
     directors:
     -   &jonathan-grantham "Jonathan Grantham"
+    -   "Patrick Dandrea"
     
     staff:
     -   title: "instructed by"
         members:
-        -   "Matt Sieve"
-        -   "Gaby Bonilla"
-        -   "Nick Garcia"
-        -   "Rachel Doolittle"
-        -   "Chris Chervet"
-        -   "Ricky Liedtke"
-        -   "Brandon Yim"
-        -   "Ben Kane"
         -   "John Meehan"
-        -   "Keith Dunton"
         -   "Jamey Thompson"
-        -   "Brian Harmsen"
-        -   "Casey Brohard"
-        -   "Brandon Hussey"
-        -   "Matt Lowe"
-        -   "Chris Cyr"
-        -   "Tiffany Castelan"
-        -   "Rob Keedy"
-        -   "Glenn Imai"
+        -   "Keith Dunton"
+        -   "Bryan Harmsen"
         -   "David Ziehm"
+        -   "Jessica Slabaugh"
+        -   "Chris Chervet"
+        -   "Nicholas Garcia"
+        -   "Ben Kane"
+        -   "Stephen Tamas"
+        -   "Brandon Yim"
+        -   "Jesse Burge"
+        -   "Ricky Liedtke"
+        -   "Nathan McCauley"
+        -   "Marvin Reed"
+        -   "Matthew Sieve"
+        -   "Casey Brohard"
+        -   "Tiffany Castelan"
+        -   "Brandon Hussey"
+        -   "Glenn Imai"
+        -   "Matt Lowe"
+        -   "Jesse Tapia"
         -   "TJ Doucette"
-        -   "Ryan Madayag"
         -   "Nick Lucero"
+        -   "Ryan Madayag"
         -   "Rachel Nishijima"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Marianna Szambelan (Mariana SZAHM-beh-lahn)"
         -   "Joseph Nazareno (Joseph nah-zah-RAY-noh)"
         -   "Allison Gable"
+        -   "Julia Szambelan (Julia SZAHM-beh-lahn)"
 
     -   title: "auxilliary captains"
         members:
-        -   "Hailey Maldonado"
-        -   "Wendy Su"
+        -   "Karen Eskarous"
+        -   "Claire Ma"
 
-    -   title: "battery captains"
+    -   title: "percussion captains"
         members:
-        -   "Max Alvarado"
         -   "Ellie Benton"
-        -   "Gabe Michels (Gabe MIH-chehls)"
+        -   "Ayumi Bonev"
         
-    -   title: "front ensemble captains"
+    -   title: "woodwind captain"
         members:
-        -   "Nina Lim"
-        -   "Anika Mehra"
-        -   "Trenton VerKuilen (Trenton vehr-KYOO-lehn)"
+        -   "Charlotte Nazareno (Charlotte nah-zah-RAY-noh)"
 
     -   title: "brass captain"
         members:
-        -   "Robin Hwang"
+        -   "Emma Reddy"
 
-    -   title: "woodwind captain"
-        members:
-        -   "Evan Yang"
-
-    program: "Intertwined"
+    program: "Wonder Woman"
 
     music: >
-        original music from John Meehan and the soundtrack of Maleficent as well as the famous song "The Sound of Silence".
-        The band will close with "Aurora Awakes" by John Mackey.
+        Diamonds by Rihanna,
+        Hymn to the Sun with the Bead of Mother Earth by Satoshi Yagisawa,
+        A Hero Emerges by Blake Neely,
+        and Fight Song by Rachel Platten
+
+    description: >
+        She represents the best of what we hope to see in ourselves and in one another:
+        fearlessness, perseverance, self-belief, strength, curiosity, humanity and
+        compassion.
 
     notes: >
-        Amador Valley is a thirteen-time Western Band Association finalist, and a five-time Bands of America regional finalist.
-        The wind ensemble has been a featured performer at The Midwest Clinic, the state music conference and performed at Carnegie Hall last spring.
-        The band members would like to thank the administration of Amador Valley High School as well as the Sea of Purple for all of the amazing support you give us!
-        We love you and appreciate you!
+        Thank you to principal Josh Butterfield and the entire Amador community for their support.
+        The band would like to thank the Sea of Purple for all of the love and care you give us.
+        Best of luck to all of the competing bands tonight!

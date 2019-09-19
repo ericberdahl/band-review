@@ -3,9 +3,9 @@ name: "John F Kennedy High School"
 city: "Sacramento, CA"
 
 fieldshow:
-    last-updated: "2018-10-04 10:36:36"
+    last-updated: 2019-09-18 13:23:56 -07
 
-    nickname: "JFK Marching Band"
+    nickname: "John F. Kennedy Marching Band and Color Guard"
 
     directors:
     -   "Jeremy Hammond"
@@ -14,31 +14,37 @@ fieldshow:
     staff:
     -   title: "staff members"
         members:
-        -   "Alex Pfiefer"
-        -   "Claire King"
-        -   "Daniel Fong"
-        -   "Devon Edmonds"
         -   "George Miles"
-        -   "Kevin Bowlson"
-        -   "Lindsay Dow"
         -   "Rebecca Miles"
-        -   "Rose Roberts"
-        -   "Sheldon Caldera"
         -   "Sheryl Miles"
-        -   "Trevor Hall"
+        -   "Lindsay Dow"
+        -   "Rose Roberts"
         -   "Vincent Salvitti"
+        -   "Jesus Moniez"
+        -   "Alex Pfiefer"
+        -   "Devon Edmond"
+        -   "Trevor Hall"
+        -   "Kevin Bowlson"
+        -   "Christopher Wong"
+        -   "Tammy Petborisooth (TA-mee pet-BOHR-ih-sooth)"
+        -   "Sheldon Caldera"
+        -   "Jacob Quintalilla"
+        -   "Daniel Fong"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Calvin Elliot"
         -   "Grace Hibbs"
-        -   &edson-saechao "Edson Saechao (Edson SAY-shah-oh)"
+        -   "Edson Saechao (Edson SAY-shah-oh)"
+        -   "Andrew Seaver"
     
-    program: "Nightmare"
+    program: "ROAR"
 
     music: >
-        selections from "The Nightmare Before Christmas" by Danny Elfman, arranged by Jeremy Hammond
+        musical selections from Jurassic World by Michael Giocchino,
+        and Jurassic Park by John Williams
+
+    description: "Jurassic Park"
 
     notes: >
-        The JFK Marching Band gives special thanks to their boosters for their support!
+        Special thanks to our AWESOME music boosters!

@@ -3,25 +3,29 @@ name: "Vallejo High School"
 city: "Vallejo, CA"
 
 parade:
-    last-updated: 2017
+    last-updated: 2019-09-18 09:44:54 -07
 
     nickname: "Proud Heritage Band and Colorguard"
 
     directors: &directors
     -   "Carmel Pajita (kahr-MEL pah-HEE-tah)"
 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Erik Gerolaga (Erik gehr-oh-LAH-gah"
+
     leaders:
     -   title: "drum major"
         members:
-        -   "Diana Guanzon (dy-EH-nah gwahn-ZOHN)"
+        -   "Marisol Thomas"
 
-    -   title: "auxiliary captains"
+    -   title: "auxiliary captain"
         members:
-        -   "Jasmine Chavez"
-        -   "Kenny Renderos"
+        -   "Sofia Henderson"
 
     -   title: "percussion captain"
         members:
-        -   "Alyssa Catap (ah-LIE-sah cah-TOHP)"
+        -   "Jenna Juan"
 
-    music: "Slavic Woman's Farewell by Vasily Agapkin (vah-SEE-lee ah-GAHP-kihn)"
+    music: "General Mitchell by R.B. Hall"

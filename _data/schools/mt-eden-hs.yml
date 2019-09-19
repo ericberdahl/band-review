@@ -1,11 +1,24 @@
-name: "Mt Eden High School"
+name: "Mount Eden High School"
 
 city: "Hayward, CA"
 
-parade:
-    last-updated: "2018-10-08 11:12:32"
+students:
+-   &misty-nguyen "Misty Nguyen"
+-   &edwin-ramos "Edwin Ramos"
+-   &hamaad-hassan "Hammaad Hassan"
+-   &adriel-flores "Adriel Galbreath-Flores"
 
-    nickname: &nickname "Mount Eden High School Marching Monarchs"
+staff:
+-   &adriano-tecson "Adriano Tecson"
+-   &tom-dreiman "Tom Dreiman"
+-   &elvis-ordiniza "Elvis Ordiniza"
+-   &eliza-huerta "Eliza Huerta"
+-   &jackie-rodriguez "Jackie Rodriguez"
+
+parade:
+    last-updated: 2019-09-18 17:04:55 -07
+
+    nickname: &nickname "Marching Monarchs"
 
     directors: &directors
     -   "Kevin Cato (Kevin KAY-toh)"
@@ -13,30 +26,37 @@ parade:
     staff:
     -   title: "instructed by"
         members:
-        -   &adriano-tecson "Adriano Tecson"
-        -   &tom-dreiman "Tom Dreiman"
-        -   &elvis-ordiniza "Elvis Ordiniza"
-        -   &eliza-huerta "Eliza Huerta"
-        -   &jackie-rodriguez "Jackie Rodriguez"
+        -   "Daniel Watson"
+        -   *tom-dreiman
+        -   "Cristian Gonzales"
 
     leaders:
-    -   title: "auxiliary captains"
+    -   title: "drum major"
         members:
-        -   &misty-nguyen "Misty Nguyen"
-        -   &edwin-ramos "Edwin Ramos"
+        -   "Barry Galbreath-Flores"
 
-    -   title: "percussion captains"
+    -   title: "auxiliary captain"
         members:
-        -   &hamaad-hassan "Hammaad Hassan"
-        -   &adriel-flores "Adriel Flores"
+        -   "Olivia Wade-Sautter"
+
+    -   title: "percussion captain"
+        members:
+        -   *adriel-flores
     
-    music: "The 3 Amigos by Kevin Cato"
+    -   title: "captain"
+        members:
+        -   "Adriana Everix"
+    
+    music: "Survivor-Praise be to the one who must walk this Path by Kevin Cato. I. Glorified Struggle II. Healing and Hope III. Trials"
 
     notes: >
-        The Mount Eden High School Marching Monarchs would like to thank the parents and YEP for their continued support.
+        We've been invited to both Carnegie and Davies Symphony Hall to perform our pieces in the past.
+        Our band holds national prestige ever since we performed in Annapolis, which we constantly regard with honor and respect.
+        Additionally, last year, our jazz band received a score of 99 overall, gaining us first place in the jazz band category.
+        Not to mention that we consistently send individuals to the Honor Band of America for the past 12 years, including our current lead drum major, Barry.
 
 fieldshow:
-    last-updated: "2018-10-08 11:12:32"
+    last-updated: 2019-09-18 17:04:55 -07
 
     nickname: *nickname
 
@@ -45,36 +65,38 @@ fieldshow:
     staff:
     -   title: "instructed by"
         members:
-        -   *elvis-ordiniza
-        -   *adriano-tecson
+        -   "Daniel Watson"
+        -   "Wayne Silao Jopanda"
         -   *tom-dreiman
-        -   *jackie-rodriguez
-        -   *eliza-huerta
+        -   "Cristian Gonzales"
 
     leaders:
-    -   title: "drum majors"
+    -   title: "drum major"
         members:
-        -   "Cristian Gonzalez"
-        -   "Elyza Santos"
-    
-    -   title: "auxiliary captains"
+        -   "Barry Galbreath-Flores"
+
+    -   title: "auxiliary captain"
         members:
-        -   *misty-nguyen
-        -   *edwin-ramos
-        -   "Charisse Garcia"
-    
-    -   title: "percussion captains"
+        -   "Olivia Wade-Sautter"
+
+    -   title: "percussion captain"
         members:
-        -   *hamaad-hassan
         -   *adriel-flores
+    
+    -   title: "captain"
+        members:
+        -   "Mohit Prasad"
 
-    program: "Another Day in the West"
+    program: "Survivor-Praise be to the one who must walk this Path"
 
-    music: "Power of 3 by Kevin Cato; The 3 Amigos, 3 Wishes, and Triple Threat"
+    music: >
+        music by Kevin Cato. I. Glorified Struggle II. Healing and Hope III. Trials"
+
+    description: >
+        Our concept depicts the struggle of a boy with cancer that is striving for survival and his journey to find the vital cure.
+        This boy's name...is Hammaad Hassan and he is one of us. 
 
     notes: >
-        Our story begins with the capture of the Outlaws only to have escape and terrorize the town folks.
-        It’s up to the Sheriff and Deputies to bring them to justice in Another Day in the West.
 
 concert:
     last-updated: "2018-10-08 11:12:32"
