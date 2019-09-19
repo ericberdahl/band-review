@@ -3,14 +3,14 @@ announcer:
     email: "berdahl@serendipity.org"
 
 show:
-    year: 2018
-    date: "October 27th, 2018"
-    citation: "44th Annual Foothill High School Band Review"
-
-next_show:
     year: 2019
     date: "October 26th, 2019"
     citation: "45th Annual Foothill High School Band Review"
+
+next_show:
+    year: 2020
+    date: "October 24th, 2020"
+    citation: "46th Annual Foothill High School Band Review"
 
 units:
 -   "parade"
@@ -19,37 +19,19 @@ units:
 -   "concert-1"
 -   "concert-2"
 -   "concert-3"
--   "symphonic"
+-   "concert-4"
+#-   "symphonic"
 
 sponsors-general: &sponsors-general
--   "Debernardi Development Construction Remodeling"
--   "Double D Transportation"
--   "El Monte RV"
--   "Corner Bakery Café"
--   "Minuteman Press"
--   "Reichert Lumber"
--   "Cool Beads Ice Cream"
--   "Iron Horse Kettle Corn"
--   "Ben Woo with Salesforce.org"
--   "the Magann Family"
--   "Rodger Li and Family"
--   "the Chabrier Family"
--   "the Nevin Family"
--   "the Huey Family"
--   "Aaron Miller and Family"
--   "the Peter and Cheryl Goebel Family"
--   "Sean Wang and Family"
 
 parade:
     grand_marshall:
         title: "Grand Marshalls"
         members:
-        -   "Foothill High School Principal Sebastain Bull"
-        -   "Foothill High School Admnistrative Secretary Ruth Highstreet"
 
     colors: "the color guard from Veterans of Foreign Wars Post 6298"
 
-    awards_time: "2:30pm"
+    awards_time: "1:30pm"
 
     awards_location: "Amador Valley High School Stadium"
 
@@ -60,193 +42,116 @@ parade:
 
     lineup:
     -   ref: "foothill-hs"
-    -   ref: "hogan-ms"
-    -   ref: "ingrid-b-lacy-ms"
     -   ref: "benicia-ms"
-    -   ref: "jefferson-ms"
     -   ref: "wells-ms"
-    -   ref: "fallon-ms"
-    -   break: 10
     -   ref: "jesse-bethel-hs"
-    -   ref: "turlock-christian-hs"
-    -   ref: "river-valley-hs"
+    -   ref: "hayward-hs"
+    -   ref: "vallejo-hs"
     -   ref: "ygnacio-valley-hs"
+    -   ref: "del-mar-hs"
+    -   break: 10
+    -   ref: "river-valley-hs"
+    -   ref: "antioch-hs"
+    -   ref: "petaluma-hs"
+    -   ref: "franklin-hs-stockton"
     -   ref: "northgate-hs"
+    -   ref: "alhambra-hs"
     -   ref: "capuchino-hs"
     -   ref: "tracy-hs"
-    -   ref: "del-mar-hs"
-    -   break: 15
+    -   ref: "archbishop-riordan-hs"
     -   ref: "mt-eden-hs"
+    -   break: 10
+    -   ref: "armijo-hs"
     -   ref: "cesar-chavez-hs"
     -   ref: "el-capitan-hs"
-    -   ref: "patterson-hs"
-    -   ref: "benicia-hs"
-    -   ref: "granada-hs"
+    -   ref: "pacheco-hs"
+    -   ref: "merrill-f-west-hs"
+    -   ref: "woodcreek-hs"
     -   ref: "buhach-colony-hs"
-    -   ref: "santa-cruz-hs"
-    -   break: 15
+    -   ref: "benicia-hs"
+    -   ref: "washington-hs"
+    -   ref: "granada-hs"
+    -   break: 10
     -   ref: "livermore-hs"
-    -   ref: "north-monterey-cty-hs"
+    -   ref: "liberty-hs"
     -   ref: "irvington-hs"
+    -   ref: "santa-cruz-hs"
     -   ref: "franklin-hs"
-    -   ref: "lincoln-hs"
     -   ref: "fairfield-hs"
-    -   ref: "rodriguez-hs"
+    -   ref: "lincoln-hs"
     -   ref: "merced-hs"
+    -   ref: "rodriguez-hs"
 
 fieldshow:
-    start_time: "2:45pm"
+    start_time: "4:00pm"
 
-    anthem_performer: "Foothill High School Junior, Kylie Pickard (Kylie pih-KARD)"
+    anthem_performer: 
 
     lineup:
+    -   ref: "river-valley-hs"
+    -   ref: "antioch-hs"
+    -   ref: "central-valley-hs"
     -   ref: "whitney-hs"
-    -   ref: "willow-glen-hs"
+    -   ref: "arroyo-hs"
     -   ref: "del-mar-hs"
-    -   ref: "west-campus-hs"
-    -   ref: "clayton-valley-hs"
-    -   ref: "roseville-hs"
-    -   ref: "tracy-hs"
-    -   ref: "tracy-learning"
-    -   ref: "oakmont-hs"
+    -   ref: "millennium-hs"
     -   break: 30
-    -   ref: "st-francis-hs"
     -   ref: "mt-eden-hs"
-    -   ref: "american-canyon-hs"
+    -   ref: "monte-vista-hs"
+    -   ref: "clayton-valley-hs"
     -   ref: "vintage-hs"
-    -   ref: "del-oro-hs"
-    -   ref: "phillip-burton-hs"
-    -   ref: "fremont-hs"
-    -   break: 30
-    -   ref: "american-hs"
-    -   ref: "mountain-view-hs"
-    -   ref: "milpitas-hs"
-    -   ref: "saratoga-hs"
-    -   ref: "john-f-kennedy-hs"
-    -   ref: "dublin-hs"
-    -   ref: "amador-valley-hs"
-    -   ref: "cupertino-hs"
-    -   ref: "granite-bay-hs"
+    -   ref: "st-francis-hs"
     -   ref: "rodriguez-hs"
+    -   ref: "pittsburg-hs"
+    -   break: 30
+    -   ref: "dublin-hs"
+    -   ref: "john-f-kennedy-hs"
+    -   ref: "cupertino-hs"
+    -   ref: "amador-valley-hs"
+    -   ref: "saratoga-hs"
+    -   ref: "castro-valley-hs"
     -   ref: "foothill-hs"
 
     sponsors:
         general: *sponsors-general
-        #-   "John Q Public"
 
         trophies:
-        -   place: "3rd place brass"
-            sponsors:
-            -   sponsor: "The Goebel Family"
-                presenter: "Elizabeth and Thomas Goebel"
-                dedication: >
-                    in honor of our own "sassy brass" players on the trumpets and sousaphones!
-                message: 
-
-        -   place: "2nd place brass"
-            sponsors:
-            -   sponsor: "The Chabrier Family"
-                presenter: "Dana Chabrier"
-                message: >
-                    Love you bunches, Dana!
- 
-        -   place: "2nd place percussion"
-            sponsors:
-            -   sponsor: "The Nevin Family"
-                presenter: "Georgia Nevin"
-                message: >
-                    Shout out to our Peaches! Four years on drumline went by way too fast! We are so very proud of you and love you so much!
- 
-        -   place: "1st place percussion"
-            sponsors:
-            -   sponsor: "The Magann Family"
-                dedication: >
-                    to the FHS Marching Band program, past, present and future.
-                message: >
-                    Love and thanks to our directors, our instructors, and our band families, fellow band and guard members, and a very special shout out to percussion for an incredible four years of music and friendship.
-
-        -   place: "3rd place 5A"
-            sponsors:
-            -   sponsor: "Sean Wang and Family"
-                dedication: >
-                    to the Foothill Music Program!
-                message: 
- 
-        -   place: "2nd place 5A"
-            sponsors:
-            -   sponsor: "Aaron Miller and Family"
-                dedication:
-                message: >
-                    Congratulations to the winner… from Aaron Miller and Family. Mom and Dad love you, Aaron!!!
- 
-        -   place: "2nd place 6A"
-            sponsors:
-            -   sponsor: "The Huey Family"
-                presenter: "Nate Huey"
-                dedication: 
-                message: >
-                    Thank you percussion seniors for sharing the past four years with us.
-                    We have enjoyed watching your journey and the great music you have shared.
-                    Enjoy this year to the fullest!
- 
-        -   place: "1st place 6A"
-            sponsors:
-            -   sponsor: "Rodger Li and Family"
-                presenter: "Rodger Li"
-                dedication: >
-                    to the Foothill Marching Band
-                message: 
-
-        -   place: "Grand Sweepstakes"
-            sponsors:
-            -   sponsor: "Ben Woo with Salesforce.org"
-                presenter: "Melanie Woo"
-                dedication: >
-                    to the Foothill Marching Band who have become a second family for us.
-                message: >
-                    A special shout out to Melanie Woo who is in her last year with the Marching Band.
-                    Your transformation and dedication over the past four years has been an inspiration to your mother and father.
-                    To Josh Woo; welcome to the Marching Band journey as you enter the newest chapter of your life.
-                    Remember to live in the moment.....Always now!
-
-
         #-   place: "3rd place brass"
         #    sponsors:
         #    -   sponsor: "Huntington of Pleasanton"
         #    -   sponsor: "the Goebel family"
+        #        presenter: "Thomas Goebel"
         #        dedication: "the Foothill Band and their favorite trumpet section"
+        #        message: "Way to go, Thomas!"
 
 concert:
     lineup:
-    -   ref: "livermore-hs"
-    -   ref: "lincoln-hs"
-        unit: "concert-1"
-    -   ref: "irvington-hs"
-        unit: "concert-1"
-    -   ref: "lincoln-hs"
-        unit: "concert-2"
     -   ref: "franklin-hs"
+    -   ref: "lincoln-hs"
+        unit: "concert-1"
+    -   ref: "irvington-hs"
+        unit: "concert-1"
+    -   ref: "livermore-hs"
+    -   ref: "dublin-hs"
+    -   break: 100
+    -   ref: "merrill-f-west-hs"
+    -   ref: "lincoln-hs"
+        unit: "concert-2"
     -   ref: "irvington-hs"
         unit: "concert-2"
-    -   ref: "fairfield-hs"
-    -   break: 125
-    -   ref: "jesse-bethel-hs"
-    -   break: 25
-    -   ref: "benicia-hs"
+    -   ref: "pacheco-hs"
     -   break: -1
-    -   ref: "turlock-christian-hs"
-    -   ref: "del-mar-hs"
-    -   ref: "cesar-chavez-hs"
-    -   break: 25
+    -   ref: "jesse-bethel-hs"
+    -   ref: "fairfield-hs"
+    -   ref: "benicia-hs"
     -   ref: "lincoln-hs"
         unit: "concert-3"
     -   break: 25
-    -   ref: "harvest-park-ms"
-    -   ref: "pleasanton-ms"
-    -   ref: "benicia-ms"
     -   ref: "wells-ms"
-    -   break: 25
-    -   ref: "capuchino-hs"
+    -   ref: "benicia-ms"
     -   break: 50
+    -   ref: "del-mar-hs"
+    -   ref: "archbishop-riordan-hs"
     -   ref: "lincoln-hs"
-        unit: "symphonic"
+        unit: "concert-4"
+    -   ref: "capuchino-hs"
