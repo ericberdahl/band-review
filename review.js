@@ -1,243 +1,90 @@
 #!/usr/bin/env node
 
-const child_process = require('child_process');
-const fs = require('fs');
-const glob = require('glob');
-const Handlebars = require('handlebars');
-const path = require('path');
-const yaml = require('node-yaml');
-
+const debug = require('debug')('review');
 const info = require('debug')('review*');
 const error = require('debug')('review:<error>*');
 
-async function collectSchoolData(config)
-{
-    // Add each school into a large array property that holds all the schools
-    return new Promise((resolve, reject) => {
-        const globOptions = {
-            cwd: config.schoolDataDir,
-            nodir: true,
-        }
-        glob('*.yml', globOptions, (err, files) => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            let schools = { };
-            files.forEach((f) => {
-                schools[path.basename(f, path.extname(f))] = yaml.readSync(path.join(config.schoolDataDir, f));
-            });
-            resolve(schools);
-        });
-    });
-}
-
-function normalizeSchoolData(schools, units, yearOfShow)
-{
-    Object.keys(schools).forEach((s) => {
-        const aSchool = schools[s];
-        units.forEach((unitname) => {
-            if (unitname in aSchool)
-            {
-                const aUnit = aSchool[unitname];
-
-                // Ensure that city and schoolName properties are set, taking them from the school itself if necessary
-                ('city' in aUnit) || (aUnit.city = aSchool.city);
-                ('schoolName' in aUnit) || (aUnit.schoolName = aSchool.name);
-
-                // Add a computed property that indicates whether the unit data is up to date for the current program
-                aUnit._lastUpdated = new Date(aUnit['last-updated']);
-                aUnit._upToDate = (aUnit._lastUpdated.getFullYear() >= yearOfShow.year);
-            }
-        });
-    });
-}
-
-function lookupUnitRef(ref, defaultUnit, schools)
-{
-    let result = ref
-    if ('ref' in ref)
-    {
-        const unitname = ('unit' in ref ? ref.unit : defaultUnit);
-        if (!(ref.ref in schools))
-        {
-            error('%s school not found', ref.ref);
-        }
-        else if (!(unitname in schools[ ref.ref ]))
-        {
-            error('%s unit not found in %s school.', unitname, ref.ref);
-        }
-
-        result = schools[ ref.ref ][unitname];
-    }
-
-    return result
-}
-
-function computeNumericCitation(config, count)
-{
-    const found = config.count_citation.find((cite) => (cite.min <= count && count <= cite.max));
-    return (found ? found.cite : count);
-}
-
-function countLineup(lineup)
-{
-    return lineup.length - lineup.reduce((total, item) => ('break' in item ? total + 1 : total), 0);
-}
-
-function computeLineupStats(config, unit)
-{
-    // Count the number of schools in each lineup
-    lineupCount = countLineup(unit.lineup)
-    unit._count = {
-        number : lineupCount,
-        citation : computeNumericCitation(config, lineupCount),
-        upToDate : unit._schoolsUpToDate.length,
-        missingData : unit._schoolsMissingData.length
-    }
-
-    // TODO Collect the schools with up to date information and
-    // those without up to date information
-}
-
-
-async function collectViewdata(event, config)
-{
-    const data = yaml.readSync(event.dataPath);
-    data._generationDate = new Date();
-
-    const schools = await collectSchoolData(config);
-    normalizeSchoolData(schools, data.units, data.show);
-
-    /*
-     * In each event, compute stats on the lineups
-     */
-    data.units.forEach((unitname) => {
-        if (unitname in data)
-        {
-            data[unitname].lineup = data[unitname].lineup.map((item) => {
-                return lookupUnitRef(item, unitname, schools);
-            });
-
-            lineupSchools = data[unitname].lineup.filter((unit) => !('break' in unit));
-            data[unitname]._schoolsUpToDate = lineupSchools.filter((unit) => unit._upToDate);
-            data[unitname]._schoolsMissingData = lineupSchools.filter((unit) => !unit._upToDate);
-
-            computeLineupStats(config, data[unitname]);
-        }
-    });
-
-    return data
-}
-
-async function collectPartials(basePath)
-{
-    return new Promise((resolve, reject) => {
-        const globOptions = {
-            cwd: basePath,
-            nodir: true,
-        }
-        glob('*.adoc', globOptions, (err, files) => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            files.forEach((f) => {
-                const extension = path.extname(f);
-                if (extension == '.adoc')
-                {
-                    Handlebars.registerPartial(path.basename(f, extension),
-                                            fs.readFileSync(path.join(basePath, f), { encoding:'utf8'}));
-                }
-            });
-            resolve();
-        });
-    });
-}
-
-async function buildAdoc(event, config)
-{
-    const rootTemplate = '{{> ' + event.rootPartial + ' }}';
-    const basename = event.rootPartial + '-book';
-    const adocFilepath = path.join(config.outputDir, basename + '.adoc');
-    const pdfFilepath = path.join(config.outputDir, basename + '.pdf');
-
-    if (!fs.existsSync(config.outputDir)) {
-        fs.mkdirSync(config.outputDir, { recursive: true });
-    }
-
-    info('Collecting data');
-    const viewdata = await collectViewdata(event, config);
-
-    info('Compiling partials');
-    await collectPartials(config.partialsDir);
-    
-    info('Compiling asciidoc book %s', adocFilepath);
-    const template = Handlebars.compile(rootTemplate);
-
-    fs.writeFileSync(adocFilepath, template(viewdata));
-}
-
-async function buildHTML(event, config)
-{
-    const basename = event.rootPartial + '-book';
-    const adocFilepath = path.join(config.outputDir, basename + '.adoc');
-    const htmlFilepath = path.join(config.outputDir, basename + '.html');
-
-    info('Compiling HTML %s', htmlFilepath);
-    child_process.spawnSync('asciidoctor', [ adocFilepath ]);
-}
-
-async function buildPDF(event, config)
-{
-    const basename = event.rootPartial + '-book';
-    const adocFilepath = path.join(config.outputDir, basename + '.adoc');
-    const pdfFilepath = path.join(config.outputDir, basename + '.pdf');
-
-    info('Compiling pdf book %s', pdfFilepath);
-    child_process.spawnSync('asciidoctor-pdf', [
-        '-a', 'pdf-stylesdir=.',
-        '-a', 'pdf-style=announcer',
-        adocFilepath,
-        '-o', pdfFilepath
-    ]);
-}
-
-async function buildAll(event, config)
-{
-    await buildAdoc(event, config);
-    await buildHTML(event, config);
-    await buildPDF(event, config);
-}
+info.log = console.info.bind(console);
+error.log = console.info.bind(console);
 
 function main()
 {
     const program = require('commander');
+    const competitionMetadata = require('./lib/competition-metadata');
+    const discoverPartials = require('./lib/discover-partials');
+    const Handlebars = require('handlebars');
+    const lookupUnits = require('./lib/lookup-units');
+    const renderHandlebars = require('./lib/render-handlebars');
+    const renderHTML = require('./lib/render-adoc-to-html');
+    const renderPDF = require('./lib/render-adoc-to-pdf');
 
-    const config = yaml.readSync('_data/config.yml');
-
-    const bandReview = {
-        dataPath: './_data/bandreview.yml',
-        rootPartial: 'band-review'
-    };
-
-    const winterShow = {
-        dataPath: './_data/wintershow.yml',
-        rootPartial: 'winter-show'
-    };
-
+    const showProgress = (...args) => {
+            return (files, metalsmith, done) => {
+                info(...args);
+                done();
+            }
+        };
+    
     program
         .version('1.0.0')
         .parse(process.argv);
 
-    buildAll(winterShow, config)
-        .then(() => {
-            return buildAll(bandReview, config);
-        })
-        .then(() => {
-            info('done');
+    const Metalsmith = require('metalsmith');
+    let metalsmith = Metalsmith(__dirname);
+    
+    metalsmith = metalsmith.use(showProgress('starting'))
+        .source('./source')
+        .destination('./_build');
+    
+    metalsmith = metalsmith.use(showProgress('looking up schools'))
+        .use(lookupUnits({
+            pattern: '*.hbs'
+        }));
+
+    metalsmith = metalsmith.use(showProgress('computing lineup statistics'))
+        .use(competitionMetadata({
+            pattern: '*.hbs'
+        }));
+
+    metalsmith = metalsmith.use(showProgress('finding handlebars partials'))
+        .use(discoverPartials({
+            directory: 'partials',
+            handlebars: Handlebars,
+            pattern: '*.hbs'
+        }));
+
+    metalsmith = metalsmith.use(showProgress('rendering templates to asciidoc'))
+        .use(renderHandlebars({
+            pattern: '*.hbs',
+            handlebars: Handlebars,
+            renderedExtension: '.adoc'
+        }));
+
+    metalsmith = metalsmith.use(showProgress('rendering asciidoc to html'))
+        .use(renderHTML({
+            pattern: '*.adoc',
+            renderedExtension: '.html',
+            removeOriginal: false
+        }));
+
+    metalsmith = metalsmith.use(showProgress('rendering asciidoc to pdf'))
+        .use(renderPDF({
+            pattern: '*.adoc',
+            renderedExtension: '.pdf',
+            removeOriginal: false
+        }));
+
+    metalsmith = metalsmith.build((err) => {
+            if (err)
+            {
+                error(err);
+            }
+            else
+            {
+                info('complete');
+            }
         });
-}
+    }
 
 if (require.main == module)
 {

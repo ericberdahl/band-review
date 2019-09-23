@@ -17,10 +17,15 @@
   },
   "homepage": "https://github.com/ericberdahl/band-review#readme",
   "dependencies": {
+    "asciidoctor": "^2.0.3",
     "commander": "^3.0.1",
     "debug": "^4.1.1",
     "glob": "^7.1.4",
     "handlebars": "^4.2.0",
-    "node-yaml": "^4.0.1"
+    "lodash": "^4.17.15",
+    "metalsmith": "^2.3.0",
+    "metalsmith-plugin-kit": "^1.0.1",
+    "node-yaml": "^4.0.1",
+    "tempy": "^0.3.0"
   }
 }

@@ -1,3 +1,4 @@
+---
 announcer:
     name: "Eric Berdahl"
     email: "berdahl@serendipity.org"
@@ -16,11 +17,6 @@ units:
 -   "parade"
 -   "fieldshow"
 -   "concert"
--   "concert-1"
--   "concert-2"
--   "concert-3"
--   "concert-4"
-#-   "symphonic"
 
 sponsors-general: &sponsors-general
 
@@ -155,3 +151,44 @@ concert:
     -   ref: "lincoln-hs"
         unit: "concert-4"
     -   ref: "capuchino-hs"
+---
+= {{show.citation}} Announcer's Book: {{show.date}}
+{{announcer.name}} <{{announcer.email}}>
+Printed on {{_generationDate}}
+:toc:
+
+== Band Review - Checkup
+
+=== {{parade._count.missingData}} Schools Missing Parade Data
+
+{{#each parade._schoolsMissingData}}{{schoolName}} +
+{{/each}}
+
+=== {{fieldshow._count.missingData}} Schools Missing Field Show Data
+
+{{#each fieldshow._schoolsMissingData}}{{schoolName}} +
+{{/each}}
+
+=== {{parade._count.upToDate}} Schools with Parade Data
+
+{{#each parade._schoolsUpToDate}}{{schoolName}} +
+{{/each}}
+
+=== {{fieldshow._count.upToDate}} Schools with Field Show Data
+
+{{#each fieldshow._schoolsUpToDate}}{{schoolName}} +
+{{/each}}
+
+<<<
+
+{{> parade}}
+
+{{> field-show}}
+
+== Band Review - Close
+
+This concludes the {{show.citation}}.
+Thank you and congratulations to all the bands we’ve seen today, and thank you all for attending and cheering on these fine young performers.
+
+Mark your calendars to join us again next year, on {{next_show.date}}, for the {{next_show.citation}}.
+On behalf of Foothill High School, I wish you all a safe and enjoyable weekend. Good night.
