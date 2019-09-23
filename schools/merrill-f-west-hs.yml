@@ -3,25 +3,38 @@ name: "Merrill F. West High School"
 city: "Tracy, CA"
 
 parade:
-    last-updated: 2017
+    last-updated: 2019-09-20 12:16:08 -07
 
-    nickname: "Wolf Pack Marching Band"
+    nickname: "West High Wolf Pack Marching Band"
 
     directors:
     -   "Jonathan Raman (Jonathan RAY-man)"
 
+    staff:
+    -   title: "color guard instructor"
+        members:
+        -   "Alicia Graf"
+
     leaders:
     -   title: "drum majors"
         members:
-        -   "Angela Gonzalez (Angela gohn-ZAH-lez"
-        -   "Nikolas Beedy (NIH-koh-las BEE-dee)"
         -   "Fernanda Tapia (fehr-NAHN-dah TAH-pia)"
+        -   "Juan Diaz"
+        -   "Justin Silva"
+
+    -   title: "auxiliary captain"
+        members:
+        -   "Briana D'Angelo"
 
     -   title: "percussion captain"
         members:
-        -   "Wilder Loayza (WHILE-dehr loh-AY-zah)"
+        -   "Anabella Gomez"
+        -   "Lee Bento"
 
-    music: "His Honor by Henry Fillmore"
+    music: "The Pathfinder of Panama by John Philip Sousa"
+
+    notes: >
+        Thank you West High Music Boosters and parents for your sacrifice, love, and support of the West High Music Program. 
 
 concert:
-    last-updated: "2018-10-12 17:38:31"
+    last-updated: 2018-10-12 17:38:31 -07

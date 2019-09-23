@@ -89,7 +89,7 @@ winterguard:
 ---
 = {{show.citation}} Announcer's Book: {{show.date}}
 {{announcer.name}} <{{announcer.email}}>
-Printed on {{_generationDate}}
+Printed on {{ x-formatDate "MMMM DD, YYYY h:mma zz" _generationDate }}
 :toc:
 
 {{> percussion}}

@@ -21,13 +21,15 @@ units:
 sponsors-general: &sponsors-general
 
 parade:
+    version: 1.3
+
     grand_marshall:
         title: "Grand Marshalls"
         members:
 
     colors: "the color guard from Veterans of Foreign Wars Post 6298"
 
-    awards_time: "1:30pm"
+    awards_time: "2:00pm"
 
     awards_location: "Amador Valley High School Stadium"
 
@@ -79,6 +81,8 @@ parade:
     -   ref: "rodriguez-hs"
 
 fieldshow:
+    version: 1.1
+
     start_time: "4:00pm"
 
     anthem_performer: 
@@ -90,11 +94,11 @@ fieldshow:
     -   ref: "whitney-hs"
     -   ref: "arroyo-hs"
     -   ref: "del-mar-hs"
-    -   ref: "millennium-hs"
+    -   ref: "clayton-valley-hs"
     -   break: 30
+    -   ref: "millennium-hs"
     -   ref: "mt-eden-hs"
     -   ref: "monte-vista-hs"
-    -   ref: "clayton-valley-hs"
     -   ref: "vintage-hs"
     -   ref: "st-francis-hs"
     -   ref: "rodriguez-hs"
@@ -121,40 +125,42 @@ fieldshow:
         #        message: "Way to go, Thomas!"
 
 concert:
+    version: 0.0
+    
     lineup:
-    -   ref: "franklin-hs"
-    -   ref: "lincoln-hs"
-        unit: "concert-1"
-    -   ref: "irvington-hs"
-        unit: "concert-1"
     -   ref: "livermore-hs"
-    -   ref: "dublin-hs"
-    -   break: 100
-    -   ref: "merrill-f-west-hs"
+    -   ref: "irvington-hs"
+        unit: "concert-1"
     -   ref: "lincoln-hs"
         unit: "concert-2"
+    -   ref: "lincoln-hs"
+        unit: "concert-1"
+    -   ref: "franklin-hs"
     -   ref: "irvington-hs"
         unit: "concert-2"
+    -   break: 100
+    -   ref: "dublin-hs"
     -   ref: "pacheco-hs"
+    -   ref: "merrill-f-west-hs"
     -   break: -1
-    -   ref: "jesse-bethel-hs"
-    -   ref: "fairfield-hs"
-    -   ref: "benicia-hs"
     -   ref: "lincoln-hs"
         unit: "concert-3"
-    -   break: 25
-    -   ref: "wells-ms"
-    -   ref: "benicia-ms"
+    -   ref: "fairfield-hs"
+    -   ref: "benicia-hs"
     -   break: 50
-    -   ref: "del-mar-hs"
-    -   ref: "archbishop-riordan-hs"
     -   ref: "lincoln-hs"
         unit: "concert-4"
+    -   ref: "benicia-ms"
+    -   ref: "jesse-bethel-hs"
+    -   ref: "del-mar-hs"
+    -   ref: "wells-ms"
     -   ref: "capuchino-hs"
+    -   ref: "archbishop-riordan-hs"
+
 ---
 = {{show.citation}} Announcer's Book: {{show.date}}
 {{announcer.name}} <{{announcer.email}}>
-Printed on {{_generationDate}}
+Printed on {{ x-formatDate "MMMM DD, YYYY h:mma zz" _generationDate }}
 :toc:
 
 == Band Review - Checkup

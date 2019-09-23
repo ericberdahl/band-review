@@ -2,38 +2,32 @@ name: "Northgate High School"
 
 city: "Walnut Creek, CA"
 
-students:
--   &elijah-canlas "Elijah Canlas"
--   &cameron-paloutzian "Cameron Paloutzian (Cameron pah-LOOT-zee-ihn)"
--   &hawson-wang "Hawson Wang"
-
 parade:
-    last-updated: "2018-10-11 11:00:10"
+    last-updated: 2019-09-22 10:22:06 -07
 
-    nickname: "Northgate High School Marching Band and Auxiliary"
+    nickname: "Bronco Band"
 
     directors:
-    -   "Sara Stafford"
+    -   "Anthony West"
 
     staff:
-    -   title: "auxiliary director"
+    -   title: "instructed by"
         members:
         -   "Jessica Aduan"
 
     leaders:
     -   title: "drum major"
         members:
-        -   *cameron-paloutzian
+        -   "Brandon Voss"
 
-    -   title: "assistant drum major"
+    -   title: "auxiliary captains"
         members:
-        -   *elijah-canlas
-
-    -   title: "auxiliary captain"
-        members:
-        -   *hawson-wang
+        -   "Chloe Anderson"
+        -   "Aubrey Parkinson"
     
-    music: "Manhattan Beach by John Philip Sousa"
+    music: "King Cotton by John Philip Sousa"
 
     notes: >
-        The Northgate High School Marching Band and Auxiliary gives a special thank you to the Northgate Instrumental Music Boosters for such a wonderful season!!! 
+        The Bronco Band recently participated in the Walnut Creek Twilight Parade.
+        They were awarded 3rd place auxiliary, 3rd place drum major, and 2nd place band.
+        Special thanks to Amanda Aguilera and all the MBA parents who make this program possible!

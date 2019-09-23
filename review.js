@@ -13,6 +13,7 @@ function main()
     const competitionMetadata = require('./lib/competition-metadata');
     const discoverPartials = require('./lib/discover-partials');
     const Handlebars = require('handlebars');
+    const helpers = require('./lib/handlebars-helpers');
     const lookupUnits = require('./lib/lookup-units');
     const renderHandlebars = require('./lib/render-handlebars');
     const renderHTML = require('./lib/render-adoc-to-html');
@@ -28,6 +29,9 @@ function main()
     program
         .version('1.0.0')
         .parse(process.argv);
+
+    helpers.defaultTimezone('America/Los_Angeles');
+    helpers.register({ handlebars: Handlebars, namespace: 'x-'});
 
     const Metalsmith = require('metalsmith');
     let metalsmith = Metalsmith(__dirname);

@@ -11,7 +11,7 @@
 {{#unless unit.nickname}}WARNING: {{unit.schoolName}} is missing a nickname.
 {{/unless}}
 
-NOTE: Last updated {{unit._lastUpdated}}
+NOTE: Last updated {{ x-formatDate "MMMM DD, YYYY h:mma zz" unit._lastUpdated }}
 
 Now taking the floor is {{#if unit.isHost}}your host, {{/if}}the {{unit.nickname}}, from {{unit.schoolName}} in {{unit.city}}.
 

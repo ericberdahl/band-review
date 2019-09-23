@@ -20,7 +20,7 @@ students:
 parade:
     isHost: true
 
-    last-updated: &band-review-updated "2018-10-15 17:14:06"
+    last-updated: &band-review-updated 2018-10-15 17:14:06 -07
 
     nickname: &band-nickname "Foothill High School Marching Band and Color Guard"
 
@@ -114,7 +114,7 @@ fieldshow:
 winterguard:
     isHost: true
 
-    last-updated: "2019-03-18 16:09:26"
+    last-updated: 2019-03-18 16:09:26 -07
 
     nickname: "Foothill High School Winter Guard"
 
@@ -142,7 +142,7 @@ winterguard:
 winterpercussion:
     isHost: true
 
-    last-updated: "2019-03-18 16:09:26"
+    last-updated: 2019-03-18 16:09:26 -07
 
     nickname: "Foothill High School A Winter Percussion"
 

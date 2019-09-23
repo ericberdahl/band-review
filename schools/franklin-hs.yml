@@ -3,7 +3,7 @@ name: "Franklin High School"
 city: "Elk Grove, CA"
 
 parade:
-    last-updated: "2018-10-17 15:11:55"
+    last-updated: 2018-10-17 15:11:55 -07
 
     nickname: "Franklin Wildcats Sound Power Marching Band"
 
@@ -34,7 +34,7 @@ parade:
     notes: >
 
 concert:
-    last-updated: "2018-10-17 15:11:55"
+    last-updated: 2018-10-17 15:11:55 -07
 
 winterguard:
     last-updated: 1

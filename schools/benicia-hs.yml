@@ -11,7 +11,7 @@ students:
 -   &lindsay-olson "Lindsay Olson"
 
 parade:
-    last-updated: "2018-10-12 12:17:02"
+    last-updated: 2018-10-12 12:17:02 -07
 
     nickname: "Benicia High School Panther Marching Band"
 
@@ -48,7 +48,7 @@ parade:
     notes:
 
 concert:
-    last-updated: "2018-10-12 12:17:02"
+    last-updated: 2018-10-12 12:17:02 -07
 
 winterpercussion:
     last-updated: 2018

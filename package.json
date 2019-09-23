@@ -25,6 +25,7 @@
     "lodash": "^4.17.15",
     "metalsmith": "^2.3.0",
     "metalsmith-plugin-kit": "^1.0.1",
+    "moment-timezone": "^0.5.26",
     "node-yaml": "^4.0.1",
     "tempy": "^0.3.0"
   }

@@ -11,7 +11,7 @@ students:
 -   &keanu-villanueva "Keanu Villanueva"
 
 parade:
-    last-updated: "2018-10-12 14:58:12"
+    last-updated: 2018-10-12 14:58:12 -07
 
     nickname: "Benicia Middle School Viking Band"
 
@@ -57,7 +57,7 @@ parade:
         Without you, none of this would be possible!
 
 concert:
-    last-updated: "2018-10-12 14:58:12"
+    last-updated: 2018-10-12 14:58:12 -07
 
 winterguard-novice:
     last-updated: 2018

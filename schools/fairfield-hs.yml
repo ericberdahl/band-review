@@ -11,7 +11,7 @@ students:
 -   &mitchell-wells "Mitchell Wells"
 
 parade:
-    last-updated: "2018-10-12 12:57:15"
+    last-updated: 2018-10-12 12:57:15 -07
 
     nickname: "Scarlet Brigade"
 
@@ -62,4 +62,4 @@ parade:
     notes: >
 
 concert:
-    last-updated: "2018-10-12 12:57:15"
+    last-updated: 2018-10-12 12:57:15 -07

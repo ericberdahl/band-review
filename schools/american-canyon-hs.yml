@@ -10,7 +10,7 @@ students:
 -   &ruth-santiago "Ruth Santiago"
 
 fieldshow:
-    last-updated: "2018-10-12 12:20:54"
+    last-updated: 2018-10-12 12:20:54 -07
 
     nickname: "American Canyon High School Marching Band"
 
@@ -54,7 +54,7 @@ fieldshow:
     notes:
 
 winterpercussion:
-    last-updated: "2019-03-13 10:52:59"
+    last-updated: 2019-03-13 10:52:59 -07
 
     nickname: "ACHS Winter Percussion Ensemble"
 
@@ -74,7 +74,7 @@ winterpercussion:
     music: "music by Matthew Hernandez and Chris Morales"
 
 winterguard:
-    last-updated: "2019-03-13 10:52:59"
+    last-updated: 2019-03-13 10:52:59 -07
 
     nickname: "American Canyon Color Guard"
 
