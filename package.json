@@ -27,6 +27,7 @@
     "metalsmith-plugin-kit": "^1.0.1",
     "moment-timezone": "^0.5.26",
     "node-yaml": "^4.0.1",
-    "tempy": "^0.3.0"
+    "tempy": "^0.3.0",
+    "unescape-js": "^1.1.1"
   }
 }
