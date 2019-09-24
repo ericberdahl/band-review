@@ -3,7 +3,7 @@ name: "Millennium High School"
 city: "Tracy, CA"
 
 fieldshow:
-    last-updated: 1967-12-01 04:30:00 -08
+    lastUpdated: 1967-12-01 04:30:00 -08
 
     nickname: "Millennium High School Marching Band"
 
@@ -20,7 +20,7 @@ fieldshow:
     notes: 
 
 winterguard:
-    last-updated: 2019-03-16 14:42:35 -07
+    lastUpdated: 2019-03-16 14:42:35 -07
 
     nickname: "Millennium High School Winterguard"
 
@@ -43,7 +43,7 @@ winterguard:
 
 
 winterpercussion:
-    last-updated: 2019-03-16 14:42:35 -07
+    lastUpdated: 2019-03-16 14:42:35 -07
 
     nickname: "Millennium High Percussion Ensemble"
 

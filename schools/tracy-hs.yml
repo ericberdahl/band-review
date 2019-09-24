@@ -3,7 +3,7 @@ name: "Tracy High School"
 city: "Tracy, CA"
 
 parade:
-    last-updated: 2018-10-04 14:48:00 -07
+    lastUpdated: 2018-10-04 14:48:00 -07
 
     nickname: &band-nickname "Pride of Tracy Marching Band and Color Guard"
 
@@ -30,7 +30,7 @@ parade:
         We appreciate everything you do to help make our season possible.
 
 fieldshow:
-    last-updated: 2018-10-04 14:48:00 -07
+    lastUpdated: 2018-10-04 14:48:00 -07
 
     nickname: *band-nickname
 

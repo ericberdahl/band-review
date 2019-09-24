@@ -8,7 +8,7 @@ students:
 -   &gabriel-puccinelli "Gabriel Puccinelli"
 
 parade:
-    last-updated: &band-review-updated 2018-10-12 17:38:31 -07
+    lastUpdated: &band-review-updated 2018-10-12 17:38:31 -07
 
     nickname: "Lincoln High School Marching Band and Auxiliary"
 
@@ -45,21 +45,21 @@ parade:
         The Lincoln High School Marching Band and Auxiliary would like to thank all of the parents, teachers, and supporters throughout the Stockton community that help our program continue to develop and thrive.
     
 concert-1:
-    last-updated: *band-review-updated
+    lastUpdated: *band-review-updated
 
     nickname: "Lincoln High School Concert Band 1"
 
 concert-2:
-    last-updated: *band-review-updated
+    lastUpdated: *band-review-updated
 
     nickname: "Lincoln High School Concert Band 2"
 
 concert-3:
-    last-updated: *band-review-updated
+    lastUpdated: *band-review-updated
 
     nickname: "Lincoln High School Concert Band 3"
 
 concert-4:
-    last-updated: *band-review-updated
+    lastUpdated: *band-review-updated
 
     nickname: "Lincoln High School Concert Band 4"

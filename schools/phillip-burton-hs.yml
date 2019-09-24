@@ -3,7 +3,7 @@ name: "Phillip Burton High School"
 city: "San Francisco, CA"
 
 fieldshow:
-    last-updated: 2018-10-10 12:44:20 -07
+    lastUpdated: 2018-10-10 12:44:20 -07
 
     nickname: "Puma Marching Band"
 
@@ -49,7 +49,7 @@ fieldshow:
         All of this wouldn't be possible without the amazing support of the Burton Band Boosters, Burton High School Admin and SFUSD.
 
 winterpercussion:
-    last-updated: 2019-03-13 11:22:02 -07
+    lastUpdated: 2019-03-13 11:22:02 -07
 
     nickname: "Burton Percussion Ensemble"
 
@@ -68,7 +68,7 @@ winterpercussion:
     music: "Tubular Bells and Don't Fear the Reaper, arranged by Luke Aylsworth"
 
 winterguard:
-    last-updated: 2019-03-13 11:22:02 -07
+    lastUpdated: 2019-03-13 11:22:02 -07
 
     nickname: "Burton Winter Guard"
 

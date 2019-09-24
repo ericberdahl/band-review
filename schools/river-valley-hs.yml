@@ -3,7 +3,7 @@ name: "River Valley High School"
 city: "Yuba City, CA"
 
 parade:
-    last-updated: 2018-10-25 08:38:07 -07
+    lastUpdated: 2018-10-25 08:38:07 -07
 
     nickname: &marching-nickname "River Valley High School Falcon Marching Band"
 
@@ -37,7 +37,7 @@ parade:
     notes: 
 
 fieldshow:
-    last-updated: 1967-12-01 04:30:00 -08
+    lastUpdated: 1967-12-01 04:30:00 -08
 
     nickname: *marching-nickname
 

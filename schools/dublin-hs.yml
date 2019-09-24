@@ -3,7 +3,7 @@ name: "Dublin High School"
 city: "Dublin, CA"
 
 fieldshow:
-    last-updated: 2018-10-18 14:57:28 -07
+    lastUpdated: 2018-10-18 14:57:28 -07
 
     nickname: "Irish Guard Marching Band and Color Guard"
 
@@ -59,6 +59,6 @@ fieldshow:
         The Dublin Irish Guard would like to thank its wonderful parents and supportive administration, including Principal Maureen Byrne and Assistant Principal, Krista Taylor.
 
 concert:
-    last-updated: 2018-10-12 17:38:31 -07
+    lastUpdated: 2018-10-12 17:38:31 -07
 
     nickname: "Dublin High School Concert Band"

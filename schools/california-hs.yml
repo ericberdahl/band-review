@@ -3,7 +3,7 @@ name: "California High School"
 city: "San Ramon, CA"
 
 parade:
-    last-updated: 1
+    lastUpdated: 1
 
     nickname: "California High School Marching Ensemble and Colorguard"
 
@@ -12,7 +12,7 @@ parade:
     -   "Ramiro Barrera"
 
 winterguard:
-    last-updated: 1901
+    lastUpdated: 1901
 
     nickname: "California High School Winter Guard"
 

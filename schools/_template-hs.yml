@@ -3,7 +3,7 @@ name:
 city: 
 
 fieldshow:
-    last-updated: 1967-12-01 04:30:00 -08
+    lastUpdated: 1967-12-01 04:30:00 -08
 
     nickname: 
 
@@ -20,7 +20,7 @@ fieldshow:
     notes: 
 
 parade:
-    last-updated: 1967-12-01 04:30:00 -08
+    lastUpdated: 1967-12-01 04:30:00 -08
 
     nickname: 
 
@@ -33,7 +33,7 @@ parade:
     music: 
 
 winterpercussion:
-    last-updated: 1967-12-01 04:30:00 -08
+    lastUpdated: 1967-12-01 04:30:00 -08
 
     nickname: 
 
@@ -50,7 +50,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    last-updated: 1967-12-01 04:30:00 -08
+    lastUpdated: 1967-12-01 04:30:00 -08
 
     nickname: 
 

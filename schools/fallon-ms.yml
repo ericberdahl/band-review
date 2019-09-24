@@ -10,7 +10,7 @@ staff:
 -   &tony-cavalleri "Tony Cavalleri (Tony ca-vah-LEHR-ee)"
 
 parade:
-    last-updated: 2018-10-15 15:38:06 -07
+    lastUpdated: 2018-10-15 15:38:06 -07
 
     nickname: "Mustang Marching Band and Colorguard"
 
@@ -31,7 +31,7 @@ parade:
     notes: 
 
 winterguard:
-    last-updated: 2019-03-18 10:01:54 -07
+    lastUpdated: 2019-03-18 10:01:54 -07
 
     nickname: "Fallon Middle School Colorguard"
 
@@ -55,7 +55,7 @@ winterguard:
     music: "music by Grace Vanderwol"
 
 winterpercussion:
-    last-updated: 2018
+    lastUpdated: 2018
 
     nickname: "Mustang Drumline"
 

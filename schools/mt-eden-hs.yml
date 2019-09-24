@@ -16,7 +16,7 @@ staff:
 -   &jackie-rodriguez "Jackie Rodriguez"
 
 parade:
-    last-updated: 2019-09-18 17:04:55 -07
+    lastUpdated: 2019-09-18 17:04:55 -07
 
     nickname: &nickname "Marching Monarchs"
 
@@ -56,7 +56,7 @@ parade:
         Not to mention that we consistently send individuals to the Honor Band of America for the past 12 years, including our current lead drum major, Barry.
 
 fieldshow:
-    last-updated: 2019-09-18 17:04:55 -07
+    lastUpdated: 2019-09-18 17:04:55 -07
 
     nickname: *nickname
 
@@ -99,4 +99,4 @@ fieldshow:
     notes: >
 
 concert:
-    last-updated: 2018-10-08 11:12:32 -07
+    lastUpdated: 2018-10-08 11:12:32 -07

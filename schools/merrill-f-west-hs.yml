@@ -3,7 +3,7 @@ name: "Merrill F. West High School"
 city: "Tracy, CA"
 
 parade:
-    last-updated: 2019-09-20 12:16:08 -07
+    lastUpdated: 2019-09-20 12:16:08 -07
 
     nickname: "West High Wolf Pack Marching Band"
 
@@ -37,6 +37,6 @@ parade:
         Thank you West High Music Boosters and parents for your sacrifice, love, and support of the West High Music Program. 
 
 concert:
-    last-updated: 2018-10-12 17:38:31 -07
+    lastUpdated: 2018-10-12 17:38:31 -07
 
     nickname: "Merrill F. West High School Concert Band"

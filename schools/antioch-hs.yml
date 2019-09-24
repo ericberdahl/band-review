@@ -3,7 +3,7 @@ name: "Antioch High School"
 city: "Antioch, CA"
 
 parade:
-    last-updated: 1967-12-01 04:30:00 -08
+    lastUpdated: 1967-12-01 04:30:00 -08
 
     nickname: "Antioch High School Marching Band"
 
@@ -16,7 +16,7 @@ parade:
     music: 
 
 fieldshow:
-    last-updated: 1967-12-01 04:30:00 -08
+    lastUpdated: 1967-12-01 04:30:00 -08
 
     nickname: "Antioch High School Marching Band"
 
@@ -33,7 +33,7 @@ fieldshow:
     notes: 
 
 winterguard:
-    last-updated: 2019-03-13 12:27:59 -07
+    lastUpdated: 2019-03-13 12:27:59 -07
 
     nickname: "Antioch High School Winterguard"
 

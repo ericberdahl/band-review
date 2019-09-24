@@ -12,7 +12,7 @@ staff:
 -   &onhey-lee-o-tela "OnHey-Lee-O Tela (ohn-HAY-lee-oh TAY-la)"
 
 parade:
-    last-updated: 2018-10-16 12:44:27 -07
+    lastUpdated: 2018-10-16 12:44:27 -07
 
     nickname: "Chavez Titans"
 
@@ -45,10 +45,10 @@ parade:
         They would also like to thank their administrative staff led by Dr. Sherry Jackson. 
     
 concert:
-    last-updated: 2018-10-16 12:44:27 -07
+    lastUpdated: 2018-10-16 12:44:27 -07
 
 winterguard:
-    last-updated: 2019-03-18 15:36:22 -07
+    lastUpdated: 2019-03-18 15:36:22 -07
 
     nickname: "Cesar Chavez Winter Guard"
 
@@ -72,7 +72,7 @@ winterguard:
 
 
 winterpercussion:
-    last-updated: 2019-03-18 15:36:22 -07
+    lastUpdated: 2019-03-18 15:36:22 -07
 
     nickname: "Cesar Chavez Winter Drumline"
 

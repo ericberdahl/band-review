@@ -3,7 +3,7 @@ name: "Crystal Middle School"
 city: "Suisun City, CA"
 
 winterguard:
-    last-updated: 2018
+    lastUpdated: 2018
 
     nickname: "Crystal Middle School Advanced Guard"
 
@@ -36,7 +36,7 @@ winterguard:
         all their support!
 
 winterpercussion:
-    last-updated: 2018
+    lastUpdated: 2018
 
     nickname: "Crystal Middle School Advanced Drumline"
 

@@ -16,7 +16,7 @@ students:
 -   &brian-tran "Brian Tran"
 
 parade:
-    last-updated: 2018-10-17 14:04:42 -07
+    lastUpdated: 2018-10-17 14:04:42 -07
 
     nickname: &band-nickname "Rodriguez Entertainment Unit"
 
@@ -65,7 +65,7 @@ parade:
         The Rodriguez Entertainment Unit says thank you to our Rodriguez Music Boosters for your love, dedication and support.
 
 fieldshow:
-    last-updated: 2018-10-17 14:04:42 -07
+    lastUpdated: 2018-10-17 14:04:42 -07
 
     nickname: *band-nickname
 
