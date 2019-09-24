@@ -1,17 +1,8 @@
 #!/usr/bin/env node
 
-const path = require('path');
+const logs = require('./lib/logs').forFilename(__filename);
 
-const __debugname = path.basename(__filename, path.extname(__filename));
-const debug = require('debug')(__debugname);
-const info = require('debug')(__debugname + '*');
-const error = require('debug')(__debugname + ':<error>*');
-
-info.log = console.info.bind(console);
-error.log = console.info.bind(console);
-
-function main()
-{
+function main() {
     const program = require('commander');
     const competitionMetadata = require('./lib/competition-metadata');
     const discoverPartials = require('./lib/discover-partials');
@@ -24,7 +15,7 @@ function main()
 
     const showProgress = (...args) => {
             return (files, metalsmith, done) => {
-                info(...args);
+                logs.info(...args);
                 done();
             }
         };
@@ -82,13 +73,11 @@ function main()
         }));
 
     metalsmith = metalsmith.build((err) => {
-            if (err)
-            {
-                error(err);
+            if (err) {
+                logs.error(err);
             }
-            else
-            {
-                info('complete');
+            else {
+                logs.info('complete');
             }
         });
     }
