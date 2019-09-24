@@ -1,7 +1,7 @@
 {{#each trophies}}
 === {{place}}
 
-The {{place}} trophy is sponsored by {{#each sponsors}}{{#unless @first}}, {{#if @last}}and {{/if}}{{/unless}}{{sponsor}}{{/each}}.
+The {{place}} trophy is sponsored by {{#x-sentence sponsors}}{{.}}{{/x-sentence}}.
 {{#each sponsors}}{{#if dedication}}{{sponsor}} dedicates the {{../place}} trophy {{{dedication}}}{{/if}} {{message}}
 {{#if presenter}}The {{../place}} trophy will be presented by {{presenter}}.{{/if}}
 {{/each}}

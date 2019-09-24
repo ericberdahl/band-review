@@ -5,7 +5,7 @@ city: "Los Banos, CA"
 parade:
     last-updated: 1967-12-01 04:30:00 -08
 
-    nickname: 
+    nickname: "Pacheco High School Marching Band"
 
     directors:
     -   "Rogelio Garibay (roh-HAY-lee-oh gah-REE-bay)"
@@ -18,3 +18,5 @@ parade:
 
 concert:
     last-updated: 2018-10-12 17:38:31 -07
+
+    nickname: "Pacheco High School Concert Band"

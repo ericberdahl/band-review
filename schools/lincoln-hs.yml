@@ -47,11 +47,19 @@ parade:
 concert-1:
     last-updated: *band-review-updated
 
+    nickname: "Lincoln High School Concert Band 1"
+
 concert-2:
     last-updated: *band-review-updated
+
+    nickname: "Lincoln High School Concert Band 2"
 
 concert-3:
     last-updated: *band-review-updated
 
+    nickname: "Lincoln High School Concert Band 3"
+
 concert-4:
     last-updated: *band-review-updated
+
+    nickname: "Lincoln High School Concert Band 4"

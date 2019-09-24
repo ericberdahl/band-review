@@ -5,7 +5,7 @@ city: "Yuba City, CA"
 parade:
     last-updated: 2018-10-25 08:38:07 -07
 
-    nickname: "River Valley High School Falcon Marching Band"
+    nickname: &marching-nickname "River Valley High School Falcon Marching Band"
 
     directors:
     -   "Michael Taylor"
@@ -39,7 +39,7 @@ parade:
 fieldshow:
     last-updated: 1967-12-01 04:30:00 -08
 
-    nickname: 
+    nickname: *marching-nickname
 
     directors:
 

@@ -2,13 +2,13 @@
 
 {{#unless unit._upToDate}}IMPORTANT: {{unit.schoolName}} parade data is out of date.
 {{/unless}}
+{{#unless unit.nickname}}IMPORTANT: {{unit.schoolName}} is missing nickname.
+{{/unless}}
 {{#unless unit.music}}WARNING: {{unit.schoolName}} is missing parade music.
 {{/unless}}
 {{#unless unit.directors}}WARNING: {{unit.schoolName}} has no directors.
 {{/unless}}
 {{#unless unit.leaders}}WARNING: {{unit.schoolName}} has no leaders.
-{{/unless}}
-{{#unless unit.nickname}}WARNING: {{unit.schoolName}} is missing nickname.
 {{/unless}}
 
 NOTE: Last updated {{ x-formatDate "MMMM DD, YYYY h:mma zz" unit._lastUpdated }}
@@ -17,6 +17,6 @@ Our {{#if isFirst}}first{{else}}next{{/if}} band is {{#if unit.isHost}}your host
 
 {{> leaders unit=unit}}
 
-The {{unit.nickname}} will perform {{{unit.music}}}.
+{{#if unit.music}}The {{unit.nickname}} will perform {{{unit.music}}}.{{/if}}
 
 {{#if unit.notes}}{{{unit.notes}}}{{else}}NOTE: {{unit.schoolName}} has no parade notes.{{/if}}

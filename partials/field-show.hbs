@@ -41,8 +41,7 @@ You all make our Band Review happen!
 {{/unless}}
 
 Foothill High School thanks the sponsors of the {{show.citation}}: +
-{{#each fieldshow.sponsors.general}}{{#unless @first}}, +
-{{#if @last}}and {{/if}}{{/unless}}{{{.}}}{{/each}}.
+{{#x-sentence fieldshow.sponsors.general joiner=', +\n' terminalJoiner=', +\nand ' dualJoiner=' +\nand '}}{{{.}}}{{/x-sentence}}.
 
 === General award announcement
 With a score of {score}, {nth} place {category} goes to [pause] {name of school}!
