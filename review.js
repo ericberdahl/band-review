@@ -1,8 +1,11 @@
 #!/usr/bin/env node
 
-const debug = require('debug')('review');
-const info = require('debug')('review*');
-const error = require('debug')('review:<error>*');
+const path = require('path');
+
+const __debugname = path.basename(__filename, path.extname(__filename));
+const debug = require('debug')(__debugname);
+const info = require('debug')(__debugname + '*');
+const error = require('debug')(__debugname + ':<error>*');
 
 info.log = console.info.bind(console);
 error.log = console.info.bind(console);
