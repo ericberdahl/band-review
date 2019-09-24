@@ -5,11 +5,11 @@ announcer:
 
 show:
     year: 2019
-    date: "March 23rd, 2019"
+    date: "2019-03-23"
     citation: "2019 Foothill High School Winter Show"
 
 next_show:
-    date: "March 28th, 2020"
+    date: "2020-03-28"
     citation: "2020 Foothill High School Winter Show"
 
 units:
@@ -87,7 +87,7 @@ winterguard:
 
         trophies:
 ---
-= {{show.citation}} Announcer's Book: {{show.date}}
+= {{show.citation}} Announcer's Book: {{ x-formatDate "MMMM Do, YYYY" show.date tz='' }}
 {{announcer.name}} <{{announcer.email}}>
 Printed on {{ x-formatDate "MMMM DD, YYYY h:mma zz" _generationDate }}
 :toc:
@@ -101,6 +101,6 @@ Printed on {{ x-formatDate "MMMM DD, YYYY h:mma zz" _generationDate }}
 This concludes the {{show.citation}}.
 Thank you and congratulations to all the units we’ve seen today, and thank you all for attending and cheering on these talented performers.
 
-Mark your calendars to join us again next year, on {{next_show.date}}, for the {{next_show.citation}}.
+Mark your calendars to join us again next year, on {{ x-formatDate "MMMM Do, YYYY" next_show.date tz='' }}, for the {{next_show.citation}}.
 On behalf of Foothill High School, I wish you all a safe and enjoyable weekend.
 Good night.

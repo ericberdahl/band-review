@@ -5,12 +5,12 @@ announcer:
 
 show:
     year: 2019
-    date: "October 26th, 2019"
+    date: "2019-10-26"
     citation: "45th Annual Foothill High School Band Review"
 
 next_show:
     year: 2020
-    date: "October 24th, 2020"
+    date: "2020-10-24"
     citation: "46th Annual Foothill High School Band Review"
 
 units:
@@ -158,7 +158,7 @@ concert:
     -   ref: "archbishop-riordan-hs"
 
 ---
-= {{show.citation}} Announcer's Book: {{show.date}}
+= {{show.citation}} Announcer's Book: {{ x-formatDate "MMMM Do, YYYY" show.date tz='' }}
 {{announcer.name}} <{{announcer.email}}>
 Printed on {{ x-formatDate "MMMM DD, YYYY h:mma zz" _generationDate }}
 :toc:
@@ -196,5 +196,5 @@ Printed on {{ x-formatDate "MMMM DD, YYYY h:mma zz" _generationDate }}
 This concludes the {{show.citation}}.
 Thank you and congratulations to all the bands we’ve seen today, and thank you all for attending and cheering on these fine young performers.
 
-Mark your calendars to join us again next year, on {{next_show.date}}, for the {{next_show.citation}}.
+Mark your calendars to join us again next year, on {{ x-formatDate "MMMM Do, YYYY" next_show.date tz='' }}, for the {{next_show.citation}}.
 On behalf of Foothill High School, I wish you all a safe and enjoyable weekend. Good night.
