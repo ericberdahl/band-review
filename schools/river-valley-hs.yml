@@ -3,52 +3,53 @@ name: "River Valley High School"
 city: "Yuba City, CA"
 
 parade:
-    lastUpdated: 2018-10-25 08:38:07 -07
+    lastUpdated: &band-review-updated 2019-09-23 17:16:52 -07
 
-    nickname: &marching-nickname "River Valley High School Falcon Marching Band"
+    nickname: &band-review-nickname "River Valley Falcon Marching Band"
 
-    directors:
+    directors: &band-review-directors
     -   "Michael Taylor"
 
-    staff:
-    -   title: "guard coach"
+    staff: &band-review-staff
+    -   title: "color guard instructor"
         members:
         -   "Jovanie Romero"
+    -   title: "drumline instructor"
+        members:
+        -   "Jason Fry"
 
-    leaders:
+    leaders: &band-review-leaders
     -   title: "drum major"
         members:
-        -   "Steven Cramer"
+        -   "Alina Chavez"
     
-    -   title: "shield captain"
+    -   title: "auxiliary captains"
         members:
         -   "Shirley Camacho"
+        -   "Allyson Rodriguez"
         
-    -   title: "flag captain"
-        members:
-        -   "Jacob Huerta"
-    
-    -   title: "percussion captain"
+    -   title: "percussion captains"
         members:
         -   "Delaney Timms"
+        -   "Cheyenne Rodriguez"
     
-    music: "King Karl King by Henry Fillmore"
+    music: "Stars and Stripes Forever by John Philip Sousa"
 
     notes: 
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: *band-review-updated
 
-    nickname: *marching-nickname
+    nickname: *band-review-nickname
 
-    directors:
+    directors: *band-review-directors
 
-    staff:
+    staff: *band-review-staff
 
-    leaders:
+    leaders: *band-review-leaders
 
-    program: 
+    program: "Into the Unknown"
 
-    music: 
+    music: "Into the Unknown by Patrick Manning and Beyond the Horizon by Rossano Galante"
 
     notes: 

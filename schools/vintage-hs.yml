@@ -3,9 +3,9 @@ name: "Vintage High School"
 city: "Napa, CA"
 
 fieldshow:
-    lastUpdated: 2018-10-17 13:51:40 -07
+    lastUpdated: 2019-09-24 09:26:13 -07
 
-    nickname: "Vintage Crusher Marching Band"
+    nickname: "Crusher Marching Band"
 
     directors: &directors
     -   "Brendan Galvin"
@@ -13,34 +13,33 @@ fieldshow:
     staff:
     -   title: "instructed by"
         members:
-        -   "Jony Soria Gil"
         -   "Sydney Cliff"
-        -   "Gabe Conley"
-        -   "Adam Stricker"
-        -   "Noah Whitacre"
-        -   "Cesar Reyes"
-        -   "Bryson Chaudhry"
+        -   "Emma McLauglin"
+        -   "Emily Knight"
 
     leaders:
-    -   title: "drum major"
+    -   title: "drum majors"
         members:
-        -   "Anna Douglas"
+        -   "Jimmy Faulk"
+        -   "Lizzy Soria Ceja"
 
     -   title: "auxiliary captains"
         members:
-        -   "Emma McLaughlin"
-        -   "Sydney Botts"
+        -   "Emma Becker"
+        -   "Lenny Padilla"
 
     -   title: "percussion captains"
         members:
-        -   "Alex Covarrubias"
         -   "Christian Cendejas"
+        -   "Alex Covarrubias"
 
-    program: "Hideaway"
+    program: "The Dreams You Dare to Dream"
 
     music: 
 
     notes: >
+        Thank you to the Vintage High School Instrumental Music Boosters for all of their support.
+        We could not do it without you!
 
 winterpercussion:
     lastUpdated: 2019-03-06 10:24:25 -08
