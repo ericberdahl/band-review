@@ -3,24 +3,32 @@ name: "Washington High School"
 city: "Fremont, CA"
 
 parade:
-    lastUpdated: 2017
+    lastUpdated: 2019-10-01 14:46:55 -07
 
-    nickname: "WHS Marching Band"
+    nickname: "Marching Huskies"
 
     directors:
-    -   "Amberie Mitchell"
+    -   "Amberle Mitchell"
+
+    staff:
+    -   title:  "instructed by"
+        members:
+        -   "Aaron Sanders"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Sara Mameesh"
+        -   "Michael Du"
+    
+    -   title: "auxiliary captain"
+        members:
+        -   "Vanessa Khuc"
 
     -   title: "percussion captain"
         members:
-        -   "Casey Quevedo"
+        -   "Jushawni Sims"
 
-    music: "Brighton Beach by William Latham"
+    music: "Invictus by Karl King, arranged by Andrew Glover"
 
     notes: >
-        WHS Marching Band recently won 3rd place at Newark Days Parade and a Silver Award at
-        Forum Music Festival.
+        Special thanks to the amazing Music Boosters who have helped revive the marching band at Washington High School!

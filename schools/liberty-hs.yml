@@ -3,13 +3,37 @@ name: "Liberty High School"
 city: "Brentwood, CA"
 
 parade:
-    lastUpdated: 1
+    lastUpdated: 2019-09-26 12:25:14 -07
 
-    nickname: "Liberty Lions Marching Pride"
+    nickname: "Liberty Lion Pride Marching Band"
 
     directors:
-    -   "Carey Hurst Maarchetti"
+    -   "Lindsay Kellogg"
+
+    staff:
+    -   title: "drum line instructors"
+        members:
+        -   "Juan Carreon"
+        -   "Glen Neissner"
+    
+    -   title: "color guard instructor"
+        members:
+        -   "Kaitlyn Ross"
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Reed Schmitt"
 
-    music: 
+    -   title: "auxiliary captain"
+        members:
+        -   "Kathy Tran"
+
+    -   title: "percussion captain"
+        members:
+        -   "Jared Moore"
+
+    music: "Hosts of Freedom by Karl L. King"
+
+    notes: >
+        The Liberty Lion Pride Marching Band would like to thank all of it's members, parent volunteers, booster board, and administration for all their support this season.

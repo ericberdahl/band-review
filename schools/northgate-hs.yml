@@ -3,15 +3,15 @@ name: "Northgate High School"
 city: "Walnut Creek, CA"
 
 parade:
-    lastUpdated: 2019-09-22 10:22:06 -07
+    lastUpdated: 2019-09-28 20:30:02 -07
 
-    nickname: "Bronco Band"
+    nickname: "Marching Broncos"
 
     directors:
     -   "Anthony West"
 
     staff:
-    -   title: "instructed by"
+    -   title: "auxiliary coach"
         members:
         -   "Jessica Aduan"
 
@@ -28,6 +28,4 @@ parade:
     music: "King Cotton by John Philip Sousa"
 
     notes: >
-        The Bronco Band recently participated in the Walnut Creek Twilight Parade.
-        They were awarded 3rd place auxiliary, 3rd place drum major, and 2nd place band.
-        Special thanks to Amanda Aguilera and all the MBA parents who make this program possible!
+        Be sure to watch for our signature ending.

@@ -3,44 +3,36 @@ name: "Petaluma High School"
 city: "Petaluma, CA"
 
 parade:
-    lastUpdated: 2017
+    lastUpdated: 2019-09-26 17:46:49 -07
 
-    nickname: "Trojan Marching Band and Color Guard"
+    nickname: "Petaluma High School Trojan Marching Band"
 
     directors: &directors
     -   "Cliff Eveland"
 
     staff:
-    -   title: "assistant directors"
+    -   title: "instructed by"
         members:
         -   "Nick Dibley"
-        -   "Dustin Friel"
-
-    -   title: "percussion instructor"
-        members:
-        -   "Dustin Friel"
-
-    -   title: "color guard instructor"
-        members:
-        -   "Andrea Tobin"
+        -   "Neil Fontano"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Hannah Morris"
+        -   "Gigi Melov"
 
     -   title: "auxiliary captain"
         members:
-        -   "Emma Hoffman"
+        -   "Asher Frank"
 
     -   title: "percussion captain"
         members:
         -   "Kobe Barry"
 
-    music: "Illinois March by Edwin Franko Goldman"
+    music: "Glory to Guardsmen by Nikolay Chemberdzhi"
 
     notes: >
-        The students and directors wish to thank the PHS Music Boosters and the "`Uniform Moms`" for all of their time and hard work that made their performance possible today.
+        The members of the band would like to thank the Petaluma High School Music Boosters and the uniform moms for making their performance possible today!
 
 winterpercussion:
     lastUpdated: 2018

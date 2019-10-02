@@ -2,18 +2,8 @@ name: "Saratoga High School"
 
 city: "Saratoga, CA"
 
-students:
--   &dylan-boselli "Dylan Boselli"
--   &alena-jarrett "Alena Jarrett (uh-LEE-nuh Jarrett)"
--   &aj-lee "AJ Lee"
--   &deyshna-pai "Deyshna Pai (DAY-shnuh Pai)"
--   &alexandra-propach "Alexandra Propach (Alexandra PRO-pah-k)"
--   &meera-ravichandran "Meera Ravichandran (Meera rah-vee-CHAHN-drehn)"
--   &alex-ruemmler "Alex Ruemmler (Alex ROOM-luhr)"
--   &kimi-uenaka "Kimi Uenaka (Kimi oo-eh-NAH-kuh)"
-
 fieldshow:
-    lastUpdated: 2018-10-11 15:47:25 -07
+    lastUpdated: 2019-09-25 14:58:53 -07
 
     nickname: "Saratoga High School Marching Band and Color Guard"
 
@@ -22,56 +12,83 @@ fieldshow:
     -   "Michael Boitz (Michael boy-tz)"
 
     staff:
-    -   title: "assisted by"
+    -   title: "visual instructors"
         members:
-        -   "Andrew Ford"
         -   "Todd Ryan"
+        -   "KK Sullivan"
         -   "Jonathan Pwu (Jonathan pw-oo)"
-        -   "Chavadith Tantavirojn (CHAH-vah-dith TAHN-tuh-viuh-rone)"
-        -   "Sean Clark"
+        -   "Vivi Kung"
+        -   "Isabel McPherson"
+        -   "Oliver Chen"
+        -   "Lee Garrett"
+        -   "Katie McLaughlin"
+        -   "Andrew Ford"
+    
+    -   title: "guard instructors"
+        members:
         -   "Jazz Legaspi (Jazz luh-GAS-pee)"
+        -   "Brittany Bennet"
+        -   "Gustavo Morales"
+        -   "Jerome Cruz"
+        -   "Andrew Trinh"
+    
+    -   title: "front ensemble instructors"
+        members:
+        -   "Chavadith Tantavirojn (CHAH-vah-dith TAHN-tuh-viuh-rone)"
+        -   "AJ Gonzales"
+        -   "Gabriel Boquiren"
+
+    -   title: "battery instructors"
+        members:
+        -   "Sean Clark"
+        -   "Brandon Adamson"
+        -   "Frank Peacock"
+        -   "Casey Quevedo"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   *aj-lee
-        -   *deyshna-pai
-        -   *alena-jarrett
+        -   "Joshua Yoon"
+        -   "Alex Mah"
+        -   "Sean Ryan"
+        -   "Isaac Sun"
 
-    -   title: "colorguard captains"
+    -   title: "auxiliary captains"
         members:
-        -   *alex-ruemmler
-        -   *meera-ravichandran
-        -   *alexandra-propach
-        -   *kimi-uenaka
+        -   "Chloe Hsieh"
+        -   "Nikita Kadambi"
+        -   "Alex Dicheva"
+        -   "Nikhil Kapasi"
+
+    -   title: "percussion captains"
+        members:
+        -   "Rishub Tamirisa"
+        -   "Gino Prasad"
+        -   "Aditya Ramakrishnan"
+        -   "Shveta Subramaniam"
 
     -   title: "woodwind captain"
         members:
-        -   "Eric Huang"
+        -   "Anthony Qin"
 
     -   title: "brass captain"
         members:
-        -   "Joshua Yoon"
+        -   "Kole Tippetts"
 
-    -   title: "percussion captain"
-        members:
-        -   *dylan-boselli
-
-    program: "A Dream Within"
+    program: "Timeless"
 
     music: >
-        Alice in Wonderland by Sammy Fain and Bob Hillard,
-        The Sunken Cathedral by Claude Debussy,
-        Serenada Schizophrana by Danny Elfman,
-        Concerto for Violin and Orchestra by Samuel Barber,
-        and The Armed Man - A Mass for Peace by Karl Jenkins.
-        Musical arrangements by Dave Glyde, Jason Shiuan (Jason sh-wen), Chavadith Tantavirojn (CHAH-vah-dith TAHN-tuh-viuh-rone), and Sean Clark.
+        Old 100th hymn,
+        Summer, a violin Concerto in G Minor by Antonio Vivaldim,
+        Symphony No. 3, the "Organ Symphony", by Camille Saint-Saens,
+        Summertime by George Gershwin,
+        Rubric by Philip Glass,
+        and Us and Them by Pink Floyd
 
     notes: >
         The Saratoga High School Marching Band performed in the 2016 Tournament of Roses Parade, as well as the 2012 Macy's Thanksgiving Day Parade.
-        The Band has been Class Champion the past five years at the Bands of America Regional Competitions, and in 2015 were the overall Bands of America Regional Champion.
+        The Band has been a Class Champion the past five years at the Bands of America Regional Competitions, and in 2015 were the overall Bands of America Regional Champion.
         In 2017, the Saratoga Symphonic Wind Ensemble was a featured performer at the WASBE Conference in Utrecht, the Netherlands.
-        
-        The SHS Marching Band would like to extend heartfelt appreciation to all of the parents, families, friends, administration, Saratoga High community members for unyielding support.
-        The SHS Marching Band would also liek to thank Foothill High School and all volunteers for helping make the Foothill Band Review possible every year, as well as NCBA for providing educational performance opportunities to thousands of students annually.
-    
+
+        The SHS Marching Band would like to extend heartfelt appreciation to all of the parents, families, friends, administration, and Saratoga High community members for unyielding support.
+        The SHS Marching Band would also like to thank Foothill High School and all volunteers for helping make the Foothill Band Review possible every year, as well as NCBA for providing educational performance opportunities to thousands of students annually.

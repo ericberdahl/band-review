@@ -3,55 +3,67 @@ name: "Tracy High School"
 city: "Tracy, CA"
 
 parade:
-    lastUpdated: 2018-10-04 14:48:00 -07
+    lastUpdated: 2019-10-01 08:40:29 -07
 
     nickname: &band-nickname "Pride of Tracy Marching Band and Color Guard"
 
-    directors: &directors
-    -   "Jeff Kumagai (Jeff KOO-muh-gai)"
+    directors:
+    -   &amanda-gieseke "Amanda Gieseke (Amanda gee-SAH-kee)"
 
     staff:
     -   title: "instructed by"
         members:
-        -   &amanda-gieseke "Amanda Gieseke (Amanda geh-SEH-kee)"
+        -   "Kanika Clavejo"
+        -   "Ben Durant"
+        -   "Arturo Espinoza"
+        -   "Justin Fields"
         -   &cj-julian "CJ Julian"
         -   &danielle-masters "Danielle Masters"
-        -   &matt-masters "Matt Masters"
+        -   "Reese Whiles"
 
     leaders:
     -   title: "drum major"
         members:
-        -   &brianna-rojas "Brianna Rojas"
+        -   "Lauren McKelvey"
+    
+    -   title: "auxiliary captains"
+        members:
+        -   "Adrian De Guzman"
+        -   "Kayden Masters"
+    
+    -   title: "percussion captain"
+        members:
+        -   "David Lansangan"
 
-    music: "A Slavic Farewell by Vasilij Agapkin (vah-SEE-lee ah-GAHP-kihn), arranged by John R. Bourgeois"
+    music: "Army of the Nile by Kenneth Alford"
 
     notes: >
-        The Pride of Tracy would like to thank the Tracy High staff and administration, and the Band Boosters for everything they do.
-        We appreciate everything you do to help make our season possible.
+        The Pride of Tracy Marching Band and Color Guard would like to thank their boosters for their constant support,
+        their performers for pushing themselves daily,
+        and the Foothill Band and Band Boosters for hosting today's event.
 
 fieldshow:
     lastUpdated: 2018-10-04 14:48:00 -07
 
     nickname: *band-nickname
 
-    directors: *directors
-    
+    directors:
+    -   "Jeff Kumagai (Jeff KOO-muh-gai)"
+
     staff:
     -   title: "instructed by"
         members:
         -   *amanda-gieseke
         -   *cj-julian
         -   *danielle-masters
-        -   *matt-masters
         -   "RJ Sambrano"
         -   "Jaden McComas"
 
     leaders:
-    -   title: "drum majors"
+    -   title: "drum major"
         members:
-        -   *brianna-rojas
-        -   "Lauren McKelvey"
-
+        -   "Brianna Rojas"
+    
     program: "Pandora's Box"
 
     music: "music composed and arranged by Key Poulan (KEE POH-lan)"
