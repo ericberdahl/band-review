@@ -6,7 +6,7 @@ students:
 -   &aracely-rios "Aracely Rios (ah-rah-SEHL-ee Rios)"
 
 parade:
-    lastUpdated: 2018-10-04 12:23:36 -07
+    lastUpdated: 2019-10-02 16:17:05 -07
 
     nickname: "Cowboy Marching Band"
 
@@ -17,36 +17,39 @@ parade:
     -   title: "instructed by"
         members:
         -   "David Alattore (David ah-lah-TOHRR-ay)"
-        -   "Steven Drummer"
-        -   "Anthony Mogannom (Anthony MOH-gah-nohm)"
+        -   "Rob LVS"
+        -   "Ben Ly"
         -   "Luis Cardoza"
-        -   "Hannah Dolan"
+        -   "Rachel Nishijima"
+        -   "Seira Sowa"
+        -   "Nichole Grapes"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Luca Cuppoletti"
+        -   "Elijah Maravilla"
 
     -   title: "auxiliary captains"
         members:
-        -   "Phoenix McPeake"
         -   *aracely-rios
+        -   "Monste Aravelo"
+        -   "Angie Savoy"
 
     -   title: "percussion captains"
         members:
-        -   "Alex Paterson"
         -   "Kaylee Cherry"
+        -   "Chris Santos"
 
-    music: "Slaidburn (SLAYD-burn) by William Rimmer"
+    music: "The Great Valley by Bertrand Moren"
 
     notes: >
-        The Livermore High School Cowboy Marching Band would like to thank Livermore Music, their fantastic booster program for all of their support.
-        Also, a special thanks to the Foothill High School families, staff, and community for making this spectacular event possible!
+        The Livermore High School Cowboy Marching Band is proud to be here representing the oldest continuous public school music program in the state of California.
+        The Livermore High School students, parents and staff would like to thank everyone involved in making this band review an ongoing success year after year. 
 
 concert:
-    lastUpdated: 2018-10-04 12:23:36 -07
+    lastUpdated: 2019-10-02 16:17:05 -07
 
-    nickname: "Livermore High School Concert Band"
+    nickname: "Livermore High School Symphonic Band Honors"
 
 winterguard:
     lastUpdated: 2019-03-18 12:52:52 -07
