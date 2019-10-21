@@ -3,7 +3,7 @@ name: "Cupertino High School"
 city: "Cupertino, CA"
 
 fieldshow:
-    lastUpdated: 2018-10-17 10:58:35 -07
+    lastUpdated: 2019-10-10 15:08:26 -07
 
     nickname: "Cupertino High School Proud Pioneer Band"
 
@@ -13,33 +13,39 @@ fieldshow:
     staff:
     -   title: "instructed by"
         members:
-        -   "Chavadith Tantavirojn (kah-vah-dith tan-tah-vih-RHO-geen)"
         -   "Matt Costales"
-        -   "Cameron Cornejo"
+        -   "Chavadith Tantavirojn (kah-vah-dith tan-tah-vih-RHO-geen)"
         -   "Colin Whitcomb"
+        -   "Catalina McNeil"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Emmanuel Muriuki (Emmanuel moo-ree-OO-kee)"
-        -   "Vidushi Bansal"
-        -   "Shunji Nezu"
+        -   "Elaine Chen"
+        -   "Bhuvan Kommineni"
+        -   "Oliver Richard"
+        -   "Gideon Srinivasan"
 
     -   title: "auxiliary captains"
         members:
-        -   "Sue Chiang"
-        -   "Jezabel Belasco"
+        -   "Sue Cheng"
+        -   "Jezebel Balcaso"
+        -   "Shreya Jhala"
 
     -   title: "percussion captains"
         members:
-        -   "Joshua Franklin"
-        -   "Christine Fang"
+        -   "Soumya Sridhar"
+        -   "Ryan Kitagawa"
         -   "Dev Shah"
+        -   "Suzuka Kojima"
 
-    program: "In a Beat"
+    program: "Reclaimed"
 
-    music: 
+    music: >
+        Canyon by Philip Glass,
+        October by Eric Whitacre,
+        and Canon in D by Johan Pachelbel
 
     notes: >
-        The Cupertino HS Proud Pioneer Band has been awarded numerous Sweepstakes awards in all captions throughout the years.
-        This coming April, the band will travel to Hawaii and will have the honor of performing at Pearl Harbor and other historical venues.
+        The students and staff would like to thank their awesome parent boosters for all they do.
+        Without them, nights of wonderful music like tonight would not be possible.

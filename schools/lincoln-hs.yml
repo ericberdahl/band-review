@@ -2,64 +2,54 @@ name: "Lincoln High School"
 
 city: "Stockton, CA"
 
-students:
--   &alden-alfiche "Alden Alfiche"
--   &tanner-dunaway "Tanner Dunaway"
--   &gabriel-puccinelli "Gabriel Puccinelli"
-
 parade:
-    lastUpdated: &band-review-updated 2018-10-12 17:38:31 -07
+    lastUpdated: 2019-10-14 21:35:40 -07
 
     nickname: "Lincoln High School Marching Band and Auxiliary"
 
     directors:
-    -   "Cathy Ettle"
     -   "Kristin Florek"
-    -   "Cody Johnson"
 
     staff:
-    -   title: "guard instructor"
-        members:
-        -   "Yasmeen Vargas"
-
-    -   title: "percussion instructor"
+    -   title: "instructed by"
         members:
         -   "Michael Hernandez"
+        -   "Yasmeen Vargas"
 
     leaders:
     -   title: "drum major"
         members:
-        -   *gabriel-puccinelli
+        -   "Gabriel Puccinelli"
 
     -   title: "auxilliary captain"
         members:
-        -   *alden-alfiche
+        -   "Karsen Kelley"
 
     -   title: "percussion captain"
         members:
-        -   *tanner-dunaway
+        -   "Tanner Dunaway"
 
-    music: "Glorious Victory by W.M. Kendall"
+    music: "The Great Little Army by Kenneth Alford"
 
     notes: >
-        The Lincoln High School Marching Band and Auxiliary would like to thank all of the parents, teachers, and supporters throughout the Stockton community that help our program continue to develop and thrive.
-    
-concert-1:
-    lastUpdated: *band-review-updated
+        The Lincoln High School Marching Band would like to give special thanks to all of the parents, teachers, and supporters from the Stockton community who help their program continue to thrive.    
 
-    nickname: "Lincoln High School Concert Band 1"
+concert-1:
+    lastUpdated: 2019-10-14 21:35:40 -07
+
+    nickname: "Wind Ensemble 1"
 
 concert-2:
-    lastUpdated: *band-review-updated
+    lastUpdated: 2019-10-14 21:35:40 -07
 
-    nickname: "Lincoln High School Concert Band 2"
+    nickname: "Wind Ensemble 2"
 
 concert-3:
-    lastUpdated: *band-review-updated
+    lastUpdated: 2018-10-12 17:38:31 -07
 
     nickname: "Lincoln High School Concert Band 3"
 
 concert-4:
-    lastUpdated: *band-review-updated
+    lastUpdated: 2018-10-12 17:38:31 -07
 
     nickname: "Lincoln High School Concert Band 4"

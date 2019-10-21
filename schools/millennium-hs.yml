@@ -3,29 +3,55 @@ name: "Millennium High School"
 city: "Tracy, CA"
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2019-10-17 10:44:59 -07
 
-    nickname: "Millennium High School Marching Band"
+    nickname: "Marching Falcons"
 
-    directors:
+    directors: &directors
+    -   "Roland Zepeda (Roland zuh-PAY-duh)"
 
     staff:
+    -   title: "auxiliary instructor"
+        members:
+        -   "Gabrielle Seres"
+        
+    -   title: "percussion instructor"
+        members:
+        -   "Kyle Bossert"
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Ximena Garcia (huh-MEH-nuh Garcia)"
+    
+    -   title: "auxiliary captains"
+        members:
+        -   "Molly Contreras"
+        -   "Sarah Keogh"
+    
+    -   title: "percussion captains"
+        members:
+        -   "Daniel Harrison"
+        -   "Josiah Adrineda"
 
-    program: 
+    program: "Medusa"
 
-    music: 
+    music: >
+        Medusa Lures Poseidon,
+        Athena's Rage,
+        Serpents,
+        and The Gorgon's Pursuit by Key Poulan.
+        Percussion by Shawn Glyde and Leonard Bedoian.
 
-    notes: 
+    notes: >
+        A special thank you to our amazing parents and administration for their hard work and support.
 
 winterguard:
     lastUpdated: 2019-03-16 14:42:35 -07
 
     nickname: "Millennium High School Winterguard"
 
-    directors: &directors
-    -   "Roland Zepeda"
+    directors: *directors
 
     staff:
     -   title: "instructed by"

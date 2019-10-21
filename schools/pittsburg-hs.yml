@@ -3,19 +3,61 @@ name: "Pittsburg High School"
 city: "Pittsburg, CA"
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2019-10-20 09:37:07 -07
 
-    nickname: "Pittsburg High School Marching Band"
+    nickname: "Pittsburg High School Marching Band, the Pride of Pittsburg"
 
     directors:
     -   "Jennifer Martinez"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Juliana Martinez"
+        -   "Julie Marco" 
+        -   "Jessica Krone"
+        -   "Fernando Lozano"
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Diego Del Real (Diego ree-AHL)"
+    
+    -   title: "auxiliary captains"
+        members:
+        -   "Alondra Alvarez"
+        -   "Alana Young"
 
-    program: 
+    -   title: "percussion captains"
+        members:
+        -   "Erron Reyes"
+        -   "Rebeka Trujillo"
 
-    music: 
+    program: “The Greatest Showman”
 
-    notes: 
+    music: >
+        "Jubilance" by Keith Foley,
+        "The Greatest Show" by Benj Pasek, Justin Paul and Ryan Lewis,
+        "This Is Me" by Benj Pasek and Justin Paul,
+        "A Million Dreams" by Benj Pasek and Justin Paul,
+        and "Come Alive" by Benj Pasek and Justin Paul
+
+    notes: >
+        The Pride of Pittsburg opens for Busta Rhymes in San Francisco the day of this field show competition, October 26th! 
+        They won first place at the 2019 Santa Clara Parade of Champions,
+        2019 San Francisco Italian Heritage Parade,
+        2019 San Francisco Fleet Week Band Challenge,
+        and 2018 San Francisco Italian Heritage Parade,
+        and second place at the 2018 San Francisco Fleet Week Band Challenge.
+
+        They are one of two bands selected to perform in Madrid, Spain in 2021
+        and have performed in the Rome New Year’s Day Parade,
+        London New Year’s Parade,
+        and Macy’s Thanksgiving Day Parade.
+
+        The Pride of Pittsburg would like to thank their Band Boosters,
+        School District,
+        and Community for their continuous support.
+
+        Now, Pittsburg High School is proud to present "The Greatest Show."
+        Follow tne band in this journey of who we are, what our dreams can be, and how we keep the spirit of our traditions alive!

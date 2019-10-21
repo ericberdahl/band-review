@@ -3,7 +3,7 @@ name: "Archbishop Riordan High School"
 city: "San Francisco, CA"
 
 parade:
-    lastUpdated: 2017
+    lastUpdated: 2019-10-16 12:01:13 -07
 
     nickname: "Crusader Marching Band"
 
@@ -12,38 +12,39 @@ parade:
     -   "Edwin Serrano"
 
     staff:
-    -   title: "auxiliary staff"
+    -   title: "percussion instructors"
         members:
-        -   "Briana Yamagata"
-        -   "Noah Peters"
-
-    -   title: "percussion staff"
-        members:
-        -   "John Howard"
         -   "Kyle Baldwin"
+        -   "Oliver Bishop"
+
+    -   title: "color guard instructor"
+        members:
+        -   "Jose Reyes"
 
     leaders:
-    -   title: "drum majors"
+    -   title: "drum major"
         members:
-        -   "Stephen Aguirre (Stephen ah-GIH-rray)"
-        -   "John-Paul Jacinto (John Paul ha-SEEN-to)"
+        -   "Zachary Phillips"
 
-    -   title: "auxiliary captains"
+    -   title: "auxiliary captain"
         members:
-        -   &audrey-lai "Audrey Lai"
-        -   &jocelyn-suazo "Jocelyn Suazo (Jocelyn soo-AH-zo)"
+        -   "Anna Gotuaco"
 
-    -   title: "percussion captain"
+    -   title: "percussion captains"
         members:
-        -   "Dean De Leon (Dean day lay-OHN)"
+        -   "Jacob Castillo"
+        -   "Ian Starks"
     
-    music: "Anima Nobile (AH-nee-mah no-BEE-lay) by Jack C. Lentini"
+    music: "Slaidburn by William Rimmer arranged by Bertrand Moren"
 
     notes: >
-        The Crusader Band would like to dedicate this performance to those affected in the recent North Bay Fires and those still affected from the hurricanes. The Crusader Band is in preparation for the London New Year's Day Parade in 2019, to which they were invited this year!
+        The Archbishop Riordan Crusader Marching Band would like to thank the band boosters and parent volunteers for their time, dedication, and hard-work throughout the marching season!
+        We couldn't do any of this without their tremendous contributions!
+        The directors would also like to congratulate the 85 percent of students in the band who began their musical journey in their Freshman year of high school.
+        Mr. H and Mr. S are proud of all of you!
 
 concert:
-    lastUpdated: 2018-10-12 17:38:31 -07
+    lastUpdated: 2019-10-16 12:01:13 -07
 
     nickname: "Archbishop Riordan High School Concert Band"
 
@@ -87,8 +88,8 @@ winterguard:
     leaders:
     -   title: "captains"
         members:
-        -   *audrey-lai
-        -   *jocelyn-suazo
+        -   "Audrey Lai"
+        -   "Jocelyn Suazo (Jocelyn soo-AH-zo)"
 
     program: "As One"
 

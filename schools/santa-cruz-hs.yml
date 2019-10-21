@@ -2,17 +2,8 @@ name: "Santa Cruz High School"
 
 city: "Santa Cruz, CA"
 
-students:
--   &quinn-allen "Quinn Allen"
--   &anda-amorim "Anda Amorim (AHN-dah ah-MOHR-im)"
--   &johnny-armstrong "Johnny Armstrong"
--   &emily-daniels-flechtner "Emily Daniels-Flechtner (emily daniels FLECK-nehr)"
--   &kai-porterfield "Kai Porterfield"
--   &faith-trowbridge "Faith Trowbridge"
--   &maddie-villaverde "Maddie Villaverde (maddie vee-ya-VEHR-day)"
-
 parade:
-    lastUpdated: 2018-10-12 12:23:59 -07
+    lastUpdated: 2019-10-16 13:06:51 -07
 
     nickname: "Cardinal Regiment"
 
@@ -24,44 +15,38 @@ parade:
         members:
         -   "Ron Salinas"
 
+    -   title: "percussion instructor"
+        members:
+        -   "Randy Villegas"
+
     -   title: "bagpipe instructor"
         members:
         -   "Jay Salter"
 
-    -   title: "color guard instructor"
-        members:
-        -   "Danielle Kline"
-
     -   title: "drum major instructor"
         members:
-        -   "Jack Goudreau"
-
-    -   title: "percussion instructors"
-        members:
-        -   "Randy Villegas"
-        -   "Ashwin Krishnan"
-        -   "Anthony Aceves"
+        -   "Jack Goudreaux"
 
     leaders:
     -   title: "drum major"
         members:
-        -   *emily-daniels-flechtner
+        -   "Clifford Owen"
 
-    -   title: "auxiliary captains"
+    -   title: "auxiliary captain"
         members:
-        -   *anda-amorim
-        -   *johnny-armstrong
-        -   *faith-trowbridge
-        -   *maddie-villaverde
+        -   "Faith Trowbridge"
 
     -   title: "percussion captains"
         members:
-        -   *quinn-allen
-        -   *kai-porterfield
+        -   "Ezra Hapner"
+        -   "Trace Laskey"
 
-    music: "Purple Carnival by Harry L. Alford"
+    music: "Boys of the Old Brigade by W. Paris Chambers"
 
     notes: >
-        The band recently earned Music and Showmanship Sweepstakes at the Del Mar Band Review. 
-        Thank you to the Foothill Band students and parents for hosting this event.
-        Thank you to the Santa Cruz parents and community for making this possible.
+        Santa Cruz High School has a long tradition of excellence in all areas of performance.
+        The band has numerous awards in Grand, Music, Showmanship, Marching, and Color Guard Sweepstakes.
+        The concert and jazz band has earned Unanimous Superior ratings at festivals for years.
+        They have performed in Canada for the Victoria Days parade, in Oregon for the Portland Rose Parade, in Hawaii for the King Kamehameha Day Parade and the Hawaii Invitational, in San Francisco for the Chinese New Years Parade and The Fleet Week Band Challenge, and are regulars on Main Street in Disneyland. 
+
+        They would like to thank the Foothill Band Boosters and the community in Pleasanton for making this review possible.

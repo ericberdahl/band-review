@@ -2,104 +2,106 @@ name: "Del Mar High School"
 
 city: "San Jose, CA"
 
-people:
-        -   "Mia Nicolacoudis (Mia nih-ko-lah-KOO-dihs)"
-        -   "Katherine Butler"
-
 parade:
-    lastUpdated: 2018-10-10 12:13:09 -07
+    lastUpdated: 2019-10-10 18:33:08 -07
 
     nickname: "Del Mar High School Marching Band and Colorguard"
 
     directors: &directors
     -   "William Burkhead"
 
-    staff: &band-staff
-    -   title: "assistant to the director"
+    staff: 
+    -   title: "instructed by"
         members:
         -   "Kale Duprey"
-
-    -   title: "colorguard instructor"
-        members:
-        -   "Russ Cabudol (Russ KAH-boo-doll)"
-
-    -   title: "woodwind instructor"
-        members:
+        -   "Bailey Morgan"
+        -   "AJ Gonzales"
+        -   "Lidia Luque (Lidia LOO-kay)"
+        -   "Stephanie Tracey"
+        -   "Charlie Tran"
         -   "Rene Canto-Adams"
-
-    -   title: "brass instructor"
-        members:
-        -   "Vincent Jurado (Vincent hoo-RAH-doh)"
-
-    -   title: "battery instructor"
-        members:
-        -   "Jeffrey Marcos"
-
-    -   title: "front ensemble instructor"
-        members:
-        -   "Wyatt Holtkamp"
-
-    -   title: "visual coaches"
-        members:
-        -   "Pia Satana"
-        -   "AJ Gonzalez"
+        -   &josh-bacleg "Josh Bacleg (Josh BAK-leg)"
 
     leaders:
     -   title: "drum major"
         members:
-        -   &noah-rojas "Noah Rojas"
+        -   &andrew-kuykendall "Andrew Kuykendall (Andrew KUHR-ken-dahl)"
 
-    -   title: "auxiliary captains"
+    -   title: "auxiliary captain"
         members:
-        -   &marianna-castinon "Marianna Castinon"
-        -   &nancy-perez "Nancy Perez"
+        -   &danaxe-osorio "Danaxe Osorio (dahn-AH-shay oh-SOH-ree-oh)"
 
     -   title: "percussion captain"
         members:
-        -   &josh-salgado "Josh Salgado"
+        -   "Joshua Salgado"
 
-    music: "H.H. Jollies by Kenneth Alford, arranged by Matt Mackey"
+    music: "Gallant Entree by Karl L. King, arranged by Timothy Rhea (Timothy RAY)"
+
+    notes: >
+        The Del Mar High School Marching Band and Colorguard wishes to thank their amazing Parent Support Team for making they appearance today possible!
+        Also, thank you to the Foothill and Amador Valley organizers for making this event happen today!!
 
 fieldshow:
-    lastUpdated: 2018-10-10 12:13:09 -07
+    lastUpdated: 2019-10-10 18:33:08 -07
 
     nickname: "Del Mar High School Marching Band and Colorguard"
 
     directors: *directors
 
-    staff: *band-staff
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Kale Duprey"
+        -   "Bailey Morgan"
+        -   "Gerry Martin"
+        -   "Charlie Tran"
+        -   "Misty Reese"
+        -   "Stephanie Tracey"
+        -   "AJ Gonzales"
+        -   *josh-bacleg
+        -   "Rene Canto-Adams"
 
     leaders:
-    -   title: "drum major"
+    -   title: "drum majors"
         members:
-        -   *noah-rojas
+        -   "Connor Petri (Connor PEE-tree)"
+        -   *andrew-kuykendall
 
-    -   title: "auxiliary captains"
+    -   title: "auxiliary captain"
         members:
-        -   *marianna-castinon
-        -   *nancy-perez
+        -   *danaxe-osorio
 
     -   title: "battery captain"
         members:
-        -   *josh-salgado
+        -   "Joshua Salgado"
 
     -   title: "front ensemble captain"
         members:
-        -   &arturo-montes "Arturo Montes (Arturo mohn-TEZ)"
+        -   "Arturo Montes (Arturo mohn-TEZ)"
 
-    program: "Investigating Russia: The Music of the Giants"
+    -   title: "woodwind captain"
+        members:
+        -   "Kassy Zepeda"
+
+    -   title: "brass captain"
+        members:
+        -   "Liz Butler"
+
+    program: "Shine On!"
 
     music: >
-        Festive Overture by Dmitri Shostakovich,
-        Romance, from Lieutenant Kije (KEE-yeh) by Serge Prokofiev,
-        Night on Bald Mountain by Modest Mousorgsky,
-        and Finale to The Firebird by Igor Stravinsky
+        Shine On, Diamond Moon,
+        Palladio,
+        Diamonds and Pearls,
+        Shine Bright Like a Diamond,
+        and Lucy in the Sky with Diamonds
 
     notes: >
-        Del Mar gives very special thanks to their awesome staff and amazing parent teams for their
-        tireless work on behalf of the students. You are quite simply, the best!
+        Please join us in celebrating 60 years of Del Mar High School's award winning Marching Band and Colorguard!!
+        None of this would be possible without the amazing Parent Support Team who raise money, provide meals, and sew surprise garments for us!
+        They also want to thank their hosts at both Amador Valley this morning and here at Foothill High School for hosting this seminal event every year.
 
 concert:
-    lastUpdated: 2018-10-10 12:13:09 -07
+    lastUpdated: 2019-10-10 18:33:08 -07
 
-    nickname: "Del Mar High School Concert Band"
+    nickname: "Del Mar High School Symphonic Band"

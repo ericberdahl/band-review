@@ -3,20 +3,42 @@ name: "Pacheco High School"
 city: "Los Banos, CA"
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2019-10-04 18:01:05 -07
 
-    nickname: "Pacheco High School Marching Band"
+    nickname: "Pacheco High School Band and Guard"
 
     directors:
     -   "Rogelio Garibay (roh-HAY-lee-oh gah-REE-bay)"
 
     staff:
+    -   title: "auxiliary coach"
+        members:
+        -   "Jeanne Fournier"
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Ivanna Rodrigeuz"
+    
+    -   title: "ID unit captain"
+        members:
+        -   "Bethany Garcia"
+    
+    -   title: "percussion captain"
+        members:
+        -   "Jake Carrillo"
+    
+    -   title: "flag captain"
+        members:
+        -   "Vanessa Fabian"
 
-    music: 
+    music: "The Voice of the Guns by Kenneth J. Alford, arranged by Harold R. Gore"
+
+    notes: >
+        The Pacheco Band and Guard students would like to thank the parents for their continued support throughout the marching season.
+        You truly make a difference and we would not be able to do it without you!
 
 concert:
-    lastUpdated: 2018-10-12 17:38:31 -07
+    lastUpdated: 2019-10-04 18:01:05 -07
 
-    nickname: "Pacheco High School Concert Band"
+    nickname: "Pacheco High School Symphonic Band"

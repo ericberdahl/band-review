@@ -3,7 +3,7 @@ name: "Franklin High School"
 city: "Elk Grove, CA"
 
 parade:
-    lastUpdated: 2018-10-17 15:11:55 -07
+    lastUpdated: 2019-10-18 14:48:08 -07
 
     nickname: "Franklin Wildcats Sound Power Marching Band"
 
@@ -14,7 +14,7 @@ parade:
     -   title: "instructed by"
         members:
         -   "Stacy Her"
-        -   "Marina Her"
+        -   "Alex Pfeifer"
 
     leaders:
     -   title: "drum major"
@@ -23,20 +23,20 @@ parade:
 
     -   title: "auxiliary captain"
         members:
-        -   "Brandi Fong"
+        -   "Jordan Ruggles"
 
     -   title: "percussion captain"
         members:
-        -   "Jordan Vail"
+        -   "Jon Ryan Natividad"
 
-    music: "Royal Ceremony by Roger Swift"
+    music: "The Coldstream Colonel by James Scott"
     
     notes: >
 
 concert:
-    lastUpdated: 2018-10-17 15:11:55 -07
+    lastUpdated: 2019-10-18 14:48:08 -07
 
-    nickname: "Franklin High School Concert Band"
+    nickname: "Franklin High School Wind Ensemble"
 
 winterguard:
     lastUpdated: 1

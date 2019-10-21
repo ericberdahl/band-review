@@ -2,19 +2,6 @@ name: "Mount Eden High School"
 
 city: "Hayward, CA"
 
-students:
--   &misty-nguyen "Misty Nguyen"
--   &edwin-ramos "Edwin Ramos"
--   &hamaad-hassan "Hammaad Hassan"
--   &adriel-flores "Adriel Galbreath-Flores"
-
-staff:
--   &adriano-tecson "Adriano Tecson"
--   &tom-dreiman "Tom Dreiman"
--   &elvis-ordiniza "Elvis Ordiniza"
--   &eliza-huerta "Eliza Huerta"
--   &jackie-rodriguez "Jackie Rodriguez"
-
 parade:
     lastUpdated: 2019-09-18 17:04:55 -07
 
@@ -27,7 +14,7 @@ parade:
     -   title: "instructed by"
         members:
         -   "Daniel Watson"
-        -   *tom-dreiman
+        -   "Tom Dreiman"
         -   "Cristian Gonzales"
 
     leaders:
@@ -41,7 +28,7 @@ parade:
 
     -   title: "percussion captain"
         members:
-        -   *adriel-flores
+        -   "Adriel Galbreath-Flores"
     
     -   title: "captain"
         members:
@@ -67,7 +54,7 @@ fieldshow:
         members:
         -   "Daniel Watson"
         -   "Wayne Silao Jopanda"
-        -   *tom-dreiman
+        -   "Tom Dreiman"
         -   "Cristian Gonzales"
 
     leaders:
@@ -81,7 +68,7 @@ fieldshow:
 
     -   title: "percussion captain"
         members:
-        -   *adriel-flores
+        -   "Adriel Galbreath-Flores"
     
     -   title: "captain"
         members:
@@ -93,10 +80,10 @@ fieldshow:
         music by Kevin Cato. I. Glorified Struggle II. Healing and Hope III. Trials"
 
     description: >
-        Our concept depicts the struggle of a boy with cancer that is striving for survival and his journey to find the vital cure.
-        This boy's name...is Hammaad Hassan and he is one of us. 
 
     notes: >
+        Our concept depicts the struggle of a boy with cancer that is striving for survival and his journey to find the vital cure.
+        This boy's name… is Hammaad Hassan and he is one of us. 
 
 concert:
     lastUpdated: 2018-10-08 11:12:32 -07

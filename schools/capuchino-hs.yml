@@ -3,7 +3,7 @@ name: "Capuchino High School"
 city: "San Bruno, CA"
 
 parade:
-    lastUpdated: 2018-10-04 19:12:27 -07
+    lastUpdated: 2019-10-18 15:56:12 -07
 
     nickname: "Mustang Marching Band"
 
@@ -11,40 +11,39 @@ parade:
     -   "Scott Souza"
 
     staff:
-    -   title: "percussion instructor"
-        members:
-        -   "Kyle Baldwin"
-    
-    -   title: "colorguard instructors"
+    -   title: "guard director"
         members:
         -   "Pamela Ortiz"
-        -   "Alice Hudson"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Francisco Consolacion (Francisco cohn-soh-LAY-shun)"
+        -   "Alannah Linden"
 
     -   title: "auxiliary captains"
         members:
-        -   "Makayla Carrico"
         -   "Camila Martinez"
+        -   "TJ Moyrong"
 
     -   title: "percussion captain"
         members:
-        -   "Jonathan Cayaban"
+        -   "Aidan Steckley"
 
-    music: "King's Glory by Harm Evers"
+    music: "A Slavic Farewell by Vasilij I Agapkin (vah-SEE-lee EYE ah-GAHP-kihn), arranged by John R. Bourgeois"
 
     notes: >
-        The Mustang Marching Band has been awarded
-        1st Place Division 2A Band Del Mar Band Review 2017,
-        2nd Place Division 1A Concert Band Del Mar Band Review 2017,
-        1st Place Division C Concert Band at Foothill 2017,
-        3rd Place Division C Marching Band Fairfield Tournament of Champions 201,
-        and 3rd Place Division C Concert Band Fairfield Tournament of Champions 2017.
+        The Capuchino Marching Band is in it's 4th year of a rebuild, starting with 22 students in the Band Program in 2016 to the 60 instrumentalists and 11 Guard Members you see here today.
+        The Marching Mustangs are excited to continue to grow and perform throughout Northern California.
+        The Mustang Marching Band was the first place winner of the Division 2A Bands at last years Foothill Band Review.
+        This year the Capuchino Band earned first place in Division 3A at the Feste Del Mar Band Review in San Jose.
+        The Mustang Marching Band is excited to return to Pleasanton to perform for you today.  
+
+        The Capuchino Marching Band would like to extend a special thank you to the Foothill Band Boosters and all organizers of todays event
+        and would like to especially thank the Capuchino Music Boosters for their undying support of the rebirth of Music at Capuchino
+        and for ensuring that our wonderful musicians are well cared for,
+        fed and groomed for each and every event in which we participate.  
 
 concert:
-    lastUpdated: 2018-10-04 19:12:27 -07
+    lastUpdated: 2019-10-18 15:56:12 -07
 
-    nickname: "Capuchino High School Concert Band"
+    nickname: "Capuchino Symphonic Band"

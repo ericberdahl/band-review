@@ -3,7 +3,7 @@ name: "Franklin High School"
 city: "Stockton, CA"
 
 parade:
-    lastUpdated: 2017
+    lastUpdated: 2019-10-20 09:55:25 -07
 
     nickname: "Marching Yellowjackets"
 
@@ -15,34 +15,28 @@ parade:
         members:
         -   "Jerren Robinson (JEHR-rehn Robinson)"
 
-    -   title: "guard instructor"
-        members:
-        -   "Alejandro Moreno"
-
     -   title: "percussion instructor"
         members:
         -   "Edward Brown"
+
+    -   title: "guard instructor"
+        members:
+        -   "Alejandro Moreno"
 
     leaders:
     -   title: "drum major"
         members:
         -   "Arianna Flores"
 
-    -   title: "flag captain"
+    -   title: "auxiliary captains"
         members:
-        -   "Azelea Acevez (ah-ZAY-lee-ah ah-SEH-vez)"
-
-    -   title: "rifle captain"
+        -   "Cassandra Alvarez"
+        -   "Jazmin Cervantes"
+        
+    -   title: "percussion captain"
         members:
-        -   "Brisa Madrigal"
+        -   "Brandon Urrea (Brandon UH-ree-ah)"
 
-    -   title: "id captain"
-        members:
-        -   "Magali Pizana"
+    music: "Voice of the Guns by Kenneth J. Alford, arranged by Harold R. Gore"
 
-    -   title: "percussion captains"
-        members:
-        -   "John Swing"
-        -   "Julio Garibay (Julio gah-REE-bay)"
-
-    music: "Invercargil (ihn-vehr-CAHR-gihl) by Alex F. Lithgow, arranged by Andrew Balent (Andrew BAY-lehnt)"
+    notes:

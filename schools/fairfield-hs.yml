@@ -2,16 +2,8 @@ name: "Fairfield High School"
 
 city: "Fairfield, CA"
 
-students:
--   &clay-ellison "Clay Ellison"
--   &jaden-james "Jaden James"
--   &chloe-tope "Chloe Tope"
--   &lucero-vega "Lucero Vega"
--   &norber-villaluna "Norber Villaluna"
--   &mitchell-wells "Mitchell Wells"
-
 parade:
-    lastUpdated: 2018-10-12 12:57:15 -07
+    lastUpdated: 2019-10-18 14:41:38 -07
 
     nickname: "Scarlet Brigade"
 
@@ -19,49 +11,51 @@ parade:
     -   "Brian K. Swetland"
 
     staff:
-    -   title: "bagpipe instructor"
+    -   title: "guard instructors"
         members:
-        -   "Phillip Elder"
-
-    -   title: "guard instructor"
-        members:
-        -   "Fou Salee (foo SAY-lee)"
+        -   "Courtney Bojorquez (Courtney boh-HOR-kez)"
+        -   "Annika Butler (AH-nihk-ah Butler)"
 
     -   title: "percussion instructors"
         members:
         -   "Shealley Lee (she-AH-lee Lee)"
         -   "Jonathan Lee"
 
+    -   title: "bagpipe instructor"
+        members:
+        -   "Phillip Elder"
+
     leaders:
     -   title: "drum major"
         members:
-        -   *clay-ellison
+        -   "Mitchell Wells"
 
-    -   title: "auxiliary captain"
+    -   title: "auxiliary captains"
         members:
-        -   *lucero-vega
+        -   "Amy Echeverria"
+        -   "Jessica Altares"
 
     -   title: "percussion captain"
         members:
-        -   *chloe-tope
+        -   "Jaden James"
 
     -   title: "pipe major"
         members:
-        -   *norber-villaluna
+        -   "Norbert Villaluna"
 
     -   title: "pipe sergeant"
         members:
-        -   *mitchell-wells
+        -   "Chales Hendrix"
 
-    -   title: "drum sergeant"
+    -   title: "drum captain"
         members:
-        -   *jaden-james
+        -   "Alyssa Manasala"
 
-    music: "Invictus by Karl L. King and arranged by Andrew Glover"
+    music: "The Champion by Arthur Graham"
 
     notes: >
 
 concert:
-    lastUpdated: 2018-10-12 12:57:15 -07
+    lastUpdated: 2019-10-18 14:41:38 -07
 
-    nickname: "Fairfield High School Concert Band"
+    nickname: "Fairfield High School Wind Ensemble"

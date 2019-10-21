@@ -2,16 +2,8 @@ name: "Benicia Middle School"
 
 city: "Benicia, CA"
 
-students:
--   &ava-cheung "Ava Cheung (AY-vah chung)"
--   &cedric-ham "Cedric Ham"
--   &rosalie-sackett "Rosalie Sackett"
--   &maya-schwartz "Maya Schwartz"
--   &tara-thompson "Tara Thompson"
--   &keanu-villanueva "Keanu Villanueva"
-
 parade:
-    lastUpdated: 2018-10-12 14:58:12 -07
+    lastUpdated: 2019-10-10 14:09:10 -07
 
     nickname: "Benicia Middle School Viking Band"
 
@@ -22,44 +14,33 @@ parade:
     -   title: "instructed by"
         members:
         -   "Jamie Roman"
-        -   "Vianca Jiminez"
-        -   "Matt Lowe"
-        -   "Zach Clay"
+        -   "Conrado Escudero (Conrado eh-scoo-DEH-roh)"
 
     leaders:
     -   title: "drum major"
         members:
-        -   *cedric-ham
+        -   "Phoebee Crawford"
 
     -   title: "auxiliary captains"
         members:
-        -   *maya-schwartz
-        -   *rosalie-sackett
+        -   "Aristen Bocaling (ehr-IH-sten BOH-cah-ling)"
+        -   "Alana Del Castillo"
 
     -   title: "percussion captain"
         members:
-        -   *keanu-villanueva
+        -   "Shannon-Rose Hill"
 
-    -   title: "rifle captain"
-        members:
-        -   *tara-thompson
-
-    -   title: "flag captain"
-        members:
-        -   *ava-cheung
-
-    music: "Lexington March by Karl King and arranged by James Swearingen (James SWEHR-ing-ehn)"
+    music: "Gallant Marines by Karl L. King, arranged by James Swearingen (James SWEHR-ing-ehn)"
     
     notes: >
-        The Benicia Middle School Color Guard has placed at all of their NCBA competitions for more than 10 years.
-        The members of the  Viking Drumline are the 2018 champions of the Northern California Band Association Advanced Winter Percussion.
-        They would like to thank all of their parents and boosters.
-        Without you, none of this would be possible!
+        The Viking Band received a unanimous superior rating at their last CMEA festival and had the honor of marching down Main Street in Disneyland earlier this year.
+        The Viking Drumline, under the tutelage of Matt Lowe and Zach Clay are the 2019 champions of the Northern California Percussion Alliance.
+        They hope you enjoy their show!
 
 concert:
-    lastUpdated: 2018-10-12 14:58:12 -07
+    lastUpdated: 2019-10-10 14:09:10 -07
 
-    nickname: "Benicia Middle School Concert Band"
+    nickname: "Benicia Middle School Symphonic Band"
 
 winterguard-novice:
     lastUpdated: 2018

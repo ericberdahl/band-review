@@ -3,31 +3,68 @@ name: "Arroyo High School"
 city: "San Lorenzo, CA"
 
 fieldshow:
-    lastUpdated: 2017
+    lastUpdated: 2019-10-10 18:31:09 -07
 
     nickname: "Marching Dons"
 
     directors:
     -   "Vernon Miyata"
 
+    staff:
+    -   title: "musical arranger"
+        members:
+        -   "Christian Gerardo"
+
+    -   title: "visual designer"
+        members:
+        -   "Kathleen Keating"
+
+    -   title: "front ensemble instructor"
+        members:
+        -   "Christian Gerardo"
+
+    -   title: "batterie instructor"
+        members:
+        -   "Kathleen Keating"
+
+    -   title: "auxiliary instructor"
+        members:
+        -   "Doug Slocum"
+
     leaders:
     -   title: "drum major"
         members:
-        -   "Miranda Rocco"
+        -   "Dylan Navarrete"
 
     -   title: "auxiliary captain"
         members:
-        -   "Mya Chaplin (MY-uh Chaplin)"
+        -   "Sandy Le"
 
     -   title: "percussion captain"
         members:
-        -   "Mikaela Gomez (mee-kuh-ELLA Gomez)"
+        -   "Vincent Lin"
 
-    -   title: "co-captain"
+    -   title: "woodwind captain"
         members:
-        -   "Dillan Starr"
+        -   "Sophia Duong"
+        
+    -   title: "brass captain"
+        members:
+        -   "Peter Tran"
 
-    program: "1001 Arabian Nights"
+    program: "Fly Me To Paradise"
 
-    music: "Scheherazade by Nikolai Rimsky-Korsakov"
+    music: >
+        One Day I’ll Fly Away by Will Jennings and Joe Sample
+        and original music by Christian Gerardo
 
+    description: >
+        Fly With Me to Paradise is dedicated to an Arroyo High school Student who recently passed away.
+        He had been a current Arroyo HS Music Department until his passing, and who performed instruments from saxophone to timpani.
+        A very brave and outgoing person who loved to play music, he lived life to its fullest!
+        We are deeply saddened by his passing and will always remember him.
+        It’s not goodbye, but until we meet again.
+
+    notes: >
+        The Arroyo Marching Dons are grateful for the never-ending support of our Music Boosters.
+        Thank you, parents, for making this a great season for us!

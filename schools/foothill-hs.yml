@@ -3,7 +3,6 @@ name: "Foothill High School"
 city: "Pleasanton, CA"
 
 students:
--   &alex-zhang "Alex Zhang"
 -   &ayla-johnson "Ayla Johnson (AY-lah Johnson)"
 -   &lucy-lee "Lucy Lee"
 -   &nate-huey "Nate Huey"
@@ -20,7 +19,7 @@ students:
 parade:
     isHost: true
 
-    lastUpdated: &band-review-updated 2018-10-15 17:14:06 -07
+    lastUpdated: &band-review-updated 2019-10-19 15:23:03 -07
 
     nickname: &band-nickname "Foothill High School Marching Band and Color Guard"
 
@@ -28,49 +27,47 @@ parade:
     -   "Efrain Hinojosa (EH-fren ee-no-HO-sah)"
     -   "Erik Nishimori (EH-rik nih-shee-MO-ree)"
 
-    staff: &band-staff
+    staff: &band-review-staff
     -   title: "instructed by"
         members:
-        -   &chris-cyr "Chris Cyr"
-        -   &charles-cachero "Charles Cachero"
-        -   &will-edmonds "Will Edmonds"
-        -   &alex-pfiefer "Alex Pfiefer"
-        -   &connor-carroll "Connor Carroll"
-        -   &randy-chow "Randy Chow"
-        -   "Michelle Cheng"
+        -   "Chris Cyr"
+        -   "Charles Cachero"
+        -   "Alex Pfiefer"
+        -   "Ryan Myers"
+        -   "Connor Carroll"
+        -   "Abbi Castillo"
         -   "Mikey Sowell"
-        -   "Sharon Parker"
         -   "Marvin Reed"
-        -   "Grace Edgar"
-        -   "Bailey Yang"
-        -   "Ian Crane"
+        -   "Bryan Jimenez"
+        -   "Sharon Parker"
+        -   "Will Edmonds"
+        -   "Matt Sieve"
+        -   "Nick Duenas"
+        -   "Alexina Manriquez"
+        -   "Andrew Lawton"
         -   "Makoto McCann"
         -   "Karen Pham"
-        -   "Andrew Lawton"
-        -   "Audrey Esmenda"
-        -   "Nick Duenas"
-        -   "Marcus Hersh"
-        -   "Alexina Manriquez"
 
     leaders:
     -   title: "drum major"
         members:
-        -   *alex-zhang
+        -   "Alex Zhang"
 
     -   title: "auxiliary captains"
         members: &auxiliary-captains
-        -   *ayla-johnson
-        -   *lucy-lee
+        -   "Isabella Alfonso"
+        -   "Victoria Tang"
 
     -   title: "percussion captain"
         members: &percussion-captains
-        -   *nate-huey
+        -   "Zoe Chidambaram"
     
-    music: "Invictus by Karl King, arranged by Andrew Glover"
+    music: "Kinizsi by Julius Fucik"
 
     notes: >
-        The Foothill High Marching Band would like to thank our boosters and our school district for their support of music in our schools.
-        A special thanks goes out to our Grand Marshalls, Sebastian Bull and Ruth Highstreet.
+        The Foothill Marching Band would like to thank our Parent Booster organization for their support in hosting one of the best events in NCBA.
+        We would also like to thank Mayor Jerry Thorne and all involved with the City of Pleasanton for assisting us with the event.
+        Lastly, we would like to thank the Pleasanton Unified School District for their support of music in our schools.
 
 fieldshow:
     isHost: true
@@ -81,14 +78,14 @@ fieldshow:
 
     directors: *directors
 
-    staff: *band-staff
+    staff: *band-review-staff
 
     leaders:
     -   title: "drum majors"
         members:
-        -   *zoey-castillo
-        -   *derek-dressler
-        -   *michael-lampson
+        -   "Derek Dressler"
+        -   "Michael Lampson"
+        -   "Sophia Kang"
 
     -   title: "auxiliary captains"
         members: *auxiliary-captains
@@ -96,20 +93,13 @@ fieldshow:
     -   title: "percussion captain"
         members: *percussion-captains
 
-    -   title: "brass captain"
-        members:
-        -   *jonathan-min
+    program: "The Map Makers"
 
-    -   title: "woodwind captain"
-        members:
-        -   *connor-iwata
-
-    program: "Always Now"
-
-    music: "original music by Mike Jackson and Kevin Shah"
+    music: "original Music by Mike Jackson and Kevin Shah"
 
     notes: >
-        The Foothill High Marching Band would like to thank the Foothill Band Boosters, our site administration, the Pleasanton Unified School District, and the community at large for their support of music in our schools.  
+        The Foothill Marching Band would like to send a huge THANK YOU to our booster organization for putting on such a wonderful event.
+        We would also like to thank the Foothill High School Administration for all of their support in helping us put on this event.
 
 winterguard:
     isHost: true

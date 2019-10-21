@@ -9,19 +9,28 @@ parade:
     -   "Kris Harper"
 
 fieldshow:
-    lastUpdated: 2018-10-04 19:09:30 -07
+    lastUpdated: 2019-10-17 16:24:45 -07
 
     nickname: "Whitney High School Marching Band"
 
     directors:
     -   "Kasey Searles"
     
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Kristyn Lorek"
+        -   "Eric Wong"
+        -   "Alyssa Hannigan"
+        -   "Brianna Padilla"
+        -   "Austin Willems"
+
     leaders:
     -   title: "drum major"
         members:
-        -   "Carl Porras"
+        -   "Victoria Quaranta"
 
-    program: "Above the Stars"
+    program: "Azure"
 
     music: 
 

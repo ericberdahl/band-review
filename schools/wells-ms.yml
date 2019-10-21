@@ -2,15 +2,10 @@ name: "Wells Middle School"
 
 city: "Dublin, CA"
 
-students:
--   &grace-holmes "Grace Holmes"
--   &gabe-rouse "Gabe Rouse (Gabe RAH-oo-s)"
--   &kate-wiser "Kate Wiser"
-
 parade:
-    lastUpdated: 2018-10-24 10:41:24 -07
+    lastUpdated: 2019-10-18 16:22:30 -07
 
-    nickname: "Roadrunner Band"
+    nickname: "Wells Middle School Marching Band"
 
     directors:
     -   "Erik Bertelson"
@@ -18,25 +13,29 @@ parade:
     staff:
     -   title: "instructed by"
         members:
-        -   "Meghan Van Lare"
         -   "Michala Viazzo (mih-CAH-lah Viazzo)"
-        -   "Emeline Crowder"
+        -   "Meghan Van Larre"
+        -   "Emiline Crowder"
+        -   "Ryan Small"
+        -   "Marissa DeMello"
 
     leaders:
     -   title: "drum major"
         members:
-        -   *gabe-rouse
+        -   "Anthony Vuong"
 
     -   title: "auxiliary captains"
         members:
-        -   *grace-holmes
-        -   *kate-wiser
+        -   "Erin Lewis"
+        -   "Ashley May"
+        -   "Andre Lee"
 
-    music: "Host of Freedom by K.L. King"
+    music: "Lexington March by Karl King"
 
-    notes:
+    notes: >
+        Wells Middle School Marching Band gives a big thank you to our Wells parents for their wonderful help and support for our music students.
 
 concert:
-    lastUpdated: 2018-10-24 10:41:24 -07
+    lastUpdated: 2019-10-18 16:22:30 -07
 
     nickname: "Wells Middle School Concert Band"

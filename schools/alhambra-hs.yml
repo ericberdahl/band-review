@@ -3,15 +3,30 @@ name: "Alhambra High School"
 city: "Martinez, CA"
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2019-10-20 10:17:56 -07
 
-    nickname: "Alhambra High School Marching Band"
+    nickname: "Alhambra High School Marching Band and Auxiliary"
 
     directors:
     -   "Sara Stafford"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Jessica Aduan"
+        -   "Julie Carrasco"
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Colbin Trew"
 
-    music: 
+    -   title: "auxiliary captain"
+        members:
+        -   "Amaya DeShasier (Amaya dih-SHAY-see-ehr)"
+
+    music: "Sound Off by John Philip Sousa"
+
+    notes: >
+        Alhambra High School is incredibly excited to be at the Foothill Band Review as this is our first time at this event!
+        Thank you to our amazing Boosters and wicked supportive principal, Mr. Chamberlain for helping us get here! Go Dogs!

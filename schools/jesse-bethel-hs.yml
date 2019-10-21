@@ -2,14 +2,8 @@ name: "Jesse Bethel High School"
 
 city: "Vallejo, CA"
 
-students:
--   &florence-cadiz "Florence Cadiz"
--   &jasmine-cahayag "Jasmine Cahayag (Jasmine cah-HAH-yahg)"
--   &hope-marie-david "Hope Marie David"
--   &michaela-perez "Michaela Perez"
-
 parade:
-    lastUpdated: 2018-10-12 08:27:58 -07
+    lastUpdated: 2019-10-09 08:32:21 -07
 
     nickname: "Jesse Bethel High School Band"
 
@@ -19,29 +13,31 @@ parade:
     staff:
     -   title: "instructed by"
         members:
-        -   "Paige Peterson"
         -   "Julius Salanga"
+        -   "Paige Peterson"
+        -   "Jerome Muynila (Jerome muy-NIH-lah)"
 
     leaders:
     -   title: "drum major"
         members:
-        -   *michaela-perez
+        -   "Jaelen Manuel"
 
     -   title: "auxilliary captains"
         members:
-        -   *hope-marie-david
-        -   *jasmine-cahayag
+        -   "Jaelynn Amboy"
+        -   "Jayanna Flores"
+        -   "Destiny Tilson"
 
     -   title: "percussion captain"
         members:
-        -   *florence-cadiz
+        -   "Jet Cortez"
 
-    music: "Mercury by Jan Van Der Roost"
+    music: "In Storm and Sunshine by J.C. Heed"
 
     notes: >
-        Jesse Bethel High School Band says thank you to the JBHS Band Boosters for their endless support!
-
+        The Jesse Bethel High School Band gives special thanks to the Jesse Bethel High School Band Boosters.
+        
 concert:
-    lastUpdated: 2018-10-12 08:27:58 -07
+    lastUpdated: 2019-10-09 08:32:21 -07
 
     nickname: "Jesse Bethel High School Concert Band"

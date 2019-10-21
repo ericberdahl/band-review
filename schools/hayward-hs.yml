@@ -3,19 +3,39 @@ name: "Hayward High School"
 city: "Hayward, CA"
 
 parade:
-    lastUpdated: 2017
+    lastUpdated: 2019-10-17 11:21:06 -07
 
     nickname: "Pride of Hayward High"
 
     directors: &directors
     -   "Nicholas Tocco (Nicolas TOE-ko)"
 
+    staff:
+    -   title: "color guard coach"
+        members:
+        -   "Katrina Granados (Katrina grah-NAH-dohs)"
+    
+    -   title: "percussion coach"
+        members:
+        -   "Adriano Tecson"
+
     leaders:
     -   title: "drum major"
         members:
-        -   "Katrina Granados (Katrina grah-NAH-dohs)"
+        -   "Cale Lee-Takaki"
+    
+    -   title: "auxiliary captain"
+        members:
+        -   "Jillian Villian"
 
-    music: "A Slavic Farewell by Vasily Agapkin (vah-SEE-lee ah-GAHP-kihn)"
+    -   title: "percussion captain"
+        members:
+        -   "Jaydon Currier"
+
+    music: "Kinizsi by Julius Fucik, arranged by Mark Heter (Mark HEH-tehr)"
+
+    notes: >
+        The Pride of Hayward High thanks the Boosters, families, and students who keep this program thriving each year!
 
 winterguard:
     lastUpdated: 2019-03-14 10:38:06 -07

@@ -3,19 +3,47 @@ name: "Central Valley High School"
 city: "Ceres, CA"
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2019-10-19 21:58:14 -07
 
-    nickname: "Central Valley High School Marching Band"
+    nickname: "Marching Hawks"
 
     directors:
     -   "Lawrence Carbery"
 
     staff:
+    -   title: "drill and show design by"
+        members:
+        -   "Adrian Perez"
+
+    -   title: "choreographer and guard tech"
+        members:
+        -   "Alejandra Cazares"
+
+    -   title: "woodwind and marching tech"
+        members:
+        -   "Ross Valenzuela"
+
+    -   title: "battery tech"
+        members:
+        -   "Alex Lopez"
 
     leaders:
+    -   title: "drum majors"
+        members:
+        -   "Davian Barba"
+        -   "Anastasia Curiel"
 
-    program: 
+    -   title: "auxiliary captain"
+        members:
+        -   "Susana Macedo"
 
-    music: 
+    -   title: "percussion captain"
+        members:
+        -   "Donna Ibarra"
 
-    notes: 
+    program: "West Side Story"
+
+    music: "Tonight, Maria, Jet Song and more"
+
+    notes: >
+        Thank you Central Valley High School Band Boosters for all of your support and contributions.

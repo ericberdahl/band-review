@@ -3,15 +3,10 @@ name: "Benicia High School"
 city: "Benicia, CA"
 
 students:
--   &zoe-babot "Zoe Babot (ZOH beh-BOH)"
--   &lucas-barnard "Lucas Barnard"
 -   &steven-bui "Steven Bui"
--   &elijah-burckin "Elijah Burckin"
--   &kevin-insaurralde "Kevin Insaurralde (Kevin ihn-sow-RAHL-day)"
--   &lindsay-olson "Lindsay Olson"
 
 parade:
-    lastUpdated: 2018-10-12 12:17:02 -07
+    lastUpdated: 2019-10-11 12:52:11 -07
 
     nickname: "Benicia High School Panther Marching Band"
 
@@ -19,38 +14,34 @@ parade:
     -   "Patrick Martin"
 
     staff:
-    -   title: "assistant director"
+    -   title: "instructed by"
         members:
         -   "Aki Ross"
-
-    -   title: "color guard instructor"
-        members:
         -   "Kayla Ford"
 
     leaders:
     -   title: "drum major"
         members:
-        -   *elijah-burckin
+        -   "Elijah Burckin"
 
-    -   title: "color guard captains"
+    -   title: "auxiliary captains"
         members:
-        -   *steven-bui
-        -   *zoe-babot
-        -   *lindsay-olson
+        -   "Zoe Babot (ZOH beh-BOH)"
+        -   "Lindsay Olson"
 
     -   title: "percussion captains"
         members:
-        -   *kevin-insaurralde
-        -   *lucas-barnard
+        -   "Lucas Barnard"
+        -   "Kevin Insaurralde (Kevin ihn-sow-RAHL-day)"
 
-    music: "Glemdene by John R. Carr"
+    music: "The Wizard by George Allan, arranged by Aki Ross"
 
     notes:
 
 concert:
-    lastUpdated: 2018-10-12 12:17:02 -07
+    lastUpdated: 2019-10-11 12:52:11 -07
 
-    nickname: "Benicia High School Concert Band"
+    nickname: "Benicia High School Symphonic Band"
 
 winterpercussion:
     lastUpdated: 2018

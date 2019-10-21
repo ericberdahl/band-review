@@ -3,34 +3,61 @@ name: "Antioch High School"
 city: "Antioch, CA"
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2019-10-10 15:17:45 -07
 
-    nickname: "Antioch High School Marching Band"
+    nickname: "Pride of Antioch High School Panther Band and Color Guard"
 
-    directors:
+    directors: &band-review-directors
+    -   "Brooke David Kofford"
 
-    staff:
+    staff: &band-review-staff
+    -   title: "color guard advisor"
+        members:
+        -   "Maryann Peddicord"
 
-    leaders:
+    leaders: &band-review-leaders
+    -   title: "drum major"
+        members:
+        -   "Mariah Capote"
+    
+    -   title: "auxiliary captain"
+        members:
+        -   "Nicole Mendez"
 
-    music: 
+    -   title: "percussion captain"
+        members:
+        -   "Jenna Lozano"
+
+    music: "Bravura by Charles Duble"
+
+    notes: >
+        Last year the Pride of Antioch earned first place in Division 1A at the Grape Bowl Classic.
+        This year the band just earned second place in Division 2A at the Pitman Band Review.
+        The band would like to thank the Antioch Band Backers Association and all band and guard parents.
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2019-10-10 15:17:45 -07
 
     nickname: "Antioch High School Marching Band"
 
-    directors:
+    directors: *band-review-directors
 
-    staff:
+    staff: *band-review-staff
 
-    leaders:
+    leaders: *band-review-leaders
 
-    program: 
+    program: "Summer of Love 1967"
 
-    music: 
+    music: >
+        Aquarius,
+        I Can See for Miles,
+        Happy Together,
+        White Rabbit,
+        Turn Turn Turn,
+        and Let the Sunshine In
 
-    notes: 
+    notes: >
+        The Antioch High School Marching Band says thank you to the Antioch Band Boosters Association and all parents.
 
 winterguard:
     lastUpdated: 2019-03-13 12:27:59 -07

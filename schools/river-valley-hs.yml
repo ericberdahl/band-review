@@ -3,7 +3,7 @@ name: "River Valley High School"
 city: "Yuba City, CA"
 
 parade:
-    lastUpdated: &band-review-updated 2019-09-23 17:16:52 -07
+    lastUpdated: &band-review-updated 2019-10-18 08:36:10 -07
 
     nickname: &band-review-nickname "River Valley Falcon Marching Band"
 
@@ -11,14 +11,13 @@ parade:
     -   "Michael Taylor"
 
     staff: &band-review-staff
-    -   title: "color guard instructor"
-        members:
-        -   "Jovanie Romero"
-    -   title: "drumline instructor"
+    -   title: "instructed by"
         members:
         -   "Jason Fry"
+        -   "Jovanie Romero"
+        -   "Alexis Barragan"
 
-    leaders: &band-review-leaders
+    leaders:
     -   title: "drum major"
         members:
         -   "Alina Chavez"
@@ -28,14 +27,14 @@ parade:
         -   "Shirley Camacho"
         -   "Allyson Rodriguez"
         
-    -   title: "percussion captains"
+    -   title: "percussion captain"
         members:
         -   "Delaney Timms"
-        -   "Cheyenne Rodriguez"
     
     music: "Stars and Stripes Forever by John Philip Sousa"
 
-    notes: 
+    notes: >
+        The Falcon Marching Band would like to thank the River Valley band parents for all of their help at these competitions, without them this wouldn't be possible!
 
 fieldshow:
     lastUpdated: *band-review-updated
@@ -46,10 +45,27 @@ fieldshow:
 
     staff: *band-review-staff
 
-    leaders: *band-review-leaders
+    leaders:
+    -   title: "drum major"
+        members:
+        -   "Alina Chavez"
+    
+    -   title: "auxiliary captains"
+        members:
+        -   "Shirley Camacho"
+        -   "Allyson Rodriguez"
+        
+    -   title: "percussion captain"
+        members:
+        -   "Cheyenne Rodriguez"
+        -   "Delaney Timms"
 
-    program: "Into the Unknown"
+    program: "Beyond the Unknown"
 
-    music: "Into the Unknown by Patrick Manning and Beyond the Horizon by Rossano Galante"
+    music: >
+        Into the Unknown by Patrick Manning
+        and Beyond the Horizon by Rossano Galante
 
-    notes: 
+    notes: >
+        The Falcon Marching Band would like to thank the River Valley band parents for all of their help at these competitions, without them this wouldn't be possible!
+
