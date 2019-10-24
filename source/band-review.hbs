@@ -21,15 +21,16 @@ units:
 sponsors-general: &sponsors-general
 -   "Ben Woo and Salesforce"
 -   "the Sowa Family"
--   "the Chabrier Family"
 -   "Liti Nomics, Inc and the Pinsonneault Family"
 -   "Neumanali Restaurant and the Dreyfus family"
--   "Dr. Niko Stathopoulos at San Ramon Valley Dentistry"
+-   "Dr. Niko Stathopoulos and San Ramon Valley Dentistry"
+-   "the Chabrier Family"
 -   "the Choi Family"
+-   "the Saikomol Family"
+
+version: "2.0"
 
 parade:
-    version: 2.0
-
     grand_marshall:
         title: "Grand Marshal"
         members:
@@ -90,11 +91,9 @@ parade:
     awards_location: "Amador Valley High School Stadium"
 
 fieldshow:
-    version: 2.0
-
     start_time: "4:15pm"
 
-    anthem_performer: "<<foothill student>>"
+    anthem_performer: "Foothill Chamber Choir and Rhythm and Blue singer, Kylie Pickard (Kylie pih-KAHRD)"
 
     lineup:
     -   ref: "river-valley-hs"
@@ -131,10 +130,65 @@ fieldshow:
         #        presenter: "Thomas Goebel"
         #        dedication: "the Foothill Band and their favorite trumpet section"
         #        message: "Way to go, Thomas!"
+        -   place: "3rd place brass"
+            sponsors:
+            -   sponsor: "the Choi Family"
+                message: "It was a profound experience for Clarence to be in the marching band family for three years!"
+
+        -   place: "2nd place brass"
+            sponsors:
+            -   sponsor: "the Chabrier Family"
+
+        -   place: "2nd place percussion"
+            sponsors:
+            -   sponsor: "the Pinsonneault Family"
+                message: >
+                    Congrats to Nicholas and all the seniors for four years of Marching Band!
+                    We have loved watching you and all the percussion kids perform.
+                    Love mom, dad, Hayley, Chloe, and Jackson.
+
+        -   place: "1st place percussion"
+            sponsors:
+            -   sponsor: "the Sowa Family"
+                message: >
+                    The Sowa family thanks the Foothill Music Program for the many years of support and entertainment.
+
+        -   place: "2nd place 4A"
+            sponsors:
+            -   sponsor: "Dr. Niko Stathopoulos and San Ramon Valley Dentistry"
+                message: >
+                    We are happy to be part of 45th Foothill Band Review!
+                    Your music puts smiles on our faces!
+                    Let us take care of your smile…
+                    Come visit San Ramon Valley Dentistry!
+                    Dr. Nikolas Stathopoulos and Staff!
+                    We will put the music in your smile!
+
+        -   place: "2nd place 5A"
+            sponsors:
+            -   sponsor: "Neumanali and the Dreyfus family"
+                message: >
+                    Holden Slade - We are so proud of you and excited for your first year marching!
+                    Continue to work hard and play hard!
+                    Love, Mom, Dad, Grandma and Grandpa and Auntie Cindy.
+
+        -   place: "Grand Sweepstakes"
+            sponsors:
+            -   sponsor: "the Woo Family with Salesforce"
+                message: >
+                    To the Foothill Pit Gang: I’m super proud of y’all and how much this pit has grown since I graduated.
+                    I can’t wait to come see your show in person (maybe sooner than you think).
+
+
+                    To Joshie: Just wanted to say I’m also proud of your growth as a musician.
+                    You’ve accomplished a lot from the moment you decided you were too cool to do percussion like your sister.
+                    I’ll return from SLO to bug you soon!
+
+
+                    Much love,
+                    Melanie (snacklord)
 
 concert:
-    version: 2.0
-    
     lineup:
     -   ref: "livermore-hs"
     -   ref: "irvington-hs"
@@ -168,7 +222,7 @@ concert:
 ---
 = {{show.citation}} Announcer's Book: {{ x-formatDate "MMMM Do, YYYY" show.date tz='' }}
 {{announcer.name}} <{{announcer.email}}>
-Printed on {{ x-formatDate "MMMM DD, YYYY h:mma zz" _generationDate }}
+v{{version}}, {{ x-formatDate "MMMM DD, YYYY HHmm" _generationDate }}
 :toc:
 
 == Band Review - Checkup

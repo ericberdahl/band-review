@@ -3,7 +3,7 @@ name: "El Capitan High School"
 city: "Merced, CA"
 
 parade:
-    lastUpdated: 2019-09-30 14:19:31 -07
+    lastUpdated: 2019-10-21 13:26:26 -07
 
     nickname: "Guacho Marching Brigade"
 
@@ -11,18 +11,18 @@ parade:
     -   "Maria Brouillard (Maria BROO-ih-yard)"
 
     staff:
-    -   title: "color guard coaches"
+    -   title: "color guard staff"
         members:
         -   "Jesus Chavez"
         -   "Aris Sandoval"
         -   "Ilias Romero"
 
-    -   title: "percussion coaches"
+    -   title: "percussion staff"
         members:
         -   "Jay Wheeler"
         -   "Zack Robinson"
-        -   "Cynthia Garcia"
         -   "Felipe Trevino"
+        -   "Cynthia Garcia"
 
     leaders:
     -   title: "drum major"
@@ -32,5 +32,5 @@ parade:
     music: "A Slavic Farewell by Vasilij Ivanovitj Agapkin (vah-SEE-lee ih-VAHN-oh-vich ah-GAHP-kihn), arranged by John R. Bourgeois"
 
     notes: >
-        The Gaucho Marching Brigade is in its seventh year of existence, and for the last four years has placed first in their division or won sweepstakes at every single band review they've entered.
+        The Gaucho Marching Brigade is in its seventh year of existence, and for the last four years has placed first in their division or won sweepstakes at every single band review they've participated in.
         They would like to give a huge thank you to the music boosters, friends, families, and Merced Union High School District administration for making their participation here today possible.

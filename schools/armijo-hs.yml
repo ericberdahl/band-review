@@ -3,16 +3,29 @@ name: "Armijo High School"
 city: "Fairfield, CA"
 
 parade:
-    lastUpdated: 2017
+    lastUpdated: 2019-10-21 17:06:57 -07
 
     nickname: "Armijo Super Band"
 
     directors:
     -   "Louise B Jacob"
 
-    leaders:
-    -   title: "drum major"
+    staff:
+    -   title: "instructed by"
         members:
-        -   "Maiann Le (MY-anne LAY)"
+        -   "Collin Apperson"
+        -   "Lindsey Mai (Lindsey My)"
 
-    music: "Number 3 Fighter Squadron by Brian Cunningham"
+    leaders:
+    -   title: "drum majors"
+        members:
+        -   "Raymond Houston"
+        -   "Aleia Carrasca"
+    
+    -   title: "auxiliary captain"
+        members:
+        -   "Maria Villa Marquez"
+
+    music: "Blue Devils (The Kensington) by Charles Williams"
+
+    notes:

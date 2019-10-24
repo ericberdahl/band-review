@@ -3,62 +3,85 @@ name: "Dublin High School"
 city: "Dublin, CA"
 
 fieldshow:
-    lastUpdated: 2018-10-18 14:57:28 -07
+    lastUpdated: 2019-10-21 18:45:59 -07
 
     nickname: "Irish Guard Marching Band and Color Guard"
 
     directors:
-    -   "Elliot J. Polot"
+    -   "Elliot Polot"
 
     staff:
-    -   title: "instructed by"
+    -   title: "drill staff"
         members:
-        -   "Rob Van Loben Sels"
-        -   "Russell Olmstead"
+        -   "Aaron Hines"
+    
+    -   title: "show design and percussion caption head"
+        members:
+        -   "Chris Cyr"
+
+    -   title: "percussion staff"
+        members:
+        -   "Charles Cachero"
+        -   "Connor Carroll"
         -   "Justin Shebert"
-        -   "Chris Morales"
-        -   "Antony Ruiz"
-        -   "Brian Ward"
+
+    -   title: "brass caption head"
+        members:
+        -   "Nick Garcia"
+
+    -   title: "colorguard caption head"
+        members:
+        -   "Fou Saelee"
+
+    -   title: "colorguard staff"
+        members:
+        -   "Paraskevi Constantinides"
         -   "Kyle Koch"
-        -   "Annika Butler"
-        -   "Mike Sowell"
-        -   "Adam Borden"
+
+    -   title: "visual staff"
+        members:
         -   "Nico Peruzzi"
-        -   "Eli Maes-Brown"
-        -   "Jenny Dusendang"
 
     leaders:
     -   title: "head drum major"
         members:
-        -   "Noah Villanueava"
+        -   "Joey Wanzenried"
 
     -   title: "drum majors"
         members:
-        -   "Joseph Wanzenried"
         -   "Yeseo Han"
         -   "Aaron Lim"
+        -   "Elizabeth Ellis"
 
     -   title: "color guard captains"
         members:
         -   "Meghan Van Lare"
         -   "Michela Viazzo"
 
-    program: "Balance"
+    -   title: "battery captain"
+        members:
+        -   "Muskaan Trivedi"
+
+    -   title: "pit captain"
+        members:
+        -   "Hannah Lee"
+
+    program: "The Wolves Within"
 
     music: >
-        Prelude / Chaos,
-        Searching For Balance,
-        and The Quest For Equilibrium,
-        composed by
-        Andy Yozviak,
-        Daniel Mark,
-        Jabin Baxter,
-        and Rob van Loben Sels
+        The Wolves Within by Zeke David and Steve Martin. Percussion by Chris Cyr and Connor Carrol.
+
+    description: >
+        The Wolves Within is about two wolves battling inside you.
+        One is evil; it is anger, jealousy, sorrow, greed.
+        The other is good; it is joy, peace, love.
+        Which wolf wins?
+        The one that you feed.
 
     notes: >
-        The Dublin Irish Guard would like to thank its wonderful parents and supportive administration, including Principal Maureen Byrne and Assistant Principal, Krista Taylor.
+        The Dublin High School Irish Guard marching band and colorguard would like to thank its incredible boosters and school administration who work tirelessly to help the students' hard work come to fruition.
 
 concert:
-    lastUpdated: 2018-10-12 17:38:31 -07
+    lastUpdated: 2019-10-21 14:42:29 -07
 
-    nickname: "Dublin High School Concert Band"
+    nickname: "Dublin High School Wind Ensemble"

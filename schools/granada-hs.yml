@@ -3,32 +3,33 @@ name: "Granada High School"
 city: "Livermore, CA"
 
 parade:
-    lastUpdated: 2018-10-16 14:09:40 -07
+    lastUpdated: 2019-10-21 12:32:14 -07
 
-    nickname: "Granada Marching Matadors"
+    nickname: "Marching Matadors"
 
     directors:
-    -   "Thomas E Jones"
+    -   "George Pascoe"
 
     staff:
     -   title: "instructed by"
         members:
-        -   "Dustin Friel"
         -   "Jaimie Roman"
         -   "Leigha Roeder (LAY-ah RAY-dur)"
+        -   "Ben L."
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Rachel Meyers"
+        -   "Drake Small"
 
-    -   title: "auxiliary captains"
+    -   title: "auxiliary captain"
         members:
-        -   "Jessie Vassallo"
-        -   "Jinjer Townsend"
+        -   "Kailin Thompson"
 
     -   title: "percussion captain"
         members:
-        -   "Nick Gottero"
+        -   "Nicolette Dunbar"
 
-    music: "Eagle Squadron by Kenneth Alford"
+    music: "Purple Pageant by Karl King, arranged by John Paynter"
+
+    notes: >

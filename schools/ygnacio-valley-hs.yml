@@ -2,15 +2,10 @@ name: "Ygnacio Valley High School"
 
 city: "Concord, CA"
 
-students:
--   &paige-nettles "Paige Nettles"
--   &greg-oka "Greg Oka"
--   &hannah-pearson "Hannah Pearson"
-
 parade:
-    lastUpdated: 2018-10-11 11:10:38 -07
+    lastUpdated: 2019-10-23 21:04:19 -07
 
-    nickname: "Ygnacio Valley Golden Warriors Marching Band"
+    nickname: "Golden Warrior Marching Band"
 
     directors:
     -   "Samantha Flanzbaum"
@@ -18,27 +13,23 @@ parade:
     staff:
     -   title: "instructed by"
         members:
-        -   "Michael Hart"
-        -   "Emile Concepcion"
         -   "Teresa Minervini (Teresa mih-nehr-VEE-nee)"
+        -   "Mike Hart"
+        -   "Emile Concepcion"
 
     leaders:
     -   title: "drum major"
         members:
-        -   *hannah-pearson
+        -   "Shayan Lakzian"
 
     -   title: "auxiliary captain"
         members:
-        -   *paige-nettles
+        -   "Ashley Crabtree"
 
     -   title: "percussion captain"
         members:
-        -   *greg-oka
+        -   "Vincent Cabingas"
 
-    music: "Eagle Squadron March by Kenneth Alford"
+    music: "United Nations by Karl L. King"
 
     notes: >
-        The Ygnacio Valley Golden Warriors Marching Band says thank you to all the supporters of our small but mighty program -
-        Mr. Pattison;
-        our band parents, families, and friends;
-        and of course our amazing band boosters who make parades like these happen.

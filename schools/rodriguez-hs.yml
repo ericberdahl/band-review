@@ -16,9 +16,9 @@ students:
 -   &brian-tran "Brian Tran"
 
 parade:
-    lastUpdated: 2018-10-17 14:04:42 -07
+    lastUpdated: 2019-10-21 7:51:58 -07
 
-    nickname: &band-nickname "Rodriguez Entertainment Unit"
+    nickname: "Rodriguez Entertainment Unit"
 
     directors: &directors
     -   "Scott Miller"
@@ -33,41 +33,44 @@ parade:
         -   "Kaitlyn Ramorin"
         -   "Gabrielle Perez"
         -   "Kasey Willes (Kasey WY-lz)"
-        -   "Michael McClain"
+        -   "Alexina Manriguez"
 
     leaders:
     -   title: "drum major"
         members:
-        -   *leda-brockman
+        -   "Victoria Olsen"
 
     -   title: "auxiliary captains"
         members:
-        -   *erica-nelson
-        -   *tori-cox
+        -   "Tori Cox"
+        -   "Katie Peacock"
 
-    -   title: "percussion captains"
+    -   title: "battery captain"
         members:
-        -   *taylor-slight
-        -   *angela-borja
-        -   *jace-sears
-        -   *brian-tran
+        -   "Jace Sears"
+
+    -   title: "front ensemble captain"
+        members:
+        -   "Taylor Slight"
 
     -   title: "color guard leaders"
         members:
-        -   *katelyn-peacock
-        -   *malerie-peralta
-        -   *madison-blanc
-        -   *jhiana-illenberg
+        -   "Madelyn Blanc"
+        -   "Logan Patoja-Vermillion"
+        -   "Nia Robinson"
+        -   "Victoria DeMederios"
+        -   "Mikayla Gregory"
+        -   "Jhiana Illenberg"
 
-    music: "Centaur by Derek M Broadbent, arranged by Jeffrey Stratton"
+    music: "Joyce's 71st New York Regiment March by Thornton Barnes Boyer"
 
     notes: >
-        The Rodriguez Entertainment Unit says thank you to our Rodriguez Music Boosters for your love, dedication and support.
+        The Rodriguez Entertainment Unit gives a special thank you to the Rodriguez Music Boosters for your love, dedication, and support
 
 fieldshow:
-    lastUpdated: 2018-10-17 14:04:42 -07
+    lastUpdated: 2019-10-21 7:51:58 -07
 
-    nickname: *band-nickname
+    nickname: "Rodriguez Entertainment Unit"
 
     directors: *directors
 
@@ -76,39 +79,34 @@ fieldshow:
     leaders:
     -   title: "drum majors"
         members:
-        -   "Adrianna Vree"
-        -   "Marissa Grimes"
-        -   *leda-brockman
+        -   "Neiliza Lomboy"
+        -   "Victoria Olsen"
 
-    -   title: "color guard captain"
+    -   title: "auxiliary captains"
         members:
-        -   *erica-nelson
+        -   "Tori Cox"
+        -   "Katie Peacock"
 
-    -   title: "pit captains"
+    -   title: "battery captain"
         members:
-        -   *taylor-slight
-        -   *angela-borja
-        
-    -   title: "drum line captains"
-        members:
-        -   *brian-tran
-        -   *jace-sears
-    
-    -   title: "auxiliary Leaders"
-        members:
-        -   *tori-cox
-        -   *katelyn-peacock
-        -   *malerie-peralta
-        -   *madison-blanc
-        -   *jhiana-illenberg
+        -   "Jace Sears"
 
-    program: "Shifting Perspective"
+    -   title: "front ensemble captain"
+        members:
+        -   "Taylor Slight"
 
-    music: "music by John Meehan"
+    -   title: "color guard leaders"
+        members:
+        -   "Madelyn Blanc"
+        -   "Logan Patoja-Vermillion"
+        -   "Nia Robinson"
+        -   "Victoria DeMederios"
+        -   "Mikayla Gregory"
+        -   "Jhiana Illenberg"
+
+    program: "Two Roads"
+
+    music: "Two Roads, Another Day, and All the Difference by John Meahan"
     
     notes: >
-        The Rodriguez Entertainment Unit would like to thank our corporate sponsors!
-        Thank you Certified Coatings, Red Label Automotive, Gordon's Music and Sound, Mazzetta Foods, and Carboline.
-        REU encourages you to thank them for supporting our kids and patronize their businesses if you are in need of the products and services they offer.
-        We would like to give a special Thank you to the Rodriguez Music Boosters for your love, dedication, and support.
-        Now please sit back and put your hands together for the award winning Rodriguez Enertainment Unit.
+        The Rodriguez Entertainment Unit would like to give a special thank you to the Rodriguez Music Boosters for your love, dedication and support

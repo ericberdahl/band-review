@@ -3,7 +3,7 @@ name: "Hogan Middle School"
 city: "Vallejo, CA"
 
 parade:
-    lastUpdated: 2018-10-17 13:33:08 -07
+    lastUpdated: 2019-10-21 07:08:18 -07
 
     nickname: "Hogan Performance Ensemble"
 
@@ -11,25 +11,24 @@ parade:
     -   "James Walker"
 
     staff:
-    -   title: "instructed by"
+    -   title: "guard instructor"
         members:
         -   "Julius Salanga"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Charmine Junio (HOO-nee-oh)"
+        -   "Jayden Strobel"
 
-    -   title: "auxiliary captains"
+    -   title: "auxiliary captain"
         members:
-        -   "Reign Ramos"
-        -   "Kaila Layug (KAI-lah LAY-ugh)"
+        -   "Aliyah Berdan"
 
     -   title: "percussion captain"
         members:
-        -   "Dylan Deleon"
+        -   "Bruce Bande"
 
-    music: "Honor by Sandy Feldstein and Larry Clark"
+    music: "American Legion by Charles Parker, arranged by Andrew Glover"
 
     notes: >
         The Hogan Performance Ensemble thanks the HPE Boosters for all that you do!!

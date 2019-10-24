@@ -21,7 +21,7 @@ fieldshow:
     leaders:
     -   title: "drum major"
         members:
-        -   "Diego Del Real (Diego ree-AHL)"
+        -   "Diego Del Real (Diego Del ree-AHL)"
     
     -   title: "auxiliary captains"
         members:
@@ -37,11 +37,15 @@ fieldshow:
 
     music: >
         "Jubilance" by Keith Foley,
-        "The Greatest Show" by Benj Pasek, Justin Paul and Ryan Lewis,
+        "The Greatest Show" by Benj Pasek, Justin Paul, and Ryan Lewis,
         "This Is Me" by Benj Pasek and Justin Paul,
         "A Million Dreams" by Benj Pasek and Justin Paul,
         and "Come Alive" by Benj Pasek and Justin Paul
 
+    description: >
+        Pittsburg High School is proud to present "The Greatest Show".
+        Follow our band in this journey of who we are, what our dreams can be, and how we keep the spirit of our traditions alive!
+    
     notes: >
         The Pride of Pittsburg opens for Busta Rhymes in San Francisco the day of this field show competition, October 26th! 
         They won first place at the 2019 Santa Clara Parade of Champions,
@@ -58,6 +62,3 @@ fieldshow:
         The Pride of Pittsburg would like to thank their Band Boosters,
         School District,
         and Community for their continuous support.
-
-        Now, Pittsburg High School is proud to present "The Greatest Show."
-        Follow tne band in this journey of who we are, what our dreams can be, and how we keep the spirit of our traditions alive!

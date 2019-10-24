@@ -3,27 +3,50 @@ name: "Monte Vista High School"
 city: "Danville, CA"
 
 fieldshow:
-    lastUpdated: 2017
+    lastUpdated: 2019-10-20 22:57:01 -07
 
     nickname: "Monte Vista High School Marching Band"
 
     directors:
     -   "Ed Cloyd"
 
-    leaders:
-    -   title: "drum major"
+    staff:
+    -   title: "visual designer"
         members:
-        -   "Krista Cleary"
+        -   "Jaycee Wilson"
+
+    -   title: "visual staff"
+        members:
+        -   "Jesse Burge"
+        -   "Josef McQueen"
+        -   "Matt Peluso"
+
+    -   title: "percussion staff"
+        members:
+        -   "Dale Pauly"
+        -   "Rob van Loben Sels"
+        -   "Lydia Lim"
+
+    -   title: "colorguard staff"
+        members:
+        -   "Brittney Depiazza"
+        -   "Emory Streit"
+
+    leaders:
+    -   title: "drum majors"
+        members:
+        -   "Nicola Bezuidenhout (Nicola beh-ZOO-dehn-howt)"
+        -   "Kenneth Knott"
 
     -   title: "auxiliary captain"
         members:
-        -   "Bridgett Taylor"
+        -   "Valeria Caveroegusquiza (Valeria ca-vehr-oh-goos-KEE-zah)"
 
     -   title: "percussion captains"
         members:
-        -   "Ian McMurry"
-        -   "Nick Bortolon (Nick bohr-TOE-lohn)"
+        -   "Colby Bergstad"
+        -   "Theo Hui"
 
-    program: "Heroes and Villains"
+    program: "Always Now"
 
     music: "music by Kevin Shah"

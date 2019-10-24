@@ -3,12 +3,12 @@ name: "Saint Francis High School"
 city: "Mountain View, CA"
 
 fieldshow:
-    lastUpdated: 2018-10-17 16:00:55 -07
+    lastUpdated: 2019-10-21 14:50:19 -07
 
-    nickname: "Lancer Band and Color Guard"
+    nickname: "Lancer Marching Band and Color Guard"
 
     directors:
-    -   "Mr. Javier Cerna (Javier SEHR-nah)"
+    -   "Javier Cerna (Javier SEHR-nah)"
 
     staff:
     -   title: "visual staff"
@@ -21,21 +21,22 @@ fieldshow:
         members:
         -   "Jenny Lyons"
         -   "Isabel Guerrero"
+        -   "Jennifer Lam"
 
     -   title: "music staff"
         members:
-        -   "Ken Nakamoto"
+        -   "Madison Bohrer"
         -   "Patrick Weber"
         -   "Doug Durando"
         -   "Mikaela Valenciano"
-        -   "Kevin Giannini"
+        -   "Sebastian Perales"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Kae Nurge"
         -   "Jackson Butler"
         -   "Marcella Ledesma"
+        -   "Jewel Merriman"
 
     -   title: "auxiliary captain"
         members:
@@ -45,8 +46,14 @@ fieldshow:
         members:
         -   "Matthew Quan"
 
-    program: "Push"
+    program: "Tethered"
 
-    music: "music by Aaron Railey"
+    music: "original Music by Charles Mekealian (Charles meh-KEE-lee-an) and Armeen Ghafourpour (Armeen GAH-foor-poor)"
     
-    notes:
+    description: >
+        Tethered explores the many connective bonds in our life (emotional, mental and physical) that can affect how we live.
+        Strong bonds can often leave us feeling trapped and desiring to break free.
+        Throughout the show, we explore how what may initially seem to restrain us can transform into bonds that strengthen and unite.
+    
+    notes: >
+        The Lancer Marching Band and Color Guard would like to thank all of the instructional staff, administrators and Band Booster parents for their hard work and support!
