@@ -18,7 +18,7 @@
   "homepage": "https://github.com/ericberdahl/band-review#readme",
   "dependencies": {
     "asciidoctor": "^2.0.3",
-    "commander": "^3.0.1",
+    "commander": "^8.1.0",
     "debug": "^4.1.1",
     "glob": "^7.1.4",
     "handlebars": "^4.3.0",
@@ -27,7 +27,7 @@
     "metalsmith-plugin-kit": "^1.0.1",
     "moment-timezone": "^0.5.26",
     "node-yaml": "^4.0.1",
-    "tempy": "^0.3.0",
+    "tempy": "^1.0.0",
     "unescape-js": "^1.1.1"
   }
 }
