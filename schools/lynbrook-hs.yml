@@ -3,21 +3,130 @@ name: 'Lynbrook HS'
 city: 'San Jose, CA'
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-09-24 11:02:31 -08
 
-    nickname: 
+    nickname: 'Marching Viking Band and Colorguard'
 
     directors:
+    -   'Mike Pakaluk'
+    -   'Jeff Facun'
 
     staff:
+    -   title: 'visual caption head'
+        members:
+        -   'Carl Huang (WONG)'
+    
+    -   title: 'visual instructors'
+        members:
+        -   'Anthony Mingus'
+        -   'Aya Kitajima'
+        -   'Diego Barrios'
+    
+    -   title: 'colorguard caption head'
+        members:
+        -   'Rebekah Kiggins'
+    
+    -   title: 'colorguard instructors'
+        members:
+        -   'Bethany Amarillas'
+        -   'Austin Shi'
+    
+    -   title: 'percussion instructors'
+        members:
+        -   'Sean Clark'
+        -   'Shota Otaguro'
+        -   'Kevin Garrett'
+        -   'Frank Lee'
+        -   'James Nishijima'
+    
+    -   title: 'sound techs'
+        members:
+        -   'Aaron Yen'
+        -   'Gabe Boquiren'
+    
+    -   title: 'woodwind instructors'
+        members:
+        -   'Lidia Rodriguez'
+        -   'Katie Starnes'
+
+    -   title: 'brass instructor'
+        members:
+        -   'Tim Bacon'
 
     leaders:
+    -   title: 'drum majors'
+        members:
+        -   'Rishab Sakalkale (sock-all-call-AY)'
+        -   'Enze Zheng'
+    
+    -   title: 'auxiliary captains'
+        members:
+        -   'Deeksha Badala'
+        -   'Anya Hung'
+    
+    -   title: 'percussion captain'
+        members:
+        -   'Ty Hosein'
+    
+    -   title: 'band managers'
+        members:
+        -   'Deeya Jain'
+        -   'Grace Jiang'
+        -   'Eleanor Koo'
 
-    program: 
+    -   title: 'flute captains'
+        members:
+        -   'Wesley Goh'
+        -   'Eleanor Chen'
 
-    music: 
+    -   title: 'clarinet captains'
+        members:
+        -   'Faith Ju'
+        -   'Claire Wang'
 
-    notes: 
+    -   title: 'alto Sax captain'
+        members:
+        -   'Justin Chang'
+
+    -   title: 'low wind captain'
+        members:
+        -   'Rahul Idgunji'
+
+    -   title: 'mellophone captain'
+        members:
+        -   'Anirudh Nandakumar'
+
+    -   title: 'trumpet captain'
+        members:
+        -   'Anya Zhang'
+
+    -   title: 'trombone captain'
+        members:
+        -   'Aditya Bharadwaj'
+
+    -   title: 'baritone captain'
+        members:
+        -   'Tyler Liu'
+
+    -   title: 'sousa captain'
+        members:
+        -   'Bennett Wong'
+
+    -   title: 'front ensemble captain'
+        members:
+        -   'Annie Zeng'
+        -   'Christina Cheng'
+
+    program: 'Undertale'
+
+    music: 'musical arrangements written by Sean Clark, Trent Gronewold, and John Meehan'
+
+    notes: >
+        The Lynbrook Marching Viking Band and Colorguard has been a finalist band at numerous BOA regionals throughout the past decade.
+        In 2019, Lynbrook took Field Show Sweepstakes at the Napa Vintage Band Review.
+        Lynbrook ensembles have a long history of international travel, with an upcoming trip planned to the United Kingdom in June 2022.
+        The Lynbrook Orchestra has been invited to perform at CASMEC and at the Midwest Clinic.
+        The Vikings would like to thank LIMB, our parent booster organization, for all their support!
 
 parade:
     lastUpdated: 1967-12-01 04:30:00 -08

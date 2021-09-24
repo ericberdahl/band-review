@@ -20,17 +20,32 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-09-24 08:31:43 -07
 
-    nickname: 
+    nickname: 'Trojan Marching Band'
 
     directors:
+    -   'Cory Goga'
 
     staff:
+    -   title: 'instructed by'
+        members:
+        -   'Breila Martin'
 
     leaders:
+    -   title: 'drum major'
+        members:
+        -   'Allison Thomas'
 
-    music: 
+    -   title: 'auxiliary captain'
+        members:
+        -   'Shelby Jackson'
+    
+    -   title: 'percussion captain'
+        members:
+        -   'Ethan Hebert'
+
+    music: 'Father of Victory by Louis Ganne'
 
 winterpercussion:
     lastUpdated: 1967-12-01 04:30:00 -08

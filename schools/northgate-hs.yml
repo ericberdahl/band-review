@@ -2,30 +2,82 @@ name: "Northgate High School"
 
 city: "Walnut Creek, CA"
 
-parade:
-    lastUpdated: 2019-09-28 20:30:02 -07
+fieldshow:
+    lastUpdated: 1967-12-01 04:30:00 -08
 
-    nickname: "Marching Broncos"
+    nickname: 
 
     directors:
-    -   "Anthony West"
 
     staff:
-    -   title: "auxiliary coach"
-        members:
-        -   "Jessica Aduan"
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+
+parade:
+    lastUpdated: 2021-09-24 08:06:16 -07
+
+    nickname: "Broncos"
+
+    directors:
+    -   "Roberto Garcia-Leiva"
+
+    staff:
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Brandon Voss"
+        -   "Liam Iglesias"
 
-    -   title: "auxiliary captains"
+    -   title: "junior drum major"
         members:
-        -   "Chloe Anderson"
-        -   "Aubrey Parkinson"
+        -   "Matthew Stark"
+
+    -   title: "auxiliary captain"
+        members:
+        -   "Tatiana Avdienko"
     
-    music: "King Cotton by John Philip Sousa"
+    music: "Bonds of Unity by Karl L. King"
 
     notes: >
-        Be sure to watch for our signature ending.
+        The Broncos say: Thank you to our parents in our Northgate Instrumental Music Booster!
+        Without our "NIMB Parent" volunteering and support none of this would be possible!
+
+winterpercussion:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: 
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+
+winterguard:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: 
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
