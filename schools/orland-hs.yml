@@ -1,6 +1,6 @@
-name: "Freedom High School"
+name: 'Orland High School'
 
-city: "Oakley, CA"
+city: 'Orland, CA'
 
 fieldshow:
     lastUpdated: 1967-12-01 04:30:00 -08
@@ -50,18 +50,18 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2018
+    lastUpdated: 1967-12-01 04:30:00 -08
 
-    nickname: "Freedom High School Winter Guard"
+    nickname: 
 
     directors:
-    -   "Sondra Van Meter"
+
+    staff:
 
     leaders:
-    -   title: "captain"
-        members:
-        -   "Minnie Martinez"
 
-    program: "Duel of Fates, a star wars classic"
+    program: 
 
     music: 
+
+    notes: 

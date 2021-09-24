@@ -105,6 +105,34 @@ fieldshow:
     notes: >
         The American Eagles Marching Band thanks all our band parents for their support of our students in the program.
     
+parade:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: 
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    music: 
+
+winterpercussion:
+    lastUpdated: 2018
+
+    nickname: "American Eagles Winter Percussion"
+
+    directors: *directors
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    notes: 
+
 winterguard:
     lastUpdated: 2019-03-11 22:30:18 -07
 
@@ -131,18 +159,3 @@ winterguard:
 
     notes: >
         The American Eagles say thank you to their parent volunteers for their support, and thanks to Foothill for hosting the show.
-
-winterpercussion:
-    lastUpdated: 2018
-
-    nickname: "American Eagles Winter Percussion"
-
-    directors: *directors
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    notes: 

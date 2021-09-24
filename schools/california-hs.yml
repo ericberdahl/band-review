@@ -2,6 +2,23 @@ name: "California High School"
 
 city: "San Ramon, CA"
 
+fieldshow:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: 
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+
 parade:
     lastUpdated: 1
 
@@ -10,6 +27,23 @@ parade:
     directors:
     -   &kent-johnson "Kent Johnson"
     -   "Ramiro Barrera"
+
+winterpercussion:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: 
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
 
 winterguard:
     lastUpdated: 1901

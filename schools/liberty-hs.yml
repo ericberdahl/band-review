@@ -2,6 +2,23 @@ name: "Liberty High School"
 
 city: "Brentwood, CA"
 
+fieldshow:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: 
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+
 parade:
     lastUpdated: 2019-09-26 12:25:14 -07
 
@@ -37,3 +54,37 @@ parade:
 
     notes: >
         The Liberty Lion Pride Marching Band would like to thank all of its members, parent volunteers, booster board, and administration for all their support this season.
+
+winterpercussion:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: 
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+
+winterguard:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: 
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
