@@ -4,7 +4,7 @@
   "description": "Generate Announcer's book for Band Review and Winter Show",
   "main": "review.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "./review.js"
   },
   "repository": {
     "type": "git",
