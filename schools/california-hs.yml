@@ -3,21 +3,52 @@ name: "California High School"
 city: "San Ramon, CA"
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-09-24 17:32:05 -07
 
-    nickname: 
+    nickname: 'Cal High Marching Band and Color Guard'
 
     directors:
+    -   "Javier Cerna (Javier SEHR-nah)"
 
     staff:
+    -   title: "music and visual instructors"
+        members:
+        -   "Alex Murphey Frank"
+        -   "Briana Berastain"
+        -   "Melanie Woon"
+
+    -   title: "percussion instructors"
+        members:
+        -   "Kyle Boydstun"
+        -   "Garrett Grant"
+    
+    -   title: "color guard instructors"
+        members:
+        -   "Laura Garcia"
+        -   "Nicole Cavanagh"
+        -   "Hannah Sousa"
 
     leaders:
+    -   title: "drum majors"
+        members:
+        -   "Mallory Rieth"
+        -   "Manon Prevot"
+    
+    -   title: "auxiliary captains"
+        members:
+        -   "Melia Means"
+        -   "Alexander Yamashita"
 
-    program: 
+    -   title: "percussion captain"
+        members:
+        -   "Tom Baker"
 
-    music: 
+    program: "Call of the Wild West"
 
-    notes: 
+    music: "the main theme from The Good the Bad and the Ugly, the Ecstacy of Gold by Ennio Morriconem, and Wanted: Dead or Alive by Bon Jovi. Original Music by Luke McMillan."
+
+    notes: >
+        Cal High thanks the amazing Cal High Instrumental Music Band Boosters for all of their love and support.
 
 parade:
     lastUpdated: 1
