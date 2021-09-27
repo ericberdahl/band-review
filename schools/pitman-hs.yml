@@ -3,7 +3,7 @@ name: "Pitman High School"
 city: "Turlock, CA"
 
 parade:
-    lastUpdated: &band-review-last-updated updated 2017
+    lastUpdated: &band-review-last-updated 2017
 
     nickname: "Marching Pride"
 
