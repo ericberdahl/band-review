@@ -6,7 +6,7 @@ students:
 -   &aracely-rios "Aracely Rios (ah-rah-SEHL-ee Rios)"
 
 parade:
-    lastUpdated: 2019-10-02 16:17:05 -07
+    lastUpdated: &band-review-last-updated 2019-10-02 16:17:05 -07
 
     nickname: "Cowboy Marching Band"
 
@@ -46,10 +46,15 @@ parade:
         The Livermore High School Cowboy Marching Band is proud to be here representing the oldest continuous public school music program in the state of California.
         The Livermore High School students, parents and staff would like to thank everyone involved in making this band review an ongoing success year after year. 
 
-concert:
-    lastUpdated: 2019-10-02 16:17:05 -07
+concert-wind:
+    lastUpdated: *band-review-last-updated
 
-    nickname: "Livermore High School Symphonic Band Honors"
+    nickname: "Livermore High School Wind Ensemble"
+
+concert:
+    lastUpdated: *band-review-last-updated
+
+    nickname: "Livermore High School Concert Band"
 
 winterguard:
     lastUpdated: 2019-03-18 12:52:52 -07

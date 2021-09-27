@@ -45,12 +45,12 @@ parade:
         The Viking Marching Band earned the Music Sweepstakes at last year's Foothill Band Review
         and Music, Showmanship, and Parade Sweepstakes at last year's Santa Cruz Band Review.
 
-concert-1:
+concert-wind:
     lastUpdated: *band-review-last-updated
 
-    nickname: "Irvington High School Wind Ensemble I"
+    nickname: "Irvington High School Wind Ensemble"
 
-concert-2:
+concert:
     lastUpdated: *band-review-last-updated
 
-    nickname: "Irvington High School Wind Ensemble 2"
+    nickname: "Irvington High School Concert Band"

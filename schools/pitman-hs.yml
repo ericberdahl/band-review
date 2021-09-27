@@ -3,7 +3,7 @@ name: "Pitman High School"
 city: "Turlock, CA"
 
 parade:
-    lastUpdated: 2017
+    lastUpdated: &band-review-last-updated updated 2017
 
     nickname: "Marching Pride"
 
@@ -27,3 +27,13 @@ parade:
         -   "Isai Rodriquez"
 
     music: "The Cossack by William Rimmer"
+
+concert-wind:
+    lastUpdated: *band-review-last-updated
+
+    nickname: "Pitman High School Wind Ensemble"
+
+concert:
+    lastUpdated: *band-review-last-updated
+
+    nickname: "Pitman High School Concert Band"

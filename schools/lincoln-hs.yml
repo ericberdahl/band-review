@@ -3,7 +3,7 @@ name: "Lincoln High School"
 city: "Stockton, CA"
 
 parade:
-    lastUpdated: 2019-10-14 21:35:40 -07
+    lastUpdated: &band-review-last-updated 2019-10-14 21:35:40 -07
 
     nickname: "Lincoln High School Marching Band and Auxiliary"
 
@@ -34,22 +34,22 @@ parade:
     notes: >
         The Lincoln High School Marching Band would like to give special thanks to all of the parents, teachers, and supporters from the Stockton community who help their program continue to thrive.    
 
-concert-1:
-    lastUpdated: 2019-10-14 21:35:40 -07
+concert-wind-1:
+    lastUpdated: *band-review-last-updated
 
     nickname: "Wind Ensemble 1"
 
-concert-2:
-    lastUpdated: 2019-10-14 21:35:40 -07
+concert-wind-2:
+    lastUpdated: *band-review-last-updated
 
     nickname: "Wind Ensemble 2"
 
-concert-3:
-    lastUpdated: 2018-10-12 17:38:31 -07
+concert:
+    lastUpdated: *band-review-last-updated
 
-    nickname: "Lincoln High School Concert Band 3"
+    nickname: "Lincoln High School Concert Band"
 
-concert-4:
-    lastUpdated: 2018-10-12 17:38:31 -07
+concert-symphonic:
+    lastUpdated: *band-review-last-updated
 
-    nickname: "Lincoln High School Concert Band 4"
+    nickname: "Lincoln High School Symphonic Band"

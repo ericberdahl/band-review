@@ -3,7 +3,7 @@ name: "Dublin High School"
 city: "Dublin, CA"
 
 fieldshow:
-    lastUpdated: 2019-10-21 18:45:59 -07
+    lastUpdated: &band-review-last-updated 2019-10-21 18:45:59 -07
 
     nickname: "Irish Guard Marching Band and Color Guard"
 
@@ -81,7 +81,13 @@ fieldshow:
     notes: >
         The Dublin High School Irish Guard marching band and colorguard would like to thank its incredible boosters and school administration who work tirelessly to help the students' hard work come to fruition.
 
-concert:
-    lastUpdated: 2019-10-21 14:42:29 -07
+concert-wind:
+    lastUpdated: *band-review-last-updated
 
     nickname: "Dublin High School Wind Ensemble"
+
+concert:
+    lastUpdated: *band-review-last-updated
+
+    nickname: "Dublin High School Concert Band"
+
