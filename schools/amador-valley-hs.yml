@@ -3,83 +3,77 @@ name: "Amador Valley High School"
 city: "Pleasanton, CA"
 
 fieldshow:
-    lastUpdated: 2019-09-18 12:55:12 -07
+    lastUpdated: 2021-09-26 07:22:39 -07
 
     nickname: "Marching Dons"
 
     directors:
-    -   &jonathan-grantham "Jonathan Grantham"
-    -   "Patrick Dandrea"
+    -   "Jonathan Grantham"
+    -   "Edwin Cordoba"
     
     staff:
     -   title: "instructed by"
-        members:
+        members:        
         -   "John Meehan"
         -   "Jamey Thompson"
-        -   "Keith Dunton"
         -   "Bryan Harmsen"
-        -   "David Ziehm"
         -   "Jessica Slabaugh"
-        -   "Chris Chervet"
-        -   "Nicholas Garcia"
-        -   "Ben Kane"
-        -   "Stephen Tamas"
-        -   "Brandon Yim"
-        -   "Jesse Burge"
-        -   "Ricky Liedtke"
-        -   "Nathan McCauley"
-        -   "Marvin Reed"
-        -   "Matthew Sieve"
-        -   "Casey Brohard"
-        -   "Tiffany Castelan"
-        -   "Brandon Hussey"
-        -   "Glenn Imai"
-        -   "Matt Lowe"
-        -   "Jesse Tapia"
+        -   "Keith Dunton"
+        -   "David Ziehm"
         -   "TJ Doucette"
-        -   "Nick Lucero"
         -   "Ryan Madayag"
-        -   "Rachel Nishijima"
+        -   "Karen Eskarous"
+        -   "Julia Tikhonov"
+        -   "Brandon Hussey"
+        -   "Tiffany Castelan"
+        -   "Colleen Zheng"
+        -   "Max Alvarado"
+        -   "Gabe Michels"
+        -   "Matt Lowe"
+        -   "Everett Henrie"
+        -   "Victor Alcaraz"
+        -   "Ben Kane"
+        -   "Marvin Reed"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Joseph Nazareno (Joseph nah-zah-RAY-noh)"
-        -   "Allison Gable"
         -   "Julia Szambelan (Julia SZAHM-beh-lahn)"
+        -   "Nolan Lees"
+        -   "Brayden Ye"
 
     -   title: "auxilliary captains"
         members:
-        -   "Karen Eskarous"
-        -   "Claire Ma"
+        -   "Danica Howard"
+        -   "Nikita Jayaprakash"
 
     -   title: "percussion captains"
         members:
-        -   "Ellie Benton"
-        -   "Ayumi Bonev"
+        -   "Akanksh Aditya"
+        -   "Jonah Wang"
         
     -   title: "woodwind captain"
         members:
-        -   "Charlotte Nazareno (Charlotte nah-zah-RAY-noh)"
+        -   "Curtis Li"
 
     -   title: "brass captain"
         members:
-        -   "Emma Reddy"
+        -   "Tom Li"
 
-    program: "Wonder Woman"
+    program: "The Light of the Moon"
 
     music: >
-        Diamonds by Rihanna,
-        Hymn to the Sun with the Bead of Mother Earth by Satoshi Yagisawa,
-        A Hero Emerges by Blake Neely,
-        and Fight Song by Rachel Platten
+       "Aurora Awakes" by John Mackey,
+       "I Write Sins, Not Tragedies" by Panic at the Disco,
+       "Daydream" by Bertrand Moren,
+       "Danza No. 2" by Bruce Yurko
+       and original music by John Meehan.
 
     description: >
-        She represents the best of what we hope to see in ourselves and in one another:
-        fearlessness, perseverance, self-belief, strength, curiosity, humanity and
-        compassion.
+        Under the light of the moon we experience many moods…
+        The Marching Dons present a visual and musical depiction of three of those moods: dreaming, mischief and dancing.
 
     notes: >        
-        Thank you to principal Josh Butterfield and the entire Amador community for their support.
-        The band would like to thank the Sea of Purple for all of the love and care you give us.
-        Best of luck to all of the competing bands tonight!
+        The Marching Dons would like to thank their parents, the Sea of Purple in the stands tonight for your love and support.
+        They would also like to acknowledge principal Josh Butterfield, superintendent David Haglund and the larger Pleasanton community for their commitment to music.
+        The Marching Dons wish all of the competing bands good skill tonight!
