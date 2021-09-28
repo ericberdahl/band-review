@@ -3,21 +3,52 @@ name: 'John Swett High School'
 city: 'Crockett, CA'
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-09-27 10:24:53 -07
 
-    nickname: 
+    nickname: "John Swett High School Band and Guard"
 
     directors:
+    -   "Felix Cadiz"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Kaitlyn Remorin"
+        -   "Andy Zeng"
+        -   "Alexia Garcia"
+        -   "Sabrina Tavares"
+        -   "Alexandria Dees"
 
     leaders:
+    -   title: "auxiliary captain"
+        members:
+        -   "Ameryra Greer"
+    
+    -   title: "percussion captain"
+        members:
+        -   "Simon Sollestre"
+    
+    -   title: "captains"
+        members:
+        -   "Andre Ramos"
+        -   "Katrina Reyes"
+        -   "Ashley Sanchez"
 
-    program: 
+    program: "109.8 JSMB Radio"
 
-    music: 
+    music: >
+        "Mr. Blue Sky" by Electric Light Orchestra,
+        "I'm Still Standing" by Elton John,
+        "Open Arms" by Journey,
+        "After the Love is Gone" by Earth Wind and Fire,
+        "99 Red Balloons" by Nena,
+        and "I Wanna Dance with Somebody" by Whitney Houston.
 
-    notes: 
+    description: >
+        A radio selection of timeless classics your parents will surely remember.
+
+    notes: >
+        John Swett High School Band and Guard say thank you to the John Swett Band Boosters and Dean Colombo for all that you do. 
 
 parade:
     lastUpdated: 1967-12-01 04:30:00 -08
