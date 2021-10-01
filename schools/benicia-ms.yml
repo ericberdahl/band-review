@@ -3,39 +3,42 @@ name: "Benicia Middle School"
 city: "Benicia, CA"
 
 parade:
-    lastUpdated: 2019-10-10 14:09:10 -07
+    lastUpdated: 2021-09-30 12:27:56 -07
 
     nickname: "Benicia Middle School Viking Band"
 
     directors:
-    -   "Candice Crismond"
+    -   "Paul Hanna"
 
     staff:
-    -   title: "instructed by"
+    -   title: "colorguard instructors"
         members:
-        -   "Jamie Roman"
-        -   "Conrado Escudero (Conrado eh-scoo-DEH-roh)"
+        -   "Jamie Hjeltness"
+        -   "Xitlali Jiminez"
+        -   "Ava Cheung"
+
+    -   title: "drumline instructor"
+        members:
+        -   "Matt Lowe"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Phoebee Crawford"
-
-    -   title: "auxiliary captains"
-        members:
-        -   "Aristen Bocaling (ehr-IH-sten BOH-cah-ling)"
-        -   "Alana Del Castillo"
+        -   "Luke Thorsen"
 
     -   title: "percussion captain"
         members:
-        -   "Shannon-Rose Hill"
+        -   "Harrison Mead"
+    
+    -   title: "captains"
+        members:
+        -   "Cheryl Morris"
+        -   "Sofia Almogela"
 
-    music: "Gallant Marines by Karl L. King, arranged by James Swearingen (James SWEHR-ing-ehn)"
+    music: "Crosswinds March by James Swearingen (James SWEHR-ing-ehn)"
     
     notes: >
-        The Viking Band received a unanimous superior rating at their last CMEA festival and had the honor of marching down Main Street in Disneyland earlier this year.
-        The Viking Drumline, under the tutelage of Matt Lowe and Zach Clay are the 2019 champions of the Northern California Percussion Alliance.
-        They hope you enjoy their show!
+        The Benicia Middle School Band would like to thank our boosters and board for all their support.
 
 concert:
     lastUpdated: 2019-10-10 14:09:10 -07

@@ -1,6 +1,6 @@
 name: "Pacific Grove High School"
 
-city: 
+city: "Pacific Grove, CA"
 
 fieldshow:
     lastUpdated: 1967-12-01 04:30:00 -08
@@ -20,17 +20,29 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-09-30 10:29:02 -07
 
-    nickname: 
+    nickname: "Breaker Band"
 
     directors:
+    -   "George Warren"
 
     staff:
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Cayden Bloomer"
+    
+    -   title: "percussion captain"
+        members:
+        -   "Colin Hathorn"
 
-    music: 
+    music: "El Capitan by John Philip Sousa"
+
+    notes: >
+        The Breaker Band says thank you to Michelle Ford for all the work she does with uniforms and numerous other band details
+        Thank you to all the parents for all your support and enthusiasm.
 
 concert:
     lastUpdated: 1967-12-01 04:30:00 -08

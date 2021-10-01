@@ -6,37 +6,40 @@ students:
 -   &steven-bui "Steven Bui"
 
 parade:
-    lastUpdated: 2019-10-11 12:52:11 -07
+    lastUpdated: 2021-09-28 12:55:09 -07
 
-    nickname: "Benicia High School Panther Marching Band"
+    nickname: "Benicia High Panther Band"
 
-    directors: &directors
-    -   "Patrick Martin"
+    directors:
+    -   "Candice Crismond"
 
     staff:
-    -   title: "instructed by"
+    -   title: "color guard instructors"
         members:
-        -   "Aki Ross"
-        -   "Kayla Ford"
+        -   "Jamie Hjeltness"
+        -   "Ben Wilkinson"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Elijah Burckin"
+        -   "Mariano Elias III"
 
     -   title: "auxiliary captains"
         members:
-        -   "Zoe Babot (ZOH beh-BOH)"
-        -   "Lindsay Olson"
+        -   "Jessica Gorospe"
+        -   "Lynne Moll"
 
     -   title: "percussion captains"
         members:
-        -   "Lucas Barnard"
-        -   "Kevin Insaurralde (Kevin ihn-sow-RAHL-day)"
+        -   "Gabe Haarberg"
 
-    music: "The Wizard by George Allan, arranged by Aki Ross"
+    music: "Emblem Of Unity by J.J. Richards, arranged by James Swearingen (James SWEHR-ing-ehn)"
 
-    notes:
+    notes: >
+        The Benicia Panther Band has been the recipient of countless first place and sweepstakes awards throughout it's long history of musical excellence.
+        The students and staff would like to thank the entire community of Benicia for supporting music in schools and would especially like to thank the Panther Band Boosters.
+        Without the hard work and dedication of our booster program, none of this would be possible.
+        Please welcome, the pride of Benicia California, the Benicia High School Panther Band!
 
 concert:
     lastUpdated: 2019-10-11 12:52:11 -07
@@ -48,7 +51,8 @@ winterpercussion:
 
     nickname: "Benicia High School Percussion Ensemble"
 
-    directors: *directors
+    directors:
+    -   "Patrick Martin"
 
     staff:
     -   title: "instructed by"

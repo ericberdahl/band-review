@@ -20,17 +20,25 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-09-28 12:09:13 -07
 
-    nickname: 
+    nickname: "Marauder Band"
 
     directors:
+    -   "John Cargile"
 
     staff:
 
     leaders:
+    -   title: "drum major"
+        members:
+        -   "Gillian Rogado"
+    
+    -   title: "percussion captain"
+        members:
+        -   "Chris Rotelli"
 
-    music: 
+    music: "The Torch of Liberty by Karl King, arranged by James Swearingen (James SWEHR-ing-ehn)"
 
 winterpercussion:
     lastUpdated: 1967-12-01 04:30:00 -08
