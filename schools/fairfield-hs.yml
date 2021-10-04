@@ -3,7 +3,7 @@ name: "Fairfield High School"
 city: "Fairfield, CA"
 
 parade:
-    lastUpdated: 2019-10-18 14:41:38 -07
+    lastUpdated: 2021-10-01 08:55:22 -07
 
     nickname: "Scarlet Brigade"
 
@@ -11,47 +11,25 @@ parade:
     -   "Brian K. Swetland"
 
     staff:
-    -   title: "guard instructors"
+    -   title: "guard instructor"
         members:
-        -   "Courtney Bojorquez (Courtney boh-HOR-kez)"
-        -   "Annika Butler (AH-nihk-ah Butler)"
+        -   "Sabrina Tavares"
 
     -   title: "percussion instructors"
         members:
         -   "Shealley Lee (she-AH-lee Lee)"
         -   "Jonathan Lee"
 
-    -   title: "bagpipe instructor"
-        members:
-        -   "Phillip Elder"
-
     leaders:
-    -   title: "drum major"
+    -   title: "auxiliary captain"
         members:
-        -   "Mitchell Wells"
-
-    -   title: "auxiliary captains"
-        members:
-        -   "Amy Echeverria"
-        -   "Jessica Altares"
+        -   "Alyssa McCall"
 
     -   title: "percussion captain"
         members:
-        -   "Jaden James"
+        -   "Brian Tran"
 
-    -   title: "pipe major"
-        members:
-        -   "Norbert Villaluna"
-
-    -   title: "pipe sergeant"
-        members:
-        -   "Chales Hendrix"
-
-    -   title: "drum captain"
-        members:
-        -   "Alyssa Manasala"
-
-    music: "The Champion by Arthur Graham"
+    music: "Glorious Victory by Walter M Kendall"
 
     notes: >
 

@@ -3,9 +3,9 @@ name: "Wells Middle School"
 city: "Dublin, CA"
 
 parade:
-    lastUpdated: 2019-10-18 16:22:30 -07
+    lastUpdated: 2021-10-01 14:45:11 -07
 
-    nickname: "Wells Middle School Marching Band"
+    nickname: "Roadrunner Band"
 
     directors:
     -   "Erik Bertelson"
@@ -13,24 +13,23 @@ parade:
     staff:
     -   title: "instructed by"
         members:
-        -   "Michala Viazzo (mih-CAH-lah Viazzo)"
-        -   "Meghan Van Larre"
-        -   "Emiline Crowder"
-        -   "Ryan Small"
         -   "Marissa DeMello"
+        -   "Ryan Small"
+        -   "Grace Holmes"
+        -   "Erin Lewis"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Anthony Vuong"
+        -   "Michael Oliveira"
 
     -   title: "auxiliary captains"
         members:
-        -   "Erin Lewis"
-        -   "Ashley May"
-        -   "Andre Lee"
+        -   "Kendal Fong"
+        -   "Sierra Hughell"
+        -   "Allyson Sicat"
 
-    music: "Lexington March by Karl King"
+    music: "Allied Honor by Karl King"
 
     notes: >
         Wells Middle School Marching Band gives a big thank you to our Wells parents for their wonderful help and support for our music students.

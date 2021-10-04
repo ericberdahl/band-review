@@ -3,7 +3,7 @@ name: "Pitman High School"
 city: "Turlock, CA"
 
 parade:
-    lastUpdated: &band-review-last-updated 2017
+    lastUpdated: 2021-10-02 12:27:47 -07
 
     nickname: "Marching Pride"
 
@@ -13,27 +13,28 @@ parade:
     leaders:
     -   title: "drum major"
         members:
-        -   "John Fish"
+        -   "Gabe Rocha"
 
     -   title: "auxiliary captain"
         members:
-        -   "Brooklynn Adame"
-        -   "Kassidy Santos"
-        -   "Crystal Chavez"
+        -   "Yudy Pulido"
+        -   "Mesmin Reynoso"
 
     -   title: "percussion captain"
         members:
-        -   "Kyle Soriano"
-        -   "Isai Rodriquez"
+        -   "Jillian Heidman"
+        -   "Anissa Jara"
 
-    music: "The Cossack by William Rimmer"
+    music: "Carry On by Herbert Winson"
+
+    notes: >
+        The Pitman Marching Pride would like to thank their band and guard boosters for all of their support.
 
 concert-wind:
-    lastUpdated: *band-review-last-updated
-
+    lastUpdated: 2017
     nickname: "Pitman High School Wind Ensemble"
 
 concert:
-    lastUpdated: *band-review-last-updated
+    lastUpdated: 2017
 
     nickname: "Pitman High School Concert Band"

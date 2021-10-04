@@ -3,7 +3,7 @@ name: "California High School"
 city: "San Ramon, CA"
 
 fieldshow:
-    lastUpdated: 2021-09-24 17:32:05 -07
+    lastUpdated: 2021-10-01 13:30:27 -07
 
     nickname: 'Cal High Marching Band and Color Guard'
 
@@ -11,41 +11,55 @@ fieldshow:
     -   "Javier Cerna (Javier SEHR-nah)"
 
     staff:
-    -   title: "music and visual instructors"
+    -   title: "visual caption head"
         members:
         -   "Alex Murphey Frank"
-        -   "Briana Berastain"
-        -   "Melanie Woon"
 
-    -   title: "percussion instructors"
-        members:
-        -   "Kyle Boydstun"
-        -   "Garrett Grant"
-    
-    -   title: "color guard instructors"
+    -   title: "color guard caption head"
         members:
         -   "Laura Garcia"
+
+    -   title: "percussion caption head"
+        members:
+        -   "Kyle Boydstun"
+
+    -   title: "music staff"
+        members:
+        -   "Briana Berastain"
+        -   "Melanie Woon"
+        -   "Garrett Grant"
+
+    -   title: "color guard staff"
+        members:
         -   "Nicole Cavanagh"
         -   "Hannah Sousa"
-
+    
     leaders:
     -   title: "drum majors"
         members:
-        -   "Mallory Rieth"
+        -   "Mallory Reith"
         -   "Manon Prevot"
     
     -   title: "auxiliary captains"
         members:
+        -   "Alex Yamashita"
         -   "Melia Means"
-        -   "Alexander Yamashita"
 
-    -   title: "percussion captain"
+    -   title: "percussion captains"
         members:
-        -   "Tom Baker"
+        -   "Thomas Baker"
+        -   "Casey Kim"
 
     program: "Call of the Wild West"
 
-    music: "the main theme from The Good the Bad and the Ugly, the Ecstacy of Gold by Ennio Morriconem, and Wanted: Dead or Alive by Bon Jovi. Original Music by Luke McMillan."
+    music: 'the theme from "The Good, the Bad and the Ugly" by Ennio Morricone, "The Ecstacy of Gold" by Ennio Morricone, and "Wanted Dead or Alive" by Bon Jovi, with original Music by Luke McMillain.'
+
+    description: >
+        This year, the Cal High Marching Band is taking a journey through iconic imagery and musical themes of the wild western frontier.
+        Our show seeks to evoke a sense of wonder and adventure, from scenes of gorgeous plateaus and sunsets to the dangerous,
+        crime-ridden towns of the old west.
+        Fueled by the iconic spaghetti western themes from the late Ennio Morricone, as well as the popular tune "Wanted:Dead or Alive" by Bon Jovi,
+        we hope you enjoy our journey into the wild west. 
 
     notes: >
         Cal High thanks the amazing Cal High Instrumental Music Band Boosters for all of their love and support.
