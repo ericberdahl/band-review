@@ -3,45 +3,44 @@ name: "Capuchino High School"
 city: "San Bruno, CA"
 
 parade:
-    lastUpdated: 2019-10-18 15:56:12 -07
+    lastUpdated: 2021-10-06 11:56:02 -07
 
-    nickname: "Mustang Marching Band"
+    nickname: "Capuchino High School Marching Band & Color Guard"
 
     directors:
-    -   "Scott Souza"
+    -   "Johnathan Hsu"
 
     staff:
-    -   title: "guard director"
+    -   title: "color guard Instructor"
         members:
-        -   "Pamela Ortiz"
+        -   "Ruswell Cabudol"
+
+    -   title: "percussion Instructor"
+        members:
+        -   "Aaron Balot"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Alannah Linden"
-
-    -   title: "auxiliary captains"
+        -   "Meilani Lee-Murphy"
+    
+    -   title: "assistant drum major"
         members:
-        -   "Camila Martinez"
-        -   "TJ Moyrong"
+        -   "Maeve Gouws"
 
-    -   title: "percussion captain"
+    -   title: "color guard captain"
         members:
-        -   "Aidan Steckley"
+        -   "Alyssa Covington"
 
-    music: "A Slavic Farewell by Vasilij I Agapkin (vah-SEE-lee EYE ah-GAHP-kihn), arranged by John R. Bourgeois"
+    -   title: "percussion captains"
+        members:
+        -   "Sailosi Malani"
+        -   "Mikaela Santos-Stevenson"
+
+    music: "Monterey March by Pierrre LaPlante"
 
     notes: >
-        The Capuchino Marching Band is in it's 4th year of a rebuild, starting with 22 students in the Band Program in 2016 to the 60 instrumentalists and 11 Guard Members you see here today.
-        The Marching Mustangs are excited to continue to grow and perform throughout Northern California.
-        The Mustang Marching Band was the first place winner of the Division 2A Bands at last years Foothill Band Review.
-        This year the Capuchino Band earned first place in Division 3A at the Feste Del Mar Band Review in San Jose.
-        The Mustang Marching Band is excited to return to Pleasanton to perform for you today.  
-
-        The Capuchino Marching Band would like to extend a special thank you to the Foothill Band Boosters and all organizers of todays event
-        and would like to especially thank the Capuchino Music Boosters for their undying support of the rebirth of Music at Capuchino
-        and for ensuring that our wonderful musicians are well cared for,
-        fed and groomed for each and every event in which we participate.  
+        The Capuchino HS Marching Band and Color Guard are grateful to our families, our school staff and admin, and our Capuchino Music Boosters for supporting us!
 
 concert:
     lastUpdated: 2019-10-18 15:56:12 -07

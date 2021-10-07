@@ -3,45 +3,46 @@ name: "Millennium High School"
 city: "Tracy, CA"
 
 fieldshow:
-    lastUpdated: 2019-10-17 10:44:59 -07
+    lastUpdated: 2021-10-06 08:18:48 -07
 
-    nickname: "Marching Falcons"
+    nickname: "Millennium High School Marching Band and Color Guard"
 
     directors: &directors
     -   "Roland Zepeda (Roland zuh-PAY-duh)"
 
     staff:
-    -   title: "auxiliary instructor"
+    -   title: "color guard instructor"
         members:
-        -   "Gabrielle Seres"
+        -   "Molly Contreras"
         
     -   title: "percussion instructor"
         members:
-        -   "Kyle Bossert"
+        -   "Daniel Harrison"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Ximena Garcia (huh-MEH-nuh Garcia)"
+        -   "Taylor Norwood"
     
-    -   title: "auxiliary captains"
+    -   title: "auxiliary captain"
         members:
-        -   "Molly Contreras"
-        -   "Sarah Keogh"
+        -   "Alondra Villa"
     
     -   title: "percussion captains"
         members:
-        -   "Daniel Harrison"
-        -   "Josiah Adrineda"
+        -   "Pierce Real"
+        -   "Micelle Bai"
 
-    program: "Medusa"
+    program: "The Tell-Tale Heart"
 
     music: >
-        Medusa Lures Poseidon,
-        Athena's Rage,
-        Serpents,
-        and The Gorgon's Pursuit by Key Poulan.
-        Percussion by Shawn Glyde and Leonard Bedoian.
+        movement 1, The Old Man's Eye,
+        movement 2, The Murder,
+        and movement 3, The Beating Heart Beneath the Wooden Planks.
+        Music by Key Poulan and percussion by Shawn Glyde and Dan Bryan.
+
+    description: >
+        The adaptation of E. A. Poe's short story to field.
 
     notes: >
         A special thank you to our amazing parents and administration for their hard work and support.

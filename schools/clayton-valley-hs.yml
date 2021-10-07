@@ -3,42 +3,51 @@ name: "Clayton Valley Charter High School"
 city: "Concord, CA"
 
 fieldshow:
-    lastUpdated: 2019-10-22 10:16:35 -07
+    lastUpdated: 2021-10-06 08:45:52 -07
 
-    nickname: "Clayton Valley Charter High School Marching Band"
+    nickname: "CVCHS Marching Band"
 
     directors:
     -   "Chance Krause"
-    -   "Chris Mccoy"
 
     staff:
     -   title: "instructed by"
         members:
-        -   "Kyle Banda"
-        -   "Brandon Duenas"
-        -   "Gerardo Hernandez"
+        -   "Jordan Banda"
+        -   "Gabe Boston"
+        -   "Adam Davidson"
+        -   "Paulina Vaclav"
+        -   "Pennelope Vega"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Jack Simpkins"
-        -   "Gabe Lopez"
-
-    -   title: "auxiliary captain"
-        members:
-        -   "Pennelope Vega Ortiz"
+        -   "Brooke Stanton"
+        -   "Meredith Edmonston"
     
     -   title: "percussion captain"
         members:
-        -   "Alex Leong"
+        -   "Dawson Ly"
     
-    program: "Heroes and Villains"
+    -   title: "woodwind caption head"
+        members:
+        -   "Abby Chase"
 
-    music: 
+    -   title: "brass caption head"
+        members:
+        -   "Bess Amos"
+
+    -   title: "guard caption head"
+        members:
+        -   "Angie Solis"
+    
+    program: "A Heroe's Quest"
+
+    music: "music from Star Trek and Cirque du Solei by Michael Giacchino and Renee Dupere and arranged by Scott Ward"
 
     notes: >
-        The Clayton Valley Charter High School Marching Band gives a huge thank you to our CVCHS Music Boosters!
-        Thank you for all that you do.
+        The CVCHS Marching Band would like to thank our Band Boosters and parent volunteers for all that they do to make this possible.
+
 
 winterpercussion:
     lastUpdated: 2000-01-01 15:23:03 -07

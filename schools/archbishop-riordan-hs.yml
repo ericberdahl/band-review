@@ -3,45 +3,39 @@ name: "Archbishop Riordan High School"
 city: "San Francisco, CA"
 
 parade:
-    lastUpdated: 2019-10-16 12:01:13 -07
+    lastUpdated: 2021-10-06 00:00:32 -07
 
     nickname: "Crusader Marching Band"
 
     directors:
     -   "Kyle Hildebrant"
-    -   "Edwin Serrano"
+    -   "Lance Ohnmeiss"
 
     staff:
-    -   title: "percussion instructors"
-        members:
-        -   "Kyle Baldwin"
-        -   "Oliver Bishop"
-
     -   title: "color guard instructor"
         members:
-        -   "Jose Reyes"
+        -   "Brian Coon"
+
+    -   title: "percussion instructors"
+        members:
+        -   "Oliver Bishop"
+        -   "Kyle Baldwin"
 
     leaders:
-    -   title: "drum major"
+    -   title: "drum majors"
         members:
-        -   "Zachary Phillips"
-
-    -   title: "auxiliary captain"
-        members:
-        -   "Anna Gotuaco"
-
-    -   title: "percussion captains"
-        members:
-        -   "Jacob Castillo"
-        -   "Ian Starks"
+        -   "Allen Forte"
+        -   "Logan Paulsen"
     
-    music: "Slaidburn by William Rimmer arranged by Bertrand Moren"
+    music: "Men in Gray by N.K. Brahmstedt"
 
     notes: >
-        The Archbishop Riordan Crusader Marching Band would like to thank the band boosters and parent volunteers for their time, dedication, and hard-work throughout the marching season!
-        We couldn't do any of this without their tremendous contributions!
-        The directors would also like to congratulate the 85 percent of students in the band who began their musical journey in their Freshman year of high school.
-        Mr. H and Mr. S are proud of all of you!
+        Archbishop Riordan High School is a private, Archdiocesan Catholic high school in the Marianist tradition.
+        The band program prides itself in having one of the longest-running and largest marching bands in the city of San Francisco and owes its success to the school’s beginning band courses.
+        Over 80% of the students you see in front of you today began learning their instrument as a Freshman at Riordan!
+        The band as a whole would like to thank the Foothill High School Band, faculty, staff, and parents for providing this tremendous opportunity to perform.
+        And of course, Mr. Hildebrant and Mr. Ohnmeiss would like to give a big shout out to the Riordan Band Boosters!
+        Without you, none of this would be possible!
 
 concert:
     lastUpdated: 2019-10-16 12:01:13 -07

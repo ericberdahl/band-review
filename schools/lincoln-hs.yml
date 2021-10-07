@@ -3,36 +3,42 @@ name: "Lincoln High School"
 city: "Stockton, CA"
 
 parade:
-    lastUpdated: &band-review-last-updated 2019-10-14 21:35:40 -07
+    lastUpdated: &band-review-last-updated 2021-10-05 20:29:28 -07
 
-    nickname: "Lincoln High School Marching Band and Auxiliary"
+    nickname: "Lincoln High School Marching Band and Colorguard"
 
     directors:
+    -   "Cathy Ettle"
     -   "Kristin Florek"
+    -   "Jazareth Valencia"
 
     staff:
-    -   title: "instructed by"
+    -   title: "guard instructor"
         members:
-        -   "Michael Hernandez"
-        -   "Yasmeen Vargas"
+        -   "Julia Cornejo"
+
+    -   title: "percussion instructor"
+        members:
+        -   "Luan Ho"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Gabriel Puccinelli"
+        -   "Previn Langham"
 
     -   title: "auxilliary captain"
         members:
-        -   "Karsen Kelley"
+        -   "Jupiter Lee"
 
-    -   title: "percussion captain"
+    -   title: "percussion captains"
         members:
-        -   "Tanner Dunaway"
+        -   "Trish Pagan-Kennedy"
+        -   "Lia Basalusalu"
 
-    music: "The Great Little Army by Kenneth Alford"
+    music: "The Voice of the Guns by Kenneth Alford"
 
     notes: >
-        The Lincoln High School Marching Band would like to give special thanks to all of the parents, teachers, and supporters from the Stockton community who help their program continue to thrive.    
+        The Lincoln High School Marching Band would like to thank all of our parents, teachers, the Lincoln Unified School District and supporters from the Stockton community for their continued support.
 
 concert-wind-1:
     lastUpdated: *band-review-last-updated

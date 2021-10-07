@@ -3,7 +3,7 @@ name: "Patterson High School"
 city: "Patterson, CA"
 
 parade:
-    lastUpdated: 2018-10-17 10:55:58 -07
+    lastUpdated: 2021-10-05 20:36:31 -07
 
     nickname: "Tiger Marching Band and Colorguard"
 
@@ -11,19 +11,19 @@ parade:
     -   "Spencer Jepson"
 
     staff:
-    -   title: "instructed by"
+    -   title: "colorguard instructor"
         members:
-        -   "Alberto Mercado"
+        -   "Makenzy Bergman"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Jayliena Le'i"
+        -   "Mariana Mensah-Randolph"
     
     -   title: "auxiliary captain"
         members:
-        -   "David Garcia Barba"
+        -   "Arianna Cuellar"
     
-    music: "The American Red Cross March by Louis Panella"
+    music: "Miss Liberty by Karl King"
 
     notes: 
