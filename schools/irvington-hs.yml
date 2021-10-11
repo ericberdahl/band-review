@@ -3,7 +3,7 @@ name: "Irvington High School"
 city: "Fremont, CA"
 
 parade:
-    lastUpdated: &band-review-last-updated 2019-09-24 08:32:09 -07
+    lastUpdated: &band-review-last-updated 2021-10-07 13:06:01 -07
 
     nickname: "Viking Marching Band"
 
@@ -15,35 +15,34 @@ parade:
         members:
         -   "Ben Benavides"
 
-    -   title: "auxiliary coaches"
+    -   title: "percussion coach"
         members:
-        -   "Tommy Inthavong"
-        -   "Jessica Toro"
+        -   "Keerthan Diddige"
 
-    -   title: "percussion coaches"
+    -   title: "color guard coach"
         members:
-        -   "Charles Cachero"
-        -   "Jessica Lee"
+        -   "Jessica Toro"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Sarah Tai"
+        -   "Isabell Hsu"
 
     -   title: "auxiliary captains"
         members:
-        -   "Christina Tran"
-        -   "Emma Sun"
+        -   "Denise Huang"
+        -   "Lauren Osaki"
 
-    -   title: "percussion captain"
+    -   title: "percussion captains"
         members:
-        -   "Keerthan Diddige"
+        -   "James Lee"
+        -   "Mihir Shah"
 
-    music: "The Cossack by William Rimmer arranged by Geoffrey Brand"
+    music: "The Red Shield by Henry Goffin"
 
     notes: >
-        The Viking Marching Band earned the Music Sweepstakes at last year's Foothill Band Review
-        and Music, Showmanship, and Parade Sweepstakes at last year's Santa Cruz Band Review.
+        The Viking Marching band was awarded first place in parade and concert at the Del Mar Band Review.
+        They give a big thank you to their amazing band parents.
 
 concert-wind:
     lastUpdated: *band-review-last-updated

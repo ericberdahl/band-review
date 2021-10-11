@@ -3,22 +3,7 @@ name: "American High School"
 city: "Fremont, CA"
 
 students:
--   &namitha-bhat "Namitha Bhat"
--   &desna-bui "Desna Bui"
--   &sophia-chan "Sophia Chan"
--   &lucy-chen "Lucy Chen"
--   &serena-choo "Serena Choo"
--   &anthony-di-paola "Anthony Di Paola"
--   &andrew-lee "Andrew Lee"
--   &rachel-lin "Rachel Lin"
--   &sebastian-moreira "Sebastian Moreira"
 -   &ashley-nguyen "Ashley Nguyen"
--   &purnima-qamar "Purnima Qamar"
--   &samantha-silva "Samantha Silva"
--   &ronit-singh "Ronit Singh"
--   &henry-susantin "Henry Susantin"
--   &aparajita-vemuri "Aparajita Vemuri"
--   &alvin-wang "Alvin Wang"
 -   &joshua-wong "Joshua Wong"
 -   &alison-zhao "Alison Zhao"
 
@@ -26,7 +11,7 @@ staff:
 -   &anthony-nunes "Anthony Nunes (Anthony NOONS)"
 
 fieldshow:
-    lastUpdated: 2018-10-12 07:50:40 -07
+    lastUpdated: 2021-10-08 09:21:47 -07
 
     nickname: "American Eagles Marching Band"
 
@@ -34,77 +19,65 @@ fieldshow:
     -   "Richard F. Wong"
     
     staff:
-    -   Percussion Instructor - Anthony Nunes ("noons"), Color Guard Instructor - Jennifer Wong
+    -   title: "instructed by"
+        members:
+        -   Jennifer Wong
 
     leaders:
-    -   title: "drum major"
+    -   title: "drum majors"
         members:
-        -   *namitha-bhat
-
-    -   title: "assistant drum majors"
-        members:
-        -   *aparajita-vemuri
-        -   *alvin-wang
+        -   "Aarnav Sanghvi"
+        -   "Subhon Ghosh"
+        -   "Suhas Palawala"
 
     -   title: "auxilliary captains"
         members:
-        -   *joshua-wong
-        -   *ashley-nguyen
+        -   "Shreya Daschoudhary"
+        -   "Naomi Tchao"
+        -   "Lilian Tjioe"
 
-    -   title: "flute lead"
+    -   title: "percussion captain"
         members:
-        -   *purnima-qamar
+        -   &aaditya-borse "Aaditya Borse"
 
-    -   title: "assistant flute lead"
+    -   title: "section leaders"
         members:
-        -   *serena-choo
+        -   "Jayant Dharwadkar"
+        -   Aaroh Dixit Hardikar
+        -   Rachel Abraham
+        -   Harshini Karthikeyan
+        -   Laurence Liao
+        -   Audrey Zhou
+        -   Chinmay Arora
+        -   &arav-tewari "Arav Tewari"
+        -   Samuel Yip
+        -   Kent Abe
+        -   Lucas Gobaco
+        -   Emily Lung Low
+        -   Edwin Lung
 
-    -   title: "clarinet leads"
+    -   title: "Equipment Managers"
         members:
-        -   *rachel-lin
-        -   *sebastian-moreira
-
-    -   title: "alto saxophone lead"
-        members:
-        -   *desna-bui
-
-    -   title: "trumpet lead"
-        members:
-        -   *samantha-silva
-
-    -   title: "assistant trumpet lead"
-        members:
-        -   *ronit-singh
-
-    -   title: "low brass lead"
-        members:
-        -   *henry-susantin
-
-    -   title: "low winds lead"
-        members:
-        -   *anthony-di-paola
-
-    -   title: "assistant color guard captain"
-        members:
-        -   *alison-zhao
+        -   *aaditya-borse
+        -   *arav-tewari
 
     -   title: "music librarians"
         members:
-        -   *sophia-chan
-        -   *lucy-chen
-        -   *andrew-lee
+        -   "Daniel Alvizo"
+        -   "Pranav Surapaneni"
 
-    -   title: "equipment manager"
-        members:
-        -   *anthony-di-paola
+    program: "Journey of Man"
 
-    program: "Minimally Speaking"
+    music: "Journey of Man, Youth, Flying, and Youth"
 
-    music: "New Rhythmics, Layers, Echoes, composed by Richard Saucedo"
+    description: >
+        Music from Cirque du Soleil's Journey of Man, a story about our human experience,
+        as we start out in youth and go through the trials and tribulations of the various stages of life.
 
     notes: >
-        The American Eagles Marching Band thanks all our band parents for their support of our students in the program.
-    
+        The American Eagles Marching Band is happy to be back in person and performing again.
+        Thanks to our hosts for putting on the show, and thanks to all of our Band Parents who made this activity possible for us.
+
 parade:
     lastUpdated: 1967-12-01 04:30:00 -08
 

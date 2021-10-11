@@ -3,7 +3,7 @@ name: "Armijo High School"
 city: "Fairfield, CA"
 
 parade:
-    lastUpdated: 2019-10-21 17:06:57 -07
+    lastUpdated: 2021-10-08 17:23:54 -07
 
     nickname: "Armijo Super Band"
 
@@ -13,19 +13,22 @@ parade:
     staff:
     -   title: "instructed by"
         members:
-        -   "Collin Apperson"
-        -   "Lindsey Mai (Lindsey My)"
+        -   "Kayla Ford-Ball"
+        -   "Sergio Ortega"
+        -   "Raymond Houston"
 
     leaders:
-    -   title: "drum majors"
+    -   title: "drum major"
         members:
-        -   "Raymond Houston"
-        -   "Aleia Carrasca"
+        -   "Dolores Almanza (Dolores al-MON-za)"
     
-    -   title: "auxiliary captain"
+    -   title: "colorguard captain"
         members:
-        -   "Maria Villa Marquez"
+        -   "Sayra Alvarez (SIGH-rah AL-vah-rez)"
 
-    music: "Blue Devils (The Kensington) by Charles Williams"
+    music: "General Mitchell by R. B. Hall"
 
-    notes:
+    notes: >
+        The Armijo Super Band would like to thank the City of Pleasanton, and the Foothill High School Band Program for hosting today’s event.
+        We are extremely grateful for all of the parents and supporters for making today’s event possible.
+        Please give a warm welcome to the Armijo Super Band!

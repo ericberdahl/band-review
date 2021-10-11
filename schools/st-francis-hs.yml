@@ -3,61 +3,61 @@ name: "Saint Francis High School"
 city: "Mountain View, CA"
 
 fieldshow:
-    lastUpdated: 2019-10-21 14:50:19 -07
+    lastUpdated: 2021-10-09 10:15:30 -07
 
-    nickname: "Lancer Marching Band and Color Guard"
+    nickname: "Lancer Band"
 
     directors:
-    -   "Javier Cerna (Javier SEHR-nah)"
+    -   "Sadie Queally-Sammut (SAY-dee KWAY-lee SAM-ut)"
 
     staff:
-    -   title: "visual staff"
+    -   title: "drum major and color guard instructor"
         members:
-        -   "Justin Cunha"
-        -   "Dan Lehnert"
-        -   "Andre Garcia"
+        -   "Colleen Queally-Sammut (cah-LEEN KWAY-lee SAM-ut)"
 
-    -   title: "color guard staff"
+    -   title: "percussion instructor"
         members:
-        -   "Jenny Lyons"
-        -   "Isabel Guerrero"
-        -   "Jennifer Lam"
+        -   "Casey Tessier"
 
-    -   title: "music staff"
+    -   title: "visual tech"
         members:
-        -   "Madison Bohrer"
-        -   "Patrick Weber"
-        -   "Doug Durando"
-        -   "Mikaela Valenciano"
-        -   "Sebastian Perales"
+        -   "Davis Zamboanga"
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Jackson Butler"
-        -   "Marcella Ledesma"
         -   "Jewel Merriman"
+        -   "Pujita Tangirala"
+        -   "Jiyou Lee"
 
-    -   title: "auxiliary captain"
+    -   title: "auxiliary captains"
         members:
-        -   "Claire Becker"
+        -   "Nicole Schubert"
+        -   "Andrea Wu"
+        -   "Rachel Minden"
 
     -   title: "percussion captain"
         members:
-        -   "Matthew Quan"
+        -   "Bowen Hu"
+        -   "Shlok Shah"
+    
+    -   title: "president"
+        members:
+        -   "Jonathan Lee"
 
-    program: "Tethered"
+    program: "Colors"
 
-    music: "original Music by Charles Mekealian (Charles meh-KEE-lee-an) and Armeen Ghafourpour (Armeen GAH-foor-poor)"
+    music: "music by Randall Standridge, drill and choreography by David Bolzman"
     
     description: >
-        Tethered explores the many connective bonds in our life (emotional, mental and physical) that can affect how we live.
-        Strong bonds can often leave us feeling trapped and desiring to break free.
-        Throughout the show, we explore how what may initially seem to restrain us can transform into bonds that strengthen and unite.
-    
-    notes: >
-        The Lancer Marching Band and Color Guard would like to thank all of the instructional staff, administrators and Band Booster parents for their hard work and support!
+        The world is alive with color in our exciting show!
+        We explore the character of each color on the color wheel, beginning with the fiery, Latin-inspired “Fury (Red/Orange)”,
+        followed by jazzy strains of “The Royal Blues (Blue/Purple)”,
+        before finishing with the vibrant, rhythmic “Life (Yellow/Green)."    
 
+    notes: >
+        The Lancer Marching Band and Color Guard thanks our tireless Lancer Band Road Crew!
+        
 parade:
     lastUpdated: 1967-12-01 04:30:00 -08
 

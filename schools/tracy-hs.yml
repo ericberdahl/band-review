@@ -3,44 +3,31 @@ name: "Tracy High School"
 city: "Tracy, CA"
 
 parade:
-    lastUpdated: 2019-10-01 08:40:29 -07
+    lastUpdated: 2021-10-07 16:05:18 -07
 
-    nickname: &band-nickname "Pride of Tracy Marching Band and Color Guard"
+    nickname: &band-nickname "Pride of Tracy, Tracy High Marching Band and Color Guard"
 
     directors:
-    -   &amanda-gieseke "Amanda Gieseke (Amanda gee-SEH-kee)"
+    -   "Jacob Cortez"
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Kanika Clavejo"
-        -   "Ben Durant"
-        -   "Arturo Espinoza"
-        -   "Justin Fields"
-        -   &cj-julian "CJ Julian"
-        -   &danielle-masters "Danielle Masters"
-        -   "Reese Whiles"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Lauren McKelvey"
-    
-    -   title: "auxiliary captains"
-        members:
-        -   "Adrian De Guzman"
-        -   "Kayden Masters"
-    
+        -   "Adnan Kapadia"
+        
     -   title: "percussion captain"
         members:
-        -   "David Lansangan (David LAHN-sahn-gehn)"
+        -   "Mackenzie Andersen"
+    
+    -   title: "guard captain"
+        members:
+        -   "Isadora LaPachet"
 
-    music: "Army of the Nile by Kenneth Alford"
+    music: "Salutation by Roland F. Seitz arranged by James A. Scott"
 
-    notes: >
-        The Pride of Tracy Marching Band and Color Guard would like to thank their boosters for their constant support,
-        their performers for pushing themselves daily,
-        and the Foothill Band and Band Boosters for hosting today's event.
+    notes:
 
 fieldshow:
     lastUpdated: 2018-10-04 14:48:00 -07
@@ -53,9 +40,9 @@ fieldshow:
     staff:
     -   title: "instructed by"
         members:
-        -   *amanda-gieseke
-        -   *cj-julian
-        -   *danielle-masters
+        -   &amanda-gieseke "Amanda Gieseke (Amanda gee-SEH-kee)"
+        -   &cj-julian "CJ Julian"
+        -   &danielle-masters "Danielle Masters"
         -   "RJ Sambrano"
         -   "Jaden McComas"
 

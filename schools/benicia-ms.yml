@@ -3,7 +3,7 @@ name: "Benicia Middle School"
 city: "Benicia, CA"
 
 parade:
-    lastUpdated: 2021-09-30 12:27:56 -07
+    lastUpdated: 2021-10-07 13:04:03 -07
 
     nickname: "Benicia Middle School Viking Band"
 
@@ -11,14 +11,11 @@ parade:
     -   "Paul Hanna"
 
     staff:
-    -   title: "colorguard instructors"
+    -   title: "instructors"
         members:
         -   "Jamie Hjeltness"
         -   "Xitlali Jiminez"
         -   "Ava Cheung"
-
-    -   title: "drumline instructor"
-        members:
         -   "Matt Lowe"
 
     leaders:
@@ -26,19 +23,21 @@ parade:
         members:
         -   "Luke Thorsen"
 
-    -   title: "percussion captain"
-        members:
-        -   "Harrison Mead"
-    
-    -   title: "captains"
+    -   title: "auxiliary captains"
         members:
         -   "Cheryl Morris"
         -   "Sofia Almogela"
 
+    -   title: "percussion captain"
+        members:
+        -   "Evan Diggs"
+    
     music: "Crosswinds March by James Swearingen (James SWEHR-ing-ehn)"
     
     notes: >
-        The Benicia Middle School Band would like to thank our boosters and board for all their support.
+        The Benicia Middle School Viking Band hails from Benicia, CA.
+        For many years they have been known across the bay area for their marching and musicianship.
+        They would like to thank the BMS Viking Band Boosters for all their support!
 
 concert:
     lastUpdated: 2019-10-10 14:09:10 -07
