@@ -3,27 +3,38 @@ name: "Lodi High School"
 city: "Lodi, CA"
 
 fieldshow:
-    lastUpdated: 2017
+    lastUpdated: 2021-10-11 15:03:46 -07
 
-    nickname: "Lodi High School Marching Band and Color Guard"
+    nickname: "Lodi High Honor Band and Guard"
 
     directors:
-    -   "Glen Guevara"
+    -   "Bernadette Dempsey"
+
+    staff:
+    -   title: instructed by
+        members:
+        -   Jesus Muniz
+        -   Greg Lewis
+        -   David Morones
+        -   Cody Easterbrooks
+        -   Jacob Miller
+        -   Marcus Rowe
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Michael Coffaro"
-
-    -   title: "percussion captains"
+        -   Chevelle Stapleton
+        
+    -   title: assistant drum major
         members:
-        -   "Mateo Tiscareno (Mateo tihs-kah-RAY-no)"
-        -   "Jordan Wells"
-        -   "Robert Perrin"
+        -   Joy Talaroc
 
-    program: "España"
+    program: "Afterworld"
 
-    music:
+    music: music by Gary Gilroy
+
+    description: >
+        Enter the story of the Divine Comedy "Dante's Inferno".
 
     notes: >
         The Lodi High School Band would like to thank its boosters and parents for their continuing support.

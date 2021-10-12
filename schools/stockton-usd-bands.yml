@@ -20,17 +20,31 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-10-11 8:46:52 -08
 
-    nickname: 
+    nickname: SUSD Marching Band
 
     directors:
+    -   Chris McCoy
+    -   Arthur Coleman
+    -   Jacqueline Hairston
+    -   Iisak Niemela
 
     staff:
 
     leaders:
+    -   title: drum majors
+        members:
+        -   Michelle Carrera Mendez
+        -   Samantha Ramirez
+        -   Victoria Dato
+    
+    -   title: auxilliary captains
+        members:
+        -   Beatriz Madrid
+        -   Jaliyah Cheavers
 
-    music: 
+    music: Invercargill by Alex F. Lithgow
 
 winterpercussion:
     lastUpdated: 1967-12-01 04:30:00 -08

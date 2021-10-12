@@ -20,17 +20,48 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-10-11 13:19:09 -08
 
-    nickname: 
+    nickname: Falcon Marching Band
 
     directors:
+    -   Brian Mabry
 
     staff:
+    -   title: auxiliary instructor
+        members:
+        -   Sondra Van Meter
+
+    -   title: percussion instructors
+        members:
+        -   Kyle Boydstun
+        -   Alexis Fernandez
+
+    -   title: brass instructor
+        members:
+        -   Thomas McCauley
+
+    -   title: woodwind instructor
+        members:
+        -   Angie Arroyo
 
     leaders:
+    -   title: drum major
+        members:
+        -   Nickie Ramey
+    
+    -   title: auxilliary captain
+        members:
+        -   Jason McCauley
+    
+    -   title: percussion captain
+        members:
+        -   Addie Piper
 
-    music: 
+    music: Bravura by C.E. Duble, arranged by John Edmondson
+
+    notes: >
+        Mr. Mabry would like to thank the Band Boosters of the Freedom Falcon Marching Band for all their hard work and support of the program.
 
 winterpercussion:
     lastUpdated: 1967-12-01 04:30:00 -08

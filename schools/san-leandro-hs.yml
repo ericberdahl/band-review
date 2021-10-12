@@ -20,17 +20,27 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-10-11 11:02:17 -08
 
-    nickname: 
+    nickname: San Leandro High School Marching Band
 
     directors:
+    -   Alec Hovey
 
     staff:
+    -   title: instructed by
+        members:
+        -   Sarah Crump
+        -   Geronimo Rojas
+        -   Ryan Phillips
 
     leaders:
+    -   title: drum majors
+        members:
+        -   Eleanor Riley
+        -   Watson Yang
 
-    music: 
+    music: Night at the Movies by Robert Bergeron
 
 winterpercussion:
     lastUpdated: 1967-12-01 04:30:00 -08

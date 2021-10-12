@@ -3,9 +3,9 @@ name: "Granada High School"
 city: "Livermore, CA"
 
 parade:
-    lastUpdated: 2019-10-21 12:32:14 -07
+    lastUpdated: 2021-10-11 19:30:20 -07
 
-    nickname: "Marching Matadors"
+    nickname: "Matador Band"
 
     directors:
     -   "George Pascoe"
@@ -13,23 +13,26 @@ parade:
     staff:
     -   title: "instructed by"
         members:
-        -   "Jaimie Roman"
+        -   "Jaimie Hjeltness"
+        -   "Sierra Sowa"
         -   "Leigha Roeder (LAY-ah RAY-dur)"
-        -   "Ben L."
+        -   "Casey Tessier"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Drake Small"
+        -   "Ally Lagodzinski"
 
     -   title: "auxiliary captain"
         members:
-        -   "Kailin Thompson"
+        -   Ari Stanley
+        -   Stella Stark
 
     -   title: "percussion captain"
         members:
-        -   "Nicolette Dunbar"
+        -   "Julia Leigh"
 
-    music: "Purple Pageant by Karl King, arranged by John Paynter"
+    music: Emblem of Unity by J. J. Richards arranged by James Swearingen (James SWEHR-ing-ehn)
 
     notes: >
+

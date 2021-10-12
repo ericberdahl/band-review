@@ -20,17 +20,29 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-10-11 13:00:19 -08
 
-    nickname: 
+    nickname: Soaring Jets Band
 
     directors:
+    -   Tony Gennaro
 
     staff:
 
     leaders:
+    -   title: drum major
+        members:
+        -   Amy Zhang
+    
+    -   title: percussion captain
+        members:
+        -   Kash Mejia
 
-    music: 
+    music: Corcoran Cadets by John Philip Sousa
+
+    notes: >
+        As the “pride of Alameda”, the Soaring Jest Band is so excited to finally be here after a long year.
+        Thank you to all the on-campus staff, teachers, and especially the Encinal High School Music Parent Community for supporting us!
 
 winterpercussion:
     lastUpdated: 1967-12-01 04:30:00 -08
