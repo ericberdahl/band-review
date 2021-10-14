@@ -3,54 +3,49 @@ name: "Castro Valley High School"
 city: "Castro Valley, CA"
 
 fieldshow:
-    lastUpdated: 2019-09-18 19:56:39 -07
+    lastUpdated: 2021-10-13 15:30:07 -07
 
     nickname: "Castro Valley High School Band and Guard"
 
     directors:
-    -   "Steven Hendee"
-    -   "Keita Hasegawa"
+    -   Keita Hasegawa (KAY-tah ha-say-GAH-wah)
 
     staff:
-    -   title: "instructed by"
+    -   title: drill design by
         members:
-        -   "Rawnna Hudson"
-        -   "Jhay Delos Rios"
-        -   "Phoebe Chou"
-        -   "Aidan Wong"
+        -   Rick Pina
+
+    -   title: guard design staff
+        members:
+        -   Jhay Delos Reyes
+        -   Rawnna Hudson
+        -   Teresa Le
+
+    -   title: percussion design staff
+        members:
+        -   Glenn Imai
+        -   Christian Gerardo
+
+    -   title: visual staff
+        members:
+        -   Andrew Thomas
+        -   Nathan Liu
+        -   Curtis Wernig
+        -   Lambert Bui
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Christian Decano"
-        -   "Alex Low"
-        -   "Makayla Thai"
-
-    -   title: "auxiliary captains"
-        members:
-        -   "Caitlin Lyons"
-        -   "Sonia Andrade"
+        -   Helena Liu
+        -   Estie Hsu
+        -   Zoe Dorado
     
-    -   title: "percussion captains"
-        members:
-        -   "Ryan Yee"
-        -   "Sam Lu"
-        -   "Seth Miu"
-    
-    -   title: "general manager"
-        members:
-        -   "Nathan Liu"
-
-    program: "The Color of Where You Are Not"
+    program: Mandala
 
     music: >
-        On the Nature of Daylight by Max Richter,
-        You are Variations by Steve Reich,
-        Closing In by Imogen Heap,
-        and Dunes of Sand by Bjork.
+        original Music by Kevin Shah,
+        percussion by Mike Jackson and Glenn Imai
 
     description: >
-        Life is a journey, You're Lost...It's ok, we're still here.
 
     notes: >
-        Thanks to all of our parent and community supporters, without your generosity we couldn't have accomplished so much.

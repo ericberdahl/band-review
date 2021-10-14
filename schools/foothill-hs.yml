@@ -2,24 +2,33 @@ name: "Foothill High School"
 
 city: "Pleasanton, CA"
 
+staff:
+-   &shawn-griddine Shawn Griddine
+-   &marvin-reed Marvin Reed
+-   &matt-sieve Matt Sieve
+-   &brianna-gier Brianna Gier
+-   &chris-cyr Chris Cyr
+-   &alex-pfiefer Alex Pfiefer
+-   &ryan-myers Ryan Myers
+-   &alex-blakely Alex Blakely
+-   &nate-huey Nate Huey
+-   &connor-carroll Connor Carroll
+-   &xavier-choo Xavier Choo
+-   &nick-duenas Nick Duenas
+-   &andrew-lawton Andrew Lawton
+-   &dennis-aquilina Dennis Aquilina
+
 students:
 -   &ayla-johnson "Ayla Johnson (AY-lah Johnson)"
 -   &lucy-lee "Lucy Lee"
--   &nate-huey "Nate Huey"
--   &zoey-castillo "Zoey Castillo"
--   &derek-dressler "Derek Dressler"
--   &michael-lampson "Michael Lampson"
--   &jonathan-min "Jonathan Min"
--   &connor-iwata "Connor Iwata"
--   &sierra-sowa "Sierra Sowa (Sierra SOH-wa)"
--   &allison-phan "Allison Phan"
 -   &claire-kim "Claire Kim"
+-   &kyra-maeda Kyra Maeda
 -   &kellen-sowa "Kellen Sowa"
 
 parade:
     isHost: true
 
-    lastUpdated: &band-review-updated 2019-10-19 15:23:03 -07
+    lastUpdated: &band-review-updated 2021-10-13 8:44:46 -07
 
     nickname: &band-nickname "Foothill High School Marching Band and Color Guard"
 
@@ -27,47 +36,43 @@ parade:
     -   "Efrain Hinojosa (EH-fren ee-no-HO-sah)"
     -   "Erik Nishimori (EH-rik nih-shee-MO-ree)"
 
-    staff: &band-review-staff
+    staff:
     -   title: "instructed by"
         members:
-        -   "Chris Cyr"
-        -   "Charles Cachero"
-        -   "Alex Pfiefer"
-        -   "Ryan Myers"
-        -   "Connor Carroll"
-        -   "Abbi Castillo"
-        -   "Mikey Sowell"
-        -   "Marvin Reed"
-        -   "Bryan Jimenez"
-        -   "Sharon Parker"
-        -   "Will Edmonds"
-        -   "Matt Sieve"
-        -   "Nick Duenas"
-        -   "Alexina Manriquez"
-        -   "Andrew Lawton"
-        -   "Makoto McCann"
-        -   "Karen Pham"
-
+        -   *shawn-griddine
+        -   *marvin-reed
+        -   *matt-sieve
+        -   *brianna-gier
+        -   *chris-cyr
+        -   *alex-pfiefer
+        -   *ryan-myers
+        -   *alex-blakely
+        -   *nate-huey
+        -   *connor-carroll
+        -   *xavier-choo
+        -   *nick-duenas
+        -   *andrew-lawton
+        -   *dennis-aquilina
+    
     leaders:
     -   title: "drum major"
         members:
-        -   "Alex Zhang"
+        -   "Yash Gupta"
 
     -   title: "auxiliary captains"
         members: &auxiliary-captains
-        -   "Isabella Alfonso"
-        -   "Victoria Tang"
+        -   Cecilia Turetzky
+        -   *kyra-maeda
 
     -   title: "percussion captain"
         members: &percussion-captains
-        -   "Zoe Chidambaram"
+        -   Erin Chang
     
-    music: "Kinizsi by Julius Fucik"
+    music: Washington Post March by John Philip Sousa, arranged by Pat Lee
 
     notes: >
-        The Foothill Marching Band would like to thank our Parent Booster organization for their support in hosting one of the best events in NCBA.
-        We would also like to thank Mayor Jerry Thorne and all involved with the City of Pleasanton for assisting us with the event.
-        Lastly, we would like to thank the Pleasanton Unified School District for their support of music in our schools.
+        The Foothill High Marching Band and Color Guard would like to thank our PUSD administration for their support of our music programs.
+        With the support of the Boosters, Site admin, and District admin we have been able to continue making music in Pleasanton!
 
 fieldshow:
     isHost: true
@@ -78,14 +83,30 @@ fieldshow:
 
     directors: *directors
 
-    staff: *band-review-staff
+    staff:
+    -   title: instructed by
+        members:
+        -   *shawn-griddine
+        -   *marvin-reed
+        -   *matt-sieve
+        -   *brianna-gier
+        -   *chris-cyr
+        -   *alex-pfiefer
+        -   *ryan-myers
+        -   *nate-huey
+        -   *connor-carroll
+        -   *xavier-choo
+        -   *alex-blakely
+        -   *andrew-lawton
+        -   *nick-duenas
+        -   *dennis-aquilina
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Derek Dressler"
-        -   "Michael Lampson"
-        -   "Sophia Kang"
+        -   Sophia Kang
+        -   Tristan Meyer
+        -   Sophia Jung
 
     -   title: "auxiliary captains"
         members: *auxiliary-captains
@@ -93,17 +114,19 @@ fieldshow:
     -   title: "percussion captain"
         members: *percussion-captains
 
-    program: "The Map Makers"
+    program: Luna
 
-    music: "original Music by Mike Jackson and Kevin Shah"
+    music: >
+        Summertime by George and Ira Gershwin,
+        Claire de Lune by Claude Debussy,
+        and Concerto for Orchestra by Bela Bartok.
+        Music arrangement by Mike Jackson and Kevin Shah.
 
     description: >
-        The Map Makers is a journey of discovery and exploration.
-        The Compass is there to help guide us on our journey but also to remind us how to find our way home. 
 
     notes: >
-        The Foothill Marching Band would like to send a huge THANK YOU to our booster organization for putting on such a wonderful event.
-        We would also like to thank the Foothill High School Administration for all of their support in helping us put on this event.
+        The Foothill High Marching Band and Color Guard would like to thank our PUSD administration for their support of our music programs.
+        With the support of the Boosters, Site admin, and District admin we have been able to continue making music in Pleasanton!
 
 winterguard:
     isHost: true

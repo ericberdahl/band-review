@@ -2,10 +2,16 @@ name: "Antioch High School"
 
 city: "Antioch, CA"
 
-parade:
-    lastUpdated: 2019-10-10 15:17:45 -07
+students:
+-   &jose-cordova Jose Cordova
+-   &kassidy-jennings Kassidy Jennings
+-   &kylie-souza Kylie Souza
+-   &lyriic-williams Lyriic Williams
 
-    nickname: "Pride of Antioch High School Panther Band and Color Guard"
+parade:
+    lastUpdated: 2021-10-12 8:46:00 -07
+
+    nickname: "Pride of Antioch Panther Marching Band and Color Guard"
 
     directors: &band-review-directors
     -   "Brooke David Kofford"
@@ -15,28 +21,28 @@ parade:
         members:
         -   "Maryann Peddicord"
 
-    leaders: &band-review-leaders
+    leaders:
     -   title: "drum major"
         members:
-        -   "Mariah Capote"
+        -   *jose-cordova
     
-    -   title: "auxiliary captain"
+    -   title: "auxiliary captains"
         members:
-        -   "Nicole Mendez"
+        -   *kassidy-jennings
+        -   *kylie-souza
 
     -   title: "percussion captain"
         members:
-        -   "Jenna Lozano"
+        -   *lyriic-williams
 
-    music: "Bravura by Charles Duble"
+    music: The Fairest of the Fair by John Philip Sousa
 
     notes: >
-        Last year the Pride of Antioch earned first place in Division 1A at the Grape Bowl Classic.
-        This year the band just earned second place in Division 2A at the Pitman Band Review.
-        The band would like to thank the Antioch Band Backers Association and all band and guard parents.
+        Antioch High School Street Percussion earned first place in division 2A at the Pitman Band Review.
+        The Band would like to thank all our band parents and our Antioch Band Backers Association.
 
 fieldshow:
-    lastUpdated: 2019-10-10 15:17:45 -07
+    lastUpdated: 2021-10-12 8:46:00 -07
 
     nickname: "Antioch High School Marching Band"
 
@@ -44,20 +50,32 @@ fieldshow:
 
     staff: *band-review-staff
 
-    leaders: *band-review-leaders
+    leaders:
+    -   title: "drum majors"
+        members:
+        -   *jose-cordova
+        -   Benjamin Elser
+    
+    -   title: "auxiliary captains"
+        members:
+        -   *kassidy-jennings
+        -   *kylie-souza
 
-    program: "Summer of Love 1967"
+    -   title: "percussion captains"
+        members:
+        -   *lyriic-williams
+        -   Alexandra Pier
+
+    program: Take to the Skies
 
     music: >
-        Aquarius,
-        I Can See for Miles,
-        Happy Together,
-        White Rabbit,
-        Turn Turn Turn,
-        and Let the Sunshine In
+        music composed by Ian Grom and John Mapes
+
+    description: >
+        The show is about the creation of humans taking to the skies in flight.
 
     notes: >
-        The Antioch High School Marching Band says thank you to the Antioch Band Boosters Association and all parents.
+        The Antioch High School street percussion earned first place in division 2A at the Pitman Band Review.
 
 winterguard:
     lastUpdated: 2019-03-13 12:27:59 -07
