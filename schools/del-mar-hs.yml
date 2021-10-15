@@ -2,82 +2,92 @@ name: "Del Mar High School"
 
 city: "San Jose, CA"
 
+staff:
+-   &josh-bacleg "Josh Bacleg (Josh BAK-leg)"
+-   &william-burkhead William Burkhead
+-   &kale-duprey Kale Duprey (KALE doo-PRAY)
+-   &andrew-kuykendall Andrew Kuykendall (Andrew KUHR-ken-dahl)
+-   &lidia-luque Lidia Luque (Lidia loo-KAY)
+-   &noah-rojas Noah Rojas (Noah ROH-hoss)
+
+students:
+
 parade:
-    lastUpdated: 2019-10-10 18:33:08 -07
+    lastUpdated: 2021-10-14 17:00:53 -07
 
     nickname: "Del Mar High School Marching Band and Colorguard"
 
-    directors: &directors
-    -   "William Burkhead"
+    directors:
+    -   *william-burkhead
 
     staff: 
     -   title: "instructed by"
         members:
-        -   "Kale Duprey"
-        -   "Bailey Morgan"
-        -   "AJ Gonzales"
-        -   "Lidia Luque (Lidia LOO-kay)"
-        -   "Stephanie Tracey"
-        -   "Charlie Tran"
-        -   "Rene Canto-Adams"
-        -   &josh-bacleg "Josh Bacleg (Josh BAK-leg)"
+        -   *kale-duprey
+        -   Bailey Morgan
+        -   Alyssa McCoy
+        -   Charlie Tran
+        -   AJ Gonzalez
+        -   *lidia-luque
+        -   Alexis Plowman
 
     leaders:
     -   title: "drum major"
         members:
-        -   &andrew-kuykendall "Andrew Kuykendall (Andrew KUHR-ken-dahl)"
+        -   Patrick Lockwood
 
     -   title: "auxiliary captain"
         members:
-        -   &danaxe-osorio "Danaxe Osorio (dahn-AH-shay oh-SOH-ree-oh)"
+        -   Ben Johnson
 
-    -   title: "percussion captain"
+    -   title: "percussion captains"
         members:
-        -   "Joshua Salgado"
+        -   Nathan Choi
+        -   Joe Pinella
 
-    music: "Gallant Entree by Karl L. King, arranged by Timothy Rhea (Timothy RAY)"
+    music: St. Petersburg March by Johnnie Vinson
 
     notes: >
-        The Del Mar High School Marching Band and Colorguard wishes to thank their amazing Parent Support Team for making they appearance today possible!
-        Also, thank you to the Foothill and Amador Valley organizers for making this event happen today!!
 
 fieldshow:
-    lastUpdated: 2019-10-10 18:33:08 -07
+    lastUpdated: 2021-10-14 17:00:53 -07
 
-    nickname: "Del Mar High School Marching Band and Colorguard"
+    nickname: Del Mar High School Marching Band and Colorguard
 
-    directors: *directors
+    directors:
+    -   *william-burkhead
 
     staff:
-    -   title: "instructed by"
+    -   title: instructed by
         members:
-        -   "Kale Duprey"
-        -   "Bailey Morgan"
-        -   "Gerry Martin"
-        -   "Charlie Tran"
-        -   "Misty Reese"
-        -   "Stephanie Tracey"
-        -   "AJ Gonzales"
-        -   *josh-bacleg
-        -   "Rene Canto-Adams"
+        -   *kale-duprey
+        -   Bailey Morgan
+        -   Alyssa McCoy
+        -   Charlie Tran
+        -   Alexis Plowman
+        -   *lidia-luque
+        -   AJ Gonzalez
+        -   *andrew-kuykendall
+        -   JD Poulson
+        -   *noah-rojas
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum major
         members:
-        -   "Connor Petri (Connor PEE-tree)"
-        -   *andrew-kuykendall
+        -   Allison Butler
 
-    -   title: "auxiliary captain"
+    -   title: auxiliary captain
         members:
-        -   *danaxe-osorio
+        -   Ben Johnson
 
-    -   title: "battery captain"
+    -   title: percussion captain
         members:
-        -   "Joshua Salgado"
+        -   Nathan Choi
+        -   Joe Pinella
 
-    -   title: "front ensemble captain"
+    -   title: front ensemble captain
         members:
-        -   "Arturo Montes (Arturo mohn-TEZ)"
+        -   Hannah Nathan
 
     -   title: "woodwind captain"
         members:
@@ -87,22 +97,21 @@ fieldshow:
         members:
         -   "Liz Butler"
 
-    program: "Shine On!"
+    program: Quest for the Musician’s Heart
 
     music: >
-        Shine On, Diamond Moon,
-        Palladio,
-        Diamonds and Pearls,
-        Shine Bright Like a Diamond,
-        and Lucy in the Sky with Diamonds
+        "This is Berk",
+        "Rey’s Theme",
+        "Dragon Heart",
+        "The Mandalorian",
+        and "Han’s Adventures".
 
     description: >
-        Celebrating Del Mar High School's Diamond Anniversary
+        A musical adventure spanning the multiverse as our musicians rediscover their joy after the cataclysmic events of the past 18 months
         
     notes: >
-        Please join us in celebrating 60 years of Del Mar High School's award winning Marching Band and Colorguard!!
-        None of this would be possible without the amazing Parent Support Team who raise money, provide meals, and sew surprise garments for us!
-        They also want to thank their hosts at both Amador Valley this morning and here at Foothill High School for hosting this seminal event every year.
+        The Del Mar High School Marching Band and Colorguard wishes to thank our AMAZING parent support team for making this season possible.
+        We also want to wish all of tonight's performers the very best as we all return to the joy of making music again for our friends and families.
 
 concert:
     lastUpdated: 2019-10-10 18:33:08 -07

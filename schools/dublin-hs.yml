@@ -3,83 +3,64 @@ name: "Dublin High School"
 city: "Dublin, CA"
 
 fieldshow:
-    lastUpdated: &band-review-last-updated 2019-10-21 18:45:59 -07
+    lastUpdated: &band-review-last-updated 2021-10-14 22:14:32 -07
 
-    nickname: "Irish Guard Marching Band and Color Guard"
+    nickname: Irish Guard
 
     directors:
-    -   "Elliot Polot"
+    -   Elliot Polot (Elliot puh-LOT)
 
     staff:
-    -   title: "drill staff"
+    -   title: instructed by
         members:
-        -   "Aaron Hines"
+        -   Nick Garcia
+        -   Zach Larsen
+        -   Garrett Moya
+        -   Fou Saelee
+        -   Justin Shebert
+        -   Matt Sieve
+        -   Joey Staab
+        -   Joey Wanzenried
     
-    -   title: "show design and percussion caption head"
-        members:
-        -   "Chris Cyr"
-
-    -   title: "percussion staff"
-        members:
-        -   "Charles Cachero"
-        -   "Connor Carroll"
-        -   "Justin Shebert"
-
-    -   title: "brass caption head"
-        members:
-        -   "Nick Garcia"
-
-    -   title: "colorguard caption head"
-        members:
-        -   "Fou Saelee"
-
-    -   title: "colorguard staff"
-        members:
-        -   "Paraskevi Constantinides"
-        -   "Kyle Koch"
-
-    -   title: "visual staff"
-        members:
-        -   "Nico Peruzzi"
-
     leaders:
-    -   title: "head drum major"
-        members:
-        -   "Joey Wanzenried"
-
     -   title: "drum majors"
         members:
-        -   "Yeseo Han"
-        -   "Aaron Lim"
-        -   "Elizabeth Ellis"
+        -   Ariana Amjad
+        -   Elizabeth Ellis
+        -   Anika Mathur
+        -   Akhil Rajidi
 
     -   title: "color guard captains"
         members:
-        -   "Meghan Van Lare"
-        -   "Michela Viazzo"
+        -   Maurissa DeMello
+        -   Ryan Small
 
-    -   title: "battery captain"
+    -   title: percussion captains
         members:
-        -   "Muskaan Trivedi"
+        -   Hosea Celi
+        -   Jordan Rivero
+        -   Anandi Joshi
+        -   Alyssa Miceli
 
-    -   title: "pit captain"
-        members:
-        -   "Hannah Lee"
-
-    program: "The Wolves Within"
+    program: Impressions of Night
 
     music: >
-        The Wolves Within by Zeke David and Steve Martin. Percussion by Chris Cyr and Connor Carrol.
+        "Une Barque sur L’Ocean" from Miroirs by Ravel,
+        "Fêtes" from Nocturnes by Debussy,
+        "La Cathédrale engloutie",
+        and "Clair de lune" from Suite bergamasque
 
     description: >
-        The Wolves Within is about two wolves battling inside you.
-        One is evil; it is anger, jealousy, sorrow, greed.
-        The other is good; it is joy, peace, love.
-        Which wolf wins?
-        The one that you feed.
+        Impressions of Night is a musical exploration of Vincent Van Gogh’s "Starry Night", set to the music of Ravel and Debussy.
+        It explores the relationship between impressionist music and visual art.
 
     notes: >
-        The Dublin High School Irish Guard marching band and colorguard would like to thank its incredible boosters and school administration who work tirelessly to help the students' hard work come to fruition.
+        The Irish Guard Marching Band and Color Guard would like to say thank you to the incredible parents and administration,
+        including Principal Maureen Byrne and Assistant Principal Krista Taylor.
+        The Irish Guard was a 2019 Finalist in the WBA 4A/5A Championships with their program, "The Wolves Within",
+        2019 NCBA Sweepstakes winner in the Fairfield Tournament of Champions with their program, "The Wolves Within",
+        2017 NCBA Sweepstakes winner in the Fairfield Tournament of Champions with their program "Mirror Image",
+        and tied for 2016 NCBA Sweepstakes winner in the Napa Vintage Band Review with their program, "Heroes and Villains"
 
 concert-wind:
     lastUpdated: *band-review-last-updated

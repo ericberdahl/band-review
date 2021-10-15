@@ -3,7 +3,7 @@ name: "Cupertino High School"
 city: "Cupertino, CA"
 
 fieldshow:
-    lastUpdated: 2019-10-10 15:08:26 -07
+    lastUpdated: 2021-10-14 14:16:24 -07
 
     nickname: "Cupertino High School Proud Pioneer Band"
 
@@ -13,44 +13,44 @@ fieldshow:
     staff:
     -   title: "instructed by"
         members:
-        -   "Matt Costales"
-        -   "Chavadith Tantavirojn (kah-vah-dith tan-tah-vih-RHO-geen)"
-        -   "Colin Whitcomb"
-        -   "Catalina McNeil"
+        -   Matt Costales
+        -   Chavadith Tantavirojn (kah-vah-dith tan-TAH-vuh-road)
+        -   Colin Whitcomb
+        -   Raven Bautista
+        -   Jeff Facun
+        -   Carl Huang
+        -   Wells Chen
+        -   Diego Barrios
+        -   Anthony Mingus
+        -   Gabe Boquiren
+        -   Aldrich Yanga
+        -   Jezabel Bacalso
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Elaine Chen"
-        -   "Bhuvan Kommineni"
-        -   "Oliver Richard"
-        -   "Gideon Srinivasan"
+        -   Kumiko Quinlivan
+        -   Yoto Kim
 
     -   title: "auxiliary captains"
         members:
-        -   "Sue Cheng"
-        -   "Jezebel Balcaso"
-        -   "Shreya Jhala"
+        -   Ania Shah
+        -   Jaylee Rosa O'Hayer
 
     -   title: "percussion captains"
         members:
-        -   "Soumya Sridhar"
-        -   "Ryan Kitagawa"
-        -   "Dev Shah"
-        -   "Suzuka Kojima"
+        -   Jacob Leung
+        -   Jessica Solorio
+        -   Julia Yee
+        -   Viahaan Manglani
 
-    program: "Reclaimed"
+    program: Onward!
 
     music: >
-        Canyon by Philip Glass,
-        October by Eric Whitacre,
-        and Canon in D by Johan Pachelbel
 
     description: >
-        In movement one, the experience of starting on a path.
-        Movement two, realizing you have veered off course and are lost.
-        Movement three, then, with determination, you commit to find your way back and finally, the exhilaration of when you are back. 
 
     notes: >
-        The students and staff would like to thank their awesome parent boosters for all they do.
-        Without them, nights of wonderful music like tonight would not be possible.
+        The students and staff of the Cupertino High School Proud Pioneer would like to thank our amazing parent boosters.
+        Without them, wonderful nights of music like tonight would not be possible.
+        They would also like to wish all bands a successful and safe marching season.

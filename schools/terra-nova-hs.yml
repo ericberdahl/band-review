@@ -3,17 +3,37 @@ name: "Terra Nova High School"
 city: "Pacifica, CA"
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-10-14 16:26:34 -07
 
-    nickname: 
+    nickname: Terra Nova Band
 
     directors:
+    -   Braden Rigling
 
     staff:
+    -   title: instructed by
+        members:
+        -   Hiro Eernisse
+        -   David Jenkins
+        -   Nico Lyon
+        -   Jessika Mercado
+        -   Sheyn Muncada
 
     leaders:
+    -   title: drum majors
+        members:
+        -   Emiliano Olsen
+        -   Amanda Calimlim
 
-    program: 
+    -   title: auxilliary captain
+        members:
+        -   Xiaolan Bisson-Yang
+
+    -   title: percussion captain
+        members:
+        -   Daniela Gunderson
+
+    program: Pathways
 
     music: 
 

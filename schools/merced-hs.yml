@@ -3,36 +3,46 @@ name: "Merced High School"
 city: "Merced, CA"
 
 parade:
-    lastUpdated: 2019-09-18 10:49:08 -07
+    lastUpdated: 2021-10-14 21:46:48 -07
 
-    nickname: "Merced Marching 100"
+    nickname: Merced Marching 100
 
     directors:
     -   "Jonathan L. Schmid"
 
     staff:
-    -   title: "instructed by"
+    -   title: color guard instructors
         members:
-        -   "Jennifer Byers"
-        -   "Armando Francisco"
-        -   "Karena Vang"
-        -   "Juan Martinez"
-        -   "Fernando Barragan (Fernando BEHR-ah-gahn)"
-        -   "Carlos Alvarez"
-        -   "Andrew Rocco"
-        -   "Raymond Willis"
+        -   Armando Francisco
+        -   Regina Chavez
+        -   Lilliana Galloway
+
+    -   title: percussion instructors
+        members:
+        -   Fernando Barragan (Fernando BEHR-ah-gahn)
+        -   Ian Flores
+        -   Joshua Powell
+
+    -   title: woodwind instructor
+        members:
+        -   Raymond Willis
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Joshua G Powell"
+        -   Efrain Gutierrez
 
-    -   title: "percussion captain"
+    -   title: auxilliary captains
         members:
-        -   "Elias Barahona"
+        -   Bianca Garcia
+        -   Hermione Guzman-Soto
     
-    music: "The Redcliffe March by Daniel Hollis, arranged by Jonathan L Schmid"
+    -   title: percussion captain
+        members:
+        -   Adrian Reyes-Esteva
+    
+    music: The Bear by Peter Graham
 
     notes: >
-        The Merced Marching 100 would like to thank our administration, and our
-        boosters for their tireless efforts and making everything we do possible. 
+        The Merced Marching 100 would like to thank our boosters for all of their hard work and for commissioning "The Bear",
+        which is dedicated to the Merced Marching 100 in celebration of Merced High School's Sesquicentennial celebration.

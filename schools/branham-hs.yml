@@ -3,17 +3,36 @@ name: 'Branham High School'
 city: 'San Jose, CA'
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2021-10-14 09:23:27 -08
 
-    nickname: 
+    nickname: Royal Alliance
 
     directors:
+    -   Chris Nalls
+    -   Jessie Cardso
 
     staff:
+    -   title: instructed by
+        members:
+        -   AJ Gonzales
+        -   Mike Reppuchi
+        -   Kevin Murphy
+        -   Tai Tensi
+        -   Chris Roberts
+        -   Jordyn Roberts
+        -   Rene Canto-Adams
+        -   Mike McWilliams
+        -   Conrado Escudero
+        -   Austin Sugai
+        -   Jenessa Takagi
 
     leaders:
+    -   title: drum majors
+        members:
+        -   Kylie Ng
+        -   Abigail Sowers
 
-    program: 
+    program: Ensnared
 
     music: 
 
