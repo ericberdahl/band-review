@@ -3,54 +3,42 @@ name: "Mountain View High School"
 city: "Mountain View, CA"
 
 fieldshow:
-    lastUpdated: 2018-10-05 11:20:32 -07
+    lastUpdated: 2021-10-15 17:23:14 -07
 
     nickname: "Spartan Marching Band"
 
     directors:
-    -   "Jason Kneebone"
-    -   "Anna Linde"
+    -   Ricky Alegria
 
     staff:
     -   title: "instructed by"
         members:
-        -   "Thomas Peters"
-        -   "Zubin Bhandari"
-        -   "Ian Hattan"
-        -   "AJ Duprey"
-        -   "Suzi Laverty"
-        -   "Bruce Paulson"
-        -   "Samantha Radzikowski"
-        -   "Casey Brohard"
-        -   "Angela Grace Mendoza"
-        -   "Chris Swan"
-        -   "Colton Short"
-        -   "Mike Reppucci"
-        -   "Reese Villafranca"
+        -   Thomas Peters
+        -   Bruce Paulson
+        -   Armeen Gharfourpour
+        -   Everett Henrie
+        -   Kai Yang
+        -   AJ Duprey
 
     leaders:
     -   title: "drum majors"
         members:
-        -   "Alex Pun"
-        -   "Winn Hartford"
-        -   "Stephanie Evanson"
-        -   "Zach Hinz"
+        -   Alex Green
+        -   Alex White
 
-    -   title: "auxiliary captain"
+    -   title: "auxiliary captains"
         members:
-        -   "Delia Darrah"
+        -   Hailey Garrison
+        -   Anjali Kamran
 
-    -   title: "percussion captain"
+    -   title: "percussion captains"
         members:
-        -   "Josh Stukenborg"
+        -   Ian Shiu,
+        -   Holly Ishiro Randall
 
-    program: "Interstellar"
+    program: Blue Horizons
 
-    music: "music by Amin Bhatia, Dashiel Reed, Casey Brohard, and Jonathan Zuniga"
+    music: music by Tim Hinton
 
     notes: >
-        The Spartan Marching Band would like to thank our Instrumental Music Boosters for their continued support in making our program run smoothly.
-        Special thanks to Bob Reay and Judi Fan whose generosity has shaped the way we look for the past four years.
-        Shout-out to Chris and Teresa Moura for their guidance with our upcoming performance in the 2019 London New Years Day Parade!
-        The Spartan Marching Band would like to dedicate our 2018 production to the memory of Eddie Keep.
-        We hold him and his family in our hearts.
+        Spartan Marching Band says thank you to the Mountain View Instrumental Music Parents Association and Mountain View High School Performing Arts Department.

@@ -2,6 +2,17 @@ name: "Rodriguez High School"
 
 city: "Fairfield, CA"
 
+staff:
+-   &jaleel-gospel Jaleel Gospel
+-   &nick-lucro Nick Lucro
+-   &scott-miller Scott Miller
+-   &gabrielle-perez Gabrielle Perez
+-   &kaitlyn-remorin Kaitlyn Remorin
+-   &taylor-slight Taylor Slight
+-   &derrick-surio Derrick Surio
+-   &kasey-willes Kasey Willes (Kasey WY-lz)
+-   &jaclyn-wren Jaclyn Wren
+
 students:
 -   &madison-blanc "Madison Blanc"
 -   &angela-borja "Angela Borja"
@@ -12,101 +23,93 @@ students:
 -   &katelyn-peacock "Katelyn Peacock"
 -   &malerie-peralta "Malerie Peralta"
 -   &jace-sears "Jace Sears"
--   &taylor-slight "Taylor Slight"
 -   &brian-tran "Brian Tran"
 
 parade:
-    lastUpdated: 2019-10-21 7:51:58 -07
+    lastUpdated: 2021-10-15 08:38:53 -07
 
-    nickname: "Rodriguez Entertainment Unit"
+    nickname: Rodriguez Entertainment Unit
 
-    directors: &directors
-    -   "Scott Miller"
+    directors:
+    -   *scott-miller
 
-    staff: &band-staff
-    -   title: "instructed by"
+    staff:
+    -   title: instructed by
         members:
-        -   "Jaclyn Wren"
-        -   "Mae Elise-Salvador"
-        -   "Jaleel Gospel"
-        -   "Derrick Surio"
-        -   "Kaitlyn Ramorin"
-        -   "Gabrielle Perez"
-        -   "Kasey Willes (Kasey WY-lz)"
-        -   "Alexina Manriguez"
+        -   *jaclyn-wren
+        -   *kaitlyn-remorin
+        -   *taylor-slight
+        -   *jaleel-gospel
+        -   *gabrielle-perez
+        -   *derrick-surio
+        -   *nick-lucro
 
     leaders:
-    -   title: "drum major"
+    -   title: drum majors
         members:
-        -   "Victoria Olsen"
+        -   Aubrey Knight
+        -   Zoey Adams
 
-    -   title: "auxiliary captains"
+    -   title: auxiliary captain
         members:
-        -   "Tori Cox"
-        -   "Katie Peacock"
+        -   Logan Vermillion
 
-    -   title: "battery captain"
+    -   title: percussion captains
         members:
-        -   "Jace Sears"
+        -   Haylie Miller
+        -   Caleb Cruz
+        -   Samantha Fabie
+        -   Gabriel Landovora
 
-    -   title: "front ensemble captain"
-        members:
-        -   "Taylor Slight"
-
-    -   title: "color guard leaders"
-        members:
-        -   "Madelyn Blanc"
-        -   "Logan Patoja-Vermillion"
-        -   "Nia Robinson"
-        -   "Victoria DeMederios"
-        -   "Mikayla Gregory"
-        -   "Jhiana Illenberg"
-
-    music: "Joyce's 71st New York Regiment March by Thornton Barnes Boyer"
+    music: Colossus Of Columbia by Russell Alexander
 
     notes: >
-        The Rodriguez Entertainment Unit gives a special thank you to the Rodriguez Music Boosters for your love, dedication, and support
+        The Rodriguez Entertainment Unit would like to give a special thank you the Rodriguez Music Boosters for your love, dedication and support.
 
 fieldshow:
-    lastUpdated: 2019-10-21 7:51:58 -07
+    lastUpdated: 2021-10-15 08:38:53 -07
 
-    nickname: "Rodriguez Entertainment Unit"
+    nickname: Rodriguez Entertainment Unit
 
-    directors: *directors
+    directors:
+    -   *scott-miller
 
-    staff: *band-staff
+    staff:
+    -   title: instructed by
+        members:
+        -   *jaclyn-wren
+        -   *kaitlyn-remorin
+        -   *taylor-slight
+        -   *jaleel-gospel
+        -   *derrick-surio
+        -   *gabrielle-perez
+        -   *nick-lucro
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   "Neiliza Lomboy"
-        -   "Victoria Olsen"
+        -   Aubrey Knight
+        -   Zoey Adams
 
-    -   title: "auxiliary captains"
+    -   title: auxiliary captain
         members:
-        -   "Tori Cox"
-        -   "Katie Peacock"
+        -   Logan Vermillion
 
-    -   title: "battery captain"
+    -   title: battery captains
         members:
-        -   "Jace Sears"
-
-    -   title: "front ensemble captain"
+        -   Haylie Miller
+        -   Caleb Cruz
+        
+    -   title: front ensemble captains
         members:
-        -   "Taylor Slight"
+        -   Samantha Fabie
+        -   Gabriel Landovora
 
-    -   title: "color guard leaders"
-        members:
-        -   "Madelyn Blanc"
-        -   "Logan Patoja-Vermillion"
-        -   "Nia Robinson"
-        -   "Victoria DeMederios"
-        -   "Mikayla Gregory"
-        -   "Jhiana Illenberg"
+    program: Immortal
 
-    program: "Two Roads"
-
-    music: "Two Roads, Another Day, and All the Difference by John Meahan"
+    music: Dreams, Living, Rise, and Hope
     
     notes: >
-        The Rodriguez Entertainment Unit would like to give a special thank you to the Rodriguez Music Boosters for your love, dedication and support
+        The Rodriguez Entertainment Unit would like to give a special thank you to the Rodriguez Music Boosters for your love,
+        dedication and support.
+        Now please sit back and put your hands together for the award winning Rodriguez Entertainment Unit.
