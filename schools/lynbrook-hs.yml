@@ -14,7 +14,7 @@ fieldshow:
     staff:
     -   title: 'visual caption head'
         members:
-        -   'Carl Huang (WONG)'
+        -   Carl Huang (Carl WONG)
     
     -   title: 'visual instructors'
         members:
@@ -56,7 +56,7 @@ fieldshow:
     leaders:
     -   title: 'drum majors'
         members:
-        -   'Rishab Sakalkale (sock-all-call-AY)'
+        -   'Rishab Sakalkale (Rishab sock-all-call-AY)'
         -   'Enze Zheng'
     
     -   title: 'auxiliary captains'
@@ -112,7 +112,7 @@ fieldshow:
         members:
         -   'Bennett Wong'
 
-    -   title: 'front ensemble captain'
+    -   title: front ensemble captains
         members:
         -   'Annie Zeng'
         -   'Christina Cheng'

@@ -3,6 +3,8 @@ name: "Foothill High School"
 city: "Pleasanton, CA"
 
 staff:
+-   &efrain-hinojosa Efrain Hinojosa (EH-fren ee-no-HO-sah)
+-   &erik-nishimori Erik Nishimori (EH-rik nih-shee-MO-ree)
 -   &shawn-griddine Shawn Griddine
 -   &marvin-reed Marvin Reed
 -   &matt-sieve Matt Sieve
@@ -22,7 +24,7 @@ students:
 -   &ayla-johnson "Ayla Johnson (AY-lah Johnson)"
 -   &lucy-lee "Lucy Lee"
 -   &claire-kim "Claire Kim"
--   &kyra-maeda Kyra Maeda
+-   &kyra-maeda Kyra Maeda (Kyra MY-eh-dah)
 -   &kellen-sowa "Kellen Sowa"
 
 parade:
@@ -32,9 +34,8 @@ parade:
 
     nickname: &band-nickname "Foothill High School Marching Band and Color Guard"
 
-    directors: &directors
-    -   "Efrain Hinojosa (EH-fren ee-no-HO-sah)"
-    -   "Erik Nishimori (EH-rik nih-shee-MO-ree)"
+    directors:
+    -   *efrain-hinojosa
 
     staff:
     -   title: "instructed by"
@@ -81,7 +82,8 @@ fieldshow:
 
     nickname: *band-nickname
 
-    directors: *directors
+    directors:
+    -   *efrain-hinojosa
 
     staff:
     -   title: instructed by
@@ -135,7 +137,9 @@ winterguard:
 
     nickname: "Foothill High School Winter Guard"
 
-    directors: *directors
+    directors:
+    -   *efrain-hinojosa
+    -   *erik-nishimori
 
     staff:
     -   title: "instructed by"
@@ -163,7 +167,9 @@ winterpercussion:
 
     nickname: "Foothill High School A Winter Percussion"
 
-    directors: *directors
+    directors:
+    -   *efrain-hinojosa
+    -   *erik-nishimori
 
     staff:
         
@@ -187,7 +193,9 @@ winterpercussion-intermediate:
 
     nickname: "Foothill High School A Percussion"
 
-    directors: *directors
+    directors:
+    -   *efrain-hinojosa
+    -   *erik-nishimori
 
     staff:
         

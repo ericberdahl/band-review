@@ -32,7 +32,7 @@ fieldshow:
 
     -   title: "auxilliary captains"
         members:
-        -   "Shreya Daschoudhary"
+        -   Shreya Daschoudhary (SHRAY-ya dah-shood-AH-ree)
         -   "Naomi Tchao"
         -   "Lilian Tjioe"
 
@@ -42,10 +42,10 @@ fieldshow:
 
     -   title: "section leaders"
         members:
-        -   "Jayant Dharwadkar"
+        -   Jayant Dharwadkar (JAY-ahnt dahr-WAHD-kahr)
         -   Aaroh Dixit Hardikar
         -   Rachel Abraham
-        -   Harshini Karthikeyan
+        -   Harshini Karthikeyan (har-SHEE-nee car-tee-KEH-yahn)
         -   Laurence Liao
         -   Audrey Zhou
         -   Chinmay Arora
@@ -56,7 +56,7 @@ fieldshow:
         -   Emily Lung Low
         -   Edwin Lung
 
-    -   title: "Equipment Managers"
+    -   title: "equipment managers"
         members:
         -   *aaditya-borse
         -   *arav-tewari
