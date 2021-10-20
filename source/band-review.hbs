@@ -19,8 +19,12 @@ units:
 -   "concert"
 
 sponsors-general: &sponsors-general
+-   Ben Woo with Salesforce
+-   Educational Discovery Tours
+-   Holly Crane and Family
+-   the Hubbard Family
 
-version: "1.4"
+version: "1.5"
 
 parade:
     # TODO: Confirm grand marshall
@@ -35,6 +39,15 @@ parade:
         general: *sponsors-general
 
         trophies:
+        -   place: Parade Sweepstakes
+            sponsors:
+            -   sponsor: Educational Discovery Tours
+                message: Educational Discovery Tours is here to support you!
+
+        -   place: Parade Music Sweepstakes
+            sponsors:
+            -   sponsor: Educational Discovery Tours
+                message: Educational Discovery Tours is here to support you!
 
     lineup:
     -   ref: "foothill-hs"
@@ -112,9 +125,47 @@ fieldshow:
         general: *sponsors-general
 
         trophies:
+        -   place: Grand Sweepstakes
+            sponsors:
+            -   sponsor: Ben Woo with Salesforce
+                presenter: Josh Woo
+                message: >
+                    Hey Josh Woo, on the way home pick up a gallon of milk, a loaf of bread and some cereal.
+                    Pick any cereal you want except Cap' N Crunch.
+                    That always cuts the roof of my mouth.
+                    Oh what the heck, you only live once.
+                    Get the Cap'N Crunch with Crunch Berries.
+                    I'm a pickle!
+                    Long live PICKLE RICK!!!
+
+        -   place: 1st Place Percussion 
+            sponsors:
+            -   sponsor: the Hubbard Family
+                presenter: Michael Hubbard
+                message: >
+                    For all the rhythm they present, and the 10,000 diddles that made their ascent,
+                    congratulate the winning percussionists at tonight’s event.
+
+        -   place: 3rd Place Percussion 
+            sponsors:
+            -   sponsor: Educational Discovery Tours
+                message: >
+                    Educational Discovery Tours is here to support you!
+
+        -   place: 3rd Place Brass
+            sponsors:
+            -   sponsor: Educational Discovery Tours
+                message: >
+                    Educational Discovery Tours is here to support you!
+
+        -   place: 1st Place 6A 
+            sponsors:
+            -   sponsor: Holly Crane and Family
+                presenter: Lucas Crane
+
+
         #-   place: "3rd place brass"
         #    sponsors:
-        #    -   sponsor: "Huntington of Pleasanton"
         #    -   sponsor: "the Goebel family"
         #        presenter: "Thomas Goebel"
         #        dedication: "the Foothill Band and their favorite trumpet section"
@@ -126,9 +177,9 @@ concert:
         unit: "concert-wind"
     -   break: 25
     -   ref: "lincoln-hs"
-        unit: "concert-wind-1"
+        unit: "concert-symphonic"
     -   ref: "lincoln-hs"
-        unit: "concert-wind-2"
+        unit: "concert-wind-1"
     -   ref: "irvington-hs"
     -   break: 25
     -   ref: "dublin-hs"
@@ -138,12 +189,8 @@ concert:
     -   break: 25
     -   ref: "dublin-hs"
     -   break: -1
-    -   ref: "lincoln-hs"
     -   ref: "pacific-grove-hs"
-    -   break: 50
-    -   ref: "lincoln-hs"
-        unit: "concert-symphonic"
-    -   break: 75
+    -   break: 150
     -   ref: "benicia-ms"
     -   ref: "wells-ms"
     -   ref: "tracy-hs"
