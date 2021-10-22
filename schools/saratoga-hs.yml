@@ -17,8 +17,8 @@ fieldshow:
 
     directors:
     -   *jason-shiuan
-    -   "Michael Boitz (Michael boy-tz)"
     -   *sean-clark
+    -   "Michael Boitz (Michael boy-tz)"
 
     staff:
     -   title: "music designers"
@@ -63,7 +63,7 @@ fieldshow:
         members:
         -   "Ryan Lee"
         -   "Christopher Okuno"
-        -   Petr Tupitsyn (PETER TOO-piht-sihn)
+        -   Petr Tupitsyn (PETER too-PIHT-sihn)
 
     -   title: "auxiliary captains"
         members:
