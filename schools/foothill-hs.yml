@@ -68,7 +68,12 @@ parade:
     -   title: "percussion captain"
         members: &percussion-captains
         -   Erin Chang
+
+    -   title: piper
+        members:
+        -   Annalise Jensen (ah-na-LEE-zah yehn-sehn)
     
+
     music: Washington Post March by John Philip Sousa, arranged by Pat Lee
 
     notes: >
