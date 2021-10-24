@@ -22,7 +22,7 @@ fieldshow:
 parade:
     lastUpdated: 2021-09-24 08:06:16 -07
 
-    nickname: "Broncos"
+    nickname: Marching Broncos
 
     directors:
     -   "Roberto Garcia-Leiva"
@@ -31,10 +31,6 @@ parade:
 
     leaders:
     -   title: "drum major"
-        members:
-        -   "Liam Iglesias"
-
-    -   title: "junior drum major"
         members:
         -   "Matthew Stark"
 
@@ -45,8 +41,7 @@ parade:
     music: "Bonds of Unity by Karl L. King"
 
     notes: >
-        The Broncos say: Thank you to our parents in our Northgate Instrumental Music Booster!
-        Without our "NIMB Parent" volunteering and support none of this would be possible!
+        Thank you Northgate Instrumental Music Booster for your continued support, and a SPECIAL thank you to Foothill's Band Review organizers for giving our band this opportunity to march before you today.
 
 winterpercussion:
     lastUpdated: 1967-12-01 04:30:00 -08
