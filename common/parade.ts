@@ -67,7 +67,7 @@ async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
 
 export class Parade {
     readonly awardsLocation : string;
-    readonly awardsTime : string;   // TODO : change to DateTime
+    readonly awardsTime : string;   // TODO: change to DateTime
     readonly colors : string;
     readonly grandMarshal : Role;
     readonly lineup : ParadeLineupItem[]    = [];
