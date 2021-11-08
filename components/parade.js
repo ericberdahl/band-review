@@ -1,70 +1,14 @@
+import Break from "./break";
 import CommaSeparatedList from './commaSeparatedList'
+import Leadership from './leadership';
+import Note from './note'
+import NumericCitation from './numericCitation';
 import PageBreak from './pageBreak'
 import TrophySponsor from './trophySponsor';
 
 import { Fragment } from 'react';
 
 import { DateTime } from "luxon";
-
-function Note({ children, label }) {
-    label = label || 'NOTE';
-
-    return (
-        <div>
-            <>{label.toUpperCase()}: </>
-            {children}
-        </div>
-    );
-}
-
-function Break({ unit }) {
-    return (
-        <div>
-            <h2>Parade - {unit.duration} minute break</h2>
-            <PageBreak/>
-        </div>
-    )
-}
-
-function Directors({ directors }) {
-    return (
-        <>
-            <>directed by </>
-            <CommaSeparatedList>
-                {directors.map((d) => <Fragment key={d}>{d}</Fragment>)}
-            </CommaSeparatedList>
-        </>
-    )
-}
-
-function RoleList({ roles }) {
-    return (
-        <CommaSeparatedList>
-            {roles.map((s) => (
-                <Fragment key={s.title}>
-                    <>{s.title} </>
-                    <CommaSeparatedList>
-                        {s.members.map((m) => <Fragment key={m}>{m}</Fragment>)}
-                    </CommaSeparatedList>
-                </Fragment>
-            ))}
-        </CommaSeparatedList>
-    );
-}
-
-function Leadership({ unit }) {
-    return (
-        <>
-            <>The {unit.nickname} is </>
-            <CommaSeparatedList>
-                {0 < unit.directors.length && <Directors directors={unit.directors}/>}
-                {0 < unit.staff.length && <RoleList roles={unit.staff}/>}
-                {0 < unit.leaders.length && <>led by <RoleList roles={unit.leaders}/></>}
-            </CommaSeparatedList>
-            .
-        </>
-    );
-}
 
 function School({ unit, isFirst }) {
     isFirst = isFirst || false;
@@ -96,7 +40,7 @@ function Lineup({ lineup }) {
         <>
             {lineup.map((li, index) => (
                 <Fragment key={index}>
-                    {li.type == 'break' && <Break unit={li.item}/>}
+                    {li.type == 'break' && <Break eventLabel="Parade" unit={li.item}/>}
                     {li.type == 'unit' && <School unit={li.item} isFirst={0 == schoolCount++}/>}
                 </Fragment>
             ))}
@@ -113,7 +57,7 @@ export default function Parade({ parade, show, fieldShow, nextShow }) {
             <p>
                 Good morning ladies and gentlemen.
                 Welcome to the Parade Competition for the {show.citation}.
-                We are joined today by {numSchools} wonderful bands to entertain and delight us.
+                We are joined today by <NumericCitation count={numSchools}/> wonderful bands to entertain and delight us.
                 Foothill High School wishes good luck and good music to all the bands performing today. We hope you enjoy the competition.
             </p>
 

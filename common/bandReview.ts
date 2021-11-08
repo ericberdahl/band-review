@@ -1,3 +1,4 @@
+import { FieldShow, FieldShowStaticProps, SerializedFieldShow } from './fieldShow';
 import { Parade, ParadeStaticProps, SerializedParade } from './parade';
 
 import { DateTime } from 'luxon';
@@ -14,12 +15,6 @@ type SerializedAnnouncer = {
 type SerializedShow = {
     date : string;
     citation : string;
-}
-
-type SerializedFieldShow = {
-    start_time : string;
-    anthem_performer? : string;
-    lineup : [];        // IFieldCompetitionSegments[]
 }
 
 type SerializedBandReview = {
@@ -56,41 +51,6 @@ export async function getBandReview() : Promise<BandReview> {
     return BandReview.deserialize(docs[0].toJSON());
 }
 
-function announcerStaticProps(announcer : Announcer) : AnnouncerStaticProps {
-    if (!announcer) return null;
-
-    return {
-        name: announcer.name,
-        email: announcer.email
-    }
-}
-
-function showStaticProps(show : Show) : ShowStaticProps {
-    if (!show) return null;
-
-    return {
-        date: show.date.toISO(),
-        citation: show.citation
-    }
-}
-
-type FieldShowStaticProps = any;    // TODO: change to real type
-
-function fieldShowStaticProps(fieldShow : FieldShow) : FieldShowStaticProps {
-    return {
-        missingData: fieldShow.missingData,
-        schools: fieldShow.schools,
-    }
-}
-
-function deserializeAnnouncer(data : SerializedAnnouncer) : Announcer {
-    return new Announcer(data.name, data.email);
-}
-
-function deserializeShow(data : SerializedShow) : Show {
-    return new Show(DateTime.fromISO(data.date, { setZone: 'America/Los Angeles' }), data.citation);
-}
-
 class Announcer {
     readonly name : string;
     readonly email : string;
@@ -99,6 +59,17 @@ class Announcer {
         this.name = name;
         this.email = email;
     }
+
+    static deserialize(data : SerializedAnnouncer) : Announcer {
+        return new Announcer(data.name, data.email);
+    }
+
+    getStaticProps() : AnnouncerStaticProps {    
+        return {
+            name: this.name,
+            email: this.email
+        }
+    }    
 }
 
 class Show {
@@ -109,11 +80,17 @@ class Show {
         this.date = date;
         this.citation = citation;
     }
-}
 
-class FieldShow {
-    readonly missingData = [];
-    readonly schools = [];
+    static deserialize(data : SerializedShow) : Show {
+        return new Show(DateTime.fromISO(data.date, { setZone: 'America/Los Angeles' }), data.citation);
+    }
+
+    getStaticProps() : ShowStaticProps {
+        return {
+            date: this.date.toISO(),
+            citation: this.citation
+        }
+    }    
 }
 
 class BandReview {
@@ -124,31 +101,32 @@ class BandReview {
     readonly parade : Parade;
     readonly fieldShow : FieldShow;
 
-    constructor(announcer : Announcer, version : number, show : Show, nextShow : Show, parade : Parade) {
+    constructor(announcer : Announcer, version : number, show : Show, nextShow : Show, parade : Parade, fieldShow : FieldShow) {
         this.announcer = announcer;
         this.version = version;
         this.show = show;
         this.nextShow = nextShow;
         this.parade = parade;
-        this.fieldShow = new FieldShow();
+        this.fieldShow = fieldShow;
     }
 
     static async deserialize(data : SerializedBandReview) : Promise<BandReview> {
-        return new BandReview(deserializeAnnouncer(data.announcer),
-                                data.version,
-                                deserializeShow(data.show),
-                                deserializeShow(data.next_show),
-                                await Parade.deserialize(data.parade));
+        return new BandReview(Announcer.deserialize(data.announcer),
+                              data.version,
+                              Show.deserialize(data.show),
+                              Show.deserialize(data.next_show),
+                              await Parade.deserialize(data.parade),
+                              await FieldShow.deserialize(data.fieldshow));
     }
 
     getStaticProps() : BandReviewStaticProps {
         return {
-            announcer: announcerStaticProps(this.announcer),
+            announcer: this.announcer?.getStaticProps() || null,
             version: this.version,
-            show: showStaticProps(this.show),
-            nextShow: showStaticProps(this.nextShow),
+            show: this.show?.getStaticProps() || null,
+            nextShow: this.nextShow?.getStaticProps() || null,
             parade: this.parade.getStaticProps(),
-            fieldShow: fieldShowStaticProps(this.fieldShow),
+            fieldShow: this.fieldShow.getStaticProps(),
         }
     }
 }

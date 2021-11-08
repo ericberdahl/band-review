@@ -1,4 +1,5 @@
-import Parade from '../components/parade'
+import FieldShow from '../components/fieldShow';
+import Parade from '../components/parade';
 import PageBreak from '../components/pageBreak';
 
 import { getBandReview } from '../common/bandReview';
@@ -13,14 +14,6 @@ function TableOfContents() {
     );
 }
 
-function FieldShow() {
-    return (
-        <div>
-            TODO: Write the fieldshow
-        </div>
-    );
-}
-
 function HomePage({ bandReview }) {
     const generationDate = DateTime.now();
 
@@ -29,12 +22,15 @@ function HomePage({ bandReview }) {
     const paradeSchools = bandReview.parade.lineup.filter((li) => li.type == 'unit')
                                     .map((li) => li.item)
                                     .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+    const fieldShowSchools = bandReview.fieldShow.lineup.filter((li) => li.type == 'unit')
+                                    .map((li) => li.item)
+                                    .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
 
     const paradeMissingData = paradeSchools.filter((s) => DateTime.fromISO(s.lastUpdated).year != showYear);
     const paradeWithData = paradeSchools.filter((s) => DateTime.fromISO(s.lastUpdated).year == showYear);
 
-    const fieldShowMissingData = [];
-    const fieldShowSchools = [];
+    const fieldShowMissingData = fieldShowSchools.filter((s) => DateTime.fromISO(s.lastUpdated).year != showYear);
+    const fieldShowWithData = fieldShowSchools.filter((s) => DateTime.fromISO(s.lastUpdated).year == showYear);
 
     return (
         <div>
@@ -51,8 +47,9 @@ function HomePage({ bandReview }) {
             ))}
 
             <h3>{fieldShowMissingData.length} Schools Missing Field Show Data</h3>
-
-            `#each` bandReview.fieldShow._schoolsMissingData `schoolName` +
+            {fieldShowMissingData.map((s) => (
+                <p key={s.schoolName}>{s.schoolName}</p>
+            ))}
 
             <h3>{paradeSchools.length} Schools with Parade Data</h3>
             {paradeWithData.map((s) => (
@@ -60,14 +57,15 @@ function HomePage({ bandReview }) {
             ))}
 
             <h3>{fieldShowSchools.length} Schools with Field Show Data</h3>
-
-            `#each` bandReview.fieldShow._schoolsUpToDate `schoolName` +
+            {fieldShowWithData.map((s) => (
+                <p key={s.schoolName}>{s.schoolName}</p>
+            ))}
 
             <PageBreak/>
 
             <Parade parade={bandReview.parade} show={bandReview.show} nextShow={bandReview.nextShow} fieldShow={bandReview.fieldShow}/>
 
-            <FieldShow/>
+            <FieldShow event={bandReview}/>
 
             <h2>Band Review - Close</h2>
             <p>
