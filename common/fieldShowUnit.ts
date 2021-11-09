@@ -16,9 +16,11 @@ type SerializedUnit = {
 }
 
 export type SerializedFieldShowUnit = {
+    [unitKey : string] : SerializedUnit;
+    // @ts-ignore name is a required field
     name : string;
+    // @ts-ignore city is a required field
     city : string;
-    fieldshow : SerializedUnit;
 }
 
 export type FieldShowUnitStaticProps = {
@@ -50,26 +52,26 @@ export class FieldShowUnit {
     schoolName : string     = '';
     staff : Role[]          = [];
 
-    static deserialize(data : SerializedFieldShowUnit) : FieldShowUnit {
+    static deserialize(data : SerializedFieldShowUnit, unitKey : string = 'fieldshow') : FieldShowUnit {
         const result = new FieldShowUnit();
 
         result.city = data.city;
         result.schoolName = data.name || '';
 
-        result.lastUpdated = DateTime.fromFormat(data.fieldshow.lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
+        result.lastUpdated = DateTime.fromFormat(data[unitKey].lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
 
-        result.description = data.fieldshow.description;
-        result.directors.push(...data.fieldshow.directors);
-        result.isHost = (data.fieldshow.isHost || false);
-        if (data.fieldshow.leaders) {
-            result.leaders.push(...data.fieldshow.leaders.map((s) => Role.deserialize(s)));
+        result.description = data[unitKey].description;
+        result.directors.push(...data[unitKey].directors);
+        result.isHost = (data[unitKey].isHost || false);
+        if (data[unitKey].leaders) {
+            result.leaders.push(...data[unitKey].leaders.map((s) => Role.deserialize(s)));
         }
-        result.music = data.fieldshow.music || '';
-        result.nickname = data.fieldshow.nickname || '';
-        result.notes = data.fieldshow.notes || '';
-        result.program = data.fieldshow.program || '';
-        if (data.fieldshow.staff) {
-            result.staff.push(...data.fieldshow.staff.map((s) => Role.deserialize(s)));
+        result.music = data[unitKey].music || '';
+        result.nickname = data[unitKey].nickname || '';
+        result.notes = data[unitKey].notes || '';
+        result.program = data[unitKey].program || '';
+        if (data[unitKey].staff) {
+            result.staff.push(...data[unitKey].staff.map((s) => Role.deserialize(s)));
         }
 
         return result;

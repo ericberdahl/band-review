@@ -14,9 +14,11 @@ type SerializedUnit = {
 }
 
 export type SerializedParadeUnit = {
+    [unitKey : string ] : SerializedUnit;
+    // @ts-ignore name is a required field
     name : string;
+    // @ts-ignore city is a required field
     city : string;
-    parade : SerializedUnit;
 }
 
 export type ParadeUnitStaticProps = {
@@ -44,23 +46,23 @@ export class ParadeUnit {
     schoolName : string     = '';
     staff : Role[]          = [];
 
-    static deserialize(data : SerializedParadeUnit) : ParadeUnit {
+    static deserialize(data : SerializedParadeUnit, unitKey : string = 'parade') : ParadeUnit {
         const result = new ParadeUnit();
 
-       result.lastUpdated = DateTime.fromFormat(data.parade.lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
+       result.lastUpdated = DateTime.fromFormat(data[unitKey].lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
 
         result.city = data.city;
-        result.directors.push(...data.parade.directors);
-        result.isHost = (data.parade.isHost || false);
-        if (data.parade.leaders) {
-            result.leaders.push(...data.parade.leaders.map((s) => Role.deserialize(s)));
+        result.directors.push(...data[unitKey].directors);
+        result.isHost = (data[unitKey].isHost || false);
+        if (data[unitKey].leaders) {
+            result.leaders.push(...data[unitKey].leaders.map((s) => Role.deserialize(s)));
         }
-        result.music = data.parade.music || '';
-        result.nickname = data.parade.nickname || '';
-        result.notes = data.parade.notes || '';
+        result.music = data[unitKey].music || '';
+        result.nickname = data[unitKey].nickname || '';
+        result.notes = data[unitKey].notes || '';
         result.schoolName = data.name || '';
-        if (data.parade.staff) {
-            result.staff.push(...data.parade.staff.map((s) => Role.deserialize(s)));
+        if (data[unitKey].staff) {
+            result.staff.push(...data[unitKey].staff.map((s) => Role.deserialize(s)));
         }
 
         return result;

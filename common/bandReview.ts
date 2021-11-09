@@ -1,3 +1,4 @@
+import { Concert, ConcertStaticProps, SerializedConcert } from './concert';
 import { FieldShow, FieldShowStaticProps, SerializedFieldShow } from './fieldShow';
 import { Parade, ParadeStaticProps, SerializedParade } from './parade';
 
@@ -24,6 +25,7 @@ type SerializedBandReview = {
     next_show : SerializedShow;
     parade : SerializedParade;
     fieldshow : SerializedFieldShow;
+    concert : SerializedConcert;
 }
 
 type AnnouncerStaticProps = {
@@ -38,6 +40,7 @@ type ShowStaticProps = {
 
 type BandReviewStaticProps = {
     announcer : AnnouncerStaticProps;
+    concert : ConcertStaticProps;
     fieldShow : FieldShowStaticProps;
     nextShow : ShowStaticProps;
     parade : ParadeStaticProps;
@@ -100,14 +103,16 @@ class BandReview {
     readonly nextShow : Show;
     readonly parade : Parade;
     readonly fieldShow : FieldShow;
+    readonly concert : Concert;
 
-    constructor(announcer : Announcer, version : number, show : Show, nextShow : Show, parade : Parade, fieldShow : FieldShow) {
+    constructor(announcer : Announcer, version : number, show : Show, nextShow : Show, parade : Parade, fieldShow : FieldShow, concert : Concert) {
         this.announcer = announcer;
         this.version = version;
         this.show = show;
         this.nextShow = nextShow;
         this.parade = parade;
         this.fieldShow = fieldShow;
+        this.concert = concert;
     }
 
     static async deserialize(data : SerializedBandReview) : Promise<BandReview> {
@@ -116,17 +121,19 @@ class BandReview {
                               Show.deserialize(data.show),
                               Show.deserialize(data.next_show),
                               await Parade.deserialize(data.parade),
-                              await FieldShow.deserialize(data.fieldshow));
+                              await FieldShow.deserialize(data.fieldshow),
+                              await Concert.deserialize(data.concert));
     }
 
     getStaticProps() : BandReviewStaticProps {
         return {
             announcer: this.announcer?.getStaticProps() || null,
-            version: this.version,
+            concert: this.concert.getStaticProps(),
+            fieldShow: this.fieldShow.getStaticProps(),
+            parade: this.parade.getStaticProps(),
             show: this.show?.getStaticProps() || null,
             nextShow: this.nextShow?.getStaticProps() || null,
-            parade: this.parade.getStaticProps(),
-            fieldShow: this.fieldShow.getStaticProps(),
+            version: this.version,
         }
     }
 }

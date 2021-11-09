@@ -51,7 +51,7 @@ function Lineup({ lineup }) {
 export default function FieldShow({ event }) {
     const numFieldShowUnits = event.fieldShow.lineup.filter((li) => li.type == 'unit').length;
     const numParadeShowUnits = event.parade.lineup.filter((li) => li.type == 'unit').length;
-    const numConcertUnits = event.concert?.lineup.filter((li) => li.type == 'unit').length || 42;    // TODO: add concerts
+    const numConcertUnits = event.concert.lineup.filter((li) => li.type == 'unit').length;
 
     return (
         <div>
