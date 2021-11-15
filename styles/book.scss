@@ -1,0 +1,15 @@
+body {
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+
+@page {
+    size: letter portrait;
+}
+
+.chapter {
+    page-break-before: always;
+
+    @media screen {
+        border-bottom: 1px solid gray;
+    }
+}

@@ -37,6 +37,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sanitize-filename": "^1.6.3",
+    "sass": "^1.43.4",
     "tempy": "^1.0.0",
     "unescape-js": "^1.1.1",
     "yaml": "^1.10.2"
