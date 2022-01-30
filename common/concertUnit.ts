@@ -38,7 +38,7 @@ export class ConcertUnit {
         return result;
     }
 
-    getStaticProps() : ConcertUnitStaticProps {
+    async getStaticProps() : Promise<ConcertUnitStaticProps> {
         return {
             city: this.city,
             lastUpdated: this.lastUpdated.toISO(),

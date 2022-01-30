@@ -39,17 +39,17 @@ export type FieldShowStaticProps = {
 
 type FieldShowLineupItem = FieldShowUnit | BreakUnit;
 
-function getLineupItemStaticProps(item : FieldShowLineupItem) : FieldShowLineupItemStaticProps {
+async function getLineupItemStaticProps(item : FieldShowLineupItem) : Promise<FieldShowLineupItemStaticProps> {
     if (item instanceof BreakUnit) {
         return {
             type: 'break',
-            item: item.getStaticProps()
+            item: await item.getStaticProps()
         }
     }
     else if (item instanceof FieldShowUnit) {
         return {
             type: 'unit',
-            item: item.getStaticProps()
+            item: await item.getStaticProps()
         }
     }
 }
@@ -89,12 +89,12 @@ export class FieldShow {
         return result;
     }
 
-    getStaticProps() : FieldShowStaticProps {
+    async getStaticProps() : Promise<FieldShowStaticProps> {
         return {
             anthemPerformer: this.anthemPerformer,
             startTime: this.startTime,
-            lineup: this.lineup.map((li) => getLineupItemStaticProps(li)),
-            sponsors: this.sponsors.getStaticProps(),
+            lineup: await Promise.all(this.lineup.map(async (li) => getLineupItemStaticProps(li))),
+            sponsors: await this.sponsors.getStaticProps(),
         }
     }
 }

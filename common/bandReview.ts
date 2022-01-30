@@ -67,7 +67,7 @@ class Announcer {
         return new Announcer(data.name, data.email);
     }
 
-    getStaticProps() : AnnouncerStaticProps {    
+    async getStaticProps() : Promise<AnnouncerStaticProps> {    
         return {
             name: this.name,
             email: this.email
@@ -88,7 +88,7 @@ class Show {
         return new Show(DateTime.fromISO(data.date, { setZone: 'America/Los Angeles' }), data.citation);
     }
 
-    getStaticProps() : ShowStaticProps {
+    async getStaticProps() : Promise<ShowStaticProps> {
         return {
             date: this.date.toISO(),
             citation: this.citation
@@ -125,14 +125,17 @@ class BandReview {
                               await Concert.deserialize(data.concert));
     }
 
-    getStaticProps() : BandReviewStaticProps {
+    async getStaticProps() : Promise<BandReviewStaticProps> {
+        // TODO : why is announcer optional?
+        // TODO : why is show optional?
+        // TODO : why is nextShow optional?
         return {
-            announcer: this.announcer?.getStaticProps() || null,
-            concert: this.concert.getStaticProps(),
-            fieldShow: this.fieldShow.getStaticProps(),
-            parade: this.parade.getStaticProps(),
-            show: this.show?.getStaticProps() || null,
-            nextShow: this.nextShow?.getStaticProps() || null,
+            announcer: (await this.announcer?.getStaticProps()) || null,
+            concert: await this.concert.getStaticProps(),
+            fieldShow: await this.fieldShow.getStaticProps(),
+            parade: await this.parade.getStaticProps(),
+            show: (await this.show?.getStaticProps()) || null,
+            nextShow: (await this.nextShow?.getStaticProps()) || null,
             version: this.version,
         }
     }

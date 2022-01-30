@@ -44,17 +44,17 @@ export type ParadeStaticProps = {
 
 type ParadeLineupItem = ParadeUnit | BreakUnit;
 
-function getLineupItemStaticProps(item : ParadeLineupItem) : ParadeLineupItemStaticProps {
+async function getLineupItemStaticProps(item : ParadeLineupItem) : Promise<ParadeLineupItemStaticProps> {
     if (item instanceof BreakUnit) {
         return {
             type: 'break',
-            item: item.getStaticProps()
+            item: await item.getStaticProps()
         }
     }
     else if (item instanceof ParadeUnit) {
         return {
             type: 'unit',
-            item: item.getStaticProps()
+            item: await item.getStaticProps()
         }
     }
 }
@@ -100,14 +100,14 @@ export class Parade {
         return result;
     }
 
-    getStaticProps() : ParadeStaticProps {
+    async getStaticProps() : Promise<ParadeStaticProps> {
         return {
             awardsTime: this.awardsTime,
             awardsLocation: this.awardsLocation,
             colors: this.colors,
-            grandMarshal: this.grandMarshal.getStaticProps(),
-            lineup: this.lineup.map((li) => getLineupItemStaticProps(li)),
-            sponsors: this.sponsors.getStaticProps(),
+            grandMarshal: await this.grandMarshal.getStaticProps(),
+            lineup: await Promise.all(this.lineup.map(async (li) => getLineupItemStaticProps(li))),
+            sponsors: await this.sponsors.getStaticProps(),
         }
     }
 }

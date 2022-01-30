@@ -77,20 +77,20 @@ export class FieldShowUnit {
         return result;
     }
 
-    getStaticProps() : FieldShowUnitStaticProps {
+    async getStaticProps() : Promise<FieldShowUnitStaticProps> {
         return {
             city: this.city,
             description: this.description || null,
             directors: this.directors,
             isHost: this.isHost,
             lastUpdated: this.lastUpdated.toISO(),
-            leaders: this.leaders.map((l) => l.getStaticProps()),
+            leaders: await Promise.all(this.leaders.map(async (l) => l.getStaticProps())),
             music: this.music || null,
             nickname: this.nickname,
             notes: this.notes || null,
             program: this.program || null,
             schoolName: this.schoolName,
-            staff: this.staff.map((s) => s.getStaticProps()),
+            staff: await Promise.all(this.staff.map(async (s) => s.getStaticProps())),
         }
     }
 }

@@ -17,7 +17,7 @@ export class BreakUnit {
         return new BreakUnit(data.break);
     }
 
-    getStaticProps() : BreakUnitStaticProps {
+    async getStaticProps() : Promise<BreakUnitStaticProps> {
         return {
             duration: this.duration,
         }

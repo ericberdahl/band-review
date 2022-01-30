@@ -68,18 +68,18 @@ export class ParadeUnit {
         return result;
     }
 
-    getStaticProps() : ParadeUnitStaticProps {
+    async getStaticProps() : Promise<ParadeUnitStaticProps> {
         return {
             city: this.city,
             directors: this.directors,
             isHost: this.isHost,
             lastUpdated: this.lastUpdated.toISO(),
-            leaders: this.leaders.map((l) => l.getStaticProps()),
+            leaders: await Promise.all(this.leaders.map(async (l) => l.getStaticProps())),
             music: this.music,
             nickname: this.nickname,
             notes: this.notes,
             schoolName: this.schoolName,
-            staff: this.staff.map((s) => s.getStaticProps()),
+            staff: await Promise.all(this.staff.map(async (s) => s.getStaticProps())),
         }
     }
 }

@@ -89,7 +89,7 @@ export async function getStaticProps() {
     const bandReview = await getBandReview();
 
     const props = {
-        bandReview: bandReview.getStaticProps()
+        bandReview: await bandReview.getStaticProps()
     };
 
     return {

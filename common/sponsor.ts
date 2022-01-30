@@ -52,7 +52,7 @@ class Sponsor {
         return result;
     }
 
-    getStaticProps() : SponsorStaticProps {
+    async getStaticProps() : Promise<SponsorStaticProps> {
         return {
             name: this.name,
             presenter: this.presenter || null,
@@ -79,10 +79,10 @@ class TrophySponsorship {
         return result;
     }
 
-    getStaticProps() : TrophySponsorshipStaticProps {
+    async getStaticProps() : Promise<TrophySponsorshipStaticProps> {
         return {
             place: this.place,
-            sponsors: this.sponsors.map((s) => s.getStaticProps()),
+            sponsors: await Promise.all(this.sponsors.map(async (s) => s.getStaticProps())),
         }
     }
 }
@@ -100,10 +100,10 @@ export class CompetitionSponsors {
         return result;
     }
 
-    getStaticProps() : CompetitionSponsorsStaticProps {
+    async getStaticProps() : Promise<CompetitionSponsorsStaticProps> {
         return {
             general: this.generalSponsors,
-            trophies: this.trophies.map((t) => t.getStaticProps()),
+            trophies: await Promise.all(this.trophies.map(async (t) => t.getStaticProps())),
         }
     }
 }

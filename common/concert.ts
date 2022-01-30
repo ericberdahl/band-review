@@ -33,17 +33,17 @@ export type ConcertStaticProps = {
 
 type ConcertLineupItem = ConcertUnit | BreakUnit;
 
-function getLineupItemStaticProps(item : ConcertLineupItem) : ConcertLineupItemStaticProps {
+async function getLineupItemStaticProps(item : ConcertLineupItem) : Promise<ConcertLineupItemStaticProps> {
     if (item instanceof BreakUnit) {
         return {
             type: 'break',
-            item: item.getStaticProps()
+            item: await item.getStaticProps()
         }
     }
     else if (item instanceof ConcertUnit) {
         return {
             type: 'unit',
-            item: item.getStaticProps()
+            item: await item.getStaticProps()
         }
     }
 }
@@ -75,9 +75,9 @@ export class Concert {
         return result;
     }
 
-    getStaticProps() : ConcertStaticProps {
+    async getStaticProps() : Promise<ConcertStaticProps> {
         return {
-            lineup: this.lineup.map((li) => getLineupItemStaticProps(li)),
+            lineup: await Promise.all(this.lineup.map(async (li) => getLineupItemStaticProps(li))),
         }
     }
 }

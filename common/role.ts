@@ -25,7 +25,7 @@ export class Role {
         return result;
     }
 
-    getStaticProps() : RoleStaticProps {
+    async getStaticProps() : Promise<RoleStaticProps> {
         return {
             title: this.title,
             members: this.members,
