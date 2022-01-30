@@ -63,7 +63,7 @@ class Announcer {
         this.email = email;
     }
 
-    static deserialize(data : SerializedAnnouncer) : Announcer {
+    static async deserialize(data : SerializedAnnouncer) : Promise<Announcer> {
         return new Announcer(data.name, data.email);
     }
 
@@ -84,7 +84,7 @@ class Show {
         this.citation = citation;
     }
 
-    static deserialize(data : SerializedShow) : Show {
+    static async deserialize(data : SerializedShow) : Promise<Show> {
         return new Show(DateTime.fromISO(data.date, { setZone: 'America/Los Angeles' }), data.citation);
     }
 
@@ -116,10 +116,10 @@ class BandReview {
     }
 
     static async deserialize(data : SerializedBandReview) : Promise<BandReview> {
-        return new BandReview(Announcer.deserialize(data.announcer),
+        return new BandReview(await Announcer.deserialize(data.announcer),
                               data.version,
-                              Show.deserialize(data.show),
-                              Show.deserialize(data.next_show),
+                              await Show.deserialize(data.show),
+                              await Show.deserialize(data.next_show),
                               await Parade.deserialize(data.parade),
                               await FieldShow.deserialize(data.fieldshow),
                               await Concert.deserialize(data.concert));

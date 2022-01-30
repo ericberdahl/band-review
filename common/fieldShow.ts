@@ -75,7 +75,7 @@ export class FieldShow {
     static async deserialize(data : SerializedFieldShow) : Promise<FieldShow> {
         const result = new FieldShow(data.start_time,
                                      data.anthem_performer,
-                                     CompetitionSponsors.deserialize(data.sponsors));
+                                     await CompetitionSponsors.deserialize(data.sponsors));
 
         result.lineup.push(...await Promise.all(data.lineup.map(async (li) => {
             if (isFieldShowUnitRef(li)) {

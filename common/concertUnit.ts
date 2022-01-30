@@ -26,7 +26,7 @@ export class ConcertUnit {
     nickname : string       = '';
     schoolName : string     = '';
 
-    static deserialize(data : SerializedConcertUnit, unitKey : string = 'concert') : ConcertUnit {
+    static async deserialize(data : SerializedConcertUnit, unitKey : string = 'concert') : Promise<ConcertUnit> {
         const result = new ConcertUnit();
 
         result.city = data.city;

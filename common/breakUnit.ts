@@ -13,7 +13,7 @@ export class BreakUnit {
         this.duration = duration;
     }
 
-    static deserialize(data : SerializedBreakUnit) {
+    static async deserialize(data : SerializedBreakUnit) : Promise<BreakUnit> {
         return new BreakUnit(data.break);
     }
 

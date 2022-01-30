@@ -82,11 +82,11 @@ export class Parade {
     }
 
     static async deserialize(data : SerializedParade) : Promise<Parade> {
-        const result = new Parade(Role.deserialize(data.grand_marshall),
+        const result = new Parade(await Role.deserialize(data.grand_marshall),
                                   data.colors,
                                   data.awards_time,
                                   data.awards_location,
-                                  CompetitionSponsors.deserialize(data.sponsors));
+                                  await CompetitionSponsors.deserialize(data.sponsors));
 
         result.lineup.push(...await Promise.all(data.lineup.map(async (li) => {
             if (isParadeUnitRef(li)) {

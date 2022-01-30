@@ -46,7 +46,7 @@ export class ParadeUnit {
     schoolName : string     = '';
     staff : Role[]          = [];
 
-    static deserialize(data : SerializedParadeUnit, unitKey : string = 'parade') : ParadeUnit {
+    static async deserialize(data : SerializedParadeUnit, unitKey : string = 'parade') : Promise<ParadeUnit> {
         const result = new ParadeUnit();
 
        result.lastUpdated = DateTime.fromFormat(data[unitKey].lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
@@ -55,14 +55,14 @@ export class ParadeUnit {
         result.directors.push(...data[unitKey].directors);
         result.isHost = (data[unitKey].isHost || false);
         if (data[unitKey].leaders) {
-            result.leaders.push(...data[unitKey].leaders.map((s) => Role.deserialize(s)));
+            result.leaders.push(...await Promise.all(data[unitKey].leaders.map(async (s) => Role.deserialize(s))));
         }
         result.music = data[unitKey].music || '';
         result.nickname = data[unitKey].nickname || '';
         result.notes = data[unitKey].notes || '';
         result.schoolName = data.name || '';
         if (data[unitKey].staff) {
-            result.staff.push(...data[unitKey].staff.map((s) => Role.deserialize(s)));
+            result.staff.push(...await Promise.all(data[unitKey].staff.map(async (s) => Role.deserialize(s))));
         }
 
         return result;

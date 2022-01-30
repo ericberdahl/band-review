@@ -17,7 +17,7 @@ export class Role {
         this.members = [];
     }
 
-    static deserialize(data : SerializedRole) : Role {
+    static async deserialize(data : SerializedRole) : Promise<Role> {
         const result = new Role(data.title);
 
         result.members.push(...data.members);

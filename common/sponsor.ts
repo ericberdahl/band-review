@@ -42,7 +42,7 @@ class Sponsor {
         this.name = name;
     }
 
-    static deserialize(data : SerializedSponsor) : Sponsor {
+    static async deserialize(data : SerializedSponsor) : Promise<Sponsor> {
         const result = new Sponsor(data.sponsor);
 
         result.presenter = data.presenter;
@@ -71,10 +71,10 @@ class TrophySponsorship {
         this.sponsors = [];
     }
 
-    static deserialize(data : SerializedTrophySponsorship) : TrophySponsorship {
+    static async deserialize(data : SerializedTrophySponsorship) : Promise<TrophySponsorship> {
         const result = new TrophySponsorship(data.place);
         
-        result.sponsors.push(...data.sponsors.map((s) => Sponsor.deserialize(s)));
+        result.sponsors.push(...await Promise.all(data.sponsors.map(async (s) => Sponsor.deserialize(s))));
 
         return result;
     }
@@ -91,11 +91,11 @@ export class CompetitionSponsors {
     readonly generalSponsors : string[] = [];
     readonly trophies : TrophySponsorship[] = [];
 
-    static deserialize(data : SerializedCompetitionSponsors) : CompetitionSponsors {
+    static async deserialize(data : SerializedCompetitionSponsors) : Promise<CompetitionSponsors> {
         const result = new CompetitionSponsors();
         
         result.generalSponsors.push(...data.general);
-        result.trophies.push(...data.trophies.map((t) => TrophySponsorship.deserialize(t)))
+        result.trophies.push(...await Promise.all(data.trophies.map(async (t) => TrophySponsorship.deserialize(t))))
 
         return result;
     }
