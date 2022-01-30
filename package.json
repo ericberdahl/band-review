@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "build-export": "npm run build && next export",
+    "pdf": "npx vivliostyle build --output review.pdf out/index.html",
     "start": "next start",
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "lint": "next lint",
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/ericberdahl/band-review#readme",
   "dependencies": {
+    "@vivliostyle/cli": "^4.4.0",
     "asciidoctor": "^2.0.3",
     "commander": "^8.1.0",
     "debug": "^4.1.1",
