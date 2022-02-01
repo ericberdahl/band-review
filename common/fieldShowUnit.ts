@@ -24,6 +24,7 @@ export type SerializedFieldShowUnit = {
 }
 
 export type FieldShowUnitStaticProps = {
+    unitType : 'fieldShowUnit';
     city : string;
     description : string;
     directors : string[];
@@ -79,6 +80,7 @@ export class FieldShowUnit {
 
     async getStaticProps() : Promise<FieldShowUnitStaticProps> {
         return {
+            unitType: 'fieldShowUnit',
             city: this.city,
             description: this.description || null,
             directors: this.directors,

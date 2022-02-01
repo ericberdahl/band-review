@@ -25,10 +25,7 @@ export type SerializedFieldShow = {
     start_time : string;    // hh:mmAM
 }
 
-type FieldShowLineupItemStaticProps = {
-    type : 'break' | 'unit';
-    item : BreakUnitStaticProps | FieldShowUnitStaticProps;
-}
+type FieldShowLineupItemStaticProps = BreakUnitStaticProps | FieldShowUnitStaticProps;
 
 export type FieldShowStaticProps = {
     anthemPerformer : string;
@@ -38,21 +35,6 @@ export type FieldShowStaticProps = {
 }
 
 type FieldShowLineupItem = FieldShowUnit | BreakUnit;
-
-async function getLineupItemStaticProps(item : FieldShowLineupItem) : Promise<FieldShowLineupItemStaticProps> {
-    if (item instanceof BreakUnit) {
-        return {
-            type: 'break',
-            item: await item.getStaticProps()
-        }
-    }
-    else if (item instanceof FieldShowUnit) {
-        return {
-            type: 'unit',
-            item: await item.getStaticProps()
-        }
-    }
-}
 
 async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
     const filename = sanitize(schoolRef + '.yml');
@@ -93,7 +75,7 @@ export class FieldShow {
         return {
             anthemPerformer: this.anthemPerformer,
             startTime: this.startTime,
-            lineup: await Promise.all(this.lineup.map(async (li) => getLineupItemStaticProps(li))),
+            lineup: await Promise.all(this.lineup.map(async (li) => li.getStaticProps())),
             sponsors: await this.sponsors.getStaticProps(),
         }
     }

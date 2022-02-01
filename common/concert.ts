@@ -22,31 +22,13 @@ export type SerializedConcert = {
     lineup : SerializedConcertLineupItem[];
 }
 
-type ConcertLineupItemStaticProps = {
-    type : 'break' | 'unit';
-    item : BreakUnitStaticProps | ConcertUnitStaticProps;
-}
+type ConcertLineupItemStaticProps = BreakUnitStaticProps | ConcertUnitStaticProps;
 
 export type ConcertStaticProps = {
     lineup : ConcertLineupItemStaticProps[];
 }
 
 type ConcertLineupItem = ConcertUnit | BreakUnit;
-
-async function getLineupItemStaticProps(item : ConcertLineupItem) : Promise<ConcertLineupItemStaticProps> {
-    if (item instanceof BreakUnit) {
-        return {
-            type: 'break',
-            item: await item.getStaticProps()
-        }
-    }
-    else if (item instanceof ConcertUnit) {
-        return {
-            type: 'unit',
-            item: await item.getStaticProps()
-        }
-    }
-}
 
 async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
     const filename = sanitize(schoolRef + '.yml');
@@ -77,7 +59,7 @@ export class Concert {
 
     async getStaticProps() : Promise<ConcertStaticProps> {
         return {
-            lineup: await Promise.all(this.lineup.map(async (li) => getLineupItemStaticProps(li))),
+            lineup: await Promise.all(this.lineup.map(async (li) => li.getStaticProps())),
         }
     }
 }

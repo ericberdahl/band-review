@@ -3,6 +3,7 @@ export type SerializedBreakUnit = {
 }
 
 export type BreakUnitStaticProps = {
+    unitType : 'breakUnit';
     duration : number;  // minutes
 }
 
@@ -19,6 +20,7 @@ export class BreakUnit {
 
     async getStaticProps() : Promise<BreakUnitStaticProps> {
         return {
+            unitType: 'breakUnit',
             duration: this.duration,
         }
     }

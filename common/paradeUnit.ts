@@ -22,6 +22,7 @@ export type SerializedParadeUnit = {
 }
 
 export type ParadeUnitStaticProps = {
+    unitType : 'paradeUnit';
     city : string;
     directors : string[];
     isHost : boolean;
@@ -70,6 +71,7 @@ export class ParadeUnit {
 
     async getStaticProps() : Promise<ParadeUnitStaticProps> {
         return {
+            unitType: 'paradeUnit',
             city: this.city,
             directors: this.directors,
             isHost: this.isHost,

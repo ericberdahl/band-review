@@ -28,10 +28,7 @@ export type SerializedParade = {
     sponsors : SerializedCompetitionSponsors;
 }
 
-type ParadeLineupItemStaticProps = {
-    type : 'break' | 'unit';
-    item : BreakUnitStaticProps | ParadeUnitStaticProps;
-}
+type ParadeLineupItemStaticProps = BreakUnitStaticProps | ParadeUnitStaticProps;
 
 export type ParadeStaticProps = {
     awardsTime : string;    // ISO DateTime format
@@ -43,21 +40,6 @@ export type ParadeStaticProps = {
 }
 
 type ParadeLineupItem = ParadeUnit | BreakUnit;
-
-async function getLineupItemStaticProps(item : ParadeLineupItem) : Promise<ParadeLineupItemStaticProps> {
-    if (item instanceof BreakUnit) {
-        return {
-            type: 'break',
-            item: await item.getStaticProps()
-        }
-    }
-    else if (item instanceof ParadeUnit) {
-        return {
-            type: 'unit',
-            item: await item.getStaticProps()
-        }
-    }
-}
 
 async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
     const filename = sanitize(schoolRef + '.yml');
@@ -106,7 +88,7 @@ export class Parade {
             awardsLocation: this.awardsLocation,
             colors: this.colors,
             grandMarshal: await this.grandMarshal.getStaticProps(),
-            lineup: await Promise.all(this.lineup.map(async (li) => getLineupItemStaticProps(li))),
+            lineup: await Promise.all(this.lineup.map(async (li) => li.getStaticProps())),
             sponsors: await this.sponsors.getStaticProps(),
         }
     }

@@ -14,6 +14,7 @@ export type SerializedConcertUnit = {
 }
 
 export type ConcertUnitStaticProps = {
+    unitType : 'concertUnit';
     city : string;
     lastUpdated : string;
     nickname : string;
@@ -40,6 +41,7 @@ export class ConcertUnit {
 
     async getStaticProps() : Promise<ConcertUnitStaticProps> {
         return {
+            unitType: 'concertUnit',
             city: this.city,
             lastUpdated: this.lastUpdated.toISO(),
             nickname: this.nickname,

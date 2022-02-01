@@ -38,8 +38,8 @@ function Lineup({ lineup }) {
         <>
             {lineup.map((li, index) => (
                 <Chapter key={index}>
-                    {li.type == 'break' && <Break unit={li.item} eventLabel="Field Show"/>}
-                    {li.type == 'unit' && <School unit={li.item}/>}
+                    {li.unitType == 'breakUnit' && <Break unit={li} eventLabel="Field Show"/>}
+                    {li.unitType == 'fieldShowUnit' && <School unit={li}/>}
                 </Chapter>
             ))}
         </>
@@ -48,9 +48,9 @@ function Lineup({ lineup }) {
 
 
 export default function FieldShow({ event }) {
-    const numFieldShowUnits = event.fieldShow.lineup.filter((li) => li.type == 'unit').length;
-    const numParadeShowUnits = event.parade.lineup.filter((li) => li.type == 'unit').length;
-    const numConcertUnits = event.concert.lineup.filter((li) => li.type == 'unit').length;
+    const numFieldShowUnits = event.fieldShow.lineup.filter((li) => li.unitType == 'fieldShowUnit').length;
+    const numParadeShowUnits = event.parade.lineup.filter((li) => li.unitType == 'paradeUnit').length;
+    const numConcertUnits = event.concert.lineup.filter((li) => li.unitType == 'concertUnit').length;
 
     return (
         <div>

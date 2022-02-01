@@ -39,8 +39,8 @@ function Lineup({ lineup }) {
         <>
             {lineup.map((li, index) => (
                 <Chapter key={index}>
-                    {li.type == 'break' && <Break eventLabel="Parade" unit={li.item}/>}
-                    {li.type == 'unit' && <School unit={li.item} isFirst={0 == schoolCount++}/>}
+                    {li.unitType == 'breakUnit' && <Break eventLabel="Parade" unit={li}/>}
+                    {li.unitType == 'paradeUnit' && <School unit={li} isFirst={0 == schoolCount++}/>}
                 </Chapter>
             ))}
         </>
@@ -48,7 +48,7 @@ function Lineup({ lineup }) {
 }
 
 export default function Parade({ parade, show, fieldShow, nextShow }) {
-    const numSchools = parade.lineup.filter((li) => li.type == 'unit').length;
+    const numSchools = parade.lineup.filter((li) => li.unitType == 'paradeUnit').length;
  
     return (
         <div>

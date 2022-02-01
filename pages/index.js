@@ -20,11 +20,9 @@ function HomePage({ bandReview }) {
 
     const showYear = DateTime.fromISO(bandReview.show.date).year;
 
-    const paradeSchools = bandReview.parade.lineup.filter((li) => li.type == 'unit')
-                                    .map((li) => li.item)
+    const paradeSchools = bandReview.parade.lineup.filter((li) => li.unitType == 'paradeUnit')
                                     .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
-    const fieldShowSchools = bandReview.fieldShow.lineup.filter((li) => li.type == 'unit')
-                                    .map((li) => li.item)
+    const fieldShowSchools = bandReview.fieldShow.lineup.filter((li) => li.unitType == 'fieldShowUnit')
                                     .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
 
     const paradeMissingData = paradeSchools.filter((s) => DateTime.fromISO(s.lastUpdated).year != showYear);
