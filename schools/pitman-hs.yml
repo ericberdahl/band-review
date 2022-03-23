@@ -31,10 +31,10 @@ parade:
         The Pitman Marching Pride would like to thank their band and guard boosters for all of their support.
 
 concert-wind:
-    lastUpdated: 2017
+    lastUpdated: 2017-01-01 00:00:00 -08
     nickname: "Pitman High School Wind Ensemble"
 
 concert:
-    lastUpdated: 2017
+    lastUpdated: 2017-01-01 00:00:00 -08
 
     nickname: "Pitman High School Concert Band"

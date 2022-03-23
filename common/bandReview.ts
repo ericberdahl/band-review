@@ -1,50 +1,31 @@
+import { Announcer, AnnouncerStaticProps, SerializedAnnouncer } from './announcer';
 import { Concert, ConcertStaticProps, SerializedConcert } from './concert';
 import { FieldShow, FieldShowStaticProps, SerializedFieldShow } from './fieldShow';
 import { Parade, ParadeStaticProps, SerializedParade } from './parade';
+import { ShowCitation, ShowCitationStaticProps, SerializedShowCitation } from './showCitation';
 
-import { DateTime } from 'luxon';
 import yaml from 'yaml';
 
 import fs from 'fs/promises';
 import path from 'path';
 
-type SerializedAnnouncer = {
-    name : string;
-    email : string;
-}
-
-type SerializedShow = {
-    date : string;
-    citation : string;
-}
-
 type SerializedBandReview = {
     announcer : SerializedAnnouncer;
     version : number;
-    show : SerializedShow;
-    next_show : SerializedShow;
+    show : SerializedShowCitation;
+    next_show : SerializedShowCitation;
     parade : SerializedParade;
     fieldshow : SerializedFieldShow;
     concert : SerializedConcert;
-}
-
-type AnnouncerStaticProps = {
-    name : string;
-    email : string;
-}
-
-type ShowStaticProps = {
-    date : string;  // ISO date format
-    citation : string;
 }
 
 type BandReviewStaticProps = {
     announcer : AnnouncerStaticProps;
     concert : ConcertStaticProps;
     fieldShow : FieldShowStaticProps;
-    nextShow : ShowStaticProps;
+    nextShow : ShowCitationStaticProps;
     parade : ParadeStaticProps;
-    show : ShowStaticProps;
+    show : ShowCitationStaticProps;
     version : number;
 };
 
@@ -54,58 +35,16 @@ export async function getBandReview() : Promise<BandReview> {
     return BandReview.deserialize(docs[0].toJSON());
 }
 
-class Announcer {
-    readonly name : string;
-    readonly email : string;
-
-    constructor(name : string, email: string) {
-        this.name = name;
-        this.email = email;
-    }
-
-    static async deserialize(data : SerializedAnnouncer) : Promise<Announcer> {
-        return new Announcer(data.name, data.email);
-    }
-
-    async getStaticProps() : Promise<AnnouncerStaticProps> {    
-        return {
-            name: this.name,
-            email: this.email
-        }
-    }    
-}
-
-class Show {
-    readonly date : DateTime;
-    readonly citation : string;
-
-    constructor(date : DateTime, citation : string) {
-        this.date = date;
-        this.citation = citation;
-    }
-
-    static async deserialize(data : SerializedShow) : Promise<Show> {
-        return new Show(DateTime.fromISO(data.date, { setZone: 'America/Los Angeles' }), data.citation);
-    }
-
-    async getStaticProps() : Promise<ShowStaticProps> {
-        return {
-            date: this.date.toISO(),
-            citation: this.citation
-        }
-    }    
-}
-
 class BandReview {
     readonly announcer : Announcer;
     readonly version : number;
-    readonly show : Show;
-    readonly nextShow : Show;
+    readonly show : ShowCitation;
+    readonly nextShow : ShowCitation;
     readonly parade : Parade;
     readonly fieldShow : FieldShow;
     readonly concert : Concert;
 
-    constructor(announcer : Announcer, version : number, show : Show, nextShow : Show, parade : Parade, fieldShow : FieldShow, concert : Concert) {
+    constructor(announcer : Announcer, version : number, show : ShowCitation, nextShow : ShowCitation, parade : Parade, fieldShow : FieldShow, concert : Concert) {
         this.announcer = announcer;
         this.version = version;
         this.show = show;
@@ -118,8 +57,8 @@ class BandReview {
     static async deserialize(data : SerializedBandReview) : Promise<BandReview> {
         return new BandReview(await Announcer.deserialize(data.announcer),
                               data.version,
-                              await Show.deserialize(data.show),
-                              await Show.deserialize(data.next_show),
+                              await ShowCitation.deserialize(data.show),
+                              await ShowCitation.deserialize(data.next_show),
                               await Parade.deserialize(data.parade),
                               await FieldShow.deserialize(data.fieldshow),
                               await Concert.deserialize(data.concert));

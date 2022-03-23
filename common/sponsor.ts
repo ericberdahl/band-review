@@ -93,9 +93,13 @@ export class CompetitionSponsors {
 
     static async deserialize(data : SerializedCompetitionSponsors) : Promise<CompetitionSponsors> {
         const result = new CompetitionSponsors();
-        
-        result.generalSponsors.push(...data.general);
-        result.trophies.push(...await Promise.all(data.trophies.map(async (t) => TrophySponsorship.deserialize(t))))
+ 
+        if (data.general) {
+            result.generalSponsors.push(...data.general);
+        }
+        if (data.trophies) {
+            result.trophies.push(...await Promise.all(data.trophies.map(async (t) => TrophySponsorship.deserialize(t))))
+        }
 
         return result;
     }

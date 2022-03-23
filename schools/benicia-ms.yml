@@ -45,7 +45,7 @@ concert:
     nickname: "Benicia Middle School Symphonic Band"
 
 winterguard-novice:
-    lastUpdated: 2018
+    lastUpdated: 2018-01-01 00:00:00 -08
 
     nickname: "Benicia Middle School B Guard"
 
@@ -65,7 +65,7 @@ winterguard-novice:
     music: "Malibu by Miley Cyrus"
 
 winterguard-scholastic:
-    lastUpdated: 2018
+    lastUpdated: 2018-01-01 00:00:00 -08
 
     nickname: "Benicia Middle School A Guard"
 
@@ -80,7 +80,7 @@ winterguard-scholastic:
     music: "Rise Up by Andra Day"
     
 winterpercussion:
-    lastUpdated: 2018
+    lastUpdated: 2018-01-01 00:00:00 -08
 
     nickname: "Benicia Middle School Drumline"
 
