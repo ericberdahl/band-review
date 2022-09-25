@@ -43,7 +43,7 @@ function Lineup({ lineup }) {
         <>
             {lineup.map((li, index) => (
                 <Chapter key={index}>
-                    {li.unitType == 'breakUnit' && <Break eventLabel="Parade" unit={li}/>}
+                    {li.unitType == 'breakUnit' && <Break eventLabel="Winter Guard" unit={li}/>}
                     {li.unitType == 'winterGuardUnit' && <School unit={li} isFirst={0 == schoolCount++}/>}
                 </Chapter>
             ))}

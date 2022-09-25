@@ -2,6 +2,8 @@ import { Role, RoleStaticProps, SerializedRole } from './role';
 
 import { DateTime } from 'luxon';
 
+import { strict as assert } from 'assert';
+
 type SerializedUnit = {
     isHost? : boolean;
     lastUpdated: string;
@@ -57,7 +59,9 @@ export class WinterPercussionUnit {
         result.schoolName = data.name || '';
 
         const unit = data[unitKey];
+        assert.ok(unit, `${data.name} has no winter percussion unit`);
 
+        assert.ok(unit.lastUpdated, `${data.name} winter percussion unit has no lastUpdated`);
         result.lastUpdated = DateTime.fromFormat(unit.lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
 
         if (unit.directors) {

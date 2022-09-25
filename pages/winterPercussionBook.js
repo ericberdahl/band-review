@@ -19,7 +19,7 @@ export default function WinterPercussionBook({ winterShow }) {
     return (
         <div>
             <Chapter>
-                <h1>{winterShow.show.citation} : Parade Announcer's Book: {DateTime.fromISO(winterShow.show.date).toLocaleString(DateTime.DATE_FULL)}</h1>
+                <h1>{winterShow.show.citation} : Winter Percussion Announcer's Book: {DateTime.fromISO(winterShow.show.date).toLocaleString(DateTime.DATE_FULL)}</h1>
                 <p>{winterShow.announcer.name} &lt;{winterShow.announcer.email}&gt;</p>
                 <p>v{winterShow.version}, {generationDate.toLocaleString(DateTime.DATETIME_FULL)} </p>
 
