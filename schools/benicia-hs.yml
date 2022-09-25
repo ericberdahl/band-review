@@ -41,7 +41,12 @@ parade:
         Without the hard work and dedication of our booster program, none of this would be possible.
         Please welcome, the pride of Benicia California, the Benicia High School Panther Band!
 
-concert:
+concert-1:
+    lastUpdated: 2019-10-11 12:52:11 -07
+
+    nickname: "Benicia High School Symphonic Band"
+
+concert-2:
     lastUpdated: 2019-10-11 12:52:11 -07
 
     nickname: "Benicia High School Symphonic Band"

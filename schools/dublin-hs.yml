@@ -62,12 +62,12 @@ fieldshow:
         2017 NCBA Sweepstakes winner in the Fairfield Tournament of Champions with their program "Mirror Image",
         and tied for 2016 NCBA Sweepstakes winner in the Napa Vintage Band Review with their program, "Heroes and Villains"
 
-concert-wind:
+concert-1:
     lastUpdated: *band-review-last-updated
 
     nickname: "Dublin High School Wind Ensemble"
 
-concert:
+concert-2:
     lastUpdated: *band-review-last-updated
 
     nickname: "Dublin High School Concert Band"

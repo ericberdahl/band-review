@@ -44,12 +44,12 @@ parade:
         The Viking Marching band was awarded first place in parade and concert at the Del Mar Band Review.
         They give a big thank you to their amazing band parents.
 
-concert-wind:
+concert-1:
     lastUpdated: *band-review-last-updated
 
     nickname: "Irvington High School Wind Ensemble"
 
-concert:
+concert-2:
     lastUpdated: *band-review-last-updated
 
     nickname: "Irvington High School Concert Band"

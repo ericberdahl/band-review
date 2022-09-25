@@ -4,14 +4,14 @@ announcer:
     email: "berdahl@serendipity.org"
 
 show:
-    year: 2021
-    date: "2021-10-23"
-    citation: "47th Annual Foothill High School Band Review"
-
-next_show:
     year: 2022
     date: "2022-10-22"
     citation: "48th Annual Foothill High School Band Review"
+
+next_show:
+    year: 2023
+    date: "2023-10-28"
+    citation: "49th Annual Foothill High School Band Review"
 
 units:
 -   "parade"
@@ -19,19 +19,20 @@ units:
 -   "concert"
 
 sponsors-general: &sponsors-general
+-   NOT YET COMPLETE
 -   Ben Woo with Salesforce
 -   Educational Discovery Tours
 -   Holly Crane and Family
 -   the Hubbard Family
 
-version: 1.6
+version: 0.0
 
 parade:
     # TODO: Confirm grand marshall
     grand_marshall:
         title: "Grand Marshal"
         members:
-        -   "PUSD School Board Vice President, Mark Miller"
+        -   "TBA"
 
     colors: "the color guard from Veterans of Foreign Wars Post 6298"
 
@@ -39,109 +40,95 @@ parade:
         general: *sponsors-general
 
         trophies:
-        -   place: Parade Sweepstakes
-            sponsors:
-            -   sponsor: Educational Discovery Tours
-                message: Educational Discovery Tours is here to support you!
-
-        -   place: Parade Music Sweepstakes
-            sponsors:
-            -   sponsor: Educational Discovery Tours
-                message: Educational Discovery Tours is here to support you!
+#        -   place: Parade Sweepstakes
+#            sponsors:
+#            -   sponsor: Educational Discovery Tours
+#                message: Educational Discovery Tours is here to support you!
 
     # TODO: add colors and grandmarshal to lineup recipe
     lineup:
     -   ref: "foothill-hs"
     -   ref: "benicia-ms"
     -   ref: "wells-ms"
-    -   ref: "san-leandro-hs"
-    -   ref: "northgate-hs"
-    -   ref: "tracy-hs"
-    -   break: 10
-    -   ref: "jesuit-hs"
-    -   ref: "antioch-hs"
-    -   ref: "alhambra-hs"
     -   ref: "encinal-hs"
-    -   ref: "fairfield-hs"
-    -   ref: "del-mar-hs"
-    -   ref: "capuchino-hs"
-    -   ref: "patterson-hs"
-    -   ref: "orland-hs"
+    -   ref: "hayward-hs"
+    -   ref: "firebaugh-hs"
+    -   ref: "linden-hs"
+    -   ref: "tracy-hs"
+    -   ref: "northgate-hs"
     -   break: 10
-    -   ref: "pacific-grove-hs"
-    -   ref: "el-capitan-hs"
-    -   ref: "benicia-hs"
+    -   ref: "san-leandro-hs"
     -   ref: "merrill-f-west-hs"
-    -   ref: "armijo-hs"
-    -   ref: "freedom-hs"
-    -   ref: "buhach-colony-hs"
-    -   ref: "granada-hs"
-    -   ref: "archbishop-riordan-hs"
+    -   ref: "bullard-hs"
+    -   ref: "orestimba-hs"
+    -   ref: "franklin-hs-stockton"
+    -   ref: "yuba-city-hs"
+    -   ref: "deer-valley-hs"
+    -   ref: "antioch-hs"
+    -   ref: "jesuit-hs"
+    -   break: 10
+    -   ref: "alhambra-hs"
     -   ref: "washington-hs"
-    -   ref: "santa-cruz-hs"
-    -   ref: "rodriguez-hs"
-    -   ref: "stockton-usd-bands"
+    -   ref: "north-monterey-cty-hs"
+    -   ref: "el-capitan-hs"
+    -   ref: "fairfield-hs"
+    -   ref: "granada-hs"
+    -   ref: "benicia-hs"
+    -   ref: "buhach-colony-hs"
+    -   ref: "patterson-hs"
+    -   break: 10
+    -   ref: "archbishop-riordan-hs"
     -   ref: "pitman-hs"
-    -   ref: "lincoln-hs"
+    -   ref: "santa-cruz-hs"
+    -   ref: "liberty-hs"
     -   ref: "merced-hs"
+    -   ref: "rodriguez-hs"
     -   ref: "irvington-hs"
+    -   ref: "lincoln-hs"
 
     awards_time: "1:30pm"
 
     awards_location: "Amador Valley High School Stadium"
 
 fieldshow:
-    start_time: "3:30pm"
+    start_time: "2:00pm"
 
-    anthem_performer: "Foothill Vocal Jazz and Chamber Choir singer, Ella Thurlow"
+#    anthem_performer: "Foothill Vocal Jazz and Chamber Choir singer, Ella Thurlow"
 
     # TODO: add anthem to lineup
     lineup:
-    -   ref: "dublin-hs"
-        airgram: 7
-    -   ref: "john-swett-hs"
-        airgram: 2
-    -   ref: "lodi-hs"
-        airgram: 2
-    -   ref: "millennium-hs"
-        airgram: 16
-    -   ref: "terra-nova-hs"
-        airgram: 3
-    -   ref: "del-mar-hs"
-        airgram: 8
-    -   break: 30
-    -   ref: "antioch-hs"
-        airgram: 14
-    -   ref: "california-hs"
-        airgram: 8
     -   ref: "clayton-valley-hs"
-        airgram: 2
+    -   ref: "mountain-house-hs"
+    -   ref: "tracy-hs"
+    -   ref: "templeton-hs"
+    -   ref: "river-valley-hs"
+    -   ref: "vanden-hs"
+    -   ref: "south-san-francisco-hs"
+    -   ref: "john-swett-hs"
+    -   break: 15
+    -   ref: "antioch-hs"
+    -   ref: "millennium-hs"
+    -   ref: "del-mar-hs"
+    -   ref: "rancho-cotate-hs"
+    -   ref: "bella-vista-hs"
+    -   ref: "american-canyon-hs"
     -   ref: "st-francis-hs"
-        airgram: 10
+    -   ref: "westmont-hs"
     -   ref: "branham-hs"
-        airgram: 4
-    -   ref: "mountain-view-hs"
-        airgram: 5
-    -   ref: "lynbrook-hs"
-        airgram: 4
-    -   ref: "rodriguez-hs"
-        airgram: 13
-    -   break: 30
-    -   ref: "liberty-hs"
-        airgram: 20
-    -   ref: "castro-valley-hs"
-        airgram: 11
-    -   ref: "amador-valley-hs"
-        airgram: 16
+    -   break: 60
+    # TODO add Awards to lineup
+    -   ref: "california-hs"
+    -   ref: "monte-vista-hs"
     -   ref: "american-hs"
-        airgram: 3
+    -   ref: "rodriguez-hs"
+    -   ref: "liberty-hs"
+    -   break: 30
+    -   ref: "castro-valley-hs"
+    -   ref: "granite-bay-hs"
     -   ref: "cupertino-hs"
-        airgram: 4
-    -   ref: "saratoga-hs"
-        airgram: 5
+    -   ref: "dublin-hs"
+    -   ref: "amador-valley-hs"
     -   ref: "foothill-hs"
-        airgram: 73
-        lateread-airgram: 25
 
     sponsors:
         general: *sponsors-general
@@ -195,27 +182,40 @@ fieldshow:
 
 concert:
     lineup:
+    -   ref: "benicia-hs"
+        unit: "concert-1"
+    -   ref: "pitman-hs"
+        unit: "concert-1"
     -   ref: "irvington-hs"
-        unit: "concert-wind"
-    -   break: 25
+        unit: "concert-1"
     -   ref: "lincoln-hs"
-        unit: "concert-symphonic"
+        unit: "concert-1"
     -   ref: "lincoln-hs"
-        unit: "concert-wind-1"
+        unit: "concert-2"
+    -   ref: "pitman-hs"
+        unit: "concert-2"
     -   ref: "irvington-hs"
-    -   break: 25
+        unit: "concert-2"
     -   ref: "dublin-hs"
-        unit: "concert-wind"
-    -   ref: "livermore-hs"
-        unit: "concert-wind"
-    -   break: 25
+        unit: "concert-1"
+    -   break: 50
     -   ref: "dublin-hs"
+        unit: "concert-2"
     -   break: -1
+    -   ref: "archbishop-riordan-hs"
+    -   ref: "benicia-hs"
+        unit: "concert-2"
+    -   ref: "merced-hs"
+    -   ref: "lincoln-hs"
+        unit: "concert-3"
+    -   ref: "heritage-hs"
+    -   break: 50
+    -   ref: "del-mar-hs"
     -   ref: "benicia-ms"
     -   ref: "wells-ms"
     -   ref: "tracy-hs"
-    -   ref: "del-mar-hs"
-    -   ref: "benicia-hs"
+    -   ref: "bullard-hs"
+    -   ref: "franklin-hs-stockton"
 
 ---
 = {{show.citation}} Announcer's Book: {{ x-formatDate "MMMM Do, YYYY" show.date tz='' }}

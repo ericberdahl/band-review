@@ -40,22 +40,18 @@ parade:
     notes: >
         The Lincoln High School Marching Band would like to thank all of our parents, teachers, the Lincoln Unified School District and supporters from the Stockton community for their continued support.
 
-concert-wind-1:
+concert-1:
     lastUpdated: *band-review-last-updated
 
     nickname: "Wind Ensemble 1"
 
-concert-wind-2:
+concert-2:
     lastUpdated: *band-review-last-updated
 
     nickname: "Wind Ensemble 2"
 
-concert:
+concert-3:
     lastUpdated: *band-review-last-updated
 
     nickname: "Lincoln High School Concert Band"
 
-concert-symphonic:
-    lastUpdated: *band-review-last-updated
-
-    nickname: "Lincoln High School Symphonic Band"
