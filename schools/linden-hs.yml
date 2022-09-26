@@ -1,13 +1,15 @@
-name: "Template School"
+name: "Linden High School"
 
 city: "Anywhere, CA"
+
 
 parade:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Marching Band and Color Guard"
+    nickname: "Linden High School Marching Band and Color Guard"
 
-    directors: 
+    directors: &directors
+    -   "Troy Rexelle"
 
     staff: 
 #    -   title: "instructed by"
@@ -24,7 +26,7 @@ parade:
 fieldshow:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Marching Band and Color Guard"
+    nickname: "Template School Marching Band and Color Guard"
 
     directors: 
 
@@ -43,7 +45,7 @@ fieldshow:
 winterguard:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Winter Guard"
+    nickname: "Linden High School Winter Guard"
 
     directors: 
 
@@ -60,7 +62,7 @@ winterguard:
 winterpercussion:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Winter Percussion"
+    nickname: "Linden High School Winter Percussion"
 
     directors: 
 

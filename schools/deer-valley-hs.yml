@@ -2,6 +2,26 @@ name: "Deer Valley High School"
 
 city: "Antioch, CA"
 
+parade:
+    lastUpdated: 2000-01-01 15:23:03 -07
+
+    nickname: "Template High School Marching Band and Color Guard"
+
+    directors: 
+    -   "Kevin Field"
+
+    staff: 
+#    -   title: "instructed by"
+#        members:
+
+    leaders:
+#    -   title: "drum major"
+#        members:
+
+    music: 
+
+    notes: 
+
 winterguard:
     lastUpdated: 2019-03-13 14:50:00 -07
 

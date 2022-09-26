@@ -1,11 +1,14 @@
-name: "Template School"
+name: "Heritage High School"
 
 city: "Anywhere, CA"
+
+directors:
+-   
 
 parade:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Marching Band and Color Guard"
+    nickname: "Heritage High School Marching Band and Color Guard"
 
     directors: 
 
@@ -24,7 +27,7 @@ parade:
 fieldshow:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Marching Band and Color Guard"
+    nickname: "Heritage High School Marching Band and Color Guard"
 
     directors: 
 
@@ -40,10 +43,15 @@ fieldshow:
 
     notes: 
     
+concert:
+    lastUpdated: 2000-01-01 15:23:03 -07
+
+    nickname: "Heritage High School Concert Band"
+
 winterguard:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Winter Guard"
+    nickname: "Heritage High School Winter Guard"
 
     directors: 
 
@@ -60,7 +68,7 @@ winterguard:
 winterpercussion:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Winter Percussion"
+    nickname: "Heritage High School Winter Percussion"
 
     directors: 
 

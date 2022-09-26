@@ -1,13 +1,16 @@
-name: "Template School"
+name: "Firebaugh High School"
 
 city: "Anywhere, CA"
+
+directors: &directors
+-   "Jose Ledesma"
 
 parade:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Marching Band and Color Guard"
+    nickname: "Firebaugh High School Marching Band and Color Guard"
 
-    directors: 
+    directors: *directors
 
     staff: 
 #    -   title: "instructed by"
@@ -24,7 +27,7 @@ parade:
 fieldshow:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Marching Band and Color Guard"
+    nickname: "Firebaugh High School Marching Band and Color Guard"
 
     directors: 
 
@@ -43,7 +46,7 @@ fieldshow:
 winterguard:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Winter Guard"
+    nickname: "Firebaugh High School Winter Guard"
 
     directors: 
 
@@ -60,7 +63,7 @@ winterguard:
 winterpercussion:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Template High School Winter Percussion"
+    nickname: "Firebaugh High School Winter Percussion"
 
     directors: 
 

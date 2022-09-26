@@ -39,7 +39,12 @@ fieldshow:
     description: 
 
     notes: 
-    
+
+concert:
+    lastUpdated: 2000-01-01 15:23:03 -07
+
+    nickname: "Template High School Concert Band"
+
 winterguard:
     lastUpdated: 2000-01-01 15:23:03 -07
 
