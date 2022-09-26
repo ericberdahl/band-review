@@ -30,7 +30,7 @@ export default function FieldShowBook({ bandReview }) {
                     <p key={s.schoolName}>{s.schoolName}</p>
                 ))}
 
-                <h3>{fieldShowSchools.length} Schools with Field Show Data</h3>
+                <h3>{fieldShowWithData.length} Schools with Field Show Data</h3>
                 {fieldShowWithData.map((s) => (
                     <p key={s.schoolName}>{s.schoolName}</p>
                 ))}

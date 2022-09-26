@@ -30,7 +30,7 @@ export default function ParadeBook({ bandReview }) {
                     <p key={s.schoolName}>{s.schoolName}</p>
                 ))}
 
-                <h3>{paradeSchools.length} Schools with Parade Data</h3>
+                <h3>{paradeWithData.length} Schools with Parade Data</h3>
                 {paradeWithData.map((s) => (
                     <p key={s.schoolName}>{s.schoolName}</p>
                 ))}
