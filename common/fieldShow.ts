@@ -5,6 +5,7 @@ import { CompetitionSponsors, CompetitionSponsorsStaticProps, SerializedCompetit
 import sanitize from "sanitize-filename";
 import yaml from 'yaml';
 
+import { strict as assert } from 'assert';
 import path from 'path';
 import fs from 'fs/promises';
 
@@ -16,6 +17,10 @@ type SerializedFieldShowLineupItem = SerializedFieldShowUnitRef | SerializedBrea
 
 function isFieldShowUnitRef(item : SerializedFieldShowLineupItem) : item is SerializedFieldShowUnitRef {
     return (item as SerializedFieldShowUnitRef).ref !== undefined;
+}
+
+function isBreakShowUnit(item : SerializedFieldShowLineupItem) : item is SerializedBreakUnit {
+    return (item as SerializedBreakUnit).break !== undefined;
 }
 
 export type SerializedFieldShow = {
@@ -50,7 +55,7 @@ export class FieldShow {
 
     constructor(startTime : string, anthemPerformer : string, sponsors : CompetitionSponsors) {
         this.startTime = startTime;
-        this.anthemPerformer = anthemPerformer;
+        this.anthemPerformer = anthemPerformer ? anthemPerformer : null;
         this.sponsors = sponsors;
     }
 
@@ -63,8 +68,11 @@ export class FieldShow {
             if (isFieldShowUnitRef(li)) {
                 return FieldShowUnit.deserialize(await readSerializedUnitForSchool<SerializedFieldShowUnit>(li.ref))
             }
-            else {
+            else if (isBreakShowUnit(li)) {
                 return BreakUnit.deserialize(li);
+            }
+            else {
+                assert.fail(`Unrecognized lineup item: ${li}`)
             }
         })));
 

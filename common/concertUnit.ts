@@ -1,5 +1,7 @@
 import { DateTime } from 'luxon';
 
+import { strict as assert } from 'assert';
+
 type SerializedUnit = {
     lastUpdated: string;
     nickname : string;
@@ -30,11 +32,14 @@ export class ConcertUnit {
     static async deserialize(data : SerializedConcertUnit, unitKey : string = 'concert') : Promise<ConcertUnit> {
         const result = new ConcertUnit();
 
+        const unit = data[unitKey];
+        assert.ok(unit, `${data.name} has no concert unit named "${unitKey}"`);
+
         result.city = data.city;
         result.schoolName = data.name || '';
 
-        result.lastUpdated = DateTime.fromFormat(data[unitKey].lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
-        result.nickname = data[unitKey].nickname || '';
+        result.lastUpdated = DateTime.fromFormat(unit.lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
+        result.nickname = unit.nickname || '';
 
         return result;
     }

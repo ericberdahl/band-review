@@ -2,6 +2,8 @@ import { Role, RoleStaticProps, SerializedRole } from './role';
 
 import { DateTime } from 'luxon';
 
+import { strict as assert } from 'assert';
+
 type SerializedUnit = {
     isHost? : boolean;
     lastUpdated: string;
@@ -56,23 +58,26 @@ export class FieldShowUnit {
     static async deserialize(data : SerializedFieldShowUnit, unitKey : string = 'fieldshow') : Promise<FieldShowUnit> {
         const result = new FieldShowUnit();
 
+        const unit = data[unitKey];
+        assert.ok(unit, `${data.name} has no field show unit`);
+
         result.city = data.city;
         result.schoolName = data.name || '';
 
-        result.lastUpdated = DateTime.fromFormat(data[unitKey].lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
+        result.lastUpdated = DateTime.fromFormat(unit.lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
 
-        result.description = data[unitKey].description;
-        result.directors.push(...data[unitKey].directors);
-        result.isHost = (data[unitKey].isHost || false);
-        if (data[unitKey].leaders) {
-            result.leaders.push(...await Promise.all(data[unitKey].leaders.map(async (s) => Role.deserialize(s))));
+        result.description = unit.description;
+        result.directors.push(...unit.directors);
+        result.isHost = (unit.isHost || false);
+        if (unit.leaders) {
+            result.leaders.push(...await Promise.all(unit.leaders.map(async (s) => Role.deserialize(s))));
         }
-        result.music = data[unitKey].music || '';
-        result.nickname = data[unitKey].nickname || '';
-        result.notes = data[unitKey].notes || '';
-        result.program = data[unitKey].program || '';
-        if (data[unitKey].staff) {
-            result.staff.push(...await Promise.all(data[unitKey].staff.map(async (s) => Role.deserialize(s))));
+        result.music = unit.music || '';
+        result.nickname = unit.nickname || '';
+        result.notes = unit.notes || '';
+        result.program = unit.program || '';
+        if (unit.staff) {
+            result.staff.push(...await Promise.all(unit.staff.map(async (s) => Role.deserialize(s))));
         }
 
         return result;
