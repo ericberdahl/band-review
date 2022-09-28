@@ -22,7 +22,6 @@ function PresentationOfColors({ unit }) {
 }
 
 function GrandMarshal({ unit }) {
-    console.log('rendering Grand Marshal')
     return (
         <>
             <h2>Parade - Grand Marshal</h2>
@@ -36,7 +35,6 @@ function GrandMarshal({ unit }) {
 }
 
 function ParadeStart({ unit }) {
-    console.log(`Rendering ParadeStart`)
     return (
         <>
             <Lineup lineup={unit.lineup} container={Fragment}/>
