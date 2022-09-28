@@ -72,7 +72,7 @@ export class FieldShow {
                 return BreakUnit.deserialize(li);
             }
             else {
-                assert.fail(`Unrecognized lineup item: ${li}`)
+                assert.fail(`Unrecognized lineup item: ${JSON.stringify(li)}`)
             }
         })));
 

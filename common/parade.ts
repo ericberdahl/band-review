@@ -6,6 +6,7 @@ import { CompetitionSponsors, CompetitionSponsorsStaticProps, SerializedCompetit
 import sanitize from "sanitize-filename";
 import yaml from 'yaml';
 
+import { strict as assert } from 'assert';
 import path from 'path';
 import fs from 'fs/promises';
 
@@ -74,8 +75,11 @@ export class Parade {
             if (isParadeUnitRef(li)) {
                 return ParadeUnit.deserialize(await readSerializedUnitForSchool<SerializedParadeUnit>(li.ref))
             }
-            else {
+            else if (isBreakShowUnit(li)) {
                 return BreakUnit.deserialize(li);
+            }
+            else {
+                assert.fail(`Unrecognized lineup item: ${JSON.stringify(li)}`)
             }
         })));
 
