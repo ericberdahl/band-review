@@ -83,6 +83,12 @@ function ParadeBreak({ unit }) {
 
 function Lineup({ lineup, container }) {
     const ContainerTag = container || Chapter;
+    
+    const elMissingRenderer = lineup.find(element => !element.renderer);
+    if (elMissingRenderer) {
+        throw new Error(`${elMissingRenderer.unitType} does not have a renderer`);
+    }
+
     return (
         <>
             {lineup.map((li, index) => (
@@ -96,9 +102,10 @@ function Lineup({ lineup, container }) {
 
 function mapRenderersForLineup(lineup) {
     const renderers = {
-        '_grandMarshal':            GrandMarshal,
         '_paradeStart':             ParadeStart,
-        '_presentationOfColors':    PresentationOfColors,
+
+        'grandMarshal':             GrandMarshal,
+        'presentationOfColors':     PresentationOfColors,
 
         'breakUnit':                ParadeBreak,
         'paradeUnit':               FirstSchool,
@@ -119,23 +126,16 @@ function mapRenderersForLineup(lineup) {
 
 export default function Parade({ parade, show, fieldShow, nextShow }) {
     const numSchools = parade.lineup.filter((li) => li.unitType == 'paradeUnit').length;
- 
+
+    const paradeStartUnits = [ "grandMarshal", "presentationOfColors" ];
+    const endOfStart = parade.lineup.findIndex((element => !paradeStartUnits.includes(element.unitType)));
+
     const paradeStartUnit = {
         unitType:   "_paradeStart",
-        lineup:     mapRenderersForLineup([
-            Object.assign(
-                {
-                    unitType: "_grandMarshal"
-                },
-                parade.grandMarshal),
-            {
-                unitType: "_presentationOfColors",
-                presenter: parade.colors
-            }
-        ]),
+        lineup:     mapRenderersForLineup(parade.lineup.slice(0, endOfStart)),
     }
 
-    var lineup = parade.lineup.slice();
+    var lineup = parade.lineup.slice(endOfStart)
     lineup.splice(0, 0, paradeStartUnit);
     lineup = mapRenderersForLineup(lineup);
 
