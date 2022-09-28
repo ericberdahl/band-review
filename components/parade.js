@@ -10,6 +10,47 @@ import { Fragment } from 'react';
 
 import { DateTime } from "luxon";
 
+function PresentationOfColors({ unit }) {
+    return (
+        <>
+            <h2>Parade - Presentation of the Colors</h2>
+            <p>
+                As we start our parade, please rise, remove your caps, and give your attention and respect to the Presentation of the Colors by {unit.presenter}.
+            </p>
+        </>
+    );
+}
+
+function GrandMarshal({ unit }) {
+    console.log('rendering Grand Marshal')
+    return (
+        <>
+            <h2>Parade - Grand Marshal</h2>
+            <p>
+                And now… please welcome our {unit.title}, <CommaSeparatedList>
+                    {unit.members.map((gm, index) => <Fragment key={index}>{gm}</Fragment>)}
+                </CommaSeparatedList>.
+            </p>
+        </>
+    );
+}
+
+function ParadeStart({ unit }) {
+    console.log(`Rendering ParadeStart`)
+    return (
+        <>
+            <Lineup lineup={unit.lineup} container={Fragment}/>
+            
+            <h2>Parade - Recurring Announcements</h2>
+            <ul>
+                <li>As a courtesy to the performers, spectators please step back fully onto the curb to allow the band to use the entire street.</li>
+                <li>As our parade continues, bands will get progressively larger.</li>
+            </ul>
+        </>
+    )
+}
+
+
 function School({ unit, isFirst }) {
     isFirst = isFirst || false;
 
@@ -32,24 +73,74 @@ function School({ unit, isFirst }) {
     )
 }
 
-function Lineup({ lineup }) {
-    let schoolCount = 0;
+function FirstSchool({ unit }) {
+    return ( <School unit={unit} isFirst={true}/> );
+}
 
+function ParadeBreak({ unit }) {
+    return (
+        <Break eventLabel="Parade" unit={unit}/>
+    );
+}
+
+function Lineup({ lineup, container }) {
+    const ContainerTag = container || Chapter;
     return (
         <>
             {lineup.map((li, index) => (
-                <Chapter key={index}>
-                    {li.unitType == 'breakUnit' && <Break eventLabel="Parade" unit={li}/>}
-                    {li.unitType == 'paradeUnit' && <School unit={li} isFirst={0 == schoolCount++}/>}
-                </Chapter>
+                <ContainerTag key={index}>
+                    <li.renderer unit={li}/>
+                </ContainerTag>
             ))}
         </>
-    )
+    );
+}
+
+function mapRenderersForLineup(lineup) {
+    const renderers = {
+        '_grandMarshal':            GrandMarshal,
+        '_paradeStart':             ParadeStart,
+        '_presentationOfColors':    PresentationOfColors,
+
+        'breakUnit':                ParadeBreak,
+        'paradeUnit':               FirstSchool,
+    }
+
+    return lineup.map((li) => {
+        const result = li;
+        result.renderer = renderers[li.unitType];
+        if (!result.renderer) {
+            throw new Error(`${li.unitType} does not have a renderer`);
+        }
+        if (li.unitType == "paradeUnit") {
+            renderers.paradeUnit = School;
+        }
+        return result;
+    });
 }
 
 export default function Parade({ parade, show, fieldShow, nextShow }) {
     const numSchools = parade.lineup.filter((li) => li.unitType == 'paradeUnit').length;
  
+    const paradeStartUnit = {
+        unitType:   "_paradeStart",
+        lineup:     mapRenderersForLineup([
+            Object.assign(
+                {
+                    unitType: "_grandMarshal"
+                },
+                parade.grandMarshal),
+            {
+                unitType: "_presentationOfColors",
+                presenter: parade.colors
+            }
+        ]),
+    }
+
+    var lineup = parade.lineup.slice();
+    lineup.splice(0, 0, paradeStartUnit);
+    lineup = mapRenderersForLineup(lineup);
+
     return (
         <div>
             <Chapter>
@@ -62,29 +153,7 @@ export default function Parade({ parade, show, fieldShow, nextShow }) {
                 </p>
             </Chapter>
 
-            <Chapter>
-                <h2>Parade - Presentation of the Colors</h2>
-                <p>
-                    As we start our parade, please rise, remove your caps, and give your attention and respect to the Presentation of the Colors by {parade.colors}.
-                </p>
-
-                <h2>Parade - Recurring Announcements</h2>
-                <ul>
-                    <li>As a courtesy to the performers, spectators please step back fully onto the curb to allow the band to use the entire street.</li>
-                    <li>As our parade continues, bands will get progressively larger.</li>
-                </ul>
-            </Chapter>
-
-            <Chapter>
-                <h2>Parade - Grand Marshal</h2>
-                <p>
-                    And now… please welcome our {parade.grandMarshal.title}, <CommaSeparatedList>
-                        {parade.grandMarshal.members.map((gm, index) => <Fragment key={index}>{gm}</Fragment>)}
-                    </CommaSeparatedList>.
-                </p>
-            </Chapter>
-
-            <Lineup lineup={parade.lineup}/>
+            <Lineup lineup={lineup}/>
 
             <Chapter>
                 <h2>Parade - Close</h2>
