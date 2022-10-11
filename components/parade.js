@@ -48,7 +48,6 @@ function ParadeStart({ unit }) {
     )
 }
 
-
 function School({ unit, isFirst }) {
     isFirst = isFirst || false;
 
@@ -86,7 +85,7 @@ function Lineup({ lineup, container }) {
     
     const elMissingRenderer = lineup.find(element => !element.renderer);
     if (elMissingRenderer) {
-        throw new Error(`${elMissingRenderer.unitType} does not have a renderer`);
+        throw new Error(`Parade: ${elMissingRenderer.unitType} does not have a renderer`);
     }
 
     return (
@@ -115,7 +114,7 @@ function mapRenderersForLineup(lineup) {
         const result = li;
         result.renderer = renderers[li.unitType];
         if (!result.renderer) {
-            throw new Error(`${li.unitType} does not have a renderer`);
+            throw new Error(`Parade: ${li.unitType} does not have a renderer`);
         }
         if (li.unitType == "paradeUnit") {
             renderers.paradeUnit = School;

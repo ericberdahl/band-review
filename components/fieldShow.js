@@ -10,6 +10,34 @@ import { DateTime } from "luxon";
 
 import { Fragment } from "react";
 
+function AnthemPerformer({ unit }) {
+    return (
+        <>
+            <h2>Field Show - Anthem Performer</h2>
+            <p>
+                And now, please rise, remove your caps, give respect to the colors flying at the north end of the field,
+                and enjoy our National Anthem performed by {unit.performer}.
+            </p>
+        </>
+    );
+}
+
+function FieldShowStart({ unit }) {
+    return (
+        <>
+            <h2>Field Show - Open</h2>
+            <p>
+                Good afternoon ladies and gentlemen.
+                Welcome to the Field Show Competition for the {unit.citation}.
+                We are joined today by <NumericCitation count={unit.numFieldShowUnits}/> talented bands anxious to perform.
+                Foothill High School wishes good luck and good music to all the bands performing today. We hope you enjoy their shows.
+            </p>
+
+            <Lineup lineup={unit.lineup} container={Fragment}/>
+        </>
+    )
+}
+
 function School({ unit }) {
     return (
         <div>
@@ -33,45 +61,72 @@ function School({ unit }) {
     )
 }
 
-function Lineup({ lineup }) {
+function FieldShowBreak({ unit }) {
+    return (
+        <Break eventLabel="Field Show" unit={unit}/>
+    );
+}
+
+function Lineup({ lineup, container }) {
+    const ContainerTag = container || Chapter;
+    
+    const elMissingRenderer = lineup.find(element => !element.renderer);
+    if (elMissingRenderer) {
+        throw new Error(`Field Show: ${elMissingRenderer.unitType} does not have a renderer`);
+    }
+
     return (
         <>
             {lineup.map((li, index) => (
-                <Chapter key={index}>
-                    {li.unitType == 'breakUnit' && <Break unit={li} eventLabel="Field Show"/>}
-                    {li.unitType == 'fieldShowUnit' && <School unit={li}/>}
-                </Chapter>
+                <ContainerTag key={index}>
+                    <li.renderer unit={li}/>
+                </ContainerTag>
             ))}
         </>
-    )
+    );
 }
 
+function mapRenderersForLineup(lineup) {
+    const renderers = {
+        '_fieldShowStart':  FieldShowStart,
+
+        'anthemPerformer':  AnthemPerformer,
+        'breakUnit':        FieldShowBreak,
+        'fieldShowUnit':    School,
+    }
+
+    return lineup.map((li) => {
+        const result = li;
+        result.renderer = renderers[li.unitType];
+        if (!result.renderer) {
+            throw new Error(`Field Show: ${li.unitType} does not have a renderer`);
+        }
+        return result;
+    });
+}
 
 export default function FieldShow({ event }) {
     const numFieldShowUnits = event.fieldShow.lineup.filter((li) => li.unitType == 'fieldShowUnit').length;
     const numParadeShowUnits = event.parade.lineup.filter((li) => li.unitType == 'paradeUnit').length;
     const numConcertUnits = event.concert.lineup.filter((li) => li.unitType == 'concertUnit').length;
 
+    const fieldShowtartUnits = [ "anthemPerformer" ];
+    const endOfStart = event.fieldShow.lineup.findIndex((element => !fieldShowtartUnits.includes(element.unitType)));
+
+    const fieldShowStartUnit = {
+        unitType:           "_fieldShowStart",
+        citation:           event.show.citation,
+        numFieldShowUnits:  numFieldShowUnits,
+        lineup:             mapRenderersForLineup(event.fieldShow.lineup.slice(0, endOfStart)),
+    }
+
+    var lineup = event.fieldShow.lineup.slice(endOfStart);
+    lineup.splice(0, 0, fieldShowStartUnit);
+    lineup = mapRenderersForLineup(lineup);
+
     return (
         <div>
-            <Chapter>
-                <h2>Field Show - Open</h2>
-                <p>
-                    Good afternoon ladies and gentlemen.
-                    Welcome to the Field Show Competition for the {event.show.citation}.
-                    We are joined today by <NumericCitation count={numFieldShowUnits}/> talented bands anxious to perform.
-                    Foothill High School wishes good luck and good music to all the bands performing today. We hope you enjoy their shows.
-                </p>
-
-                {event.fieldShow.anthemPerformer &&
-                    <p>
-                        And now, please rise, remove your caps, give respect to the colors flying at the north end of the field,
-                        and enjoy our National Anthem performed by {event.fieldShow.anthemPerformer}.
-                    </p>
-                }
-            </Chapter>
-
-            <Lineup lineup={event.fieldShow.lineup}/>
+            <Lineup lineup={lineup}/>
 
             <Chapter>
                 <h2>Field Show - Close</h2>
