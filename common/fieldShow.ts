@@ -47,7 +47,14 @@ type FieldShowLineupItem = FieldShowUnit | BreakUnit | AnthemPerformerUnit;
 async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
     const filename = sanitize(schoolRef + '.yml');
 
-    return yaml.parse(await fs.readFile(path.join('schools', filename), 'utf8'));
+    try {
+        return yaml.parse(await fs.readFile(path.join('schools', filename), 'utf8'));
+    }
+    catch (e)
+    {
+        console.error(`Exception parsing field show for school ${schoolRef}`);
+        throw e;
+    }
 }
 
 export class FieldShow {
