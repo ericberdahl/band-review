@@ -23,17 +23,14 @@ export default function FieldShowBook({ bandReview }) {
                 <p>{bandReview.announcer.name} &lt;{bandReview.announcer.email}&gt;</p>
                 <p>v{bandReview.version}, {generationDate.toLocaleString(DateTime.DATETIME_FULL)} </p>
 
-                <h2>Field Show Competition - Checkup</h2>
+                {fieldShowMissingData.length > 0 && <>
+                    <h2>Field Show Competition - Checkup</h2>
 
-                <h3>{fieldShowMissingData.length} Schools Missing Field Show Data</h3>
-                {fieldShowMissingData.map((s) => (
-                    <p key={s.schoolName}>{s.schoolName}</p>
-                ))}
-
-                <h3>{fieldShowWithData.length} Schools with Field Show Data</h3>
-                {fieldShowWithData.map((s) => (
-                    <p key={s.schoolName}>{s.schoolName}</p>
-                ))}
+                    <h3>{fieldShowMissingData.length} Schools Missing Field Show Data</h3>
+                    {fieldShowMissingData.map((s) => (
+                        <p key={s.schoolName}>{s.schoolName}</p>
+                    ))}
+                </>}
             </Chapter>
 
             <FieldShow event={bandReview}/>

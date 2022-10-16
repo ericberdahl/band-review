@@ -23,17 +23,14 @@ export default function ParadeBook({ bandReview }) {
                 <p>{bandReview.announcer.name} &lt;{bandReview.announcer.email}&gt;</p>
                 <p>v{bandReview.version}, {generationDate.toLocaleString(DateTime.DATETIME_FULL)} </p>
 
-                <h2>Parade Competition - Checkup</h2>
+                {paradeMissingData.length > 0 && <>
+                    <h2>Parade Competition - Checkup</h2>
 
-                <h3>{paradeMissingData.length} Schools Missing Parade Data</h3>
-                {paradeMissingData.map((s) => (
-                    <p key={s.schoolName}>{s.schoolName}</p>
-                ))}
-
-                <h3>{paradeWithData.length} Schools with Parade Data</h3>
-                {paradeWithData.map((s) => (
-                    <p key={s.schoolName}>{s.schoolName}</p>
-                ))}
+                    <h3>{paradeMissingData.length} Schools Missing Parade Data</h3>
+                    {paradeMissingData.map((s) => (
+                        <p key={s.schoolName}>{s.schoolName}</p>
+                    ))}
+                </>}
             </Chapter>
 
             <Parade parade={bandReview.parade} show={bandReview.show} nextShow={bandReview.nextShow} fieldShow={bandReview.fieldShow}/>

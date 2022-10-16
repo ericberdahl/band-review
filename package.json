@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build-export": "npm run build && next export",
+    "export": "next build && next export",
+    "postexport": "scripts/postExport.py",
     "pdf": "npx vivliostyle build --output review.pdf out/index.html",
     "start": "next start",
     "debug": "NODE_OPTIONS='--inspect' next dev",

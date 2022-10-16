@@ -1,4 +1,5 @@
 import Chapter from '../components/chapter';
+import PageLink from '../components/pageLink';
 
 import { getBandReview } from '../common/bandReview';
 
@@ -27,7 +28,15 @@ export default function BandReview({ bandReview }) {
                 <p>{bandReview.announcer.name} &lt;{bandReview.announcer.email}&gt;</p>
                 <p>v{bandReview.version}, {generationDate.toLocaleString(DateTime.DATETIME_FULL)} </p>
 
-                <h2>Parade - Checkup</h2>
+                <h2>Table of Contents</h2>
+                <ol>
+                    <li><PageLink page="paradeBook">Parade</PageLink></li>
+                    <li><PageLink page="fieldShowBook">Field Show</PageLink></li>
+                    <li><a href="#parade-checkup">Parade - Checkup</a></li>
+                    <li><a href="#fieldshow-checkup">Field Show - Checkup</a></li>
+                </ol>
+
+                <h2 id="parade-checkup">Parade - Checkup</h2>
 
                 <h3>{paradeMissingData.length} Schools Missing Parade Data</h3>
                 {paradeMissingData.map((s) => (
@@ -39,7 +48,7 @@ export default function BandReview({ bandReview }) {
                     <p key={s.schoolName}>{s.schoolName}</p>
                 ))}
 
-                <h2>Field Show - Checkup</h2>
+                <h2 id="fieldshow-checkup">Field Show - Checkup</h2>
 
                 <h3>{fieldShowMissingData.length} Schools Missing Field Show Data</h3>
                 {fieldShowMissingData.map((s) => (
