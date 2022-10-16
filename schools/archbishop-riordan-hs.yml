@@ -3,13 +3,14 @@ name: Archbishop Riordan High School
 city: San Francisco, CA
 
 parade:
+    # TEMPORARY taken from NCBA 2022 database
     lastUpdated: 2021-10-06 00:00:32 -07
 
     nickname: Crusader Marching Band
 
     directors:
     -   Kyle Hildebrant
-    -   Lance Ohnmeiss (Lance OWN-mice)
+    -   Lance Ohnmeiss (Lance ON-meess)
 
     staff:
     -   title: instructed by

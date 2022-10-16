@@ -3,6 +3,7 @@ name: Vanden High School
 city: Fairfield, CA
 
 fieldshow:
+    # TEMPORARY taken from NCBA 2022 database
     lastUpdated: 2000-01-01 15:23:03 -07
 
     nickname: Viking Marching Band
@@ -44,7 +45,7 @@ fieldshow:
     -   title: percussion captains
         members:
         -   David Cloutier
-        -   Nikka Clerici
+        -   Nikka Clerici (Nikka clehr-EE-chee)
 
     program: Chronometry
 

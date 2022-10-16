@@ -3,6 +3,7 @@ name: Pitman High School
 city: Turlock, CA
 
 parade:
+    # TEMPORARY taken from NCBA 2022 database
     lastUpdated: 2021-10-02 12:27:47 -07
 
     nickname: Marching Pride

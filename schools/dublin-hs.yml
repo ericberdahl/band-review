@@ -3,6 +3,7 @@ name: "Dublin High School"
 city: "Dublin, CA"
 
 fieldshow:
+    # MISSING 2022 data
     lastUpdated: 2021-10-14 22:14:32 -07
 
     nickname: Irish Guard
@@ -63,11 +64,11 @@ fieldshow:
         and tied for 2016 NCBA Sweepstakes winner in the Napa Vintage Band Review with their program, "Heroes and Villains"
 
 concert-1:
-    lastUpdated: 2021-10-14 22:14:32 -07
+    lastUpdated: 2022-10-14 13:08:46 -07
 
     nickname: Wind Ensemble
 
 concert-2:
-    lastUpdated: 2021-10-14 22:14:32 -07
+    lastUpdated: 2022-10-14 13:08:46 -07
 
     nickname: Symphonic Band

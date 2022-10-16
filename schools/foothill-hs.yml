@@ -28,6 +28,7 @@ students:
 -   &kellen-sowa "Kellen Sowa"
 
 parade:
+    # MISSING 2022 data
     isHost: true
 
     lastUpdated: &band-review-updated 2021-10-13 8:44:46 -07
@@ -81,6 +82,7 @@ parade:
         With the support of the Foothill High School Parent Band Boosters, Site admin, and District admin we have been able to continue making music in Pleasanton!
 
 fieldshow:
+    # MISSING 2022 data
     isHost: true
 
     lastUpdated: *band-review-updated

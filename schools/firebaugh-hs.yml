@@ -6,6 +6,7 @@ directors: &directors
 -   Jose Ledesma
 
 parade:
+    # TEMPORARY taken from NCBA 2022 database
     lastUpdated: 2000-01-01 15:23:03 -07
 
     nickname: Eagle Marching Band
@@ -29,23 +30,3 @@ parade:
     music: Anchors Aweigh/Eternal Father, Strong to Save by By Alfred H. Miles, Charles A. Zimmerman & John B. Dykes, arranged by Brian K. Wilson and J. Edgerton
 
     notes: 
-
-fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Firebaugh High School Marching Band and Color Guard"
-
-    directors: 
-
-    staff: 
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    description: 
-
-    notes: 
-    

@@ -3,6 +3,7 @@ name: Tracy High School
 city: Tracy, CA
 
 parade:
+    # TEMPORARY taken from NCBA 2022 database
     lastUpdated: 2021-10-07 16:05:18 -07
 
     nickname: &band-nickname "Pride of Tracy, Tracy High Marching Band and Color Guard"
@@ -30,6 +31,7 @@ parade:
     notes:
 
 fieldshow:
+    # MISSING 2022 data
     lastUpdated: 2018-10-04 14:48:00 -07
 
     nickname: *band-nickname

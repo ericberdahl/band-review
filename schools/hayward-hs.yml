@@ -3,6 +3,7 @@ name: "Hayward High School"
 city: "Hayward, CA"
 
 parade:
+    # MISSING 2022 data
     lastUpdated: 2019-10-17 11:21:06 -07
 
     nickname: "Pride of Hayward High"
