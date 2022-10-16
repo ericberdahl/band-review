@@ -1,29 +1,69 @@
-name: "Templeton High School"
+name: Templeton High School
 
-city: "Templeton, CA"
-
-parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    directors:
-    -   "David Landers"
+city: Templeton, CA
 
 fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-03 9:53:11 -07
 
-    nickname: "Templeton High School Marching Band and Color Guard"
+    nickname: Talon Drum and Brass Corps
 
     directors: 
-    -   "David Landers"
+    -   David Landers
 
     staff: 
+    -   title: instructed by
+        members:
+        -   Thom Shearer
+        -   Zach Hubbard
+        -   Matt Scott
+        -   Emily Lopez
+        -   Dominique Mitchell
+        -   Maria Lopez
+        -   Griffin Scotti
+        -   Madison Holmes
+        -   Maddie Dougherty
+        -   Lizzy Herget
 
     leaders:
+    -   title: drum major
+        members:
+        -   Karen Clark
 
-    program: 
+    -   title: auxilliary captain
+        members:
+        -   Sara Jarboe
 
-    music: 
+    -   title: percussion captains
+        members:
+        -   Anthony Jones
+        -   Marc Bordonaro
 
-    description: 
+    -   title: horn sergeant
+        members:
+        -   Erich Harding
 
-    notes: 
+    -   title: section leaders
+        members:
+        -   Amy Gomez Gaspar
+        -   William Bordonaro
+        -   Roxanne Beal
+
+    program: Thank You For Flying
+
+    music: >
+        Rhapsody in Blue by George Gershwin,
+        Come Fly With Me by Jimmy van Heusen,
+        Thunderstruck by Angus and Malcolm Young,
+        and Mama I'm Coming Home by Ozzy Osbourne.
+
+    description: >
+        Thank you for flying Eagle Airlines. We hope you enjoy your flight.
+
+    notes: >
+        The Templeton Talon Drum and Brass Corps is one of a small handful of all-brass high school marching bands in the country,
+        a distinction they have held since 2008.
+        Since its founding, the band has consistently earned top honors in shows around California including second place in the
+        2021 WBA Regional Championships, first place overall at the 2016 Selma Rotary Band Festival,
+        and first place at the Cambria Pinedorado Parade for the past 5 years. 
+
+        The band would like to thank the THS Band Boosters and its major sponsor, Castoro Cellars and the Whale Rock Music Festival.

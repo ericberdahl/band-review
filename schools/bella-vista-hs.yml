@@ -1,46 +1,65 @@
-name: "Bella Vista High School"
+name: Bella Vista High School
 
-city: "Fair Oaks, CA"
-
-parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    directors:
-    -   "Mark Calvo"
+city: Fair Oaks, CA
 
 fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-14 8:55:00 -07
 
-    nickname: "Bella Vista High School Marching Band and Color Guard"
+    nickname: Bella Vista High School Marching Band and Color Guard
 
     directors:
-    -   "Edward Moore" 
-
-    staff: 
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    description: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Bella Vista High School Winter Guard"
-
-    directors: 
+    -   Edward Moore
 
     staff:
-        
+    -   title: assistant director
+        members:
+        -   Talon Estes
+
+    -   title: marching and brass/woodwind ensemble instructors
+        members:
+        -   Justin Miller
+        -   Cindy Loredo
+        -   Diego Salazar
+        -   Chandra Cobabe
+        -   Anthony Wyant
+        -   Jonathan Norton
+        -   Viktoriya Shadyuk
+        -   Mac Layne
+
+    -   title: drum instructors
+        members:
+        -   Sam Farnsley
+        -   Riley Spence
+        -   Heather Buchanan
+        -   Mary Shanks
+
+    -   title: pit instructors
+        members:
+        -   Kaylene Ly
+        -   Riley Spence
+
     leaders:
+    -   title: drum major
+        members:
+        -   Seth Morris
 
-    program: 
+    -   title: auxilliary captains
+        members:
+        -   Alyson Heath
+        -   Michelle Gu
 
-    music: 
+    -   title: percussion captains
+        members:
+        -   Trip Horak
+        -   Ethan Mahlke
 
-    notes: 
+    program: Heart Of The Home
+
+    music: >
+        Heart Of The Home, movements one, two, and three.
+
+    description: >
+        For every family the dining room table is the Heart of the Home.
+
+    notes: >
+        The Bella Vista High School Marching Band and Color Guard gives a special thanks to the Bella Vista Band Booster Club for their continued support.

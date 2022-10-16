@@ -1,51 +1,74 @@
-name: "Castro Valley High School"
+name: Castro Valley High School
 
-city: "Castro Valley, CA"
+city: Castro Valley, CA
 
 fieldshow:
-    lastUpdated: 2021-10-13 15:30:07 -07
+    lastUpdated: 2022-10-14 9:36:30 -07
 
-    nickname: "Castro Valley High School Band and Guard"
+    nickname: Castro Valley High School Band and Guard
 
     directors:
     -   Keita Hasegawa (KAY-tah ha-say-GAH-wah)
 
     staff:
-    -   title: drill design by
+    -   title: drill instructor
         members:
         -   Rick Pina
 
-    -   title: guard design staff
+    -   title: show designer and color guard instructor
         members:
         -   Jhay Delos Reyes
-        -   Rawnna Hudson
-        -   Teresa Le
 
-    -   title: percussion design staff
+    -   title: color guard instructors
         members:
-        -   Glenn Imai
-        -   Christian Gerardo
+        -   Alex Brown
+        -   Rawnna Hudson
 
-    -   title: visual staff
+    -   title: visual and color guard instructor
         members:
         -   Andrew Thomas
-        -   Nathan Liu
-        -   Curtis Wernig
-        -   Lambert Bui
+
+    -   title: visual instructor
+        members:
+        -   Edmund Bascon
+
+    -   title: percussion instructor
+        members:
+        -   Glenn Imai
+
+    -   title: battery instructor
+        members:
+        -   Ryan Yee
+
+    -   title: front ensemble instructors
+        members:
+        -   Christian Gerardo
+        -   Ashley Nguyen
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   Helena Liu
-        -   Estie Hsu
         -   Zoe Dorado
+        -   Estie Hsu
+        -   Mikella Deigert
+
+    -   title: auxilliary captains
+        members:
+        -   Kenya Lopez
+        -   Dianne Jin
+        -   Adreanna Dones
     
-    program: Mandala
+    -   title: percussion captains
+        members:
+        -   Kerry Chen
+        -   Michelle Huynh
+    
+    program: Ripple Effect
 
     music: >
-        original Music by Kevin Shah,
-        percussion by Mike Jackson and Glenn Imai
+        music composed by Ian Grom and John Mapes
 
     description: >
 
     notes: >
+        Castro Valley High School Band and Guard gives a huge thank you to their awesome parent volunteers as well as their booster, Music Parents Society!

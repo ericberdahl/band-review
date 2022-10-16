@@ -1,77 +1,58 @@
-name: "South San Francisco High School"
+name: South San Francisco High School
 
-city: "Anywhere, CA"
-
-parade:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "South San Francisco High School Marching Band and Color Guard"
-
-    directors: 
-
-    staff: 
-#    -   title: "instructed by"
-#        members:
-
-    leaders:
-#    -   title: "drum major"
-#        members:
-
-    music: 
-
-    notes: 
+city: South San Francisco, CA
 
 fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-03 12:52:29 -07
 
-    nickname: "South San Francisco High School Marching Band and Color Guard"
+    nickname: South City Warrior Band
 
     directors: 
-    -   "Elijah L Maes"
+    -   Elijah Maes
 
     staff: 
+    -   title: instructed by
+        members:
+        -   Alberto Lopez-Rivas
+        -   Aidan Marques
+        -   Julia Tikhonov
+        -   Jasmine Cahayag
+        -   Adnan Kapadia
+        -   Henson Lau
+        -   Adam Strauss
 
     leaders:
+    -   title: drum majors
+        members:
+        -   Carter Lau
+        -   Kaitlyn Le
+    
+    -   title: auxilliary captains
+        members:
+        -   Rey Alferez
+        -   Jesse Balacy
+        -   Juan Tellez
 
-    program: 
+    -   title: percussion captains
+        members:
+        -   Mariano Gonzalez
+        -   Joseph Bermudez
+
+    -   title: captains
+        members:
+        -   Neona Vergara
+        -   Tyrek He
+        -   Madison Lo
+        -   Alex Lau
+        -   Jayson Ching
+        -   Zachary Vergara
+        -   Zackery Arabieh
+
+    program: The Gallery
 
     music: 
 
     description: 
 
     notes: 
-    
-winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "South San Francisco High School Winter Guard"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
-winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "South San Francisco High School Winter Percussion"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
+        The South City Music Program had the opportunity to become Winter Colorguard CCGC 2022 Regional A Champions and Winter Percussion CCGC 2022 Scholastic AA Champions.

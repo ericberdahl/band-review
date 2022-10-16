@@ -1,55 +1,50 @@
-name: "Irvington High School"
+name: Irvington High School
 
-city: "Fremont, CA"
+city: Fremont, CA
 
 parade:
-    lastUpdated: &band-review-last-updated 2021-10-07 13:06:01 -07
+    lastUpdated: 2022-10-14 09:40:28 -07
 
-    nickname: "Viking Marching Band"
+    nickname: Viking Marching Band
 
     directors:
-    -   "Charlie Rodda (Charlie RAH-dah)"
+    -   Charlie Rodda (Charlie RAH-dah)
 
     staff:
-    -   title: "marching coach"
+    -   title: marching coach
         members:
-        -   "Ben Benavides"
+        -   Ben Benavides
 
-    -   title: "percussion coach"
+    -   title: guard coaches
         members:
-        -   "Keerthan Diddige"
-
-    -   title: "color guard coach"
-        members:
-        -   "Jessica Toro"
+        -   Jessica Fuller
+        -   Ben Wilkinson
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Isabell Hsu"
+        -   Isabelle Hsu
 
-    -   title: "auxiliary captains"
+    -   title: auxiliary captains
         members:
-        -   "Denise Huang"
-        -   "Lauren Osaki"
+        -   Stephane Ledesma
+        -   Natalie Brahan
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   "James Lee"
-        -   "Mihir Shah"
+        -   Brayden Louie
+        -   Nadja Ryan
 
-    music: "The Red Shield by Henry Goffin"
+    music: The Knight Templar by George Allan
 
     notes: >
-        The Viking Marching band was awarded first place in parade and concert at the Del Mar Band Review.
-        They give a big thank you to their amazing band parents.
 
 concert-1:
-    lastUpdated: *band-review-last-updated
+    lastUpdated: 2022-10-14 09:40:28 -07
 
-    nickname: "Irvington High School Wind Ensemble"
+    nickname: Wind Ensemble I
 
 concert-2:
-    lastUpdated: *band-review-last-updated
+    lastUpdated: 2022-10-14 09:40:28 -07
 
-    nickname: "Irvington High School Concert Band"
+    nickname: Wind Ensemble II

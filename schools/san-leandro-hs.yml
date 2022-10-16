@@ -1,77 +1,35 @@
-name: 'San Leandro High School'
+name: San Leandro High School
 
-city: 'San Leandro, CA'
-
-fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+city: San Leandro, CA
 
 parade:
-    lastUpdated: 2021-10-11 11:02:17 -08
+    lastUpdated: 2022-10-13 9:37:48 -08
 
     nickname: San Leandro High School Marching Band
 
     directors:
-    -   Alec Hovey
+    -   Ryan Phillips
 
     staff:
     -   title: instructed by
         members:
-        -   Sarah Crump
         -   Geronimo Rojas
-        -   Ryan Phillips
 
     leaders:
-    -   title: drum majors
+    -   title: drum major
         members:
         -   Eleanor Riley
-        -   Watson Yang
 
-    music: Night at the Movies by Robert Bergeron
+    -   title: auxilliary captain
+        members:
+        -   Kacie Sengmany
 
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    -   title: percussion captain
+        members:
+        -   Sean Icasiano
 
-    nickname: 
+    music: Europa Mars by Robert Allmend
 
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+    notes: >
+        The San Leandro High School Marching Band would like to give a huge thank you to Geronimo Rojas for being the glue behind this group.
+        They would also like to thank all supporting Parent Boosters and most importantly the students themselves for their determination and perseverance.

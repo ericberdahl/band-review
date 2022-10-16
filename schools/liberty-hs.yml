@@ -1,125 +1,139 @@
-name: "Liberty High School"
+name: Liberty High School
 
-city: "Brentwood, CA"
+city: Brentwood, CA
 
-fieldshow:
-    lastUpdated: 2021-10-11 09:51:46 -08
+parade:
+    lastUpdated: 2022-10-11 20:30:40 -07
 
-    nickname: Lion Pride Marching Band
+    nickname: &band-review-nickname Lion Pride Marching Band
 
-    directors:
+    directors: &band-review-directors
     -   Lindsay Kellogg
 
     staff:
-    -   title: visual staff
-        members:
-        -   Shawn Griddine
-        -   Brooke Farrar
-    
-    -   title: percussion staff
-        members:
-        -   Brandon Wilson
-        -   Cameron Munoz
-        -   Roger Weavil
-    
-    -   title: auxiliary staff
+    -   title: color guard instructors
         members:
         -   CJ Julian
         -   Lisette Townzen
+        -   Francisco Marin
+
+    -   title: visual instructors
+        members:
+        -   Shawn Griddine
+        -   Brooke Farrar
+        -   Jennifer Krey
+    
+    -   title: percussion instructors
+        members:
+        -   Emile Concepcion
+        -   Brandon Wilson
+        -   Emory Espinoza
+        -   Roger Weavil
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Hannah Bunker
+        -   Ben Bettis
+        -   Annie Dumas
+
+    -   title: auxiliary captains
+        members:
+        -   Elena Balesteri
+        -   Allison Giles
+        -   Aly Weavil
+
+    -   title: percussion captains
+        members:
+        -   Shelbee Hart
+        -   Jacob Laure
+
+    -   title: woodwind captain
+        members:
+        -   Mara Gray
+
+    -   title: brass captain
+        members:
+        -   Diego Mendez
+
+    music: The Great Little Armyby Kenneth J. Alford, arranged by R. W. MacLeod
+
+    notes: >
+        The Lion Pride Marching Band is entering their second full competition season.
+        They were successful in their first season winning awards in both field and parade.
+        The Liberty High School Band Program has over 130 members with two jazz bands, a symphonic band, concert band, and marching band.
+        The Lion Pride Marching Band would like to thank their administration and the Liberty Lions Band Boosters for their support to make this season a success. 
+
+fieldshow:
+    lastUpdated: 2022-10-11 20:30:40 -08
+
+    nickname: *band-review-nickname
+
+    directors: *band-review-directors
+
+    staff:
+    -   title: color guard instructors
+        members:
+        -   CJ Julian
+        -   Lisette Townzen
+        -   Francisco Marin
+
+    -   title: visual instructors
+        members:
+        -   Shawn Griddine
+        -   Brooke Farrar
+        -   Jennifer Krey
+    
+    -   title: percussion instructors
+        members:
+        -   Emile Concepcion
+        -   Brandon Wilson
+        -   Emory Espinoza
+        -   Roger Weavil
 
     leaders:
     -   title: drum majors
         members:
-        -   Jasmine Pooni
+        -   Hannah Bunker
+        -   Annie Dumas
         -   Ben Bettis
-        -   Sarah Riosen
     
     -   title: auxilliary captains
         members:
-        -   Hannah Bunker
         -   Elena Balesteri
+        -   Allison Giles
+        -   Aly Weavil
     
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Kailey Jones
+        -   Shelbee Hart
+        -   Jacob Laure
+        -   Rahlo Lest
 
-    program: The Greatest Showman
+    -   title: woodwind captains
+        members:
+        -   Mara Gray
 
-    music: 
+    -   title: brass captains
+        members:
+        -   Diego Mendez
+
+    program: In Three Words
+
+    description: >
+        Liberty High School will take you through a journey using three words.
+        It can cause hope, deepen love, or resolve conflict.
+
+    music: >
+        Live Your Life,
+        Dare to Love,
+        Value the Moment,
+        Work Through Conflict,
+        and Life Is Short,
+        composed and arranged by Steve Martin, Aaron Hines, and Blair Williams.
 
     notes: >
-        The Lion Pride Marching Band is excited to compete in their first field show competition in nearly 25 years.
-        The Liberty Band Program has grown exponentially over the past four years.
-        The Liberty program currently has two concerts bands and two jazz bands.
-        The Lion Pride Marching Band would like to thank the Liberty High School Administration for their continued support of our growing program.
-        A huge thank you to the Liberty Lions Band Boosters and band parents for their help and daily support of our band and color guard.
-
-parade:
-    lastUpdated: 2019-09-26 12:25:14 -07
-
-    nickname: "Liberty Lion Pride Marching Band"
-
-    directors:
-    -   "Lindsay Kellogg"
-
-    staff:
-    -   title: "drum line instructors"
-        members:
-        -   "Juan Carreon"
-        -   "Glen Neissner"
-    
-    -   title: "color guard instructor"
-        members:
-        -   "Kaitlyn Ross"
-
-    leaders:
-    -   title: "drum major"
-        members:
-        -   "Reed Schmitt"
-
-    -   title: "auxiliary captain"
-        members:
-        -   "Kathy Tran"
-
-    -   title: "percussion captain"
-        members:
-        -   "Jared Moore"
-
-    music: "Hosts of Freedom by Karl L. King"
-
-    notes: >
-        The Liberty Lion Pride Marching Band would like to thank all of its members, parent volunteers, booster board, and administration for all their support this season.
-
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+        The Lion Pride Marching Band is entering their second full competition season.
+        They were successful in their first season winning awards in both field and parade.
+        The Liberty High School Band Program has over 130 members with two jazz bands, a symphonic band, concert band, and marching band.
+        The Lion Pride Marching Band would like to thank their administration and the Liberty Lions Band Boosters for their support to make this season a success.

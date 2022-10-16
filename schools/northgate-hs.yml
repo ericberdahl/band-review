@@ -2,25 +2,8 @@ name: "Northgate High School"
 
 city: "Walnut Creek, CA"
 
-fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
 parade:
-    lastUpdated: 2021-09-24 08:06:16 -07
+    lastUpdated: 2022-09-30 12:20:46 -07
 
     nickname: Marching Broncos
 
@@ -28,47 +11,26 @@ parade:
     -   "Roberto Garcia-Leiva"
 
     staff:
+    -   title: "auxilliary director"
+        members:
+        -   "Abby Delanoy"
 
     leaders:
     -   title: "drum major"
         members:
         -   "Matthew Stark"
+
+    -   title: "auxilliary captains"
+        members:
+        -   "Daniel Catapang"
+        -   "Ahmed Alhakem"
     
-    music: "Bonds of Unity by Karl L. King"
+    -   title: "assistant drum major"
+        members:
+        -   "Aaron Baack"
+
+    music: "National Emblem by Edwin Eugene Bagley"
 
     notes: >
-        Thank you Northgate Instrumental Music Booster for your continued support, and a SPECIAL thank you to Foothill's Band Review organizers for giving our band this opportunity to march before you today.
-
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+        The Marching Broncos would like to thank Foothill Band Review’s Event Planners for organizing this wonderful parade event,
+        and to also thank the Northgate Instrumental Music Booster for their continued program support.

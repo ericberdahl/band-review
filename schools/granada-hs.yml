@@ -1,55 +1,36 @@
-name: "Granada High School"
+name: Granada High School
 
-city: "Livermore, CA"
+city: Livermore, CA
 
 parade:
-    lastUpdated: 2021-10-11 19:30:20 -07
+    lastUpdated: 2022-10-09 11:45:21 -07
 
-    nickname: "Matador Band"
+    nickname: Matador Marching Band
 
     directors:
-    -   "George Pascoe"
+    -   George Pascoe
 
     staff:
     -   title: "instructed by"
         members:
         -   Jamie Hjeltness (Jamie YÜLT-nihs)
         -   "Sierra Sowa"
-        -   "Leigha Roeder (LAY-ah RAY-dur)"
-        -   "Casey Tessier"
 
     leaders:
     -   title: drum major
         members:
-        -   Ally Lagodzinski (Ally lah-gohd-ZIHN-skee)
+        -   David Sadkowski
 
     -   title: auxiliary captains
         members:
-        -   Ari Stanley
-        -   Stella Stark
+        -   Sabreina Cullins
+        -   Jenessa Mazerlev
 
-    -   title: "percussion captain"
+    -   title: percussion captain
         members:
-        -   "Julia Leigh"
+        -   Jasoc Cruz
 
-    music: Emblem of Unity by J. J. Richards arranged by James Swearingen (James SWEHR-ing-ehn)
+    music: H.M. Jollioes by Kenneth Alford
 
     notes: >
-
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: "Granada Winter Percussion"
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
+        The Matador Marching Band thanks Granada Supporters, Staff, and the Granada Music Parents for their continued support.

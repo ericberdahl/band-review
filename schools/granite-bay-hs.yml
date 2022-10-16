@@ -1,61 +1,113 @@
-name: "Granite Bay High School"
+name: Granite Bay High School
 
-city: "Granite Bay, CA"
-
-students:
--   &piper-bacon "Piper Bacon"
--   &tyler-branham "Tyler Branham"
--   &jack-crawford "Jack Crawford"
--   &daven-kashyap "Daven Kashyap (DAH-ven KAH-shop)"
--   &paul-stamas "Paul Stamas"
--   &sylvie-vo "Sylvie Vo"
--   &gabriel-weber "Gabriel Weber"
+city: Granite Bay, CA
 
 fieldshow:
-    lastUpdated: 2018-10-16 13:58:12 -07
+    lastUpdated: 2022-10-14 9:41:04 -07
 
-    nickname: "Emerald Brigade"
+    nickname: Emerald Brigade
 
     directors:
-    -   "Lynn Lewis"
+    -   Lynn Lewis
 
     staff:
-    -   title: "instructed by"
+    -   title: percussion caption head
         members:
-        -   "Jay Murphy"
-        -   "Jeff Edom"
-        -   "Paul Marr"
-        -   "J. Russell Finch"
-        -   "Wade Quinn"
-        -   "Liam Kurata"
-        -   "Sylvester Marcus"
-        -   "Jenna Boone"
-        -   "Chris Marr"
-        -   "Otto Meyer"
-        -   "Valerie Lehrer"
-        -   "Faith Atkins"
-        -   "Jed Roach"
+        -   Rob van Loben Sels
+
+    -   title: percussion staff
+        members:
+        -   Russell Olmstead
+        -   Merrill Stubing
+        -   Chris Harris
+        -   Merriam Wan
+
+    -   title: pit caption head
+        members:
+        -   Matt Barcus
+
+    -   title: pit arranger and sound designer
+        members:
+        -   Trent Greenwold
+
+    -   title: sound engineer
+        members:
+        -   Patrick Hay
+
+    -   title: sound tech
+        members:
+        -   Adam Bricker
+
+    -   title: guard caption head
+        members:
+        -   Brian Coon
+
+    -   title: guard designer
+        members:
+        -   Buchanan Miles
+
+    -   title: guard staff
+        members:
+        -   Michael Aylesworth
+        -   Courtney Bojorquez
+        -   Julie McCoy
+
+    -   title: visual staff
+        members:
+        -   Jed Roach
+
+    -   title: brass coach
+        members:
+        -   Rob Rosen
+
+    -   title: woodwind coach
+        members:
+        -   Taylor McCauley
+
+    -   title: music coach
+        members:
+        -   Burl Smith
+
+    -   title: visual designer
+        members:
+        -   Jay Murphy
+
+    -   title: music arranger
+        members:
+        -   JaRod Hall
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   *daven-kashyap
-        -   *sylvie-vo
-        -   *gabriel-weber
-        -   *piper-bacon
+        -   Daniel Murphy
+        -   AJ Dipoetra
+        -   Zinnia Vallero
 
-    -   title: "auxiliary captain"
+    -   title: auxiliary captain
         members:
-        -   *tyler-branham
+        -   Shea Cook
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   *paul-stamas
-        -   *jack-crawford
+        -   Aditya Gunturi
+        -   Jaya Wollenberger
 
-    program: "Odyssey to A New World"
+    program: The RISE of Medusa
 
-    music: "Persistence, Dvorak New World Symphony, and Dolls of New Albion"
+    description: >
+        This years Emerald Brigade production is titled “The RISE of Medusa”.
+        It tells the story of Medusa from the mortal innocent child and through the anger of Poseidon's advances.
+        In the middle production you will hear the conflict between Medusa and Poseidon and then the jealousy of Athena
+        as she eventually curses Medusa to be an immortal monster forever.
+        The slow production communicates the hurt that Medusa feels when her friend has destroyed her life and is the Monster Athena created.
+        Our featured vocalist is Chloe Jordan and our featured sax soloist is Austin Hailey.
+        The final production starts with the Rise of Medusa and ends with her appearing again just like the beginning of the show.
+        She is a powerful and strong Godess who has accepted her fate.
+        We hope you enjoy “The RISE of Medusa”
+
+    music: >
 
     notes: >
-        The Emerald Brigade would like to thank our parents and all the other parents out there for everything they do to support our young musicians.
+        Granite Bay would like to thank the Foothill Band Boosters for a great show and Foothills director for continuing the great tradition.
+        Thank you to the Emerald brigade Boosters for all your continued support and many many thanks to the Emerald Brigade staff for their
+        high level of instruction to our students.

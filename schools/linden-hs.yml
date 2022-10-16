@@ -1,78 +1,42 @@
-name: "Linden High School"
+name: Linden High School
 
-city: "Anywhere, CA"
+city: Linden, CA
 
 
 parade:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-10 13:19:54 -07
 
-    nickname: "Linden High School Marching Band and Color Guard"
+    nickname: Lion Regiment
 
-    directors: &directors
-    -   "Troy Rexelle"
-
-    staff: 
-#    -   title: "instructed by"
-#        members:
-
-    leaders:
-#    -   title: "drum major"
-#        members:
-
-    music: 
-
-    notes: 
-
-fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Template School Marching Band and Color Guard"
-
-    directors: 
+    directors:
+    -   Troy Rexelle (rex-EHL)
 
     staff: 
+    -   title: flag instructor
+        members:
+        -   Arturo Espinosa
+
+    -   title: percussion instructor
+        members:
+        -   Andrew Cardwell
 
     leaders:
+    -   title: drum major
+        members:
+        -   Lucia Gideon (loo-CHEE-ah Gideon)
 
-    program: 
+    -   title: auxilliary captains
+        members:
+        -   Angela Anguiano
+        -   Corina Jenks
+        -   Ashley Calvillo
 
-    music: 
+    -   title: percusson captain
+        members:
+        -   Moses Sanchez
 
-    description: 
+    music: High School Cadets by John Phillip Sousa
 
-    notes: 
-    
-winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Linden High School Winter Guard"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
-winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Linden High School Winter Percussion"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
+    notes: >
+        This will be the first time in over 20 years that Linden High School has competed in Parade competition.
+        The like to thank the Linden Band Boosters and all the parents for their support. 

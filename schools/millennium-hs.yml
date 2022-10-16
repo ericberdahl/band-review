@@ -1,50 +1,46 @@
-name: "Millennium High School"
+name: Millennium High School
 
-city: "Tracy, CA"
+city: Tracy, CA
 
 fieldshow:
-    lastUpdated: 2021-10-06 08:18:48 -07
+    lastUpdated: 2022-10-14 9:38:15 -07
 
-    nickname: "Millennium High School Marching Band and Color Guard"
+    nickname: Marching Falcons
 
     directors: &directors
     -   "Roland Zepeda (Roland zuh-PAY-duh)"
 
     staff:
-    -   title: "color guard instructor"
+    -   title: color guard instructor
         members:
-        -   "Molly Contreras"
+        -   Molly Contreras
         
-    -   title: "percussion instructor"
-        members:
-        -   "Daniel Harrison"
-
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Taylor Norwood"
+        -   Collin Credo
     
-    -   title: "auxiliary captain"
+    -   title: auxiliary captain
         members:
-        -   "Alondra Villa"
+        -   Ariana Villa
     
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   "Pierce Real"
-        -   "Micelle Bai"
+        -   Michelle Bai
+        -   Colby McCarthy
 
-    program: The Tell-Tale Heart, the adaptation of Edgar Allen Poe's short story to field
+    program: The Bermuda Triangle
 
     music: >
-        movement 1, The Old Man's Eye,
-        movement 2, The Murder,
-        and movement 3, The Beating Heart Beneath the Wooden Planks.
-        Music by Key Poulan (KEE POH-lan) and percussion by Shawn Glyde and Dan Bryan
+        movement 1 Into the Triangle,
+        movement 2 Lost in the Triangle,
+        movement 3 Vanished,
+        composed by Key Poulan (KEE POH-lan), percussion by Mark Branson and Dan Bryan
 
     description: >
 
     notes: >
-        A special thank you to our amazing parents and administration for their hard work and support.
+        The Marching Falcons give a special thank you to their parents and administration for all of their support and hard work.
 
 winterguard:
     lastUpdated: 2019-03-16 14:42:35 -07

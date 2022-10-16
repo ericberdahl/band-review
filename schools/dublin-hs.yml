@@ -3,7 +3,7 @@ name: "Dublin High School"
 city: "Dublin, CA"
 
 fieldshow:
-    lastUpdated: &band-review-last-updated 2021-10-14 22:14:32 -07
+    lastUpdated: 2021-10-14 22:14:32 -07
 
     nickname: Irish Guard
 
@@ -45,13 +45,13 @@ fieldshow:
     program: Impressions of Night
 
     music: >
-        "Une Barque sur L’Ocean" from Miroirs by Ravel,
+        "Une Barque sur L'Ocean" from Miroirs by Ravel,
         "Fêtes" from Nocturnes by Debussy,
         "La Cathédrale engloutie",
         and "Clair de lune" from Suite bergamasque
 
     description: >
-        Impressions of Night is a musical exploration of Vincent Van Gogh’s "Starry Night", set to the music of Ravel and Debussy.
+        Impressions of Night is a musical exploration of Vincent Van Gogh's "Starry Night", set to the music of Ravel and Debussy.
         It explores the relationship between impressionist music and visual art.
 
     notes: >
@@ -63,29 +63,11 @@ fieldshow:
         and tied for 2016 NCBA Sweepstakes winner in the Napa Vintage Band Review with their program, "Heroes and Villains"
 
 concert-1:
-    lastUpdated: *band-review-last-updated
+    lastUpdated: 2021-10-14 22:14:32 -07
 
-    nickname: "Dublin High School Wind Ensemble"
+    nickname: Wind Ensemble
 
 concert-2:
-    lastUpdated: *band-review-last-updated
+    lastUpdated: 2021-10-14 22:14:32 -07
 
-    nickname: "Dublin High School Concert Band"
-
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: "Dublin Winter Percussion"
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
+    nickname: Symphonic Band

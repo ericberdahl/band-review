@@ -3,7 +3,7 @@ name: "Santa Cruz High School"
 city: "Santa Cruz, CA"
 
 parade:
-    lastUpdated: 2021-09-24 12:06:06 -07
+    lastUpdated: 2022-09-30 11:37:11 -07
 
     nickname: "Cardinal Regiment"
 
@@ -11,16 +11,11 @@ parade:
     -   "Christina Latham (kris-TEE-nah LAY-tham)"
 
     staff:
-    -   title: "assistant director"
+    -   title: "instructed by"
         members:
         -   "Ron Salinas"
-
-    -   title: "color guard instructor"
-        members:
         -   "Keegan McCoy"
-
-    -   title: "bagpipe instructor"
-        members:
+        -   "Adam Haney"
         -   "Jay Salter"
 
     leaders:
@@ -28,18 +23,6 @@ parade:
         members:
         -   "Jonah Polissar"
 
-    -   title: "auxiliary captains"
-        members:
-        -   'Brandon Greenleaf'
-        -   'Mara Christian'
-
-    -   title: "percussion captains"
-        members:
-        -   "Adam Haney"
-        -   "Will Trowbridge"
-
-    music: "Centennial Celebration March by Tim Rhea (Tim RAY)"
+    music: "In Storm and Sunshine by John Clifford Heed"
 
     notes: >
-        The Cardinal Regiment would like to thank the community of Pleasanton for continuing to support their music programs and this event.
-        They are grateful to be here and to have the experience of sharing their music and performance with you.

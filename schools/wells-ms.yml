@@ -1,40 +1,39 @@
-name: "Wells Middle School"
+name: Wells Middle School
 
-city: "Dublin, CA"
+city: Dublin, CA
 
 parade:
-    lastUpdated: 2021-10-01 14:45:11 -07
+    lastUpdated: 2022-10-14 15:29:23 -07
 
-    nickname: "Roadrunner Band"
+    nickname: Roadrunner Band
 
     directors:
-    -   "Erik Bertelson"
+    -   Erik Bertelson
 
     staff:
-    -   title: "instructed by"
+    -   title: instructed by
         members:
-        -   "Marissa DeMello"
-        -   "Ryan Small"
-        -   "Grace Holmes"
-        -   "Erin Lewis"
+        -   Grace Holmes
+        -   Erin Lewis
+        -   Sasha Wirchniansky (Sasha wihrch-nee-AHN-skee)
+        -   Kendle Fong
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Michael Oliveira"
+        -   Hiroyuki Kasaya
 
-    -   title: "auxiliary captains"
+    -   title: auxiliary captains
         members:
-        -   "Kendal Fong"
-        -   "Sierra Hughell"
-        -   "Allyson Sicat"
+        -   Ella McLaughlin
+        -   Luis Ojeda
 
-    music: "Allied Honor by Karl King"
+    music: United Nations by K.L.King
 
     notes: >
-        Wells Middle School Marching Band gives a big thank you to our Wells parents for their wonderful help and support for our music students.
+        Wells Middle School Marching Band gives a big thank you to all of the Wells parents for their valuable time and support for their musicians and color guard.
 
 concert:
-    lastUpdated: 2019-10-18 16:22:30 -07
+    lastUpdated: 2022-10-14 15:29:23 -07
 
-    nickname: "Wells Middle School Concert Band"
+    nickname: Wells Middle School Concert Band

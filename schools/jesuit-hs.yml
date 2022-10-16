@@ -1,75 +1,28 @@
-name: 'Jesuit High School'
+name: Jesuit High School
 
-city: 'Carmichael, CA'
-
-fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+city: Carmichael, CA
 
 parade:
-    lastUpdated: 2021-10-05 20:29:28 -07
+    lastUpdated: 2022-10-07 07:41:20 -07
 
-    nickname: "Marauder Band"
+    nickname: Marauder Band
 
     directors:
-    -   "John Cargile"
+    -   John Cargile
 
     staff:
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Gillian Rogado"
+        -   Dylan McMains
     
-    -   title: "percussion captain"
+    -   title: guard captain
         members:
-        -   "Chris Rotelli"
+        -   Gemma Garcia
 
-    music: "The Torch of Liberty by Karl King, arranged by James Swearingen (James SWEHR-ing-ehn)"
+    -   title: percussion captain
+        members:
+        -   Chris Rotelli
 
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+    music: In Storm and Sunshine by John C. Heed arranged by Bourgeois

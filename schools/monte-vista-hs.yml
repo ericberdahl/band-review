@@ -1,52 +1,62 @@
-name: "Monte Vista High School"
+name: Monte Vista High School
 
-city: "Danville, CA"
+city: Danville, CA
 
 fieldshow:
-    lastUpdated: 2019-10-20 22:57:01 -07
+    lastUpdated: 2022-10-14 10:26:28 -07
 
-    nickname: "Monte Vista High School Marching Band"
+    nickname: Monte Vista High School Marching Band
 
     directors:
-    -   "Ed Cloyd"
+    -   Ed Cloyd
 
     staff:
-    -   title: "visual designer"
+    -   title: visual designer
         members:
-        -   "Jaycee Wilson"
+        -   Peter Bates
 
-    -   title: "visual staff"
+    -   title: visual instructors
         members:
-        -   "Jesse Burge"
-        -   "Josef McQueen"
-        -   "Matt Peluso"
+        -   Jesse Burge
+        -   Sam Cook
 
-    -   title: "percussion staff"
+    -   title: music instructor
         members:
-        -   "Dale Pauly"
-        -   "Rob van Loben Sels"
-        -   "Lydia Lim"
+        -   Dennis Aquilina
 
-    -   title: "colorguard staff"
+    -   title: percussion instructors
         members:
-        -   "Brittney Depiazza"
-        -   "Emory Streit"
+        -   Dale Pauly
+        -   Matt Lowe
+        -   Maddie Chamberlain
+        -   Theo Hui
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   "Nicola Bezuidenhout (Nicola beh-ZOO-dehn-howt)"
-        -   "Kenneth Knott"
+        -   David Serpan
+        -   Nora Hui
 
-    -   title: "auxiliary captain"
+    -   title: auxiliary captains
         members:
+        -   Makena Eggiman
+        -   Izzy Feng
+
+    -   title: percussion captains
+        members:
+        -   Blake Morgan
+        -   Shaumik Prabhu
+        -   Maya Ferrante
+        -   Dominic Madeira
+
+    program: The Swan
+
+    description: >
+        Through many moods and textures, "The Swan" highlights the importance of the journey beyond the destination and the conflicts to be overcome. 
+
+    music: >
+        themes from Camille Saint-Saens and "The Swan" from Carnival of the Animals
+
+
         -   "Valeria Caveroegusquiza (Valeria ca-vehr-oh-goos-KEE-zah)"
-
-    -   title: "percussion captains"
-        members:
-        -   "Colby Bergstad"
-        -   "Theo Hui"
-
-    program: "Always Now"
-
-    music: "music by Kevin Shah"
+        -   "Nicola Bezuidenhout (Nicola beh-ZOO-dehn-howt)"

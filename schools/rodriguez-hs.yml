@@ -1,10 +1,11 @@
-name: "Rodriguez High School"
+name: Rodriguez High School
 
-city: "Fairfield, CA"
+city: Fairfield, CA
 
 staff:
 -   &jaleel-gospel Jaleel Gospel
--   &nick-lucro Nick Lucro
+-   &nick-lucro Nicholas Lucero
+-   &alexina-manriquez Alexina Manriquez
 -   &scott-miller Scott Miller
 -   &gabrielle-perez Gabrielle Perez
 -   &kaitlyn-remorin Kaitlyn Remorin
@@ -26,90 +27,97 @@ students:
 -   &brian-tran "Brian Tran"
 
 parade:
-    lastUpdated: 2021-10-15 08:38:53 -07
+    lastUpdated: 2022-10-14 15:45:27 -07
 
-    nickname: Rodriguez Entertainment Unit
+    nickname: &band-review-nickname Rodriguez Entertainment Unit
 
-    directors:
+    directors: &band-review-directors
     -   *scott-miller
 
     staff:
     -   title: instructed by
         members:
         -   *jaclyn-wren
-        -   *kaitlyn-remorin
         -   *taylor-slight
         -   *jaleel-gospel
-        -   *gabrielle-perez
         -   *derrick-surio
+        -   *kaitlyn-remorin
+        -   *gabrielle-perez
         -   *nick-lucro
+        -   *alexina-manriquez
 
     leaders:
     -   title: drum majors
         members:
-        -   Aubrey Knight
-        -   Zoey Adams
+        -   Carly Suhmara
+        -   Avneet Nirwan
 
-    -   title: auxiliary captain
+    -   title: auxiliary captains
         members:
-        -   Logan Vermillion
+        -   Lily Puphhrey
+        -   Ava Knight
+        -   Aubrie Jones
+
+    -   title: front ensemble leaders
+        members:
+        -   Gabby Landovora
+        -   Steven Bautista
+
+    -   title: battery leaders
+        members:
+        -   Kaleb Cruz
+        -   Kalin Manansala
+
+    music: Sarafand by G.H. Willcocks
+
+    notes: >
+        The Rodriguez Entertainment Unit thanks the Rodriguez Music Boosters for their love, dedication, and support. 
+
+fieldshow:
+    lastUpdated: 2022-10-14 15:45:27 -07
+
+    nickname: *band-review-nickname
+
+    directors: *band-review-directors
+
+    staff:
+    -   title: instructed by
+        members:
+        -   *jaclyn-wren
+        -   *taylor-slight
+        -   *jaleel-gospel
+        -   *kaitlyn-remorin
+        -   *derrick-surio
+        -   *gabrielle-perez
+        -   *nick-lucro
+        -   *alexina-manriquez
+
+    leaders:
+    -   title: drum majors
+        members:
+        -   Carly Suhmara
+        -   Avneet Nirwan
+
+    -   title: auxiliary captains
+        members:
+        -   Lily Pumphrey
+        -   Ava Knight
+        -   Aubrie Jones
 
     -   title: percussion captains
         members:
-        -   Haylie Miller
-        -   Caleb Cruz
-        -   Samantha Fabie
-        -   Gabriel Landovora
+        -   Gabby Landovora
+        -   Steven Bautista
+        -   Kaleb Cruz
+        -   Daniella Lomboy
+        -   Kalin Manasala        
 
-    music: Colossus Of Columbia by Russell Alexander
+    program: The Coven
 
-    notes: >
-        The Rodriguez Entertainment Unit would like to give a special thank you the Rodriguez Music Boosters for your love, dedication and support.
-
-fieldshow:
-    lastUpdated: 2021-10-15 08:38:53 -07
-
-    nickname: Rodriguez Entertainment Unit
-
-    directors:
-    -   *scott-miller
-
-    staff:
-    -   title: instructed by
-        members:
-        -   *jaclyn-wren
-        -   *kaitlyn-remorin
-        -   *taylor-slight
-        -   *jaleel-gospel
-        -   *derrick-surio
-        -   *gabrielle-perez
-        -   *nick-lucro
-
-    leaders:
-    -   title: drum majors
-        members:
-        -   Aubrey Knight
-        -   Zoey Adams
-
-    -   title: auxiliary captain
-        members:
-        -   Logan Vermillion
-
-    -   title: battery captains
-        members:
-        -   Haylie Miller
-        -   Caleb Cruz
-        
-    -   title: front ensemble captains
-        members:
-        -   Samantha Fabie
-        -   Gabriel Landovora
-
-    program: Immortal
+    description: >
+        The Coven - A Full moon, a dark forest, a cloaked gathering. This is a tale; both sinister and heart- wrenching  of misunderstood witches.....will their power be used for good or evil....
 
     music: Dreams, Living, Rise, and Hope
     
     notes: >
-        The Rodriguez Entertainment Unit would like to give a special thank you to the Rodriguez Music Boosters for your love,
-        dedication and support.
-        Now please sit back and put your hands together for the award winning Rodriguez Entertainment Unit.
+        The Rodriguez Entertainment Unit would like to give a special Thank You to the Rodriguez Music Boosters for their Love, Dedication and support. 

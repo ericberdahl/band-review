@@ -1,45 +1,49 @@
-name: "Buhach (BYOO-hack) Colony High School"
+name: Buhach (BYOO-hack) Colony High School
 
-city: "Atwater, CA"
+city: Atwater, CA
 
 parade:
-    lastUpdated: 2021-10-11 09:45:25 -07
+    lastUpdated: 2022-10-10 13:32:53 -07
 
-    nickname: "Thunder Band"
+    nickname: Thunder Band
 
     directors:
-    -   Mr. Chad J Humpal
+    -   Chad J Humpal
 
     staff:
-    -   title: "colorguard staff"
+    -   title: colorguard instructors
         members:
-        -   "Suzanna Humpal"
-        -   "Megan Humpal"
+        -   Suzanna Humpal
+        -   Megan Humpal
+        -   Aidan Mook
 
-    -   title: "percussion staff"
+    -   title: percussion instructors
         members:
-        -   "Josh Cardoza"
+        -   Josh Cardoza
         -   Aiden Bardelmeier
 
-    leaders:
-    -   title: "drum majors"
+    -   title: woodwind instructor
         members:
-        -   Dean Lee
+        -   Sandra Stocking
+
+    leaders:
+    -   title: drum major
+        members:
         -   Nue Lopez
 
-    -   title: "colorguard captains"
+    -   title: colorguard captains
         members:
         -   Nancy Gutierrez
         -   Aidan Mook
 
-    -   title: "percussion captain"
+    -   title: percussion captain
         members:
-        -   Nathan Lourenco
+        -   Mia-Joy Neumeyer
 
-    music: "General Mitchell by R. B. Hall"
+    music: Army of the Nile by Kenneth J. Alford
     
     notes: >
-        The Thunder Band is the current undefeated 4A Champions, has earned a CMEA Bay Section Unanimous Superior nine times,
-        and has performed at the State Capital for the Stand Up 4 Music Advocacy Concert four times.
+        The Thunder Band is the current undefeated 4A Champion, has earned a CMEA Bay Section Unanimous Superior ten times,
+        and has performed at the State Capital for the Stand Up 4 Music Advocacy Concert five times.
         The Band has traveled to Disneyland and Hawaii and will return to the Magic Kingdom during the Spring of 2023.
         Please welcome the Buhach (BYOO-hack) Colony High School Thunder Band!

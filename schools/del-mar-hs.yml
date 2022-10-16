@@ -6,8 +6,10 @@ staff:
 -   &josh-bacleg "Josh Bacleg (Josh BAK-leg)"
 -   &william-burkhead William Burkhead
 -   &kale-duprey Kale Duprey (KALE doo-PRAY)
+-   &aj-gonzales AJ Gonzales
 -   &andrew-kuykendall Andrew Kuykendall (Andrew KUHR-ken-dahl)
 -   &lidia-luque Lidia Luque (Lidia loo-KAY)
+-   &jd-poulson JD Poulson (JD PAUL-sun)
 -   &noah-rojas Noah Rojas (Noah ROH-hoss)
 
 students:
@@ -50,31 +52,49 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2021-10-14 17:00:53 -07
+    lastUpdated: 2022-09-30 11:39:37 -07
 
     nickname: Del Mar High School Marching Band and Colorguard
 
     directors:
     -   *william-burkhead
+    -   *aj-gonzales
 
     staff:
-    -   title: instructed by
+    -   title: "visual instructor"
         members:
         -   *kale-duprey
+
+    -   title: "percussion instructor"
+        members:
         -   Bailey Morgan
+
+    -   title: "colorguard instructor"
+        members:
         -   Alyssa McCoy
-        -   Charlie Tran
-        -   Alexis Plowman
-        -   *lidia-luque
-        -   AJ Gonzalez
+
+    -   title: "percussion tech"
+        members:
         -   *andrew-kuykendall
-        -   JD Poulson
+
+    -   title: "visual techs"
+        members:
         -   *noah-rojas
+        -   *lidia-luque
+
+    -   title: "woodwind tech"
+        members:
+        -   Kiran Nair
+
+    -   title: "brass tech"
+        members:
+        -   *jd-poulson
 
     leaders:
     -   title: drum major
         members:
-        -   Allison Butler
+        -   Ethan Lorenz
+        -   Lindsey Goetowski (LIHND-zee go-TAO-skee)
 
     -   title: auxiliary captain
         members:
@@ -82,39 +102,26 @@ fieldshow:
 
     -   title: percussion captain
         members:
-        -   Nathan Choi
         -   Joe Pinella
 
-    -   title: front ensemble captain
-        members:
-        -   Hannah Nathan
-
-    -   title: "woodwind captain"
-        members:
-        -   "Kassy Zepeda"
-
-    -   title: "brass captain"
-        members:
-        -   "Liz Butler"
-
-    program: Quest for the Musician’s Heart
+    program: "Spitfire"
 
     music: >
-        "This is Berk",
-        "Rey’s Theme",
-        "Dragon Heart",
-        "The Mandalorian",
-        and "Han’s Adventures"
+        "Eagle Squadron",
+        "Where Never Lark or Eagle Flew",
+        "Boogie Woogie Bugle Boy",
+        "Long, Long Time",
+        and "Warhawk"
 
     description: >
-        A musical adventure spanning the multiverse as our musicians rediscover their joy after the cataclysmic events of the past 18 months
+        Celebrating the American Pilots of "Eagle Squadron" who joined the Royal Airforce in the early days of World War Two
         
     notes: >
         The Del Mar High School Marching Band and Colorguard wishes to thank our AMAZING parent support team for making this season possible.
         We also want to wish all of tonight's performers the very best as we all return to the joy of making music again for our friends and families.
 
 concert:
-    lastUpdated: 2019-10-10 18:33:08 -07
+    lastUpdated: 2022-09-30 11:39:37 -07
 
     nickname: "Del Mar High School Symphonic Band"
 

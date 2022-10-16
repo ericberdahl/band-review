@@ -1,6 +1,6 @@
-name: "Antioch High School"
+name: Antioch High School
 
-city: "Antioch, CA"
+city: Antioch, CA
 
 students:
 -   &jose-cordova Jose Cordova
@@ -9,73 +9,85 @@ students:
 -   &lyriic-williams Lyriic Williams
 
 parade:
-    lastUpdated: 2021-10-12 8:46:00 -07
+    lastUpdated: 2022-10-10 21:39:25 -07
 
-    nickname: "Pride of Antioch Panther Marching Band and Color Guard"
+    nickname: &band-review-nickname Pride of Antioch Panther Marching Band and Color Guard
 
     directors: &band-review-directors
-    -   "Brooke David Kofford"
+    -   Courtney Trantham
 
     staff: &band-review-staff
-    -   title: "color guard advisor"
+    -   title: percussion instructor
         members:
-        -   "Maryann Peddicord"
+        -   Angelo Gutierrez
+
+    -   title: color guard instructors
+        members:
+        -   Joshua Suarez
+        -   Marissa Kittleson
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
         -   *jose-cordova
     
-    -   title: "auxiliary captains"
+    -   title: auxiliary captains
         members:
-        -   *kassidy-jennings
-        -   *kylie-souza
+        -   Sarah Morgan
+        -   Teresa Williams
 
-    -   title: "percussion captain"
+    -   title: percussion captains
         members:
-        -   *lyriic-williams
+        -   Dominic Walker
+        -   Jenna Villar
 
-    music: The Fairest of the Fair by John Philip Sousa
+    music: Army of the Nile by Kenneth Alford, arranged by Frederick Fennell
 
     notes: >
-        Antioch High School Street Percussion earned first place in division 2A at the Pitman Band Review.
-        The Band would like to thank all our band parents and our Antioch Band Backers Association.
+        The band would like to give a HUGE special thank you to ABBA for everything they do to support the program and students!
 
 fieldshow:
-    lastUpdated: 2021-10-12 8:46:00 -07
+    lastUpdated: 2022-10-10 21:39:25 -07
 
-    nickname: "Antioch High School Marching Band"
+    nickname: *band-review-nickname
 
     directors: *band-review-directors
 
     staff: *band-review-staff
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
         -   *jose-cordova
-        -   Benjamin Elser
+        -   Matthew King
     
-    -   title: "auxiliary captains"
+    -   title: auxiliary captains
         members:
-        -   *kassidy-jennings
-        -   *kylie-souza
+        -   Sarah Morgan
+        -   Teresa Williams
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   *lyriic-williams
-        -   Alexandra Pier
+        -   Dominic Walker
+        -   Jenna Villar
 
-    program: Take to the Skies
+    -   title: soloists
+        members:
+        -   Adrienne Ashford
+        -   Amir Moore
+        -   William Fraser
+
+    program: Ritual
 
     music: >
-        music composed by Ian Grom and John Mapes
+        Ritual by Randall Standridge
 
     description: >
-        The show is about the creation of humans taking to the skies in flight.
+        Igor Stravinsky's The Rite of Spring is re-imagined in a darkly delightful way.
+        Familiar themes are mixed with new material to create a dissonant and thrilling experience.
 
     notes: >
-        The Antioch High School street percussion earned first place in division 2A at the Pitman Band Review.
+        The band would like to give a huge thank you to ABBA for everything they do to support the program!
 
 winterguard:
     lastUpdated: 2019-03-13 12:27:59 -07

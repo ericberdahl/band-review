@@ -1,41 +1,47 @@
-name: "Archbishop Riordan High School"
+name: Archbishop Riordan High School
 
-city: "San Francisco, CA"
+city: San Francisco, CA
 
 parade:
     lastUpdated: 2021-10-06 00:00:32 -07
 
-    nickname: "Crusader Marching Band"
+    nickname: Crusader Marching Band
 
     directors:
-    -   "Kyle Hildebrant"
+    -   Kyle Hildebrant
     -   Lance Ohnmeiss (Lance OWN-mice)
 
     staff:
-    -   title: "color guard instructor"
+    -   title: instructed by
         members:
-        -   "Brian Coon"
+        -   Liam Kinsella
+        -   Matt Gallegos
 
-    -   title: "percussion instructors"
+    -   title: percussion instructor
         members:
-        -   "Oliver Bishop"
-        -   "Kyle Baldwin"
+        -   Audrey Lai
+
+    -   title: color guard instructor
+        members:
+        -   Brian Coon
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   "Allen Forte"
-        -   "Logan Paulsen"
-    
-    music: "Men in Gray by N.K. Brahmstedt"
+        -   Tommy Galvin
+        -   Jameson Datoc (Jameson DAY-tock)
+
+    -   title: auxilliary captain
+        members:
+        -   Diane Lai
+
+    -   title: percussion captain
+        members:
+        -   Chris Enriquez
+
+    music: Onward! by Ernst Luthold
 
     notes: >
-        Archbishop Riordan High School is a private, Archdiocesan Catholic high school in the Marianist tradition.
-        The band program prides itself in having one of the longest-running and largest marching bands in the city of San Francisco and owes its success to the school’s beginning band courses.
-        Over 80% of the students you see in front of you today began learning their instrument as a Freshman at Riordan!
-        The band as a whole would like to thank the Foothill High School Band, faculty, staff, and parents for providing this tremendous opportunity to perform.
-        And of course, Mr. Hildebrant and Mr. Ohnmeiss would like to give a big shout out to the Riordan Band Boosters!
-        Without you, none of this would be possible!
 
 concert:
     lastUpdated: 2019-10-16 12:01:13 -07

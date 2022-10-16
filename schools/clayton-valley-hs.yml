@@ -1,68 +1,47 @@
-name: "Clayton Valley Charter High School"
+name: Clayton Valley Charter High School
 
-city: "Concord, CA"
+city: Concord, CA
 
 fieldshow:
-    lastUpdated: 2021-10-06 08:45:52 -07
+    lastUpdated: 2022-10-14 9:20:47 -07
 
-    nickname: "CVCHS Marching Band"
+    nickname: CVCHS Marching Band
 
     directors:
-    -   "Chance Krause"
+    -   Chance Krause
 
     staff:
-    -   title: "instructed by"
+    -   title: instructed by
         members:
-        -   "Jordan Banda"
-        -   "Gabe Boston"
-        -   "Adam Davidson"
-        -   "Paulina Vaclav"
-        -   "Pennelope Vega"
+        -   Jordan Banda
+        -   Gabe Boston
+        -   Connor O'Toole
+        -   Paulina Vaclav
+        -   Pennelope Vega
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   "Brooke Stanton"
-        -   "Meredith Edmonston"
-    
-    -   title: "percussion captain"
-        members:
-        -   "Dawson Ly"
-    
-    -   title: "woodwind caption head"
-        members:
-        -   "Abby Chase"
+        -   Meredith Edmontson
+        -   Lexi Reeves
 
-    -   title: "brass caption head"
+    -   title: auxilliary captain
         members:
-        -   "Bess Amos"
-
-    -   title: "guard caption head"
-        members:
-        -   "Angie Solis"
+        -   Jacqueline Gygax
     
-    program: "A Heroe's Quest"
+    -   title: percussion captain
+        members:
+        -   Dawson Ly
+        
+    program: Storm
 
-    music: "music from Star Trek and Cirque du Solei by Michael Giacchino and Renee Dupere and arranged by Scott Ward"
+    music: >
+        Storm Warning with Cloudburst by Eric Whitacre,
+        Into the Storm with Into the Storm by Robert W. Smith,
+        A Steady Rain with Rain by Brian Balmages,
+        and The Clouds Part/Here Comes the Sun with Flight by Brian Balmages.
+
+    description: >
 
     notes: >
-        The CVCHS Marching Band would like to thank our Band Boosters and parent volunteers for all that they do to make this possible.
-
-
-winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Clayton Valley Charter School Winter Percussion"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
+        The CVCHS Marching Band would like to thank their music boosters for making all of this possible!

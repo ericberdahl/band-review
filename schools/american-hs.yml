@@ -1,110 +1,95 @@
-name: "American High School"
+name: American High School
 
-city: "Fremont, CA"
+city: Fremont, CA
 
 students:
 -   &ashley-nguyen "Ashley Nguyen"
 -   &joshua-wong "Joshua Wong"
 -   &alison-zhao "Alison Zhao"
 
-staff:
--   &anthony-nunes "Anthony Nunes (Anthony NOONS)"
-
 fieldshow:
-    lastUpdated: 2021-10-08 09:21:47 -07
+    lastUpdated: 2022-10-12 8:44:58 -07
 
-    nickname: "American Eagles Marching Band"
+    nickname: American Eagles Marching Band
 
     directors: &directors
-    -   "Richard F. Wong"
+    -   Richard F. Wong
     
     staff:
-    -   title: "instructed by"
+    -   title: color guard and woodwind instructor
         members:
         -   Jennifer Wong
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   "Aarnav Sanghvi"
-        -   "Subhon Ghosh"
-        -   "Suhas Palawala"
+        -   Suhas Palawala
 
-    -   title: "auxilliary captains"
+    -   title: auxilliary captain
         members:
-        -   Shreya Daschoudhary (SHRAY-ya dah-shood-AH-ree)
-        -   "Naomi Tchao"
-        -   "Lilian Tjioe"
+        -   Naomi Tchao
+        -   Heather Hughes
 
-    -   title: "percussion captain"
+    -   title: percussion captain
         members:
-        -   &aaditya-borse "Aaditya Borse"
+        -   Kyle China
+        -   Shriya Shankar
 
-    -   title: "section leaders"
+    -   title: flute leaders
         members:
-        -   Jayant Dharwadkar (JAY-ahnt dahr-WAHD-kahr)
+        -   Simi Das
         -   Aaroh Dixit Hardikar
-        -   Rachel Abraham
-        -   Harshini Karthikeyan (har-SHEE-nee car-tee-KEH-yahn)
-        -   Laurence Liao
-        -   Audrey Zhou
-        -   Chinmay Arora
-        -   &arav-tewari "Arav Tewari"
-        -   Samuel Yip
-        -   Kent Abe
-        -   Lucas Gobaco
-        -   Emily Lung Low
+
+    -   title: clarinet leaders
+        members:
+        -   Daniel Alvizo
+        -   Safal Ghimire
+
+    -   title: alto saxophone section leaders
+        members:
+        -   Neelim Mollick
+        -   Benjamin Qiao
+
+    -   title: low winds leaders
+        members:
+        -   Christopher Gomez
+        -   Bhargav Shriram
+        -   Raghuram Vungutur
+
+    -   title: trumpet section leader
+        members:
+        -   Pranav Surapaneni
+
+    -   title: low brass section leader
+        members:
         -   Edwin Lung
+        -   Luke Vinas
 
-    -   title: "equipment managers"
+    -   title: music librarian
         members:
-        -   *aaditya-borse
-        -   *arav-tewari
+        -   Nate Tseng
 
-    -   title: "music librarians"
+    -   title: equipment managers
         members:
-        -   "Daniel Alvizo"
-        -   "Pranav Surapaneni"
+        -   Aaroh Dixit Hardikar
+        -   Stuti Jajoo
 
-    program: "Journey of Man"
+    -   title: publicity leader
+        members:
+        -   Stuti Jajoo
 
-    music: "Journey of Man, Youth, Flying, and Youth"
+    program: Quidam - the music of Cirque du Soleil
+
+    music: Atmadja, Ninkou Latora, Quidam, and Incantation, composed by Benoir Jutras and arranged Jay Dawson and Mark Casey
 
     description: >
-        Music from Cirque du Soleil's Journey of Man, a story about our human experience,
-        as we start out in youth and go through the trials and tribulations of the various stages of life.
 
     notes: >
-        The American Eagles Marching Band is happy to be back in person and performing again.
-        Thanks to our hosts for putting on the show, and thanks to all of our Band Parents who made this activity possible for us.
+        The American Eagles Marching Band won first place at the Newark Days Parade, and second place at the Cupertino Tournament of Bands.
+        Theu thank their band parents for all of their support.
+        and give thanks to our host for putting on this show and to the friends, families, supporters, and spectators.
+        It's great to be back and performing in front of a live audience!
 
-parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    music: 
-
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: "American Eagles Winter Percussion"
-
-    directors: *directors
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    notes: 
 
 winterguard:
     lastUpdated: 2019-03-11 22:30:18 -07

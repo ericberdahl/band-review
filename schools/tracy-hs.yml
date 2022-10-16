@@ -1,6 +1,6 @@
-name: "Tracy High School"
+name: Tracy High School
 
-city: "Tracy, CA"
+city: Tracy, CA
 
 parade:
     lastUpdated: 2021-10-07 16:05:18 -07
@@ -8,24 +8,24 @@ parade:
     nickname: &band-nickname "Pride of Tracy, Tracy High Marching Band and Color Guard"
 
     directors:
-    -   "Jacob Cortez"
+    -   Jacob Cortez
 
     staff:
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Adnan Kapadia"
+        -   Kamron Qasimi
         
-    -   title: "percussion captain"
+    -   title: auxilliary captain
         members:
-        -   "Mackenzie Andersen"
-    
-    -   title: "guard captain"
-        members:
-        -   "Isadora LaPachet"
+        -   Michael Gregonis
 
-    music: "Salutation by Roland F. Seitz arranged by James A. Scott"
+    -   title: percussion captain
+        members:
+        -   Francisco Peralta
+
+    music: Golden Gate by Edwin Franko Goldman
 
     notes:
 

@@ -1,68 +1,77 @@
-name: "California High School"
+name: California High School
 
-city: "San Ramon, CA"
+city: San Ramon, CA
 
 fieldshow:
-    lastUpdated: 2021-10-01 13:30:27 -07
+    lastUpdated: 2022-10-02 21:05:21 -07
 
-    nickname: 'Cal High Marching Band and Color Guard'
+    nickname: Cal High Marching Band and Color Guard
 
     directors:
-    -   "Javier Cerna (Javier SEHR-nah)"
+    -   Javier Cerna (Javier SEHR-nah)
 
     staff:
-    -   title: "visual caption head"
+    -   title: music instructors
         members:
-        -   "Alex Murphey Frank"
+        -   Alex Murphey-Frank
+        -   Madison Bohrer
 
-    -   title: "color guard caption head"
+    -   title: visual instructors
         members:
-        -   "Laura Garcia"
+        -   Alex Murphey Frank
+        -   Krystyn Roldan
 
-    -   title: "percussion caption head"
+    -   title: percussion instructors
         members:
-        -   "Kyle Boydstun"
+        -   Kyle Boydstun
+        -   Tom Baker
+        -   Dan Rugani
 
-    -   title: "music staff"
+    -   title: auxilliary instructors
         members:
-        -   "Briana Berastain"
-        -   "Melanie Woon"
-        -   "Garrett Grant"
+        -   Hannah Sousa
+        -   Nicole Cavanagh
+        -   Nicholas Chong
 
-    -   title: "color guard staff"
-        members:
-        -   "Nicole Cavanagh"
-        -   "Hannah Sousa"
-    
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   "Mallory Reith"
-        -   "Manon Prevot"
+        -   Ishika Banerjee
+        -   Jason Judin
     
-    -   title: "auxiliary captains"
+    -   title: auxiliary captains
         members:
-        -   "Alex Yamashita"
-        -   "Melia Means"
+        -   Melia Means
+        -   Alex Yamashita
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   "Thomas Baker"
-        -   "Casey Kim"
+        -   Kiran Abraham
+        -   Asmitha Mahendran
 
-    program: "Call of the Wild West"
+    -   title: section leaders
+        members:
+        -   Siddharth Arora
+        -   Adam Blumenfeld
+        -   Becca Klau
+        -   Alyssa Luu
 
-    music: the theme from "The Good, the Bad and the Ugly" by Ennio Morricone, "The Ecstacy of Gold" by Ennio Morricone, and "Wanted Dead or Alive" by Bon Jovi, with original Music by Luke McMillain
+    program: Under the Stars
+
+    music: >
+        "Cambridge, 1963” by Johann Johannsson,
+        "Sky Full of Stars" by Coldplay,
+        "Twinkle Twinkle Little Star",
+        and "Harmonium Movement 3 - Wild Nights" by John Adams.
 
     description: >
-        This year, the Cal High Marching Band is taking a journey through iconic imagery and musical themes of the wild western frontier.
-        Our show seeks to evoke a sense of wonder and adventure, from scenes of gorgeous plateaus and sunsets to the dangerous,
-        crime-ridden towns of the old west.
-        Fueled by the iconic spaghetti western themes from the late Ennio Morricone, as well as the popular tune "Wanted:Dead or Alive" by Bon Jovi,
-        we hope you enjoy our journey into the wild west. 
+        Our 2022 production "Under the Stars” captures the imagination that one feels when looking up into a gorgeous, unobstructed night sky.
+        Utilizing the motifs of a star-filled sky, constellations, and shooting stars, our show hopes to awaken a sense of awe and wonderment
+        of what we can see and what lies beyond a star-filled sky.
 
     notes: >
-        Cal High thanks the amazing Cal High Instrumental Music Band Boosters for all of their love and support.
+        Cal High would like to thank their amazing Instrumental Music Boosters, incredible instructional staff, and all family, and friends
+        for their support of the Cal High Marching Band and Color Guard Program. We couldn't do this without you!
 
 parade:
     lastUpdated: 1967-12-01 04:30:00 -08
@@ -73,38 +82,4 @@ parade:
     -   &kent-johnson "Kent Johnson"
     -   "Ramiro Barrera"
 
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: "California High School Winter Guard"
-
-    directors:
-    -   *kent-johnson
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes:
 

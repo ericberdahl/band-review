@@ -1,55 +1,58 @@
-name: "Benicia High School"
+name: Benicia High School
 
-city: "Benicia, CA"
+city: Benicia, CA
 
 students:
--   &steven-bui "Steven Bui"
+
 
 parade:
-    lastUpdated: 2021-09-28 12:55:09 -07
+    lastUpdated: 2022-10-03 10:44:31 -07
 
-    nickname: "Benicia High Panther Band"
+    nickname: Panther Marching Band
 
     directors:
-    -   "Candice Crismond"
+    -   Candice Crismond
 
     staff:
-    -   title: "color guard instructors"
+    -   title: color guard instructor
         members:
         -   Jamie Hjeltness (Jamie YÜLT-nihs)
-        -   "Ben Wilkinson"
+
+    -   title: assistant color guard instructor
+        members:
+        -   Sophia Llewellyn
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Mariano Elias III"
+        -   Lily Myers
 
-    -   title: "auxiliary captains"
+    -   title: guard captain
         members:
-        -   "Jessica Gorospe"
-        -   "Lynne Moll"
+        -   Ava Cheung
+
+    -   title: guard section leader
+        members:
+        -   Carmela Vitale
 
     -   title: percussion captain
         members:
-        -   "Gabe Haarberg"
+        -   Leif Rush
 
-    music: "Emblem Of Unity by J.J. Richards, arranged by James Swearingen (James SWEHR-ing-ehn)"
+    music: The Diplomat by George Allan
 
     notes: >
-        The Benicia Panther Band has been the recipient of countless first place and sweepstakes awards throughout it's long history of musical excellence.
-        The students and staff would like to thank the entire community of Benicia for supporting music in schools and would especially like to thank the Panther Band Boosters.
-        Without the hard work and dedication of our booster program, none of this would be possible.
-        Please welcome, the pride of Benicia California, the Benicia High School Panther Band!
+        The Benicia High School Panther Band would like to thank all of their parent boosters for all of their hard work and dedication to their program!
 
 concert-1:
-    lastUpdated: 2019-10-11 12:52:11 -07
+    lastUpdated: 2022-10-03 10:44:31 -07
 
-    nickname: "Benicia High School Symphonic Band"
+    nickname: Benicia High School Wind Ensemble
 
 concert-2:
-    lastUpdated: 2019-10-11 12:52:11 -07
+    lastUpdated: 2022-10-03 10:44:31 -07
 
-    nickname: "Benicia High School Symphonic Band"
+    nickname: Benicia High School Symphonic Band
 
 winterpercussion:
     lastUpdated: 2018-01-01 00:00:00 -08

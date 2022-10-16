@@ -1,16 +1,16 @@
-name: "River Valley High School"
+name: River Valley High School
 
-city: "Yuba City, CA"
+city: Yuba City, CA
 
 parade:
-    lastUpdated: &band-review-updated 2019-10-18 08:36:10 -07
+    lastUpdated: 2019-10-18 08:36:10 -07
 
-    nickname: &band-review-nickname "River Valley Falcon Marching Band"
+    nickname: "River Valley Falcon Marching Band"
 
-    directors: &band-review-directors
+    directors:
     -   "Michael Taylor"
 
-    staff: &band-review-staff
+    staff:
     -   title: "instructed by"
         members:
         -   "Jason Fry"
@@ -37,40 +37,42 @@ parade:
         The Falcon Marching Band would like to thank the River Valley band parents for all of their help at these competitions, without them this wouldn't be possible!
 
 fieldshow:
-    lastUpdated: *band-review-updated
+    lastUpdated: 2022-10-14 11:27:53 -07
 
-    nickname: *band-review-nickname
+    nickname: River Valley Falcon Marching Band
 
-    directors: *band-review-directors
+    directors:
+    -   Michael Taylor
 
-    staff: *band-review-staff
+    staff:
+    -   title: color guard instructors
+        members:
+        -   Jovanie Romero
+        -   Hanniah Barajas
+        
+    -   title: drumline instructors
+        members:        
+        -   Rylee Crutchfield
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Alina Chavez"
+        -   Jasive Ortiz-Guzman
     
-    -   title: "auxiliary captains"
+    -   title: auxiliary captain
         members:
-        -   "Shirley Camacho"
-        -   "Allyson Rodriguez"
+        -   Isabella Henderson
         
-    -   title: "percussion captain"
+    -   title: percussion captain
         members:
-        -   "Cheyenne Rodriguez"
-        -   "Delaney Timms"
+        -   Jonathan Rivera
 
-    program: "Beyond the Unknown"
+    program: Fantasmic
 
     music: >
-        Into the Unknown by Patrick Manning
-        and Beyond the Horizon by Rossano Galante
+        Fantasmic arranged by Michael Brown
 
     description: >
-        Breaking out of your comfort zone,
-        the fear and worry in doing so,
-        and the acceptance of new opportunities on the horizon after making the leap.
 
     notes: >        
-        The Falcon Marching Band would like to thank the River Valley band parents for all of their help at these competitions, without them this wouldn't be possible!
 

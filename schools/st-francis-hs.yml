@@ -1,106 +1,66 @@
-name: "Saint Francis High School"
+name: Saint Francis High School
 
-city: "Mountain View, CA"
+city: Mountain View, CA
 
 fieldshow:
-    lastUpdated: 2021-10-09 10:15:30 -07
+    lastUpdated: 2022-10-03 9:59:41 -07
 
-    nickname: "Lancer Band"
+    nickname: Lancer Band and Color Guard
 
     directors:
-    -   "Sadie Queally-Sammut (SAY-dee KWAY-lee SAM-ut)"
+    -   Sadie Queally-Sammut (SAY-dee KWAY-lee SAM-ut)
 
     staff:
-    -   title: "drum major and color guard instructor"
+    -   title: color guard instructors
         members:
-        -   "Colleen Queally-Sammut (cah-LEEN KWAY-lee SAM-ut)"
+        -   Jasmine Acree
+        -   Jean Roberts
 
-    -   title: "percussion instructor"
+    -   title: visual tech
         members:
-        -   "Casey Tessier"
+        -   Davis Zamboanga
 
-    -   title: "visual tech"
+    -   title: field conductor tech
         members:
-        -   "Davis Zamboanga"
+        -   Colleen Queally-Sammut (cah-LEEN KWAY-lee SAM-ut)
+
+    -   title: percussion caption head
+        members:
+        -   Casey Tessier
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   "Jewel Merriman"
-        -   "Pujita Tangirala"
-        -   "Jiyou Lee"
+        -   Jiyou Lee
+        -   Kylie Brown
 
-    -   title: "auxiliary captains"
+    -   title: auxiliary captains
         members:
-        -   "Nicole Schubert"
-        -   "Andrea Wu"
-        -   "Rachel Minden"
+        -   Rachel Minden
+        -   Brianna Johnson
+        -   Sofia Rangel
 
-    -   title: "percussion captain"
+    -   title: percussion captains
         members:
-        -   "Bowen Hu"
-        -   "Shlok Shah"
+        -   Raghav Ravinuthala
+        -   Bowen Hu
     
-    -   title: "president"
+    -   title: presidents
         members:
-        -   "Jonathan Lee"
+        -   Alexander Eiger
+        -   Elsa Ying
 
-    program: "Colors"
+    program: Angels and Demons
 
-    music: "music by Randall Standridge, drill and choreography by David Bolzman"
+    music: >
+        Chorale and Alleluia by Howard Hanson,
+        Night Watch by Jay Dawson,
+        Journey of Man by Benoit Jutras,
+        and Ka: Battlefield by René Dupéré
     
     description: >
-        The world is alive with color in our exciting show!
-        We explore the character of each color on the color wheel, beginning with the fiery, Latin-inspired “Fury (Red/Orange)”,
-        followed by jazzy strains of “The Royal Blues (Blue/Purple)”,
-        before finishing with the vibrant, rhythmic “Life (Yellow/Green)."    
+        We all struggle with our personal demons, but we are surrounded by angels who help us through life's challenges.
+        We celebrate the angels in our life - our teachers, family, and friends - while acknowledging the struggles we face, both internal and external.
 
     notes: >
-        The Lancer Marching Band and Color Guard thanks our tireless Lancer Band Road Crew!
-        
-parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    music: 
-
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+        The Lancer Marching Band and Color Guard thanks our tireless road crew and parent volunteers for getting us where we need to go and looking great while we do it!

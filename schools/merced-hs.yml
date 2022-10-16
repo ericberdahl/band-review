@@ -3,7 +3,7 @@ name: "Merced High School"
 city: "Merced, CA"
 
 parade:
-    lastUpdated: 2021-10-14 21:46:48 -07
+    lastUpdated: 2022-09-30 12:58:56 -07
 
     nickname: Merced Marching 100
 
@@ -15,7 +15,8 @@ parade:
         members:
         -   Armando Francisco
         -   Regina Chavez
-        -   Lilliana Galloway
+        -   Leslie Mendoza
+        -   Hermione Guzman-Soto
 
     -   title: percussion instructors
         members:
@@ -23,31 +24,25 @@ parade:
         -   Ian Flores
         -   Joshua Powell
 
-    -   title: woodwind instructor
-        members:
-        -   Raymond Willis
-
     leaders:
     -   title: drum major
         members:
         -   Efrain Gutierrez
 
-    -   title: auxilliary captains
+    -   title: auxilliary captain
         members:
-        -   Bianca Garcia
-        -   Hermione Guzman-Soto
+        -   Emmanuel Reyes
     
     -   title: percussion captain
         members:
-        -   Adrian Reyes-Esteva
+        -   Landen Brown
     
-    music: The Bear by Peter Graham
+    music: Blencathra by William Rimmer, arranged by Bertrand Moren
 
     notes: >
-        The Merced Marching 100 would like to thank our boosters for all of their hard work and for commissioning "The Bear",
-        which is dedicated to the Merced Marching 100 in celebration of Merced High School's Sesquicentennial celebration.
+        The Merced Marching 100 would like to thank their amazing boosters and administration for all of their help in making their program successful.
 
 concert:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-09-30 12:58:56 -07
 
-    nickname: "Merced High School Concert Band"
+    nickname: Merced High School Wind Ensemble

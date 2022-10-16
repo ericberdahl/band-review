@@ -1,34 +1,38 @@
-name: "Washington High School"
+name: Washington High School
 
-city: "Fremont, CA"
+city: Fremont, CA
 
 parade:
-    lastUpdated: 2021-10-11 16:17:41 -07
+    lastUpdated: 2022-10-14 10:09:03 -07
 
-    nickname: "Marching Huskies"
+    nickname: Marching Huskies
 
     directors:
-    -   "Amberle Mitchell (AHM-bur-lee Mitchell)"
+    -   Amberle Mitchell (AHM-bur-lee Mitchell)
 
     staff:
-    -   title:  "instructed by"
+    -   title:  instructed by
         members:
-        -   "Aaron Sanders"
+        -   Ben Benavides
+        -   Ruben Peredes
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Riley Pearson"
+        -   Audrey Kim
     
-    -   title: "percussion captains"
+    -   title: auxilliary captain
         members:
-        -   Aditi Thanekar
-        -   Ruben Paredes
+        -   Christian Wong
+    
+    -   title: percussion captain
+        members:
+        -   Owen Cheung
 
-    music: "Rolling Thunder March by Henry Fillmore"
+    music: Bravura byCharles E. Duble, arranged by John Edmondson
 
     notes: >
-        The Marching Huskies give a huge thank you to all administrative staff and the Husky Music Boosters for their everlasting support!
+        The Marching Huskies give a huge thank you to their supportive community and band parents; we wouldn't be here without you!
 
 winterpercussion:
     lastUpdated: 2019-03-18 16:09:26 -07

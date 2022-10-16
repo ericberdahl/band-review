@@ -1,82 +1,32 @@
-name: "Bullard High School"
+name: Bullard High School
 
-city: "Anywhere, CA"
+city: Fresno, CA
 
 parade:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-14 6:53:11 -07
 
-    nickname: "Bullard High School Marching Band and Color Guard"
+    nickname: Bullard High School Marching Band and Color Guard
 
     directors:
-    -   "Joseph Cargill"
+    -   Joseph Cargill
+    -   Jacob Cardona
 
     staff: 
-#    -   title: "instructed by"
-#        members:
+    -   title: "instructed by"
+        members:
+        -   Mercedes Trejo
+        -   Destiny Figueroas
 
     leaders:
-#    -   title: "drum major"
-#        members:
+    -   title: drum major
+        members:
+        -   Elias Covarrubias
 
-    music: 
-
-    notes: 
-
-fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Bullard High School Marching Band and Color Guard"
-
-    directors: 
-
-    staff: 
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    description: 
+    music: General Mitchell by Robert B. Hall
 
     notes: 
 
 concert:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-14 6:53:11 -07
 
-    nickname: "Bullard High School Concert Band"
-
-winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Bullard High School Winter Guard"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
-winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Bullard High School Winter Percussion"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
+    nickname: Bullard Concert Band

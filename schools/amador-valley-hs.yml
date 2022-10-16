@@ -1,79 +1,47 @@
-name: "Amador Valley High School"
+name: Amador Valley High School
 
-city: "Pleasanton, CA"
+city: Pleasanton, CA
 
 fieldshow:
-    lastUpdated: 2021-09-26 07:22:39 -07
+    lastUpdated: 2022-10-14 13:56:32 -07
 
-    nickname: "Marching Dons"
+    nickname: Marching Dons
 
     directors:
-    -   "Jonathan Grantham"
-    -   "Edwin Cordoba"
+    -   Jonathan Grantham
+    -   Edwin Cordoba
     
     staff:
-    -   title: "instructed by"
-        members:        
-        -   "John Meehan"
-        -   "Jamey Thompson"
-        -   "Bryan Harmsen"
-        -   "Jessica Slabaugh"
-        -   "Keith Dunton"
-        -   "David Ziehm"
-        -   "TJ Doucette"
-        -   "Ryan Madayag"
-        -   "Karen Eskarous"
-        -   "Julia Tikhonov"
-        -   "Brandon Hussey"
-        -   "Tiffany Castelan"
-        -   "Colleen Zheng"
-        -   "Max Alvarado"
-        -   "Gabe Michels"
-        -   "Matt Lowe"
-        -   "Everett Henrie"
-        -   "Victor Alcaraz"
-        -   "Ben Kane"
-        -   "Marvin Reed"
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   "Julia Szambelan (Julia SZAHM-beh-lahn)"
-        -   "Nolan Lees"
-        -   "Brayden Ye"
+        -   Nolan Lees
+        -   Brayden Ye
+        -   Vardaan Singhania
 
-    -   title: "auxilliary captains"
+    -   title: auxilliary captain
         members:
-        -   "Danica Howard"
-        -   "Nikita Jayaprakash"
+        -   Danica Howard
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   "Akanksh Aditya"
-        -   "Jonah Wang"
+        -   Mya Lee
+        -   Rathual Anand
         
-    -   title: "woodwind captain"
-        members:
-        -   "Curtis Li"
-
-    -   title: "brass captain"
-        members:
-        -   "Tom Li"
-
-    program: "The Light of the Moon"
+    program: The Crown
 
     music: >
-       "Aurora Awakes" by John Mackey,
-       "I Write Sins, Not Tragedies" by Panic at the Disco,
-       "Daydream" by Bertrand Moren,
-       "Danza No. 2" by Bruce Yurko
-       and original music by John Meehan
+       Paen by Steven Bryant,
+       Triumphal March by Verdi,
+       Royals by Lorde,
+       and The Light Fantastic and Walking With Heroes by Paul Lovatt-Cooper
 
     description: >
-        Under the light of the moon we experience many moods…
-        The Marching Dons present a visual and musical depiction of three of those moods: dreaming, mischief and dancing.
+        Music in celebration of Amador Valley High School's 100th Anniversary
 
     notes: >        
-        The Marching Dons would like to thank their parents, the Sea of Purple in the stands tonight for your love and support.
-        They would also like to acknowledge principal Josh Butterfield, superintendent David Haglund and the larger Pleasanton community for their commitment to music.
-        The Marching Dons wish all of the competing bands good skill tonight!
+        The Marching Dons say thank you to the Sea of Purple, their amazing parents for their love and support of the band.
+        We couldn't do it without you.
+        Thank you also to Jon Fey and the administration at Amador Valley High School!
+        Go Dons!

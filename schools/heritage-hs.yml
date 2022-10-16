@@ -1,6 +1,6 @@
 name: "Heritage High School"
 
-city: "Anywhere, CA"
+city: Brentwood, CA
 
 directors:
 -   
@@ -44,41 +44,6 @@ fieldshow:
     notes: 
     
 concert:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-09-30 12:41:55 -07
 
-    nickname: "Heritage High School Concert Band"
-
-winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Heritage High School Winter Guard"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
-winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Heritage High School Winter Percussion"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
+    nickname: "Heritage High Wind Ensemble"

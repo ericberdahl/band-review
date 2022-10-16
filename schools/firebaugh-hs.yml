@@ -1,26 +1,32 @@
-name: "Firebaugh High School"
+name: Firebaugh High School
 
-city: "Anywhere, CA"
+city: Firebaugh, CA
 
 directors: &directors
--   "Jose Ledesma"
+-   Jose Ledesma
 
 parade:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Firebaugh High School Marching Band and Color Guard"
+    nickname: Eagle Marching Band
 
     directors: *directors
 
     staff: 
-#    -   title: "instructed by"
-#        members:
+    -   title: percussion instructor
+        members:
+        -   Ariell Ompad
 
     leaders:
-#    -   title: "drum major"
-#        members:
+    -   title: drum major
+        members:
+        -   Melina Gonzalez
+    
+    -   title: percussion captain
+        members:
+        -   Bianca Marquez
 
-    music: 
+    music: Anchors Aweigh/Eternal Father, Strong to Save by By Alfred H. Miles, Charles A. Zimmerman & John B. Dykes, arranged by Brian K. Wilson and J. Edgerton
 
     notes: 
 
@@ -40,40 +46,6 @@ fieldshow:
     music: 
 
     description: 
-
-    notes: 
-    
-winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Firebaugh High School Winter Guard"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
-winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Firebaugh High School Winter Percussion"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
 
     notes: 
     

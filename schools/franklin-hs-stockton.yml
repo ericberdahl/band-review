@@ -1,47 +1,42 @@
-name: "Franklin High School"
+name: Franklin High School
 
-city: "Stockton, CA"
+city: Stockton, CA
 
 parade:
-    lastUpdated: 2019-10-20 09:55:25 -07
+    lastUpdated: 2022-10-14 09:46:08 -07
 
-    nickname: "Marching Yellowjackets"
+    nickname: Marching Yellowjackets
 
     directors:
-    -   "Jacqueline Hairston (JAH-kuh-lehn HEHR-ston)"
+    -   Jacqueline Hairston (JAH-kuh-lehn HEHR-ston)
 
     staff:
-    -   title: "assistant director"
+    -   title: assistant director and percussion instructor
         members:
-        -   "Jerren Robinson (JEHR-rehn Robinson)"
+        -   Gerardo Hernandez
 
-    -   title: "percussion instructor"
+    -   title: guard instructor
         members:
-        -   "Edward Brown"
-
-    -   title: "guard instructor"
-        members:
-        -   "Alejandro Moreno"
+        -   Victoria Dato
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Arianna Flores"
+        -   Alyna Velasquex
 
-    -   title: "auxiliary captains"
+    -   title: auxiliary captain
         members:
-        -   "Cassandra Alvarez"
-        -   "Jazmin Cervantes"
+        -   Karla White
         
-    -   title: "percussion captain"
+    -   title: percussion captain
         members:
-        -   "Brandon Urrea (Brandon UH-ree-ah)"
+        -   Ryan Hunter
 
-    music: "Voice of the Guns by Kenneth J. Alford, arranged by Harold R. Gore"
+    music: Imperial by Karl King, arranged by James Swearingen (James SWEHR-ing-ehn)
 
     notes:
 
 concert:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-14 09:46:08 -07
 
-    nickname: "Franklin High School Concert Band"
+    nickname: Franklin High school Concert Band

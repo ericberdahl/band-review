@@ -1,33 +1,48 @@
-name: "Westmont High School"
+name: Westmont High School
 
-city: "Campbell, CA"
+city: Campbell, CA
 
 fieldshow:
-    lastUpdated: 2017-01-01 00:00:00 -08
+    lastUpdated: 2022-10-14 9:53:50 -08
 
-    nickname: "Westmont Marching Regiment"
+    nickname: Warrior Marching Regiment
 
     directors:
-    -   "Christiana Mandler Smith"
+    -   Christiana Mandler
+
+    staff:
+    -   title: assistant director
+        members:
+        -   Tony Rivera
+    
+    -   title: guard caption instructor
+        members:
+        -   Liz Petersen
+
+    -   title: drum caption instructor
+        members:
+        -   Greg Mathney (Greg MATH-nee)
+
+    -   title: front ensemble caption instructor
+        members:
+        -   Charlie Tran
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum major
         members:
-        -   "Musa Imam-Darling"
-        -   "Andrew Ngo"
+        -   Brian Lu
 
-    -   title: "auxiliary captains"
+    -   title: percussion captain
         members:
-        -   "Miyu Haguro"
-        -   "Savannah Yew"
+        -   Jayden Mandler Sanders
 
-    -   title: "percussion captain"
-        members:
-        -   "Chris Mathney (Chris MATH-nee)"
+    program: The Little Prince
 
-    program: "Heavenly Bodies"
+    decscription: >
+        Taken from the 2015 movie, The Little Prince.
 
-    music: "three movements by Key Poulan (KEE POH-lan)"
+    music: >
+        written by Hans Zimmer and arranged by Key Poulan (KEE POH-lan)
 
     notes: >
         The Westmont Marching Regiment thanks their students, parents, boosters, and administration.

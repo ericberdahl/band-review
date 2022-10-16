@@ -1,48 +1,57 @@
-name: "Benicia Middle School"
+name: Benicia Middle School
 
-city: "Benicia, CA"
+city: Benicia, CA
 
 parade:
-    lastUpdated: 2021-10-07 13:04:03 -07
+    lastUpdated: 2022-10-14 11:26:39 -07
 
-    nickname: "Benicia Middle School Viking Band"
+    nickname: Viking Band
 
     directors:
-    -   "Paul Hanna"
+    -   Paul Hanna
 
     staff:
-    -   title: "instructors"
+    -   title: golor guard staff
         members:
         -   Jamie Hjeltness (Jamie YÜLT-nihs)
         -   Xitlali Jiminez (zit-LAH-lee Jiminez)
-        -   "Ava Cheung"
-        -   "Matt Lowe"
+        -   Ava Cheung
+
+    -   title: drumline instructor
+        members:
+        -   Jaleel Gospel
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Luke Thorsen"
+        -   Jack Shaw
 
-    -   title: "auxiliary captains"
+    -   title: guard captain
         members:
-        -   "Cheryl Morris"
-        -   "Sofia Almogela"
+        -   Ramiyah Drake
 
-    -   title: "percussion captain"
+    -   title: percussion captain
         members:
-        -   "Evan Diggs"
-    
-    music: "Crosswinds March by James Swearingen (James SWEHR-ing-ehn)"
+        -   Evan Diggs
+
+    -   title: letter captain
+        members:
+        -   Julianne Verbis
+
+    -   title: flag captain
+        members:
+        -   Sophia Jiminez
+
+    music: Monmouth March by Larry Clark
     
     notes: >
-        The Benicia Middle School Viking Band hails from Benicia, CA.
-        For many years they have been known across the bay area for their marching and musicianship.
-        They would like to thank the BMS Viking Band Boosters for all their support!
+        The Benicia Middle School Viking Band is an award winning program focusing on reaching the highest level of musicianship and performance.
+        The Benicia Middle School Viking Band would like to thank their boosters for their support getting the band ready for this marching season.
 
 concert:
-    lastUpdated: 2019-10-10 14:09:10 -07
+    lastUpdated: 2022-10-14 11:26:39 -07
 
-    nickname: "Benicia Middle School Symphonic Band"
+    nickname: Symphonic Band
 
 winterguard-novice:
     lastUpdated: 2018-01-01 00:00:00 -08

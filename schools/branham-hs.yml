@@ -1,86 +1,69 @@
-name: 'Branham High School'
+name: Branham High School
 
-city: 'San Jose, CA'
+city: San Jose, CA
 
 fieldshow:
-    lastUpdated: 2021-10-14 09:23:27 -08
+    lastUpdated: 2022-10-14 11:13:19 -08
 
-    nickname: Royal Alliance
+    nickname: Branham Royal Alliance
 
     directors:
     -   Chris Nalls
-    -   Jessie Cardso
+    -   Charlie Iwanaga
 
     staff:
-    -   title: instructed by
+    -   title: color guard instructors
         members:
-        -   AJ Gonzales
-        -   Mike Reppuchi
-        -   Kevin Murphy
-        -   Tai Tensi
-        -   Chris Roberts
-        -   Jordyn Roberts
-        -   Rene Canto-Adams
-        -   Mike McWilliams
-        -   Conrado Escudero
-        -   Austin Sugai
-        -   Jenessa Takagi
+        -   Grantis Peranda
+        -   Gregory Mar
+
+    -   title: percussion instructors
+        members:
+        -   Sofia Lima
+        -   Andrew Kuykendall (Andrew KUHR-ken-dahl)
+
+    -   title: music instructor
+        members:
+        -   Isabel McPherson
+
+    -   title: visual instructors
+        members:
+        -   Mike Reppucci
+        -   Kylie Ng
+
+    -   title: design by
+        members:
+        -   Juliet Ferrera
+        -   Ryan Schlieper
+        -   Key Poulan (KEE POH-lan)
+        -   Shawn Glyde
+        -   Dan Bryan
+
+    -   title: scenery design and fabrication by
+        members:
+        -   The OPS Crew
 
     leaders:
     -   title: drum majors
         members:
-        -   Kylie Ng
         -   Abigail Sowers
+        -   Sebastian Nguyen
 
-    program: Ensnared
+    -   title: auxilliary captains
+        members:
+        -   Sam Sherrard
+        -   Alexis Tea
 
-    music: 
+    -   title: percussion captains
+        members:
+        -   Bren Baker
+        -   Luigi Renovato
 
-    notes: 
+    program: Enemy
 
-parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
+    description: >
 
     music: 
 
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+    notes: >
+        The Branham Royal Alliance would like to thank the boosters, parents, and community that support band at Branham High School

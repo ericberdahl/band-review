@@ -3,9 +3,9 @@ name: "Merrill F. West High School"
 city: "Tracy, CA"
 
 parade:
-    lastUpdated: 2021-10-06 11:58:36 -07
+    lastUpdated: 2022-09-30 14:05:17 -07
 
-    nickname: "Wolf Pack Marching Band"
+    nickname: Wolf Pack Marching Band
 
     directors:
     -   "Jonathan Raman (Jonathan RAY-man)"
@@ -18,56 +18,29 @@ parade:
     leaders:
     -   title: drum major
         members:
-        -   "Diego Inguanzo Sanchez"
+        -   Thad Lozano
 
-    -   title: "assistant drum major"
+    -   title: auxilliary captain
         members:
-        -   "Thad Lozano"
+        -   Remus Kubik
 
-    -   title: "percussion captain"
+    -   title: percussion captains
         members:
-        -   "Cornelius Stallworth"
+        -   Cornelius Stallworth
+        -   Renz Bacani
 
-    music: "Manhattan Beach March by John Philip Sousa"
+    -   title: assistant drum major
+        members:
+        -   Diego De Santos
+
+    music: Emblem of Unity by J.J. Richards, arranged by James Swearingen
 
     notes: >
-        The Wolf Pack Marching Band says: Thank you West High Music Boosters for your support of the Wolf Pack Music Program.
+        The Wolf Pack Marching Band says: Thank you West High Music Boosters for your time, heart, and soul.
+        Without you Parents, the Music Program would not exist.
+        Thank you all.
 
 concert:
     lastUpdated: 2019-09-20 12:16:08 -07
 
     nickname: "West High Wolf Pack Symphonic Band"
-
-winterpercussion:
-    lastUpdated: 2019-03-18 16:09:26 -07
-
-    nickname: "Merrill F West High School Winter Percussion"
-
-    directors:
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Merrill F West High School Winter Guard"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 

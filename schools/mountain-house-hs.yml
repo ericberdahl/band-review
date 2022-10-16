@@ -1,77 +1,42 @@
-name: "Mountain House High School"
+name: Mountain House High School
 
-city: "Anywhere, CA"
-
-parade:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Mountain House High School Marching Band and Color Guard"
-
-    directors: 
-
-    staff: 
-#    -   title: "instructed by"
-#        members:
-
-    leaders:
-#    -   title: "drum major"
-#        members:
-
-    music: 
-
-    notes: 
+city: Mountain House, CA
 
 fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-14 13:28:20 -07
 
-    nickname: "Mountain House High School Marching Band and Color Guard"
+    nickname: Mustang Brigade
 
     directors: 
-    -   "Heather Small"
+    -   Heather Small
 
     staff: 
 
     leaders:
-
-    program: 
-
-    music: 
-
-    description: 
-
-    notes: 
+    -   title: drum majors
+        members:
+        -   Tyler Small
+        -   Kaylee Houle
     
-winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    -   title: auxilliary captains
+        members:
+        -   Tanushree Giriraju
+        -   Evelyn Hernandez
 
-    nickname: "Mountain House High School Winter Guard"
+    -   title: percussion captain
+        members:
+        -   James Reyes
 
-    directors: 
+    program: Weightless
 
-    staff:
-        
-    leaders:
+    music: >
+        Learn to Fly by David Gohl, Nate Mendel, and Pat Smear, arranged by Michael Brown;
+        Into the Light by Jay Bocook, percussion by Will Rapp,
+        Fly Me to the Moon/Defying Gravity by Bart Howard, arranged by Jeff Simmons, percussion by Mike Brabham;
+        and Stephen Schwartz arranged by Jay Bocook, percussion by Will Rapp.
 
-    program: 
-
-    music: 
-
-    notes: 
-    
-winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Mountain House High School Winter Percussion"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
+    description: >
+        Launching into space and exploring
 
     notes: 
     

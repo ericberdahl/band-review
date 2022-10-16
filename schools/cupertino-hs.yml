@@ -1,56 +1,66 @@
-name: "Cupertino High School"
+name: Cupertino High School
 
-city: "Cupertino, CA"
+city: Cupertino, CA
 
 fieldshow:
-    lastUpdated: 2021-10-14 14:16:24 -07
+    lastUpdated: 2022-10-14 11:00:53 -07
 
-    nickname: "Cupertino High School Proud Pioneer Band"
+    nickname: Proud Pioneer Band and Colorguard
 
     directors:
-    -   "Gilbert Iruegas"
+    -   Gilbert Iruegas
+    -   Wells Chen
 
     staff:
-    -   title: "instructed by"
+    -   title: instructed by
         members:
-        -   Matt Costales
-        -   Chavadith Tantavirojn (kah-vah-dith tan-TAH-vuh-road)
-        -   Colin Whitcomb
-        -   Raven Bautista
         -   Jeff Facun
-        -   Carl Huang (Carl WONG)
-        -   Wells Chen
+        -   Matt Costales
+        -   Emerson Valdez
         -   Diego Barrios
-        -   Anthony Mingus
-        -   Gabe Boquiren
-        -   Aldrich Yanga
-        -   Jezabel Bacalso
+        -   Chavadith Tantavirojn (kah-vah-dith tan-TAH-vuh-road)
+        -   Gabe Boquerin
+        -   Taiga Yamaguchi
+        -   Axle Aquino
+        -   Casey Quevedo
+        -   Rintaro Fukuda
+        -   Raven Bautista
+        -   Johnny Rodriguez
+        -   Lindsey Youngblood-Smith
+        -   Kai Laine
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   Kumiko Quinlivan
-        -   Yoto Kim
+        -   Kristine Huang
+        -   Jon Lee
 
-    -   title: "auxiliary captains"
+    -   title: auxiliary captains
         members:
-        -   Ania Shah
-        -   Jaylee Rosa O'Hayer
+        -   Tahlia Wu
+        -   Katelynn Han
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   Jacob Leung
-        -   Jessica Solorio
-        -   Julia Yee
-        -   Viahaan Manglani
+        -   Vivek Krishnan
+        -   Kaiden Furton
+        -   Vihaan Manglani
 
-    program: Onward!
+    program: Moment(us)
 
     music: >
+        Featuring "A Kaleidoscope of Mathematics" by James Horner,
+        "Butterfly" by Mia Makaroff,
+        and "Momentus" by Tanner Jones
 
     description: >
+        That one second, during a brief eternity, where you are looking back on a memory and everything stops.
+        You are presented with a decision… what would you do in that seemingly infinite stillness and how will you react when you realize time is running out?
+        Cupertino's 2022 production takes us through that journey and forces us to look inward with a lens that helps us realize that how we spend our time is everything.
 
     notes: >
-        The students and staff of the Cupertino High School Proud Pioneer would like to thank our amazing parent boosters.
+        The students and staff of the Cupertino High School Proud Pioneer Band would like to thank their amazing band boosters for all they do.
         Without them, wonderful nights of music like tonight would not be possible.
-        They would also like to wish all bands a successful and safe marching season.
+        They would also like to thank Mr. Efrain Hinojosa, his band program, and the Foothill Band Boosters for hosting a great event.
+        Lastly, they would like to wish all bands a safe and successful season.
+        March in step, play in tune, and watch your drum major!

@@ -1,79 +1,39 @@
-name: 'Encinal High School'
+name: Encinal High School
 
-city: 'Alameda, CA'
-
-fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+city: Alameda, CA
 
 parade:
-    lastUpdated: 2021-10-11 13:00:19 -08
+    lastUpdated: 2022-10-15 8:39:09 -08
 
-    nickname: Soaring Jets Band
+    nickname: Soaring Jets
 
     directors:
-    -   Tony Gennaro
+    -   Mitchell Wagner
 
     staff:
+    -   title: instructed by
+        members:
+        -   Rich Hall
+        -   Devon Westerholm
+        -   Kathryn Yamada
 
     leaders:
     -   title: drum major
         members:
-        -   Amy Zhang
-    
-    -   title: percussion captain
-        members:
-        -   Kash Mejia
+        -   Sammy Boyle
 
-    music: Corcoran Cadets by John Philip Sousa
+    -   title: auxilliary captains
+        members:
+        -   Margrett Levitt
+        -   Mateo Delgado
+        -   Nina Leach
+
+    -   title: percussion captains
+        members:
+        -   Leif Willis
+        -   Landon Willis
+
+    music: Barnum and Bailey's Favorite by Karl King
 
     notes: >
-        As the “pride of Alameda”, the Soaring Jets Band is so excited to finally be here after a long year.
-        Thank you to all the on-campus staff, teachers, and especially the Encinal High School Music Parent Community for supporting us!
-
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+        The Soaring Jets give special thanks to their Boosters and Alumni for helping with the Uniforms and working with the Percussion Section.

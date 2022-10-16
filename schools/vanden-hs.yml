@@ -1,77 +1,56 @@
-name: "Vanden High School"
+name: Vanden High School
 
-city: "Anywhere, CA"
-
-parade:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Vanden High School Marching Band and Color Guard"
-
-    directors: 
-
-    staff: 
-#    -   title: "instructed by"
-#        members:
-
-    leaders:
-#    -   title: "drum major"
-#        members:
-
-    music: 
-
-    notes: 
+city: Fairfield, CA
 
 fieldshow:
     lastUpdated: 2000-01-01 15:23:03 -07
 
-    nickname: "Vanden High School Marching Band and Color Guard"
+    nickname: Viking Marching Band
 
     directors: 
-    -   "Troy Symington"
+    -   Troy Symington
 
-    staff: 
+    staff:
+    -   title: percussion caption head
+        members:
+        -   Thomas Hollins
+
+    -   title: bass drum tech
+        members:
+        -   Felicia Ward
+
+    -   title: snare tech
+        members:
+        -   Logan VanKatwyk
+
+    -   title: colorguard caption head
+        members:
+        -   Nicky Carlos
+
+    -   title: colorguard tech
+        members:
+        -   Megan Honeychurch
 
     leaders:
+    -   title: drum major
+        members:
+        -   Neal Patel
 
-    program: 
+    -   title: auxilliary captain
+        members:
+        -   Natalyce Zehms
+        -   Ashley Zamora
+
+    -   title: percussion captains
+        members:
+        -   David Cloutier
+        -   Nikka Clerici
+
+    program: Chronometry
 
     music: 
 
     description: 
-
-    notes: 
-    
-winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Vanden High School Winter Guard"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
-winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Vanden High School Winter Percussion"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
 
     notes: 
     

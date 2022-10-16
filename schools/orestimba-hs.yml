@@ -1,68 +1,35 @@
-name: 'Orestimba High School'
+name: Orestimba High School
 
-city: 'Newman, CA'
-
-fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+city: Newman, CA
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2022-10-14 12:35:39 -08
 
-    nickname: 'Orestimba High School Marching Band and Color Guard'
+    nickname: Warrior Marching Band
 
     directors:
-    -   'David Clark'
+    -   David Clark
 
     staff:
 
     leaders:
+    -   title: drum major
+        members:
+        -   Nancy Luna-Baez
 
-    music: 
+    -   title: auxilliary captains
+        members:
+        -   Bryant Villanueva
+        -   Alyssa Cordova
 
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    -   title: percussion captains
+        members:
+        -   Cyrus Mayfield
+        -   Patrick Maison
+    
+    -   title: captains
+        members:
+        -   Emmanuel Medina
+        -   Shakty Artea
 
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+    music: The U.S. Field Artillery by John Philip Sousa, arranged by Douglas E. Wagner

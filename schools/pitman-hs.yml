@@ -1,34 +1,38 @@
-name: "Pitman High School"
+name: Pitman High School
 
-city: "Turlock, CA"
+city: Turlock, CA
 
 parade:
     lastUpdated: 2021-10-02 12:27:47 -07
 
-    nickname: "Marching Pride"
+    nickname: Marching Pride
 
     directors:
-    -   "Ruben Modesto"
+    -   Ruben Modesto
+
+    staff:
+    -   title: instructed by
+        members:
+        -   Yudy Pulido
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Gabe Rocha"
+        -   Simon Hayes
 
-    -   title: "auxiliary captains"
+    -   title: auxiliary captains
         members:
-        -   "Yudy Pulido"
-        -   "Mesmin Reynoso"
+        -   Justyna Sourn
+        -   Alexia Rivera
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   "Jillian Heidman"
-        -   "Anissa Jara"
+        -   Venize Llena
+        -   Bella Barajas
 
-    music: "Carry On by Herbert Winson"
+    music: Army of the Nile by Kenneth Alford
 
     notes: >
-        The Pitman Marching Pride would like to thank their band and guard boosters for all of their support.
 
 concert-1:
     lastUpdated: 2017-01-01 00:00:00 -08

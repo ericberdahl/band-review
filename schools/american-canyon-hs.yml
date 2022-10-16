@@ -1,55 +1,65 @@
-name: "American Canyon High School"
+name: American Canyon High School
 
-city: "American Canyon, CA"
+city: American Canyon, CA
+
+staff:
+-   &erica-nunez "Erika Nunez"
 
 students:
--   &nathan-banks "Nathan Banks"
 -   &vince-dionisio "Vince Dionisio (Vince dee-on-EE-see-oh)"
--   &zach-lacson "Zach Lacson"
--   &erica-nunez "Erica Nunez"
 -   &ruth-santiago "Ruth Santiago"
 
 fieldshow:
-    lastUpdated: 2018-10-12 12:20:54 -07
+    lastUpdated: 2022-10-04 14:03:35 -07
 
-    nickname: "American Canyon High School Marching Band"
+    nickname: Wolfpack Marching Band
 
     directors:
-    -   "Brendan Day"
+    -   Brendan Day
 
     staff:
-    -   title: "visual instructor and drill writer"
+    -   title: visual instructors
         members:
-        -   "Shane Weller"
+        -   Mark Ortiz 
+        -   Fernando Garcia
 
-    -   title: "colorguard instructors"
+    -   title: percussion designers
         members:
-        -   "Rachel Coleman"
-        -   "Taylor Chavez"
+        -   Ian Grom
+        -   John Mapes
 
-    -   title: "percussion instructors"
+    -   title: percussion instructors
         members:
-        -   "Alden Maningas"
-        -   "Christian Bactad"
+        -   Kevin Garret
+        -   Derrick Surio
+        -   Emilio Laxa
+        -   Nathan yee Ong
+
+    -   title: auxiliary designers and instructors
+        members:
+        -   Taylor Chavez
+        -   *erica-nunez
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   *nathan-banks
+        -   Joshua Barnes
 
-    -   title: "auxiliary captains"
+    -   title: auxiliary captains
         members:
-        -   *erica-nunez
-        -   *ruth-santiago
+        -   Ximena Nunez
+        -   Kristen Aguado
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   *vince-dionisio
-        -   *zach-lacson
+        -   Nigel Quirk
+        -   Emily Haung
 
-    program: "Fearless"
+    program: Imagine
 
-    music: "original music by Brendan Day"
+    music: Pure Imagination by Leslie Bricusse and Anthony Newley
+
+    description:
 
     notes:
 

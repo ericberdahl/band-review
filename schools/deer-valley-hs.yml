@@ -1,26 +1,46 @@
-name: "Deer Valley High School"
+name: Deer Valley High School
 
-city: "Antioch, CA"
+city: Antioch, CA
 
 parade:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-14 09:51:15 -07
 
-    nickname: "Template High School Marching Band and Color Guard"
+    nickname: Deer Valley High School Marching Band and Color Guard
 
     directors: 
-    -   "Kevin Field"
+    -   Kevin Field
 
     staff: 
-#    -   title: "instructed by"
-#        members:
+    -   title: auxilliary instructors
+        members:
+        -   Marissa Kittleson
+        -   Joshua Suarez
+
+    -   title: percussion instructors
+        members:
+        -   Abraham Molina
+        -   Angelo Gutierrez
+        -   Joshua Suarez
 
     leaders:
-#    -   title: "drum major"
-#        members:
+    -   title: drum major
+        members:
+        -   Kaydence Hanson
 
-    music: 
+    -   title: auxilliary captains
+        members:
+        -   Tristan Tacow
+        -   Lizelle Catahan
 
-    notes: 
+    -   title: percussion captains
+        members:
+        -   Kate LeMonds
+        -   Precilla Molina
+
+    music: Kinizsi by Julius Fučíc
+
+    notes: >
+        The Deer Valley High School Marching Band and Color Guard gives a huge thank you to the band boosters and staff for making this happen!
 
 winterguard:
     lastUpdated: 2019-03-13 14:50:00 -07

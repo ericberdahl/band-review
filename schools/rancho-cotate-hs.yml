@@ -1,58 +1,49 @@
-name: "Rancho Cotate High School"
+name: Rancho Cotate High School
 
-city: "Rohnert Park, CA"
+city: Rohnert Park, CA
     
 fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-14 10:21:24 -07
 
-    nickname: "Template High School Marching Band and Color Guard"
+    nickname: RCHS Marching Band
 
     directors: 
-    -   "Dustin Friel"
+    -   Dustin Friel
 
     staff: 
+    -   title: instructed by
+        members:
+        -   Abel Moya
+        -   Hunter Oo
+        -   Emma Wagoner
+        -   Bima Pamula
+        -   Daniela Hernandez
+        -   Alex Brown
 
     leaders:
+    -   title: drum major
+        members:
+        -   Gabriella Greco
 
-    program: 
+    -   title: auxiliary captains
+        members:
+        -   Eismael Sandoval
+        -   Emily Perez Barrientos
+        -   Sierra Phillips
+
+    -   title: percussion captains
+        members:
+        -   Steven Tinoco
+        -   Lin Leon Solis
+
+    program: Knock On Wood
+
+    description: >
+        Knock On Wood is a show about humans and the wrong doings to the environment.
+        Humans eventually realize their wrongdoings and try help the planet.
+        The show is a nod to the endangerment of the Monarch Butterfly. 
 
     music: 
 
-    description: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Rancho Cotate High School Winter Guard"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
-winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Rancho Cotate High School Winter Percussion"
-
-    directors: 
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-    
+    notes: >
+        RCHS Marching Band says thank you to all parents/guardians, music boosters, and staff for your support this season. 
