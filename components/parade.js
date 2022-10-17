@@ -174,11 +174,13 @@ export default function Parade({ parade, show, fieldShow, nextShow }) {
 
             <Chapter>
                 <h2>Parade and Concert - Awards</h2>
-                <p>
-                    Foothill High School thanks the sponsors of the {show.citation}: <CommaSeparatedList>
-                        {parade.sponsors.general.map((s, index) => <Fragment key={index}>{s}</Fragment>)}
-                    </CommaSeparatedList>
-                </p>
+                {parade.sponsors.general.length > 0 && <>
+                    <p>
+                        Foothill High School thanks the sponsors of the {show.citation}: <CommaSeparatedList>
+                            {parade.sponsors.general.map((s, index) => <Fragment key={index}>{s}</Fragment>)}
+                        </CommaSeparatedList>
+                    </p>
+                </>}
                 {parade.sponsors.trophies.map((t, index) => <TrophySponsor place={t.place} sponsors={t.sponsors} key={index}/>)}
             
                 <p>

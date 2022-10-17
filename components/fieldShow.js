@@ -154,18 +154,20 @@ export default function FieldShow({ event }) {
 
             <Chapter>
                 <h2>Field Show - Awards</h2>
-                <p>
-                    Foothill High School thanks the sponsors of the {event.show.citation}: <CommaSeparatedList>
-                        {event.fieldShow.sponsors.general.map((s, index) => <Fragment key={index}>{s}</Fragment>)}
-                    </CommaSeparatedList>
-                </p>
+                {fieldShow.sponsors.general.length > 0 && <>
+                    <p>
+                        Foothill High School thanks the sponsors of the {show.citation}: <CommaSeparatedList>
+                            {fieldShow.sponsors.general.map((s, index) => <Fragment key={index}>{s}</Fragment>)}
+                        </CommaSeparatedList>
+                    </p>
+                </>}
 
                 <h3>General award announcement</h3>
                 <p>
                     With a score of {"{score}"}, {"{nth}"} place {"{category}"} goes to [pause] {"{name of school}"}!
                 </p>
 
-                {event.fieldShow.sponsors.trophies.map((t, index) => <TrophySponsor place={t.place} sponsors={t.sponsors} key={index}/>)}
+                {fieldShow.sponsors.trophies.map((t, index) => <TrophySponsor place={t.place} sponsors={t.sponsors} key={index}/>)}
             </Chapter>
         </div>
     );
