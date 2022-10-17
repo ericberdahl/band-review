@@ -9,7 +9,7 @@
     "postexport": "scripts/postExport.py",
     "start": "next start",
     "debug": "NODE_OPTIONS='--inspect' next dev",
-    "lint": "next lint",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
