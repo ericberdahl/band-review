@@ -38,7 +38,7 @@ function FieldShowStart({ unit }) {
     )
 }
 
-function School({ unit }) {
+function School({ unit, year }) {
     return (
         <div>
             <h2>Field Show - {unit.schoolName}</h2>
@@ -60,7 +60,7 @@ function School({ unit }) {
                 <em>(Wait for cue from T&amp;P judge):</em> Drum Major is your band ready?
             </p>
             <p>
-                <em>(After drum major salute):</em> Presenting their 2022 field show, {unit.program}, {unit.nickname}, you may now take the field in competition!
+                <em>(After drum major salute):</em> Presenting their {year} field show, {unit.program}, {unit.nickname}, you may now take the field in competition!
             </p>
         </div>
     )
@@ -72,7 +72,7 @@ function FieldShowBreak({ unit }) {
     );
 }
 
-function Lineup({ lineup, container }) {
+function Lineup({ lineup, container, ...rest}) {
     const ContainerTag = container || Chapter;
     
     const elMissingRenderer = lineup.find(element => !element.renderer);
@@ -84,7 +84,7 @@ function Lineup({ lineup, container }) {
         <>
             {lineup.map((li, index) => (
                 <ContainerTag key={index}>
-                    <li.renderer unit={li}/>
+                    <li.renderer unit={li} {...rest}/>
                 </ContainerTag>
             ))}
         </>
@@ -111,32 +111,37 @@ function mapRenderersForLineup(lineup) {
 }
 
 export default function FieldShow({ event }) {
-    const numFieldShowUnits = event.fieldShow.lineup.filter((li) => li.unitType == 'fieldShowUnit').length;
-    const numParadeShowUnits = event.parade.lineup.filter((li) => li.unitType == 'paradeUnit').length;
-    const numConcertUnits = event.concert.lineup.filter((li) => li.unitType == 'concertUnit').length;
+    const concert = event.concert;
+    const fieldShow = event.fieldShow;
+    const parade = event.parade;
+    const show = event.show;
+
+    const numFieldShowUnits = fieldShow.lineup.filter((li) => li.unitType == 'fieldShowUnit').length;
+    const numParadeShowUnits = parade.lineup.filter((li) => li.unitType == 'paradeUnit').length;
+    const numConcertUnits = concert.lineup.filter((li) => li.unitType == 'concertUnit').length;
 
     const fieldShowtartUnits = [ "anthemPerformer" ];
-    const endOfStart = event.fieldShow.lineup.findIndex((element => !fieldShowtartUnits.includes(element.unitType)));
+    const endOfStart = fieldShow.lineup.findIndex((element => !fieldShowtartUnits.includes(element.unitType)));
 
     const fieldShowStartUnit = {
         unitType:           "_fieldShowStart",
-        citation:           event.show.citation,
+        citation:           show.citation,
         numFieldShowUnits:  numFieldShowUnits,
-        lineup:             mapRenderersForLineup(event.fieldShow.lineup.slice(0, endOfStart)),
+        lineup:             mapRenderersForLineup(fieldShow.lineup.slice(0, endOfStart)),
     }
 
-    var lineup = event.fieldShow.lineup.slice(endOfStart);
+    var lineup = fieldShow.lineup.slice(endOfStart);
     lineup.splice(0, 0, fieldShowStartUnit);
     lineup = mapRenderersForLineup(lineup);
 
     return (
         <div>
-            <Lineup lineup={lineup}/>
+            <Lineup lineup={lineup} year={DateTime.fromISO(show.date).year}/>
 
             <Chapter>
                 <h2>Field Show - Close</h2>
                 <p>
-                    This concludes the Field Show Competition for the {event.show.citation}.
+                    This concludes the Field Show Competition for the {show.citation}.
                     Please stay for the Field Show Awards, presented here in 15 minutes.
                 </p>
                 <p>
