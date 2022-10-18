@@ -156,7 +156,7 @@ export default function Parade({ parade, show, fieldShow, nextShow }) {
                 <h2>Parade - Close</h2>
                 <p>
                     This concludes the Parade Competition for the {show.citation}.
-                    Thank you and congratulations to all the bands we've seen this morning, and thank you all for attending and cheering on these fine young performers.
+                    Thank you and congratulations to all the bands we've seen this morning, and thank you all for attending and cheering on these talented young performers.
                 </p>
                 <p>
                     Parade Awards will be presented at {parade.awardsTime} in the {parade.awardsLocation}.

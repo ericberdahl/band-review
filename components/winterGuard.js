@@ -73,7 +73,7 @@ export default function WinterGuard({ show, winterGuard }) {
                 <p>
                     This concludes the Color Guard Competition for the {show.citation}.
                     Thank you and congratulations to all the guard units we’ve seen this afternoon, and
-                    thank you all for attending and cheering on these fine young performers.
+                    thank you all for attending and cheering on these talented young performers.
                 </p>
                 <p>
                     Please stay for the Color Guard Awards, presented here in 20 minutes.

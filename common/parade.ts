@@ -95,7 +95,7 @@ export class Parade {
                 return GrandMarshalUnit.deserialize(li);
             }
             else {
-                assert.fail(`Unrecognized lineup item: ${JSON.stringify(li)}`)
+                assert.fail(`Unrecognized parade lineup item: ${JSON.stringify(li)}`)
             }
         })));
 

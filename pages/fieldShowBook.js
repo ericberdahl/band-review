@@ -39,7 +39,7 @@ export default function FieldShowBook({ bandReview }) {
                 <h2>Band Review - Close</h2>
                 <p>
                     This concludes the {bandReview.show.citation}.
-                    Thank you and congratulations to all the bands we’ve seen today, and thank you all for attending and cheering on these fine young performers.
+                    Thank you and congratulations to all the bands we've seen today, and thank you all for attending and cheering on these talented young performers.
                 </p>
                 <p>
                     Mark your calendars to join us again next year, on {DateTime.fromISO(bandReview.nextShow.date).toLocaleString(DateTime.DATE_FULL)}, for the {bandReview.nextShow.citation}.

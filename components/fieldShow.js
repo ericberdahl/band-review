@@ -4,6 +4,7 @@ import CommaSeparatedList from "./commaSeparatedList";
 import Note from './note';
 import Leadership from "./leadership";
 import NumericCitation from "./numericCitation";
+import SpaceSeparatedPhrase from "./spaceSeparatedPhrase";
 import TrophySponsor from "./trophySponsor";
 
 import { DateTime } from "luxon";
@@ -22,14 +23,14 @@ function AnthemPerformer({ unit }) {
     );
 }
 
-function FieldShowStart({ unit }) {
+function FieldShowStart({ unit, show, unitCounts }) {
     return (
         <>
             <h2>Field Show - Open</h2>
             <p>
                 Good afternoon ladies and gentlemen.
-                Welcome to the Field Show Competition for the {unit.citation}.
-                We are joined today by <NumericCitation count={unit.numFieldShowUnits}/> talented bands anxious to perform.
+                Welcome to the Field Show Competition for the {show.citation}.
+                We are joined today by <NumericCitation count={unitCounts.fieldShow}/> talented bands anxious to perform.
                 Foothill High School wishes good luck and good music to all the bands performing today. We hope you enjoy their shows.
             </p>
 
@@ -38,7 +39,11 @@ function FieldShowStart({ unit }) {
     )
 }
 
-function School({ unit, year }) {
+function School({ unit, show }) {
+    const year = DateTime.fromISO(show.date).year;
+
+    const appearance = (unit.isHost ? "exhibition" : "competition");
+
     return (
         <div>
             <h2>Field Show - {unit.schoolName}</h2>
@@ -57,10 +62,10 @@ function School({ unit, year }) {
             {unit.notes && <p>{unit.notes}</p>}
             {!unit.notes && <Note>{unit.schoolName} has no parade notes.</Note>}
             <p>
-                <em>(Wait for cue from T&amp;P judge):</em> Drum Major is your band ready?
+                <em>(Wait for cue from T&amp;P judge):</em> Drum Major, is your band ready?
             </p>
             <p>
-                <em>(After drum major salute):</em> Presenting their {year} field show, {unit.program}, {unit.nickname}, you may now take the field in competition!
+                <em>(After drum major salute):</em> Presenting their {year} field show, {unit.program}, {unit.nickname}, you may now take the field in {appearance}!
             </p>
         </div>
     )
@@ -91,11 +96,34 @@ function Lineup({ lineup, container, ...rest}) {
     );
 }
 
+function Awards({unit, show, unitCounts})
+{
+    return (<>
+        <h2>{unit.label} - Close</h2>
+        <p>
+            <>This concludes the {unit.label} Competition for the {show.citation}.
+            Please stay for the {unit.label} Awards, presented {unit.location} {unit.time}. </>
+            {unit.continuation && <>
+                Then please join us for the {unit.continuation} Competition {unit.continuationTime && <>
+                    starting here {unit.continuationTime}
+                </>}.
+            </>}
+        </p>
+        <p>
+            Whether you're from Foothill or cheering your home school, you probably know how much work it takes to hold a successful band review, where student performers can share their talent with and their love of music.
+            Today, {unitCounts.parade} bands marched in parade, {unitCounts.concert} performed in concert, and {unitCounts.fieldShow} presented field shows.
+            All this would not happen without the work of several hundred student and parent volunteers.
+            Foothill High School thanks everyone who contributed to the success of today's Band Review.
+        </p>
+    </>);
+}
+
 function mapRenderersForLineup(lineup) {
     const renderers = {
         '_fieldShowStart':  FieldShowStart,
 
         'anthemPerformer':  AnthemPerformer,
+        'awardsUnit':       Awards,
         'breakUnit':        FieldShowBreak,
         'fieldShowUnit':    School,
     }
@@ -116,17 +144,17 @@ export default function FieldShow({ event }) {
     const parade = event.parade;
     const show = event.show;
 
-    const numFieldShowUnits = fieldShow.lineup.filter((li) => li.unitType == 'fieldShowUnit').length;
-    const numParadeShowUnits = parade.lineup.filter((li) => li.unitType == 'paradeUnit').length;
-    const numConcertUnits = concert.lineup.filter((li) => li.unitType == 'concertUnit').length;
+    const unitCounts = {
+        fieldShow: fieldShow.lineup.filter((li) => li.unitType == 'fieldShowUnit').length,
+        parade: parade.lineup.filter((li) => li.unitType == 'paradeUnit').length,
+        concert: concert.lineup.filter((li) => li.unitType == 'concertUnit').length,
+    };
 
     const fieldShowtartUnits = [ "anthemPerformer" ];
     const endOfStart = fieldShow.lineup.findIndex((element => !fieldShowtartUnits.includes(element.unitType)));
 
     const fieldShowStartUnit = {
         unitType:           "_fieldShowStart",
-        citation:           show.citation,
-        numFieldShowUnits:  numFieldShowUnits,
         lineup:             mapRenderersForLineup(fieldShow.lineup.slice(0, endOfStart)),
     }
 
@@ -134,23 +162,13 @@ export default function FieldShow({ event }) {
     lineup.splice(0, 0, fieldShowStartUnit);
     lineup = mapRenderersForLineup(lineup);
 
+    const awardsUnit = {
+        label: "Field Show",
+    }
+
     return (
         <div>
-            <Lineup lineup={lineup} year={DateTime.fromISO(show.date).year}/>
-
-            <Chapter>
-                <h2>Field Show - Close</h2>
-                <p>
-                    This concludes the Field Show Competition for the {show.citation}.
-                    Please stay for the Field Show Awards, presented here in 15 minutes.
-                </p>
-                <p>
-                    Whether you're from Foothill or cheering your home school, you probably know how much work it takes to hold a successful band review, where student performers can share their talent with and their love of music.
-                    Today, {numParadeShowUnits} bands marched in parade, {numConcertUnits} performed in concert, and {numFieldShowUnits} presented field shows.
-                    All this would not happen without the work of several hundred student and parent volunteers.
-                    Foothill High School thanks everyone who contributed to the success of today's Band Review.
-                </p>
-            </Chapter>
+            <Lineup lineup={lineup} show={show} unitCounts={unitCounts}/>
 
             <Chapter>
                 <h2>Field Show - Awards</h2>

@@ -1,4 +1,5 @@
 import { AnthemPerformerUnit, AnthemPerformerUnitStaticProps, SerializedAnthemPerformerUnit } from './anthemPerformerUnit';
+import { AwardsUnit, AwardsUnitStaticProps, SerializedAwardsUnit } from './awardsUnit';
 import { BreakUnit, BreakUnitStaticProps, SerializedBreakUnit } from './breakUnit';
 import { FieldShowUnit, FieldShowUnitStaticProps, SerializedFieldShowUnit } from './fieldShowUnit';
 import { CompetitionSponsors, CompetitionSponsorsStaticProps, SerializedCompetitionSponsors } from './sponsor';
@@ -14,18 +15,22 @@ type SerializedFieldShowUnitRef = {
     ref : string;
 }
 
-type SerializedFieldShowLineupItem = SerializedFieldShowUnitRef | SerializedBreakUnit | SerializedAnthemPerformerUnit;
+type SerializedFieldShowLineupItem = SerializedAnthemPerformerUnit | SerializedAwardsUnit | SerializedBreakUnit | SerializedBreakUnit | SerializedFieldShowUnitRef;
 
-function isFieldShowUnitRef(item : SerializedFieldShowLineupItem) : item is SerializedFieldShowUnitRef {
-    return (item as SerializedFieldShowUnitRef).ref !== undefined;
+function isAnthemPerformerShowUnit(item : SerializedFieldShowLineupItem) : item is SerializedAnthemPerformerUnit {
+    return (item as SerializedAnthemPerformerUnit).anthemPerformer !== undefined;
+}
+
+function isAwardsShowUnit(item : SerializedFieldShowLineupItem) : item is SerializedAwardsUnit {
+    return (item as SerializedAwardsUnit).awardsLabel !== undefined;
 }
 
 function isBreakShowUnit(item : SerializedFieldShowLineupItem) : item is SerializedBreakUnit {
     return (item as SerializedBreakUnit).break !== undefined;
 }
 
-function isAnthemPerformerShowUnit(item : SerializedFieldShowLineupItem) : item is SerializedAnthemPerformerUnit {
-    return (item as SerializedAnthemPerformerUnit).anthemPerformer !== undefined;
+function isFieldShowUnitRef(item : SerializedFieldShowLineupItem) : item is SerializedFieldShowUnitRef {
+    return (item as SerializedFieldShowUnitRef).ref !== undefined;
 }
 
 export type SerializedFieldShow = {
@@ -34,7 +39,7 @@ export type SerializedFieldShow = {
     start_time : string;    // hh:mmAM
 }
 
-type FieldShowLineupItemStaticProps = BreakUnitStaticProps | FieldShowUnitStaticProps | AnthemPerformerUnitStaticProps;
+type FieldShowLineupItemStaticProps = AnthemPerformerUnitStaticProps | AwardsUnitStaticProps | BreakUnitStaticProps | FieldShowUnitStaticProps;
 
 export type FieldShowStaticProps = {
     lineup : FieldShowLineupItemStaticProps[];
@@ -42,7 +47,7 @@ export type FieldShowStaticProps = {
     startTime : string;
 }
 
-type FieldShowLineupItem = FieldShowUnit | BreakUnit | AnthemPerformerUnit;
+type FieldShowLineupItem = AnthemPerformerUnit | AwardsUnit | BreakUnit | FieldShowUnit;
 
 async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
     const filename = sanitize(schoolRef + '.yml');
@@ -75,14 +80,17 @@ export class FieldShow {
             if (isFieldShowUnitRef(li)) {
                 return FieldShowUnit.deserialize(await readSerializedUnitForSchool<SerializedFieldShowUnit>(li.ref))
             }
-            else if (isBreakShowUnit(li)) {
-                return BreakUnit.deserialize(li);
-            }
             else if (isAnthemPerformerShowUnit(li)) {
                 return AnthemPerformerUnit.deserialize(li);
             }
+            else if (isAwardsShowUnit(li)) {
+                return AwardsUnit.deserialize(li);
+            }
+            else if (isBreakShowUnit(li)) {
+                return BreakUnit.deserialize(li);
+            }
             else {
-                assert.fail(`Unrecognized lineup item: ${JSON.stringify(li)}`)
+                assert.fail(`Unrecognized field show lineup item: ${JSON.stringify(li)}`)
             }
         })));
 
