@@ -6,7 +6,6 @@ directors: &directors
 -   Jose Ledesma
 
 parade:
-    # TEMPORARY taken from NCBA 2022 database
     lastUpdated: 2000-01-01 15:23:03 -07
 
     nickname: Eagle Marching Band

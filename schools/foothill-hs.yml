@@ -1,39 +1,44 @@
-name: "Foothill High School"
+name: Foothill High School
 
-city: "Pleasanton, CA"
+city: Pleasanton, CA
 
 staff:
 -   &efrain-hinojosa Efrain Hinojosa (EH-fren ee-no-HO-sah)
 -   &erik-nishimori Erik Nishimori (EH-rik nih-shee-MO-ree)
--   &shawn-griddine Shawn Griddine
--   &marvin-reed Marvin Reed
--   &matt-sieve Matt Sieve
--   &brianna-gier Brianna Gier
--   &chris-cyr Chris Cyr
--   &alex-pfiefer Alex Pfiefer
--   &ryan-myers Ryan Myers
+-   &victor-alcaraz Victor Alcaraz
+-   &dennis-aquilina Dennis Aquilina
 -   &alex-blakely Alex Blakely
--   &nate-huey Nate Huey
 -   &connor-carroll Connor Carroll
 -   &xavier-choo Xavier Choo
--   &nick-duenas Nick Duenas
+-   &chris-cyr Chris Cyr
+-   &nick-duenas Nicholas Duenas
+-   &brooke-farrar Brooke Farrar
+-   &carver-frazier Carver Frazier
+-   &brianna-gier Brianna Gier
+-   &shawn-griddine Shawn Griddine
+-   &nate-huey Nate Huey
+-   &kristi-laduca Kristi LaDuca
 -   &andrew-lawton Andrew Lawton
--   &dennis-aquilina Dennis Aquilina
+-   &alexina-manriquez Alexina Manriquez
+-   &ryan-myers Ryan Myers
+-   &alex-pfiefer Alex Pfiefer
+-   &marvin-reed Marvin Reed
+-   &matt-sieve Matt Sieve
+-   &myojin-yang Myojin Yang
 
 students:
--   &ayla-johnson "Ayla Johnson (AY-lah Johnson)"
--   &lucy-lee "Lucy Lee"
+-   &ayla-johnson Ayla Johnson (AY-lah Johnson)
+-   &lucy-lee Lucy Lee
 -   &claire-kim "Claire Kim"
 -   &kyra-maeda Kyra Maeda (Kyra MY-eh-dah)
 -   &kellen-sowa "Kellen Sowa"
 
 parade:
-    # MISSING 2022 data
     isHost: true
 
-    lastUpdated: &band-review-updated 2021-10-13 8:44:46 -07
+    lastUpdated: 2022-10-17 14:35:28 -07
 
-    nickname: &band-nickname "Foothill High School Marching Band and Color Guard"
+    nickname: &band-nickname Foothill High School Marching Band and Color Guard
 
     directors:
     -   *efrain-hinojosa
@@ -42,50 +47,38 @@ parade:
     -   title: "instructed by"
         members:
         -   *shawn-griddine
-        -   *marvin-reed
         -   *matt-sieve
+        -   *carver-frazier
         -   *brianna-gier
+        -   *brooke-farrar
         -   *chris-cyr
         -   *alex-pfiefer
-        -   *ryan-myers
         -   *alex-blakely
-        -   *nate-huey
-        -   *connor-carroll
+        -   *ryan-myers
         -   *xavier-choo
+        -   *myojin-yang
         -   *nick-duenas
         -   *andrew-lawton
-        -   *dennis-aquilina
-    
+        -   *alexina-manriquez
+        -   *kristi-laduca
+
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Yash Gupta"
+        -   Yash Gupta    
 
-    -   title: "auxiliary captains"
-        members: &auxiliary-captains
-        -   Cecilia Turetzky
-        -   *kyra-maeda
-
-    -   title: "percussion captain"
-        members: &percussion-captains
-        -   Erin Chang
-
-    -   title: piper
-        members:
-        -   Annalise Jensen (ah-na-LEE-zah yehn-sehn)
-    
-
-    music: Washington Post March by John Philip Sousa, arranged by Pat Lee
+    music: Who's Who In Navy Blue by John Philip Sousa
 
     notes: >
-        The Foothill High Marching Band and Color Guard would like to thank our PUSD administration for their support of our music programs.
-        With the support of the Foothill High School Parent Band Boosters, Site admin, and District admin we have been able to continue making music in Pleasanton!
+        The Foothill Marching Band would like to thank our Band Boosters for all of their support in putting on this event.
+        We would also like to thank the Foothill High Administration and Pleasanton Unified School District for their continued support of
+        Music in our schools.
+
 
 fieldshow:
-    # MISSING 2022 data
     isHost: true
 
-    lastUpdated: *band-review-updated
+    lastUpdated: 2022-10-17 14:35:28 -07
 
     nickname: *band-nickname
 
@@ -96,46 +89,59 @@ fieldshow:
     -   title: instructed by
         members:
         -   *shawn-griddine
-        -   *marvin-reed
         -   *matt-sieve
+        -   *carver-frazier
         -   *brianna-gier
+        -   *victor-alcaraz
+        -   *brooke-farrar
         -   *chris-cyr
         -   *alex-pfiefer
-        -   *ryan-myers
-        -   *nate-huey
-        -   *connor-carroll
-        -   *xavier-choo
         -   *alex-blakely
-        -   *andrew-lawton
+        -   *ryan-myers
+        -   *xavier-choo
+        -   *myojin-yang
         -   *nick-duenas
-        -   *dennis-aquilina
+        -   *andrew-lawton
+        -   *alexina-manriquez
+        -   *kristi-laduca
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   Sophia Kang
         -   Tristan Meyer
-        -   Sophia Jung
+        -   Sofia Jung
+        -   Vin Shin
 
-    -   title: "auxiliary captains"
-        members: *auxiliary-captains
+    -   title: auxiliary captains
+        members:
+        -   Ashley Osterhaut
+        -   Niki Murugesan
+        -   Sophia Heo
 
-    -   title: "percussion captain"
-        members: *percussion-captains
+    -   title: percussion captain
+        members:
+        -   Lily Zheng
+        -   Robin Butterfield
 
-    program: Luna
+    -   title: brass captain
+        members:
+        -   Edwin Yim
+        
+    -   title: woodwind captain
+        members:
+        -   Anand Shuklah
+
+    program: One Thousand and One Nights
 
     music: >
-        Summertime by George and Ira Gershwin,
-        Claire de Lune by Claude Debussy,
-        and Concerto for Orchestra by Bela Bartok.
-        Music arrangement by Mike Jackson and Kevin Shah.
+        selections from Scheherezade, Heat Of The Day, The Architect, Arabian Dances, and Adagio from Spartacus.
 
     description: >
 
     notes: >
-        The Foothill High Marching Band and Color Guard would like to thank our PUSD administration for their support of our music programs.
-        With the support of the Foothill High School Parent Band Boosters, Site admin, and District admin we have been able to continue making music in Pleasanton!
+        The Foothill Marching Band and Colorguard says thank you to our FANTASTIC Band Boosters for their support of our 2022 music program.
+        The Band would also like to thank the Foothill and PUSD administration for their support of Music in our schools.
+        Go Falcons!!!!!
 
 winterguard:
     isHost: true

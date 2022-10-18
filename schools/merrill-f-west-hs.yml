@@ -3,7 +3,7 @@ name: "Merrill F. West High School"
 city: "Tracy, CA"
 
 parade:
-    lastUpdated: 2022-09-30 14:05:17 -07
+    lastUpdated: 2022-10-17 17:24:46 -07
 
     nickname: Wolf Pack Marching Band
 
@@ -16,9 +16,10 @@ parade:
         -   "Alicia Graf"
 
     leaders:
-    -   title: drum major
+    -   title: drum majors
         members:
         -   Thad Lozano
+        -   Diego de Santos
 
     -   title: auxilliary captain
         members:
@@ -33,12 +34,12 @@ parade:
         members:
         -   Diego De Santos
 
-    music: Emblem of Unity by J.J. Richards, arranged by James Swearingen
+    music: Emblem of Unity by J.J. Richards, arranged by James Swearingen (James SWEHR-ing-ehn)
 
     notes: >
-        The Wolf Pack Marching Band says: Thank you West High Music Boosters for your time, heart, and soul.
-        Without you Parents, the Music Program would not exist.
-        Thank you all.
+        The Wolf Pack Marching Band says: Thank you West High Music Boosters for your support.
+        Without your efforts, our Music Program would not exist.
+        Thank you!
 
 concert:
     lastUpdated: 2019-09-20 12:16:08 -07

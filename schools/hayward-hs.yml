@@ -1,42 +1,43 @@
-name: "Hayward High School"
+name: Hayward High School
 
-city: "Hayward, CA"
+city: Hayward, CA
+
+staff:
+-   "Katrina Granados (Katrina grah-NAH-dohs)"
+-   "Adriano Tecson"
 
 parade:
-    # MISSING 2022 data
-    lastUpdated: 2019-10-17 11:21:06 -07
+    lastUpdated: 2022-10-17 9:22:31 -07
 
-    nickname: "Pride of Hayward High"
+    nickname: Pride of Hayward High
 
     directors: &directors
-    -   "Nicholas Tocco (Nicolas TOE-ko)"
+    -   Nicholas Tocco (Nicolas TOE-ko)
 
     staff:
-    -   title: "color guard coach"
+    -   title: instructed by
         members:
-        -   "Katrina Granados (Katrina grah-NAH-dohs)"
+        -   Leslie Garcia
     
-    -   title: "percussion coach"
-        members:
-        -   "Adriano Tecson"
-
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Cale Lee-Takaki"
+        -   Chelsea Luna
     
-    -   title: "auxiliary captain"
+    -   title: auxiliary captain
         members:
-        -   "Jillian Villian"
+        -   Mia Salinas
 
-    -   title: "percussion captain"
+    -   title: percussion captain
         members:
-        -   "Jaydon Currier"
+        -   Dash Spears
 
-    music: "Kinizsi by Julius Fucik, arranged by Mark Heter (Mark HEH-tehr)"
+    music: The Gladiator by John Philip Sousa, arranged by Andrew Balent
 
     notes: >
-        The Pride of Hayward High thanks the Boosters, families, and students who keep this program thriving each year!
+        The Pride of Hayward High thanks the Hayward High parents, and especially the Boosters, who help to provide
+        amazing opportunities for the students of Hayward High.
+        And thanks to the students who put so much time and energy into the Program...Farmer Pride!
 
 winterguard:
     lastUpdated: 2019-03-14 10:38:06 -07

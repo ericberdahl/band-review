@@ -3,7 +3,7 @@ name: California High School
 city: San Ramon, CA
 
 fieldshow:
-    lastUpdated: 2022-10-02 21:05:21 -07
+    lastUpdated: 2022-10-16 16:33:42 -07
 
     nickname: Cal High Marching Band and Color Guard
 
@@ -72,14 +72,3 @@ fieldshow:
     notes: >
         Cal High would like to thank their amazing Instrumental Music Boosters, incredible instructional staff, and all family, and friends
         for their support of the Cal High Marching Band and Color Guard Program. We couldn't do this without you!
-
-parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: "California High School Marching Ensemble and Colorguard"
-
-    directors:
-    -   &kent-johnson "Kent Johnson"
-    -   "Ramiro Barrera"
-
-

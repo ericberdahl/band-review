@@ -3,8 +3,7 @@ name: Pitman High School
 city: Turlock, CA
 
 parade:
-    # TEMPORARY taken from NCBA 2022 database
-    lastUpdated: 2021-10-02 12:27:47 -07
+    lastUpdated: 2022-10-17 9:56:26 -07
 
     nickname: Marching Pride
 
@@ -23,7 +22,7 @@ parade:
 
     -   title: auxiliary captains
         members:
-        -   Justyna Sourn
+        -   Justyn Sourn
         -   Alexia Rivera
 
     -   title: percussion captains
@@ -34,12 +33,12 @@ parade:
     music: Army of the Nile by Kenneth Alford
 
     notes: >
+        The Marching Pride would like to thank their parent boosters for all of their love and support.
 
 concert-1:
-    lastUpdated: 2017-01-01 00:00:00 -08
-    nickname: "Pitman High School Wind Ensemble"
+    lastUpdated: 2022-10-17 9:56:26 -07
+    nickname: Symphonic band
 
 concert-2:
-    lastUpdated: 2017-01-01 00:00:00 -08
-
-    nickname: "Pitman High School Concert Band"
+    lastUpdated: 2022-10-17 9:56:26 -07
+    nickname: Wind Ensemble

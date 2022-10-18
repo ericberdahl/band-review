@@ -3,17 +3,17 @@ name: "Northgate High School"
 city: "Walnut Creek, CA"
 
 parade:
-    lastUpdated: 2022-09-30 12:20:46 -07
+    lastUpdated: 2022-10-17 8:25:12 -07
 
     nickname: Marching Broncos
 
     directors:
-    -   "Roberto Garcia-Leiva"
+    -   Roberto Garcia-Leiva
 
     staff:
-    -   title: "auxilliary director"
+    -   title: guard instructor
         members:
-        -   "Abby Delanoy"
+        -   Abby Delanoy
 
     leaders:
     -   title: "drum major"
@@ -25,12 +25,17 @@ parade:
         -   "Daniel Catapang"
         -   "Ahmed Alhakem"
     
-    -   title: "assistant drum major"
+    -   title: percussion captain
         members:
-        -   "Aaron Baack"
-
-    music: "National Emblem by Edwin Eugene Bagley"
+        -   Woosup Kim
+    
+    music: National Emblem by E.E. Bagley, arranged by Calvin Custer
 
     notes: >
-        The Marching Broncos would like to thank Foothill Band Review’s Event Planners for organizing this wonderful parade event,
-        and to also thank the Northgate Instrumental Music Booster for their continued program support.
+        The Marching Broncos are happy to be back at the Foothill Band Review.
+        After a COVID hiatus, they competed in the 1A division last year, earning three First Place awards at their three competitions.
+        Coming back this year, they are incredibly happy to see the continual growth of the band, and adding a color guard to the
+        program this year has been one of the highlights of the season.
+        The Broncos would like to thank Foothill and Amador Valley High for hosting this wonderful event, and the Northgate Instrumental
+        Music Boosters for their continuous and relentless support.
+        Thanks to you, we are Bronco Strong!
