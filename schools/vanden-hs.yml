@@ -3,10 +3,9 @@ name: Vanden High School
 city: Fairfield, CA
 
 fieldshow:
-    # TEMPORARY taken from NCBA 2022 database
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2022-10-18 10:54:07 -07
 
-    nickname: Viking Marching Band
+    nickname: Vanden Viking Band
 
     directors: 
     -   Troy Symington
@@ -16,19 +15,19 @@ fieldshow:
         members:
         -   Thomas Hollins
 
-    -   title: bass drum tech
-        members:
-        -   Felicia Ward
-
     -   title: snare tech
         members:
         -   Logan VanKatwyk
 
-    -   title: colorguard caption head
+    -   title: bass tech
+        members:
+        -   Felicia Ward
+
+    -   title: guard caption head
         members:
         -   Nicky Carlos
 
-    -   title: colorguard tech
+    -   title: guard tech
         members:
         -   Megan Honeychurch
 
@@ -42,16 +41,45 @@ fieldshow:
         -   Natalyce Zehms
         -   Ashley Zamora
 
-    -   title: percussion captains
+    -   title: percussion captain
         members:
         -   David Cloutier
+
+    -   title: high winds section leader
+        members:
+        -   Elise Carr
+
+    -   title: low winds section leaders
+        members:
+        -   Hannah Fawson
+        -   Abel Roseland
+
+    -   title: high brass section leader and assistant drum major
+        members:
+        -   Faustina Ramoso
+
+    -   title: low brass section leader
+        members:
+        -   Hursel Hanks
+
+    -   title: front ensemble section leader
+        members:
+        -   Janelle Barker
+
+    -   title: snare captain
+        members:
         -   Nikka Clerici (Nikka clehr-EE-chee)
+
+    -   title: equipment manager
+        members:
+        -   Aidan Ramsell 
 
     program: Chronometry
 
-    music: 
+    music: music composed by Key Poulan (KEE POH-lan)
 
-    description: 
+    description: >
+        A journey through time and clockwork. 
 
-    notes: 
-    
+    notes: >
+        The Vanden Viking Band would like to thank our Viking band boosters and all of our wonderful parents who make this possible.     

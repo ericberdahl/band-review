@@ -3,8 +3,7 @@ name: Tracy High School
 city: Tracy, CA
 
 parade:
-    # TEMPORARY taken from NCBA 2022 database
-    lastUpdated: 2021-10-07 16:05:18 -07
+    lastUpdated: 2022-10-18 8:38:06 -08
 
     nickname: &band-nickname "Pride of Tracy, Tracy High Marching Band and Color Guard"
 
@@ -12,13 +11,16 @@ parade:
     -   Jacob Cortez
 
     staff:
+    -   title: instructed by
+        members:
+        -   Alayna Ontai
 
     leaders:
     -   title: drum major
         members:
         -   Kamron Qasimi
         
-    -   title: auxilliary captain
+    -   title: color guard captain
         members:
         -   Michael Gregonis
 
@@ -28,18 +30,18 @@ parade:
 
     music: Golden Gate by Edwin Franko Goldman
 
-    notes:
+    notes: >
+        The Pride of Tracy would like to thank the Band Boosters for their constant support and committment to helping out with the program/band.
 
 fieldshow:
-    # TEMPORARY taken from NCBA 2022 database
-    lastUpdated: 2018-10-04 14:48:00 -07
+    lastUpdated: 2022-10-18 8:38:06 -08
 
     nickname: *band-nickname
 
     directors: *band-review-directors
 
     staff:
-    -   title: brass tech
+    -   title: instructed by
         members:
         -   Alayna Ontai
 
@@ -49,10 +51,6 @@ fieldshow:
         -   Kamron Qasimi
         -   Gabriel Jarata
         
-    -   title: auxilliary captain
-        members:
-        -   Michael Gregonis
-
     -   title: percussion captain
         members:
         -   Francisco Peralta
@@ -62,8 +60,10 @@ fieldshow:
     music: >
 
     notes: >
+        The Pride of Tracy says thank you to the students wanting to bring back field show at our school for the first time in 4 years.
+        Thank you to the Band Boosters for constantly supporting the program and students.
 
 concert:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2022-10-18 8:38:06 -08
 
-    nickname: Concert Band
+    nickname: Tracy High School Symphonic Band
