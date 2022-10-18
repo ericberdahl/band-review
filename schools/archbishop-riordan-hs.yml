@@ -3,28 +3,24 @@ name: Archbishop Riordan High School
 city: San Francisco, CA
 
 parade:
-    # TEMPORARY taken from NCBA 2022 database
-    lastUpdated: 2021-10-06 00:00:32 -07
+    lastUpdated: 2022-10-18 8:00:37 -07
 
-    nickname: Crusader Marching Band
+    nickname: Archbishop Riordan Marching Band
 
     directors:
     -   Kyle Hildebrant
     -   Lance Ohnmeiss (Lance ON-meess)
 
     staff:
-    -   title: instructed by
+    -   title: percussion coaches
         members:
         -   Liam Kinsella
         -   Matt Gallegos
 
-    -   title: percussion instructor
-        members:
-        -   Audrey Lai
-
-    -   title: color guard instructor
+    -   title: guard coaches
         members:
         -   Brian Coon
+        -   Audrey Lai
 
     leaders:
     -   title: drum majors
@@ -40,14 +36,18 @@ parade:
         members:
         -   Chris Enriquez
 
-    music: Onward! by Ernst Luthold
+    music: Onward by Ernst Luthold
 
     notes: >
+        Riordan High School is a co-ed Marianist Private Catholic High School in the Marianist Tradition.
+        The Riordan Band program consists of students where 80% of the students you see today began playing instruments their
+        freshman year of high school in an accelerated beginning instrumental music program.
+        The Riordan Band is proud to announce that they have been accepted to perform in the 2024 Roman New Years Day Parade on January 1st, 2024!
 
 concert:
-    lastUpdated: 2019-10-16 12:01:13 -07
+    lastUpdated: 2022-10-18 8:00:37 -07
 
-    nickname: "Archbishop Riordan High School Concert Band"
+    nickname: Archbishop Riordan Concert Band
 
 winterpercussion:
     lastUpdated: 2019-03-14 15:06:27 -07
