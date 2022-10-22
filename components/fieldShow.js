@@ -16,7 +16,7 @@ function AnthemPerformer({ unit }) {
         <>
             <h2>Field Show - Anthem Performer</h2>
             <p>
-                And now, please rise, remove your caps, give respect to the colors flying at the north end of the field,
+                And now, please rise, remove your caps, give attention and respect to the colors flying at the north end of the field,
                 and enjoy our National Anthem performed by {unit.performer}.
             </p>
         </>
