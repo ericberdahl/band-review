@@ -54,18 +54,15 @@ function School({ unit, show }) {
             <Note>Last updated {DateTime.fromISO(unit.lastUpdated).toLocaleString(DateTime.DATETIME_FULL)}</Note>
             <p>Now taking the field is{unit.isHost && ' your host,'} the {unit.nickname}, from {unit.schoolName} in {unit.city}.</p>
             <Leadership unit={unit}/>
-            {unit.music &&
+            {unit.program &&
                 <p>
-                    The {unit.nickname}'s program features {unit.music}.
+                    The {unit.nickname} will perform their program, {unit.program}{unit.music && <>, featuring {unit.music}</>}.
                 </p>
             }
             {unit.notes && <p>{unit.notes}</p>}
             {!unit.notes && <Note>{unit.schoolName} has no parade notes.</Note>}
             <p>
                 <em>(Wait for cue from T&amp;P judge):</em> Drum Major, is your band ready?
-            </p>
-            <p>
-                <em>(After drum major salute):</em> Presenting their {year} field show, {unit.program}, {unit.nickname}, you may now take the field in {appearance}!
             </p>
         </div>
     )
@@ -112,7 +109,7 @@ function Awards({unit, show, unitCounts})
         <p>
             Whether you're from Foothill or cheering your home school, you probably know how much work it takes to hold a successful band review, where student performers can share their talent with and their love of music.
             Today, {unitCounts.parade} bands marched in parade, {unitCounts.concert} performed in concert, and {unitCounts.fieldShow} presented field shows.
-            All this would not happen without the work of several hundred student and parent volunteers.
+            All this would not happen without the work of a small army of student and parent volunteers.
             Foothill High School thanks everyone who contributed to the success of today's Band Review.
         </p>
     </>);

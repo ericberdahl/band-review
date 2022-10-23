@@ -15,7 +15,7 @@ function PresentationOfColors({ unit }) {
         <>
             <h2>Parade - Presentation of the Colors</h2>
             <p>
-                As we start our parade, please rise, remove your caps, and give your attention and respect to the Presentation of the Colors by {unit.presenter}.
+                As we start our parade, please rise, remove your caps, and give your attention and respect to our colors, presented by {unit.presenter}.
             </p>
         </>
     );
