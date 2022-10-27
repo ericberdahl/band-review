@@ -4,9 +4,7 @@ import { getWinterShow } from '../common/winterShow';
 
 import { DateTime } from "luxon";
 
-export default function WinterShow({ winterShow }) {
-    const generationDate = DateTime.now();
-
+export default function WinterShow({ winterShow, generationDate }) {
     const showYear = DateTime.fromISO(winterShow.show.date).year;
 
     const percussionSchools = winterShow.winterPercussion.lineup.filter((li) => li.unitType == 'winterPercussionUnit')
@@ -25,7 +23,7 @@ export default function WinterShow({ winterShow }) {
             <Chapter>
                 <h1>{winterShow.show.citation}: {DateTime.fromISO(winterShow.show.date).toLocaleString(DateTime.DATE_FULL)}</h1>
                 <p>{winterShow.announcer.name} &lt;{winterShow.announcer.email}&gt;</p>
-                <p>v{winterShow.version}, {generationDate.toLocaleString(DateTime.DATETIME_FULL)} </p>
+                <p>v{winterShow.version}, {DateTime.fromISO(generationDate).toLocaleString(DateTime.DATETIME_FULL)} </p>
 
                 <h2>Winter Percussion - Checkup</h2>
 
@@ -59,7 +57,8 @@ export async function getStaticProps() {
     const winterShow = await getWinterShow();
 
     const props = {
-        winterShow: await winterShow.getStaticProps()
+        winterShow:     await winterShow.getStaticProps(),
+        generationDate: DateTime.now().toISO(),
     };
 
     return {

@@ -5,9 +5,7 @@ import { getBandReview } from '../common/bandReview';
 
 import { DateTime } from "luxon";
 
-export default function FieldShowBook({ bandReview }) {
-    const generationDate = DateTime.now();
-
+export default function FieldShowBook({ bandReview, generationDate }) {
     const showYear = DateTime.fromISO(bandReview.show.date).year;
 
     const fieldShowSchools = bandReview.fieldShow.lineup.filter((li) => li.unitType == 'fieldShowUnit')
@@ -21,7 +19,7 @@ export default function FieldShowBook({ bandReview }) {
             <Chapter>
                 <h1>{bandReview.show.citation} : Field Show Announcer's Book: {DateTime.fromISO(bandReview.show.date).toLocaleString(DateTime.DATE_FULL)}</h1>
                 <p>{bandReview.announcer.name} &lt;{bandReview.announcer.email}&gt;</p>
-                <p>v{bandReview.version}, {generationDate.toLocaleString(DateTime.DATETIME_FULL)} </p>
+                <p>v{bandReview.version}, {DateTime.fromISO(generationDate).toLocaleString(DateTime.DATETIME_FULL)} </p>
 
                 {fieldShowMissingData.length > 0 && <>
                     <h2>Field Show Competition - Checkup</h2>
@@ -54,7 +52,8 @@ export async function getStaticProps() {
     const bandReview = await getBandReview();
 
     const props = {
-        bandReview: await bandReview.getStaticProps()
+        bandReview:     await bandReview.getStaticProps(),
+        generationDate: DateTime.now().toISO(),
     };
 
     return {

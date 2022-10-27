@@ -5,9 +5,9 @@ import { getBandReview } from '../common/bandReview';
 
 import { DateTime } from "luxon";
 
-export default function BandReview({ bandReview }) {
-    const generationDate = DateTime.now();
+var count = 0;
 
+export default function BandReview({ bandReview, generationDate }) {
     const showYear = DateTime.fromISO(bandReview.show.date).year;
 
     const paradeSchools = bandReview.parade.lineup.filter((li) => li.unitType == 'paradeUnit')
@@ -26,7 +26,7 @@ export default function BandReview({ bandReview }) {
             <Chapter>
                 <h1>{bandReview.show.citation}: {DateTime.fromISO(bandReview.show.date).toLocaleString(DateTime.DATE_FULL)}</h1>
                 <p>{bandReview.announcer.name} &lt;{bandReview.announcer.email}&gt;</p>
-                <p>v{bandReview.version}, {generationDate.toLocaleString(DateTime.DATETIME_FULL)} </p>
+                <p>v{bandReview.version}, {DateTime.fromISO(generationDate).toLocaleString(DateTime.DATETIME_FULL)} </p>
 
                 <h2>Table of Contents</h2>
                 <ol>
@@ -68,7 +68,9 @@ export async function getStaticProps() {
     const bandReview = await getBandReview();
 
     const props = {
-        bandReview: await bandReview.getStaticProps()
+        bandReview:     await bandReview.getStaticProps(),
+        generationDate: DateTime.now().toISO(),
+
     };
 
     return {
