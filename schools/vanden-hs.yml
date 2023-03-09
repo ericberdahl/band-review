@@ -2,13 +2,16 @@ name: Vanden High School
 
 city: Fairfield, CA
 
+staff:
+-   &troy-symington Troy Symington
+
 fieldshow:
     lastUpdated: 2022-10-18 10:54:07 -07
 
     nickname: Vanden Viking Band
 
     directors: 
-    -   Troy Symington
+    -   *troy-symington
 
     staff:
     -   title: percussion caption head
@@ -82,4 +85,39 @@ fieldshow:
         A journey through time and clockwork. 
 
     notes: >
-        The Vanden Viking Band would like to thank our Viking band boosters and all of our wonderful parents who make this possible.     
+        The Vanden Viking Band would like to thank our Viking band boosters and all of our wonderful parents who make this possible.
+
+winterpercussion:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: Vanden Winter Percussion
+
+    directors:
+    -   *troy-symington
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+
+winterguard:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: 
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 

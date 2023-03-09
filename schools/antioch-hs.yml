@@ -2,6 +2,9 @@ name: Antioch High School
 
 city: Antioch, CA
 
+staff:
+-   &courtney-trantham Courtney Trantham
+
 students:
 -   &jose-cordova Jose Cordova
 -   &kassidy-jennings Kassidy Jennings
@@ -14,7 +17,7 @@ parade:
     nickname: &band-review-nickname Pride of Antioch Panther Marching Band and Color Guard
 
     directors: &band-review-directors
-    -   Courtney Trantham
+    -   *courtney-trantham
 
     staff: &band-review-staff
     -   title: percussion instructor
@@ -88,6 +91,24 @@ fieldshow:
 
     notes: >
         The band would like to give a huge thank you to ABBA for everything they do to support the program!
+
+winterpercussion:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: Antioch High School Winter Percussion
+
+    directors:
+    -   *courtney-trantham
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
 
 winterguard:
     lastUpdated: 2019-03-13 12:27:59 -07

@@ -1,14 +1,17 @@
 name: Rancho Cotate High School
 
 city: Rohnert Park, CA
-    
+
+staff:
+-   &dustin-friel Dustin Friel
+
 fieldshow:
     lastUpdated: 2022-10-14 10:21:24 -07
 
     nickname: RCHS Marching Band
 
     directors: 
-    -   Dustin Friel
+    -   *dustin-friel
 
     staff: 
     -   title: instructed by
@@ -47,3 +50,39 @@ fieldshow:
 
     notes: >
         RCHS Marching Band says thank you to all parents/guardians, music boosters, and staff for your support this season. 
+
+winterpercussion:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: Rancho Cotate High School Winterline
+
+    directors:
+    -   *dustin-friel
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+
+winterguard:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: Rancho Cotate High School Winterguard
+
+    directors:
+    -   *dustin-friel
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 

@@ -2,6 +2,8 @@ name: Linden High School
 
 city: Linden, CA
 
+staff:
+-   &troy-rexelle Troy Rexelle (rex-EHL)
 
 parade:
     lastUpdated: 2022-10-10 13:19:54 -07
@@ -9,7 +11,7 @@ parade:
     nickname: Lion Regiment
 
     directors:
-    -   Troy Rexelle (rex-EHL)
+    -   *troy-rexelle
 
     staff: 
     -   title: flag instructor
@@ -40,3 +42,39 @@ parade:
     notes: >
         This will be the first time in over 20 years that Linden High School has competed in Parade competition.
         They like to thank the Linden Band Boosters and all the parents for their support. 
+
+winterpercussion:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: Linden High School Winter Percussion
+
+    directors:
+    -   *troy-rexelle
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+
+winterguard:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: Linden High School Winter Guard
+
+    directors:
+    -   *troy-rexelle
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 

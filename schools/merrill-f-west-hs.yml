@@ -2,13 +2,16 @@ name: "Merrill F. West High School"
 
 city: "Tracy, CA"
 
+staff:
+-   &jonathan-raman "Jonathan Raman (Jonathan RAY-man)"
+
 parade:
     lastUpdated: 2022-10-17 17:24:46 -07
 
     nickname: Wolf Pack Marching Band
 
     directors:
-    -   "Jonathan Raman (Jonathan RAY-man)"
+    -   *jonathan-raman
 
     staff:
     -   title: "color guard instructor"
@@ -41,3 +44,39 @@ concert:
     lastUpdated: 2019-09-20 12:16:08 -07
 
     nickname: "West High Wolf Pack Symphonic Band"
+
+winterpercussion:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: West Wolf Pack Drumline
+
+    directors:
+    -   *jonathan-raman
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+
+winterguard:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: West Wolf Pack Color Guard
+
+    directors:
+    -   *jonathan-raman
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 

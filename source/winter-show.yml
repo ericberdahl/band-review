@@ -3,35 +3,39 @@ announcer:
     email: "berdahl@serendipity.org"
 
 show:
-    year: 2022
-    date: "2022-03-28"
-    citation: "2022 Foothill High School Winter Show"
+    year: 2023
+    date: "2022-03-25"
+    citation: "2023 Foothill High School Winter Show"
 
 next_show:
-    date: "2023-03-25"
-    citation: "2023 Foothill High School Winter Show"
+    date: "2024-03-23"
+    citation: "2024 Foothill High School Winter Show"
 
 units:
 -   "winterpercussion"
 -   "winterguard"
 
-version: "1.0"
+version: "2023.03.08"
 
 winterpercussion:
-    start_time: "10:00am"
+    start_time: "9:00am"
 
     lineup:
-    -   ref: "granada-hs"
-    -   ref: "archbishop-riordan-hs"
-    -   ref: "petaluma-hs"
+    -   ref: "linden-hs"
+    -   ref: "cottonwood-creek"
+    -   ref: "pinole-valley-hs"
     -   ref: "phillip-burton-hs"
-    -   ref: "millennium-hs"
-    -   break: 20
-    -   ref: "dublin-hs"
-    -   ref: "deer-valley-hs"
+    -   ref: "pleasant-valley-hs"
+    -   ref: "merrill-f-west-hs"
+    -   ref: "petaluma-hs"
+    -   break: 10
     -   ref: "mission-sj-hs"
+    -   ref: "nevada-union-hs"
     -   ref: "del-mar-hs"
-    -   ref: "stockton-usd-bands"
+    -   ref: "antioch-hs"
+    -   ref: "deer-valley-hs"
+    -   ref: "rancho-cotate-hs"
+    -   ref: "vanden-hs"
     -   ref: "foothill-hs"
 
     sponsors:
@@ -44,58 +48,38 @@ winterpercussion:
 #                presenter: "Dana Chabrier"
 #                dedication:
 #                message: 
-        -   place: "Percussion Regional AA - 1st place"
-            sponsors:
-            -   sponsor: "Shawn Ambwani & Heather Hoyle"
-                dedication: "to Ashleigh Reyes"
-                presenter: "Ashleigh Reyes"
-                message: >
-                    Happy 15th Birthday.
-                    Love, Shawn Ambwani & Heather Hoyle.
-        -   place: "Percussion Regional AA - 2nd Place"
-            sponsors:
-            -   sponsor: "Shawn Ambwani & Heather Hoyle"
-                dedication: "to Korben Reyes"
-                presenter: "Korben Reyes"
-                message: |
-                    Happy 15th Birthday.
-                    Love, Shawn Ambwani & Heather Hoyle.
-        -   place: "Percussion Regional A - 1st Place"
-            sponsors:
-            -   sponsor: "the Yegneswaran family"
-                dedication: "to Shyla Yegneswaran"
-                presenter: "Shyla Yegneswaran"
-                message: |
-                    Congratulations Shyla on your amazing senior year. We are so proud of you.
-                    Love, the Yegneswaran family.
-        -   place: "Percussion Regional A - 2nd Place"
-            sponsors:
-            -   sponsor: "Akka"
-                dedication: "to Shyla Yegneswaran"
-                presenter: "Shyla Yegneswaran"
-                message: |
-                    Congratulations Shyla. Have an  amazing college experience.
-                    Love, Akka.
 
 winterguard:
     start_time: "1:00pm"
 
     lineup:
-    -   ref: "park-ms"
-    -   ref: "antioch-hs"
-    -   ref: "american-hs"
-    -   ref: "hayward-hs"
-    -   ref: "california-crosspoint"
-    -   ref: "stockton-usd-bands"
-    -   ref: "freedom-hs"
-    -   ref: "del-mar-hs"
-    -   break: 20
-    -   ref: "san-mateo-hs"
-    -   ref: "deer-valley-hs"
-    -   ref: "american-canyon-hs"
-    -   ref: "mission-sj-hs"
-    -   ref: "west-campus-hs"
     -   ref: "foothill-hs"
+    -   ref: "harvest-park-ms"
+    -   ref: "park-ms"
+    -   ref: "harvest-park-ms"
+        unit: winterguard2
+    -   ref: "cottonwood-creek"
+    -   ref: "wells-ms"
+    -   break: 10
+    -   ref: "hayward-hs"
+    -   ref: "alameda-hs"
+    -   ref: "yuba-city-hs"
+    -   ref: "nevada-union-hs"
+    -   ref: "american-hs"
+    -   ref: "turlock-christian-hs"
+    -   ref: "linden-hs"
+    -   ref: "river-city-hs"
+    -   ref: "california-crosspoint"
+    -   ref: "del-mar-hs"
+    -   break: 10
+    -   ref: "pinole-valley-hs"
+    -   ref: "merrill-f-west-hs"
+    -   ref: "deer-valley-hs"
+    -   ref: "mission-sj-hs"
+    -   ref: "rancho-cotate-hs"
+    -   ref: "american-canyon-hs"
+    -   ref: "san-mateo-hs"
+    -   ref: "century-hs"
 
     sponsors:
         general: *winter-show-sponsors
