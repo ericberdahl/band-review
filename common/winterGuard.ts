@@ -10,6 +10,7 @@ import fs from 'fs/promises';
 
 type SerializedWinterGuardUnitRef = {
     ref : string;
+    unit? : string;
 }
 
 type SerializedFieldShowLineupItem = SerializedWinterGuardUnitRef | SerializedBreakUnit;
@@ -56,7 +57,7 @@ export class WinterGuard {
 
         result.lineup.push(...await Promise.all(data.lineup.map(async (li) => {
             if (isWinterGuardUnitRef(li)) {
-                return WinterGuardUnit.deserialize(await readSerializedUnitForSchool<SerializedWinterGuardUnit>(li.ref))
+                return WinterGuardUnit.deserialize(await readSerializedUnitForSchool<SerializedWinterGuardUnit>(li.ref), li.unit)
             }
             else {
                 return BreakUnit.deserialize(li);

@@ -10,6 +10,7 @@ import fs from 'fs/promises';
 
 type SerializedWinterPercussionUnitRef = {
     ref : string;
+    unit? : string;
 }
 
 type SerializedFieldShowLineupItem = SerializedWinterPercussionUnitRef | SerializedBreakUnit;
@@ -56,7 +57,7 @@ export class WinterPercussion {
 
         result.lineup.push(...await Promise.all(data.lineup.map(async (li) => {
             if (isWinterPercussionUnitRef(li)) {
-                return WinterPercussionUnit.deserialize(await readSerializedUnitForSchool<SerializedWinterPercussionUnit>(li.ref))
+                return WinterPercussionUnit.deserialize(await readSerializedUnitForSchool<SerializedWinterPercussionUnit>(li.ref), li.unit)
             }
             else {
                 return BreakUnit.deserialize(li);
