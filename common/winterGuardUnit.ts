@@ -59,7 +59,7 @@ export class WinterGuardUnit {
         result.schoolName = data.name || '';
 
         const unit = data[unitKey];
-        assert.ok(unit, `${data.name} has no winter guard unit`);
+        assert.ok(unit, `${data.name} has no winter guard unit named "${unitKey}"`);
 
         assert.ok(unit.lastUpdated, `${data.name} winter guard unit has no lastUpdated`);
         result.lastUpdated = DateTime.fromFormat(unit.lastUpdated, 'yyyy-MM-dd H:mm:ss Z');

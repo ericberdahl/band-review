@@ -53,7 +53,7 @@ export class ParadeUnit {
         const result = new ParadeUnit();
 
         const unit = data[unitKey];
-        assert.ok(unit, `${data.name} has no parade unit`);
+        assert.ok(unit, `${data.name} has no parade unit named "${unitKey}"`);
         assert.ok(unit.directors, `${data.name}'s parade unit has no directors`);
         
         result.lastUpdated = DateTime.fromFormat(unit.lastUpdated, 'yyyy-MM-dd H:mm:ss Z');

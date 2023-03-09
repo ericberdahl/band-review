@@ -59,7 +59,7 @@ export class FieldShowUnit {
         const result = new FieldShowUnit();
 
         const unit = data[unitKey];
-        assert.ok(unit, `${data.name} has no field show unit`);
+        assert.ok(unit, `${data.name} has no field show unit named "${unitKey}"`);
 
         result.city = data.city;
         result.schoolName = data.name || '';
