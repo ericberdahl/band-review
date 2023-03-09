@@ -21,17 +21,14 @@ export default function WinterGuardBook({ winterShow, generationDate }) {
                 <p>{winterShow.announcer.name} &lt;{winterShow.announcer.email}&gt;</p>
                 <p>v{winterShow.version}, {DateTime.fromISO(generationDate).toLocaleString(DateTime.DATETIME_FULL)} </p>
 
-                <h2>Winter Guard Competition - Checkup</h2>
+                {guardMissingData.length > 0 && <>
+                    <h2>Winter Guard Competition - Checkup</h2>
 
-                <h3>{guardMissingData.length} Schools Missing Winter Guard Data</h3>
-                {guardMissingData.map((s) => (
-                    <p key={s.schoolName}>{s.schoolName}</p>
-                ))}
-
-                <h3>{guardWithData.length} Schools with Winter Guard Data</h3>
-                {guardWithData.map((s) => (
-                    <p key={s.schoolName}>{s.schoolName}</p>
-                ))}
+                    <h3>{guardMissingData.length} Schools Missing Winter Guard Data</h3>
+                    {guardMissingData.map((s) => (
+                        <p key={s.schoolName}>{s.schoolName}</p>
+                    ))}
+                </>}
             </Chapter>
 
             <WinterGuard winterGuard={winterShow.winterGuard} show={winterShow.show}/>

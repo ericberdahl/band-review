@@ -1,4 +1,5 @@
 import Chapter from '../components/chapter';
+import PageLink from '../components/pageLink';
 
 import { getWinterShow } from '../common/winterShow';
 
@@ -25,7 +26,15 @@ export default function WinterShow({ winterShow, generationDate }) {
                 <p>{winterShow.announcer.name} &lt;{winterShow.announcer.email}&gt;</p>
                 <p>v{winterShow.version}, {DateTime.fromISO(generationDate).toLocaleString(DateTime.DATETIME_FULL)} </p>
 
-                <h2>Winter Percussion - Checkup</h2>
+                <h2>Table of Contents</h2>
+                <ol>
+                    <li><PageLink page="winterPercussionBook">Winter Percussion</PageLink></li>
+                    <li><PageLink page="winterGuardBook">Winter Guard</PageLink></li>
+                    <li><a href="#perc-checkup">Winter Percussion - Checkup</a></li>
+                    <li><a href="#guard-checkup">Winter Guard - Checkup</a></li>
+                </ol>
+
+                <h2 id="perc-checkup">Winter Percussion - Checkup</h2>
 
                 <h3>{percussionMissingData.length} Schools Missing Winter Percussion Data</h3>
                 {percussionMissingData.map((s) => (
@@ -37,7 +46,7 @@ export default function WinterShow({ winterShow, generationDate }) {
                     <p key={s.schoolName}>{s.schoolName}</p>
                 ))}
 
-                <h2>Winter Guard - Checkup</h2>
+                <h2 id="guard-checkup">Winter Guard - Checkup</h2>
 
                 <h3>{guardMissingData.length} Schools Missing Winter Guard Data</h3>
                 {guardMissingData.map((s) => (

@@ -21,17 +21,14 @@ export default function WinterPercussionBook({ winterShow, generationDate }) {
                 <p>{winterShow.announcer.name} &lt;{winterShow.announcer.email}&gt;</p>
                 <p>v{winterShow.version}, {DateTime.fromISO(generationDate).toLocaleString(DateTime.DATETIME_FULL)} </p>
 
-                <h2>Winter Percussion Competition - Checkup</h2>
+                {percussionMissingData.length > 0 && <>
+                    <h2>Winter Percussion Competition - Checkup</h2>
 
-                <h3>{percussionMissingData.length} Schools Missing Winter Percussion Data</h3>
-                {percussionMissingData.map((s) => (
-                    <p key={s.schoolName}>{s.schoolName}</p>
-                ))}
-
-                <h3>{percussionWithData.length} Schools with Winter Percussion Data</h3>
-                {percussionWithData.map((s) => (
-                    <p key={s.schoolName}>{s.schoolName}</p>
-                ))}
+                    <h3>{percussionMissingData.length} Schools Missing Winter Percussion Data</h3>
+                    {percussionMissingData.map((s) => (
+                        <p key={s.schoolName}>{s.schoolName}</p>
+                    ))}
+                </>}
             </Chapter>
 
             <WinterPercussion winterPercussion={winterShow.winterPercussion} show={winterShow.show} nextShow={winterShow.nextShow} winterGuard={winterShow.winterGuard}/>
