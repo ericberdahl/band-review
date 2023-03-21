@@ -2,14 +2,10 @@ import { AnthemPerformerUnit, AnthemPerformerUnitStaticProps, SerializedAnthemPe
 import { AwardsUnit, AwardsUnitStaticProps, SerializedAwardsUnit } from './awardsUnit';
 import { BreakUnit, BreakUnitStaticProps, SerializedBreakUnit } from './breakUnit';
 import { FieldShowUnit, FieldShowUnitStaticProps, SerializedFieldShowUnit } from './fieldShowUnit';
+import { readSerializedUnitForSchool } from './showUnit'
 import { CompetitionSponsors, CompetitionSponsorsStaticProps, SerializedCompetitionSponsors } from './sponsor';
 
-import sanitize from "sanitize-filename";
-import yaml from 'yaml';
-
 import { strict as assert } from 'assert';
-import path from 'path';
-import fs from 'fs/promises';
 
 type SerializedFieldShowUnitRef = {
     ref : string;
@@ -48,19 +44,6 @@ export type FieldShowStaticProps = {
 }
 
 type FieldShowLineupItem = AnthemPerformerUnit | AwardsUnit | BreakUnit | FieldShowUnit;
-
-async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
-    const filename = sanitize(schoolRef + '.yml');
-
-    try {
-        return yaml.parse(await fs.readFile(path.join('schools', filename), 'utf8'));
-    }
-    catch (e)
-    {
-        console.error(`Exception parsing field show for school ${schoolRef}`);
-        throw e;
-    }
-}
 
 export class FieldShow {
     readonly lineup : FieldShowLineupItem[] = [];

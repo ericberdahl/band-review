@@ -2,14 +2,10 @@ import { BreakUnit, BreakUnitStaticProps, SerializedBreakUnit } from "./breakUni
 import { ColorsUnit, ColorsUnitStaticProps, SerializedColorsUnit } from "./colorsUnit";
 import { GrandMarshalUnit, GrandMarshalUnitStaticProps, SerializedGrandMarshalUnit } from "./grandMarshalUnit";
 import { ParadeUnit, ParadeUnitStaticProps, SerializedParadeUnit } from "./paradeUnit";
+import { readSerializedUnitForSchool } from './showUnit'
 import { CompetitionSponsors, CompetitionSponsorsStaticProps, SerializedCompetitionSponsors } from "./sponsor";
 
-import sanitize from "sanitize-filename";
-import yaml from 'yaml';
-
 import { strict as assert } from 'assert';
-import path from 'path';
-import fs from 'fs/promises';
 
 type SerializedParadeUnitRef = {
     ref : string;
@@ -50,19 +46,6 @@ export type ParadeStaticProps = {
 }
 
 type ParadeLineupItem = ParadeUnit | BreakUnit | ColorsUnit | GrandMarshalUnit;
-
-async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
-    const filename = sanitize(schoolRef + '.yml');
-
-    try {
-        return yaml.parse(await fs.readFile(path.join('schools', filename), 'utf8'));
-    }
-    catch (e)
-    {
-        console.error(`Exception parsing parade for school ${schoolRef}`);
-        throw e;
-    }
-}
 
 export class Parade {
     readonly awardsLocation : string;

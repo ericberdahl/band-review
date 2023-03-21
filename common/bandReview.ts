@@ -30,7 +30,14 @@ type BandReviewStaticProps = {
 };
 
 export async function getBandReview() : Promise<BandReview> {
-    return BandReview.deserialize(yaml.parse(await fs.readFile(path.join('source', 'band-review.yml'), 'utf8')));
+    try {
+        return BandReview.deserialize(yaml.parse(await fs.readFile(path.join('source', 'band-review.yml'), 'utf8')));
+    }
+    catch (e)
+    {
+        console.error(`Exception parsing band review data`);
+        throw e;
+    }
 }
 
 class BandReview {

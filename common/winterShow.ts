@@ -28,7 +28,14 @@ type BandReviewStaticProps = {
 };
 
 export async function getWinterShow() : Promise<WinterShow> {
-    return WinterShow.deserialize(yaml.parse(await fs.readFile(path.join('source', 'winter-show.yml'), 'utf8')));
+    try {
+        return WinterShow.deserialize(yaml.parse(await fs.readFile(path.join('source', 'winter-show.yml'), 'utf8')));
+    }
+    catch (e)
+    {
+        console.error(`Exception parsing winter show data`);
+        throw e;
+    }
 }
 
 class WinterShow {

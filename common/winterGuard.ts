@@ -1,12 +1,7 @@
 import { BreakUnit, BreakUnitStaticProps, SerializedBreakUnit } from './breakUnit';
 import { WinterGuardUnit, WinterGuardUnitStaticProps, SerializedWinterGuardUnit } from './winterGuardUnit';
+import { readSerializedUnitForSchool } from './showUnit'
 import { CompetitionSponsors, CompetitionSponsorsStaticProps, SerializedCompetitionSponsors } from './sponsor';
-
-import sanitize from "sanitize-filename";
-import yaml from 'yaml';
-
-import path from 'path';
-import fs from 'fs/promises';
 
 type SerializedWinterGuardUnitRef = {
     ref : string;
@@ -34,12 +29,6 @@ export type WinterGuardStaticProps = {
 }
 
 type WinterGuardLineupItem = WinterGuardUnit | BreakUnit;
-
-async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
-    const filename = sanitize(schoolRef + '.yml');
-
-    return yaml.parse(await fs.readFile(path.join('schools', filename), 'utf8'));
-}
 
 export class WinterGuard {
     readonly lineup : WinterGuardLineupItem[] = [];

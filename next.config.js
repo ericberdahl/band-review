@@ -5,7 +5,7 @@ module.exports = (phase, { defaultConfig }) => {
     const nextConfig = {
         serverRuntimeConfig: {
             isExport: (PHASE_PRODUCTION_BUILD == phase),
-            deployedBasePath: '/foothill/2022'
+            deployedBasePath: '/foothill/2023'
         }
     };
 

@@ -1,11 +1,6 @@
 import { BreakUnit, BreakUnitStaticProps, SerializedBreakUnit } from './breakUnit';
 import { ConcertUnit, ConcertUnitStaticProps, SerializedConcertUnit } from './concertUnit';
-
-import sanitize from "sanitize-filename";
-import yaml from 'yaml';
-
-import path from 'path';
-import fs from 'fs/promises';
+import { readSerializedUnitForSchool } from './showUnit'
 
 type SerializedConcertUnitRef = {
     ref : string;
@@ -29,12 +24,6 @@ export type ConcertStaticProps = {
 }
 
 type ConcertLineupItem = ConcertUnit | BreakUnit;
-
-async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
-    const filename = sanitize(schoolRef + '.yml');
-
-    return yaml.parse(await fs.readFile(path.join('schools', filename), 'utf8'));
-}
 
 export class Concert {
     readonly lineup : ConcertLineupItem[] = [];

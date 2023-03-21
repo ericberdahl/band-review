@@ -29,15 +29,20 @@ function RoleList({ roles }) {
 }
 
 export default function Leadership({ unit }) {
+    let hasLeadership = (0 < unit.directors.length
+                        && 0 < unit.staff.length
+                        && 0 < unit.leaders.length);
     return (
         <>
-            <>The {unit.nickname} is </>
-            <CommaSeparatedList>
-                {0 < unit.directors.length && <Directors directors={unit.directors}/>}
-                {0 < unit.staff.length && <RoleList roles={unit.staff}/>}
-                {0 < unit.leaders.length && <>led by <RoleList roles={unit.leaders}/></>}
-            </CommaSeparatedList>
-            .
+            {hasLeadership && <>
+                <>The {unit.nickname} is </>
+                <CommaSeparatedList>
+                    {0 < unit.directors.length && <Directors directors={unit.directors}/>}
+                    {0 < unit.staff.length && <RoleList roles={unit.staff}/>}
+                    {0 < unit.leaders.length && <>led by <RoleList roles={unit.leaders}/></>}
+                </CommaSeparatedList>
+                .
+            </>}
         </>
     );
 }

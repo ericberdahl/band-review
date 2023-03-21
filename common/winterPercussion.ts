@@ -1,12 +1,7 @@
 import { BreakUnit, BreakUnitStaticProps, SerializedBreakUnit } from './breakUnit';
 import { WinterPercussionUnit, WinterPercussionUnitStaticProps, SerializedWinterPercussionUnit } from './winterPercussionUnit';
+import { readSerializedUnitForSchool } from './showUnit'
 import { CompetitionSponsors, CompetitionSponsorsStaticProps, SerializedCompetitionSponsors } from './sponsor';
-
-import sanitize from "sanitize-filename";
-import yaml from 'yaml';
-
-import path from 'path';
-import fs from 'fs/promises';
 
 type SerializedWinterPercussionUnitRef = {
     ref : string;
@@ -34,12 +29,6 @@ export type WinterPercussionStaticProps = {
 }
 
 type WinterPercussionLineupItem = WinterPercussionUnit | BreakUnit;
-
-async function readSerializedUnitForSchool<T>(schoolRef : string) : Promise<T> {
-    const filename = sanitize(schoolRef + '.yml');
-
-    return yaml.parse(await fs.readFile(path.join('schools', filename), 'utf8'));
-}
 
 export class WinterPercussion {
     readonly lineup : WinterPercussionLineupItem[] = [];
