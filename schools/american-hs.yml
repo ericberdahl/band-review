@@ -2,6 +2,10 @@ name: American High School
 
 city: Fremont, CA
 
+staff:
+-   "Jennifer Wong"
+-   "Omar Gomez"
+
 students:
 -   &ashley-nguyen "Ashley Nguyen"
 -   &joshua-wong "Joshua Wong"
@@ -93,28 +97,18 @@ fieldshow:
 
 
 winterguard:
-    lastUpdated: 2019-03-11 22:30:18 -07
+    lastUpdated: 2023-03-23 15:30:00 -08
 
     nickname: "American Eagles Winter Guard"
 
-    directors: *directors
+    directors:
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Jennifer Wong"
-        -   "Omar Gomez"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   *joshua-wong
-        -   *ashley-nguyen
-        -   *alison-zhao
 
-    program: "Resilience"
+    program: "Lucid"
 
-    music: "The Arena by Lindsey Stirling"
+    music: 
 
-    notes: >
-        The American Eagles say thank you to their parent volunteers for their support, and thanks to Foothill for hosting the show.
+    notes: 

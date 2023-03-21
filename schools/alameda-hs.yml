@@ -2,6 +2,9 @@ name: Alameda High School
 
 city: Alameda, CA
 
+staff:
+-   "Tyra Cable"
+
 fieldshow:
     lastUpdated: 1967-12-01 04:30:00 -08
 
@@ -52,18 +55,17 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Alameda High Color Guard
+    nickname: "Alameda High Color Guard"
 
     directors:
-    -   Tyra Cable
 
     staff:
 
     leaders:
 
-    program: 
+    program: "Young and Beautiful"
 
     music: 
 

@@ -2,6 +2,15 @@ name: "Petaluma High School"
 
 city: "Petaluma, CA"
 
+staff:
+-   "Dustin Friel"
+-   "Nick Dibley"
+-   "Abel Moya"
+
+students:
+-   "Kobe Barry"
+-   "Cheyenne Cercos"
+
 parade:
     lastUpdated: 2019-09-26 17:46:49 -07
 
@@ -35,25 +44,16 @@ parade:
         The members of the band would like to thank the Petaluma High School Music Boosters and the uniform moms for making their performance possible today!
 
 winterpercussion:
-    lastUpdated: 2018-01-01 00:00:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: "Petaluma High School Drumline"
+    nickname: "Petaluma Drum Line"
 
-    directors: *directors
+    directors: 
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Dustin Friel"
-        -   "Nick Dibley"
-        -   "Abel Moya"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Kobe Barry"
-        -   "Cheyenne Cercos"
 
-    program: "The Jungle"
+    program: "One Small Step"
 
-    music: "music by Dustin Friel"
+    music: 

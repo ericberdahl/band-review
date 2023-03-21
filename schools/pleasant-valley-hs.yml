@@ -1,6 +1,9 @@
-name: Pleasant Valley High School
+name: "Pleasant Valley High School"
 
-city: Chico, CA
+city: "Chico, CA"
+
+staff:
+-   "Casson Scowcroft"
 
 fieldshow:
     lastUpdated: 1967-12-01 04:30:00 -08
@@ -35,18 +38,17 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Chico Unified Winter Percussion
+    nickname: "Chico Unified Winter Percussion"
 
     directors:
-    -   Casson Scowcroft
 
     staff:
 
     leaders:
 
-    program: 
+    program: "Apocalypto"
 
     music: 
 

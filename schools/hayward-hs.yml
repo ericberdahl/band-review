@@ -5,6 +5,11 @@ city: Hayward, CA
 staff:
 -   "Katrina Granados (Katrina grah-NAH-dohs)"
 -   "Adriano Tecson"
+-   "fuh-TEE-ma Shefa"
+
+students:
+-   "Renee Rothe"
+-   "Nora Kamlin"
 
 parade:
     lastUpdated: 2022-10-17 9:22:31 -07
@@ -40,27 +45,18 @@ parade:
         And thanks to the students who put so much time and energy into the Program...Farmer Pride!
 
 winterguard:
-    lastUpdated: 2019-03-14 10:38:06 -07
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: "Hayward High School Guard"
+    nickname: "Hayward High School Winter Guard"
 
-    directors: *directors
+    directors: 
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "fuh-TEE-ma Shefa"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Renee Rothe"
-        -   "Nora Kamlin"
 
     program: 
 
-    music: "Never Enough by Loren Allred"
+    music: "Kids on the Block"
 
-    notes: >
-        This past year, Hayward High Guard and Band traveled to Anaheim, California to perform in Disneyland.
-        The students were also able to perform in this year's Chinese New Year parade.
+    notes: 

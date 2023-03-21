@@ -1,6 +1,9 @@
-name: Cottonwood Creek School
+name: "Cottonwood Creek School"
 
-city: Dublin, CA
+city: "Dublin, CA"
+
+staff:
+-   "Jasper Tran"
 
 fieldshow:
     lastUpdated: 1967-12-01 04:30:00 -08
@@ -35,36 +38,34 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Coyote Winter Percussion
+    nickname: "Cottonwood Creek Coyote Winter Percussion Ensemble"
 
     directors:
-    -   Jasper Tran
 
     staff:
 
     leaders:
 
-    program: 
+    program: "Back to Bach"
 
     music: 
 
     notes: 
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Coyote Winter Guard
+    nickname: "Cottonwood Creek Coyote Winter Guard"
 
     directors:
-    -   Jasper Tran
 
     staff:
 
     leaders:
 
-    program: 
+    program: "Paint Me a Picture"
 
     music: 
 

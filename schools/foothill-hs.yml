@@ -27,10 +27,12 @@ staff:
 -   &myojin-yang Myojin Yang
 
 students:
+-   "Erin Chang"
 -   &ayla-johnson Ayla Johnson (AY-lah Johnson)
--   &lucy-lee Lucy Lee
 -   &claire-kim "Claire Kim"
+-   &lucy-lee Lucy Lee
 -   &kyra-maeda Kyra Maeda (Kyra MY-eh-dah)
+-   "Nicholas Pinnesault"
 -   &kellen-sowa "Kellen Sowa"
 
 parade:
@@ -146,58 +148,40 @@ fieldshow:
 winterguard:
     isHost: true
 
-    lastUpdated: 2019-03-18 16:09:26 -07
+    lastUpdated: 2023-03-23 15:30:00 -08
 
     nickname: "Foothill High School Winter Guard"
 
     directors:
-    -   *efrain-hinojosa
-    -   *erik-nishimori
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Nick Duenas"
-        -   "Alexina Manriquez"
-        -   "Marcus Hersh"
         
     leaders:
-    -   title: "captain"
-        members:
-        -   *ayla-johnson
 
-    program: "Second Law"
+    program: "Checkered Reeality"
 
-    music: "the isolated system by Muse"
+    music: 
 
-    notes: >
-        The Foothill High Guard would like to thank the Guard parents for all of their help throughout the season.
+    notes:
 
 winterpercussion:
     isHost: true
 
-    lastUpdated: 2019-03-18 16:09:26 -07
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: "Foothill High School A Winter Percussion"
+    nickname: "Foothill High School Winter Percussion"
 
     directors:
-    -   *efrain-hinojosa
-    -   *erik-nishimori
 
     staff:
         
     leaders:
-    -   title: "captains"
-        members:
-        -   "Nicholas Pinnesault"
-        -   "Erin Chang"
 
-    program: "Badlands" 
+    program: "The Value of a Moment" 
 
-    music: "original music by Chris Cyr and Connor Carroll"
+    music: 
 
-    notes: >
-        The Foothill A Line would like to thank the percussion parents for all of their help throughout the season.
+    notes:
 
 winterpercussion-intermediate:
     isHost: true

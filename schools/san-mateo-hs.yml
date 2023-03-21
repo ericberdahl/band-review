@@ -2,26 +2,29 @@ name: "San Mateo High School"
 
 city: "San Mateo, CA"
 
+staff:
+-   "Til Tribuzi (TIHL trih-BYOO-zee)"
+-   "Becca Vogt"
+-   "Samantha Radzikowski"
+
+students:
+-   "Bella Jimenez"
+-   "Shelley Suazo"
+
 winterguard:
-    lastUpdated: 2018-01-01 00:00:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
     nickname: "San Mateo High School Winterguard"
 
     directors:
-    -   "Til Tribuzi (TIHL trih-BYOO-zee)"
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Becca Vogt"
-        -   "Samantha Radzikowski"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Bella Jimenez"
-        -   "Shelley Suazo"
 
-    program: "Falling Backwards"
+    program: "M.J."
 
-    music: "Pluto by Sleeping at Last"
+    music: 
+
+    notes:
+    

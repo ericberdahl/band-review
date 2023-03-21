@@ -2,6 +2,9 @@ name: "Turlock Christian High School"
 
 city: "Turlock, CA"
 
+staff:
+-   "Neena Stegmann"
+
 students:
 -   &rosie-rojas "Rosie Rojas"
 
@@ -33,16 +36,15 @@ concert:
 winterguard:
     lastUpdated: 1967-12-01 04:30:00 -08
 
-    nickname: Turlock Christian Marching Eagles Winterguard
+    nickname: "Turlock Christian Marching Eagles Winterguard"
 
     directors:
-    -   Neena Stegmann
 
     staff:
 
     leaders:
 
-    program: 
+    program: "Dandelions"
 
     music: 
 

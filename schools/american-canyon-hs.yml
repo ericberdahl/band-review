@@ -4,6 +4,8 @@ city: American Canyon, CA
 
 staff:
 -   &erica-nunez "Erika Nunez"
+-   "Rachel Coleman"
+-   "Taylor Chavez"
 
 students:
 -   &vince-dionisio "Vince Dionisio (Vince dee-on-EE-see-oh)"
@@ -84,29 +86,19 @@ winterpercussion:
     music: "music by Matthew Hernandez and Chris Morales"
 
 winterguard:
-    lastUpdated: 2019-03-13 10:52:59 -07
+    lastUpdated: 2023-03-23 15:30:00 -08
 
     nickname: "American Canyon Color Guard"
 
-    directors: *directors
+    directors:
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Rachel Coleman"
-        -   "Taylor Chavez"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   *erica-nunez
-        -   *ruth-santiago
 
-    program: "Somebody to Love"
+    program: "The Lonely People"
 
-    music: "Somebody to Love by Queen"
+    music:
 
-    notes: >
-        This is the color guard's first year competing after a three year hiatus.
-        The ACHS Color Guard would like to thank their instructors and parents for their motivation and support!
+    notes: 
 

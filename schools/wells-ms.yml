@@ -1,34 +1,34 @@
-name: Wells Middle School
+name: "Wells Middle School"
 
-city: Dublin, CA
+city: "Dublin, CA"
 
 parade:
     lastUpdated: 2022-10-14 15:29:23 -07
 
-    nickname: Roadrunner Band
+    nickname: "Roadrunner Band"
 
     directors:
-    -   Erik Bertelson
+    -   "Erik Bertelson"
 
     staff:
-    -   title: instructed by
+    -   title: "instructed by"
         members:
-        -   Grace Holmes
-        -   Erin Lewis
-        -   Sasha Wirchniansky (Sasha wihrch-nee-AHN-skee)
-        -   Kendle Fong
+        -   "Grace Holmes"
+        -   "Erin Lewis"
+        -   "Sasha Wirchniansky (Sasha wihrch-nee-AHN-skee)"
+        -   "Kendle Fong"
 
     leaders:
-    -   title: drum major
+    -   title: "drum major"
         members:
-        -   Hiroyuki Kasaya
+        -   "Hiroyuki Kasaya"
 
-    -   title: auxiliary captains
+    -   title: "auxiliary captains"
         members:
-        -   Ella McLaughlin
-        -   Luis Ojeda
+        -   "Ella McLaughlin"
+        -   "Luis Ojeda"
 
-    music: United Nations by K.L.King
+    music: "United Nations by K.L.King"
 
     notes: >
         Wells Middle School Marching Band gives a big thank you to all of the Wells parents for their valuable time and support for their musicians and color guard.
@@ -36,21 +36,20 @@ parade:
 concert:
     lastUpdated: 2022-10-14 15:29:23 -07
 
-    nickname: Wells Middle School Concert Band
+    nickname: "Wells Middle School Concert Band"
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Wells Winter Guard
+    nickname: "Wells Winter Guard"
 
     directors:
-    -   Erik Bertelson
 
     staff:
 
     leaders:
 
-    program: 
+    program: "Rockin' Robin"
 
     music: 
 

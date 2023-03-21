@@ -1,55 +1,55 @@
-name: Yuba City High School
+name: "Yuba City High School"
 
-city: Yuba City, CA
+city: "Yuba City, CA"
 
 parade:
     lastUpdated: 2022-10-14 10:47:34 -07
 
-    nickname: Brown and Gold Brigade Band
+    nickname: "Brown and Gold Brigade Band"
 
     directors:
-    -   Ted Zalkind
+    -   "Ted Zalkind"
 
     staff: 
-    -   title: percussion instructor
+    -   title: "percussion instructor"
         members:
-        -   Rylee Crutchfield
+        -   "Rylee Crutchfield"
 
-    -   title: color guard instructor
+    -   title: "color guard instructor"
         members:
-        -   Hanniah Barajas
+        -   "Hanniah Barajas"
 
     leaders:
-    -   title: drum major
+    -   title: "drum major"
         members:
-        -   Colton Dunlap
+        -   "Colton Dunlap"
 
-    -   title: auxilliary captains
+    -   title: "auxilliary captains"
         members:
-        -   Kashmir Mumford
-        -   Kyndalina Beal
+        -   "Kashmir Mumford"
+        -   "Kyndalina Beal"
 
-    -   title: percussion captain
+    -   title: "percussion captain"
         members:
-        -   James Keith
+        -   "James Keith"
 
-    music: Big Four by Karl King, arranged by James Swearingen (James SWEHR-ing-ehn)
+    music: >
+        Big Four by Karl King, arranged by James Swearingen (James SWEHR-ing-ehn)
 
     notes: 
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Yuba City High School Color Guard
+    nickname: "Yuba City High School Color Guard"
 
     directors:
-    -   Ted Zalkind
 
     staff:
 
     leaders:
 
-    program: 
+    program: "What will you do?"
 
     music: 
 

@@ -1,6 +1,9 @@
-name: Pinole Valley High School
+name: "Pinole Valley High School"
 
-city: Pinole, CA
+city: "Pinole, CA"
+
+staff:
+-   "Ross Ackerman"
 
 fieldshow:
     lastUpdated: 1967-12-01 04:30:00 -08
@@ -35,36 +38,34 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Pinole Valley High School Winter Percussion
+    nickname: "Pinole Valley High School Winter Percussion"
 
     directors:
-    -   Ross Ackerman
 
     staff:
 
     leaders:
 
-    program: 
+    program: "Dreamscape"
 
     music: 
 
     notes: 
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Pinole Valley High School Winterguard
+    nickname: "Pinole Valley High School Winterguard"
 
     directors:
-    -   Ross Ackerman
 
     staff:
 
     leaders:
 
-    program: 
+    program: "The Thread Intertwines"
 
     music: 
 

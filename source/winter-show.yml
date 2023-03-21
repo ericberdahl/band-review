@@ -15,9 +15,10 @@ units:
 -   "winterpercussion"
 -   "winterguard"
 
-version: "2023.03.08"
+version: "2023.03.20"
 
 winterpercussion:
+
     start_time: "9:00am"
 
     lineup:
@@ -26,16 +27,16 @@ winterpercussion:
     -   ref: "pinole-valley-hs"
     -   ref: "phillip-burton-hs"
     -   ref: "pleasant-valley-hs"
-    -   ref: "merrill-f-west-hs"
     -   ref: "petaluma-hs"
     -   break: 10
     -   ref: "mission-sj-hs"
-    -   ref: "nevada-union-hs"
     -   ref: "del-mar-hs"
     -   ref: "antioch-hs"
+    -   ref: "nevada-union-hs"
     -   ref: "deer-valley-hs"
     -   ref: "rancho-cotate-hs"
     -   ref: "vanden-hs"
+    -   ref: "century-hs"
     -   ref: "foothill-hs"
 
     sponsors:
@@ -54,10 +55,9 @@ winterguard:
 
     lineup:
     -   ref: "foothill-hs"
-    -   ref: "harvest-park-ms"
     -   ref: "park-ms"
     -   ref: "harvest-park-ms"
-        unit: winterguard2
+    -   ref: "golden-west-ms"
     -   ref: "cottonwood-creek"
     -   ref: "wells-ms"
     -   break: 10
@@ -68,12 +68,10 @@ winterguard:
     -   ref: "american-hs"
     -   ref: "turlock-christian-hs"
     -   ref: "linden-hs"
-    -   ref: "river-city-hs"
     -   ref: "california-crosspoint"
     -   ref: "del-mar-hs"
     -   break: 10
     -   ref: "pinole-valley-hs"
-    -   ref: "merrill-f-west-hs"
     -   ref: "deer-valley-hs"
     -   ref: "mission-sj-hs"
     -   ref: "rancho-cotate-hs"

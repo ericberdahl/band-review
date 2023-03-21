@@ -2,6 +2,10 @@ name: "Phillip Burton High School"
 
 city: "San Francisco, CA"
 
+students:
+-   "Aaron Balot (Aaron BÆ-luht)"
+-   "Karissa Wong"
+
 fieldshow:
     lastUpdated: 2018-10-10 12:44:20 -07
 
@@ -49,23 +53,19 @@ fieldshow:
         All of this wouldn't be possible without the amazing support of the Burton Band Boosters, Burton High School Admin and SFUSD.
 
 winterpercussion:
-    lastUpdated: 2019-03-13 11:22:02 -07
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: "Burton Percussion Ensemble"
+    nickname: "Burton High School Percussion"
 
-    directors: *directors
+    directors: 
 
     staff: 
 
     leaders:
-    -   title: "captains"
-        members:
-        -   Aaron Balot (Aaron BÆ-luht)
-        -   "Karissa Wong"
 
-    program: "Supernatural"
+    program: "The Raven"
 
-    music: "Tubular Bells and Don't Fear the Reaper, arranged by Luke Aylsworth"
+    music: 
 
 winterguard:
     lastUpdated: 2019-03-13 11:22:02 -07

@@ -1,10 +1,6 @@
-name: "Nevada Union High School"
+name: "Golden West Middle School"
 
-city: "Grass Valley, CA"
-
-staff:
--   "Conor Jamison"
-
+city: "Fairfield, CA"
 
 fieldshow:
     lastUpdated: 1967-12-01 04:30:00 -08
@@ -39,9 +35,9 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 1967-12-01 04:30:00 -08
 
-    nickname: "Nevada Union Winter Percussion"
+    nickname: 
 
     directors:
 
@@ -49,7 +45,7 @@ winterpercussion:
 
     leaders:
 
-    program: "Nevada Union Winter Percussion"
+    program: 
 
     music: 
 
@@ -58,7 +54,7 @@ winterpercussion:
 winterguard:
     lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: "Nevada Union Winter Guard"
+    nickname: "Golden West Middle School Winterguard"
 
     directors:
 
@@ -66,7 +62,7 @@ winterguard:
 
     leaders:
 
-    program: "Sign of the Times"
+    program: "The Other Side"
 
     music: 
 

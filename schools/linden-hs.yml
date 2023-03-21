@@ -1,14 +1,14 @@
-name: Linden High School
+name: "Linden High School"
 
-city: Linden, CA
+city: "Linden, CA"
 
 staff:
--   &troy-rexelle Troy Rexelle (rex-EHL)
+-   &troy-rexelle "Troy Rexelle (rex-EHL)"
 
 parade:
     lastUpdated: 2022-10-10 13:19:54 -07
 
-    nickname: Lion Regiment
+    nickname: "Lion Regiment"
 
     directors:
     -   *troy-rexelle
@@ -16,64 +16,63 @@ parade:
     staff: 
     -   title: flag instructor
         members:
-        -   Arturo Espinosa
+        -   "Arturo Espinosa"
 
     -   title: percussion instructor
         members:
-        -   Andrew Cardwell
+        -   "Andrew Cardwell"
 
     leaders:
     -   title: drum major
         members:
-        -   Lucia Gideon (loo-CHEE-ah Gideon)
+        -   "Lucia Gideon (loo-CHEE-ah Gideon)"
 
     -   title: auxilliary captains
         members:
-        -   Angela Anguiano
-        -   Corina Jenks
-        -   Ashley Calvillo
+        -   "Angela Anguiano"
+        -   "Corina Jenks"
+        -   "Ashley Calvillo"
 
     -   title: percusson captain
         members:
-        -   Moses Sanchez
+        -   "Moses Sanchez"
 
-    music: High School Cadets by John Phillip Sousa
+    music: >
+        High School Cadets by John Phillip Sousa
 
     notes: >
         This will be the first time in over 20 years that Linden High School has competed in Parade competition.
         They like to thank the Linden Band Boosters and all the parents for their support. 
 
 winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Linden High School Winter Percussion
+    nickname: "Linden High School Winter Percussion"
 
     directors:
-    -   *troy-rexelle
 
     staff:
 
     leaders:
 
-    program: 
+    program: "Bump in the Night"
 
     music: 
 
     notes: 
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Linden High School Winter Guard
+    nickname: "Linden High School Winter Guard"
 
     directors:
-    -   *troy-rexelle
 
     staff:
 
     leaders:
 
-    program: 
+    program: "A Moment"
 
     music: 
 

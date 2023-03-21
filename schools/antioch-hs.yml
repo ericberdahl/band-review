@@ -1,50 +1,51 @@
-name: Antioch High School
+name: "Antioch High School"
 
-city: Antioch, CA
+city: "Antioch, CA"
 
 staff:
--   &courtney-trantham Courtney Trantham
+-   &courtney-trantham "Courtney Trantham"
 
 students:
--   &jose-cordova Jose Cordova
--   &kassidy-jennings Kassidy Jennings
--   &kylie-souza Kylie Souza
--   &lyriic-williams Lyriic Williams
+-   &jose-cordova "Jose Cordova"
+-   &kassidy-jennings "Kassidy Jennings"
+-   &kylie-souza "Kylie Souza"
+-   &lyriic-williams "Lyriic Williams"
 
 parade:
     lastUpdated: 2022-10-10 21:39:25 -07
 
-    nickname: &band-review-nickname Pride of Antioch Panther Marching Band and Color Guard
+    nickname: &band-review-nickname "Pride of Antioch Panther Marching Band and Color Guard"
 
     directors: &band-review-directors
     -   *courtney-trantham
 
     staff: &band-review-staff
-    -   title: percussion instructor
+    -   title: "percussion instructor"
         members:
-        -   Angelo Gutierrez
+        -   "Angelo Gutierrez"
 
-    -   title: color guard instructors
+    -   title: "color guard instructors"
         members:
-        -   Joshua Suarez
-        -   Marissa Kittleson
+        -   "Joshua Suarez"
+        -   "Marissa Kittleson"
 
     leaders:
-    -   title: drum major
+    -   title: "drum major"
         members:
         -   *jose-cordova
     
-    -   title: auxiliary captains
+    -   title: "auxiliary captains"
         members:
-        -   Sarah Morgan
-        -   Teresa Williams
+        -   "Sarah Morgan"
+        -   "Teresa Williams"
 
-    -   title: percussion captains
+    -   title: "percussion captains"
         members:
-        -   Dominic Walker
-        -   Jenna Villar
+        -   "Dominic Walker"
+        -   "Jenna Villar"
 
-    music: Army of the Nile by Kenneth Alford, arranged by Frederick Fennell
+    music: >
+        Army of the Nile by Kenneth Alford, arranged by Frederick Fennell
 
     notes: >
         The band would like to give a HUGE special thank you to ABBA for everything they do to support the program and students!
@@ -59,28 +60,28 @@ fieldshow:
     staff: *band-review-staff
 
     leaders:
-    -   title: drum majors
+    -   title: "drum majors"
         members:
         -   *jose-cordova
-        -   Matthew King
+        -   "Matthew King"
     
-    -   title: auxiliary captains
+    -   title: "auxiliary captains"
         members:
-        -   Sarah Morgan
-        -   Teresa Williams
+        -   "Sarah Morgan"
+        -   "Teresa Williams"
 
-    -   title: percussion captains
+    -   title: "percussion captains"
         members:
-        -   Dominic Walker
-        -   Jenna Villar
+        -   "Dominic Walker"
+        -   "Jenna Villar"
 
-    -   title: soloists
+    -   title: "soloists"
         members:
-        -   Adrienne Ashford
-        -   Amir Moore
-        -   William Fraser
+        -   "Adrienne Ashford"
+        -   "Amir Moore"
+        -   "William Fraser"
 
-    program: Ritual
+    program: "Ritual"
 
     music: >
         Ritual by Randall Standridge
@@ -93,18 +94,17 @@ fieldshow:
         The band would like to give a huge thank you to ABBA for everything they do to support the program!
 
 winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: 2023-03-23 15:30:00 -08
 
-    nickname: Antioch High School Winter Percussion
+    nickname: "Antioch High School Winter Percussion"
 
     directors:
-    -   *courtney-trantham
 
     staff:
 
     leaders:
 
-    program: 
+    program: "Endless Nameless"
 
     music: 
 
