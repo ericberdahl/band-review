@@ -35,35 +35,70 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-21 13:13:14 -08
 
-    nickname: "Century High School Drumline"
+    nickname: "Century Indoor"
 
     directors:
+    -   "Ronnie LaGrone"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Ben Grimshaw"
+        -   "Conner Arndt"
+        -   "Adam Thompson"
+        -   "Bobby Christodoulopoulos (kris-tow-dow-LOP-oo-los)"
+        -   "Derek Bueffel"
+        -   "Evan Saab"
+        -   "Kat Chapman"
+        -   "Jennifer Martinez-Gudiel"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Noah Heuss"
+        -   "Isaac Crowell"
+        -   "Ryan Dondoyano"
+        -   "Giselle Rojas"
+        -   "Charlie Poulsen"
+        -   "Susan Leip"
 
     program: "Catching Shadows"
 
     music: 
 
-    notes: 
+    notes: >
+        Sometimes, we don't realize how much something means to us until it is already gone.
+        In the void of this disconnection, you must chase, fight for, and catch what's been lost before it is gone forever.
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-21 10:11:27 -08
 
-    nickname: "Century Winterguard"
+    nickname: "Century High School Winterguard"
 
     directors:
+    -   "Anthony Riederer"
+    -   "Nick Garcia"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Genevieve Gahagan"
+        -   "Zach Dye"
+        -   "Dylan Dwyer"
+        -   "Morgan Metts"
+        -   "Madi Saecho"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Meg Bennett"
+        -   "Emily Hughes"
 
     program: "Odette"
 
     music: 
 
-    notes: 
+    notes: >
+        Century High School Winterguard gives a huge thank you to band director Jim Dunlop and the Century High School Band Boosters.

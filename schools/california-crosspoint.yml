@@ -3,19 +3,30 @@ name: "California Crosspoint Academy"
 city: "Hayward, CA"
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-23 09:40:20 -08
 
-    nickname: "California Crosspoint Academy Color Guard"
+    nickname: "California Crosspoint Academy Colorguard"
 
     directors: 
+    -   "Amber Ennis"
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Mimi Fang"
+        -   "Happy Hai"
         
     leaders:
+    -   title: "captains"
+        members:
+        -   "Eunice Chan"
+        -   "Ellie Ku"
 
     program: "Healing"
 
     music: 
 
-    notes: 
+    notes: >
+        California Crosspoint Academy Colorguard thanks all the moms for your unconditional support!
+        We love you! 
     

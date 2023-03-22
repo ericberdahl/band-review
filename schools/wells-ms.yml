@@ -2,21 +2,32 @@ name: "Wells Middle School"
 
 city: "Dublin, CA"
 
+staff:
+-   &erik-bertelson "Erik Bertelson"
+-   &grace-holmes "Grace Holmes"
+-   &erin-lewis "Erin Lewis"
+-   &sasha-wirchniansky "Sasha Wirchniansky (Sasha wihrch-nee-AHN-skee)"
+-   &kendle-fong "Kendle Fong"
+
+students:
+-   &ella-mcLaughlin "Ella McLaughlin"
+-   &luis-ojeda "Luis Ojeda"
+
 parade:
     lastUpdated: 2022-10-14 15:29:23 -07
 
     nickname: "Roadrunner Band"
 
     directors:
-    -   "Erik Bertelson"
+    -   *erik-bertelson
 
     staff:
     -   title: "instructed by"
         members:
-        -   "Grace Holmes"
-        -   "Erin Lewis"
-        -   "Sasha Wirchniansky (Sasha wihrch-nee-AHN-skee)"
-        -   "Kendle Fong"
+        -   *grace-holmes
+        -   *erin-lewis
+        -   *sasha-wirchniansky
+        -   *kendle-fong
 
     leaders:
     -   title: "drum major"
@@ -25,8 +36,8 @@ parade:
 
     -   title: "auxiliary captains"
         members:
-        -   "Ella McLaughlin"
-        -   "Luis Ojeda"
+        -   *ella-mcLaughlin
+        -   *luis-ojeda
 
     music: "United Nations by K.L.King"
 
@@ -39,18 +50,30 @@ concert:
     nickname: "Wells Middle School Concert Band"
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-21 08:57:11 -08
 
     nickname: "Wells Winter Guard"
 
     directors:
+    -   *erik-bertelson
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   *grace-holmes
+        -   *erin-lewis
+        -   *sasha-wirchniansky
+        -   *kendle-fong
 
     leaders:
+    -   title: "captains"
+        members:
+        -   *luis-ojeda
+        -   *ella-mcLaughlin
 
     program: "Rockin' Robin"
 
     music: 
 
-    notes: 
+    notes: >
+        Wells Winter Guard give a big thanks to the Color Guard Parents for their support and help during their Winter Guard Season.

@@ -1,9 +1,9 @@
-name: "Pleasant Valley High School"
+name: "Pleasant Valley High School and Chico High School"
 
 city: "Chico, CA"
 
 staff:
--   "Casson Scowcroft"
+-   &casson-scowcroft "Casson Scowcroft"
 
 fieldshow:
     lastUpdated: 1967-12-01 04:30:00 -08
@@ -38,21 +38,39 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-21 08:22:24 -08
 
     nickname: "Chico Unified Winter Percussion"
 
     directors:
+    -   *casson-scowcroft
 
     staff:
+    -   title: "drill instructor"
+        members:
+        -   "Andy Shoemaker"
+    -   title: "drumline coach"
+        members:
+        -   "Zach Mossman"
 
     leaders:
+    -   title: "frontline captains"
+        members:
+        -   "Maxfield Allen"
+        -   "Levi Forsick"
+    -   title: "battery captains"
+        members:
+        -   "Anthony Jacobini"
+        -   "Eddie Raimer"
 
-    program: "Apocalypto"
+    program: "THRIVE!"
 
     music: 
 
-    notes: 
+    notes: >
+        Chico Unified Winter Percussion sends shout outs to seniors Brandon Underwood, Ian McKenzie, Penelope Irwin, and Simone Zoppi.
+        Thank you to all the parents who have supported these students in so many ways.
+        Mr. Scowcroft is grateful to all of you.
 
 winterguard:
     lastUpdated: 1967-12-01 04:30:00 -08

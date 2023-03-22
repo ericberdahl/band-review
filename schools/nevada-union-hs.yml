@@ -3,7 +3,7 @@ name: "Nevada Union High School"
 city: "Grass Valley, CA"
 
 staff:
--   "Conor Jamison"
+-   &conor-jamison "Conor Jamison"
 
 
 fieldshow:
@@ -39,11 +39,12 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Nevada Union Winter Percussion"
 
     directors:
+    -   *conor-jamison
 
     staff:
 
@@ -56,7 +57,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Nevada Union Winter Guard"
 

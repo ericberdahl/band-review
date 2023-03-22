@@ -3,7 +3,8 @@ name: "Mission San Jose High School"
 city: "Fremont, CA"
 
 staff:
--   "Monica Kraft"
+-   &monica-kraft "Monica Kraft"
+-   &bryce-beckel "Bryce Beckel"
 -   "Maggie Taylor Aherne"
 -   "Jenessa Takagi"
 
@@ -14,15 +15,23 @@ students:
 -   "Cathy Wang"
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 16:30:00 -08
 
     nickname: "Mission San Jose High School Winter Guard"
 
     directors:
+    -   *monica-kraft
+    -   *bryce-beckel
 
     staff:
+    -   title: "color guard instructor"
+        members:
+        -   "Fou Saelee"
 
     leaders:
+    -   title: "captain"
+        members:
+        -   "Rableen Kaleka"
 
     program: "The Night Circus"
 
@@ -31,15 +40,23 @@ winterguard:
     notes: 
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 16:30:00 -08
 
     nickname: "Mission San Jose High School Winter Percussion"
 
     directors:
+    -   *monica-kraft
+    -   *bryce-beckel
 
     staff:
+    -   title: "percussion instructor"
+        members:
+        -   "Steve Slater"
 
     leaders:
+    -   title: "captain"
+        members:
+        -   "Alton Gu"
 
     program: "The Grind"
 

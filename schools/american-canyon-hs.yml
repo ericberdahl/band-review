@@ -6,6 +6,7 @@ staff:
 -   &erica-nunez "Erika Nunez"
 -   "Rachel Coleman"
 -   "Taylor Chavez"
+-   &brendan-day "Brendan Day"
 
 students:
 -   &vince-dionisio "Vince Dionisio (Vince dee-on-EE-see-oh)"
@@ -17,7 +18,7 @@ fieldshow:
     nickname: Wolfpack Marching Band
 
     directors:
-    -   Brendan Day
+    -   *brendan-day
 
     staff:
     -   title: visual instructors
@@ -71,7 +72,7 @@ winterpercussion:
     nickname: "ACHS Winter Percussion Ensemble"
 
     directors: &directors
-    -   "Brendan Day"
+    -   &brendan-day
         
     staff:
 
@@ -86,7 +87,7 @@ winterpercussion:
     music: "music by Matthew Hernandez and Chris Morales"
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "American Canyon Color Guard"
 

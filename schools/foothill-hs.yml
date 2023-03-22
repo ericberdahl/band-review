@@ -148,7 +148,7 @@ fieldshow:
 winterguard:
     isHost: true
 
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Foothill High School Winter Guard"
 
@@ -167,11 +167,12 @@ winterguard:
 winterpercussion:
     isHost: true
 
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Foothill High School Winter Percussion"
 
     directors:
+    -   *erik-nishimori
 
     staff:
         

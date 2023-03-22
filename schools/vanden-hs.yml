@@ -4,6 +4,10 @@ city: "Fairfield, CA"
 
 staff:
 -   &troy-symington "Troy Symington"
+-   &thomas-hollins "Thomas Hollins"
+-   &z-hernandez "Z Hernandez"
+-   &felicia-ward "Felicia Ward"
+-   &logan-vankatwyk "Logan Vankatwyk"
 
 fieldshow:
     lastUpdated: 2022-10-18 10:54:07 -07
@@ -16,15 +20,15 @@ fieldshow:
     staff:
     -   title: percussion caption head
         members:
-        -   Thomas Hollins
+        -   *thomas-hollins
 
     -   title: snare tech
         members:
-        -   Logan VanKatwyk
+        -   *logan-vankatwyk
 
     -   title: bass tech
         members:
-        -   Felicia Ward
+        -   *felicia-ward
 
     -   title: guard caption head
         members:
@@ -88,13 +92,24 @@ fieldshow:
         The Vanden Viking Band would like to thank our Viking band boosters and all of our wonderful parents who make this possible.
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Vanden Winter Percussion"
 
     directors:
+    -   *troy-symington
 
     staff:
+    -   title: "percussion director and front ensemble caption head"
+        members:
+        -   *thomas-hollins
+    -   title: "battery caption head"
+        members:
+        -   *z-hernandez
+    -   title: "instructional staff"
+        members:
+        -   *felicia-ward
+        -   *logan-vankatwyk
 
     leaders:
 

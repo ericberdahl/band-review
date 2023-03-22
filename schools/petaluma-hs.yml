@@ -3,8 +3,9 @@ name: "Petaluma High School"
 city: "Petaluma, CA"
 
 staff:
+-   &cliff-eveland "Cliff Eveland"
 -   "Dustin Friel"
--   "Nick Dibley"
+-   &nick-dibley "Nick Dibley"
 -   "Abel Moya"
 
 students:
@@ -17,12 +18,12 @@ parade:
     nickname: "Petaluma High School Trojan Marching Band"
 
     directors: &directors
-    -   "Cliff Eveland"
+    -   *cliff-eveland
 
     staff:
     -   title: "instructed by"
         members:
-        -   "Nick Dibley"
+        -   *nick-dibley
         -   "Neil Fontano"
 
     leaders:
@@ -44,7 +45,7 @@ parade:
         The members of the band would like to thank the Petaluma High School Music Boosters and the uniform moms for making their performance possible today!
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Petaluma Drum Line"
 

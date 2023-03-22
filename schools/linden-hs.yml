@@ -45,11 +45,12 @@ parade:
         They like to thank the Linden Band Boosters and all the parents for their support. 
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Linden High School Winter Percussion"
 
     directors:
+    -   *troy-rexelle
 
     staff:
 
@@ -59,10 +60,11 @@ winterpercussion:
 
     music: 
 
-    notes: 
+    notes: >
+        The Linden High School Winter Percussion would like to thank the Linden High School Band Boosters for their support.
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Linden High School Winter Guard"
 

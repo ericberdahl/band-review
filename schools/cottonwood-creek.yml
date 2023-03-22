@@ -3,7 +3,7 @@ name: "Cottonwood Creek School"
 city: "Dublin, CA"
 
 staff:
--   "Jasper Tran"
+-   &jasper-tran "Jasper Tran"
 
 fieldshow:
     lastUpdated: 1967-12-01 04:30:00 -08
@@ -38,24 +38,34 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-21 08:16:22 -08
 
     nickname: "Cottonwood Creek Coyote Winter Percussion Ensemble"
 
     directors:
+    -   *jasper-tran
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   "Mahidhara (mah-heed-HAH-rah) Sudendra"
+        -   "Evan Tubera"
+        -   "Landon Rivero"
 
     leaders:
+    -   title: "captain"
+        members:
+        -   "Haigu Sriram"
 
     program: "Back to Bach"
 
     music: 
 
-    notes: 
+    notes: >
+        Cottonwood Creek Coyote Winter Percussion Ensemble thanks the volunteers, parents, supports, and staff that have assisted CCS through their five years.
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-21 08:16:22 -08
 
     nickname: "Cottonwood Creek Coyote Winter Guard"
 
@@ -64,9 +74,15 @@ winterguard:
     staff:
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Sarah Khouri"
+        -   "Raelyn Crespin"
+        -   "Haili Smith"
 
     program: "Paint Me a Picture"
 
     music: 
 
-    notes: 
+    notes: >
+        Cottonwood Creek Coyote Winter Guard thanks the volunteers, parents, supports, and staff that have assisted CCS through their five years.

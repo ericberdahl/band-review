@@ -3,7 +3,6 @@ name: "Park Middle School"
 city: "Antioch, CA"
 
 staff:
--   "Nikki Andreatta (NIH-kee ahn-dray-AH-tah)"
 -   "Kathy Saylor"
 -   "Beth Rhodes"
 -   "Zia Tedford"
@@ -12,15 +11,22 @@ students:
 -   "Kalaia Gonzales (cah-LAY-ah Gonzales)"
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 16:30:00 -08
 
     nickname: "Park Middle School Color Guard"
 
     directors:
+    -   "Nikki Andreatta (NIH-kee ahn-dray-AH-tah)"
 
     staff:
 
     leaders:
+    -   title: "captain"
+        members:
+        -   "Karen Cervantes"
+    -   title: "co-captain"
+        members:
+        -   "Malia Mangabat"
 
     program: "Magic Show"
 

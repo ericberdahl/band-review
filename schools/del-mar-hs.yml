@@ -4,7 +4,7 @@ city: "San Jose, CA"
 
 staff:
 -   &josh-bacleg "Josh Bacleg (Josh BAK-leg)"
--   &william-burkhead William Burkhead
+-   &william-burkhead "William Burkhead"
 -   &kale-duprey Kale Duprey (KALE doo-PRAY)
 -   &aj-gonzales AJ Gonzales
 -   &andrew-kuykendall Andrew Kuykendall (Andrew KUHR-ken-dahl)
@@ -126,11 +126,12 @@ concert:
     nickname: "Del Mar High School Symphonic Band"
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Del Mar High School Winter Drumline"
 
     directors:
+    -   *william-burkhead
 
     staff:
         
@@ -143,7 +144,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Del Mar High School Winter Guard"
 

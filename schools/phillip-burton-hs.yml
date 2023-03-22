@@ -2,6 +2,9 @@ name: "Phillip Burton High School"
 
 city: "San Francisco, CA"
 
+staff:
+-   &manuel-young "Manuel Young"
+
 students:
 -   "Aaron Balot (Aaron BÆ-luht)"
 -   "Karissa Wong"
@@ -12,7 +15,7 @@ fieldshow:
     nickname: "Puma Marching Band"
 
     directors: &directors
-    -   "Manuel Young"
+    -   *manuel-young
 
     staff: &other-directors
     -   title: "percussion coachs"
@@ -53,15 +56,23 @@ fieldshow:
         All of this wouldn't be possible without the amazing support of the Burton Band Boosters, Burton High School Admin and SFUSD.
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-21 08:43:00 -08
 
-    nickname: "Burton High School Percussion"
+    nickname: "Burton Indoor Percussion Ensemble"
 
-    directors: 
+    directors:
+    -   *manuel-young
 
-    staff: 
+    staff:
+    -   title: "instructed by"
+        members:
+        -   "Divesh Karamchandani"
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "James Gonzales"
+        -   "Victor Ciudad"
 
     program: "The Raven"
 

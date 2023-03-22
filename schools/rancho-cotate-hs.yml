@@ -3,7 +3,17 @@ name: "Rancho Cotate High School"
 city: "Rohnert Park, CA"
 
 staff:
--   &dustin-friel Dustin Friel
+-   &dustin-friel "Dustin Friel"
+-   &abel-moya "Abel Moya"
+-   &bima-pamula "Bima Pamula"
+-   &daniela-hernandez "Daniela Hernandez"
+-   &emma-wagoner "Emma Wagoner"
+-   &hunter-oo "Hunter Oo"
+
+students:
+-   &steven-tinoco "Steven Tinoco"
+-   &lin-leon-solis "Lin Leon Solis"
+-   &sierra-phillips "Sierra Phillips"
 
 fieldshow:
     lastUpdated: 2022-10-14 10:21:24 -07
@@ -16,11 +26,11 @@ fieldshow:
     staff: 
     -   title: instructed by
         members:
-        -   Abel Moya
-        -   Hunter Oo
-        -   Emma Wagoner
-        -   Bima Pamula
-        -   Daniela Hernandez
+        -   *abel-moya
+        -   *hunter-oo
+        -   *emma-wagoner
+        -   *bima-pamula
+        -   *daniela-hernandez
         -   Alex Brown
 
     leaders:
@@ -32,12 +42,12 @@ fieldshow:
         members:
         -   Eismael Sandoval
         -   Emily Perez Barrientos
-        -   Sierra Phillips
+        -   *sierra-phillips
 
     -   title: percussion captains
         members:
-        -   Steven Tinoco
-        -   Lin Leon Solis
+        -   *steven-tinoco
+        -   *lin-leon-solis
 
     program: Knock On Wood
 
@@ -52,35 +62,60 @@ fieldshow:
         RCHS Marching Band says thank you to all parents/guardians, music boosters, and staff for your support this season. 
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-21 14:12:28 -08
 
-    nickname: "Rancho Cotate High School Winterline"
+    nickname: "Rancho Cotate High School Drumline"
 
     directors:
+    -   *dustin-friel
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   *abel-moya
+        -   *bima-pamula
 
     leaders:
+    -   title: "captains"
+        members:
+        -   *lin-leon-solis
+        -   *steven-tinoco
 
     program: "Remember Me"
 
     music: 
 
-    notes: 
+    notes: >
+        Seniors, we will always Remember you!
+        We hope all of our students have a great show, enjoy your time on the floor today!
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-21 14:12:28 -08
 
     nickname: "Rancho Cotate High School Winterguard"
 
     directors:
+    -   *dustin-friel
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   *daniela-hernandez
+        -   *emma-wagoner
+        -   *hunter-oo
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Ish Sandoval"
+        -   "Emily Perez"
+        -   *sierra-phillips
 
     program: "I Am"
 
     music: 
 
-    notes: 
+    notes: >
+        I Am is metamorphosis of personality.
+        As we grow and reflect we become our true selves.
+        Thank you to our parents, volunteers, helpers, and staff, we couldn't do this without you.

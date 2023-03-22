@@ -94,11 +94,12 @@ fieldshow:
         The band would like to give a huge thank you to ABBA for everything they do to support the program!
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Antioch High School Winter Percussion"
 
     directors:
+    -   *courtney-trantham 
 
     staff:
 

@@ -4,13 +4,14 @@ city: Antioch, CA
 
 staff:
 -   &courtney-trantham "Courtney Trantham"
+-   &abraham-molina "Abraham Molina"
 -   "YEH-suh-meen SUH-dah-tee"
+-   &kevin-field "Kevin Field"
 
 students:
 -   "Stephany Calderon"
 -   "Marissa Kittleson"
 -   "Angela KWEN-ko"
--   "Abraham Molina"
 -   "Joshua Suarez"
 -   "Mariah TOH-cow"
 -   "Maya yoo-REE-bay"
@@ -21,7 +22,7 @@ parade:
     nickname: Deer Valley High School Marching Band and Color Guard
 
     directors: 
-    -   Kevin Field
+    -   *kevin-field
 
     staff: 
     -   title: auxilliary instructors
@@ -56,7 +57,7 @@ parade:
         The Deer Valley High School Marching Band and Color Guard gives a huge thank you to the band boosters and staff for making this happen!
 
 winterguard:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Deer Valley Winter Guard"
 
@@ -71,11 +72,12 @@ winterguard:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-23 15:30:00 -08
+    lastUpdated: 2023-03-20 15:30:00 -08
 
     nickname: "Deer Valley High School Indoor Percussion"
 
     directors:
+    -   *abraham-molina
         
     staff:
 
