@@ -3,13 +3,16 @@ name: Hayward High School
 city: Hayward, CA
 
 staff:
+-   &leslie-garcia "Leslie Garcia"
 -   "Katrina Granados (Katrina grah-NAH-dohs)"
 -   "Adriano Tecson"
+-   &nicholas-tocco "Nicholas Tocco (Nicolas TOE-ko)"
 -   "fuh-TEE-ma Shefa"
 
 students:
 -   "Renee Rothe"
 -   "Nora Kamlin"
+-   &mia-salinas "Mia Salinas"
 
 parade:
     lastUpdated: 2022-10-17 9:22:31 -07
@@ -17,12 +20,12 @@ parade:
     nickname: Pride of Hayward High
 
     directors: &directors
-    -   Nicholas Tocco (Nicolas TOE-ko)
+    -   *nicholas-tocco
 
     staff:
     -   title: instructed by
         members:
-        -   Leslie Garcia
+        -   *leslie-garcia
     
     leaders:
     -   title: drum major
@@ -31,7 +34,7 @@ parade:
     
     -   title: auxiliary captain
         members:
-        -   Mia Salinas
+        -   *mia-salinas
 
     -   title: percussion captain
         members:
@@ -45,15 +48,23 @@ parade:
         And thanks to the students who put so much time and energy into the Program...Farmer Pride!
 
 winterguard:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-22 13:20:10 -08
 
     nickname: "Hayward High School Winter Guard"
 
     directors: 
+    -   *nicholas-tocco
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   *leslie-garcia
 
     leaders:
+    -   title: "captains"
+        members:
+        -   *mia-salinas
+        -   "Emma Lorenzo"
 
     program: 
 

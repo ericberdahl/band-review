@@ -3,16 +3,19 @@ name: Deer Valley High School
 city: Antioch, CA
 
 staff:
--   &courtney-trantham "Courtney Trantham"
--   &abraham-molina "Abraham Molina"
--   "YEH-suh-meen SUH-dah-tee"
 -   &kevin-field "Kevin Field"
+-   &angelo-gutierrez "Angelo Gutierrez"
+-   &marissa-kittleson "Marissa Kittleson"
+-   &kate-lemonds "Kate LeMonds"
+-   &abraham-molina "Abraham Molina"
+-   &precilla-molina "Precilla Molina"
+-   &joshua-suarez "Joshua Suarez"
+-   "YEH-suh-meen SUH-dah-tee"
+-   &courtney-trantham "Courtney Trantham"
 
 students:
 -   "Stephany Calderon"
--   "Marissa Kittleson"
 -   "Angela KWEN-ko"
--   "Joshua Suarez"
 -   "Mariah TOH-cow"
 -   "Maya yoo-REE-bay"
 
@@ -27,14 +30,14 @@ parade:
     staff: 
     -   title: auxilliary instructors
         members:
-        -   Marissa Kittleson
-        -   Joshua Suarez
+        -   *marissa-kittleson
+        -   *joshua-suarez
 
     -   title: percussion instructors
         members:
-        -   Abraham Molina
-        -   Angelo Gutierrez
-        -   Joshua Suarez
+        -   *abraham-molina
+        -   *angelo-gutierrez
+        -   *joshua-suarez
 
     leaders:
     -   title: drum major
@@ -48,8 +51,8 @@ parade:
 
     -   title: percussion captains
         members:
-        -   Kate LeMonds
-        -   Precilla Molina
+        -   *kate-lemonds
+        -   *precilla-molina
 
     music: Kinizsi by Julius Fučíc
 
@@ -57,35 +60,53 @@ parade:
         The Deer Valley High School Marching Band and Color Guard gives a huge thank you to the band boosters and staff for making this happen!
 
 winterguard:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-21 22:28:09 -08
 
     nickname: "Deer Valley Winter Guard"
 
     directors:
+    -   *marissa-kittleson
+    -   *joshua-suarez
 
     leaders:
+    -   title: "captains"
+        members:
+        -   "Tristan Tacow"
+        -   "Kira Vocal"
+        -   "Leslie Cruz"
 
     program: "Oops… DV Did it Again"
 
     music:
 
-    notes:
+    notes: >
+        Deer Valley Winter Guard give a huge thank you to the band boosters and the students!
+        Your hard work and dedication means everything.
 
 winterpercussion:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-21 22:28:09 -08
 
     nickname: "Deer Valley High School Indoor Percussion"
 
     directors:
-    -   *abraham-molina
+    -   *marissa-kittleson
         
     staff:
+    -   title: "instructed by"
+        members:
+        -   *abraham-molina
+        -   *angelo-gutierrez
+        -   *joshua-suarez
 
     leaders:
+    -   title: "captains"
+        members:
+        -   *precilla-molina
+        -   *kate-lemonds
 
     program: "World of Tomorrow"
 
     music: 
 
-    notes:
-    
+    notes: >
+        Deer Valley High School Indoor Percussion thank everyone who helped bring this show to life.

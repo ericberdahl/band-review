@@ -11,6 +11,9 @@ staff:
 -   &lidia-luque Lidia Luque (Lidia loo-KAY)
 -   &jd-poulson JD Poulson (JD PAUL-sun)
 -   &noah-rojas Noah Rojas (Noah ROH-hoss)
+-   &bailey-morgan "Bailey J Morgan"
+-   &alyssa-mccoy "Alyssa McCoy"
+-   &dallana-corona "Dallana (pronounced Diana) Corona"
 
 students:
 
@@ -26,8 +29,8 @@ parade:
     -   title: "instructed by"
         members:
         -   *kale-duprey
-        -   Bailey Morgan
-        -   Alyssa McCoy
+        -   *bailey-morgan
+        -   *alyssa-mccoy
         -   Charlie Tran
         -   AJ Gonzalez
         -   *lidia-luque
@@ -67,11 +70,11 @@ fieldshow:
 
     -   title: "percussion instructor"
         members:
-        -   Bailey Morgan
+        -   *bailey-morgan
 
     -   title: "colorguard instructor"
         members:
-        -   Alyssa McCoy
+        -   *alyssa-mccoy
 
     -   title: "percussion tech"
         members:
@@ -126,7 +129,7 @@ concert:
     nickname: "Del Mar High School Symphonic Band"
 
 winterpercussion:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-21 22:10:26 -08
 
     nickname: "Del Mar High School Winter Drumline"
 
@@ -134,6 +137,9 @@ winterpercussion:
     -   *william-burkhead
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   *bailey-morgan
         
     leaders:
 
@@ -141,16 +147,22 @@ winterpercussion:
 
     music: 
 
-    notes: 
+    notes: >
+        Del Mar High School Winter Drumline sends a huge thank you to their parents!
 
 winterguard:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-21 22:10:26 -08
 
     nickname: "Del Mar High School Winter Guard"
 
     directors: 
+    -   *william-burkhead
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   *alyssa-mccoy
+        -   *dallana-corona
         
     leaders:
 
@@ -158,4 +170,6 @@ winterguard:
 
     music: 
 
-    notes: 
+    notes: >
+        Del Mar High School Winter Guard sends a big "Thank You" to their fabulous parents who support the WHOLE team…
+        and save the day more times than they can count!
