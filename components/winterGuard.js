@@ -34,7 +34,7 @@ function School({ unit, show, isFirst }) {
                 </p>
             }
             {unit.notes && <p>{unit.notes}</p>}
-            {!unit.notes && <Note>{unit.schoolName} has no percussion notes.</Note>}
+            {!unit.notes && <Note>{unit.schoolName} has no guard notes.</Note>}
             <p>
                 <em>(Wait for cue from T&amp;P judge):</em> Performing their {year} show, {unit.program && <>{unit.program},</>} NCBA is proud to present the {unit.nickname}.
             </p>
