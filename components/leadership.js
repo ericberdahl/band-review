@@ -30,8 +30,8 @@ function RoleList({ roles }) {
 
 export default function Leadership({ unit }) {
     let hasLeadership = (0 < unit.directors.length
-                        && 0 < unit.staff.length
-                        && 0 < unit.leaders.length);
+                        || 0 < unit.staff.length
+                        || 0 < unit.leaders.length);
     return (
         <>
             {hasLeadership && <>
