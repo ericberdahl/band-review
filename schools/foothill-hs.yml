@@ -1,39 +1,42 @@
-name: Foothill High School
+name: "Foothill High School"
 
-city: Pleasanton, CA
+city: "Pleasanton, CA"
 
 staff:
--   &efrain-hinojosa Efrain Hinojosa (EH-fren ee-no-HO-sah)
--   &erik-nishimori Erik Nishimori (EH-rik nih-shee-MO-ree)
--   &victor-alcaraz Victor Alcaraz
--   &dennis-aquilina Dennis Aquilina
--   &alex-blakely Alex Blakely
--   &connor-carroll Connor Carroll
--   &xavier-choo Xavier Choo
--   &chris-cyr Chris Cyr
--   &nick-duenas Nicholas Duenas
--   &brooke-farrar Brooke Farrar
--   &carver-frazier Carver Frazier
--   &brianna-gier Brianna Gier
--   &shawn-griddine Shawn Griddine
--   &nate-huey Nate Huey
--   &kristi-laduca Kristi LaDuca
--   &andrew-lawton Andrew Lawton
--   &alexina-manriquez Alexina Manriquez
--   &ryan-myers Ryan Myers
--   &alex-pfiefer Alex Pfiefer
--   &marvin-reed Marvin Reed
--   &matt-sieve Matt Sieve
--   &myojin-yang Myojin Yang
+-   &victor-alcaraz "Victor Alcaraz"
+-   &dennis-aquilina "Dennis Aquilina"
+-   &alex-blakely "Alex Blakely"
+-   &connor-carroll "Connor Carroll"
+-   &xavier-choo "Xavier Choo"
+-   &chris-cyr "Chris Cyr"
+-   &nick-duenas "Nick Duenas"
+-   &brooke-farrar "Brooke Farrar"
+-   &carver-frazier "Carver Frazier"
+-   &brianna-gier "Brianna Gier"
+-   &shawn-griddine "Shawn Griddine"
+-   &efrain-hinojosa "Efrain Hinojosa (EH-fren ee-no-HO-sah)"
+-   &nate-huey "Nate Huey"
+-   &kristi-laduca "Kristi LaDuca"
+-   &andrew-lawton "Andrew Lawton"
+-   &alexina-manriquez "Alexina Manriquez"
+-   &ryan-myers "Ryan Myers"
+-   &erik-nishimori "Erik Nishimori (EH-rik nih-shee-MO-ree)"
+-   &alex-pfiefer "Alex Pfiefer"
+-   &marvin-reed "Marvin Reed"
+-   &matt-sieve "Matt Sieve"
+-   &myojin-yang "Myojin Yang"
 
 students:
--   "Erin Chang"
--   &ayla-johnson Ayla Johnson (AY-lah Johnson)
+-   &robin-butterfield "Robin Butterfield"
+-   &ayla-johnson "Ayla Johnson (AY-lah Johnson)"
+-   &sophia-heo "Sophia Heo"
 -   &claire-kim "Claire Kim"
--   &lucy-lee Lucy Lee
--   &kyra-maeda Kyra Maeda (Kyra MY-eh-dah)
--   "Nicholas Pinnesault"
+-   &lucy-lee "Lucy Lee"
+-   &kyra-maeda "Kyra Maeda (Kyra MY-eh-dah)"
+-   &niki-murugesan "Niki Murugesan"
+-   &ashley-osterhaut "Ashley Osterhaut"
 -   &kellen-sowa "Kellen Sowa"
+-   &lily-zheng "Lily Zheng"
 
 parade:
     isHost: true
@@ -116,14 +119,14 @@ fieldshow:
 
     -   title: auxiliary captains
         members:
-        -   Ashley Osterhaut
-        -   Niki Murugesan
-        -   Sophia Heo
+        -   *ashley-osterhaut
+        -   *niki-murugesan
+        -   *sophia-heo
 
     -   title: percussion captain
         members:
-        -   Lily Zheng
-        -   Robin Butterfield
+        -   *lily-zheng
+        -   *robin-butterfield
 
     -   title: brass captain
         members:
@@ -148,15 +151,23 @@ fieldshow:
 winterguard:
     isHost: true
 
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-23 15:53:23 -08
 
-    nickname: "Foothill High School Winter Guard"
+    nickname: "Foothill Winterguard"
 
     directors:
+    -   *nick-duenas
+    -   *kristi-laduca
+    -   *alexina-manriquez
 
     staff:
         
     leaders:
+    -   title: "captains"
+        members:
+        -   *sophia-heo
+        -   *ashley-osterhaut
+        -   *niki-murugesan
 
     program: "Checkered Reality"
 
@@ -167,22 +178,39 @@ winterguard:
 winterpercussion:
     isHost: true
 
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-23 13:01:23 -08
 
-    nickname: "Foothill High School Winter Percussion"
+    nickname: "Foothill Winter Percussion"
 
     directors:
+    -   "Josh Butterfield"
     -   *erik-nishimori
+    -   *chris-cyr
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   *xavier-choo
+        -   *myojin-yang
+        -   "Adam Herrera"
+        -   *alex-blakely
+        -   *alex-pfiefer
+        -   *ryan-myers
         
     leaders:
+    -   title: "captains"
+        members:
+        -   *robin-butterfield
+        -   *lily-zheng
+        -   "Lucia Grillo"
 
     program: "The Value of a Moment" 
 
     music: 
 
-    notes:
+    notes: >
+        Foothill Percussion would especially like to thank Josh, Chris, and the rest of the parent boosters for making this winter season a success.
+        Your hard work, time, and effort is greatly appreciated!
 
 winterpercussion-intermediate:
     isHost: true
