@@ -3,6 +3,8 @@ const countMap = [
     { min: 13, max: 15, cite: "more than a dozen" },
     { min: 17, max: 19, cite: "nearly a score of" },
     { min: 20, max: 20, cite: "a score of" },
+    { min: 21, max: 21, cite: "more than a score of" },
+    { min: 22, max: 23, cite: "nearly two dozen" },
     { min: 24, max: 24, cite: "two dozen" },
     { min: 25, max: 27, cite: "more than two dozen" },
     { min: 28, max: 29, cite: "nearly thirty" },
