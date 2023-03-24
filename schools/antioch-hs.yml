@@ -3,9 +3,12 @@ name: "Antioch High School"
 city: "Antioch, CA"
 
 staff:
+-   &angelo-gutierrez "Angelo Gutierrez"
+-   &joshua-suarez "Joshua Suarez"
 -   &courtney-trantham "Courtney Trantham"
 
 students:
+-   &adrienne-ashford "Adrienne Ashford"
 -   &jose-cordova "Jose Cordova"
 -   &kassidy-jennings "Kassidy Jennings"
 -   &kylie-souza "Kylie Souza"
@@ -22,11 +25,11 @@ parade:
     staff: &band-review-staff
     -   title: "percussion instructor"
         members:
-        -   "Angelo Gutierrez"
+        -   *angelo-gutierrez
 
     -   title: "color guard instructors"
         members:
-        -   "Joshua Suarez"
+        -   *joshua-suarez
         -   "Marissa Kittleson"
 
     leaders:
@@ -77,7 +80,7 @@ fieldshow:
 
     -   title: "soloists"
         members:
-        -   "Adrienne Ashford"
+        -   *adrienne-ashford
         -   "Amir Moore"
         -   "William Fraser"
 
@@ -94,7 +97,7 @@ fieldshow:
         The band would like to give a huge thank you to ABBA for everything they do to support the program!
 
 winterpercussion:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-24 00:11:05 -08
 
     nickname: "Antioch High School Winter Percussion"
 
@@ -102,8 +105,16 @@ winterpercussion:
     -   *courtney-trantham 
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   *angelo-gutierrez
+        -   *joshua-suarez
 
     leaders:
+    -   title: "captains"
+        members:
+        -   *adrienne-ashford
+        -   "Ben Elser"
 
     program: "Endless Nameless"
 

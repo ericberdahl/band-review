@@ -38,7 +38,7 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-20 16:30:00 -08
 
     nickname: "Pinole Valley High School Winter Percussion"
 
@@ -56,11 +56,12 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-20 16:30:00 -08
 
     nickname: "Pinole Valley High School Winterguard"
 
     directors:
+    -   *ross-ackerman
 
     staff:
 

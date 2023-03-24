@@ -2,9 +2,6 @@ name: "Turlock Christian High School"
 
 city: "Turlock, CA"
 
-staff:
--   "Neena Stegmann"
-
 students:
 -   &rosie-rojas "Rosie Rojas"
 
@@ -34,18 +31,22 @@ concert:
     lastUpdated: 2018-10-12 12:54:06 -07
 
 winterguard:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-20 16:30:00 -08
 
     nickname: "Turlock Christian Marching Eagles Winterguard"
 
     directors:
+    -   "Neena Stegmann"
 
     staff:
 
     leaders:
 
-    program: "Dandelions"
+    program: "Dandelion"
 
     music: 
 
-    notes: 
+    notes: >
+        The Turlock Christian Marching Eagles Winterguard is happy to be back for their second year of competition.
+        During the fall marching season, they received back-to-back first place trophies at the Pitman Preview of Champions, Santa Cruz Band Review, and the Central California Band Review.
+        The performers in this group are happy to be back and hope that you enjoy their performance of Dandelion.

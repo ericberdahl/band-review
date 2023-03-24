@@ -45,13 +45,17 @@ parade:
         The members of the band would like to thank the Petaluma High School Music Boosters and the uniform moms for making their performance possible today!
 
 winterpercussion:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-20 16:30:00 -08
 
     nickname: "Petaluma Drum Line"
 
     directors: 
+    -   *cliff-eveland
 
     staff:
+    -   title: "instructed by"
+        members:
+        -   *nick-dibley
 
     leaders:
 

@@ -52,18 +52,24 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2023-03-20 15:30:00 -08
+    lastUpdated: 2023-03-24 11:48:49 -08
 
     nickname: "Alameda High Color Guard"
 
     directors:
+    -   "Tyra Cable"
 
     staff:
 
     leaders:
+    -   title: "captain"
+        members:
+        -   "Asta Li"
 
     program: "Young and Beautiful"
 
     music: 
 
-    notes: 
+    notes: >
+        Alameda High Color Guard say thank you to all our supportive parents.
+        We couldn't have done it without you.
