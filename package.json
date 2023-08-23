@@ -4,10 +4,8 @@
   "description": "Generate Announcer's book for Band Review and Winter Show",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "export": "next build && next export",
+    "export": "next build",
     "postexport": "scripts/postExport.py",
-    "start": "next start",
     "debug": "NODE_OPTIONS='--inspect' next dev",
     "lint": "next lint",
     "publish": "rsync -a --delete out/*"
