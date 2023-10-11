@@ -33,7 +33,7 @@ export async function getWinterShow() : Promise<WinterShow> {
     }
     catch (e)
     {
-        console.error(`Exception parsing winter show data`);
+        e.message = `${e.message}; parsing winter show data`
         throw e;
     }
 }

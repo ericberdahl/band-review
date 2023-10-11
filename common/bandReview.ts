@@ -35,7 +35,7 @@ export async function getBandReview() : Promise<BandReview> {
     }
     catch (e)
     {
-        console.error(`Exception parsing band review data`);
+        e.message = `${e.message}; parsing band review data`
         throw e;
     }
 }

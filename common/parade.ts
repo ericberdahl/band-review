@@ -67,15 +67,31 @@ export class Parade {
         result.lineup.push(...await Promise.all(data.lineup.map(async (li) => {
             if (isParadeUnitRef(li)) {
                 return ParadeUnit.deserialize(await readSerializedUnitForSchool<SerializedParadeUnit>(li.ref))
+                                    .catch((e) => {
+                                        e.message = `${e.message}; deserializing ParadeUnit "${li.ref}"`
+                                        throw e;
+                                    });
             }
             else if (isBreakShowUnit(li)) {
-                return BreakUnit.deserialize(li);
+                return BreakUnit.deserialize(li)
+                                .catch((e) => {
+                                    e.message = `${e.message}; deserializing parade BreakUnit "${li.break}"`
+                                    throw e;
+                                });
             }
             else if (isColorsShowUnit(li)) {
-                return ColorsUnit.deserialize(li);
+                return ColorsUnit.deserialize(li)
+                                .catch((e) => {
+                                    e.message = `${e.message}; deserializing parade ColorsUnit "${li.colors}"`
+                                    throw e;
+                                });
             }
             else if (isGrandMarshalShowUnit(li)) {
-                return GrandMarshalUnit.deserialize(li);
+                return GrandMarshalUnit.deserialize(li)
+                                .catch((e) => {
+                                    e.message = `${e.message}; deserializing parade GrandMarshalUnit "${li.grandMarshal}"`
+                                    throw e;
+                                });
             }
             else {
                 assert.fail(`Unrecognized parade lineup item: ${JSON.stringify(li)}`)

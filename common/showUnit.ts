@@ -12,7 +12,7 @@ export async function readSerializedUnitForSchool<T>(schoolRef : string) : Promi
     }
     catch (e)
     {
-        console.error(`Exception parsing data for school ${schoolRef}`);
+        e.message = `${e.message}; parsing data for school "${schoolRef}"`
         throw e;
     }
 }

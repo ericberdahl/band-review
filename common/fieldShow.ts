@@ -62,16 +62,33 @@ export class FieldShow {
         result.lineup.push(...await Promise.all(data.lineup.map(async (li) => {
             if (isFieldShowUnitRef(li)) {
                 return FieldShowUnit.deserialize(await readSerializedUnitForSchool<SerializedFieldShowUnit>(li.ref))
+                                    .catch((e) => {
+                                        e.message = `${e.message}; deserializing FieldShowUnit "${li.ref}"`
+                                        throw e;
+                                    });
             }
             else if (isAnthemPerformerShowUnit(li)) {
-                return AnthemPerformerUnit.deserialize(li);
+                return AnthemPerformerUnit.deserialize(li)
+                                    .catch((e) => {
+                                        e.message = `${e.message}; deserializing field show AnthemPerformerUnit "${li.anthemPerformer}"`
+                                        throw e;
+                                    });
+;
             }
             else if (isAwardsShowUnit(li)) {
-                return AwardsUnit.deserialize(li);
-            }
+                return AwardsUnit.deserialize(li)
+                                .catch((e) => {
+                                    e.message = `${e.message}; deserializing field show AwardsUnit "${li.awardsLabel}"`
+                                    throw e;
+                                });
+}
             else if (isBreakShowUnit(li)) {
-                return BreakUnit.deserialize(li);
-            }
+                return BreakUnit.deserialize(li)
+                                .catch((e) => {
+                                    e.message = `${e.message}; deserializing field show BreakUnit "${li.break}"`
+                                    throw e;
+                                });
+}
             else {
                 assert.fail(`Unrecognized field show lineup item: ${JSON.stringify(li)}`)
             }
