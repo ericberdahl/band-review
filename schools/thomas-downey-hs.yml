@@ -1,0 +1,36 @@
+name: "Thomas Downey High School"
+
+city: "Modesto, CA"
+
+parade:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Marching Blue Knights"
+
+    directors:
+    -   "Alexis True"
+
+    staff:
+
+    leaders:
+    -   title: "drum major"
+        members:
+        -   "Xavier Hernandez"
+
+    -   title: "color guard captain"
+        members:
+        -   "Tayler Self"
+    
+    -   title: "percussion captains"
+        members:
+        -   "Sean Coxford"
+        -   "Timothy Nicolodi"
+
+    music: "El Capitan by John Philip Sousa arranged by Jack Bullock"
+
+    notes:
+
+concert:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Concert Band"

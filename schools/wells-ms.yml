@@ -14,9 +14,9 @@ students:
 -   &luis-ojeda "Luis Ojeda"
 
 parade:
-    lastUpdated: 2022-10-14 15:29:23 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: "Roadrunner Band"
+    nickname: Roadrunner Marching Band and Color Guard
 
     directors:
     -   *erik-bertelson
@@ -24,7 +24,6 @@ parade:
     staff:
     -   title: "instructed by"
         members:
-        -   *grace-holmes
         -   *erin-lewis
         -   *sasha-wirchniansky
         -   *kendle-fong
@@ -32,17 +31,22 @@ parade:
     leaders:
     -   title: "drum major"
         members:
-        -   "Hiroyuki Kasaya"
+        -   Sydney Majaya
 
-    -   title: "auxiliary captains"
+    -   title: color guard captains
         members:
-        -   *ella-mcLaughlin
-        -   *luis-ojeda
+        -   Emily Reyes
+        -   Kenzie Fu
+        -   Caitlin Sellers
+    
+    -   title: percussion captains
+        members:
+        -   Will Reyes
+        -   Connor Wong
 
-    music: "United Nations by K.L.King"
+    music: Host of Freedom by Karl L King
 
     notes: >
-        Wells Middle School Marching Band gives a big thank you to all of the Wells parents for their valuable time and support for their musicians and color guard.
 
 concert:
     lastUpdated: 2022-10-14 15:29:23 -07

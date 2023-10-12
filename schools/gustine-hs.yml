@@ -1,0 +1,38 @@
+name: "Gustine High School"
+
+city: Gustine, CA
+
+parade:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: Marching Reds
+
+    directors:
+    -   Steve Mitchell
+
+    staff:
+    -   title: color guard instructor
+        members:
+        -   Renee Edwards
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Ethan Eleshio (Ethan eh-LEESH-ee-oh)
+        
+    -   title: color guard captain
+        members:
+        -   Aaliah Ceballos
+    
+    -   title: percussion captain
+        members:
+        -   Gisele Ramirez
+
+    music: The Washington Post March by John Phillip Sousa
+
+    notes:
+
+concert:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Concert Band"

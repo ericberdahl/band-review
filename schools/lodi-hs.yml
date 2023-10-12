@@ -3,38 +3,40 @@ name: "Lodi High School"
 city: "Lodi, CA"
 
 fieldshow:
-    lastUpdated: 2021-10-11 15:03:46 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: "Lodi High Honor Band and Guard"
+    nickname: "Lodi Honor Band"
 
     directors:
-    -   "Bernadette Dempsey"
+    -   Vince Hjerpe (Vince jehr-PEE)
 
     staff:
     -   title: instructed by
         members:
         -   Jesus Muniz
-        -   Greg Lewis
-        -   David Morones
-        -   Cody Easterbrooks
-        -   Jacob Miller
+        -   Alex Moreno
         -   Marcus Rowe
+        -   Jacob Miller
+        -   Mallory Norman
+        -   Greg Lewis
 
     leaders:
     -   title: "drum major"
         members:
-        -   Chevelle Stapleton
+        -   Violet Hair
         
-    -   title: assistant drum major
+    -   title: color guard captain
         members:
-        -   Joy Talaroc
+        -   Kate Morones
 
-    program: "Afterworld"
+    -   title: percussion captain
+        members:
+        -   Aaron Wolff
 
-    music: music by Gary Gilroy
+    program: Phantom of the Opera
+
+    music: 
 
     description: >
-        Enter the story of the Divine Comedy "Dante's Inferno".
 
     notes: >
-        The Lodi High School Band would like to thank its boosters and parents for their continuing support.

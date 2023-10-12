@@ -2,8 +2,12 @@ name: Granada High School
 
 city: Livermore, CA
 
+staff:
+-   Jamie Hjeltness (Jamie YÜLT-nihs)
+
+
 parade:
-    lastUpdated: 2022-10-09 11:45:21 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Matador Marching Band
 
@@ -13,27 +17,26 @@ parade:
     staff:
     -   title: "instructed by"
         members:
-        -   Jamie Hjeltness (Jamie YÜLT-nihs)
-        -   "Sierra Sowa"
+        -   Sierra Sowa
+        -   Natasha Mihelcic (Natasha mih-hehl-chich)
 
     leaders:
     -   title: drum major
         members:
-        -   David Sadkowski
+        -   Parker Wolfe
 
     -   title: auxiliary captains
         members:
-        -   Sabreina Cullins
-        -   Jenessa Mazerlev
+        -   Sara Willey
+        -   Sofia Bourque
 
     -   title: percussion captain
         members:
-        -   Jasoc Cruz
+        -   Sofie Yuan (Sofie rehn)
 
-    music: H.M. Jollioes by Kenneth Alford
+    music: Sarafand by G.H. Willcocks
 
     notes: >
-        The Matador Marching Band thanks Granada Supporters, Staff, and the Granada Music Parents for their continued support.
 
 winterpercussion:
     lastUpdated: 2000-01-01 15:23:03 -07

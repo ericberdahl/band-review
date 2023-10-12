@@ -3,38 +3,25 @@ name: River Valley High School
 city: Yuba City, CA
 
 parade:
-    lastUpdated: 2019-10-18 08:36:10 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: "River Valley Falcon Marching Band"
 
     directors:
     -   "Michael Taylor"
 
-    staff:
-    -   title: "instructed by"
-        members:
-        -   "Jason Fry"
-        -   "Jovanie Romero"
-        -   "Alexis Barragan"
-
     leaders:
     -   title: "drum major"
         members:
-        -   "Alina Chavez"
-    
-    -   title: "auxiliary captains"
-        members:
-        -   "Shirley Camacho"
-        -   "Allyson Rodriguez"
-        
+        -   "Cruz Gonzalez"
+            
     -   title: "percussion captain"
         members:
-        -   "Delaney Timms"
+        -   "Georden Hudson-Gessford"
     
     music: "Stars and Stripes Forever by John Philip Sousa"
 
     notes: >
-        The Falcon Marching Band would like to thank the River Valley band parents for all of their help at these competitions, without them this wouldn't be possible!
 
 fieldshow:
     lastUpdated: 2022-10-14 11:27:53 -07

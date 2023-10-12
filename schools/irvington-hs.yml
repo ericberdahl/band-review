@@ -3,7 +3,7 @@ name: Irvington High School
 city: Fremont, CA
 
 parade:
-    lastUpdated: 2022-10-14 09:40:28 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Viking Marching Band
 
@@ -20,22 +20,26 @@ parade:
         -   Jessica Fuller
         -   Ben Wilkinson
 
+    -   title: percussion coaches
+        members:
+        -   Jacob Mercado
+        -   Nadja Ryan
+
     leaders:
     -   title: drum major
         members:
-        -   Isabelle Hsu
+        -   William Bai
 
-    -   title: auxiliary captains
+    -   title: color guard captains
         members:
-        -   Stephane Ledesma
         -   Natalie Brahan
+        -   Bryanna Ho
 
-    -   title: percussion captains
+    -   title: percussion captain
         members:
         -   Brayden Louie
-        -   Nadja Ryan
 
-    music: The Knight Templar by George Allan
+    music: Castell Coch by T. J. B Powell
 
     notes: >
 

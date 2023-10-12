@@ -1,11 +1,11 @@
-name: "Dublin High School"
+name: "Dublin/Emerald High School"
 
 city: "Dublin, CA"
 
 fieldshow:
-    lastUpdated: 2022-10-18 13:21:19 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: Irish Guard
+    nickname: Irish Guard Marching Band and Color Guard
 
     directors:
     -   Elliot Polot (Elliot puh-LOT)
@@ -15,39 +15,44 @@ fieldshow:
     -   title: instructed by
         members:
         -   Joey Staab
-        -   Nick Garcia
-        -   Matt Sieve
         -   Fou Saelee
+        -   Matthew Sieve
+        -   Jasper Tran
+        -   Nicholas Garcia
         -   Justin Shebert
-        -   Garrett Moya
         -   Zach Larsen
         -   Pranav Singh
         -   Lyle Elster
+        -   Alyssa Miceli
+        -   Ryan Small
+        -   Maggie Nguyen
+        -   Grace Holmes
         
     leaders:
     -   title: drum majors
         members:
-        -   Akhil Rajidi
         -   Marco Duldulao
         -   Anthony Lam
+        -   Ivanna Chen
+        -   Tvisha Kumar
 
-    program: Visionary
+    -   title: color guard captains
+        members:
+        -   Sarah Khouri
+        -   Andre Lee
+
+    -   title: percussion captains
+        members:
+        -   Shawn DaCosta
+        -   Akash Kalyanaraman
+
+    program: Take Me Higher
 
     music: >
-        Eight Lines by Steve Reich,
-        Philip Glass' Violin Concerto number 1,
-        Sleeper by Snarky Puppy,
-        and Chairman Dances by John Adams.
 
     description: >
-        Visionary is about groundbreaking inventions that have changed the world: the light bulb, telephone, radio, television, and computer.
 
     notes: >
-        The Irish Guard would like to thank the Dublin High School Friends of Music, school administration, custodial, and all the parents
-        for making this season possible!
-        The Irish Guard won Field Sweepstakes at the 2021 Fairfield Tournament of Champions with “Impressions of Night”,
-        were 4A/5A Finalists at the 2019 WBA Championships with “The Wolves Within”,
-        and won Field Sweepstakes at the 2019 Fairfield Tournament of Champions with “The Wolves Within”.
 
 concert-1:
     lastUpdated: 2022-10-14 13:08:46 -07

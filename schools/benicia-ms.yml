@@ -2,8 +2,11 @@ name: Benicia Middle School
 
 city: Benicia, CA
 
+students:
+-   &liliya-patterson Liliya Patterson
+
 parade:
-    lastUpdated: 2022-10-14 11:26:39 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Viking Band
 
@@ -13,40 +16,40 @@ parade:
     staff:
     -   title: color guard staff
         members:
-        -   Jamie Hjeltness (Jamie YÜLT-nihs)
         -   Xitlali Jiminez (zit-LAH-lee Jiminez)
-        -   Ava Cheung
+        -   Caliegh Werblow (CAH-lee Werblow)
+        -   Amaya Soler
 
     -   title: drumline instructor
         members:
         -   Jaleel Gospel
+        -   Haylie Miller
+        -   Taylor Slight
 
     leaders:
     -   title: drum major
         members:
-        -   Jack Shaw
+        -   *liliya-patterson
 
-    -   title: guard captain
+    -   title: color guard captain
         members:
-        -   Ramiyah Drake
+        -   Lily Rotter
 
-    -   title: percussion captain
+    -   title: rifle captain
         members:
-        -   Evan Diggs
+        -   Emerson Dravland
 
     -   title: letter captain
         members:
-        -   Julianne Verbis
+        -   Ella Throne
 
-    -   title: flag captain
+    -   title: percussion captain
         members:
-        -   Sophia Jiminez
+        -   *liliya-patterson
 
-    music: Monmouth March by Larry Clark
+    music: Gallant Marines by Karl L. King, arranged by James Swearingen (James SWEHR-ing-ehn)
     
     notes: >
-        The Benicia Middle School Viking Band is an award winning program focusing on reaching the highest level of musicianship and performance.
-        The Benicia Middle School Viking Band would like to thank their boosters for their support getting the band ready for this marching season.
 
 concert:
     lastUpdated: 2022-10-14 11:26:39 -07

@@ -5,14 +5,16 @@ city: Fremont, CA
 staff:
 -   &richard-wong "Richard F. Wong"
 -   &james-santiago "James Santiago"
--   &jennie-wong "Jennie Wong"
+-   &harish-prabhakaran "Harish Prabhakaran (prahb-HAH-kah-rahn)"
+-   &jennie-wong "Jennifer Wong"
+
 
 students:
 -   &naomi-tchao "Naomi Tchao"
 -   &heather-hughes "Heather Hughes"
 
 fieldshow:
-    lastUpdated: 2022-10-12 8:44:58 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: American Eagles Marching Band
 
@@ -20,81 +22,35 @@ fieldshow:
     -   *richard-wong
     
     staff:
-    -   title: color guard and woodwind instructor
+    -   title: instructed by
         members:
         -   *jennie-wong
+        -   *harish-prabhakaran
 
     leaders:
     -   title: drum majors
         members:
-        -   Suhas Palawala
-
-    -   title: auxilliary captain
-        members:
-        -   *naomi-tchao
-        -   *heather-hughes
-
-    -   title: percussion captain
-        members:
-        -   Kyle China
-        -   Shriya Shankar
-
-    -   title: flute leaders
-        members:
-        -   Simi Das
-        -   Aaroh Dixit Hardikar
-
-    -   title: clarinet leaders
-        members:
-        -   Daniel Alvizo
-        -   Safal Ghimire
-
-    -   title: alto saxophone leaders
-        members:
-        -   Neelim Mollick
-        -   Benjamin Qiao
-
-    -   title: low winds leaders
-        members:
-        -   Christopher Gomez
+        -   Aaroh Dixit (AH-roh Dixit)
         -   Bhargav Shriram
-        -   Raghuram Vungutur
 
-    -   title: trumpet leader
+    -   title: color guard captains
         members:
-        -   Pranav Surapaneni
+        -   Hannah Chow
+        -   Silas Hughes
+        -   Janine Ty
 
-    -   title: low brass leaders
+    -   title: percussion captains
         members:
-        -   Edwin Lung
-        -   Luke Vinas
+        -   Ashwin Bhat
+        -   Rohan Iyer
 
-    -   title: music librarian
-        members:
-        -   Nate Tseng
-
-    -   title: equipment managers
-        members:
-        -   Aaroh Dixit Hardikar
-        -   Stuti Jajoo
-
-    -   title: publicity leader
-        members:
-        -   Stuti Jajoo
-
-    program: Quidam - the music of Cirque du Soleil
+    program: Julius Caesar
 
     music: >
-        music from Cirque du Soleil's Quidam: Atmadja, Ninkou Latora, Quidam, and Incantation, composed by Benoir Jutras and arranged Jay Dawson and Mark Casey
 
     description: >
 
     notes: >
-        The American Eagles Marching Band won first place at the Newark Days Parade, and second place at the Cupertino Tournament of Bands.
-        They thank their band parents for all of their support.
-        and give thanks to our host for putting on this show and to the friends, families, supporters, and spectators.
-        It's great to be back and performing in front of a live audience!
-
 
 winterguard:
     lastUpdated: 2023-03-21 09:00:16 -08

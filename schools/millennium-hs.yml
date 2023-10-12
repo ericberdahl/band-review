@@ -3,7 +3,7 @@ name: Millennium High School
 city: Tracy, CA
 
 fieldshow:
-    lastUpdated: 2022-10-14 9:38:15 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Marching Falcons
 
@@ -18,29 +18,24 @@ fieldshow:
     leaders:
     -   title: drum major
         members:
-        -   Collin Credo
+        -   Collin Credo (Collin CREE-doh)
     
-    -   title: auxiliary captain
+    -   title: color guard captain
         members:
         -   Ariana Villa
     
     -   title: percussion captains
         members:
-        -   Michelle Bai
         -   Colby McCarthy
+        -   Monse Martinez (MOHN-say Martinez)
 
-    program: The Bermuda Triangle
+    program: Queen of the Hive
 
     music: >
-        movement 1 Into the Triangle,
-        movement 2 Lost in the Triangle,
-        and movement 3 Vanished,
-        composed by Key Poulan (KEE POH-lan), percussion by Mark Branson and Dan Bryan
 
     description: >
 
     notes: >
-        The Marching Falcons give a special thank you to their parents and administration for all of their support and hard work.
 
 winterguard:
     lastUpdated: 2019-03-16 14:42:35 -07

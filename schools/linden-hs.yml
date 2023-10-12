@@ -6,43 +6,39 @@ staff:
 -   &troy-rexelle "Troy Rexelle (rex-EHL)"
 
 parade:
-    lastUpdated: 2022-10-10 13:19:54 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: "Lion Regiment"
 
     directors:
-    -   *troy-rexelle
+    -   Bernadette Dempsey
 
     staff: 
-    -   title: flag instructor
+    -   title: instucted by
         members:
-        -   "Arturo Espinosa"
-
-    -   title: percussion instructor
-        members:
-        -   "Andrew Cardwell"
+        -   Alejandro Moreno
+        -   Jesus Muniz
+        -   Jacob Miller
+        -   Cody Easterbrooks
+        -   Marcus Rowe
 
     leaders:
     -   title: drum major
         members:
-        -   "Lucia Gideon (loo-CHEE-ah Gideon)"
+        -   Jack Herrington
 
-    -   title: auxilliary captains
+    -   title: auxilliary captain
         members:
-        -   "Angela Anguiano"
-        -   "Corina Jenks"
-        -   "Ashley Calvillo"
+        -   Yuritzi Jimenez
 
     -   title: percusson captain
         members:
-        -   "Moses Sanchez"
+        -   Hayden Williams
 
     music: >
-        High School Cadets by John Phillip Sousa
+        General Mitchell by R.B. Hall
 
     notes: >
-        This will be the first time in over 20 years that Linden High School has competed in Parade competition.
-        They like to thank the Linden Band Boosters and all the parents for their support. 
 
 winterpercussion:
     lastUpdated: 2023-03-20 16:30:00 -08

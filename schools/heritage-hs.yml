@@ -43,7 +43,12 @@ fieldshow:
 
     notes: 
     
-concert:
-    lastUpdated: 2022-09-30 12:41:55 -07
+concert-1:
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: "Heritage High Wind Ensemble"
+    nickname: "Concert 1"
+
+concert-2:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Concert 2"

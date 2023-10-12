@@ -2,51 +2,42 @@ name: Washington High School
 
 city: Fremont, CA
 
+staff:
+-   Amberle Mitchell (AHM-bur-lee Mitchell)
+-   
+
 parade:
-    lastUpdated: 2022-10-14 10:09:03 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Marching Huskies
 
     directors:
-    -   Amberle Mitchell (AHM-bur-lee Mitchell)
+    -   Daniel Edwards
 
     staff:
-    -   title:  instructed by
+    -   title:  percussion instructor
         members:
-        -   Ben Benavides
         -   Ruben Peredes
 
+    -   title:  marching instructor
+        members:
+        -   Ben Benavides
+
     leaders:
-    -   title: drum major
+    -   title: drum majors
         members:
-        -   Audrey Kim
+        -   Ansh Chellani
+        -   Marcelo Cardozo
     
-    -   title: auxilliary captain
+    -   title: color guard captain
         members:
-        -   Christian Wong
+        -   Pranavi Myana (prah-NAH-vee Mee-YAH-nah)
     
     -   title: percussion captain
         members:
-        -   Owen Cheung
+        -   Ashita Srinivasmurthy
 
-    music: Bravura by Charles E. Duble, arranged by John Edmondson
+    music: Barnum and Bailey's Favorite by Karl L. King
 
     notes: >
         The Marching Huskies give a huge thank you to their supportive community and band parents; we wouldn't be here without you!
-
-winterpercussion:
-    lastUpdated: 2019-03-18 16:09:26 -07
-
-    nickname: "Washington High School Winter Percussion"
-
-    directors:
-
-    staff:
-        
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 

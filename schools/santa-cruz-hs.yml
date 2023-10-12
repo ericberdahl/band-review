@@ -3,7 +3,7 @@ name: "Santa Cruz High School"
 city: "Santa Cruz, CA"
 
 parade:
-    lastUpdated: 2022-09-30 11:37:11 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: "Cardinal Regiment"
 
@@ -11,18 +11,34 @@ parade:
     -   "Christina Latham (kris-TEE-nah LAY-tham)"
 
     staff:
-    -   title: "instructed by"
+    -   title: "color guard instructor"
         members:
-        -   "Ron Salinas"
         -   "Keegan McCoy"
+
+    -   title: "percussion instructor"
+        members:
         -   "Adam Haney"
+
+    -   title: "bagpipe instructor"
+        members:
         -   "Jay Salter"
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Jonah Polissar"
+        -   "Zoe Miller"
 
-    music: "In Storm and Sunshine by John Clifford Heed"
+    -   title: "color guard captain"
+        members:
+        -   Reese Darby
+        
+    -   title: "percussion captains"
+        members:
+        -   Leo Reyes-Jiminez
+        -   Hayden Wooford
+        -   Max Willet
+        -   Finn Thomson
 
+    music: Emblem of the Army by Arthur Gullidge
+    
     notes: >

@@ -5,6 +5,7 @@ city: "San Jose, CA"
 staff:
 -   &josh-bacleg "Josh Bacleg (Josh BAK-leg)"
 -   &william-burkhead "William Burkhead"
+-   &dallana-corona "Dallana (pronounced Diana) Corona"
 -   &kale-duprey Kale Duprey (KALE doo-PRAY)
 -   &aj-gonzales AJ Gonzales
 -   &andrew-kuykendall Andrew Kuykendall (Andrew KUHR-ken-dahl)
@@ -13,12 +14,13 @@ staff:
 -   &noah-rojas Noah Rojas (Noah ROH-hoss)
 -   &bailey-morgan "Bailey J Morgan"
 -   &alyssa-mccoy "Alyssa McCoy"
--   &dallana-corona "Dallana (pronounced Diana) Corona"
 
 students:
+-   &maiah-flores Maiah Flores (MY-ah Flores)
+-   &lindsey-goetowski Lindsey Goetowski (LIHND-zee go-TAO-skee)
 
 parade:
-    lastUpdated: 2021-10-14 17:00:53 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: "Del Mar High School Marching Band and Colorguard"
 
@@ -31,97 +33,52 @@ parade:
         -   *kale-duprey
         -   *bailey-morgan
         -   *alyssa-mccoy
-        -   Charlie Tran
-        -   AJ Gonzalez
+        -   CJ Julian
+        -   Desmond Rix
         -   *lidia-luque
-        -   Alexis Plowman
+        -   Nick Corona
 
     leaders:
     -   title: "drum major"
         members:
-        -   Patrick Lockwood
+        -   *maiah-flores
 
-    -   title: "auxiliary captain"
-        members:
-        -   Ben Johnson
-
-    -   title: "percussion captains"
-        members:
-        -   Nathan Choi
-        -   Joe Pinella
-
-    music: St. Petersburg March by Johnnie Vinson
+    music: Holyrood March by Kenneth Alford arranged by Harold Gore
 
     notes: >
 
 fieldshow:
-    lastUpdated: 2022-09-30 11:39:37 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Del Mar High School Marching Band and Colorguard
 
     directors:
     -   *william-burkhead
-    -   *aj-gonzales
 
     staff:
-    -   title: "visual instructor"
+    -   title: instructed by
         members:
         -   *kale-duprey
-
-    -   title: "percussion instructor"
-        members:
         -   *bailey-morgan
-
-    -   title: "colorguard instructor"
-        members:
         -   *alyssa-mccoy
-
-    -   title: "percussion tech"
-        members:
-        -   *andrew-kuykendall
-
-    -   title: "visual techs"
-        members:
-        -   *noah-rojas
+        -   CJ Julian
+        -   Desmond Rix
+        -   Nick Corona
         -   *lidia-luque
 
-    -   title: "woodwind tech"
-        members:
-        -   Kiran Nair
-
-    -   title: "brass tech"
-        members:
-        -   *jd-poulson
-
     leaders:
-    -   title: drum major
+    -   title: drum majors
         members:
-        -   Ethan Lorenz
-        -   Lindsey Goetowski (LIHND-zee go-TAO-skee)
+        -   *lindsey-goetowski
+        -   *maiah-flores
 
-    -   title: auxiliary captain
-        members:
-        -   Ben Johnson
-
-    -   title: percussion captain
-        members:
-        -   Joe Pinella
-
-    program: "Spitfire"
+    program: Of Queens and Castles
 
     music: >
-        "Eagle Squadron",
-        "Where Never Lark or Eagle Flew",
-        "Boogie Woogie Bugle Boy",
-        "Long, Long Time",
-        and "Warhawk"
 
     description: >
-        Celebrating the American Pilots of "Eagle Squadron" who joined the Royal Airforce in the early days of World War Two
         
     notes: >
-        The Del Mar High School Marching Band and Colorguard wishes to thank our AMAZING parent support team for making this season possible.
-        We also want to wish all of tonight's performers the very best as we all return to the joy of making music again for our friends and families.
 
 concert:
     lastUpdated: 2022-09-30 11:39:37 -07

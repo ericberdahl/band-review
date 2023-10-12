@@ -3,7 +3,7 @@ name: "Merced High School"
 city: "Merced, CA"
 
 parade:
-    lastUpdated: 2022-09-30 12:58:56 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Merced Marching 100
 
@@ -13,34 +13,35 @@ parade:
     staff:
     -   title: color guard instructors
         members:
-        -   Armando Francisco
-        -   Regina Chavez
+        -   Paloma Rodriguez
+        -   Elizabeth Worley
+        -   Samantha Marin
         -   Leslie Mendoza
-        -   Hermione Guzman-Soto
-
-    -   title: percussion instructors
-        members:
+        -   Madilyne Moua
         -   Fernando Barragan (Fernando BEHR-ah-gahn)
         -   Ian Flores
+        -   Salvador Perez
         -   Joshua Powell
 
     leaders:
     -   title: drum major
         members:
-        -   Efrain Gutierrez
+        -   Everett Viera
 
-    -   title: auxilliary captain
+    -   title: color guard captains
         members:
-        -   Emmanuel Reyes
+        -   Morgan Carroll
+        -   Jemimah Akpolo
+        -   Natalie Solorio
     
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Landen Brown
+        -   Alfonso Bautista-Macias
+        -   Quetzali Rocha
     
-    music: Blencathra by William Rimmer, arranged by Bertrand Moren
+    music: Habits by Jonathan L Schmid
 
     notes: >
-        The Merced Marching 100 would like to thank their amazing boosters and administration for all of their help in making their program successful.
 
 concert:
     lastUpdated: 2022-09-30 12:58:56 -07

@@ -27,7 +27,7 @@ students:
 -   &brian-tran "Brian Tran"
 
 parade:
-    lastUpdated: 2022-10-14 15:45:27 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: &band-review-nickname Rodriguez Entertainment Unit
 
@@ -37,44 +37,38 @@ parade:
     staff:
     -   title: instructed by
         members:
+        -   *kaitlyn-remorin
         -   *jaclyn-wren
         -   *taylor-slight
         -   *jaleel-gospel
         -   *derrick-surio
-        -   *kaitlyn-remorin
         -   *gabrielle-perez
         -   *nick-lucro
-        -   *alexina-manriquez
 
     leaders:
-    -   title: drum majors
+    -   title: drum major
         members:
-        -   Carly Suhmara
-        -   Avneet Nirwan
+        -   Maya Jackson
 
-    -   title: auxiliary captains
+    -   title: color guard captains
         members:
-        -   Lily Puphhrey
-        -   Ava Knight
-        -   Aubrie Jones
+        -   Dana Nolasco
+        -   Ysela Medina
 
-    -   title: front ensemble leaders
+    -   title: percussion captains
         members:
-        -   Gabby Landovora
-        -   Steven Bautista
+        -   Daniela Lomboy
+        -   Kaylin Manasala
+        -   Makaela Dato
+        -   Isis Fernandez
+        -   Stephen Bautista
 
-    -   title: battery leaders
-        members:
-        -   Kaleb Cruz
-        -   Kalin Manansala
-
-    music: Sarafand by G.H. Willcocks
+    music: A Slavic Farewell by Vasilij Ivanovitj Agapkin
 
     notes: >
-        The Rodriguez Entertainment Unit thanks the Rodriguez Music Boosters for their love, dedication, and support. 
 
 fieldshow:
-    lastUpdated: 2022-10-14 15:45:27 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: *band-review-nickname
 
@@ -84,40 +78,37 @@ fieldshow:
     -   title: instructed by
         members:
         -   *jaclyn-wren
+        -   *kaitlyn-remorin
         -   *taylor-slight
         -   *jaleel-gospel
-        -   *kaitlyn-remorin
         -   *derrick-surio
         -   *gabrielle-perez
         -   *nick-lucro
-        -   *alexina-manriquez
 
     leaders:
     -   title: drum majors
         members:
-        -   Carly Suhmara
-        -   Avneet Nirwan
+        -   Ashlyn Miller
+        -   Maya Jackson
+        -   Anika Yogi
 
-    -   title: auxiliary captains
+    -   title: color guard captains
         members:
-        -   Lily Pumphrey
-        -   Ava Knight
-        -   Aubrie Jones
+        -   Dana Nolasco
+        -   Ysela Medina
 
     -   title: percussion captains
         members:
-        -   Gabby Landovora
-        -   Steven Bautista
-        -   Kaleb Cruz
-        -   Daniella Lomboy
-        -   Kalin Manasala        
+        -   Daniela Lomboy
+        -   Kaylin Manasala
+        -   Makaela Dato
+        -   Isis Fernandez
+        -   Stephen Bautista     
 
-    program: The Coven
+    program: The Hope Of Spring
 
     description: >
-        The Coven - A Full moon, a dark forest, a cloaked gathering. This is a tale; both sinister and heart- wrenching  of misunderstood witches.....will their power be used for good or evil....
 
-    music: Dreams, Living, Rise, and Hope
+    music: 
     
     notes: >
-        The Rodriguez Entertainment Unit would like to give a special Thank You to the Rodriguez Music Boosters for their Love, Dedication and support. 

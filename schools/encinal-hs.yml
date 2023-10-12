@@ -3,7 +3,7 @@ name: Encinal High School
 city: Alameda, CA
 
 parade:
-    lastUpdated: 2022-10-17 17:07:52 -08
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Soaring Jets
 
@@ -13,28 +13,21 @@ parade:
     staff:
     -   title: instructed by
         members:
-        -   Rich Hall
-        -   Devon Westerholm
-        -   Kathryn Yamada
         -   Claudia Delgado
 
     leaders:
     -   title: drum major
         members:
-        -   Sammy Boyle
-
-    -   title: auxilliary captains
-        members:
-        -   Margrett Levitt
         -   Mateo Delgado
-        -   Nina Leach
 
-    -   title: percussion captains
+    -   title: color guard captain
+        members:
+        -   Clare Paano
+
+    -   title: percussion captain
         members:
         -   Landon Willis
-        -   Leif Willis
 
-    music: Barnum and Bailey's Favorite by Karl King
+    music: The Invincible Eagle by John Phillip Sousa
 
-    notes: >
-        The Soaring Jets give special thanks to the boosters for all their support and to the alumni for help with the percussion section.
+    notes:

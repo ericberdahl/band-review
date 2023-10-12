@@ -8,56 +8,50 @@ staff:
 -   &marissa-kittleson "Marissa Kittleson"
 -   &kate-lemonds "Kate LeMonds"
 -   &abraham-molina "Abraham Molina"
--   &precilla-molina "Precilla Molina"
 -   &joshua-suarez "Joshua Suarez"
--   "YEH-suh-meen SUH-dah-tee"
 -   &courtney-trantham "Courtney Trantham"
 
 students:
+-   &precilla-molina "Precilla Molina"
 -   "Stephany Calderon"
 -   "Angela KWEN-ko"
 -   "Mariah TOH-cow"
 -   "Maya yoo-REE-bay"
 
 parade:
-    lastUpdated: 2022-10-14 09:51:15 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: Deer Valley High School Marching Band and Color Guard
+    nickname: Marching Wolverines
 
     directors: 
-    -   *kevin-field
+    -   Ryan Carr
 
     staff: 
-    -   title: auxilliary instructors
-        members:
-        -   *marissa-kittleson
-        -   *joshua-suarez
-
-    -   title: percussion instructors
+    -   title: instructed by
         members:
         -   *abraham-molina
-        -   *angelo-gutierrez
         -   *joshua-suarez
+        -   *angelo-gutierrez
+        -   *kate-lemonds
 
     leaders:
     -   title: drum major
         members:
-        -   Kaydence Hanson
+        -   James Imperio
 
-    -   title: auxilliary captains
+    -   title: color guard captains
         members:
-        -   Tristan Tacow
-        -   Lizelle Catahan
+        -   Tristan Tocao
+        -   Leslie Cruz
+        -   Kiera-Ann Vocal
 
-    -   title: percussion captains
+    -   title: percussion captain
         members:
-        -   *kate-lemonds
         -   *precilla-molina
 
-    music: Kinizsi by Julius Fučíc
+    music: Peacemaker by Karl L. King
 
     notes: >
-        The Deer Valley High School Marching Band and Color Guard gives a huge thank you to the band boosters and staff for making this happen!
 
 winterguard:
     lastUpdated: 2023-03-21 22:28:09 -08
@@ -110,3 +104,8 @@ winterpercussion:
 
     notes: >
         Deer Valley High School Indoor Percussion thank everyone who helped bring this show to life.
+
+concert:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Concert Band"

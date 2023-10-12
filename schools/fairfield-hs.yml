@@ -3,40 +3,38 @@ name: Fairfield High School
 city: Fairfield, CA
 
 parade:
-    lastUpdated: 2022-10-12 8:32:23 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Scarlet Brigade
 
     directors:
     -   Brian K. Swetland
+    -   Ross Ackerman
 
     staff:
-    -   title: color guard caption head
+    -   title: instructed by
         members:
+        -   Sheally Lee
+        -   Jonno Lee
         -   Teresa Pierce
-
-    -   title: drum major instructor
-        members:
-        -   Paul Olsen
 
     leaders:
     -   title: drum major
         members:
-        -   Pierce Thongpheth (Pierce TONG-pet)
+        -   Blake White
 
     -   title: auxiliary captains
         members:
         -   Erika Cadenas
-        -   Jennifer Nguyen
+        -   Jenn Nguyen
 
     -   title: percussion captain
         members:
-        -   Brian Tran
+        -   Jeana Fontillas (JAY-nah fohn-TEE-yahs)
 
-    music: Invictus by Karl L. King
+    music: The Elephant by J. Ord Hume
 
     notes: >
-        The Scarlet Brigade says, "Thank you Scarlet Brigade Band Boosters for your continued support!"
 
 concert:
     lastUpdated: 2019-10-18 14:41:38 -07

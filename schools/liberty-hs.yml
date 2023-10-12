@@ -3,7 +3,7 @@ name: Liberty High School
 city: Brentwood, CA
 
 parade:
-    lastUpdated: 2022-10-11 20:30:40 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: &band-review-nickname Lion Pride Marching Band
 
@@ -11,129 +11,119 @@ parade:
     -   Lindsay Kellogg
 
     staff:
-    -   title: color guard instructors
+    -   title: color guard caption head
         members:
-        -   CJ Julian
         -   Lisette Townzen
+
+    -   title: color guard instructor
+        members:
         -   Francisco Marin
+
+    -   title: percussion instructors
+        members:
+        -   Brandon Wilson
+        -   Emory Espinoza
+        -   Roger Weavil
+        -   Emile Concepcion
 
     -   title: visual instructors
         members:
         -   Shawn Griddine
-        -   Brooke Farrar
-        -   Jennifer Krey
-    
-    -   title: percussion instructors
+        -   Rebecca Miles
+        -   Victor Alcaraz
+
+    -   title: woodwind instructor
         members:
-        -   Emile Concepcion
-        -   Brandon Wilson
-        -   Emory Espinoza
-        -   Roger Weavil
+        -   Jennifer Krey
+
+    -   title: brass instructor
+        members:
+        -   Charles Henderson
 
     leaders:
     -   title: drum major
         members:
-        -   Hannah Bunker
-        -   Ben Bettis
         -   Annie Dumas
 
-    -   title: auxiliary captains
+    -   title: color guard captains
         members:
-        -   Elena Balesteri
-        -   Allison Giles
-        -   Aly Weavil
+        -   Sasha Priante
+        -   Leilah Weavil
 
     -   title: percussion captains
         members:
-        -   Shelbee Hart
-        -   Jacob Laure
+        -   Alec Beaulieu (Alec BOH-liu)
+        -   Andrew Giles
 
-    -   title: woodwind captain
-        members:
-        -   Mara Gray
-
-    -   title: brass captain
-        members:
-        -   Diego Mendez
-
-    music: The Great Little Army by Kenneth J. Alford, arranged by R. W. MacLeod
+    music: The Voice of the Guns by Kenneth Alford edited by Timothy Rhea
 
     notes: >
-        The Lion Pride Marching Band is entering their second full competition season.
-        They were successful in their first season winning awards in both field and parade.
-        The Liberty High School Band Program has over 130 members with two jazz bands, a symphonic band, concert band, and marching band.
-        The Lion Pride Marching Band would like to thank their administration and the Liberty Lions Band Boosters for their support to make this season a success. 
 
 fieldshow:
-    lastUpdated: 2022-10-11 20:30:40 -08
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: *band-review-nickname
 
     directors: *band-review-directors
 
     staff:
-    -   title: color guard instructors
+    -   title: visual caption head
         members:
-        -   CJ Julian
-        -   Lisette Townzen
-        -   Francisco Marin
+        -   Shawn Griddine
 
     -   title: visual instructors
         members:
-        -   Shawn Griddine
-        -   Brooke Farrar
-        -   Jennifer Krey
+        -   Rebecca Miles
+        -   Victor Alcaraz
     
+    -   title: guard caption head
+        members:
+        -   Lisette Townzen
+
+    -   title: guard instructor
+        members:
+        -   Francisco Marin
+
+    -   title: woodwind instructor
+        members:
+        -   Jennifer Krey
+
+    -   title: brass instructor
+        members:
+        -   Charles Henderson
+
     -   title: percussion instructors
         members:
-        -   Emile Concepcion
         -   Brandon Wilson
         -   Emory Espinoza
         -   Roger Weavil
+        -   Emile Concepcion
 
     leaders:
     -   title: drum majors
         members:
-        -   Hannah Bunker
+        -   Mara Gray
         -   Annie Dumas
+        -   Rachael Green
+        -   Carter Masana
+
+        -   Hannah Bunker
         -   Ben Bettis
     
-    -   title: auxilliary captains
+    -   title: color guard captains
         members:
-        -   Elena Balesteri
-        -   Allison Giles
-        -   Aly Weavil
+        -   Sasha Priante
+        -   Leilah Weavil
     
     -   title: percussion captains
         members:
-        -   Shelbee Hart
-        -   Jacob Laure
-        -   Rahlo Lest
+        -   Alec Beauliu (BOH-loo)
+        -   Andrew Giles
 
-    -   title: woodwind captains
-        members:
-        -   Mara Gray
-
-    -   title: brass captains
-        members:
-        -   Diego Mendez
-
-    program: In Three Words
+    program: Don't Look Up
 
     description: >
-        Liberty High School will take you through a journey using three words.
-        It can cause hope, deepen love, or resolve conflict.
 
     music: >
-        Live Your Life,
-        Dare to Love,
-        Value the Moment,
-        Work Through Conflict,
-        and Life Is Short,
-        composed and arranged by Steve Martin, Aaron Hines, and Blair Williams
 
     notes: >
-        The Lion Pride Marching Band is entering their second full competition season.
-        They were successful in their first season winning awards in both field and parade.
-        The Liberty High School Band Program has over 130 members with two jazz bands, a symphonic band, concert band, and marching band.
-        The Lion Pride Marching Band would like to thank their administration and the Liberty Lions Band Boosters for their support to make this season a success.

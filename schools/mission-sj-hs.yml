@@ -14,6 +14,51 @@ students:
 -   "Tiffany Tan"
 -   "Cathy Wang"
 
+parade:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: Warrior Marching Band and Color Guard
+
+    directors:
+    -   *bryce-beckel
+    -   David Belles
+
+    staff:
+    -   title: instructed by
+        members:
+        -   Fou Saelee`
+        -   Aidan Marques
+        -   Jessica Lee
+        -   Steve Slater
+        -   Harrison Cheng
+        -   Eddie Chang
+
+    leaders:
+    -   title: drum majors
+        members:
+        -   Evan Pang
+        -   Dexton Djunaidy (Dexton joo-NAI-dee)
+        -   Angelina Chong
+        -   Nyela Modrek
+        -   Pheona Ma
+        -   Edric Zheng
+    
+    -   title: color guard captains
+        members:
+        -   Ellie Tran
+        -   Charleen Pan
+        -   Patricia Wu
+    
+    -   title: percussion captains
+        members:
+        -   Reynold Liu
+        -   Kevin Yang
+
+    music: The Loyal Legion by John Philip Sousa
+
+    notes:
+
+
 winterguard:
     lastUpdated: 2023-03-20 16:30:00 -08
 
@@ -61,3 +106,13 @@ winterpercussion:
     program: "The Grind"
 
     notes: 
+
+concert-1:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Concert 1"
+
+concert-2:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Concert 2"

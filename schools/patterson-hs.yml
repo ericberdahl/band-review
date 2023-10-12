@@ -3,32 +3,27 @@ name: Patterson High School
 city: Patterson, CA
 
 parade:
-    lastUpdated: 2022-10-14 9:51:03 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: Tiger Marching Band and Colorguard
+    nickname: Tiger Marching Band
 
     directors:
-    -   Spencer Jepson
+    -   Loren Lima
 
     staff:
-    -   title: percussion instructor
-        members:
-        -   Colton Ransom
-
-    -   title: colorguard instructor
+    -   title: instructed by
         members:
         -   Brandon Yai
 
     leaders:
     -   title: drum major
         members:
-        -   Mariana Mensah-Randolph
+        -   Monica Ornelas
     
-    -   title: auxiliary captains
+    -   title: percussion captain
         members:
-        -   Arianna Cuellar
-        -   Freya Porche
+        -   Rian Joei Manarang
         
-    music: American Legion by Charles Parker
-
+    music: Tenth Regiment March by R. B. Hall
+    
     notes: 

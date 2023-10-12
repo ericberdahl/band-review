@@ -3,23 +3,28 @@ name: South San Francisco High School
 city: South San Francisco, CA
 
 fieldshow:
-    lastUpdated: 2022-10-03 12:52:29 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: South City Warrior Band
 
     directors: 
     -   Elijah Maes
+    -   Alberto Lopez-Rivas
 
     staff: 
-    -   title: instructed by
+    -   title: color guard instructors
         members:
-        -   Alberto Lopez-Rivas
         -   Aidan Marques
         -   Julia Tikhonov
-        -   Jasmine Cahayag
+
+    -   title: visual instructors
+        members:
         -   Adnan Kapadia
         -   Henson Lau
-        -   Adam Strauss
+
+    -   title: percussion instructors
+        members:
+        -   Kris Ventura
 
     leaders:
     -   title: drum majors
@@ -27,32 +32,24 @@ fieldshow:
         -   Carter Lau
         -   Kaitlyn Le
     
-    -   title: auxilliary captains
+    -   title: color guard captains
         members:
-        -   Rey Alferez
-        -   Jesse Balacy
-        -   Juan Tellez
+        -   Aleczia Trinidad,
+        -   Isabel Amores
+        -   Isabella Chuong
+        -   Zoe May
 
     -   title: percussion captains
         members:
         -   Mariano Gonzalez
+        -   Ben Avecilla
+        -   Anthony Lee
         -   Joseph Bermudez
 
-    -   title: captains
-        members:
-        -   Neona Vergara
-        -   Tyrek He
-        -   Madison Lo
-        -   Alex Lau
-        -   Jayson Ching
-        -   Zachary Vergara
-        -   Zackery Arabieh
-
-    program: The Gallery
+    program: The Winds of Change
 
     music: 
 
     description: 
 
     notes: 
-        The South City Music Program had the opportunity to become Winter Colorguard CCGC 2022 Regional A Champions and Winter Percussion CCGC 2022 Scholastic AA Champions.

@@ -8,6 +8,7 @@ staff:
 -   &bima-pamula "Bima Pamula"
 -   &daniela-hernandez "Daniela Hernandez"
 -   &emma-wagoner "Emma Wagoner"
+-   &hazen-oo "Hunter Oo"
 -   &hunter-oo "Hunter Oo"
 
 students:
@@ -16,9 +17,9 @@ students:
 -   &sierra-phillips "Sierra Phillips"
 
 fieldshow:
-    lastUpdated: 2022-10-14 10:21:24 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: RCHS Marching Band
+    nickname: Rancho Cotate Marching Band
 
     directors: 
     -   *dustin-friel
@@ -26,40 +27,36 @@ fieldshow:
     staff: 
     -   title: instructed by
         members:
-        -   *abel-moya
-        -   *hunter-oo
-        -   *emma-wagoner
-        -   *bima-pamula
         -   *daniela-hernandez
-        -   Alex Brown
+        -   *emma-wagoner
+        -   *hazen-oo
+        -   *abel-moya
+        -   Colin Bartlett
+        -   Matt Volkar
 
     leaders:
     -   title: drum major
         members:
-        -   Gabriella Greco
+        -   Genesis Glenister
 
-    -   title: auxiliary captains
+    -   title: color guard captains
         members:
-        -   Eismael Sandoval
         -   Emily Perez Barrientos
-        -   *sierra-phillips
+        -   Aster Donovan
 
     -   title: percussion captains
         members:
-        -   *steven-tinoco
+        -   Kyan Banzon
         -   *lin-leon-solis
+        -   Milo Crowley
 
-    program: Knock On Wood
+    program: What Goes Up…Must Come Down!
 
     description: >
-        Knock On Wood is a show about humans and the wrong doings to the environment.
-        Humans eventually realize their wrongdoings and try help the planet.
-        The show is a nod to the endangerment of the Monarch Butterfly. 
 
     music: 
 
     notes: >
-        RCHS Marching Band says thank you to all parents/guardians, music boosters, and staff for your support this season. 
 
 winterpercussion:
     lastUpdated: 2023-03-21 14:12:28 -08

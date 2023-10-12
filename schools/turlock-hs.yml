@@ -1,0 +1,45 @@
+name: "Turlock High School"
+
+city: Turlock, CA
+
+parade:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: Bulldog Marching Band and Color Guard
+
+    directors:
+    -   Sarah Carpenter
+
+    staff:
+    -   title: color guard instructors
+        members:
+        -   Julia Cornejo
+        -   Hanna Mangrum
+        
+    -   title: percussion instructor
+        members:
+        -   Andrew Rose
+        -   Justine Quiralte-Reyes
+        
+    -   title: visual instructor
+        members:
+        -   Brandon Byers
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Justine Piro
+    
+    -   title: color guard captains
+        members:
+        -   Pedro Castillo
+        -   Olivia Cervantes
+    
+    -   title: percussion captain
+        members:
+        -   Lila Brackett
+
+    music: Bravura by Charles E. Duble
+
+    notes:
+

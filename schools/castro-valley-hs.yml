@@ -2,73 +2,54 @@ name: Castro Valley High School
 
 city: Castro Valley, CA
 
-fieldshow:
-    lastUpdated: 2022-10-14 9:36:30 -07
+staff:
+-   &keita-hasegawa Keita Hasegawa (KAY-tah ha-say-GAH-wah)
+-   &troy-rexelle "Troy Rexelle (rex-EHL)"
 
-    nickname: Castro Valley High School Band and Guard
+fieldshow:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: Marching Trojans
 
     directors:
-    -   Keita Hasegawa (KAY-tah ha-say-GAH-wah)
+    -   *troy-rexelle
 
     staff:
-    -   title: drill instructor
-        members:
-        -   Rick Pina
-
-    -   title: show designer and color guard instructor
-        members:
-        -   Jhay Delos Reyes
-
-    -   title: color guard instructors
-        members:
-        -   Alex Brown
-        -   Rawnna Hudson
-
-    -   title: visual and color guard instructor
-        members:
-        -   Andrew Thomas
-
-    -   title: visual instructor
-        members:
-        -   Edmund Bascon
-
-    -   title: percussion instructor
+    -   title: instructed by
         members:
         -   Glenn Imai
-
-    -   title: battery instructor
-        members:
+        -   Jhay Reyes
         -   Ryan Yee
-
-    -   title: front ensemble instructors
-        members:
+        -   Andrew Thomas
+        -   Arturo Espinosa
+        -   Erin Wells
+        -   Reese Wiles
         -   Christian Gerardo
-        -   Ashley Nguyen
-
+        -   Edmund Bascom
+        -   Adam Roura
+        -   Regina Magpoc
+    
     leaders:
     -   title: drum majors
         members:
-        -   Zoe Dorado
-        -   Estie Hsu
-        -   Mikella Deigert
-
-    -   title: auxilliary captains
+        -   Kailyn Tchang
+        -   Aleksandra Hurka
+        -   Austin Chen
+        
+    -   title: color guard captains
         members:
-        -   Kenya Lopez
-        -   Dianne Jin
-        -   Adreanna Dones
+        -   Dian Jin
+        -   Alyssa Oum
     
     -   title: percussion captains
         members:
-        -   Kerry Chen
-        -   Michelle Huynh
-    
-    program: Ripple Effect
+        -   Luna Estebenez
+        -   Steven Deng
+
+    program: A Murder of Descension
 
     music: >
-        music composed by Ian Grom and John Mapes
 
     description: >
 
     notes: >
-        Castro Valley High School Band and Guard gives a huge thank you to their awesome parent volunteers as well as their booster, Music Parents Society!

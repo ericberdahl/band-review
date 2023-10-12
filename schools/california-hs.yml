@@ -3,50 +3,33 @@ name: California High School
 city: San Ramon, CA
 
 fieldshow:
-    lastUpdated: 2022-10-16 16:33:42 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Cal High Marching Band and Color Guard
 
     directors:
-    -   Javier Cerna (Javier SEHR-nah)
+    -   Dan Rugani
+    -   Briana Berastain
 
     staff:
-    -   title: music instructors
+    -   title: instructed by
         members:
-        -   Alex Murphey-Frank
-        -   Madison Bohrer
-
-    -   title: visual instructors
-        members:
-        -   Alex Murphey Frank
-        -   Krystyn Roldan
-
-    -   title: percussion instructors
-        members:
-        -   Kyle Boydstun
-        -   Tom Baker
-        -   Dan Rugani
-
-    -   title: auxilliary instructors
-        members:
-        -   Hannah Sousa
-        -   Nicole Cavanagh
-        -   Nicholas Chong
+        -   Kishan Dutt
 
     leaders:
     -   title: drum majors
         members:
         -   Ishika Banerjee
-        -   Jason Judin
+        -   Billy Piggott (Billy pih-GOHT)
     
-    -   title: auxiliary captains
+    -   title: color guard captain
         members:
-        -   Melia Means
-        -   Alex Yamashita
+        -   Natalie Clark
 
     -   title: percussion captains
         members:
         -   Kiran Abraham
+        -   Jason Judin
         -   Asmitha Mahendran
 
     -   title: section leaders
@@ -56,19 +39,10 @@ fieldshow:
         -   Becca Klau
         -   Alyssa Luu
 
-    program: Under the Stars
+    program: The Puppet Master
 
     music: >
-        "Cambridge, 1963” by Johann Johannsson,
-        "Sky Full of Stars" by Coldplay,
-        "Twinkle Twinkle Little Star",
-        and "Harmonium Movement 3 - Wild Nights" by John Adams
 
     description: >
-        Our 2022 production "Under the Stars” captures the imagination that one feels when looking up into a gorgeous, unobstructed night sky.
-        Utilizing the motifs of a star-filled sky, constellations, and shooting stars, our show hopes to awaken a sense of awe and wonderment
-        of what we can see and what lies beyond a star-filled sky.
 
     notes: >
-        Cal High would like to thank their amazing Instrumental Music Boosters, incredible instructional staff, and all family, and friends
-        for their support of the Cal High Marching Band and Color Guard Program. We couldn't do this without you!

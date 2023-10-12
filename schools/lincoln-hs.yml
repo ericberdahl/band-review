@@ -3,55 +3,97 @@ name: "Lincoln High School"
 city: "Stockton, CA"
 
 parade:
-    lastUpdated: &band-review-last-updated 2021-10-05 20:29:28 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: "Lincoln High School Marching Band and Colorguard"
+    nickname: &band-review-nickname Lincoln High School Marching Band
 
-    directors:
-    -   "Cathy Ettle"
-    -   "Kristin Florek"
-    -   "Jazareth Valencia"
+    directors: &band-review-directors
+    -   Cathy Ettle
+    -   Kristin Florek
+    -   Jazareth Valencia
 
     staff:
-    -   title: "guard instructor"
+    -   title: percussion instructor
         members:
-        -   "Julia Cornejo"
+        -   Karl Udang
 
-    -   title: "percussion instructor"
+    -   title: guard instructors
         members:
-        -   "Luan Ho"
+        -   Julia Cornejo
+        -   Valerie Rose
 
     leaders:
     -   title: "drum major"
         members:
         -   "Zack Shi"
 
-    -   title: "auxilliary captain"
+    -   title: "color guard captains"
         members:
-        -   "Jupiter Lee"
+        -   Fin Wonacott
+        -   Kylie Dahl
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   "Trish Pagan-Kennedy"
-        -   Lia Basalusalu (Lia bah-sah-loo-SAH-loo)
+        -   Levi Johnson
+        -   Melino Halaholo
+        -   Jay Leandado
 
-    music: "The Voice of the Guns by Kenneth Alford"
+    music: Zacatecas by Genaro Codina
 
     notes: >
-        The Lincoln High School Marching Band would like to thank all of our parents, teachers, the Lincoln Unified School District and supporters from the Stockton community for their continued support.
 
-concert-1:
-    lastUpdated: *band-review-last-updated
+fieldshow:
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: "Wind Ensemble 1"
+    nickname: *band-review-nickname
 
-concert-2:
-    lastUpdated: *band-review-last-updated
+    directors: *band-review-directors
 
-    nickname: "Wind Ensemble 2"
+    staff:
+    -   title: percussion instructor
+        members:
+        -   Karl Udang
 
-concert-3:
-    lastUpdated: *band-review-last-updated
+    -   title: guard instructors
+        members:
+        -   Julia Cornejo
+        -   Valerie Rose
 
-    nickname: "Lincoln High School Concert Band"
+    leaders:
+    -   title: "drum major"
+        members:
+        -   Zack Shi
+        -   Dominic Khoonsirivong
 
+    -   title: "color guard captains"
+        members:
+        -   Fin Wonacott
+        -   Kylie Dahl
+
+    -   title: percussion captains
+        members:
+        -   Levi Johnson
+        -   Melino Halaholo
+        -   Jay Leandado
+
+    program: Resurgence
+
+    music: 
+
+    notes: >
+
+
+symphonic:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Symphonic Band"
+
+concert:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Concert Band"
+
+wind-ensemble:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Wind Ensemble"

@@ -3,33 +3,32 @@ name: "Franklin High School"
 city: "Elk Grove, CA"
 
 parade:
-    lastUpdated: 2019-10-18 14:48:08 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: "Franklin Wildcats Sound Power Marching Band"
 
     directors:
-    -   "Matt Mackey"
+    -   "Matthew Mackey"
 
     staff:
-    -   title: "instructed by"
+    -   title: "color guard instructor"
         members:
-        -   "Stacy Her"
-        -   "Alex Pfeifer"
+        -   Victor Ramos
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Caleb Hansen"
+        -   Fotu Fuka
 
-    -   title: "auxiliary captain"
+    -   title: "color guard captain"
         members:
-        -   "Jordan Ruggles"
+        -   Janessa Garcia
 
     -   title: "percussion captain"
         members:
-        -   "Jon Ryan Natividad"
+        -   Mia Wagley
 
-    music: "The Coldstream Colonel by James Scott"
+    music: With Wings as Eagles by Andrew North
     
     notes: >
 

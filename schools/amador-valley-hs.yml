@@ -3,45 +3,60 @@ name: Amador Valley High School
 city: Pleasanton, CA
 
 fieldshow:
-    lastUpdated: 2022-10-14 13:56:32 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: Marching Dons
+    nickname: Amador Valley High School Marching Band and Color Guard
 
     directors:
     -   Jonathan Grantham
-    -   Edwin Cordoba
+    -   Matthew Fell
     
     staff:
+    -   title: instructed by
+        members:
+        -   John Meehan
+        -   Chad Heiny
+        -   Jessica Slabaugh
+        -   Jamey Thompson
+        -   Brighton Matus
+        -   Tiffany Castelan
+        -   Joey Staab
+        -   Joey Jandeleit
+        -   Thomas Murphy
+        -   Zach Schulz
+        -   Marcelino Nambo
+        -   Everett Henrie
+        -   Ethan Jagasia
+        -   Camille Borris
+        -   Marvin Reed
+        -   David Ziehm
+        -   Ryan Madayag
+        -   Karen Eskarous
+        -   Jorge Tovar Ziehm
 
     leaders:
     -   title: drum majors
         members:
-        -   Nolan Lees
         -   Brayden Ye
-        -   Vardaan Singhania
+        -   Vardaan Singhania (vehr-DAN Singhania)
+        -   Emily Choe
+        -   Athrv Gupta (UH-thurv Gupta)
 
-    -   title: auxilliary captain
+    -   title: color guard captains
         members:
-        -   Danica Howard
+        -   Anisha Madiraju
+        -   Maria Clara Sapriza
+        -   Maximillien Kiyoi
 
     -   title: percussion captains
         members:
-        -   Mya Lee
-        -   Rathual Anand
+        -   James Borrs
+        -   Olivia Cheng
         
-    program: The Crown
+    program: Mirror, Mirror
 
     music: >
-       Paen by Steven Bryant,
-       Triumphal March by Verdi,
-       Royals by Lorde,
-       and The Light Fantastic and Walking With Heroes by Paul Lovatt-Cooper
 
     description: >
-        Music in celebration of Amador Valley High School's 100th Anniversary
 
     notes: >        
-        The Marching Dons say thank you to the Sea of Purple, their amazing parents for their love and support of the band.
-        We couldn't do it without you.
-        Thank you also to Jon Fey and the administration at Amador Valley High School!
-        Go Dons!

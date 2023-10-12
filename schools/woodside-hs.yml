@@ -1,0 +1,35 @@
+name: Woodside High School
+
+city: Woodside, CA
+
+fieldshow:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: Woodside High School Marching Band
+
+    directors:
+    -   Nick Gaydos
+
+    staff:
+    -   title: instructed by
+        members:
+        -   Vince Stewart
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Lucas Farrell-Straight
+
+    -   title: color guard captain
+        members:
+        -   Tyler Yuen
+
+    -   title: percussion captain
+        members:
+        -   Cooper Vance
+
+    program: Sounds of the Silver Screen
+
+    music: 
+
+    notes: 

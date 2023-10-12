@@ -11,6 +11,7 @@ staff:
 -   &chris-cyr "Chris Cyr"
 -   &nick-duenas "Nick Duenas"
 -   &brooke-farrar "Brooke Farrar"
+-   &moises-fagundes Moises Fagundes (moses fuh-GOON-dehz)
 -   &carver-frazier "Carver Frazier"
 -   &brianna-gier "Brianna Gier"
 -   &shawn-griddine "Shawn Griddine"
@@ -33,7 +34,7 @@ students:
 -   &claire-kim "Claire Kim"
 -   &lucy-lee "Lucy Lee"
 -   &kyra-maeda "Kyra Maeda (Kyra MY-eh-dah)"
--   &niki-murugesan "Niki Murugesan"
+-   &niki-murugesan "Anika Murugesan"
 -   &ashley-osterhaut "Ashley Osterhaut"
 -   &kellen-sowa "Kellen Sowa"
 -   &lily-zheng "Lily Zheng"
@@ -83,12 +84,12 @@ parade:
 fieldshow:
     isHost: true
 
-    lastUpdated: 2022-10-17 14:35:28 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: *band-nickname
 
     directors:
-    -   *efrain-hinojosa
+    -   *moises-fagundes
 
     staff:
     -   title: instructed by
@@ -97,56 +98,54 @@ fieldshow:
         -   *matt-sieve
         -   *carver-frazier
         -   *brianna-gier
-        -   *victor-alcaraz
-        -   *brooke-farrar
+        -   *marvin-reed
+        -   Rebecca Miles
+        -   Aryan Ohri
+        -   Nathan Townsend
+        -   Aria Toofan
+        -   Sarah Liggett
+        -   Rishi Chowdhary
         -   *chris-cyr
-        -   *alex-pfiefer
         -   *alex-blakely
+        -   *alex-pfiefer
         -   *ryan-myers
         -   *xavier-choo
-        -   *myojin-yang
-        -   *nick-duenas
-        -   *andrew-lawton
-        -   *alexina-manriquez
+        -   Adam Herrera
+        -   *lily-zheng
+        -   Eddy Chavarria
         -   *kristi-laduca
+        -   *ashley-osterhaut
+        -   Grace Holmes
+        -   Nicky Carlos
+        -   Julia Tikhonov
+        -   *victor-alcaraz
+        -   Johnny Huynh
+        -   Lyle Elster
 
     leaders:
     -   title: drum majors
         members:
-        -   Tristan Meyer
-        -   Sofia Jung
-        -   Vin Shin
+        -   Jeeihn (jeen Son)
+        -   Gabriel Thompson
+        -   Elsa Lee
 
     -   title: auxiliary captains
         members:
-        -   *ashley-osterhaut
         -   *niki-murugesan
-        -   *sophia-heo
+        -   Amulya Maddi
 
     -   title: percussion captain
         members:
-        -   *lily-zheng
-        -   *robin-butterfield
+        -   Youngha Hwang
+        -   Meghana Kumarakalva
 
-    -   title: brass captain
-        members:
-        -   Edwin Yim
-        
-    -   title: woodwind captain
-        members:
-        -   Anand Shuklah
-
-    program: One Thousand and One Nights
+    program: Shine Through
 
     music: >
-        selections from Scheherezade, Heat Of The Day, The Architect, Arabian Dances, and Adagio from Spartacus.
 
     description: >
 
     notes: >
-        The Foothill Marching Band and Colorguard says thank you to our FANTASTIC Band Boosters for their support of our 2022 music program.
-        The Band would also like to thank the Foothill and PUSD administration for their support of Music in our schools.
-        Go Falcons!!!!!
 
 winterguard:
     isHost: true

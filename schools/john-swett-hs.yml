@@ -3,35 +3,48 @@ name: John Swett High School
 city: Crockett, CA
 
 fieldshow:
-    lastUpdated: 2022-10-14 16:57:26 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: John Swett High School Marching Band
+    nickname: John Swett High School Marching Band and Colorguard
 
     directors:
     -   Jordan Parker
-    -   Dean Colombo
 
     staff:
     -   title: instructed by
         members:
-        -   Kaitlyn Remorin
-        -   Alexandria Dees
         -   Andy Zheng
+
+    -   title: percussion instructor
+        members:
         -   Jordan Varner
-        -   Nathan Jalal
+        -   Tyler Garrett
+        -   Yahir Calva
+
+    -   title: color guard instructor
+        members:
+        -   Alex Dees
         -   Jhiana Illenberger
 
     leaders:
     -   title: drum major
         members:
         -   Jocelyn Lee
+    
+    -   title: color guard captain
+        members:
+        -   Jada Umland-Marks
+    
+    -   title: percussion captains
+        members:
+        -   Talan Chittalath
+        -   Yatziri Montiel-Cervantes
+        -   Jeanelle Ramos
 
-    program: The Throne
+    program: Once Bitten
 
     music: >
 
     description: >
-        A throne sits empty. Who will be crowned the next monarch?
 
     notes: >
-        John Swett High School Band and Guard say thank you to the John Swett Band Boosters and Dean Colombo for all that you do. 

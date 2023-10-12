@@ -3,138 +3,71 @@ name: "Saratoga High School"
 city: "Saratoga, CA"
 
 staff:
--   &jason-shiuan "Jason Shiuan (Jason sh-wen)"
--   &sean-clark "Sean Clark"
--   &kk-rasmussen "KK Rasmussen"
 -   &brittany-bennet "Brittany Bennet"
+-   &michael-boitz "Michael Boitz (Michael boy-tz)"
+-   &sean-clark "Sean Clark"
 -   &gustavo-morales "Gustavo Morales"
+-   &kk-rasmussen "KK Rasmussen"
+-   &jason-shiuan "Jason Shiuan (Jason sh-wen)"
 -   &chavadith-tantavirojn "Chavadith Tantavirojn (CHAH-vah-dith TAHN-tuh-viuh-rone)"
 
 fieldshow:
-    lastUpdated: 2021-10-11 7:48:36 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: "Saratoga High School Marching Band and Color Guard"
 
     directors:
     -   *jason-shiuan
     -   *sean-clark
-    -   "Michael Boitz (Michael boy-tz)"
+    -   *michael-boitz
 
     staff:
-    -   title: "music designers"
-        members:
-        -   *jason-shiuan
-        -   *chavadith-tantavirojn
-        -   *sean-clark
-
-    -   title: "visual designers"
-        members:
-        -   *kk-rasmussen
-        -   *brittany-bennet
-        -   *gustavo-morales
-
-    -   title: "visual staff"
-        members:
-        -   "Todd Ryan"
-        -   *kk-rasmussen
-        -   "Lee Garrett"
-        -   "Alex Tran"
-
-    -   title: "guard staff"
-        members:
-        -   *brittany-bennet
-        -   *gustavo-morales
-        -   "Andrew Trinh"
-        -   "Jerome Cruz"
-
-    -   title: "front ensemble staff"
+    -   title: instructed by
         members:
         -   *chavadith-tantavirojn
-        -   "AJ Gonzales"
-        -   "Gabriel Boquiren"
-
-    -   title: "battery staff"
-        members:
-        -   "Sean Clark"
-        -   "Dr. Stuart Langsam"
+        -   Russell Crow the Third
+        -   *kk-rasmussen
+        -   Todd Ryan
+        -   Dr. John Zarco
+        -   Gabriel Boquiren
+        -   Paul Narkiewicz
+        -   Joseph Jung
+        -   Elijah Morales
+        -   Annika Le
+        -   Jackson Hsu
+        -   Mika Tippetts
+        -   Nikhil Kapasi
+        -   Chloe Hsieh
+        -   Brandon Adamson
+        -   Dr. Stuart Langsam
+        -   Casey Quevedo 
+        -   Arian Salamat
+        -   Isabel McPherson
+        -   Armeen Ghafourpour
+        -   Alex Tran
+        -   Jonathan Pwu
 
     leaders:
-    -   title: "drum majors"
+    -   title: drum majors
         members:
-        -   "Ryan Lee"
-        -   "Christopher Okuno"
-        -   Petr Tupitsyn (PETER too-PIHT-sihn)
+        -   Cameron Nguyen
+        -   Nathan Lee
+        -   Aiden Chen
 
-    -   title: "auxiliary captains"
+    -   title: auxiliary captains
         members:
-        -   "Nikhil Kapasi"
-        -   "Kavya Sarathy"
+        -   Esabella Fung
+        -   Sophia Deng
+        -   Niraali Garg
 
-    -   title: "percussion captains"
+    -   title: percussion captain
         members:
-        -   "Arya Vasani"
+        -   Grant Hough
 
-    -   title: "woodwind captain"
-        members:
-        -   "Brandon Wong"
-
-    -   title: "brass captain"
-        members:
-        -   "Yoshiki Shimokawa"
-
-    -   title: "head managers"
-        members:
-        -   Hannah Coward
-        -   Julia Gonzalez
-    
-    -   title: "managers"
-        members:
-        -   Rishi Atreya
-        -   Edmond Hsu
-        -   Woody Li
-        -   Brad Ma
-        -   Vidur Sanghi
-        -   Anais Sobrier
-        -   Anjali Thomas
-        -   Nathan Zhu
-    
-    -   title: "section leaders"
-        members:
-        -   Helen Kao, Rhheaa Mehta
-        -   Isha Jagadish
-        -   Dyne Lee
-        -   Samantha Stoiber
-        -   Anthony Wong
-        -   Caden Lee
-        -   Stanley Yang
-        -   Alison Okuno
-        -   Kamakshi Shandilya (kah-MAHK-shee shahn-DEE-lee-ah)
-        -   Michelle Jiang
-        -   William He
-        -   Adrian Gecils
-        -   Rohan Abraham
-        -   Brandon Ngo
-        -   Chelsea Quan
-        -   Juliette Hsieh
-        -   Brendan Sharp
-        -   Mika Tippetts
-
-    program: "Be Anything, Anywhere, Anyone"
+    program: Call of the Unknown
 
     music: >
-        Pure Imagination by Leslie Bricusse and Anthony Newley,
-        Symphony No. 5 in B-flat Major by Sergei Prokofiev,
-        and Distorted Light Beam by Bastille
 
     description: >
 
     notes: >
-        The Saratoga High School Marching Band performed in the 2016 Tournament of Roses Parade, as well as the 2012 Macy's Thanksgiving Day Parade.
-        The Band has been a Class 2A Champion for 5 years at the Bands of America Regional Competitions,
-        and in 2015 were the overall Bands of America West Coast Regional Champion.
-        In Summer 2022, the Saratoga High School Symphonic Wind Ensemble will be featured performers at the Mid-Europe International Wind Music Festival in Schladming, Austria;
-        the Imago Festival in Ljubljana (LOOB-lee-ah-nah), Slovenia; the Musikverein (moo-sihk-veh-RHINE) in Vienna, Austria; and the WASBE Fringe Festival in Prague, the Czech Republic. 
-
-        The Saratoga High School Marching Band would like to extend heartfelt appreciation to all of the parents, families, friends, Saratoga High School Alumni, Principal Greg Louie, and Saratoga High community members for unyielding support.
-        The Saratoga High School Marching Band would also like to thank Cupertino High School and all volunteers for helping make the Cupertino Tournament of Bands possible every year,
-        as well as the Northern California Band Association for providing educational performance opportunities annually to thousands of students.

@@ -3,36 +3,29 @@ name: Franklin High School
 city: Stockton, CA
 
 parade:
-    lastUpdated: 2022-10-14 09:46:08 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Marching Yellowjackets
 
     directors:
     -   Jacqueline Hairston (JAH-kuh-lehn HEHR-ston)
+    -   Jerry Hernandez
 
     staff:
-    -   title: assistant director and percussion instructor
-        members:
-        -   Gerardo Hernandez
-
-    -   title: guard instructor
+    -   title: color guard instructor
         members:
         -   Victoria Dato
 
     leaders:
     -   title: drum major
         members:
-        -   Alyna Velasquex
+        -   Sergio Lozano
 
-    -   title: auxiliary captain
-        members:
-        -   Karla White
-        
     -   title: percussion captain
         members:
-        -   Ryan Hunter
+        -   Carmen Jones
 
-    music: Imperial by Karl King, arranged by James Swearingen (James SWEHR-ing-ehn)
+    music: Zacatecas by Genaro Codina arranged by Andrew Glover
 
     notes:
 

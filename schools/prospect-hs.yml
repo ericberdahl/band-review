@@ -1,0 +1,53 @@
+name: Prospect High School
+
+city: Saratoga, CA
+
+fieldshow:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: Panther Marching Band and Color Guard
+
+    directors:
+    -   A.J. Gonzales
+
+    staff:
+    -   title: visual instructor
+        members:
+        -   Jacob Baclig
+
+    -   title: percussion instructor
+        members:
+        -   Corina Mendoza
+        -   Karl Bautista
+
+    -   title: color guard director
+        members:
+        -   Rus Cabudol
+    
+    -   title: color guard instructor
+        members:
+        -   Anna McQueen
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Penelope Bautista
+
+    -   title: color guard captain
+        members:
+        -   Natalie Dinh
+
+    -   title: percussion captain
+        members:
+        -   Hunter Kruse
+
+    program: Tune In
+
+    music: 
+
+    notes: 
+
+concert:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Concert Band"

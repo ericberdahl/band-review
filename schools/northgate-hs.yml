@@ -3,7 +3,7 @@ name: "Northgate High School"
 city: "Walnut Creek, CA"
 
 parade:
-    lastUpdated: 2022-10-17 8:25:12 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Marching Broncos
 
@@ -11,31 +11,28 @@ parade:
     -   Roberto Garcia-Leiva
 
     staff:
-    -   title: guard instructor
+    -   title: auxilliary director
         members:
         -   Abby Delanoy
+
+    -   title: instructed by
+        members:
+        -   Kevin Prough
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Matthew Stark"
+        -   "Aaron Baack"
 
-    -   title: "auxilliary captains"
+    -   title: "color guard captains"
         members:
-        -   "Daniel Catapang"
         -   "Ahmed Alhakem"
+        -   "Clyde Collado"
     
     -   title: percussion captain
         members:
-        -   Woosup Kim
+        -   "Jack Schimmel"
     
-    music: National Emblem by E.E. Bagley, arranged by Calvin Custer
+    music: Host of Freedom by Karl L. King
 
     notes: >
-        The Marching Broncos are happy to be back at the Foothill Band Review.
-        After a COVID hiatus, they competed in the 1A division last year, earning three First Place awards at their three competitions.
-        Coming back this year, they are incredibly happy to see the continual growth of the band, and adding a color guard to the
-        program this year has been one of the highlights of the season.
-        The Broncos would like to thank Foothill and Amador Valley High for hosting this wonderful event, and the Northgate Instrumental
-        Music Boosters for their continuous and relentless support.
-        Thanks to you, we are Bronco Strong!

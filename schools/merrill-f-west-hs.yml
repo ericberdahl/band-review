@@ -3,42 +3,32 @@ name: "Merrill F. West High School"
 city: "Tracy, CA"
 
 staff:
--   &jonathan-raman "Jonathan Raman (Jonathan RAY-man)"
+-   &jonathan-raman "Jonathan Raman (Jonathan RAH-men)"
 
 parade:
-    lastUpdated: 2022-10-17 17:24:46 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Wolf Pack Marching Band
 
     directors:
     -   *jonathan-raman
 
-    staff:
-    -   title: "color guard instructor"
-        members:
-        -   "Alicia Graf"
-
     leaders:
     -   title: drum majors
         members:
-        -   Thad Lozano
-        -   Diego de Santos
+        -   Gael Ortega (guy-uhl Ortega)
 
-    -   title: auxilliary captain
+    -   title: color guard captain
         members:
-        -   Remus Kubik
+        -   Cianne Feliciano (see-AHN Feliciano)
 
-    -   title: percussion captains
+    -   title: percussion captain
         members:
-        -   Cornelius Stallworth
-        -   Renz Bacani
+        -   Gerald Mendez
 
-    music: Emblem of Unity by J.J. Richards, arranged by James Swearingen (James SWEHR-ing-ehn)
+    music: Zacatecas March by Genaro Codina, arranged by Louis-Philippe Laurendeau
 
     notes: >
-        The Wolf Pack Marching Band says: Thank you West High Music Boosters for your support.
-        Without your efforts, our Music Program would not exist.
-        Thank you!
 
 concert:
     lastUpdated: 2019-09-20 12:16:08 -07

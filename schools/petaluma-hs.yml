@@ -13,9 +13,9 @@ students:
 -   "Cheyenne Cercos"
 
 parade:
-    lastUpdated: 2019-09-26 17:46:49 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: "Petaluma High School Trojan Marching Band"
+    nickname: "Trojan Marching Band"
 
     directors: &directors
     -   *cliff-eveland
@@ -23,26 +23,21 @@ parade:
     staff:
     -   title: "instructed by"
         members:
-        -   *nick-dibley
         -   "Neil Fontano"
+        -   *nick-dibley
 
     leaders:
     -   title: "drum major"
         members:
-        -   "Gigi Melov"
-
-    -   title: "auxiliary captain"
-        members:
-        -   "Asher Frank"
+        -   "Iris Bosch"
 
     -   title: "percussion captain"
         members:
-        -   "Kobe Barry"
+        -   "Alex Wentworth"
 
-    music: "Glory to Guardsmen by Nikolay Chemberdzhi (Nikolay KEHM-bird-zee)"
+    music: "Dauntless Battalion by John Philip Sousa"
 
     notes: >
-        The members of the band would like to thank the Petaluma High School Music Boosters and the uniform moms for making their performance possible today!
 
 winterpercussion:
     lastUpdated: 2023-03-20 16:30:00 -08

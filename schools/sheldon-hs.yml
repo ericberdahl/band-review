@@ -1,0 +1,72 @@
+name: "Sheldon High School"
+
+city: Sacramento, CA
+
+fieldshow:
+    lastUpdated: 1967-12-01 04:30:00 -08
+
+    nickname: 
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+
+parade:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: Marching Huskies
+
+    directors:
+    -   Justin Bunselmeier
+    -   Venessa Ibarra
+
+    staff:
+    -   title: marching coach
+        members:
+        -   Cesar Mendoza
+    
+    -   title: percussion coach
+        members:
+        -   Leanne Vu
+        
+    -   title: color guard coaches
+        members:
+        -   Isadora LaPachet
+        -   Megan Willms
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Lana Kassel
+    
+    -   title: color guard captains
+        members:
+        -   Alicia Urquart
+        -   Amnolpreet Kuar (ahm-NOHL-preet coo-AHR)
+    
+    -   title: percussion captains
+        members:
+        -   Jaysu Heruvun
+        -   Evan Rufino
+
+    music: Aces of the Air by Karl King
+
+    notes:
+
+concert-1:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Concert 1"
+
+concert-2:
+    lastUpdated: 2023-09-01 00:00:00 -07
+
+    nickname: "Concert 2"

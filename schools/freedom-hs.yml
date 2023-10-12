@@ -2,83 +2,43 @@ name: "Freedom High School"
 
 city: "Oakley, CA"
 
-fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
 parade:
-    lastUpdated: 2021-10-11 13:19:09 -08
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: Falcon Marching Band
 
     directors:
-    -   Brian Mabry
+    -   Brooke Farrar
 
     staff:
-    -   title: auxiliary instructor
+    -   title: instructed by
         members:
-        -   Sondra Van Meter
-
-    -   title: percussion instructors
-        members:
-        -   Kyle Boydstun
-        -   Alexis Fernandez
-
-    -   title: brass instructor
-        members:
-        -   Thomas McCauley
-
-    -   title: woodwind instructor
-        members:
-        -   Angie Arroyo
+        -   Diego Mendez
+        -   Elijah Lopez
+        -   Hannah Bunker
+        -   Mirelys Supelveda
+        -   Roger Weavil
+        -   Emile Concepcion
 
     leaders:
     -   title: drum major
         members:
-        -   Nickie Ramey
+        -   Adrian Curran
     
-    -   title: auxilliary captain
+    -   title: color guard captains
         members:
-        -   Jason McCauley
+        -   Julia Casselberry
+        -   Katelyn Skillman
     
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Addie Piper
+        -   Vincent Lasater
+        -   Daniel Rodriguez
+        -   Jaeden Rheaume
 
-    music: Bravura by C.E. Duble, arranged by John Edmondson
+    music:  Eagle Squadron March by Kenneth J. Alford
 
     notes: >
-        Mr. Mabry would like to thank the Band Boosters of the Freedom Falcon Marching Band for all their hard work and support of the program.
-
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
 
 winterguard:
     lastUpdated: 2018-01-01 00:00:00 -08

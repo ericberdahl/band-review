@@ -3,14 +3,14 @@ announcer:
     email: "berdahl@serendipity.org"
 
 show:
-    year: 2022
-    date: "2022-10-22"
-    citation: "48th Annual Foothill High School Band Review"
-
-next_show:
     year: 2023
     date: "2023-10-28"
     citation: "49th Annual Foothill High School Band Review"
+
+next_show:
+    year: 2024
+    date: "2024-10-26"
+    citation: "50th Annual Foothill High School Band Review"
 
 units:
 -   "parade"
@@ -18,11 +18,8 @@ units:
 -   "concert"
 
 sponsors-general: &sponsors-general
--   "Director Level Sponsor: Double D Transport"
--   "Drum Major Level Sponsors: Porky's Pizza Palace, Frontier Pacific Commercial Doors and Equipment, Crown Trophy, The Image Salon, and The Ambwani-Hoyle Family: Shawn, Heather, Alex, and Adeline"
--   "Band Captain Level Sponsors: Dan and Elsa Reyes and The Reyes Family: Rob, Denise, Danielle, Korben, and Ashleigh"
 
-version: 1.3
+version: 0.01
 
 parade:
     sponsors:
@@ -39,101 +36,93 @@ parade:
 
     lineup:
     -   colors: "the color guard from Veterans of Foreign Wars Post 6298"
+    # TODO confirm that Roberta Gonzales is again our grand marshal
     -   grandMarshal: "long time Pleasanton resident, KTVU Metereologist, and 7-time Emmy Award Winner, Roberta Gonzales"
     -   ref: "foothill-hs"
     -   ref: "benicia-ms"
     -   ref: "wells-ms"
+    -   ref: "thomas-downey-hs"
+    -   ref: "del-mar-hs"
+    -   ref: "deer-valley-hs"
+    -   ref: "river-valley-hs"
     -   ref: "encinal-hs"
-    -   ref: "hayward-hs"
-    -   ref: "tracy-hs"
-    -   ref: "northgate-hs"
-    -   ref: "san-leandro-hs"
     -   break: 10
     -   ref: "franklin-hs-stockton"
-    -   ref: "yuba-city-hs"
-    -   ref: "deer-valley-hs"
-    -   ref: "antioch-hs"
-    -   ref: "jesuit-hs"
-    -   ref: "alhambra-hs"
-    -   ref: "bullard-hs"
-    -   break: 10
+    -   ref: "petaluma-hs"
     -   ref: "linden-hs"
-    -   ref: "washington-hs"
     -   ref: "merrill-f-west-hs"
-    -   ref: "el-capitan-hs"
-    -   ref: "fairfield-hs"
+    -   ref: "northgate-hs"
+    -   ref: "antioch-hs"
+    -   ref: "gustine-hs"
+    -   ref: "freedom-hs"
+    -   ref: "washington-hs"
+    -   ref: "patterson-hs"
     -   ref: "granada-hs"
+    -   break: 10
+    -   ref: "richmond-hs"
+    -   ref: "turlock-hs"
+    -   ref: "sheldon-hs"
+    -   ref: "washington-union-hs"
     -   ref: "benicia-hs"
     -   ref: "buhach-colony-hs"
-    -   ref: "patterson-hs"
+    -   ref: "fairfield-hs"
     -   break: 10
     -   ref: "archbishop-riordan-hs"
-    -   ref: "pitman-hs"
-    -   ref: "santa-cruz-hs"
-    -   ref: "liberty-hs"
-    -   ref: "merced-hs"
     -   ref: "rodriguez-hs"
+    -   ref: "santa-cruz-hs"
+    -   ref: "franklin-hs"
+    -   ref: "merced-hs"
+    -   ref: "mission-sj-hs"
     -   ref: "irvington-hs"
+    -   ref: "liberty-hs"
+    -   ref: "lincoln-hs"
 
-    awards_time: "1:00pm"
+    awards_time: "2:00pm"
 
     awards_location: "Amador Valley High School Stadium"
 
 fieldshow:
-    start_time: "2:00pm"
+    # TODO - start time is not confirmed
+    start_time: "4:00pm"
 
     lineup:
-    -   anthemPerformer: "Maya Gopalswamy"
-    -   ref: "clayton-valley-hs"
-    -   ref: "tracy-hs"
-    -   ref: "templeton-hs"
-    -   ref: "river-valley-hs"
-    -   ref: "vanden-hs"
-    -   ref: "south-san-francisco-hs"
-    -   ref: "john-swett-hs"
-    -   ref: "antioch-hs"
-    -   break: 15
+    # TODO - anthem performer is not confirmed
+    -   anthemPerformer: "TBA"
+    -   ref: "dublin-hs"
+    -   ref: "prospect-hs"
+    -   ref: "woodside-hs"
     -   ref: "millennium-hs"
+    -   ref: "lodi-hs"
     -   ref: "del-mar-hs"
+    -   ref: "john-swett-hs"
+    -   ref: "clayton-valley-hs"
+    -   break: 15
+    -   ref: "south-san-francisco-hs"
     -   ref: "rancho-cotate-hs"
-    -   ref: "bella-vista-hs"
-    -   ref: "american-canyon-hs"
-    -   ref: "st-francis-hs"
-    -   ref: "westmont-hs"
-    -   ref: "branham-hs"
+    -   ref: "california-hs"
+    -   ref: "antioch-hs"
     -   awardsLabel: "Field Show Divisions 1A and 2A"
         location: "here"
         time: "in 30 minutes"
-        continuation: "Field Show Divisions 3A through 6A"
-        continuationTime: "at 7:00"
-    -   ref: "california-hs"
-    -   ref: "monte-vista-hs"
-    -   ref: "american-hs"
+        continuation: "Field Show Divisions 4A through 6A"
+        continuationTime: "at 7:45"
     -   ref: "rodriguez-hs"
-    -   ref: "liberty-hs"
-    -   break: 30
+    -   ref: "lincoln-hs"
     -   ref: "castro-valley-hs"
-    -   ref: "granite-bay-hs"
-    -   ref: "cupertino-hs"
-    -   ref: "dublin-hs"
+    -   ref: "american-hs"
+    -   ref: "liberty-hs"
+    -   break: 15
+    -   ref: "saratoga-hs"
     -   ref: "amador-valley-hs"
     -   ref: "foothill-hs"
-    -   awardsLabel: "Field Show Division 3A through 6A"
+    -   awardsLabel: "Field Show Divisions 4A and 6A"
         location: "here"
-        time: "in 15 minutes"
+        time: "in 30 minutes"
 
     sponsors:
         general: *sponsors-general
 
         trophies:
-        -   place: first place 6A percussion
-            sponsors:
-            -   sponsor: Charles Choi
-                presenter: Carina Choi and Gordon Mo
-                message: >
-                    Thanks to the Foothill band program and the boosters, parents, and instructors that made this important program possible.
-                    One that through the years has brought community, friendships, and fun into our lives.
-                    Thank you for making these 3-4 years a memorable memory for these two
         #-   place: 3rd place brass
         #    sponsors:
         #    -   sponsor: the Goebel family
@@ -143,33 +132,43 @@ fieldshow:
 
 concert:
     lineup:
-    -   ref: "benicia-hs"
-        unit: "concert-1"
-    -   ref: "pitman-hs"
-        unit: "concert-1"
-    -   ref: "irvington-hs"
-        unit: "concert-1"
-    -   break: 25
-    -   ref: "pitman-hs"
+    -   ref: "franklin-hs"
+    -   ref: "lincoln-hs"
+        unit: "symphonic"
+    -   ref: "sheldon-hs"
         unit: "concert-2"
-    -   ref: "irvington-hs"
-        unit: "concert-2"
-    -   ref: "dublin-hs"
-        unit: "concert-1"
+    -   ref: "lincoln-hs"
+        unit: "concert"
     -   ref: "livermore-hs"
+    -   ref: "lincoln-hs"
+        unit: "wind-ensemble"
     -   break: 25
-    -   ref: "dublin-hs"
+    -   ref: "heritage-hs"
+        unit: "concert-1"
+    -   ref: "wells-ms"
+    -   ref: "benicia-ms"
+    -   ref: "heritage-hs"
         unit: "concert-2"
+    -   ref: "gustine-hs"
+    -   ref: "sheldon-hs"
+        unit: "concert-1"
     -   break: -1
     -   ref: "archbishop-riordan-hs"
+    -   ref: "mission-sj-hs"
+        unit: "concert-2"
+    -   ref: "irvington-hs"
+        unit: "concert-1"
+    -   ref: "benicia-hs"
+        unit: "concert-1"
+    -   ref: "mission-sj-hs"
+        unit: "concert-1"
+    -   ref: "irvington-hs"
+        unit: "concert-2"
     -   break: 25
+    -   ref: "prospect-hs"
+    -   ref: "deer-valley-hs"
+    -   ref: "thomas-downey-hs"
+    -   ref: "del-mar-hs"
+    -   ref: "franklin-hs-stockton"
     -   ref: "benicia-hs"
         unit: "concert-2"
-    -   ref: "heritage-hs"
-    -   break: 50
-    -   ref: "del-mar-hs"
-    -   ref: "benicia-ms"
-    -   ref: "wells-ms"
-    -   ref: "tracy-hs"
-    -   ref: "bullard-hs"
-    -   ref: "franklin-hs-stockton"

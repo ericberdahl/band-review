@@ -3,45 +3,48 @@ name: Clayton Valley Charter High School
 city: Concord, CA
 
 fieldshow:
-    lastUpdated: 2022-10-14 9:20:47 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: CVCHS Marching Band
+    nickname: Clayton Valley Charter Marching Band and Color Guard
 
     directors:
-    -   Chance Krause
+    -   Javier Cerna
 
     staff:
-    -   title: instructed by
+    -   title: percussion instructors
         members:
-        -   Jordan Banda
+        -   Kyle Boydstun
         -   Gabe Boston
-        -   Connor O'Toole
-        -   Paulina Vaclav
-        -   Pennelope Vega
+        -   Jordan Banda
+
+    -   title: music and visual instructor
+        members:
+        -   JJ Romeo
+
+    -   title: color guard instructor
+        members:
+        -   Shea Gaier
 
     leaders:
     -   title: drum majors
         members:
-        -   Meredith Edmontson
         -   Lexi Reeves
+        -   Eliot Rentner
 
-    -   title: auxilliary captain
+    -   title: color guard captains
         members:
-        -   Jacqueline Gygax
+        -   Maryrose Gonzalez
+        -   Sarita Davalos
     
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Dawson Ly
+        -   Francisco Nguyen
+        -   Kenneth Villamor
         
-    program: Storm
+    program: Masterpiece
 
     music: >
-        Storm Warning with Cloudburst by Eric Whitacre,
-        Into the Storm by Robert W. Smith,
-        A Steady Rain with Rain by Brian Balmages,
-        and The Clouds Part/Here Comes the Sun with Flight by Brian Balmages
 
     description: >
 
     notes: >
-        The CVCHS Marching Band would like to thank their music boosters for making all of this possible!

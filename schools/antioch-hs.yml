@@ -3,6 +3,7 @@ name: "Antioch High School"
 city: "Antioch, CA"
 
 staff:
+-   &courtney-emery "Courtney Emery"
 -   &angelo-gutierrez "Angelo Gutierrez"
 -   &joshua-suarez "Joshua Suarez"
 -   &courtney-trantham "Courtney Trantham"
@@ -15,46 +16,43 @@ students:
 -   &lyriic-williams "Lyriic Williams"
 
 parade:
-    lastUpdated: 2022-10-10 21:39:25 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
-    nickname: &band-review-nickname "Pride of Antioch Panther Marching Band and Color Guard"
+    nickname: &band-review-nickname "Pride of Antioch Marching Band and Color Guard"
 
     directors: &band-review-directors
-    -   *courtney-trantham
+    -   *courtney-emery
 
     staff: &band-review-staff
-    -   title: "percussion instructor"
+    -   title: "instructed by"
         members:
-        -   *angelo-gutierrez
-
-    -   title: "color guard instructors"
-        members:
-        -   *joshua-suarez
         -   "Marissa Kittleson"
+        -   *angelo-gutierrez
+        -   *joshua-suarez
 
     leaders:
     -   title: "drum major"
         members:
-        -   *jose-cordova
+        -   Jose Rivera Franco
     
-    -   title: "auxiliary captains"
+    -   title: "color guard captains"
         members:
-        -   "Sarah Morgan"
-        -   "Teresa Williams"
+        -   Teresa Williams
+        -   Nataly Gomez
 
     -   title: "percussion captains"
         members:
-        -   "Dominic Walker"
-        -   "Jenna Villar"
+        -   Kyle Garcia
+        -   Ethan Mullen
+        -   Julianna Fraser
 
     music: >
-        Army of the Nile by Kenneth Alford, arranged by Frederick Fennell
+        Bravura by Charles E. Duble
 
     notes: >
-        The band would like to give a HUGE special thank you to ABBA for everything they do to support the program and students!
 
 fieldshow:
-    lastUpdated: 2022-10-10 21:39:25 -07
+    lastUpdated: 2023-09-01 00:00:00 -07
 
     nickname: *band-review-nickname
 
@@ -63,38 +61,28 @@ fieldshow:
     staff: *band-review-staff
 
     leaders:
-    -   title: "drum majors"
+    -   title: "drum major"
         members:
-        -   *jose-cordova
-        -   "Matthew King"
+        -   Kaiyeeliee Latchison
     
-    -   title: "auxiliary captains"
+    -   title: "color guard captains"
         members:
-        -   "Sarah Morgan"
         -   "Teresa Williams"
+        -   Nataly Gomez
 
     -   title: "percussion captains"
         members:
-        -   "Dominic Walker"
-        -   "Jenna Villar"
+        -   Kyle Garcia
+        -   Ethan Mullen
+        -   Julianna Fraser
 
-    -   title: "soloists"
-        members:
-        -   *adrienne-ashford
-        -   "Amir Moore"
-        -   "William Fraser"
-
-    program: "Ritual"
+    program: Raging Light
 
     music: >
-        Ritual by Randall Standridge
 
     description: >
-        Igor Stravinsky's The Rite of Spring is re-imagined in a darkly delightful way.
-        Familiar themes are mixed with new material to create a dissonant and thrilling experience.
 
     notes: >
-        The band would like to give a huge thank you to ABBA for everything they do to support the program!
 
 winterpercussion:
     lastUpdated: 2023-03-24 00:11:05 -08
