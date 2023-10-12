@@ -64,6 +64,9 @@ function School({ unit, show }) {
             <p>
                 <em>(Wait for cue from T&amp;P judge):</em> Drum Major, is your band ready?
             </p>
+            <p>
+                <em>(After Drum Major salute):</em> Presenting their {year} field show, {unit.program}, {unit.nickname}, you may now take the field in {appearance}!
+            </p>
         </div>
     )
 }
