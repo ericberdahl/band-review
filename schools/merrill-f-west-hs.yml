@@ -6,17 +6,17 @@ staff:
 -   &jonathan-raman "Jonathan Raman (Jonathan RAH-men)"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 13:42:15 -07
 
-    nickname: Wolf Pack Marching Band
+    nickname: West Wolf Pack Marching Band
 
     directors:
     -   *jonathan-raman
 
     leaders:
-    -   title: drum majors
+    -   title: drum major
         members:
-        -   Gael Ortega (guy-uhl Ortega)
+        -   Gael Ortega (GUY-uhl Ortega)
 
     -   title: color guard captain
         members:
@@ -26,9 +26,11 @@ parade:
         members:
         -   Gerald Mendez
 
-    music: Zacatecas March by Genaro Codina, arranged by Louis-Philippe Laurendeau
+    music: Zacatecas Mexican March by Genaro Codina, arranged by Louis-Philippe Laurendeau
 
     notes: >
+        The band says thank you West High Music Boosters and Parents for your love and support.
+        Without your dedication, we would not exist. 
 
 concert:
     lastUpdated: 2019-09-20 12:16:08 -07

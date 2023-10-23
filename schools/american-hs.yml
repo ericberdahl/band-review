@@ -14,7 +14,7 @@ students:
 -   &heather-hughes "Heather Hughes"
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 11:55:44 -07
 
     nickname: American Eagles Marching Band
 
@@ -22,18 +22,22 @@ fieldshow:
     -   *richard-wong
     
     staff:
-    -   title: instructed by
+    -   title: color guard instructor
         members:
         -   *jennie-wong
+
+    -   title: percussion instructor
+        members:
         -   *harish-prabhakaran
 
     leaders:
     -   title: drum majors
         members:
         -   Aaroh Dixit (AH-roh Dixit)
+        -   Neelim Mollick
         -   Bhargav Shriram
 
-    -   title: color guard captains
+    -   title: auxilliary captains
         members:
         -   Hannah Chow
         -   Silas Hughes
@@ -44,13 +48,59 @@ fieldshow:
         -   Ashwin Bhat
         -   Rohan Iyer
 
+    -   title: flute captain
+        members:
+        -   Crystal Chang
+        
+    -   title: clarinet captains
+        members:
+        -   Angelina Ni
+        -   Oscar Surendranath
+        -   Nolan Tchao
+
+    -   title: alto sax captains
+        members:
+        -   Benjamin Qiao
+        -   Ann Zhou
+
+    -   title: low winds captains
+        members:
+        -   Veronica Nguyen (win)
+        -   Raghuram Vungutur
+
+    -   title: trumpet captain
+        members:
+        -   Safal Ghimire
+        
+    -   title: low brass captains
+        members:
+        -   Subbu Hariprasad
+        -   Amanda Ng
+        -   Luke Vinas
+
+    -   title: music librarians
+        members:
+        -   Nate Tseng
+        -   Kunal Vinayak
+
+    -   title: equipment managers
+        members:
+        -   Yoona Kim
+        -   Avish Zindal
+
     program: Julius Caesar
 
     music: >
 
     description: >
+        Join us as we chronicle the rise and fall of Rome's most famous ruler, Julius Caesar.
+        Watch and listen as the royal processional, battle sequences, love theme, and the legendary downfall of an empire
+        unfold before your eyes!
 
     notes: >
+        The American Eagles give special thanks to their Props Committee, Band Parents Organization, family and friends
+        for their support.
+        Thanks to Foothill for hosting this event.
 
 winterguard:
     lastUpdated: 2023-03-21 09:00:16 -08

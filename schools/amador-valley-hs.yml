@@ -3,36 +3,15 @@ name: Amador Valley High School
 city: Pleasanton, CA
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 13:57:00 -07
 
-    nickname: Amador Valley High School Marching Band and Color Guard
+    nickname: The Marching Dons
 
     directors:
     -   Jonathan Grantham
     -   Matthew Fell
     
     staff:
-    -   title: instructed by
-        members:
-        -   John Meehan
-        -   Chad Heiny
-        -   Jessica Slabaugh
-        -   Jamey Thompson
-        -   Brighton Matus
-        -   Tiffany Castelan
-        -   Joey Staab
-        -   Joey Jandeleit
-        -   Thomas Murphy
-        -   Zach Schulz
-        -   Marcelino Nambo
-        -   Everett Henrie
-        -   Ethan Jagasia
-        -   Camille Borris
-        -   Marvin Reed
-        -   David Ziehm
-        -   Ryan Madayag
-        -   Karen Eskarous
-        -   Jorge Tovar Ziehm
 
     leaders:
     -   title: drum majors
@@ -42,21 +21,38 @@ fieldshow:
         -   Emily Choe
         -   Athrv Gupta (UH-thurv Gupta)
 
-    -   title: color guard captains
+    -   title: auxilliary captains
         members:
         -   Anisha Madiraju
         -   Maria Clara Sapriza
-        -   Maximillien Kiyoi
+        -   Max Kiyoi
 
     -   title: percussion captains
         members:
         -   James Borrs
         -   Olivia Cheng
-        
+
+    -   title: woodwind captain
+        members:
+        -   Owen Short
+
+    -   title: brass captain
+        members:
+        -   Brady McHargue
+
     program: Mirror, Mirror
 
     music: >
+        "Nobody Does it Better" by Carly Simon,
+        "Nevermore" by Brian Balmages,
+        "Fearless" by Carol Brittin Chambers,
+        and "Critical Mass" by Todd Stalter
 
     description: >
+        We are telling the story of Grimhilde, the evil step mother from Snow White through three acts: Vanity, Broken, and Vengeance.
 
-    notes: >        
+    notes: >
+        The band says thank you to the amazing Sea of Purple, the parents, families and alumni who are here to cheer us on tonight!
+        We couldn't do it without your love and support.
+        Thank you to superintendent Dr. David Haglund and Principal Mr. Jon Fey.
+        Best of luck to all the competing bands today!

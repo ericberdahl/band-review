@@ -42,57 +42,15 @@ students:
 parade:
     isHost: true
 
-    lastUpdated: 2022-10-17 14:35:28 -07
+    lastUpdated: 2023-10-17 08:55:05 -07
 
     nickname: &band-nickname Foothill High School Marching Band and Color Guard
 
     directors:
-    -   *efrain-hinojosa
-
-    staff:
-    -   title: "instructed by"
-        members:
-        -   *shawn-griddine
-        -   *matt-sieve
-        -   *carver-frazier
-        -   *brianna-gier
-        -   *brooke-farrar
-        -   *chris-cyr
-        -   *alex-pfiefer
-        -   *alex-blakely
-        -   *ryan-myers
-        -   *xavier-choo
-        -   *myojin-yang
-        -   *nick-duenas
-        -   *andrew-lawton
-        -   *alexina-manriquez
-        -   *kristi-laduca
-
-    leaders:
-    -   title: drum major
-        members:
-        -   Yash Gupta    
-
-    music: Who's Who In Navy Blue by John Philip Sousa
-
-    notes: >
-        The Foothill Marching Band would like to thank our Band Boosters for all of their support in putting on this event.
-        We would also like to thank the Foothill High Administration and Pleasanton Unified School District for their continued support of
-        Music in our schools.
-
-
-fieldshow:
-    isHost: true
-
-    lastUpdated: 2023-09-01 00:00:00 -07
-
-    nickname: *band-nickname
-
-    directors:
     -   *moises-fagundes
 
-    staff:
-    -   title: instructed by
+    staff: &band-review-staff
+    -   title: "instructed by"
         members:
         -   *shawn-griddine
         -   *matt-sieve
@@ -119,8 +77,44 @@ fieldshow:
         -   Nicky Carlos
         -   Julia Tikhonov
         -   *victor-alcaraz
-        -   Johnny Huynh
+        -   Johnny Huynh (Johnny wheen)
         -   Lyle Elster
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Tanvi Gupta
+    
+    -   title: auxilliary captains
+        members:
+        -   Anika Murugesan
+        -   Amulya Maddi
+    
+    -   title: percussion captains
+        members:
+        -   Meghana Kumarakalva (meh-GAH-nah koo-mah-rah-KAHL-vah)
+        -   Youngha Hwang
+
+    music: On The Mall by Edwin Franko Goldman, arranged by CW4 Charles Booker
+
+    notes: >
+        The Foothill Marching Band and Color Guard would like to thank our Band Boosters for all of their support
+        in putting on this event.
+        We would also like to thank our Superintendent, Dr. David Haglund and our Principal Mr. Sebastian Bull,
+        as well as the rest of the school district, board, and the Foothill administration.
+        We hope you have a wonderful day and good luck to all of the performing groups today.
+
+fieldshow:
+    isHost: true
+
+    lastUpdated: 2023-10-17 08:55:05 -07
+
+    nickname: *band-nickname
+
+    directors:
+    -   *moises-fagundes
+
+    staff: *band-review-staff
 
     leaders:
     -   title: drum majors
@@ -138,6 +132,14 @@ fieldshow:
         members:
         -   Youngha Hwang
         -   Meghana Kumarakalva
+    
+    -   title: woodwind captain
+        members:
+        -   Kyle Wu
+
+    -   title: brass Captain
+        members:
+        -   Callia Taraya
 
     program: Shine Through
 

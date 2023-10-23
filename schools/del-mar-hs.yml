@@ -20,7 +20,7 @@ students:
 -   &lindsey-goetowski Lindsey Goetowski (LIHND-zee go-TAO-skee)
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 11:32:21 -07
 
     nickname: "Del Mar High School Marching Band and Colorguard"
 
@@ -33,15 +33,23 @@ parade:
         -   *kale-duprey
         -   *bailey-morgan
         -   *alyssa-mccoy
-        -   CJ Julian
         -   Desmond Rix
+        -   Hector Torres
         -   *lidia-luque
-        -   Nick Corona
 
     leaders:
     -   title: "drum major"
         members:
         -   *maiah-flores
+    
+    -   title: auxilliary captains
+        members:
+        -   Ren Lockwood
+        -   Hailey Hinkle
+    
+    -   title: percussion captain
+        members:
+        -   Raiff Schneider
 
     music: Holyrood March by Kenneth Alford arranged by Harold Gore
 

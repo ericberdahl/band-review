@@ -3,7 +3,7 @@ name: "Lincoln High School"
 city: "Stockton, CA"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 12:50:57 -07
 
     nickname: &band-review-nickname Lincoln High School Marching Band
 
@@ -13,21 +13,18 @@ parade:
     -   Jazareth Valencia
 
     staff:
-    -   title: percussion instructor
-        members:
-        -   Karl Udang
-
-    -   title: guard instructors
+    -   title: instructed by
         members:
         -   Julia Cornejo
         -   Valerie Rose
+        -   Karl Udang
 
     leaders:
     -   title: "drum major"
         members:
         -   "Zack Shi"
 
-    -   title: "color guard captains"
+    -   title: auxilliary captains
         members:
         -   Fin Wonacott
         -   Kylie Dahl
@@ -38,9 +35,10 @@ parade:
         -   Melino Halaholo
         -   Jay Leandado
 
-    music: Zacatecas by Genaro Codina
+    music: Zacatecas by Genaro Codina arranged by Andrew Glover
 
     notes: >
+        The band says thank you to the Lincoln Music Boosters for all of the support throughout the season!
 
 fieldshow:
     lastUpdated: 2023-09-01 00:00:00 -07
@@ -63,7 +61,7 @@ fieldshow:
     -   title: "drum major"
         members:
         -   Zack Shi
-        -   Dominic Khoonsirivong
+        -   Dominic Khoonsirivong (Dominic koon-SIHR-ih-vohng)
 
     -   title: "color guard captains"
         members:

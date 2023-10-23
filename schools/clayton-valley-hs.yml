@@ -3,7 +3,7 @@ name: Clayton Valley Charter High School
 city: Concord, CA
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-21 11:15:13 -07
 
     nickname: Clayton Valley Charter Marching Band and Color Guard
 
@@ -17,13 +17,15 @@ fieldshow:
         -   Gabe Boston
         -   Jordan Banda
 
-    -   title: music and visual instructor
+    -   title: visual instructors
         members:
         -   JJ Romeo
+        -   Alex Murphey-Frank
 
-    -   title: color guard instructor
+    -   title: color guard instructors
         members:
         -   Shea Gaier
+        -   Melia Means
 
     leaders:
     -   title: drum majors
@@ -31,10 +33,10 @@ fieldshow:
         -   Lexi Reeves
         -   Eliot Rentner
 
-    -   title: color guard captains
+    -   title: auxilliary captains
         members:
-        -   Maryrose Gonzalez
         -   Sarita Davalos
+        -   Maryrose Gonzalez
     
     -   title: percussion captains
         members:
@@ -44,7 +46,14 @@ fieldshow:
     program: Masterpiece
 
     music: >
+        Prelude #1 in C major (Ave Maria) by Johan Sebastian Bach adapted by Charles Gounod,
+        Selections from Moonlight Sonata, and symphonies 3, 5, 7, and 9 by Ludwig von Beethoven,
+        Gymnopedie no. 1 by Erik Satie,
+        The Rite of Spring by Igor Stravinsky,
+        and The Red Pony by Aaron Copland
 
     description: >
 
     notes: >
+        The band says thank you to all of our amazing Booster parents for your enormous love and support!
+        We could not do this without you all!

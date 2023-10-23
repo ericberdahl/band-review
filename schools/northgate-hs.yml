@@ -3,7 +3,7 @@ name: "Northgate High School"
 city: "Walnut Creek, CA"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-19 11:37:36 -07
 
     nickname: Marching Broncos
 
@@ -11,13 +11,10 @@ parade:
     -   Roberto Garcia-Leiva
 
     staff:
-    -   title: auxilliary director
-        members:
-        -   Abby Delanoy
-
     -   title: instructed by
         members:
-        -   Kevin Prough
+        -   Abby Delanoy
+        -   Kevin Prough (Kevin PROH)
 
     leaders:
     -   title: "drum major"
@@ -28,11 +25,11 @@ parade:
         members:
         -   "Ahmed Alhakem"
         -   "Clyde Collado"
-    
-    -   title: percussion captain
-        members:
-        -   "Jack Schimmel"
-    
+        
     music: Host of Freedom by Karl L. King
 
     notes: >
+        The Marching Broncos would like to thank the Northgate Instrumental Music Boosters for continually going above
+        and beyond to make sure that our students are able to nurture their musical skills, and continue making
+        music centered around harmony and friendship!
+        Thank you for all you do!

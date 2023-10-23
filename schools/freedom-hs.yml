@@ -3,9 +3,9 @@ name: "Freedom High School"
 city: "Oakley, CA"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-19 09:41:34 -07
 
-    nickname: Falcon Marching Band
+    nickname: Freedom Falcon Marching Band
 
     directors:
     -   Brooke Farrar
@@ -13,32 +13,40 @@ parade:
     staff:
     -   title: instructed by
         members:
-        -   Diego Mendez
-        -   Elijah Lopez
         -   Hannah Bunker
+        -   Elijah Lopez
+        -   Diego Mendez
+        -   Annadine Miramontes
+        -   Emile Concepcion
         -   Mirelys Supelveda
         -   Roger Weavil
-        -   Emile Concepcion
 
     leaders:
     -   title: drum major
         members:
         -   Adrian Curran
-    
-    -   title: color guard captains
-        members:
-        -   Julia Casselberry
-        -   Katelyn Skillman
-    
+        
     -   title: percussion captains
         members:
         -   Vincent Lasater
         -   Daniel Rodriguez
         -   Jaeden Rheaume
 
-    music:  Eagle Squadron March by Kenneth J. Alford
+    -   title: captains
+        members:
+        -   Julia Casselberry
+        -   Katelyn Skillman
+
+    music:  Eagle Squadron March by Kenneth J. Alford, arranged by Harold R. Gore
 
     notes: >
+        The Freedom High School Falcon Marching Band is an active program within the community, performing at local parades
+        and reviews, and it's mission is to enrich the musical education of each student through performance opportunities
+        and community outreach.
+        They offer Wind Bands, Jazz Band, Orchestra, Percussion, and guitar classes that collaborate with other programs on
+        campus to spread the joy and excellence of music.
+        The band would like to extend their deepest appreciation to our Band and Guard Boosters who make all of these
+        opportunities possible through their dedication and support to our program.
 
 winterguard:
     lastUpdated: 2018-01-01 00:00:00 -08

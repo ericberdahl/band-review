@@ -3,23 +3,33 @@ name: Franklin High School
 city: Stockton, CA
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 12:14:10 -07
 
-    nickname: Marching Yellowjackets
+    nickname: Franklin High School Marching Yellowjackets
 
     directors:
     -   Jacqueline Hairston (JAH-kuh-lehn HEHR-ston)
     -   Jerry Hernandez
 
     staff:
-    -   title: color guard instructor
+    -   title: percussion instructors
+        members:
+        -   Jerry Hernandez
+        -   Victoria Dato
+    
+    -   title: color guard instructors
         members:
         -   Victoria Dato
+        -   Patricia Carter
 
     leaders:
     -   title: drum major
         members:
         -   Sergio Lozano
+    
+    -   title: auxilliary captain
+        members:
+        -   Lindsay Parra
 
     -   title: percussion captain
         members:
@@ -27,7 +37,8 @@ parade:
 
     music: Zacatecas by Genaro Codina arranged by Andrew Glover
 
-    notes:
+    notes: >
+        The Marching Yellowjackets thank their wonderful Yellowjacket boosters and parents!
 
 concert:
     lastUpdated: 2022-10-14 09:46:08 -07

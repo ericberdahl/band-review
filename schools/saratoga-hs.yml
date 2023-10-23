@@ -12,7 +12,7 @@ staff:
 -   &chavadith-tantavirojn "Chavadith Tantavirojn (CHAH-vah-dith TAHN-tuh-viuh-rone)"
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 19:28:45 -07
 
     nickname: "Saratoga High School Marching Band and Color Guard"
 
@@ -24,50 +24,61 @@ fieldshow:
     staff:
     -   title: instructed by
         members:
-        -   *chavadith-tantavirojn
-        -   Russell Crow the Third
         -   *kk-rasmussen
         -   Todd Ryan
+        -   Jonathan Pwu
+        -   Isabel McPherson
+        -   Armeen Ghafourpour
+        -   Alex Tran
         -   Dr. John Zarco
-        -   Gabriel Boquiren
-        -   Paul Narkiewicz
-        -   Joseph Jung
+        -   Russell Crow the Third
         -   Elijah Morales
         -   Annika Le
         -   Jackson Hsu
         -   Mika Tippetts
         -   Nikhil Kapasi
         -   Chloe Hsieh
+        -   *chavadith-tantavirojn
+        -   Paul Narkiewicz
+        -   Joseph Jung
+        -   Gabriel Boquiren
         -   Brandon Adamson
         -   Dr. Stuart Langsam
         -   Casey Quevedo 
         -   Arian Salamat
-        -   Isabel McPherson
-        -   Armeen Ghafourpour
-        -   Alex Tran
-        -   Jonathan Pwu
+        -   Shawn Glyde
+        -   Geoff Schoeffel
+        -   James Gow
 
     leaders:
     -   title: drum majors
         members:
+        -   Gabriel Shyh
         -   Cameron Nguyen
         -   Nathan Lee
         -   Aiden Chen
 
     -   title: auxiliary captains
         members:
-        -   Esabella Fung
         -   Sophia Deng
+        -   Esabella Fung
         -   Niraali Garg
 
     -   title: percussion captain
         members:
         -   Grant Hough
-
+    
     program: Call of the Unknown
 
     music: >
+        original music by Kevin Shah, Jason Shiuan (Jason sh-wen), Sean Clark, and Chavadith Tantavirojn (CHAH-vah-dith TAHN-tuh-viuh-rone),
+        and Hymn of Acxiom by Vienna Teng
 
     description: >
 
     notes: >
+        The SHS Marching Band would like to extend heartfelt appreciation to all of the parents, families, friends,
+        Saratoga Music Boosters, SHS Alumni, Principal Greg Louie, and Saratoga High community members for unyielding support.
+        The SHS Marching Band would also like to thank Foothill High School and all volunteers for helping make the
+        Foothill Band Review possible every year, as well as the NCBA for providing educational performance opportunities
+        annually to thousands of students.

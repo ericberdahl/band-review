@@ -3,9 +3,9 @@ name: Patterson High School
 city: Patterson, CA
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 11:41:44 -07
 
-    nickname: Tiger Marching Band
+    nickname: Patterson High School Tiger Band and Colorguard
 
     directors:
     -   Loren Lima
@@ -20,9 +20,15 @@ parade:
         members:
         -   Monica Ornelas
     
+    -   title: auxilliary captains
+        members:
+        -   Samantha Vasquez
+        -   Ashley Hernandez
+
     -   title: percussion captain
         members:
-        -   Rian Joei Manarang
+        -   Rian Manarang
+        -   Jocelin Salvame
         
     music: Tenth Regiment March by R. B. Hall
     

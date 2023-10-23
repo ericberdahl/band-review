@@ -2,21 +2,40 @@ name: Fairfield High School
 
 city: Fairfield, CA
 
+staff:
+
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-20 10:05:18 -07
 
     nickname: Scarlet Brigade
 
     directors:
     -   Brian K. Swetland
-    -   Ross Ackerman
 
     staff:
-    -   title: instructed by
+    -   title: assistant director
+        members:
+        -   Ross Ackerman
+
+    -   title: pageantry caption head
+        members:
+        -   Teresa Pierce
+
+    -   title: percussion caption head and pit instructor
         members:
         -   Sheally Lee
+
+    -   title: battery instructor
+        members:
         -   Jonno Lee
-        -   Teresa Pierce
+
+    -   title: drum major instructor
+        members:
+        -   Paul Olson
+
+    -   title: pipe instructor
+        members:
+        -   Dr. Matthew Welch
 
     leaders:
     -   title: drum major
@@ -35,6 +54,7 @@ parade:
     music: The Elephant by J. Ord Hume
 
     notes: >
+        The band is very gratefull for our continued support of the Scarlet Brigade Band Boosters each and every year.
 
 concert:
     lastUpdated: 2019-10-18 14:41:38 -07

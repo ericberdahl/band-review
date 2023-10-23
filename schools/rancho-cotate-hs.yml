@@ -17,9 +17,9 @@ students:
 -   &sierra-phillips "Sierra Phillips"
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-18 11:21:32 -07
 
-    nickname: Rancho Cotate Marching Band
+    nickname: Rancho Cotate Band
 
     directors: 
     -   *dustin-friel
@@ -28,18 +28,17 @@ fieldshow:
     -   title: instructed by
         members:
         -   *daniela-hernandez
-        -   *emma-wagoner
-        -   *hazen-oo
         -   *abel-moya
         -   Colin Bartlett
-        -   Matt Volkar
+        -   *hazen-oo
+        -   *emma-wagoner
 
     leaders:
     -   title: drum major
         members:
         -   Genesis Glenister
 
-    -   title: color guard captains
+    -   title: auxilliary captains
         members:
         -   Emily Perez Barrientos
         -   Aster Donovan
@@ -47,16 +46,24 @@ fieldshow:
     -   title: percussion captains
         members:
         -   Kyan Banzon
-        -   *lin-leon-solis
         -   Milo Crowley
+        -   *lin-leon-solis
 
     program: What Goes Up…Must Come Down!
 
     description: >
+        Everything that goes up must come down.
+        When feeling down we must elevate our emotions, filling both our mind and our spirits, up with joy.
+        Like the sun rises and the sun sets, like our emotions rise and fall....what goes up must come down.
 
-    music: 
+    music: >
+        the music of Destiny's Child, Alicia Keys, and Jordan Sparks.
+        Arranged by Dustin Friel and edited by Abel Moya
 
     notes: >
+        The band says thank you to our families and friends who have supported us this season.
+        Thank you to all local businesses that have helped us out as well.
+        And a very special thank you to the RCHS Music Boosters for your unparalleled support this fall season.
 
 winterpercussion:
     lastUpdated: 2023-03-21 14:12:28 -08

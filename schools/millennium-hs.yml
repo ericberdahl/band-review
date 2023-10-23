@@ -3,9 +3,9 @@ name: Millennium High School
 city: Tracy, CA
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-18 15:46:42 -07
 
-    nickname: Marching Falcons
+    nickname: Millennium Marching Band and Colorguard
 
     directors: &directors
     -   "Roland Zepeda (Roland zuh-PAY-duh)"
@@ -20,7 +20,7 @@ fieldshow:
         members:
         -   Collin Credo (Collin CREE-doh)
     
-    -   title: color guard captain
+    -   title: auxilliary captain
         members:
         -   Ariana Villa
     
@@ -32,6 +32,7 @@ fieldshow:
     program: Queen of the Hive
 
     music: >
+        A Queen's Reign, A New Queen, Hornet Havoc, and A New Era by Alex Yoder, with percussion by Chris Lee
 
     description: >
 

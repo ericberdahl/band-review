@@ -3,7 +3,7 @@ name: "Thomas Downey High School"
 city: "Modesto, CA"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-18 12:47:17 -07
 
     nickname: "Marching Blue Knights"
 
@@ -17,9 +17,10 @@ parade:
         members:
         -   "Xavier Hernandez"
 
-    -   title: "color guard captain"
+    -   title: auxilliary captains
         members:
-        -   "Tayler Self"
+        -   Tayler Self
+        -   Luis Flores
     
     -   title: "percussion captains"
         members:
@@ -28,7 +29,9 @@ parade:
 
     music: "El Capitan by John Philip Sousa arranged by Jack Bullock"
 
-    notes:
+    notes: >
+        The Marching Blue Knights would like to thank our wonderful booster organization for their unwavering support
+        this parade season!
 
 concert:
     lastUpdated: 2023-09-01 00:00:00 -07

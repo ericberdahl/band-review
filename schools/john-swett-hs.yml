@@ -3,26 +3,22 @@ name: John Swett High School
 city: Crockett, CA
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 14:43:10 -07
 
-    nickname: John Swett High School Marching Band and Colorguard
+    nickname: John Swett High School Marching Band
 
     directors:
     -   Jordan Parker
+    -   Dean Colombo
 
     staff:
     -   title: instructed by
         members:
         -   Andy Zheng
-
-    -   title: percussion instructor
-        members:
         -   Jordan Varner
         -   Tyler Garrett
         -   Yahir Calva
-
-    -   title: color guard instructor
-        members:
+        -   Anna-lei Jones
         -   Alex Dees
         -   Jhiana Illenberger
 
@@ -31,20 +27,33 @@ fieldshow:
         members:
         -   Jocelyn Lee
     
-    -   title: color guard captain
+    -   title: auxilliary captain
         members:
         -   Jada Umland-Marks
     
     -   title: percussion captains
         members:
         -   Talan Chittalath
-        -   Yatziri Montiel-Cervantes
+        -   Yatziri Montiel
         -   Jeanelle Ramos
+    
+    -   title: captains
+        members:
+        -   Trisha Chittalath
+        -   Jada Gibson
+        -   Sophia Sollestre
+        -   Aiden Lu
+        -   Moussa Sissoko
 
     program: Once Bitten
 
     music: >
+        Uninvited by Alanis Morsette,
+        The Sound of Silence by Simon and Garfunkel,
+        and original music by Alex Yoder
 
     description: >
+        An army of vampires ascends from the dead to wreak havoc on the land.
+        Then vampire hunters assemble and strike back.
 
     notes: >

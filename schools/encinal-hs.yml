@@ -3,7 +3,7 @@ name: Encinal High School
 city: Alameda, CA
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-20 20:52:18 -07
 
     nickname: Soaring Jets
 
@@ -22,12 +22,17 @@ parade:
 
     -   title: color guard captain
         members:
-        -   Clare Paano
+        -   Casey Paano
 
     -   title: percussion captain
         members:
-        -   Landon Willis
+        -   Landon Wilson
+    
+    -   title: captain
+        members:
+        -   Claire Paano
 
-    music: The Invincible Eagle by John Phillip Sousa
+    music: The Invincible Eagle by John Phillip Sousa arranged by Jay Bocook
 
-    notes:
+    notes: >
+        The band says thanks to the booster's for their support, organization and participation.

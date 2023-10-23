@@ -16,7 +16,7 @@ students:
 -   &lyriic-williams "Lyriic Williams"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 12:25:23 -07
 
     nickname: &band-review-nickname "Pride of Antioch Marching Band and Color Guard"
 
@@ -24,35 +24,39 @@ parade:
     -   *courtney-emery
 
     staff: &band-review-staff
-    -   title: "instructed by"
+    -   title: percussion instructor
         members:
-        -   "Marissa Kittleson"
         -   *angelo-gutierrez
+
+    -   title: color guard instructors
+        members:
         -   *joshua-suarez
+        -   Marissa Kittleson
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
         -   Jose Rivera Franco
     
-    -   title: "color guard captains"
+    -   title: auxilliary captains
         members:
-        -   Teresa Williams
         -   Nataly Gomez
+        -   Teresa Williams
 
     -   title: "percussion captains"
         members:
-        -   Kyle Garcia
         -   Ethan Mullen
         -   Julianna Fraser
+        -   Kyle Garcia
 
     music: >
         Bravura by Charles E. Duble
 
     notes: >
+        The band would like to thank ABBA and all the band families for all they do to support the band.
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-16 12:25:23 -07
 
     nickname: *band-review-nickname
 
@@ -63,26 +67,28 @@ fieldshow:
     leaders:
     -   title: "drum major"
         members:
-        -   Kaiyeeliee Latchison
+        -   Kaiyeeliee Latchison (kai-YEE-lee Latchison)
     
-    -   title: "color guard captains"
+    -   title: auxilliary captains
         members:
-        -   "Teresa Williams"
         -   Nataly Gomez
+        -   Teresa Williams
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   Kyle Garcia
         -   Ethan Mullen
         -   Julianna Fraser
+        -   Kyle Garcia
 
     program: Raging Light
 
     music: >
+        music by Bryce Newton and Maureen Longo
 
     description: >
 
     notes: >
+        The band would like to thank ABBA and all of the band families for the unwavering support they give to the band.
 
 winterpercussion:
     lastUpdated: 2023-03-24 00:11:05 -08

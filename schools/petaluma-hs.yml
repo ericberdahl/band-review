@@ -13,17 +13,17 @@ students:
 -   "Cheyenne Cercos"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-18 13:49:48 -07
 
     nickname: "Trojan Marching Band"
 
     directors: &directors
     -   *cliff-eveland
+    -   Neil Fontano
 
     staff:
     -   title: "instructed by"
         members:
-        -   "Neil Fontano"
         -   *nick-dibley
 
     leaders:
@@ -35,9 +35,11 @@ parade:
         members:
         -   "Alex Wentworth"
 
-    music: "Dauntless Battalion by John Philip Sousa"
+    music: The Dauntless Battalion by John Philip Sousa
 
     notes: >
+        The band says thank you to our hardworking Boosters for making our performance possible, especially the uniform moms!
+        
 
 winterpercussion:
     lastUpdated: 2023-03-20 16:30:00 -08

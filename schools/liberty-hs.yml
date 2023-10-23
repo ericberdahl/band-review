@@ -2,8 +2,11 @@ name: Liberty High School
 
 city: Brentwood, CA
 
+students:
+-   &alec-beaulieu Alec Beaulieu (Alec BOH-loo)
+
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-17 15:32:27 -07
 
     nickname: &band-review-nickname Lion Pride Marching Band
 
@@ -11,12 +14,9 @@ parade:
     -   Lindsay Kellogg
 
     staff:
-    -   title: color guard caption head
+    -   title: color guard instructors
         members:
         -   Lisette Townzen
-
-    -   title: color guard instructor
-        members:
         -   Francisco Marin
 
     -   title: percussion instructors
@@ -45,45 +45,43 @@ parade:
         members:
         -   Annie Dumas
 
-    -   title: color guard captains
+    -   title: auxilliary captains
         members:
         -   Sasha Priante
         -   Leilah Weavil
 
     -   title: percussion captains
         members:
-        -   Alec Beaulieu (Alec BOH-liu)
+        -   *alec-beaulieu
         -   Andrew Giles
+        -   Amelie Trost
+    
+    -   title: woodwind captain
+        members:
+        -   Aliyah Koya
+
+    -   title: brass captain
+        members:
+        -   Jake Buel
 
     music: The Voice of the Guns by Kenneth Alford edited by Timothy Rhea
 
     notes: >
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-17 15:32:27 -07
 
     nickname: *band-review-nickname
 
     directors: *band-review-directors
 
     staff:
-    -   title: visual caption head
-        members:
-        -   Shawn Griddine
-
     -   title: visual instructors
         members:
+        -   Shawn Griddine
         -   Rebecca Miles
         -   Victor Alcaraz
     
-    -   title: guard caption head
-        members:
-        -   Lisette Townzen
-
-    -   title: guard instructor
-        members:
-        -   Francisco Marin
-
     -   title: woodwind instructor
         members:
         -   Jennifer Krey
@@ -95,9 +93,14 @@ fieldshow:
     -   title: percussion instructors
         members:
         -   Brandon Wilson
-        -   Emory Espinoza
         -   Roger Weavil
+        -   Emory Espinoza
         -   Emile Concepcion
+
+    -   title: guard instructors
+        members:
+        -   Lisette Townzen
+        -   Francisco Marin
 
     leaders:
     -   title: drum majors
@@ -106,9 +109,6 @@ fieldshow:
         -   Annie Dumas
         -   Rachael Green
         -   Carter Masana
-
-        -   Hannah Bunker
-        -   Ben Bettis
     
     -   title: color guard captains
         members:
@@ -117,13 +117,34 @@ fieldshow:
     
     -   title: percussion captains
         members:
-        -   Alec Beauliu (BOH-loo)
+        -   *alec-beaulieu
         -   Andrew Giles
+    
+    -   title: front ensemble captain
+        members:
+        -   Amelie Trost
+
+    -   title: woodwind captain
+        members:
+        -   Aliyah Koya
+    
+    -   title: brass captain
+        members:
+        -   Jake Buell
 
     program: Don't Look Up
 
     description: >
+        A fascinating discovery brings us into a very perplexing situation.
+        As a large comet is barreling toward Earth, we have to decide whether to defend ourselves or accept the inevitable.
+        As tensions are high, many people are starting to accept there is no hope and that mankind will end in total annihilation.
+        Come with us through our journey of passion and fear as the Lion Pride Marching Band takes us through "Don't Look Up"
 
     music: >
+        music aranged by Michael J. Miller and Jason Palmer,
+        Music for Prague (1968) by Karel Husa,
+        Apocalypse Please by Muse,
+        Smile by Charles Chaplin,
+        and It's The End Of The World As We Know It (And I Feel Fine) by R.E.M
 
     notes: >

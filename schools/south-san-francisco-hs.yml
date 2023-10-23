@@ -2,28 +2,24 @@ name: South San Francisco High School
 
 city: South San Francisco, CA
 
+staff:
+-   Alberto Lopez-Rivas
+
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-18 10:38:26 -07
 
     nickname: South City Warrior Band
 
     directors: 
     -   Elijah Maes
-    -   Alberto Lopez-Rivas
 
     staff: 
-    -   title: color guard instructors
-        members:
-        -   Aidan Marques
-        -   Julia Tikhonov
-
-    -   title: visual instructors
+    -   title: instructed by
         members:
         -   Adnan Kapadia
         -   Henson Lau
-
-    -   title: percussion instructors
-        members:
+        -   Aidan Marks
+        -   Julia Tikhonov
         -   Kris Ventura
 
     leaders:
@@ -34,10 +30,9 @@ fieldshow:
     
     -   title: color guard captains
         members:
-        -   Aleczia Trinidad,
+        -   Aleczia Trinidad
         -   Isabel Amores
-        -   Isabella Chuong
-        -   Zoe May
+        -   Izzy Chuong
 
     -   title: percussion captains
         members:
@@ -46,10 +41,26 @@ fieldshow:
         -   Anthony Lee
         -   Joseph Bermudez
 
+    -   title: woodwind captain
+        members:
+        -   Alex Lau
+
+    -   title: brass captain
+        members:
+        -   Zack Arabieh
+
     program: The Winds of Change
 
-    music: 
+    music: >
+        Symphony number 2: A Lenda de Paio Gómez Chariño by Anton Alcalde
 
-    description: 
+    description: >
+        The Winds of Change is about the transformation of society;
+        From primitive technology, relying on the land for food and shelter, to the modernization and technological developments of today.
 
-    notes: 
+    notes: >
+        The Warrior band took first place Division 2A at Feste Fel Mar, second place colorgard overall at Feste Del Mar,
+        and second place field conductor at Feste Del Mar.
+        The give a big thank you to our Music Guild for all the support you give us by feeding us, making sure our uniforms
+        fit and look good, and transporting our equipment.
+        Your support does not go unnoticed and we wouldn't be where we are without it!
