@@ -3,12 +3,17 @@ name: River Valley High School
 city: Yuba City, CA
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-23 09:39:02 -07
 
     nickname: "River Valley Falcon Marching Band"
 
     directors:
     -   "Michael Taylor"
+
+    staff:
+    -   title: instructed by
+        members:
+        -   Kristen Musselman
 
     leaders:
     -   title: "drum major"
@@ -22,6 +27,7 @@ parade:
     music: "Stars and Stripes Forever by John Philip Sousa"
 
     notes: >
+        The River Valley Band would like to thank their boosters for all of their support!
 
 fieldshow:
     lastUpdated: 2022-10-14 11:27:53 -07

@@ -3,7 +3,7 @@ name: "Franklin High School"
 city: "Elk Grove, CA"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-25 08:57:22 -07
 
     nickname: "Franklin Wildcats Sound Power Marching Band"
 
@@ -11,9 +11,6 @@ parade:
     -   "Matthew Mackey"
 
     staff:
-    -   title: "color guard instructor"
-        members:
-        -   Victor Ramos
 
     leaders:
     -   title: "drum major"
@@ -33,7 +30,7 @@ parade:
     notes: >
 
 concert:
-    lastUpdated: 2019-10-18 14:48:08 -07
+    lastUpdated: 2023-10-25 08:57:22 -07
 
     nickname: "Franklin High School Wind Ensemble"
 

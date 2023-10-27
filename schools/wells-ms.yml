@@ -4,17 +4,17 @@ city: "Dublin, CA"
 
 staff:
 -   &erik-bertelson "Erik Bertelson"
+-   &kendle-fong "Kendle Fong"
 -   &grace-holmes "Grace Holmes"
 -   &erin-lewis "Erin Lewis"
+-   &ella-mcLaughlin "Ella McLaughlin"
 -   &sasha-wirchniansky "Sasha Wirchniansky (Sasha wihrch-nee-AHN-skee)"
--   &kendle-fong "Kendle Fong"
 
 students:
--   &ella-mcLaughlin "Ella McLaughlin"
 -   &luis-ojeda "Luis Ojeda"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2023-10-23 11:13:05 -07
 
     nickname: Roadrunner Marching Band and Color Guard
 
@@ -22,11 +22,12 @@ parade:
     -   *erik-bertelson
 
     staff:
-    -   title: "instructed by"
+    -   title: "color guard staff"
         members:
         -   *erin-lewis
         -   *sasha-wirchniansky
         -   *kendle-fong
+        -   *ella-mcLaughlin
 
     leaders:
     -   title: "drum major"
@@ -35,21 +36,22 @@ parade:
 
     -   title: color guard captains
         members:
-        -   Emily Reyes
         -   Kenzie Fu
+        -   Emily Reyes
         -   Caitlin Sellers
     
     -   title: percussion captains
         members:
-        -   Will Reyes
         -   Connor Wong
+        -   Will Reyes
 
     music: Host of Freedom by Karl L King
 
     notes: >
+        The band gives a big thanks to our Band and Color Guard Boosters for their continued support to our music program.
 
 concert:
-    lastUpdated: 2022-10-14 15:29:23 -07
+    lastUpdated: 2023-10-23 11:13:05 -07
 
     nickname: "Wells Middle School Concert Band"
 
