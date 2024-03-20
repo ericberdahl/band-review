@@ -6,6 +6,7 @@ import { strict as assert } from 'assert';
 
 type SerializedUnit = {
     isHost? : boolean;
+    division? : string;    // division in which the unit is competing
     lastUpdated: string;
     nickname : string;
     directors : string[];
@@ -29,6 +30,7 @@ export type WinterGuardUnitStaticProps = {
     city : string;
     directors : string[];
     isHost : boolean;
+    division : string;
     lastUpdated : string;
     leaders : RoleStaticProps[];
     music : string;
@@ -41,6 +43,7 @@ export type WinterGuardUnitStaticProps = {
 
 export class WinterGuardUnit {
     city : string           = '';
+    division : string       = null;
     directors : string[]    = [];
     isHost : boolean        = false;
     lastUpdated : DateTime;
@@ -68,6 +71,7 @@ export class WinterGuardUnit {
             result.directors.push(...unit.directors);
         }
         result.isHost = (unit.isHost || false);
+        result.division = (unit.division || null);
         if (unit.leaders) {
             result.leaders.push(...await Promise.all(unit.leaders.map(async (s) => Role.deserialize(s))));
         }
@@ -88,6 +92,7 @@ export class WinterGuardUnit {
             city: this.city,
             directors: this.directors,
             isHost: this.isHost,
+            division: this.division || null,
             lastUpdated: this.lastUpdated.toISO(),
             leaders: await Promise.all(this.leaders.map(async (l) => l.getStaticProps())),
             music: this.music || null,

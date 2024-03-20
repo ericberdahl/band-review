@@ -10,6 +10,32 @@ import { Fragment } from 'react';
 
 import { DateTime } from "luxon";
 
+function School_2024({ unit, show, isFirst }) {
+    isFirst = isFirst || false;
+    const year = DateTime.fromISO(show.date).year;
+
+    const ordinal = (isFirst ? 'first' : 'next');
+
+    return (
+        <div>
+            <h2>Winter Guard - {unit.schoolName}</h2>
+            {!unit.nickname && <Note label="important">{unit.schoolName} is missing nickname.</Note>}
+            {!unit.program && <Note label="important">{unit.schoolName} is missing percussion program.</Note>}
+            {(!unit.directors || 0 == unit.directors.length) && <Note label="warning">{unit.schoolName} has no directors.</Note>}
+            {(!unit.leaders || 0 == unit.leaders.length) && <Note label="warning">{unit.schoolName} has no leaders.</Note>}
+            <Note>Last updated {DateTime.fromISO(unit.lastUpdated).toLocaleString(DateTime.DATETIME_FULL)}</Note>
+            <p>Please welcome our {ordinal} performing group{unit.division && (<> in the {unit.division} class,</>)}
+            {unit.isHost && ' your host,'} the {unit.nickname}, from {unit.schoolName} in {unit.city}.</p>
+            <Leadership unit={unit}/>
+            {unit.notes && <p>{unit.notes}</p>}
+            {!unit.notes && <Note>{unit.schoolName} has no guard notes.</Note>}
+            <p>
+                <em>(Wait for cue from T&amp;P judge):</em> Performing their {year} show, {unit.program && <>{unit.program},</>} NCBA is proud to present the {unit.nickname}.
+            </p>
+        </div>
+    )
+}
+
 function School({ unit, show, isFirst }) {
     isFirst = isFirst || false;
     const year = DateTime.fromISO(show.date).year;
@@ -50,7 +76,7 @@ function Lineup({ lineup, show }) {
             {lineup.map((li, index) => (
                 <Chapter key={index}>
                     {li.unitType == 'breakUnit' && <Break eventLabel="Winter Guard" unit={li}/>}
-                    {li.unitType == 'winterGuardUnit' && <School unit={li} show={show} isFirst={0 == schoolCount++}/>}
+                    {li.unitType == 'winterGuardUnit' && <School_2024 unit={li} show={show} isFirst={0 == schoolCount++}/>}
                 </Chapter>
             ))}
         </>
