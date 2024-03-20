@@ -1,6 +1,6 @@
 name: "Petaluma High School"
 
-city: "Petaluma, CA"
+city: "Petaluma, California"
 
 staff:
 -   &cliff-eveland "Cliff Eveland"
@@ -42,20 +42,18 @@ parade:
         
 
 winterpercussion:
-    lastUpdated: 2023-03-20 16:30:00 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
 
-    nickname: "Petaluma Drum Line"
+    division: "Scholastic Regional Double-A"
+
+    nickname: "Petaluma High School Drum Line"
 
     directors: 
-    -   *cliff-eveland
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   *nick-dibley
 
     leaders:
 
-    program: "One Small Step"
+    program: "Bittersweet Departure,"
 
     music: 

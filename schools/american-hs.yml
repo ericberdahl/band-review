@@ -1,6 +1,6 @@
 name: American High School
 
-city: Fremont, CA
+city: Fremont, California
 
 staff:
 -   &richard-wong "Richard F. Wong"
@@ -103,28 +103,39 @@ fieldshow:
         Thanks to Foothill for hosting this event.
 
 winterguard:
-    lastUpdated: 2023-03-21 09:00:16 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic Regional Double-A"
 
     nickname: "American Eagles Winter Guard"
 
     directors:
-    -   *richard-wong
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   *james-santiago
-        -   *jennie-wong
 
     leaders:
-    -   title: "captains"
-        members:
-        -   *naomi-tchao
-        -   *heather-hughes
 
-    program: "Lucid"
+    program: "One Last Breath"
 
     music: 
 
     notes: >
-        The American Eagles Winter Guard thanks their parents for their support, and thanks our show hosts for putting on this show.
+
+winterpercussion:
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic Regional Double-A"
+
+    nickname: "American Eagles Winter Percussion"
+
+    directors: 
+
+    staff:
+        
+    leaders:
+
+    program: "Lunar Heist"
+
+    music: 
+
+    notes: 

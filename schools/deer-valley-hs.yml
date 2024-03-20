@@ -1,6 +1,6 @@
 name: Deer Valley High School
 
-city: Antioch, CA
+city: Antioch, California
 
 staff:
 -   &kevin-field "Kevin Field"
@@ -54,28 +54,21 @@ parade:
     notes: >
 
 winterguard:
-    lastUpdated: 2023-03-21 22:28:09 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
 
-    nickname: "Deer Valley Winter Guard"
+    division: "Scholastic National Triple-A"
+
+    nickname: "Deer Valley High School Winterguard"
 
     directors:
-    -   *marissa-kittleson
-    -   *joshua-suarez
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Tristan Tacow"
-        -   "Kira Vocal"
-        -   "Leslie Cruz"
 
-    program: "Oops… DV Did it Again"
+    program: "If You Find Me"
 
     music:
 
     notes: >
-        Deer Valley Winter Guard give a huge thank you to the band boosters and the students!
-        Your hard work and dedication means everything.
 
 winterpercussion:
     lastUpdated: 2023-03-21 22:28:09 -08

@@ -1,11 +1,13 @@
 name: "Tri City Band Corps"
 
-city: "Fremont, CA"
+city: "Fremont, California"
 
 winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2024-03-18 18:00:00 -08
 
-    nickname: "Tri City Winter Percussion"
+    division: "Exhibition"
+
+    nickname: "Tri-City Band Corps Special Needs Percussion"
 
     directors: 
 
@@ -20,28 +22,20 @@ winterpercussion:
     notes: 
     
 winterguard:
-    lastUpdated: 2019-03-13 11:55:21 -07
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Independent National Single-A"
 
     nickname: "Tri City Winterguard"
 
     directors:
-    -   "Ben Wilkinson"
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Fou Saelee"
-        -   "Grantis Peranda"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Isabel Guerrero-Lebarsky"
-        -   "Lulu Payne"
 
-    program: "To Charm a Snake" 
+    program: "Imperialis" 
 
-    music: "Boat to Nowhere by Anoushka Shankar"
+    music: 
 
     notes: >
-        To join the bay area's only independent guard, email tcwg@tricitybandcorps.org

@@ -1,6 +1,6 @@
 name: "Pinole Valley High School"
 
-city: "Pinole, CA"
+city: "Pinole, California"
 
 staff:
 -   &ross-ackerman "Ross Ackerman"
@@ -56,18 +56,19 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2023-03-20 16:30:00 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
 
-    nickname: "Pinole Valley High School Winterguard"
+    division: "Scholastic National Triple-A"
+
+    nickname: "Pinole Valley High School colorguard"
 
     directors:
-    -   *ross-ackerman
 
     staff:
 
     leaders:
 
-    program: "The Thread Intertwines"
+    program: "Not What You See"
 
     music: 
 

@@ -1,6 +1,6 @@
 name: "Wells Middle School"
 
-city: "Dublin, CA"
+city: "Dublin, California"
 
 staff:
 -   &erik-bertelson "Erik Bertelson"
@@ -56,30 +56,20 @@ concert:
     nickname: "Wells Middle School Concert Band"
 
 winterguard:
-    lastUpdated: 2023-03-21 08:57:11 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic Middle School"
 
     nickname: "Wells Winter Guard"
 
     directors:
-    -   *erik-bertelson
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   *grace-holmes
-        -   *erin-lewis
-        -   *sasha-wirchniansky
-        -   *kendle-fong
 
     leaders:
-    -   title: "captains"
-        members:
-        -   *luis-ojeda
-        -   *ella-mcLaughlin
 
-    program: "Rockin' Robin"
+    program: "The Forbidden Letter"
 
     music: 
 
     notes: >
-        Wells Winter Guard give a big thanks to the Color Guard Parents for their support and help during their Winter Guard Season.

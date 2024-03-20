@@ -1,75 +1,22 @@
 name: Alameda High School
 
-city: Alameda, CA
-
-fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    music: 
-
-    notes:
-
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
+city: Alameda, California
 
 winterguard:
-    lastUpdated: 2023-03-24 11:48:49 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
 
-    nickname: "Alameda High Color Guard"
+    division: "Scholastic Regional Triple-A"
+
+    nickname: "Alameda High School Color Guard"
 
     directors:
-    -   "Tyra Cable"
 
     staff:
 
     leaders:
-    -   title: "captain"
-        members:
-        -   "Asta Li"
 
-    program: "Young and Beautiful"
+    program: "Alameda High's Rendition of the Nutcracker"
 
     music: 
 
     notes: >
-        Alameda High Color Guard say thank you to all our supportive parents.
-        We couldn't have done it without you.

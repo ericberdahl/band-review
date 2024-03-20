@@ -3,41 +3,36 @@ announcer:
     email: "berdahl@serendipity.org"
 
 show:
-    year: 2023
-    date: "2023-03-25"
-    citation: "2023 Foothill High School Winter Show"
+    year: 2024
+    date: "2024-03-26"
+    citation: "2024 Foothill High School Winter Show"
 
 next_show:
-    date: "2024-03-23"
-    citation: "2024 Foothill High School Winter Show"
+    date: "2025-03-22"
+    citation: "2025 Foothill High School Winter Show"
 
 units:
 -   "winterpercussion"
 -   "winterguard"
 
-version: "2023.03.20"
+version: "2024.03.15"
 
 winterpercussion:
 
-    start_time: "9:00am"
+    start_time: "2:00pm"
 
     lineup:
-    -   ref: "linden-hs"
-    -   ref: "cottonwood-creek"
-    -   ref: "pinole-valley-hs"
-    -   ref: "phillip-burton-hs"
-    -   ref: "pleasant-valley-hs"
-    -   ref: "petaluma-hs"
-    -   break: 10
-    -   ref: "mission-sj-hs"
-    -   ref: "del-mar-hs"
-    -   ref: "antioch-hs"
-    -   ref: "nevada-union-hs"
-    -   ref: "deer-valley-hs"
-    -   ref: "rancho-cotate-hs"
-    -   ref: "vanden-hs"
-    -   ref: "century-hs"
     -   ref: "foothill-hs"
+    -   ref: "carquinez-ms"
+    -   ref: "tri-city"
+    -   ref: "granada-hs"
+    -   ref: "american-hs"
+    -   ref: "petaluma-hs"
+    -   ref: "john-swett-hs"
+    -   ref: "millennium-hs"
+    -   ref: "antioch-deer-valley-hs"
+    -   ref: "rancho-cotate-hs"
+    -   ref: "liberty-hs"
 
     sponsors:
         general: &winter-show-sponsors
@@ -51,33 +46,31 @@ winterpercussion:
 #                message: 
 
 winterguard:
-    start_time: "1:00pm"
+    start_time: "5:00pm"
 
     lineup:
-    -   ref: "foothill-hs"
-    -   ref: "park-ms"
     -   ref: "harvest-park-ms"
-    -   ref: "golden-west-ms"
-    -   ref: "cottonwood-creek"
+    -   ref: "park-ms"
+    -   ref: "cottonwood-creek-fallon-ms"
     -   ref: "wells-ms"
-    -   break: 10
+    -   ref: "carquinez-ms"
     -   ref: "hayward-hs"
+    -   ref: "rancho-cotate-hs"
+        unit: winterguard-jv
     -   ref: "alameda-hs"
-    -   ref: "yuba-city-hs"
-    -   ref: "nevada-union-hs"
     -   ref: "american-hs"
-    -   ref: "turlock-christian-hs"
-    -   ref: "linden-hs"
-    -   ref: "california-crosspoint"
-    -   ref: "del-mar-hs"
-    -   break: 10
+    -   ref: "freedom-hs"
+    -   ref: "antioch-hs"
+    -   break: 20
+    -   ref: "american-canyon-hs"
     -   ref: "pinole-valley-hs"
     -   ref: "deer-valley-hs"
-    -   ref: "mission-sj-hs"
-    -   ref: "rancho-cotate-hs"
-    -   ref: "american-canyon-hs"
+    -   ref: "john-swett-hs"
+    -   ref: "millennium-hs"
     -   ref: "san-mateo-hs"
-    -   ref: "century-hs"
+    -   ref: "liberty-hs"
+    -   ref: "rancho-cotate-hs"
+    -   ref: "tri-city"
 
     sponsors:
         general: *winter-show-sponsors

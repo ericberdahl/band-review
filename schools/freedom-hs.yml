@@ -1,6 +1,6 @@
 name: "Freedom High School"
 
-city: "Oakley, CA"
+city: "Oakley, California"
 
 parade:
     lastUpdated: 2023-10-19 09:41:34 -07
@@ -49,18 +49,16 @@ parade:
         opportunities possible through their dedication and support to our program.
 
 winterguard:
-    lastUpdated: 2018-01-01 00:00:00 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic Regional Double-A"
 
     nickname: "Freedom High School Winter Guard"
 
     directors:
-    -   "Sondra Van Meter"
 
     leaders:
-    -   title: "captain"
-        members:
-        -   "Minnie Martinez"
 
-    program: "Duel of Fates, a star wars classic"
+    program: "Wildest Dreams"
 
     music: 

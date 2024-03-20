@@ -1,6 +1,6 @@
 name: Millennium High School
 
-city: Tracy, CA
+city: Tracy, California
 
 fieldshow:
     lastUpdated: 2023-10-18 15:46:42 -07
@@ -39,42 +39,36 @@ fieldshow:
     notes: >
 
 winterguard:
-    lastUpdated: 2019-03-16 14:42:35 -07
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic National Double-A"
 
     nickname: "Millennium High School Winterguard"
 
-    directors: *directors
+    directors: 
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Michael McClain"
 
     leaders:
-    -   title: "captain"
-        members:
-        -   "Yaretzy Moshan (yuh-RHET-zee moh-SHAN)"
 
-    program: "This is Me"
+    program: 
 
-    music: "This is Me by Benj Pasek and Justin Paul"
-
+    music: 
+    
 
 winterpercussion:
-    lastUpdated: 2019-03-16 14:42:35 -07
+    lastUpdated: 2024-03-18 18:00:00 -08
 
-    nickname: "Millennium High Percussion Ensemble"
+    division: "Scholastic Regional Single-A"
 
-    directors: *directors
+    nickname: "Millennium High School Winter Percussion"
+
+    directors:
 
     staff:
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Daniel Harrison"
-        -   "Josiah Adrineda"
 
-    program: "Orpheus"
+    program: "It's A Grind"
 
-    music: "Layers of Darkness by Brian Mudgett"
+    music: 

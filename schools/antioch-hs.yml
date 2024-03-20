@@ -1,6 +1,6 @@
 name: "Antioch High School"
 
-city: "Antioch, CA"
+city: "Antioch, California"
 
 staff:
 -   &courtney-emery "Courtney Emery"
@@ -117,28 +117,20 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2019-03-13 12:27:59 -07
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic Regional Double-A"
 
     nickname: "Antioch High School Winterguard"
 
     directors:
-    -   "Brooke Kofford"
-    -   "Maryann Peddicord"
 
     staff:
     
     leaders:
-    -   title: "captains"
-        members:
-        -   "Nicole Mendez"
-        -   "Kekoa Peters"
-        -   "Mariah Capote"
 
-    program: "Internal Takeover" 
+    program: "The Shadows of Us" 
 
-    music: "Battle Cry by Imagine Dragons"
+    music: 
 
     notes: >
-        Antioch High School Winterguard says thank you to choreographer, Luis Cardoza;
-        to all the volunteer parents who do so much to support us,
-        and to the team who has done great things with this show…we love you all!

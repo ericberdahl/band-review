@@ -1,30 +1,27 @@
 name: "Park Middle School"
 
-city: "Antioch, CA"
+city: "Antioch, California"
 
 students:
 -   "Kalaia Gonzales (cah-LAY-ah Gonzales)"
 
+staff:
+-   "Nikki Andreatta (NIH-kee ahn-dray-AH-tah)"
+
 winterguard:
-    lastUpdated: 2023-03-24 13:51:59 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic Middle School"
 
     nickname: "Park Middle School Color Guard"
 
     directors:
-    -   "Nikki Andreatta (NIH-kee ahn-dray-AH-tah)"
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "Evelyn Owens"
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Karen Cervantes"
-        -   "Malia Mangabat"
 
-    program: "Magic Show"
+    program: "Wednesday"
 
     music:
 

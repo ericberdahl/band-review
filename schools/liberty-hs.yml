@@ -1,6 +1,6 @@
 name: Liberty High School
 
-city: Brentwood, CA
+city: Brentwood, California
 
 students:
 -   &alec-beaulieu Alec Beaulieu (Alec BOH-loo)
@@ -148,3 +148,42 @@ fieldshow:
         and It's The End Of The World As We Know It (And I Feel Fine) by R.E.M
 
     notes: >
+
+winterguard:
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic National Double-A"
+
+    nickname: "Liberty Winter Guard"
+
+    directors: 
+
+    staff:
+        
+    leaders:
+
+    program: "joie de vive"
+
+    music: 
+
+    notes: 
+
+winterpercussion:
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic Open"
+
+    nickname: "Liberty Union Winter Percussion"
+
+    directors: 
+
+    staff:
+        
+    leaders:
+
+    program: "Secret Society"
+
+    music: 
+
+    notes: 
+    

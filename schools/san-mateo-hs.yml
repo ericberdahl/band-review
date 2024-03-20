@@ -1,6 +1,6 @@
 name: "San Mateo High School"
 
-city: "San Mateo, CA"
+city: "San Mateo, California"
 
 staff:
 -   "Til Tribuzi (TIHL trih-BYOO-zee)"
@@ -12,21 +12,19 @@ students:
 -   "Shelley Suazo"
 
 winterguard:
-    lastUpdated: 2023-03-20 16:30:00 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic National Double-A"
 
     nickname: "San Mateo High School Winterguard"
 
     directors:
-    -   "Attilio Tribuzi (ah-TIHL-io trih-BYOO-zee)"
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   "April Pietsch"
 
     leaders:
 
-    program: "M.J."
+    program: "Don't Go"
 
     music: 
 

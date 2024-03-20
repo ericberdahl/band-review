@@ -1,6 +1,6 @@
 name: "Foothill High School"
 
-city: "Pleasanton, CA"
+city: "Pleasanton, California"
 
 staff:
 -   &victor-alcaraz "Victor Alcaraz"
@@ -179,63 +179,20 @@ winterguard:
 winterpercussion:
     isHost: true
 
-    lastUpdated: 2023-03-23 13:01:23 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
 
-    nickname: "Foothill Winter Percussion"
+    division: "Scholastic Open"
+
+    nickname: "Foothill High School Winter Percussion"
 
     directors:
-    -   "Josh Butterfield"
-    -   *erik-nishimori
-    -   *chris-cyr
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   *xavier-choo
-        -   *myojin-yang
-        -   "Adam Herrera"
-        -   *alex-blakely
-        -   *alex-pfiefer
-        -   *ryan-myers
         
     leaders:
-    -   title: "captains"
-        members:
-        -   *robin-butterfield
-        -   *lily-zheng
-        -   "Lucia Grillo"
 
-    program: "The Value of a Moment" 
+    program: "The Parting Glass" 
 
     music: 
 
-    notes: >
-        Foothill Percussion would especially like to thank Josh, Chris, and the rest of the parent boosters for making this winter season a success.
-        Your hard work, time, and effort is greatly appreciated!
-
-winterpercussion-intermediate:
-    isHost: true
-
-    lastUpdated: 2018-01-01 00:00:00 -08
-
-    nickname: "Foothill High School A Percussion"
-
-    directors:
-    -   *efrain-hinojosa
-    -   *erik-nishimori
-
-    staff:
-        
-    leaders:
-    -   title: "captains"
-        members:
-        -   *claire-kim
-        -   *kellen-sowa
-
-    program: "Adrift"
-
-    music: "music arranged by Chris Cyr and Connor Carrol"
-
-    notes: >
-        The Foothill Percussion program would like to thank the Band Boosters for all of their help throughout the season.
-        Special thanks go out to Mr. and Mrs. Miller for taking the lead on the winter percussion season
+    notes:

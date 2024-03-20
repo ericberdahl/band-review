@@ -1,6 +1,6 @@
 name: Granada High School
 
-city: Livermore, CA
+city: Livermore, California
 
 staff:
 -   Jamie Hjeltness (Jamie YÜLT-nihs)
@@ -39,9 +39,11 @@ parade:
     notes: >
 
 winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2024-03-18 18:00:00 -08
 
-    nickname: "Template High School Winter Percussion"
+    division: "Scholastic Regional Double-A"
+
+    nickname: "Granada Drumline"
 
     directors: 
 
@@ -49,7 +51,7 @@ winterpercussion:
         
     leaders:
 
-    program: 
+    program: "Space Mission"
 
     music: 
 

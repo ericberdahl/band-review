@@ -1,6 +1,6 @@
 name: "Rancho Cotate High School"
 
-city: "Rohnert Park, CA"
+city: "Rohnert Park, California"
 
 staff:
 -   &dustin-friel "Dustin Friel"
@@ -66,60 +66,58 @@ fieldshow:
         And a very special thank you to the RCHS Music Boosters for your unparalleled support this fall season.
 
 winterpercussion:
-    lastUpdated: 2023-03-21 14:12:28 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
 
-    nickname: "Rancho Cotate High School Drumline"
+    division: "Scholastic Open"
+
+    nickname: "Rancho Cotate High School Winter Percussion"
 
     directors:
-    -   *dustin-friel
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   *abel-moya
-        -   *bima-pamula
 
     leaders:
-    -   title: "captains"
-        members:
-        -   *lin-leon-solis
-        -   *steven-tinoco
 
-    program: "Remember Me"
+    program: "The Power Of Presence,"
 
     music: 
 
     notes: >
-        Seniors, we will always Remember you!
-        We hope all of our students have a great show, enjoy your time on the floor today!
 
 winterguard:
-    lastUpdated: 2023-03-21 14:12:28 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic National Single-A"
 
     nickname: "Rancho Cotate High School Winterguard"
 
     directors:
-    -   *dustin-friel
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   *daniela-hernandez
-        -   *emma-wagoner
-        -   *hunter-oo
 
     leaders:
-    -   title: "captains"
-        members:
-        -   "Ish Sandoval"
-        -   "Emily Perez"
-        -   *sierra-phillips
 
-    program: "I Am"
+    program: "Unforgotten"
 
     music: 
 
     notes: >
-        I Am is metamorphosis of personality.
-        As we grow and reflect we become our true selves.
-        Thank you to our parents, volunteers, helpers, and staff, we couldn't do this without you.
+
+winterguard-jv:
+    lastUpdated: 2024-03-18 18:00:00 -08
+
+    division: "Scholastic Regional Triple-A"
+
+    nickname: "Rancho Cotate High School Junior Varsity Colorguard"
+
+    directors:
+
+    staff:
+
+    leaders:
+
+    program: "Up All Night"
+
+    music: 
+
+    notes: >

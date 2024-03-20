@@ -1,6 +1,6 @@
 name: Hayward High School
 
-city: Hayward, CA
+city: Hayward, California
 
 staff:
 -   &leslie-garcia "Leslie Garcia"
@@ -48,26 +48,20 @@ parade:
         And thanks to the students who put so much time and energy into the Program...Farmer Pride!
 
 winterguard:
-    lastUpdated: 2023-03-22 13:20:10 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
 
-    nickname: "Hayward High School Winter Guard"
+    division: "Scholastic Regional Triple-A"
+
+    nickname: "Hayward High Winter Guard"
 
     directors: 
-    -   *nicholas-tocco
 
     staff:
-    -   title: "instructed by"
-        members:
-        -   *leslie-garcia
 
     leaders:
-    -   title: "captains"
-        members:
-        -   *mia-salinas
-        -   "Emma Lorenzo"
 
-    program: 
+    program: "The Other Woman"
 
-    music: "Kids on the Block"
+    music: 
 
     notes: 

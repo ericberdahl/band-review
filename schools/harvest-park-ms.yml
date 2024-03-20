@@ -1,6 +1,6 @@
 name: "Harvest Park Middle School"
 
-city: "Pleasanton, CA"
+city: "Pleasanton, California"
 
 staff:
 -   &jonathan-grantham "Jonathan Grantham"
@@ -13,40 +13,19 @@ concert:
     directors:
 
 winterguard:
-    lastUpdated: 2023-03-21 09:39:46 -08
+    lastUpdated: 2024-03-18 18:00:00 -08
 
     nickname: "Harvest Park Middle School Winter Guard"
 
-    directors:
-    -   *jonathan-grantham
-
-    staff:
-    -   title: "instructed by"
-        members:
-        -   "Stella Dormer"
-        -   "Aimee Sitter"
-        
-    leaders:
-
-    program: "The Next Chapter"
-
-    music: 
-
-    notes: 
-
-winterguard2:
-    lastUpdated: 2000-01-01 15:23:03 -07
-
-    nickname: "Harvest Park Middle School Winter Guard"
+    division: "Scholastic Middle School"
 
     directors:
-    -   Aranza Doubravsky
 
     staff:
         
     leaders:
 
-    program: 
+    program: "Really Don't Care"
 
     music: 
 

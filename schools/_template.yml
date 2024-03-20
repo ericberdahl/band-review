@@ -1,6 +1,6 @@
 name: "Template School"
 
-city: "Anywhere, CA"
+city: "Anywhere, California"
 
 parade:
     lastUpdated: 2000-01-01 15:23:03 -07
@@ -48,6 +48,8 @@ concert:
 winterguard:
     lastUpdated: 2000-01-01 15:23:03 -07
 
+    division: 
+
     nickname: "Template High School Winter Guard"
 
     directors: 
@@ -64,6 +66,8 @@ winterguard:
     
 winterpercussion:
     lastUpdated: 2000-01-01 15:23:03 -07
+
+    division: 
 
     nickname: "Template High School Winter Percussion"
 
