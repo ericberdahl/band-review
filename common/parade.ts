@@ -9,6 +9,7 @@ import { strict as assert } from 'assert';
 
 type SerializedParadeUnitRef = {
     ref : string;
+    unit? : string;
 }
 
 type SerializedParadeLineupItem = SerializedParadeUnitRef | SerializedBreakUnit | SerializedColorsUnit | SerializedGrandMarshalUnit;
@@ -66,7 +67,7 @@ export class Parade {
 
         result.lineup.push(...await Promise.all(data.lineup.map(async (li) => {
             if (isParadeUnitRef(li)) {
-                return ParadeUnit.deserialize(await readSerializedUnitForSchool<SerializedParadeUnit>(li.ref))
+                return ParadeUnit.deserialize(await readSerializedUnitForSchool<SerializedParadeUnit>(li.ref), li.unit)
                                     .catch((e) => {
                                         e.message = `${e.message}; deserializing ParadeUnit "${li.ref}"`
                                         throw e;
