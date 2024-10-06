@@ -36,38 +36,3 @@ concert:
 
     nickname: "West High Wolf Pack Symphonic Band"
 
-winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: West Wolf Pack Drumline
-
-    directors:
-    -   *jonathan-raman
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: West Wolf Pack Color Guard
-
-    directors:
-    -   *jonathan-raman
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
