@@ -3,43 +3,33 @@ name: "Merced High School"
 city: "Merced, CA"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Merced Marching 100
 
     directors:
-    -   "Jonathan L. Schmid"
-
-    staff:
-    -   title: color guard instructors
-        members:
-        -   Paloma Rodriguez
-        -   Elizabeth Worley
-        -   Samantha Marin
-        -   Leslie Mendoza
-        -   Madilyne Moua
-        -   Fernando Barragan (Fernando BEHR-ah-gahn)
-        -   Ian Flores
-        -   Salvador Perez
-        -   Joshua Powell
+    -   Ashley Shine
 
     leaders:
     -   title: drum major
         members:
-        -   Everett Viera
+        -   Everett Viers
 
     -   title: color guard captains
         members:
-        -   Morgan Carroll
-        -   Jemimah Akpolo
-        -   Natalie Solorio
+        -   Hermione Guzman
+        -   Leslie Mendoza
+        -   Ruben Garcia
     
     -   title: percussion captains
         members:
-        -   Alfonso Bautista-Macias
-        -   Quetzali Rocha
+        -   Fernando Barragan
+        -   Ian Flores
+        -   Joshua Powell
+        -   Ricardo Mercado
     
-    music: Habits by Jonathan L Schmid
+    music: >
+        Under Two Flags by Bramwell Coles
 
     notes: >
 

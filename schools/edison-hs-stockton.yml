@@ -2,6 +2,40 @@ name: Edison High School
 
 city: "Stockton, California"
 
+parade:
+    lastUpdated: 2024-10-05 17:00:00 -07
+
+    nickname: Edison High School Marching Band
+
+    directors:
+    -   Christopher McCoy
+    -   Daniel Coronado
+
+    staff: 
+    -   title: instructed by
+        members:
+        -   Micaela Rayray-Nhan
+        -   Ghisel Escolona
+        -   Jerry Hernandez
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Efren Ontiveros
+
+    -   title: color guard captain
+        members:
+        -   Khalissa Mitchell
+
+    -   title: percussion captain
+        members:
+        -   Melina Alvarado
+
+    music: >
+        General Mitchell March by Robert Hall
+
+    notes: 
+
 concert:
     lastUpdated: 2024-10-05 17:00:00 -07
 

@@ -3,7 +3,7 @@ name: "Sheldon High School"
 city: Sacramento, CA
 
 parade:
-    lastUpdated: 2023-10-17 11:54:02 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Marching Huskies
 
@@ -12,33 +12,33 @@ parade:
     -   Venessa Ibarra
 
     staff:
+    -   title: percussion instructor
+        members:
+        -   Leanne Vu
+
     -   title: instructed by
         members:
-        -   Cesar Mendoza
-        -   Leanne Vu
+        -   Joshua Ibarra
         -   Isadora LaPachet
-        -   Megan Willms
     
     leaders:
     -   title: drum major
         members:
-        -   Lana Kassel
+        -   Nouvel Virtusio (noh-VAIL vehr-CHU-see-oh)
     
-    -   title: auxilliary captains
+    -   title: color guard captains
         members:
-        -   Alicia Urquart
-        -   Amnolpreet Kuar (ahm-NOHL-preet coo-AHR)
-    
-    -   title: percussion captains
+        -   Jocelyn Juarez Ayala
+        -   Tierra Wilbourn-Hetrick
+            
+    -   title: percussion captain
         members:
-        -   Jaysu Heruvun
-        -   Evan Rufino
+        -   Logan Brennan
 
-    music: Aces of the Air by Karl King, arranged by James Swearingen (James SWEHR-ing-ehn)
+    music: >
+        Bravura by C.E. Duble
 
     notes: >
-        The band would like to thank the generous support of the Sheldon Administration, our world class Booster Organization,
-        and our great parents. 
 
 symphonic:
     lastUpdated: 2023-10-17 11:54:02 -07

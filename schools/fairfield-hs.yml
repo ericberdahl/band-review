@@ -5,56 +5,38 @@ city: Fairfield, CA
 staff:
 
 parade:
-    lastUpdated: 2023-10-20 10:05:18 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Scarlet Brigade
 
     directors:
-    -   Brian K. Swetland
+    -   Ross Ackerman
 
     staff:
-    -   title: assistant director
-        members:
-        -   Ross Ackerman
-
-    -   title: pageantry caption head
+    -   title: instructed by
         members:
         -   Teresa Pierce
-
-    -   title: percussion caption head and pit instructor
-        members:
-        -   Sheally Lee
-
-    -   title: battery instructor
-        members:
-        -   Jonno Lee
-
-    -   title: drum major instructor
-        members:
         -   Paul Olson
-
-    -   title: pipe instructor
-        members:
-        -   Dr. Matthew Welch
 
     leaders:
     -   title: drum major
         members:
-        -   Blake White
+        -   Enoch Adeleye
 
-    -   title: auxiliary captains
+    -   title: color guard captains
         members:
-        -   Erika Cadenas
-        -   Jenn Nguyen
+        -   Neelah McGill
+        -   Karissa Catabay
 
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Jeana Fontillas (JAY-nah fohn-TEE-yahs)
+        -   Jordan Dix
+        -   Julius Javier
 
-    music: The Elephant by J. Ord Hume
+    music: >
+        Joyce's 71st New York Regimental March by Thornton Barnes Boyer
 
     notes: >
-        The band is very gratefull for our continued support of the Scarlet Brigade Band Boosters each and every year.
 
 concert:
     lastUpdated: 2024-10-05 17:00:00 -07

@@ -2,13 +2,16 @@ name: Benicia Middle School
 
 city: Benicia, CA
 
+staff:
+-   Caliegh Werblow (CAH-lee Werblow)
+
 students:
 -   &liliya-patterson Liliya Patterson
 
 parade:
-    lastUpdated: 2023-10-19 18:00:25 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: BMS Viking Band
+    nickname: Benicia Middle School Viking Band
 
     directors:
     -   Paul Hanna
@@ -17,42 +20,40 @@ parade:
     -   title: color guard instructors
         members:
         -   Xitlali Jiminez (zit-LAH-lee Jiminez)
-        -   Caliegh Werblow (CAH-lee Werblow)
         -   Amaya Soler
+        -   Cheryl Morris
 
     -   title: drumline instructors
         members:
         -   Jaleel Gospel
-        -   Haylie Miller
         -   Taylor Slight
+        -   Haylie Miller
 
     leaders:
     -   title: drum major
         members:
-        -   *liliya-patterson
+        -   Aemiliano Valentin (ah-MIH-lee-ah-noh VAH-lehn-teen)
 
-    -   title: auxilliary captain
+    -   title: color guard captains
         members:
-        -   Lily Rotter
+        -   Titi Mulugeta
+        -   Elyse Michaud
+        -   Ella Throne
+        -   Erin Bender
 
     -   title: percussion captains
         members:
-        -   *liliya-patterson
-        -   Athena Saribalis
+        -   Izaiah Cabiles
+        -   Athena Saribolis
 
     -   title: rifle captain
         members:
         -   Emerson Dravland
 
-    -   title: letter captain
-        members:
-        -   Ella Throne
-
-
-    music: Gallant Marines by Karl L. King, arranged by James Swearingen (James SWEHR-ing-ehn)
+    music: >
+        Alamo March by Karl L. King, arranged by James Swearingen (James SWEHR-ing-ehn)
     
     notes: >
-        The Benicia Middle School Viking Band would like to thank our instructors and boosters for allowing us to perform for you today.
 
 concert:
     lastUpdated: 2024-10-05 17:00:00 -07

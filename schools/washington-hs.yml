@@ -7,37 +7,41 @@ staff:
 -   
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Marching Huskies
+    nickname: Husky Marching Band
 
     directors:
     -   Daniel Edwards
 
     staff:
+    -   title:  color guard instructor
+        members:
+        -   Doug Slocum
+
     -   title:  percussion instructor
         members:
-        -   Ruben Peredes
+        -   Adriel Flores
 
     -   title:  marching instructor
         members:
         -   Ben Benavides
 
     leaders:
-    -   title: drum majors
+    -   title: drum major
         members:
-        -   Ansh Chellani
-        -   Marcelo Cardozo
+        -   Deshna Kankaria
     
     -   title: color guard captain
         members:
-        -   Pranavi Myana (prah-NAH-vee mee-YAH-nah)
+        -   Yilin Shen (yee-LEEN shehn)
     
     -   title: percussion captain
         members:
-        -   Ashita Srinivasmurthy (AH-shtah shrih-nih-vahs-MUHR-tee)
+        -   Justin Chen
 
-    music: Barnum and Bailey's Favorite by Karl L. King
+    music: >
+        Eagle Squadron
+        by Kenneth J. Alford
 
     notes: >
-        The Marching Huskies give a huge thank you to their supportive community and band parents; we wouldn't be here without you!

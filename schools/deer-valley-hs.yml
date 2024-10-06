@@ -19,9 +19,9 @@ students:
 -   "Maya yoo-REE-bay"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Marching Wolverines
+    nickname: Teal and Black Regiment
 
     directors: 
     -   Ryan Carr
@@ -29,10 +29,8 @@ parade:
     staff: 
     -   title: instructed by
         members:
-        -   *abraham-molina
-        -   *joshua-suarez
-        -   *angelo-gutierrez
         -   *kate-lemonds
+        -   *joshua-suarez
 
     leaders:
     -   title: drum major
@@ -41,15 +39,16 @@ parade:
 
     -   title: color guard captains
         members:
-        -   Tristan Tocao
-        -   Leslie Cruz
-        -   Kiera-Ann Vocal
+        -   Tharysha Alfaro (thah-REE-shah ahl-FAHR-oh)
+        -   Janice Cao
 
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   *precilla-molina
+        -   Joey Esspinosa
+        -   Alex Molano
 
-    music: Peacemaker by Karl L. King
+    music: >
+        Cyrus the Great by Karl L. King
 
     notes: >
 

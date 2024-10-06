@@ -3,7 +3,7 @@ name: El Capitan High School
 city: Merced, CA
 
 parade:
-    lastUpdated: 2022-10-05 09:50:59 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Gaucho Marching Brigade
 
@@ -11,24 +11,17 @@ parade:
     -   Maria Brouillard (Maria BROO-ih-yard)
 
     staff:
-    -   title: "instructed by"
+    -   title: instructed by
         members:
         -   Jesus Chavez
-        -   Ilias Romero
-        -   Natalie Saeturn
-        -   Vivian Straughter
         -   Zack Robinson
-        -   Sal Perez
-        -   Israel Rangel
 
     leaders:
     -   title: drum major
         members:
-        -   Luke Almeda
+        -   Drake Van Vloten
     
-    music: Sound Off by John Philip Sousa, arranged by Keith Brion
+    music: >
+        Amparito Roca by Jaime Texidor
 
     notes: >
-        The Gaucho Marching Brigade is celebrating its tenth year of existence.
-        In that short time, they have won numerous sweepstakes awards, and the guard has traveled to Dayton Ohio for WGI world championships three times.
-        They would like to give a huge thank you to the music boosters, friends, families, and Merced Union High School District administration for making their participation here today possible.

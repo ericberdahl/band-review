@@ -3,9 +3,9 @@ name: Buhach (BYOO-hack) Colony High School
 city: Atwater, CA
 
 parade:
-    lastUpdated: 2023-10-16 12:04:21 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Thunder Band
+    nickname: Buhach Colony High School Thunder Band
 
     directors:
     -   Chad J Humpal
@@ -16,30 +16,35 @@ parade:
         -   Suzanna Humpal
         -   Aidan Mook
         -   Megan Myrtue
-        -   Aiden Bardelmeier
-        -   Maria Victoria Torres-Magallon
+        -   Emily Humpal
+
+    -   title: percussion instructors
+        members:
+        -   Josh Cardoza
+        -   James Collins
+
+    -   title: woodwind instructor
+        members:
         -   Sandra Stocking
 
     leaders:
     -   title: drum major
         members:
-        -   Nue Lopez
+        -   Diego Chavez
 
-    -   title: auxilliary captains
+    -   title: color guard captains
         members:
-        -   Andrea Cendejas-Vega
         -   Shayla Balanzar-Ortega
-        -   Samantha Jones
+        -   Andrea Sanchez-Villalobos
+        -   Gema Padron Gomez
 
     -   title: percussion captains
         members:
-        -   Pete Prieto
         -   John Baltazar
+        -   Aaron Tatum
+        -   Talan Baria
 
-    music: King Karl King by Henry Fillmore
+    music: >
+        Eagle Squadron by Kenneth J. Alford
     
     notes: >
-        The Thunder Band is the current Delta Band Review 4A Champion,
-        has earned a CMEA Bay Section Unanimous Superior eleven times,
-        and has performed at the State Capital for the Stand Up 4 Music Advocacy Concert six times.
-        The Band has traveled to Disneyland and Hawaii and will return to the Magic Kingdom during the Spring of 2025.

@@ -3,33 +3,42 @@ name: San Leandro High School
 city: San Leandro, CA
 
 parade:
-    lastUpdated: 2022-10-13 9:37:48 -08
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: San Leandro High School Marching Band
+    nickname: San Leandro High School Band of Pirates
 
     directors:
     -   Ryan Phillips
 
     staff:
-    -   title: instructed by
+    -   title: assistant director
         members:
         -   Geronimo Rojas
 
-    leaders:
-    -   title: drum major
+    -   title: color guard coach
         members:
-        -   Eleanor Riley
+        -   Doug Slocum
 
-    -   title: auxilliary captain
+    -   title: drumline coach
         members:
-        -   Kacie Sengmany (KAY-see seng-MAHNY)
+        -   Richard Louie
+
+    leaders:
+    -   title: drum majors
+        members:
+        -   Nicholas Van Ohsting
+        -   Akilah Dawkins
+        -   Nathan Morano
+
+    -   title: color guard captain
+        members:
+        -   Michelle Banuelos
 
     -   title: percussion captain
         members:
-        -   Sean Icasiano (Sean eye-cah-see-AH-no)
+        -   Malakhi Salazar
 
-    music: Europa Mars by Robert Allmend
+    music: >
+        Understood by Kenneth Alford
 
     notes: >
-        The San Leandro High School Marching Band would like to give a huge thank you to Geronimo Rojas for being the glue behind this group.
-        They would also like to thank all supporting Parent Boosters and most importantly the students themselves for their determination and perseverance.

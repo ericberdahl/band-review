@@ -3,9 +3,9 @@ name: Archbishop Riordan High School
 city: San Francisco, CA
 
 parade:
-    lastUpdated: 2023-10-21 06:00:27 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Riordan Marching Band
+    nickname: Archbishop Riordan High School Band
 
     directors:
     -   Lance Ohnmeiss (Lance ON-meess)
@@ -18,29 +18,25 @@ parade:
 
     -   title: color guard instructors
         members:
-        -   Audrey Lai
-        -   Jade Nguyen
+        -   Victor Ramos
 
     leaders:
     -   title: drum major
         members:
-        -   Tommy Galvin
+        -   Josh Greenbaum
 
-    -   title: auxilliary captain
+    -   title: color guard captains
         members:
-        -   Diane Lai
+        -   Katelyn Leong
+        -   Kaitlyn Juhl
 
-    -   title: percussion captains
+    -   title: percussion captain
         members:
-        -   Danny Barrett
         -   Chloe Hui
 
-    music: Sarasota by Karl King
+    music: Joyce's 71st New York Regiment March by T.B. Boyer, arranged by Mayhew L. Lake
 
     notes: >
-        The Riordan band is private Catholic school in the marianist tradition.
-        The Riordan band is proud to be performing in the 2024 Rome New Year's Day Parade and celebrations in Rome Italy.
-        They would like to thank our band parents association for all of their hard work and dedication.
 
 concert:
     lastUpdated: 2024-10-05 17:00:00 -07

@@ -42,7 +42,7 @@ students:
 parade:
     isHost: true
 
-    lastUpdated: 2023-10-17 08:55:05 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: &band-nickname Foothill High School Marching Band and Color Guard
 
@@ -50,59 +50,69 @@ parade:
     -   *moises-fagundes
 
     staff: &band-review-staff
-    -   title: "instructed by"
+    -   title: instructed by
         members:
         -   *shawn-griddine
         -   *matt-sieve
         -   *carver-frazier
         -   *brianna-gier
-        -   *marvin-reed
         -   Rebecca Miles
-        -   Aryan Ohri
         -   Nathan Townsend
         -   Aria Toofan
-        -   Sarah Liggett
-        -   Rishi Chowdhary
-        -   *chris-cyr
-        -   *alex-blakely
-        -   *alex-pfiefer
+        -   Roger Weavil
+        -   Hunter Franklin
+        -   Ryokan Apostol
         -   *ryan-myers
-        -   *xavier-choo
+        -   Lyle Elster
+        -   Jude Magann
+        -   Shawn Dcosta
         -   Adam Herrera
         -   *lily-zheng
+        -   Nic Shaw
         -   Eddy Chavarria
         -   *kristi-laduca
-        -   *ashley-osterhaut
+        -   Melia Means
         -   Grace Holmes
-        -   Nicky Carlos
-        -   Julia Tikhonov
-        -   *victor-alcaraz
-        -   Johnny Huynh (Johnny wheen)
-        -   Lyle Elster
+        -   Raven Batista
 
     leaders:
-    -   title: drum major
+    -   title: drum majors
         members:
-        -   Tanvi Gupta
+        -   Christian Brigham
     
-    -   title: auxilliary captains
+    -   title: color guard captain
         members:
-        -   Anika Murugesan
-        -   Amulya Maddi
+        -   Irene Sun
     
     -   title: percussion captains
         members:
         -   Meghana Kumarakalva (meh-GAH-nah koo-mah-rah-KAHL-vah)
-        -   Youngha Hwang
+        -   Gabriel Thompson
 
-    music: On The Mall by Edwin Franko Goldman, arranged by CW4 Charles Booker
+    music: >
+        The Black Horse Troup by John Philip Sousa
 
     notes: >
-        The Foothill Marching Band and Color Guard would like to thank our Band Boosters for all of their support
-        in putting on this event.
-        We would also like to thank our Superintendent, Dr. David Haglund and our Principal Mr. Sebastian Bull,
-        as well as the rest of the school district, board, and the Foothill administration.
-        We hope you have a wonderful day and good luck to all of the performing groups today.
+
+parade-alumni:
+    lastUpdated: 2000-01-01 15:23:03 -07
+
+    nickname: "Foothill Alumni Marching Band"
+
+    directors: 
+    -   *moises-fagundes
+
+    staff: 
+#    -   title: "instructed by"
+#        members:
+
+    leaders:
+#    -   title: "drum major"
+#        members:
+
+    music: 
+
+    notes: 
 
 fieldshow:
     isHost: true

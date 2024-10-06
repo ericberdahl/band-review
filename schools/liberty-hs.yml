@@ -6,7 +6,7 @@ students:
 -   &alec-beaulieu Alec Beaulieu (Alec BOH-loo)
 
 parade:
-    lastUpdated: 2023-10-17 15:32:27 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: &band-review-nickname Lion Pride Marching Band
 
@@ -14,57 +14,36 @@ parade:
     -   Lindsay Kellogg
 
     staff:
-    -   title: color guard instructors
+    -   title: instructed by
         members:
-        -   Lisette Townzen
-        -   Francisco Marin
-
-    -   title: percussion instructors
-        members:
-        -   Brandon Wilson
-        -   Emory Espinoza
-        -   Roger Weavil
-        -   Emile Concepcion
-
-    -   title: visual instructors
-        members:
+        -   Jennifer Krey
+        -   Charles Henderson the third
         -   Shawn Griddine
         -   Rebecca Miles
         -   Victor Alcaraz
-
-    -   title: woodwind instructor
-        members:
-        -   Jennifer Krey
-
-    -   title: brass instructor
-        members:
-        -   Charles Henderson
+        -   Ian Christensen
+        -   Ian Soria
+        -   Roger Weavil
+        -   Tyler Garrett
+        -   Lisette Townzen
+        -   Francisco Marin
 
     leaders:
     -   title: drum major
         members:
-        -   Annie Dumas
+        -   Carter Masana
 
     -   title: auxilliary captains
         members:
-        -   Sasha Priante
         -   Leilah Weavil
+        -   Kate Lennon
 
     -   title: percussion captains
         members:
-        -   *alec-beaulieu
         -   Andrew Giles
-        -   Amelie Trost
     
-    -   title: woodwind captain
-        members:
-        -   Aliyah Koya
-
-    -   title: brass captain
-        members:
-        -   Jake Buel
-
-    music: The Voice of the Guns by Kenneth Alford edited by Timothy Rhea
+    music: >
+        Hosts of Freedom by Karl King
 
     notes: >
 

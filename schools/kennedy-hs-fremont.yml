@@ -1,0 +1,35 @@
+name: "Kennedy High School"
+
+city: "Fremont, California"
+
+parade:
+    lastUpdated: 2024-10-05 17:00:00 -07
+
+    nickname: "Kennedy High School Marching Band"
+
+    directors:
+    -   David Bickel
+
+    staff: 
+    -   title: instructed by
+        members:
+        -   Ben Benavides
+        -   Shannon Plant
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Ayler Ehling (EYE-ler AY-ling)
+
+    -   title: color guard captain
+        members:
+        -   Zoe Oliverio
+
+    -   title: percussion captain
+        members:
+        -   Dani Hernandez
+
+    music: >
+        Yes by Vasily Agapkin
+
+    notes: >

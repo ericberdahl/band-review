@@ -3,14 +3,17 @@ name: "Franklin High School"
 city: "Elk Grove, CA"
 
 parade:
-    lastUpdated: 2023-10-25 08:57:22 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: "Franklin Wildcats Sound Power Marching Band"
+    nickname: Franklin Wildcats Sound Power Marching Band
 
     directors:
     -   "Matthew Mackey"
 
     staff:
+    -   title: instructed by
+        members:
+        -   Victor Ramos
 
     leaders:
     -   title: "drum major"
@@ -21,11 +24,8 @@ parade:
         members:
         -   Janessa Garcia
 
-    -   title: "percussion captain"
-        members:
-        -   Mia Wagley
-
-    music: With Wings as Eagles by Andrew North
+    music: >
+        March of the Mounted Arms by Gert Buitenhuis
     
     notes: >
 

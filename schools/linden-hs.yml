@@ -6,9 +6,9 @@ staff:
 -   &troy-rexelle "Troy Rexelle (rex-EHL)"
 
 parade:
-    lastUpdated: 2023-10-24 08:33:12 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: "Lion Regiment"
+    nickname: "Linden Lion Regiment"
 
     directors:
     -   Bernadette Dempsey
@@ -18,26 +18,26 @@ parade:
         members:
         -   Alejandro Moreno
         -   Jesus Muniz
-        -   Jacob Miller
-        -   Cody Easterbrooks
-        -   Marcus Rowe
         -   Jerry Hernandez
+        -   Jacob Miller
+        -   Marcus Rowe
 
     leaders:
     -   title: drum major
         members:
         -   Jack Herrington
 
-    -   title: auxilliary captain
+    -   title: color guard captains
         members:
-        -   Yuritzi Jimenez
+        -   Arianna Ramirez
+        -   Jocelyn Torres
 
     -   title: percusson captain
         members:
         -   Hayden Williams
 
     music: >
-        General Mitchell by R.B. Hall arranged by James Zuniga
+        The Peacemaker by Karl L. King
 
     notes: >
 

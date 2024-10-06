@@ -3,6 +3,7 @@ name: "Antioch High School"
 city: "Antioch, California"
 
 staff:
+-   &jose-cordova "Jose Cordova"
 -   &courtney-emery "Courtney Emery"
 -   &angelo-gutierrez "Angelo Gutierrez"
 -   &joshua-suarez "Joshua Suarez"
@@ -10,13 +11,12 @@ staff:
 
 students:
 -   &adrienne-ashford "Adrienne Ashford"
--   &jose-cordova "Jose Cordova"
 -   &kassidy-jennings "Kassidy Jennings"
 -   &kylie-souza "Kylie Souza"
 -   &lyriic-williams "Lyriic Williams"
 
 parade:
-    lastUpdated: 2023-10-16 12:25:23 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: &band-review-nickname "Pride of Antioch Marching Band and Color Guard"
 
@@ -24,36 +24,36 @@ parade:
     -   *courtney-emery
 
     staff: &band-review-staff
-    -   title: percussion instructor
-        members:
-        -   *angelo-gutierrez
-
-    -   title: color guard instructors
+    -   title: instructed by
         members:
         -   *joshua-suarez
-        -   Marissa Kittleson
+        -   *angelo-gutierrez
+        -   Tristan Tocao
+        -   *jose-cordova
+        -   Jose Rivera
+        -   Aliyah Koya
 
     leaders:
     -   title: drum major
         members:
-        -   Jose Rivera Franco
+        -   Abel Lopez
     
-    -   title: auxilliary captains
+    -   title: color guard captains
         members:
-        -   Nataly Gomez
         -   Teresa Williams
+        -   Nataly Gomez Prado
+        -   Sabree Musawwir (SAH-bree moo-SAH-weer)
 
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
+        -   Kyle Garcia
         -   Ethan Mullen
         -   Julianna Fraser
-        -   Kyle Garcia
 
     music: >
-        Bravura by Charles E. Duble
+        Emblem of Unity by J.J. Richards
 
     notes: >
-        The band would like to thank ABBA and all the band families for all they do to support the band.
 
 fieldshow:
     lastUpdated: 2023-10-16 12:25:23 -07

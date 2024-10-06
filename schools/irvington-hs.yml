@@ -3,22 +3,22 @@ name: Irvington High School
 city: Fremont, CA
 
 parade:
-    lastUpdated: 2023-10-24 17:21:30 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Viking Marching Band
+    nickname: Viking Varsity Marching Band
 
-    directors:
+    directors: &directors
     -   Charlie Rodda (Charlie RAH-dah)
 
-    staff:
+    staff: &staff
     -   title: marching coach
         members:
         -   Ben Benavides
 
     -   title: color guard coaches
         members:
-        -   Jessica Toro
-        -   Ben Wilkinson
+        -   Jessica Fuller
+        -   Devin Hunter
 
     -   title: percussion coaches
         members:
@@ -28,21 +28,48 @@ parade:
     leaders:
     -   title: drum major
         members:
-        -   William Bai
+        -   Julia Fung
 
-    -   title: auxilliary captains
+    -   title: color guard captains
         members:
         -   Natalie Brahan
+        -   Hemma Buddhi
 
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Brayden Louie
+        -   Jing Yee Bowen
+        -   Jeremy Lin
+        -   Chelsea Wang
+        -   Jeffrey Lee
+        -   Chelsea Zhang
+        -   Brandon Chen
+        -   Samuel Abrahm
+        -   Luna Yang
 
-    music: Castell Coch by T. J. B Powell, arranged by Jan de Rooy
+    music: >
+        Mephistopheles by Shipley Douglas
 
     notes: >
-        Irvington took Parade Sweepstakes at every parade entered last year, including both Parade and Grand Sweepstakes at last year's Foothill Band Review.
-        Irvington says thank you to our amazing band parents.
+
+parade-jv:
+    lastUpdated: 2024-10-05 17:00:00 -07
+
+    nickname: Viking JV Marching Band
+
+    directors: *directors
+
+    staff: *staff
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Kirstin Zhou
+        -   Ria Ragavan
+
+    music: >
+        March Grandioso by Roland Forest Seitz
+
+    notes: 
 
 concert-1:
     lastUpdated: 2024-10-05 17:00:00 -07

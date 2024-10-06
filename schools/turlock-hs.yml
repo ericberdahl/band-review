@@ -3,7 +3,7 @@ name: "Turlock High School"
 city: Turlock, CA
 
 parade:
-    lastUpdated: 2023-10-19 08:53:42 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Bulldog Band and Color Guard
 
@@ -11,35 +11,36 @@ parade:
     -   Sarah Carpenter
 
     staff:
-    -   title: instructed by
+    -   title: percussion instructors
         members:
-        -   Brandon Byers
-        -   Julia Cornejo
-        -   Hanna Mangrum
         -   Justine Quiralte-Reyes
         -   Andrew Rose
+
+    -   title: color guard instructors
+        members:
+        -   Julia Cornejo
+        -   Hanna Whitfield
+        -   Alberto Mercado
 
     leaders:
     -   title: drum major
         members:
-        -   Justine Piro
+        -   Addison Hoover
     
     -   title: color guard captains
         members:
-        -   Pedro Castillo
-        -   Olivia Cervantes
+        -   Ava Weatherbee
+        -   Diana Guzman
     
     -   title: percussion captain
         members:
-        -   Lila Brackett
+        -   Kaylee Nguyen
+        -   Nevaeh Hernandez
 
-    music: Bravura by Charles E. Duble, arranged by A.J. Diller
+    music: >
+        Glorious Victory by W.M. Kendall
 
     notes: >
-        The Turlock High Bulldog Band and Colorguard is in their third year of rebuilding after the program was eliminated in 2015.
-        During the last three years the band has participated in numerous band reviews and local parades and had the honor
-        of performing on Main Street in Downtown Disney last spring.
-        The Band and Guard wishes to thank their administrators and band boosters for their unwavering support.
 
 concert:
     lastUpdated: 2024-10-05 17:00:00 -07

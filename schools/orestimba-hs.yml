@@ -3,9 +3,9 @@ name: Orestimba High School
 city: Newman, CA
 
 parade:
-    lastUpdated: 2022-10-14 12:35:39 -08
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Warrior Marching Band
+    nickname: Orestimba Warrior Band
 
     directors:
     -   David Clark
@@ -15,21 +15,11 @@ parade:
     leaders:
     -   title: drum major
         members:
-        -   Nancy Luna-Baez
-
-    -   title: auxilliary captains
-        members:
-        -   Bryant Villanueva
-        -   Alyssa Cordova
+        -   Emmanuel Medina
 
     -   title: percussion captains
         members:
-        -   Cyrus Mayfield
         -   Patrick Maison
     
-    -   title: captains
-        members:
-        -   Emmanuel Medina
-        -   Shakty Artea
-
-    music: The U.S. Field Artillery by John Philip Sousa, arranged by Douglas E. Wagner
+    music: >
+        Precision by Harold Bennet

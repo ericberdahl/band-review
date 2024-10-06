@@ -3,9 +3,9 @@ name: Tracy High School
 city: Tracy, CA
 
 parade:
-    lastUpdated: 2022-10-18 8:38:06 -08
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: &band-nickname "Pride of Tracy, Tracy High Marching Band and Color Guard"
+    nickname: &band-nickname "Pride of Tracy Marching Band and Color Guard"
 
     directors: &band-review-directors
     -   Jacob Cortez
@@ -13,25 +13,26 @@ parade:
     staff:
     -   title: instructed by
         members:
-        -   Alayna Ontai
+        -   Marnie Bradford
+        -   Michael Gregonis
 
     leaders:
     -   title: drum major
         members:
-        -   Kamron Qasimi
+        -   Juan Bautista
         
     -   title: color guard captain
         members:
-        -   Michael Gregonis
+        -   Francesca Mejarito
 
     -   title: percussion captain
         members:
-        -   Francisco Peralta
+        -   Quinton Burum
 
-    music: Golden Gate by Edwin Franko Goldman
+    music: >
+        The Billboard March by John N. Klohr
 
     notes: >
-        The Pride of Tracy would like to thank the Band Boosters for their constant support and committment to helping out with the program/band.
 
 fieldshow:
     lastUpdated: 2022-10-18 8:38:06 -08

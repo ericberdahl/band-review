@@ -2,6 +2,43 @@ name: "Terra Nova High School"
 
 city: "Pacifica, CA"
 
+parade:
+    lastUpdated: 2024-10-05 17:00:00 -07
+
+    nickname: Terra Nova High School Marching Band
+
+    directors:
+    -   Oliver Bishop
+
+    staff:
+    -   title: percussion instructor
+        members:
+        -   Andrew Rose
+
+    -   title: visual instructor
+        members:
+        -   Allyson Ward
+
+    -   title: color guard instructor
+        members:
+        -   Shaw Lawn Bisson-Yang
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Napoleon Calimlin the third
+
+    -   title: color guard captain
+        members:
+        -   Mari Ter-Hi-Den
+
+    -   title: percussion captain
+        members:
+        -   Jaydon Ing
+
+    music: >
+        The Thunderer by John Philip Sousa
+
 fieldshow:
     lastUpdated: 2021-10-14 16:26:34 -07
 
@@ -39,18 +76,6 @@ fieldshow:
 
     notes: 
 
-parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    music: 
 
 winterpercussion:
     lastUpdated: 1967-12-01 04:30:00 -08

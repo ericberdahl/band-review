@@ -3,44 +3,38 @@ name: "Capuchino High School"
 city: "San Bruno, CA"
 
 parade:
-    lastUpdated: 2021-10-06 11:56:02 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: "Capuchino High School Marching Band & Color Guard"
+    nickname: "Capuchino High School Marching Band and Color Guard"
 
     directors:
     -   "Johnathan Hsu"
 
     staff:
-    -   title: "color guard Instructor"
+    -   title: instructed by
         members:
-        -   "Ruswell Cabudol"
-
-    -   title: "percussion Instructor"
-        members:
-        -   Aaron Balot (Aaron BÆ-luht)
+        -   Byrone Rodrigo
+        -   Aaron Balot (Aaron BAH-luht)
+        -   Allyson Ward
+        -   Bethany Castañeda
 
     leaders:
-    -   title: "drum major"
+    -   title: drum majors
         members:
-        -   "Meilani Lee-Murphy"
+        -   Noah Llorando
+        -   Lenel Gomintong
     
-    -   title: "assistant drum major"
+    -   title: percussion captains
         members:
-        -   "Maeve Gouws"
+        -   Regina Radoc (reh-GEE-nah RAH-dok)
+        -   Lucas Garcia
+        -   Ivan Zhang
+        -   Micah Nishimoto
 
-    -   title: "color guard captain"
-        members:
-        -   "Alyssa Covington"
-
-    -   title: "percussion captains"
-        members:
-        -   "Sailosi Malani"
-        -   "Mikaela Santos-Stevenson"
-
-    music: "Monterey March by Pierrre LaPlante"
+    music: >
+        Royal Air Force March Past by H. Walford Davies, arranged by Laurie Lafferty
 
     notes: >
-        The Capuchino High School Marching Band and Color Guard are grateful to our families, our school staff and admin, and our Capuchino Music Boosters for supporting us!
 
 concert:
     lastUpdated: 2019-10-18 15:56:12 -07

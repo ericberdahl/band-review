@@ -7,7 +7,7 @@ staff:
 
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Matador Marching Band
 
@@ -15,26 +15,33 @@ parade:
     -   George Pascoe
 
     staff:
-    -   title: "instructed by"
+    -   title: color guard instructors
         members:
         -   Sierra Sowa
         -   Natasha Mihelcic (Natasha mih-HEHL-chich)
 
+    -   title: percussion instructors
+        members:
+        -   Jennifer Wong
+        -   Teresa Vaughn
+        -   Drake Small
+
     leaders:
     -   title: drum major
         members:
-        -   Parker Wolfe
+        -   Eleanor Kraft
 
-    -   title: auxiliary captains
+    -   title: color guard captains
         members:
         -   Sara Willey
-        -   Sofia Bourque
+        -   Sofia Borque
 
     -   title: percussion captain
         members:
         -   Sofie Yuan (Sofie rehn)
 
-    music: Sarafand by G.H. Willcocks
+    music: >
+        A Slavic Farewell by Vasilij Ivanovitj Agapkin
 
     notes: >
 

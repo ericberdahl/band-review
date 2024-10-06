@@ -1,0 +1,32 @@
+name: "Atwater High Schoo"
+
+city: "Atwater, California"
+
+parade:
+    lastUpdated: 2024-10-05 17:00:00 -07
+
+    nickname: "Atwater High School Falcon Band and Guard"
+
+    directors: 
+    -   "Paloma Rodriguez"
+
+    staff: 
+    -   title: instructed by
+        members:
+        -   Zach Robinson
+        -   Donovan Malloy
+        -   Nathan Proctor
+        -   Lizett Perez-Vera
+
+    leaders:
+    -   title: drum major and percussion captain
+        members:
+        -   Mariah Dhillon
+
+    -   title: color guard captain
+        members:
+        -   Julissa Hurtado
+
+    music: Under the Double Eagle by Josef F. Wagner, edited by Martin Tousignant
+
+    notes: 

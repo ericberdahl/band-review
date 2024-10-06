@@ -3,7 +3,7 @@ name: "Freedom High School"
 city: "Oakley, California"
 
 parade:
-    lastUpdated: 2023-10-19 09:41:34 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Freedom Falcon Marching Band
 
@@ -14,39 +14,35 @@ parade:
     -   title: instructed by
         members:
         -   Hannah Bunker
+        -   Gabrielle Seres
         -   Elijah Lopez
-        -   Diego Mendez
-        -   Annadine Miramontes
-        -   Emile Concepcion
-        -   Mirelys Supelveda
-        -   Roger Weavil
+        -   Gerardo Garcia
+        -   Ioana Ana (yoh-AH-nah AH-nah)
+        -   Sasha Priante
+        -   Jayden Laumeister (JAY-dehn LAW-mee-stur)
+        -   Jacob Laure
+        -   Vincent Lasater
 
     leaders:
     -   title: drum major
         members:
-        -   Adrian Curran
-        
+        -   Aisa Ave
+
+    -   title: color guard captains
+        members:
+        -   Katelyn Skillman
+        -   Janessa Garibay
+        -   Marianna Cano
+
     -   title: percussion captains
         members:
-        -   Vincent Lasater
-        -   Daniel Rodriguez
+        -   Dominic Van Auken
         -   Jaeden Rheaume
 
-    -   title: captains
-        members:
-        -   Julia Casselberry
-        -   Katelyn Skillman
-
-    music:  Eagle Squadron March by Kenneth J. Alford, arranged by Harold R. Gore
+    music: >
+        Allied Honor by Karl L. King
 
     notes: >
-        The Freedom High School Falcon Marching Band is an active program within the community, performing at local parades
-        and reviews, and it's mission is to enrich the musical education of each student through performance opportunities
-        and community outreach.
-        They offer Wind Bands, Jazz Band, Orchestra, Percussion, and guitar classes that collaborate with other programs on
-        campus to spread the joy and excellence of music.
-        The band would like to extend their deepest appreciation to our Band and Guard Boosters who make all of these
-        opportunities possible through their dedication and support to our program.
 
 winterguard:
     lastUpdated: 2024-03-18 18:00:00 -08

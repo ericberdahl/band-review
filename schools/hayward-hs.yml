@@ -15,7 +15,7 @@ students:
 -   &mia-salinas "Mia Salinas"
 
 parade:
-    lastUpdated: 2022-10-17 9:22:31 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Pride of Hayward High
 
@@ -25,27 +25,17 @@ parade:
     staff:
     -   title: instructed by
         members:
-        -   *leslie-garcia
+        -   Sho Montoya
     
     leaders:
     -   title: drum major
         members:
-        -   Chelsea Luna
-    
-    -   title: auxiliary captain
-        members:
-        -   *mia-salinas
-
-    -   title: percussion captain
-        members:
         -   Dash Spears
-
-    music: The Gladiator by John Philip Sousa, arranged by Andrew Balent
+    
+    music: >
+        The Voice of the Guns by Kenneth Alford
 
     notes: >
-        The Pride of Hayward High thanks the Hayward High parents, and especially the Boosters, who help to provide
-        amazing opportunities for the students of Hayward High.
-        And thanks to the students who put so much time and energy into the Program...Farmer Pride!
 
 winterguard:
     lastUpdated: 2024-03-18 18:00:00 -08

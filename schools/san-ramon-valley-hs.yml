@@ -1,0 +1,34 @@
+name: "San Ramon Valley High School"
+
+city: "Danville, California"
+
+parade:
+    lastUpdated: 2024-10-05 17:00:00 -07
+
+    nickname: "Marching Band and Color Guard"
+
+    directors:
+    -   Brant Nishida
+
+    staff: 
+    -   title: percussion instructor
+        members:
+        -   Tony Adragna
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Sean Kent
+
+    -   title: color guard captain
+        members:
+        -   Divya Bhamidipati (DIH-vih-ya BAH-mih-dih-pah-ti)
+
+    -   title: percussion captain
+        members:
+        -   Zac Lew
+
+    music: >
+        The High School Cadets by John Philip Sousa
+
+    notes: 

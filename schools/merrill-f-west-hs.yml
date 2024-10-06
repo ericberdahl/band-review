@@ -6,9 +6,9 @@ staff:
 -   &jonathan-raman "Jonathan Raman (Jonathan RAH-men)"
 
 parade:
-    lastUpdated: 2023-10-16 13:42:15 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: West Wolf Pack Marching Band
+    nickname: West High Wolf Pack Marching Band
 
     directors:
     -   *jonathan-raman
@@ -16,21 +16,20 @@ parade:
     leaders:
     -   title: drum major
         members:
-        -   Gael Ortega (GUY-uhl Ortega)
+        -   Rebecca Dubie
 
     -   title: color guard captain
         members:
-        -   Cianne Feliciano (see-AHN Feliciano)
+        -   Goonj Gautam (GOON-j GOH-tuhm)
 
     -   title: percussion captain
         members:
-        -   Gerald Mendez
+        -   Sophia Ipong (Sophia EE-pong)
 
-    music: Zacatecas Mexican March by Genaro Codina, arranged by Louis-Philippe Laurendeau
+    music: >
+        Under the Double Eagle March by Josef Franz Wagner, arranged by Andrew Glover
 
     notes: >
-        The band says thank you West High Music Boosters and Parents for your love and support.
-        Without your dedication, we would not exist. 
 
 concert:
     lastUpdated: 2024-10-05 17:00:00 -07

@@ -3,7 +3,7 @@ name: "Santa Cruz High School"
 city: "Santa Cruz, CA"
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: "Cardinal Regiment"
 
@@ -17,11 +17,8 @@ parade:
 
     -   title: "percussion instructor"
         members:
-        -   "Adam Haney"
-
-    -   title: "bagpipe instructor"
-        members:
-        -   "Jay Salter"
+        -   Leo Reyes-Jiminez
+        -   Hayden Wofford
 
     leaders:
     -   title: "drum major"
@@ -34,11 +31,12 @@ parade:
         
     -   title: "percussion captains"
         members:
-        -   Leo Reyes-Jiminez
-        -   Hayden Wooford
-        -   Max Willet
-        -   Finn Thomson
+        -   Avery Adae
+        -   Ryan Durand
+        -   Ezze Farraziano
+        -   Kai Tomas Nasef
 
-    music: Emblem of the Army by Arthur Gullidge
+    music: >
+        Army of the Nile by Kenneth Alford
     
     notes: >
