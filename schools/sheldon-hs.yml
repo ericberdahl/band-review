@@ -40,12 +40,12 @@ parade:
         The band would like to thank the generous support of the Sheldon Administration, our world class Booster Organization,
         and our great parents. 
 
-concert-1:
+symphonic:
     lastUpdated: 2023-10-17 11:54:02 -07
 
     nickname: "Concert 1"
 
-concert-2:
-    lastUpdated: 2023-10-17 11:54:02 -07
+concert:
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: "Concert 2"
+    nickname: "Concert 1"

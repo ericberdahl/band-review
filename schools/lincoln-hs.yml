@@ -80,18 +80,17 @@ fieldshow:
 
     notes: >
 
+concert-1:
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-symphonic:
-    lastUpdated: 2023-10-16 12:50:57 -07
+    nickname: "Concert Band 1"
 
-    nickname: "Symphonic Band"
+concert-2:
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-concert:
-    lastUpdated: 2023-10-16 12:50:57 -07
+    nickname: "Concert Band 2"
 
-    nickname: "Concert Band"
+concert-3:
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-wind-ensemble:
-    lastUpdated: 2023-10-16 12:50:57 -07
-
-    nickname: "Wind Ensemble"
+    nickname: "Concert Band 3"
