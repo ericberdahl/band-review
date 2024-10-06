@@ -3,39 +3,39 @@ name: Mountain House High School
 city: Mountain House, CA
 
 fieldshow:
-    lastUpdated: 2022-10-14 13:28:20 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Mustang Brigade
+    nickname: Mountain House High School Marching Band
 
     directors: 
-    -   Heather Small
+    -   Doctor Daniel Andrade
 
-    staff: 
+    staff:
+    -   title: instructed by
+        members:
+        -   Ryan Abdelmalek (Ryan ahb-DEHL-muh-lehk)
+        -   Richard Krishnan
+        -   David Moraga 
 
     leaders:
-    -   title: drum majors
+    -   title: field conductor
         members:
-        -   Tyler Small
-        -   Kaylee Houle
+        -   Hasini Chintalapati (Hasini chihn-tah-lah-PAH-tee)
     
-    -   title: auxilliary captains
+    -   title: color guard captain
         members:
-        -   Tanushree Giriraju (tah-NOO-shree gih-ree-AH-jyoo)
-        -   Evelyn Hernandez
+        -   Jacob Magpoc
 
-    -   title: percussion captain
+    -   title: percussion captains
         members:
+        -   Theo Nguyen
         -   James Reyes
 
-    program: Weightless
+    program: The Wizard of Oz Meets the Wiz
 
     music: >
-        Learn to Fly by David Grohl, Nate Mendel, and Pat Smear, arranged by Michael Brown;
-        Into the Light by Jay Bocook, percussion by Will Rapp;
-        and Fly Me to the Moon/Defying Gravity by Bart Howard, arranged by Jeff Simmons, percussion by Mike Brabham
 
     description: >
-        Launching into space and exploring
 
     notes: 
     

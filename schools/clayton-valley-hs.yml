@@ -3,57 +3,49 @@ name: Clayton Valley Charter High School
 city: Concord, CA
 
 fieldshow:
-    lastUpdated: 2023-10-21 11:15:13 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Clayton Valley Charter Marching Band and Color Guard
+    nickname: Clayton Valley Charter High School Marching Band and Color Guard
 
     directors:
     -   Javier Cerna
 
     staff:
-    -   title: percussion instructors
+    -   title: wind instructors
         members:
-        -   Kyle Boydstun
-        -   Gabe Boston
-        -   Jordan Banda
+        -   Alex Frank
+        -   Paulina Vaclav
 
     -   title: visual instructors
         members:
+        -   Kyle Boydstun
+        -   Gabriel Boston
         -   JJ Romeo
-        -   Alex Murphey-Frank
 
     -   title: color guard instructors
         members:
-        -   Shea Gaier
-        -   Melia Means
+        -   Lindsey Bazua (Lindsey bah-ZOO-ah)
+        -   JJ Martinez
 
     leaders:
-    -   title: drum majors
+    -   title: field conductors
         members:
-        -   Lexi Reeves
-        -   Eliot Rentner
+        -   Cambell Popovich
+        -   Samantha Campbell
 
-    -   title: auxilliary captains
+    -   title: color guard captain
         members:
-        -   Sarita Davalos
-        -   Maryrose Gonzalez
+        -   Charlize Anderson
     
     -   title: percussion captains
         members:
-        -   Francisco Nguyen
-        -   Kenneth Villamor
+        -   Christian Boston
+        -   Shedrick Ronque
         
-    program: Masterpiece
+    program: Hocus Pocus
 
     music: >
-        Prelude #1 in C major (Ave Maria) by Johan Sebastian Bach adapted by Charles Gounod,
-        Selections from Moonlight Sonata, and symphonies 3, 5, 7, and 9 by Ludwig von Beethoven,
-        Gymnopedie no. 1 by Erik Satie,
-        The Rite of Spring by Igor Stravinsky,
-        and The Red Pony by Aaron Copland
 
     description: >
 
     notes: >
-        The band says thank you to all of our amazing Booster parents for your enormous love and support!
-        We could not do this without you all!

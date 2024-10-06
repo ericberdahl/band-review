@@ -12,6 +12,7 @@ staff:
 students:
 -   &adrienne-ashford "Adrienne Ashford"
 -   &kassidy-jennings "Kassidy Jennings"
+-   &sabree-musawwir "Sabree Musawwir (SAH-bree moo-SAH-weer)"
 -   &kylie-souza "Kylie Souza"
 -   &lyriic-williams "Lyriic Williams"
 
@@ -42,7 +43,7 @@ parade:
         members:
         -   Teresa Williams
         -   Nataly Gomez Prado
-        -   Sabree Musawwir (SAH-bree moo-SAH-weer)
+        -   *sabree-musawwir
 
     -   title: percussion captains
         members:
@@ -56,7 +57,7 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2023-10-16 12:25:23 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: *band-review-nickname
 
@@ -65,30 +66,31 @@ fieldshow:
     staff: *band-review-staff
 
     leaders:
-    -   title: "drum major"
+    -   title: field condoctors
         members:
-        -   Kaiyeeliee Latchison (kai-YEE-lee Latchison)
+        -   Annika Blasdel (Annika BLAYZ-dehl)
+        -   Abel Lopez
+        -   James Kyle Imperio
     
-    -   title: auxilliary captains
+    -   title: color guard captains
         members:
-        -   Nataly Gomez
         -   Teresa Williams
+        -   Nataly Gomez Prado
+        -   *sabree-musawwir
 
     -   title: percussion captains
         members:
+        -   Kyle Garcia
         -   Ethan Mullen
         -   Julianna Fraser
-        -   Kyle Garcia
 
-    program: Raging Light
+    program: Remember My Name
 
     music: >
-        music by Bryce Newton and Maureen Longo
 
     description: >
 
     notes: >
-        The band would like to thank ABBA and all of the band families for the unwavering support they give to the band.
 
 winterpercussion:
     lastUpdated: 2023-03-24 00:11:05 -08

@@ -3,7 +3,7 @@ name: California High School
 city: San Ramon, CA
 
 fieldshow:
-    lastUpdated: 2023-10-16 14:40:26 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: California High School Marching Ensemble  
 
@@ -12,33 +12,33 @@ fieldshow:
     -   Briana Berastain
 
     staff:
-    -   title: instructed by
+    -   title: color guard instructor
+        members:
+        -   Shea Gaier (shay GAY-ehr)
+
+    -   title: percussion instructor
         members:
         -   Kishan Dutt
-        -   Brittney DePiazza
-        -   Nick Bedard
 
     leaders:
-    -   title: drum majors
+    -   title: field conductor
         members:
-        -   Ishika Banerjee
+        -   Om Iyer
         -   Billy Piggott (Billy pih-GOHT)
     
-    -   title: auxilliary captain
+    -   title: color guard captains
         members:
-        -   Natalie Clark
+        -   Ava Mattei
+        -   Sienna Helmer
 
-    -   title: percussion captains
+    -   title: percussion captain
         members:
-        -   Kiran Abraham
-        -   Jason Judin
-        -   Asmitha Mahendran (ash-MEE-thah mah-HEHN-drawn)
+        -   Ganesh Swaminathan (gah-NESH swah-mih-NAH-thahn)
 
-    program: The Puppet Master
+    program: A Pirates Life for Me!
 
     music: >
 
     description: >
 
     notes: >
-        The band would like to thank our parent volunteers and our music boosters.

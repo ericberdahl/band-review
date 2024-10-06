@@ -3,115 +3,75 @@ name: "Dublin/Emerald High School"
 city: "Dublin, CA"
 
 fieldshow:
-    lastUpdated: 2023-10-16 12:33:57 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Irish Guard
+    nickname: Irish Guard Marching Band and Color Guard
 
     directors:
-    -   Elliot Polot (Elliot puh-LOT)
-    -   Mark Lee
+    -   Jack Bainton
+    -   Jasper Tran
 
     staff:
-    -   title: music designers
+    -   title: visual caption head
         members:
-        -   Rich Guillien
-        -   Neal Titus
+        -   Matt Sieve (Matt SEE-vee)
+
+    -   title: brass caption head
+        members:
+        -   Nick Garcia
+
+    -   title: percussion caption heads
+        members:
         -   Joey Staab
-        -   Vikram Kalyanaraman
+        -   Lyle Elster
 
-    -   title: visual designers
+    -   title: percussion instructors
         members:
-        -   Chris Carrasco
-        -   Matthew Sieve
+        -   Alyssa Miceli
+        -   Yannis Shpits (YAW-nihs Shpits)
+        -   Tony Duran
+        -   Grant Bramham
 
-    -   title: color guard designer
+    -   title: color guard caption head
         members:
         -   Fou Saelee
 
-    -   title: music instructors
+    -   title: color guard instructor
         members:
-        -   Nick Garcia
-        -   Jasper Tran
-        -   Justin Shebert
-        -   Zach Larsen
-        -   Pranav Singh
-        -   Lyle Elster
-        -   Alyssa Miceli
-        -   Max Alvarado
-
-    -   title: color guard instructors
-        members:
-        -   Ryan Small
-        -   Maggie Nguyen
+        -   Garrett Moya
+        -   Andrew Lawton
         -   Grace Holmes
+        -   Michael Ohayon
         
     leaders:
-    -   title: drum majors
+    -   title: field conductor
         members:
         -   Marco Duldulao
+
+    -   title: assistant field conductor
+        members:
         -   Anthony Lam
         -   Ivanna Chen
         -   Tvisha Kumar
 
-    -   title: auxilliary captains
+    -   title: color guard captains
         members:
-        -   Sarah Khouri
-        -   Andre Lee
+        -   Elena Guo
+        -   Liana Wong
 
     -   title: percussion captains
         members:
-        -   Shawn D'Costa
-        -   Akash Kalyanaraman
+        -   Evan Tubera
+        -   Haley Wong
+        -   CJ Ross
     
-    -   title: section leaders
-        members:
-        -   Abby Harmon
-        -   Rachel Chai
-        -   Anne Amala
-        -   Zoe Woodworth
-        -   Easton Nguyen
-        -   Cooper Symes
-        -   Ben Pham
-        -   Vivek Moorkoth
-        -   Connor Shorten
-        -   Charles Stewart
-        -   Michael Oliveira
-        -   Kalie Huynh (Kalie wheen)
-        -   Luke Metcalf
-        -   Radley Rutledge
-        -   Bardia Anvari
-        
-    -   title: student leaders
-        members:
-        -   Evan Brown
-        -   Aditi Joshi
-        -   Chaewon Han
-        -   Daniela Villanueva
-        -   Joely Ren
-        -   Ananya Mahavrathayajula (ah-NAH-yah mah-hahv-RAH-tha-yah-juh-lah)
-        -   Carolyn Birge
-        -   Yueling Wang
-
-    program: Take Me Higher
+    program: Prometheus Unchained
 
     music: >
-        original music written by Thomas Bergensen, Will Pitts, Scott Stapp, Mark Tremonti, and Anna Meredith
 
     description: >
-        Take Me Higher is an exploration of height and depth, and how it manifests in different ways.
-        In order to reach one's highest point, there must be a lowest point.
-        The show begins peacefully and serenely, symbolizing an upwards ascent, but progresses towards grand and surreal impacts,
-        a metaphor for the journey to and wonder of reaching new heights.
-        As Take Me Higher enters the final movement, it becomes filled with a sense of newfound joy and nostalgia,
-        as one realizes that the exploration of height and the depth that serves as its counterpart are lifelong journeys of
-        limitless potential. 
 
     notes: >
-        The Irish Guard Marching Band and Color Guard would like to say thank you to the incredible parents, custodial,
-        and administration, including Principal Maureen Byrne.
-
-        The Irish Guard has earned first place 2022 NCBA 6A Field Awards, 2021 NCBA Sweepstakes,
-        and was a 2019 WBA 4A/5A Grand Championships Finalist.
 
 concert-1:
     lastUpdated: 2022-10-14 13:08:46 -07

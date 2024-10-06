@@ -7,6 +7,7 @@ staff:
 -   &william-burkhead "William Burkhead"
 -   &dallana-corona "Dallana (pronounced Diana) Corona"
 -   &kale-duprey Kale Duprey (KALE doo-PRAY)
+-   &lindsey-goetowski Lindsey Goetowski (LIHND-zee go-TAO-skee)
 -   &aj-gonzales AJ Gonzales
 -   &andrew-kuykendall Andrew Kuykendall (Andrew KUHR-ken-dahl)
 -   &lidia-luque Lidia Luque (Lidia loo-KAY)
@@ -17,7 +18,6 @@ staff:
 
 students:
 -   &maiah-flores Maiah Flores (MY-ah Flores)
--   &lindsey-goetowski Lindsey Goetowski (LIHND-zee go-TAO-skee)
 
 parade:
     lastUpdated: 2023-10-16 11:32:21 -07
@@ -56,31 +56,56 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Del Mar High School Marching Band and Colorguard
 
     directors:
-    -   *william-burkhead
+    -   *lindsey-goetowski
 
     staff:
-    -   title: instructed by
+    -   title: assistant director
         members:
         -   *kale-duprey
-        -   *bailey-morgan
-        -   *alyssa-mccoy
-        -   CJ Julian
-        -   Desmond Rix
-        -   Nick Corona
+
+    -   title: visual and logistic instructor
+        members:
         -   *lidia-luque
 
+    -   title: percussion instructor
+        members:
+        -   Desmond Rix
+
+    -   title: brass instructor
+        members:
+        -   Lillian Escobar
+
+    -   title: color guard instructor
+        members:
+        -   Marissa Escamilla
+
+    -   title: color guard content creator
+        members:
+        -   Victor Ramos
+
     leaders:
-    -   title: drum majors
+    -   title: field conductor
         members:
         -   *lindsey-goetowski
-        -   *maiah-flores
 
-    program: Of Queens and Castles
+    -   title: assistant field conductor
+        members:
+        -   James Butler
+
+    -   title: color guard captain
+        members:
+        -   Ren Lockwood
+
+    -   title: percussion captain
+        members:
+        -   Alessio Dyrby
+
+    program: Raising Atlantis
 
     music: >
 

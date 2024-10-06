@@ -12,7 +12,7 @@ students:
 -   &ximena-nunez "Ximena Nuñez"
 
 fieldshow:
-    lastUpdated: 2022-10-04 14:03:35 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Wolfpack Marching Band
 
@@ -20,46 +20,35 @@ fieldshow:
     -   *brendan-day
 
     staff:
-    -   title: visual instructors
-        members:
-        -   Mark Ortiz 
-        -   Fernando Garcia
-
-    -   title: percussion designers
-        members:
-        -   Ian Grom
-        -   John Mapes
-
-    -   title: percussion instructors
+    -   title: instructed by
         members:
         -   Kevin Garret
-        -   Derrick Surio
-        -   Emilio Laxa
-        -   Nathan yee Ong
-
-    -   title: auxiliary designers and instructors
-        members:
-        -   Taylor Chavez
+        -   Jerome Muynila
+        -   Micheala Perez
+        -   Joanne Manalo
+        -   Anna-Lei Jones
+        -   David Kabahit
         -   *erica-nunez
+        -   Jazzy Alim-Quenga
 
     leaders:
-    -   title: drum major
+    -   title: field conductor
         members:
-        -   Joshua Barnes
+        -   Rei Magcauas (ray mahg-COW-ahz)
 
-    -   title: auxiliary captains
+    -   title: color guard captains
         members:
-        -   *ximena-nunez
-        -   *kristen-aguado
+        -   Angeline Maningding
+        -   Celeste Truong
 
     -   title: percussion captains
         members:
-        -   Nigel Quirk
-        -   Emily Haung
+        -   Zachary Alim-Quennga
+        -   Nick Liwinag
 
-    program: Imagine
+    program: To Show Your Strength
 
-    music: Pure Imagination by Leslie Bricusse and Anthony Newley
+    music: 
 
     description:
 

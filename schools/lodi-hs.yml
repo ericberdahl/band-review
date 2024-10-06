@@ -3,9 +3,9 @@ name: "Lodi High School"
 city: "Lodi, CA"
 
 fieldshow:
-    lastUpdated: 2023-10-16 11:23:56 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: "Lodi Honor Band"
+    nickname: "Lodi High Honor Band"
 
     directors:
     -   Vince Hjerpe (Vince JEHR-pee)
@@ -14,25 +14,23 @@ fieldshow:
     -   title: instructed by
         members:
         -   Jesus Muniz
-        -   Alex Moreno
-        -   Greg Lewis
-        -   Mallory Norman
-        -   Marcus Rowe
+        -   Leighanne Armagost
+        -   Logan Wertman
 
     leaders:
-    -   title: "drum major"
+    -   title: field conductor
         members:
-        -   Violet Hair
+        -   Gian Jay
         
     -   title: color guard captain
         members:
-        -   Kate Morones
+        -   Carverk Diaz
 
     -   title: percussion captain
         members:
         -   Aaron Wolff
 
-    program: Phantom of the Opera
+    program: This show is Fire
 
     music: 
 

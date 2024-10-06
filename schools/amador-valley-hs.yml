@@ -3,56 +3,58 @@ name: Amador Valley High School
 city: Pleasanton, CA
 
 fieldshow:
-    lastUpdated: 2023-10-16 13:57:00 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: The Marching Dons
+    nickname: Amador Valley High School Marching Band and Color Guard
 
     directors:
     -   Jonathan Grantham
     -   Matthew Fell
     
     staff:
+    -   title: instructed by
+        members:
+        -   David Ziehm
+        -   Ryan Madayag
+        -   Karen Eskarous
+        -   Marcelino Nambo
+        -   Everrett Henrie
+        -   Ioana Ana
+        -   Geo Garcia
+        -   Camille Borris
+        -   Marvin Reed
+        -   Victor Alcaraz
+        -   Randell Lee
+        -   Joey Staab
+        -   Tiffany Castelan
+        -   Joey Jandeleit
+        -   Thomas Murphy
+        -   Zach Schultz
+        -   George Fernandez
 
     leaders:
-    -   title: drum majors
+    -   title: field conductors
         members:
-        -   Brayden Ye
         -   Vardaan Singhania (vehr-DAN Singhania)
         -   Emily Choe
         -   Athrv Gupta (UH-thurv Gupta)
+        -   Silas Fell
+        -   Nicole Zhang
 
-    -   title: auxilliary captains
+    -   title: color guard captains
         members:
-        -   Anisha Madiraju
-        -   Maria Clara Sapriza
-        -   Max Kiyoi
+        -   Malvika Nalgaraj
+        -   Ace Yu
 
     -   title: percussion captains
         members:
-        -   James Borrs
-        -   Olivia Cheng
+        -   Alex Raj
+        -   Raghav Chipiri
 
-    -   title: woodwind captain
-        members:
-        -   Owen Short
-
-    -   title: brass captain
-        members:
-        -   Brady McHargue
-
-    program: Mirror, Mirror
+    program: Color Full
 
     music: >
-        "Nobody Does it Better" by Carly Simon,
-        "Nevermore" by Brian Balmages,
-        "Fearless" by Carol Brittin Chambers,
-        and "Critical Mass" by Todd Stalter
 
     description: >
-        We are telling the story of Grimhilde, the evil step mother from Snow White through three acts: Vanity, Broken, and Vengeance.
 
     notes: >
-        The band says thank you to the amazing Sea of Purple, the parents, families and alumni who are here to cheer us on tonight!
-        We couldn't do it without your love and support.
-        Thank you to superintendent Dr. David Haglund and Principal Mr. Jon Fey.
-        Best of luck to all the competing bands today!

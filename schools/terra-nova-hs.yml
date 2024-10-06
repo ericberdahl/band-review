@@ -40,37 +40,40 @@ parade:
         The Thunderer by John Philip Sousa
 
 fieldshow:
-    lastUpdated: 2021-10-14 16:26:34 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Terra Nova Band
+    nickname: Terra Nova Marching Band
 
     directors:
-    -   Braden Rigling
+    -   Oliver Bishop
 
     staff:
-    -   title: instructed by
+    -   title: percussion instructor
         members:
-        -   Hiro Eernisse
-        -   David Jenkins
-        -   Nico Lyon
-        -   Jessika Mercado
-        -   Sheyn Muncada
+        -   Andrew Rose
+
+    -   title: visual and music instructor
+        members:
+        -   Allyson Ward
+
+    -   title: color guard instructor
+        members:
+        -   Shaw Lawn Bisson-Yang
 
     leaders:
-    -   title: drum majors
+    -   title: field conductor
         members:
-        -   Emiliano Olsen
-        -   Amanda Calimlim
+        -   Napoleon Calimlin the third
 
-    -   title: auxilliary captain
+    -   title: color guard captain
         members:
-        -   Xiaolan Bisson-Yang
+        -   Mari Ter-Hi-Den
 
     -   title: percussion captain
         members:
-        -   Daniela Gunderson
+        -   Jaydon Ing
 
-    program: Pathways
+    program: Desperado
 
     music: 
 

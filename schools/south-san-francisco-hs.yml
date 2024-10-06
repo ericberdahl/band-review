@@ -6,61 +6,45 @@ staff:
 -   Alberto Lopez-Rivas
 
 fieldshow:
-    lastUpdated: 2023-10-18 10:38:26 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: South City Warrior Band
+    nickname: South San Francisco High School Warrior Band
 
     directors: 
-    -   Elijah Maes
+    -   Ayden Bradley
 
     staff: 
-    -   title: instructed by
+    -   title: color guard instructors
+        members:
+        -   Aidan Marques
+        -   Julia Tikhonov
+
+    -   title: visual and wind instructor
         members:
         -   Adnan Kapadia
-        -   Henson Lau
-        -   Aidan Marks
-        -   Julia Tikhonov
+
+    -   title: percussion instructor
+        members:
         -   Kris Ventura
 
     leaders:
-    -   title: drum majors
+    -   title: field conductor
         members:
-        -   Carter Lau
         -   Kaitlyn Le
     
     -   title: color guard captains
         members:
         -   Aleczia Trinidad
-        -   Isabel Amores
-        -   Izzy Chuong
+        -   Owen Moreno
 
-    -   title: percussion captains
+    -   title: percussion captain
         members:
-        -   Mariano Gonzalez
-        -   Ben Avecilla
-        -   Anthony Lee
-        -   Joseph Bermudez
+        -   Benedict James Avacilla
 
-    -   title: woodwind captain
-        members:
-        -   Alex Lau
-
-    -   title: brass captain
-        members:
-        -   Zack Arabieh
-
-    program: The Winds of Change
+    program: Let it Be
 
     music: >
-        Symphony number 2: A Lenda de Paio Gómez Chariño by Anton Alcalde
 
     description: >
-        The Winds of Change is about the transformation of society;
-        From primitive technology, relying on the land for food and shelter, to the modernization and technological developments of today.
 
     notes: >
-        The Warrior band took first place Division 2A at Feste Fel Mar, second place colorgard overall at Feste Del Mar,
-        and second place field conductor at Feste Del Mar.
-        The give a big thank you to our Music Guild for all the support you give us by feeding us, making sure our uniforms
-        fit and look good, and transporting our equipment.
-        Your support does not go unnoticed and we wouldn't be where we are without it!

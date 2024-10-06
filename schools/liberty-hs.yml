@@ -48,83 +48,53 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2023-10-17 15:32:27 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: *band-review-nickname
+    nickname: Liberty High School Marching Band
 
-    directors: *band-review-directors
+    directors:
+    -   Lindsay Kellogg
+    -   Shawn Griddine
 
     staff:
-    -   title: visual instructors
-        members:
-        -   Shawn Griddine
-        -   Rebecca Miles
-        -   Victor Alcaraz
-    
-    -   title: woodwind instructor
+    -   title: instructed by
         members:
         -   Jennifer Krey
-
-    -   title: brass instructor
-        members:
-        -   Charles Henderson
-
-    -   title: percussion instructors
-        members:
-        -   Brandon Wilson
+        -   Charles Henderson the third
+        -   Marvin Reed
+        -   Rebecca Miles
+        -   Victor Alcaraz
+        -   Ian Christensen
+        -   Ian Soria
         -   Roger Weavil
-        -   Emory Espinoza
-        -   Emile Concepcion
-
-    -   title: guard instructors
-        members:
+        -   Tyler Garrett
         -   Lisette Townzen
         -   Francisco Marin
+        -   Casey Kim
+        -   Isabella Villalpando
 
     leaders:
-    -   title: drum majors
+    -   title: field conductors
         members:
-        -   Mara Gray
-        -   Annie Dumas
-        -   Rachael Green
+        -   Isabel Barnes
         -   Carter Masana
+        -   Charles Joe
     
     -   title: color guard captains
         members:
-        -   Sasha Priante
         -   Leilah Weavil
+        -   Kate Lennon
     
     -   title: percussion captains
         members:
-        -   *alec-beaulieu
         -   Andrew Giles
+        -   Roxy Remrell
     
-    -   title: front ensemble captain
-        members:
-        -   Amelie Trost
-
-    -   title: woodwind captain
-        members:
-        -   Aliyah Koya
-    
-    -   title: brass captain
-        members:
-        -   Jake Buell
-
-    program: Don't Look Up
+    program: Chaos Order
 
     description: >
-        A fascinating discovery brings us into a very perplexing situation.
-        As a large comet is barreling toward Earth, we have to decide whether to defend ourselves or accept the inevitable.
-        As tensions are high, many people are starting to accept there is no hope and that mankind will end in total annihilation.
-        Come with us through our journey of passion and fear as the Lion Pride Marching Band takes us through "Don't Look Up"
 
     music: >
-        music aranged by Michael J. Miller and Jason Palmer,
-        Music for Prague (1968) by Karel Husa,
-        Apocalypse Please by Muse,
-        Smile by Charles Chaplin,
-        and It's The End Of The World As We Know It (And I Feel Fine) by R.E.M
 
     notes: >
 

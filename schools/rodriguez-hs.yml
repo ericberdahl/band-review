@@ -35,7 +35,7 @@ parade:
     -   *scott-miller
     -   Laurie Seibold
 
-    staff:
+    staff: &band-review-staff
     -   title: instructed by
         members:
         -   *jaclyn-wren
@@ -73,44 +73,36 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: *band-review-nickname
 
     directors: *band-review-directors
 
-    staff:
-    -   title: instructed by
-        members:
-        -   *jaclyn-wren
-        -   *kaitlyn-remorin
-        -   *taylor-slight
-        -   *jaleel-gospel
-        -   *derrick-surio
-        -   *gabrielle-perez
-        -   *nick-lucro
+    staff: *band-review-staff
 
     leaders:
-    -   title: drum majors
+    -   title: field conductors
         members:
-        -   Ashlyn Miller
-        -   Maya Jackson
-        -   Anika Yogi
+        -   Ryan Boothe
+        -   Emma Jones
 
     -   title: color guard captains
         members:
-        -   Dana Nolasco
-        -   Ysela Medina
+        -   Hayden Papadopoulos
+        -   Sienna Guerra
+        -   Allison Bouchard
+        -   Aaliyah Burrell
 
     -   title: percussion captains
         members:
-        -   Daniela Lomboy
-        -   Kaylin Manasala
-        -   Makaela Dato
         -   Isis Fernandez
-        -   Stephen Bautista     
+        -   Isabelle Capuno
+        -   Alexa Belocura
+        -   Armaan Khaira
+        -   Dylan Ny
 
-    program: The Hope Of Spring
+    program: I Am
 
     description: >
 

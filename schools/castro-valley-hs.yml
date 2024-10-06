@@ -7,46 +7,64 @@ staff:
 -   &troy-rexelle "Troy Rexelle (rex-EHL)"
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Marching Trojans
+    nickname: Castro Valley Trojan Brigade
 
     directors:
     -   *troy-rexelle
 
     staff:
-    -   title: instructed by
+    -   title: visual caption head
         members:
-        -   Glenn Imai
-        -   Jhay Reyes
-        -   Ryan Yee
-        -   Andrew Thomas
-        -   Arturo Espinosa
-        -   Erin Wells
         -   Reese Wiles
+
+    -   title: percussion caption head
+        members:
+        -   Ryan Yee
+
+    -   title: guard caption head
+        members:
+        -   Erin Miller
+
+    -   title: front ensemble lead
+        members:
+        -   Thu Powell
+
+    -   title: front ensemble tech
+        members:
         -   Christian Gerardo
-        -   Edmund Bascom
-        -   Adam Roura
-        -   Regina Magpoc
+
+    -   title: guard techs
+        members:
+        -   Diane Jin
+        -   Andrew Thomas
+
+    -   title: drumline tech
+        members:
+        -   Hudson
     
     leaders:
-    -   title: drum majors
+    -   title: field conductors
         members:
-        -   Kailyn Tchang
         -   Aleksandra Hurka
         -   Austin Chen
+        -   Angel Chen
         
     -   title: color guard captains
         members:
-        -   Dian Jin
-        -   Alyssa Oum
+        -   Haylie Do
+        -   Lulu Sun
     
-    -   title: percussion captains
+    -   title: drumline captain
         members:
         -   Luna Estebenez
-        -   Steven Deng
 
-    program: A Murder of Descension
+    -   title: front ensemble captain
+        members:
+        -   Camwron Parnell
+
+    program: Shattered
 
     music: >
 

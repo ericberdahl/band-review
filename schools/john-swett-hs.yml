@@ -3,58 +3,54 @@ name: John Swett High School
 city: Crockett, California
 
 fieldshow:
-    lastUpdated: 2023-10-16 14:43:10 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: John Swett High School Marching Band
 
     directors:
     -   Jordan Parker
-    -   Dean Colombo
 
     staff:
-    -   title: instructed by
+    -   title: battery caption head
+        members:
+        -   Jordan Varner
+
+    -   title: front ensemble caption head
+        members:
+        -   Nathan Jalal
+
+    -   title: colorguard instructors
+        members:
+        -   Steven Gray
+        -   Tayler Muelpolder (Tayler MYOO-pohl-dur)
+
+    -   title: drum major instructor
+        members:
+        -   Annalei Jones
+
+    -   title: drill designer
         members:
         -   Andy Zheng
-        -   Jordan Varner
-        -   Tyler Garrett
-        -   Yahir Calva
-        -   Anna-lei Jones
-        -   Alex Dees
-        -   Jhiana Illenberger
 
     leaders:
-    -   title: drum major
+    -   title: field conductor
         members:
-        -   Jocelyn Lee
+        -   Daniel Rocha
     
-    -   title: auxilliary captain
+    -   title: color guard captain
         members:
-        -   Jada Umland-Marks
+        -   Nicholas Hoffman
     
     -   title: percussion captains
         members:
-        -   Talan Chittalath
-        -   Yatziri Montiel
-        -   Jeanelle Ramos
+        -   Talan Chittalath (TAHL-ahn chi-TAHL-aht)
+        -   Yatziri Montiel Cervantex
     
-    -   title: captains
-        members:
-        -   Trisha Chittalath
-        -   Jada Gibson
-        -   Sophia Sollestre
-        -   Aiden Lu
-        -   Moussa Sissoko
-
-    program: Once Bitten
+    program: Under the Red Hood
 
     music: >
-        Uninvited by Alanis Morsette,
-        The Sound of Silence by Simon and Garfunkel,
-        and original music by Alex Yoder
 
     description: >
-        An army of vampires ascends from the dead to wreak havoc on the land.
-        Then vampire hunters assemble and strike back.
 
     notes: >
 

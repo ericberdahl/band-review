@@ -3,64 +3,57 @@ name: Saint Francis High School
 city: Mountain View, CA
 
 fieldshow:
-    lastUpdated: 2022-10-03 9:59:41 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: Lancer Band and Color Guard
+    nickname: Saint Francis Lancer Band and Color Guard
 
     directors:
     -   Sadie Queally-Sammut (SAY-dee KWAY-lee SAM-ut)
 
     staff:
-    -   title: color guard instructors
-        members:
-        -   Jasmine Acree
-        -   Jean Roberts
-
-    -   title: visual tech
+    -   title: visual instructor
         members:
         -   Davis Zamboanga
 
-    -   title: field conductor tech
+    -   title: color guard instructor
         members:
-        -   Colleen Queally-Sammut (cah-LEEN KWAY-lee SAM-ut)
+        -   Sarah Khouri
 
-    -   title: percussion caption head
+    -   title: battery instructor
         members:
-        -   Casey Tessier
+        -   Adam Roura (Adam ROAR-uh)
+
+    -   title: front ensemble instructor
+        members:
+        -   Christine Lau
+
+    -   title: woodwind instructor
+        members:
+        -   Christian Fierro
 
     leaders:
-    -   title: drum majors
+    -   title: field conductor
         members:
-        -   Jiyou Lee
         -   Kylie Brown
 
-    -   title: auxiliary captains
+    -   title: assistant field conductor
         members:
-        -   Rachel Minden
-        -   Brianna Johnson
-        -   Sofia Rangel
+        -   James Ramprashad
+
+    -   title: color guard captains
+        members:
+        -   Anya Mathew
+        -   Zoe Scallon
 
     -   title: percussion captains
         members:
-        -   Raghav Ravinuthala
-        -   Bowen Hu
+        -   Anay Shay
+        -   Andrew Han
     
-    -   title: presidents
-        members:
-        -   Alexander Eiger
-        -   Elsa Ying
-
-    program: Angels and Demons
+    program: Ozymandias
 
     music: >
-        Chorale and Alleluia by Howard Hanson,
-        Night Watch by Jay Dawson,
-        Journey of Man by Benoit Jutras,
-        and Ka: Battlefield by René Dupéré
     
     description: >
-        We all struggle with our personal demons, but we are surrounded by angels who help us through life's challenges.
-        We celebrate the angels in our life - our teachers, family, and friends - while acknowledging the struggles we face, both internal and external.
 
     notes: >
-        The Lancer Marching Band and Color Guard thanks our tireless road crew and parent volunteers for getting us where we need to go and looking great while we do it!

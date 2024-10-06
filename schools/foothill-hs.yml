@@ -117,7 +117,7 @@ parade-alumni:
 fieldshow:
     isHost: true
 
-    lastUpdated: 2023-10-17 08:55:05 -07
+    lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: *band-nickname
 
@@ -127,31 +127,22 @@ fieldshow:
     staff: *band-review-staff
 
     leaders:
-    -   title: drum majors
+    -   title: field conductors
         members:
-        -   Jeeihn (jeen Son)
-        -   Gabriel Thompson
+        -   Jeeihn Son (jeen sohn)
         -   Elsa Lee
+        -   Will Ji
 
-    -   title: auxiliary captains
+    -   title: color guard captain
         members:
-        -   *niki-murugesan
-        -   Amulya Maddi
+        -   Irene Sun
 
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Youngha Hwang
         -   Meghana Kumarakalva
+        -   Gabriel Thompson
     
-    -   title: woodwind captain
-        members:
-        -   Kyle Wu
-
-    -   title: brass Captain
-        members:
-        -   Callia Taraya
-
-    program: Shine Through
+    program: Who Did It?
 
     music: >
 
