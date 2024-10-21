@@ -2,12 +2,16 @@ name: "Freedom High School"
 
 city: "Oakley, California"
 
+staff: 
+-   &ioana-ana Ioana Ana (yoh-AH-nah AH-nah)
+-   &jayden-laumeister Jayden Laumeister (JAY-dehn LAW-mee-stur)
+
 parade:
     lastUpdated: 2024-10-05 17:00:00 -07
 
     nickname: Freedom Falcon Marching Band
 
-    directors:
+    directors: &directors
     -   Brooke Farrar
 
     staff:
@@ -17,9 +21,9 @@ parade:
         -   Gabrielle Seres
         -   Elijah Lopez
         -   Gerardo Garcia
-        -   Ioana Ana (yoh-AH-nah AH-nah)
+        -   *ioana-ana
         -   Sasha Priante
-        -   Jayden Laumeister (JAY-dehn LAW-mee-stur)
+        -   *jayden-laumeister
         -   Jacob Laure
         -   Vincent Lasater
 
@@ -45,18 +49,45 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2024-10-14 07:00:00 -07
 
-    nickname: "Template High School Marching Band and Color Guard"
+    nickname: Freedom Falcon Marching Band
 
-    directors: 
-    -   tba
+    directors: *directors
 
     staff: 
+    -   title: instructed by
+        members:
+        -   *ioana-ana
+        -   Gerardo Garcia
+        -   Elijah Lopez
+        -   Jake Buell
+        -   Hannah Bunker
+        -   Gabrielle Seres
+        -   Sasha Priante
+        -   *jayden-laumeister
+        -   Jacob Laure
+        -   Jesse Marlin
 
     leaders:
+    -   title: field conductors
+        members:
+        -   Aisa Ave
+        -   Chris Tejano
 
-    program: 
+    -   title: color guard captains
+        members:
+        -   Katelyn Skillman
+        -   Janessa Garibay
+        -   Marianna Cano
+
+    -   title: percussion captains
+        members:
+        -   Dominic Van Auken
+        -   Jaeden Rheaume
+        -   Xavier Hansen
+
+    program: Rite of Passage
 
     music: 
 
