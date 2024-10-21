@@ -65,6 +65,7 @@ function School({ unit, isFirst }) {
             <Leadership unit={unit}/>
             {unit.music && <p>The {unit.nickname} will perform {unit.music}.</p>}
             {unit.notes && <p>{unit.notes}</p>}
+            <p>Please welcome the {unit.nickname}.</p>
             {!unit.notes && <Note>{unit.schoolName} has no parade notes.</Note>}
         </div>
     )

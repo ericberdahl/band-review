@@ -54,13 +54,9 @@ function School({ unit, show }) {
             <Note>Last updated {DateTime.fromISO(unit.lastUpdated).toLocaleString(DateTime.DATETIME_FULL)}</Note>
             <p>Now taking the field is{unit.isHost && ' your host,'} the {unit.nickname}, from {unit.schoolName} in {unit.city}.</p>
             <Leadership unit={unit}/>
-            {unit.program &&
-                <p>
-                    The {unit.nickname} will perform their program, {unit.program}{unit.music && <>, featuring {unit.music}</>}.
-                </p>
-            }
             {unit.notes && <p>{unit.notes}</p>}
             {!unit.notes && <Note>{unit.schoolName} has no parade notes.</Note>}
+            <p>Please welcome the {unit.nickname}.</p>
             <p>
                 <em>(Wait for cue from T&amp;P judge):</em> Drum Major, is your band ready?
             </p>

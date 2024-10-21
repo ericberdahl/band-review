@@ -22,7 +22,7 @@ parade:
     -   *erik-bertelson
 
     staff:
-    -   title: "color guard staff"
+    -   title: color guard instructors
         members:
         -   *sasha-wirchniansky
         -   *kendle-fong
