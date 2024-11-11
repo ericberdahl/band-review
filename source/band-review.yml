@@ -26,6 +26,14 @@ parade:
         general: *sponsors-general
 
         trophies:
+        -   place: 1st place 4A
+            sponsors:
+            -   sponsor: the Zang family
+
+        -   place: 1st place 5A
+            sponsors:
+            -   sponsor: the Reyes family
+                message: The Reyes family says, "Thank you Foothill Instrumental Music Program".
         # -   place: Parade Sweepstakes
         #    sponsors:
         #    -   sponsor: the Goebel family
@@ -36,7 +44,7 @@ parade:
 
     lineup:
     -   colors: "the color guard from Veterans of Foreign Wars Post 6298"
-    -   grandMarshal: "Foothill High School's original band director, one of the founders of the NCBA, and the man who launched the first Foothill Band Review 49 years ago, Bob Moorefield"
+    -   grandMarshal: "Foothill High School's first Director of Bands and the person who launched the Foothill Band Review 49 years ago, Bob Moorefield"
     -   ref: "foothill-hs"
     -   ref: "wells-ms"
     -   ref: "benicia-ms"
@@ -92,7 +100,7 @@ fieldshow:
 
     lineup:
     # TODO - anthem performer is not confirmed
-    -   anthemPerformer: "TBA"
+    -   anthemPerformer: "Foothill sophomore and chamber choir member, Lalima Duddu"
     -   ref: "john-c-kimball-hs"
     -   ref: "del-mar-hs"
     -   ref: "john-swett-hs"
@@ -130,6 +138,32 @@ fieldshow:
         general: *sponsors-general
 
         trophies:
+        -   place: 1st place 5A percussion
+            sponsors:
+            -   sponsor: Mr. & Mrs. Nihal Wijesekera
+        -   place: 1st place 6A percussion
+            sponsors:
+            -   sponsor: the Reyes family
+                message: The Reyes family says, "Thank you Foothill Instrumental Music Program".
+        -   place: 1st place 5A
+            sponsors:
+            -   sponsor: Mr. & Mrs. Edward Dawson
+        -   place: 1st place 6A
+            sponsors:
+            -   sponsor: Daniel Reyes
+        -   place: 2nd place 5A
+            sponsors:
+            -   sponsor: the Brigham family
+        -   place: 2nd place 6A
+            sponsors:
+            -   sponsor: the Goebel family
+        -   place: 4A, 5A, 6A music sweepstakes
+            sponsors:
+            -   sponsor: the Reyes family
+                message: The Reyes family says, "Thank you Foothill Instrumental Music Program".
+        -   place: 4A, 5A, 6A field show sweepstakes
+            sponsors:
+            -   sponsor: the Desai family
         #-   place: 3rd place brass
         #    sponsors:
         #    -   sponsor: the Goebel family

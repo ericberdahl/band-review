@@ -7,7 +7,7 @@ module.exports = (phase, { defaultConfig }) => {
 
         serverRuntimeConfig: {
             isExport: (PHASE_PRODUCTION_BUILD == phase),
-            deployedBasePath: '/foothill/2023'
+            deployedBasePath: '/foothill/bandreview-2024'
         }
     };
 
