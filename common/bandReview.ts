@@ -14,6 +14,7 @@ type SerializedBandReview = {
     version : number;
     show : SerializedShowCitation;
     next_show : SerializedShowCitation;
+    units : string[];
     parade : SerializedParade;
     fieldshow : SerializedFieldShow;
     concert : SerializedConcert;

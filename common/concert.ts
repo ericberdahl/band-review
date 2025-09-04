@@ -33,8 +33,9 @@ export class Concert {
 
     static async deserialize(data : SerializedConcert) : Promise<Concert> {
         const result = new Concert();
+        const lineup = (data.lineup ? data.lineup : []);
 
-        result.lineup.push(...await Promise.all(data.lineup.map(async (li) => {
+        result.lineup.push(...await Promise.all(lineup.map(async (li) => {
             if (isConcertUnitRef(li)) {
                 return ConcertUnit.deserialize(await readSerializedUnitForSchool<SerializedConcertUnit>(li.ref), li.unit);
             }
