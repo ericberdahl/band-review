@@ -2,6 +2,27 @@ name: "Concord High School"
 
 city: "Concord, CA"
 
+parade:
+    lastUpdated: 2000-01-01 15:23:03 -07
+
+    nickname: "Concord High School Marching Band and Color Guard"
+
+    directors: 
+    -   "Shane Barrows"
+    -   "Andrew LaBelle"
+
+    staff: 
+#    -   title: "instructed by"
+#        members:
+
+    leaders:
+#    -   title: "drum major"
+#        members:
+
+    music: 
+
+    notes: 
+
 winterguard:
     lastUpdated: 2019-03-18 22:03:24 -07
 

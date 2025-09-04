@@ -3,19 +3,20 @@ announcer:
     email: "berdahl@serendipity.org"
 
 show:
-    year: 2024
-    date: "2024-10-26"
-    citation: "50th Annual Foothill High School Band Review"
-
-next_show:
     year: 2025
-    date: "2024-10-24"
+    date: "2025-10-25"
     citation: "51st Annual Foothill High School Band Review"
 
+next_show:
+    year: 2026
+    date: "2026-10-24"
+    citation: "52nd Annual Foothill High School Band Review"
+
+# No concert event this year, parade and field only
 units:
 -   "parade"
 -   "fieldshow"
--   "concert"
+# -   "concert"
 
 sponsors-general: &sponsors-general
 
@@ -26,14 +27,6 @@ parade:
         general: *sponsors-general
 
         trophies:
-        -   place: 1st place 4A
-            sponsors:
-            -   sponsor: the Zang family
-
-        -   place: 1st place 5A
-            sponsors:
-            -   sponsor: the Reyes family
-                message: The Reyes family says, "Thank you Foothill Instrumental Music Program".
         # -   place: Parade Sweepstakes
         #    sponsors:
         #    -   sponsor: the Goebel family
@@ -44,51 +37,46 @@ parade:
 
     lineup:
     -   colors: "the color guard from Veterans of Foreign Wars Post 6298"
-    -   grandMarshal: "Foothill High School's first Director of Bands and the person who launched the Foothill Band Review 49 years ago, Bob Moorefield"
+    -   grandMarshal: "to be announced"
     -   ref: "foothill-hs"
-    -   ref: "wells-ms"
-    -   ref: "benicia-ms"
-    -   ref: "union-ms"
-    -   ref: "hayward-hs"
-    -   ref: "orestimba-hs"
-    -   ref: "deer-valley-hs"
-    -   ref: "kennedy-hs-fremont"
-    -   break: 10
-    -   ref: "thomas-downey-hs"
-    -   ref: "linden-hs"
-    -   ref: "merrill-f-west-hs"
-    -   ref: "tracy-hs"
-    -   ref: "terra-nova-hs"
-    -   ref: "san-ramon-valley-hs"
-    -   ref: "capuchino-hs"
-    -   ref: "san-leandro-hs"
-    -   ref: "el-capitan-hs"
-    -   ref: "fairfield-hs"
-    -   ref: "antioch-hs"
-    -   ref: "northgate-hs"
-    -   break: 10
-    -   ref: "sheldon-hs"
-    -   ref: "turlock-hs"
-    -   ref: "benicia-hs"
-    -   ref: "granada-hs"
-    -   ref: "buhach-colony-hs"
-    -   ref: "edison-hs-stockton"
-    -   ref: "freedom-hs"
-    -   ref: "foothill-hs"
-        unit: "parade-alumni"
-    -   break: 10
+    -   ref: "alhambra-hs"
     -   ref: "archbishop-riordan-hs"
     -   ref: "atwater-hs"
-    -   ref: "liberty-hs"
-    -   ref: "washington-hs"
-    -   ref: "santa-cruz-hs"
+    -   ref: "benicia-hs"
+    -   ref: "benicia-ms"
+    -   ref: "buhach-colony-hs"
+    -   ref: "concord-hs"
+    -   ref: "deer-valley-hs"
+    -   ref: "edison-hs-stockton"
+    -   ref: "emerald-hs"
+    -   ref: "fairfield-hs"
+    -   ref: "firebaugh-hs"
+    -   ref: "franklin-hs-stockton"
+    -   ref: "franklin-hs"
+    -   ref: "granada-hs"
+    -   ref: "gustine-hs"
+    -   ref: "irvington-hs"
     -   ref: "irvington-hs"
         unit: "parade-jv"
-    -   ref: "irvington-hs"
-    -   ref: "rodriguez-hs"
-    -   ref: "franklin-hs"
+    -   ref: "kennedy-hs-fremont"
     -   ref: "lincoln-hs"
     -   ref: "merced-hs"
+    -   ref: "merrill-f-west-hs"
+    -   ref: "northgate-hs"
+    -   ref: "richmond-hs"
+    -   ref: "rodriguez-hs"
+    -   ref: "san-leandro-hs"
+    -   ref: "san-ramon-valley-hs"
+    -   ref: "santa-cruz-hs"
+    -   ref: "terra-nova-hs"
+    -   ref: "turlock-hs"
+    -   ref: "washington-hs"
+    -   ref: "wells-ms"
+    -   ref: "will-c-wood-hs"
+    -   ref: "cesar-chavez-hs"
+    -   break: 10
+    -   break: 10
+    -   break: 10
 
     awards_time: "2:00pm"
 
@@ -100,36 +88,35 @@ fieldshow:
 
     lineup:
     # TODO - anthem performer is not confirmed
-    -   anthemPerformer: "Foothill sophomore and chamber choir member, Lalima Duddu"
-    -   ref: "john-c-kimball-hs"
-    -   ref: "del-mar-hs"
-    -   ref: "john-swett-hs"
-    -   ref: "lodi-hs"
-    -   ref: "terra-nova-hs"
-    -   ref: "st-francis-hs"
-    -   ref: "prospect-hs"
-    -   ref: "millennium-hs"
-    -   break: 15
-    -   ref: "mountain-house-hs"
-    -   ref: "south-san-francisco-hs"
-    -   ref: "rancho-cotate-hs"
+    -   anthemPerformer: "to be determined"
+    -   ref: "amador-valley-hs"
+    -   ref: "american-hs"
+    -   ref: "california-hs"
+    -   ref: "castro-valley-hs"
     -   ref: "clayton-valley-hs"
-    -   ref: "antioch-hs"
-    -   ref: "american-canyon-hs"
-    -   ref: "freedom-hs"
+    -   ref: "del-mar-hs"
+    -   ref: "dublin-hs"
+    -   ref: "foothill-hs"
+    -   ref: "millennium-hs"
+    -   ref: "mountain-house-hs"
+    -   ref: "rancho-cotate-hs"
+    -   ref: "st-francis-hs"
+    -   ref: "south-san-francisco-hs"
+    -   ref: "westmont-hs"
+    -   ref: "emerald-hs"
+    -   ref: "rodriguez-hs"
+    -   ref: "terra-nova-hs"
+    -   ref: "john-swett-hs"
+    -   ref: "john-c-kimball-hs"
+    -   ref: "monte-vista-hs"
+    -   ref: "hayward-hs"
+    -   break: 15
+    -   break: 15
     -   awardsLabel: "Field Show Divisions 1A and 2A"
         location: "here"
         time: "in 30 minutes"
         continuation: "Field Show Divisions 5A and 6A"
         continuationTime: "at 8:00"
-    -   ref: "castro-valley-hs"
-    -   ref: "california-hs"
-    -   ref: "rodriguez-hs"
-    -   ref: "liberty-hs"
-    -   break: 15
-    -   ref: "dublin-hs"
-    -   ref: "amador-valley-hs"
-    -   ref: "foothill-hs"
     -   awardsLabel: "Field Show Divisions 4A, 5A, and 6A"
         location: "here"
         time: "in 30 minutes"
@@ -138,32 +125,6 @@ fieldshow:
         general: *sponsors-general
 
         trophies:
-        -   place: 1st place 5A percussion
-            sponsors:
-            -   sponsor: Mr. & Mrs. Nihal Wijesekera
-        -   place: 1st place 6A percussion
-            sponsors:
-            -   sponsor: the Reyes family
-                message: The Reyes family says, "Thank you Foothill Instrumental Music Program".
-        -   place: 1st place 5A
-            sponsors:
-            -   sponsor: Mr. & Mrs. Edward Dawson
-        -   place: 1st place 6A
-            sponsors:
-            -   sponsor: Daniel Reyes
-        -   place: 2nd place 5A
-            sponsors:
-            -   sponsor: the Brigham family
-        -   place: 2nd place 6A
-            sponsors:
-            -   sponsor: the Goebel family
-        -   place: 4A, 5A, 6A music sweepstakes
-            sponsors:
-            -   sponsor: the Reyes family
-                message: The Reyes family says, "Thank you Foothill Instrumental Music Program".
-        -   place: 4A, 5A, 6A field show sweepstakes
-            sponsors:
-            -   sponsor: the Desai family
         #-   place: 3rd place brass
         #    sponsors:
         #    -   sponsor: the Goebel family
@@ -173,37 +134,37 @@ fieldshow:
 
 concert:
     lineup:
-    -   ref: "irvington-hs"
-        unit: "concert-1"
-    -   ref: "lincoln-hs"
-        unit: "concert-1"
-    -   ref: "franklin-hs"
-    -   ref: "edison-hs-stockton"
-    -   ref: "lincoln-hs"
-        unit: "concert-2"
-    -   ref: "irvington-hs"
-        unit: "concert-2"
-    -   ref: "lincoln-hs"
-        unit: "concert-3"
-    -   break: 25
-    -   ref: "thomas-downey-hs"
-    -   ref: "merrill-f-west-hs"
-    -   ref: "sheldon-hs"
-        unit: "symphonic"
-    -   ref: "turlock-hs"
-    -   ref: "sheldon-hs"
-        unit: "concert"
-    -   break: -1
-    -   ref: "benicia-hs"
-        unit: "concert-1"
-    -   ref: "prospect-hs"
-    -   ref: "benicia-hs"
-        unit: "concert-2"
-    -   ref: "del-mar-hs"
-    -   ref: "archbishop-riordan-hs"
-    -   break: 25
-    -   ref: "wells-ms"
-    -   ref: "benicia-ms"
-    -   ref: "deer-valley-hs"
-    -   ref: "tracy-hs"
-    -   ref: "fairfield-hs"
+#     -   ref: "irvington-hs"
+#         unit: "concert-1"
+#     -   ref: "lincoln-hs"
+#         unit: "concert-1"
+#     -   ref: "franklin-hs"
+#     -   ref: "edison-hs-stockton"
+#     -   ref: "lincoln-hs"
+#         unit: "concert-2"
+#     -   ref: "irvington-hs"
+#         unit: "concert-2"
+#     -   ref: "lincoln-hs"
+#         unit: "concert-3"
+#     -   break: 25
+#     -   ref: "thomas-downey-hs"
+#     -   ref: "merrill-f-west-hs"
+#     -   ref: "sheldon-hs"
+#         unit: "symphonic"
+#     -   ref: "turlock-hs"
+#     -   ref: "sheldon-hs"
+#         unit: "concert"
+#     -   break: -1
+#     -   ref: "benicia-hs"
+#         unit: "concert-1"
+#     -   ref: "prospect-hs"
+#     -   ref: "benicia-hs"
+#         unit: "concert-2"
+#     -   ref: "del-mar-hs"
+#     -   ref: "archbishop-riordan-hs"
+#     -   break: 25
+#     -   ref: "wells-ms"
+#     -   ref: "benicia-ms"
+#     -   ref: "deer-valley-hs"
+#     -   ref: "tracy-hs"
+#     -   ref: "fairfield-hs"

@@ -1,0 +1,86 @@
+name: "Emerald High School"
+
+city: "Dublin, California"
+
+parade:
+    lastUpdated: 2000-01-01 15:23:03 -07
+
+    nickname: "Emerald High School Marching Band and Color Guard"
+
+    directors: &band-review-directors
+    -   "Jaspar Tran"
+
+    staff: 
+#    -   title: "instructed by"
+#        members:
+
+    leaders:
+#    -   title: "drum major"
+#        members:
+
+    music: 
+
+    notes: 
+
+fieldshow:
+    lastUpdated: 2000-01-01 15:23:03 -07
+
+    nickname: "Emerald High School Marching Band and Color Guard"
+
+    directors: *band-review-directors
+
+    staff: 
+
+    leaders:
+
+    program: 
+
+    music: 
+
+    description: 
+
+    notes: 
+
+concert:
+    lastUpdated: 2000-01-01 15:23:03 -07
+
+    nickname: "Emerald High School Concert Band"
+
+winterguard:
+    lastUpdated: 2000-01-01 15:23:03 -07
+
+    division: 
+
+    nickname: "Emerald High School Winter Guard"
+
+    directors: 
+
+    staff:
+        
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+    
+winterpercussion:
+    lastUpdated: 2000-01-01 15:23:03 -07
+
+    division: 
+
+    nickname: "Emerald High School Winter Percussion"
+
+    directors: 
+
+    staff:
+        
+    leaders:
+
+    program: 
+
+    music: 
+
+    notes: 
+    
