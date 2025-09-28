@@ -3,24 +3,23 @@ name: Mountain House High School
 city: Mountain House, CA
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Mountain House High School Marching Band
 
     directors: 
-    -   Doctor Daniel Andrade
+    -   Daniel Andrade
 
     staff:
     -   title: instructed by
         members:
-        -   Ryan Abdelmalek (Ryan ahb-DEHL-muh-lehk)
         -   Richard Krishnan
-        -   David Moraga 
+        -   Ryan Abdelmalek (Ryan ahb-DEHL-muh-lehk)
 
     leaders:
     -   title: field conductor
         members:
-        -   Hasini Chintalapati (Hasini chihn-tah-lah-PAH-tee)
+        -   Tvishi Kumar (tuh-VEE-shee Kumar)
     
     -   title: color guard captain
         members:
@@ -28,10 +27,9 @@ fieldshow:
 
     -   title: percussion captains
         members:
-        -   Theo Nguyen
-        -   James Reyes
+        -   Mairyn Meier
 
-    program: The Wizard of Oz Meets the Wiz
+    program: A Modern Twist
 
     music: >
 

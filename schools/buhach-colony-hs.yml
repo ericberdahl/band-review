@@ -3,7 +3,7 @@ name: Buhach (BYOO-hack) Colony High School
 city: Atwater, CA
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Buhach Colony High School Thunder Band
 
@@ -14,37 +14,34 @@ parade:
     -   title: colorguard instructors
         members:
         -   Suzanna Humpal
-        -   Aidan Mook
         -   Megan Myrtue
         -   Emily Humpal
 
     -   title: percussion instructors
         members:
-        -   Josh Cardoza
         -   James Collins
+        -   Andre Mendez
 
     -   title: woodwind instructor
         members:
         -   Sandra Stocking
 
     leaders:
-    -   title: drum major
+    -   title: drum majors
         members:
-        -   Diego Chavez
+        -   Logan Hillhouse
+        -   Vivian Palm
 
-    -   title: color guard captains
+    -   title: color guard captain
         members:
         -   Shayla Balanzar-Ortega
-        -   Andrea Sanchez-Villalobos
-        -   Gema Padron Gomez
 
     -   title: percussion captains
         members:
-        -   John Baltazar
-        -   Aaron Tatum
         -   Talan Baria
+        -   Calvin Malta
 
     music: >
-        Eagle Squadron by Kenneth J. Alford
+        General Mitchell by R.B. Hall
     
     notes: >

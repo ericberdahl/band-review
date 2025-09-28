@@ -3,14 +3,17 @@ name: "John C Kimball High School"
 city: "Tracy, California"
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: "Kimball High School Marching Jaguars"
+    nickname: Kimball Marching Jaguars
 
     directors: 
-    -   Sera Wohldmann (Sera VOLT-mahn)
+    -   Sera Wohldmann (Sera WOLD-muhn)
 
     staff: 
+    -   title: instructed by
+        members:
+        -   Juan Bautista
 
     leaders:
     -   title: field conductor
@@ -21,12 +24,11 @@ fieldshow:
         members:
         -   Allyssa Smith
 
-    -   title: percussion captains
+    -   title: percussion captain
         members:
-        -   Raymond LaCourse
-        -   Surya Shreejith
+        -   Surya Shreejith (SOOR-yah SHREE-jith)
 
-    program: American Landsacpes
+    program: The Approaching Storm
 
     music: 
 

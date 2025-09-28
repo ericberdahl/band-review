@@ -3,12 +3,12 @@ name: "Atwater High School"
 city: "Atwater, California"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: "Atwater High School Falcon Band and Guard"
+    nickname: Atwater High School Marching Band and Guard
 
     directors: 
-    -   "Paloma Rodriguez"
+    -   Paloma Rodriguez
 
     staff: 
     -   title: instructed by
@@ -16,17 +16,19 @@ parade:
         -   Zach Robinson
         -   Donovan Malloy
         -   Nathan Proctor
-        -   Lizett Perez-Vera
+        -   Mariana Esau
+        -   Dessire Galindo
 
     leaders:
-    -   title: drum major and percussion captain
+    -   title: drum major
         members:
-        -   Mariah Dhillon
+        -   Sergio Castro Jr.
 
-    -   title: color guard captain
+    -   title: percussion captain
         members:
-        -   Julissa Hurtado
+        -   Diego Ramirez Reyna
 
-    music: Under the Double Eagle by Josef F. Wagner, edited by Martin Tousignant
+    music: >
+        Invictus by Karl L. King
 
     notes: 

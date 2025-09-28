@@ -3,9 +3,9 @@ name: Millennium High School
 city: Tracy, California
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: Millennium Marching Band and Colorguard
+    nickname: Falcon Marching Band and Colorguard
 
     directors: &directors
     -   "Roland Zepeda (Roland zuh-PAY-duh)"
@@ -26,10 +26,10 @@ fieldshow:
     
     -   title: percussion captains
         members:
-        -   Colby McCarthy
         -   Kaian Solomon (KEE-ahn Solomon)
+        -   Michelle Thomatis
 
-    program: Song of the Sirens
+    program: Erendira [roll final 'r'], the Warrior Princess
 
     music: >
 

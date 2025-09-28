@@ -5,7 +5,7 @@ city: Fairfield, CA
 staff:
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Scarlet Brigade
 
@@ -17,24 +17,25 @@ parade:
         members:
         -   Teresa Pierce
         -   Paul Olson
+        -   Matthew Welch
+        -   Biridiana Aguirre
 
     leaders:
     -   title: drum major
         members:
-        -   Enoch Adeleye
+        -   Cameron Wayne
 
-    -   title: color guard captains
+    -   title: color guard captain
         members:
-        -   Neelah McGill
-        -   Karissa Catabay
+        -   Naomi Nichols
 
     -   title: percussion captains
         members:
-        -   Jordan Dix
         -   Julius Javier
+        -   D'Lo Santos
 
     music: >
-        Joyce's 71st New York Regimental March by Thornton Barnes Boyer
+        By the Centre (2022) by Stuart Dean
 
     notes: >
 

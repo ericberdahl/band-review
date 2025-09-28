@@ -3,46 +3,38 @@ name: Westmont High School
 city: Campbell, CA
 
 fieldshow:
-    lastUpdated: 2022-10-14 9:53:50 -08
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: Warrior Marching Regiment
+    nickname: WestmontWarrior Marching Regiment
 
     directors:
     -   Christiana Mandler
 
     staff:
-    -   title: assistant director
+    -   title: instructed by
         members:
         -   Tony Rivera
-    
-    -   title: guard caption instructor
-        members:
         -   Liz Petersen
-
-    -   title: drum caption instructor
-        members:
-        -   Greg Mathney (Greg MATH-nee)
-
-    -   title: front ensemble caption instructor
-        members:
+        -   Greg Matheney
+        -   Mirya Schliper
+        -   John Pena
         -   Charlie Tran
-
-    leaders:
-    -   title: drum major
-        members:
-        -   Brian Lu
-
-    -   title: percussion captain
-        members:
         -   Jayden Mandler Sanders
 
-    program: The Little Prince
+    leaders:
+    -   title: field conductor
+        members:
+        -   Luis Bravo
+
+    -   title: color guard captains
+        members:
+        -   Kayla Tu
+        -   Daria Egorov
+
+    program: Into the Cosmos
 
     decscription: >
-        Taken from the 2015 movie, The Little Prince.
 
     music: >
-        music written by Hans Zimmer and arranged by Key Poulan (KEE POH-lan)
 
     notes: >
-        The Westmont Marching Regiment thanks their students, parents, boosters, and administration.

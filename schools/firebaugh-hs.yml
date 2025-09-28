@@ -3,29 +3,42 @@ name: Firebaugh High School
 city: Firebaugh, CA
 
 directors: &directors
--   Jose Ledesma
+-   Kevin Misakian (Kevin mis-ACK-ee-an)
 
 parade:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: Eagle Marching Band
+    nickname: Eagle Marching Band and Color Guard
 
     directors: *directors
 
     staff: 
     -   title: percussion instructor
         members:
-        -   Ariell Ompad
+        -   Joshua Ompad
+
+    -   title: color guard instructor
+        members:
+        -   Eddie Silva
+
+    -   title: marching instructor
+        members:
+        -   Daniel Moreno
 
     leaders:
     -   title: drum major
         members:
-        -   Melina Gonzalez
-    
+        -   Josiah Romero
+
+    -   title: color guard captains
+        members:
+        -   Emily Santoyo
+
     -   title: percussion captain
         members:
-        -   Bianca Marquez
+        -   Brandon Molina
 
-    music: Anchors Aweigh/Eternal Father, Strong to Save by By Alfred H. Miles, Charles A. Zimmerman & John B. Dykes, arranged by Brian K. Wilson and J. Edgerton
+    music: >
+        Zacatecas by Genaro Codina
 
     notes: 

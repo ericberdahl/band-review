@@ -3,7 +3,7 @@ name: "Gustine High School"
 city: Gustine, CA
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Marching Reds
 
@@ -11,24 +11,34 @@ parade:
     -   Steve Mitchell
 
     staff:
-    -   title: color guard instructor
+    -   title: color guard coach
         members:
-        -   Renee Edwards
+        -   Kate Gaines
 
     leaders:
     -   title: drum major
         members:
-        -   Ethan Eleshio (Ethan eh-LEESH-ee-oh)
+        -   Lluvia Gonzalez Iniguez
         
-    -   title: color guard captain
+    -   title: color guard captains
         members:
-        -   Aaliah Ceballos
-    
+        -   Zander Caulderon
+        -   Madison Parreira
+
+    -   title: flag captain
+        members:
+        -   Lucero Guzman
+
+    -   title: ID captain
+        members:
+        -   Dezerae Garcia
+
     -   title: percussion captain
         members:
-        -   Gisele Ramirez
+        -   Jeremiah Garza
 
-    music: The Washington Post March by John Phillip Sousa
+    music: >
+        The Voice of the Guns by Kenneth Alford
 
     notes:
 

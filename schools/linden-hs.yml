@@ -6,9 +6,9 @@ staff:
 -   &troy-rexelle "Troy Rexelle (rex-EHL)"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: "Linden Lion Regiment"
+    nickname: Lion Regiment
 
     directors:
     -   Bernadette Dempsey
@@ -25,19 +25,14 @@ parade:
     leaders:
     -   title: drum major
         members:
-        -   Jack Herrington
-
-    -   title: color guard captains
-        members:
-        -   Arianna Ramirez
-        -   Jocelyn Torres
+        -   Olivia Frennette
 
     -   title: percusson captain
         members:
-        -   Hayden Williams
+        -   Gabby Laguna
 
     music: >
-        The Peacemaker by Karl L. King
+        The Voice of the Guns by Kenneth J. Alford
 
     notes: >
 

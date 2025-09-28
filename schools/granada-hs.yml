@@ -7,41 +7,38 @@ staff:
 
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: Matador Marching Band
+    nickname: Granada High School Marching Band and City of Livermore Color Guard
 
     directors:
     -   George Pascoe
 
     staff:
-    -   title: color guard instructors
+    -   title: instructed by
         members:
         -   Sierra Sowa
         -   Natasha Mihelcic (Natasha mih-HEHL-chich)
-
-    -   title: percussion instructors
-        members:
-        -   Jennifer Wong
-        -   Teresa Vaughn
-        -   Drake Small
+        -   Zoe Vaughn
 
     leaders:
     -   title: drum major
         members:
-        -   Eleanor Kraft
+        -   Daniel Booth
 
     -   title: color guard captains
         members:
-        -   Sara Willey
-        -   Sofia Borque
+        -   Sophie de Frenchie
+        -   Caitlin Craighead
+        -   Violet McCloud
+        -   Kylie Cato
 
     -   title: percussion captain
         members:
-        -   Sofie Yuan (Sofie rehn)
+        -   Ava Taylor
 
     music: >
-        A Slavic Farewell by Vasilij Ivanovitj Agapkin
+        Illinois March by Edwin Goldman
 
     notes: >
 

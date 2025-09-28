@@ -7,7 +7,7 @@ staff:
 -   
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Husky Marching Band
 
@@ -15,33 +15,33 @@ parade:
     -   Daniel Edwards
 
     staff:
-    -   title:  color guard instructor
-        members:
-        -   Doug Slocum
-
-    -   title:  percussion instructor
-        members:
-        -   Adriel Flores
-
     -   title:  marching instructor
         members:
         -   Ben Benavides
 
+    -   title:  percussion instructors
+        members:
+        -   Adriel Flores
+        -   Vince Wu
+
+    -   title:  color guard instructor
+        members:
+        -   Sarah Curran
+
     leaders:
     -   title: drum major
         members:
-        -   Deshna Kankaria
+        -   Anvitha Moola
     
     -   title: color guard captain
         members:
-        -   Yilin Shen (yee-LEEN shehn)
+        -   Yilin Shen (YEE-lihn shehn)
     
     -   title: percussion captain
         members:
         -   Justin Chen
 
     music: >
-        Eagle Squadron
-        by Kenneth J. Alford
+        The Voice of the Guns by Kenneth J. Alford
 
     notes: >

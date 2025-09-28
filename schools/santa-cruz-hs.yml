@@ -3,7 +3,7 @@ name: "Santa Cruz High School"
 city: "Santa Cruz, CA"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: "Cardinal Regiment"
 
@@ -11,32 +11,34 @@ parade:
     -   "Christina Latham (kris-TEE-nah LAY-tham)"
 
     staff:
-    -   title: "color guard instructor"
+    -   title: color guard instructor
         members:
         -   "Keegan McCoy"
 
-    -   title: "percussion instructor"
+    -   title: percussion instructor
         members:
         -   Leo Reyes-Jiminez
-        -   Hayden Wofford
+
+    -   title: bagpipe instructor
+        members:
+        -   Jay Salter
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   "Zoe Miller"
+        -   Joaquin Fitzsimmons
 
-    -   title: "color guard captain"
+    -   title: color guard captain
         members:
-        -   Reese Darby
+        -   Georgia Polissar
         
-    -   title: "percussion captains"
+    -   title: percussion captains
         members:
-        -   Avery Adae
-        -   Ryan Durand
-        -   Ezze Farraziano
-        -   Kai Tomas Nasef
+        -   Avery Addae
+        -   Jackson Ratan
+        -   Xander Shulman
 
     music: >
-        Army of the Nile by Kenneth Alford
+        Spine of the Devil by Waymond O. Bullock
     
     notes: >

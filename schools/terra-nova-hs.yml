@@ -3,77 +3,72 @@ name: "Terra Nova High School"
 city: "Pacifica, CA"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Terra Nova High School Marching Band
 
     directors:
-    -   Oliver Bishop
+    -   Oliver Bishop-Peters
 
     staff:
-    -   title: percussion instructor
+    -   title: instructed by
         members:
         -   Andrew Rose
-
-    -   title: visual instructor
-        members:
-        -   Allyson Ward
-
-    -   title: color guard instructor
-        members:
-        -   Shaw Lawn Bisson-Yang
+        -   Alder Ward
+        -   Bennet Renolds
+        -   Matthew Gallegos
+        -   Shaow Lawn Bisson-Yang
 
     leaders:
     -   title: drum major
         members:
-        -   Napoleon Calimlin the third
+        -   Nole Beutler
 
     -   title: color guard captain
         members:
-        -   Mari Ter-Hi-Den
+        -   Pheobe Daly
 
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Jaydon Ing
+        -   Daniel Salas
+        -   William Sang
 
     music: >
-        The Thunderer by John Philip Sousa
+        Okay by David Reed
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: Terra Nova Marching Band
+    nickname: Terra Nova High SchoolMarching Band
 
     directors:
-    -   Oliver Bishop
+    -   Oliver Bishop-Peters
 
     staff:
-    -   title: percussion instructor
+    -   title: instructed
         members:
         -   Andrew Rose
-
-    -   title: visual and music instructor
-        members:
-        -   Allyson Ward
-
-    -   title: color guard instructor
-        members:
-        -   Shaw Lawn Bisson-Yang
+        -   Alder Ward
+        -   Bennet Renolds
+        -   Matthew Gallegos
+        -   Shaow Lawn Bisson-Yang
 
     leaders:
-    -   title: field conductor
+    -   title: field conductors
         members:
-        -   Napoleon Calimlin the third
+        -   Naia Wolf
+        -   Nole Beutler
 
     -   title: color guard captain
         members:
-        -   Mari Ter-Hi-Den
+        -   Pheobe Daly
 
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Jaydon Ing
+        -   Daniel Salas
+        -   William Sang
 
-    program: Desperado
+    program: Havana Nights
 
     music: 
 

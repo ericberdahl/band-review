@@ -2,54 +2,36 @@ name: "Richmond High School"
 
 city: Richmond, CA
 
-fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Richmond High School Marching Band
 
     directors:
     -   Andrew Wilke
-    -   Jonathan Perez
-    -   Rod Santos
 
     staff:
     -   title: instructed by
         members:
-        -   Maggie Burns
-        -   Issac Lantan
+        -   Rod Santos
+        -   Jordyn Mader
 
     leaders:
     -   title: drum majors
         members:
-        -   Manuel Trujillo
-        -   Nikky Barron
+        -   Bella Mariscal
     
     -   title: color guard captain
         members:
-        -    Daisy Aguilar
+        -    Erik Vidaurre
     
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Leslie Ruiz
+        -   Natali Mendoza
+        -   Xitlaly Sanchez
 
-    music: The Thunderer by John Philip Sousa
+    music: >
+        Crown of Castle by Johnny Vinson
 
     notes:
 

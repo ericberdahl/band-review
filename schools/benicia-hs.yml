@@ -6,34 +6,38 @@ students:
 
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Benicia High School Panther Marching Band
 
     directors:
-    -   Candice Crismond
+    -   Candice Crismond-Hanna
 
     staff:
-    -   title: color guard instructors
+    -   title: color guard director
         members:
-        -   Jamie Hjeltness (Jamie YÜLT-nihs)
         -   Conrado Escudero
+
+    -   title: color guard tech
+        members:
+        -   Aaliyah Britt
 
     leaders:
     -   title: drum major
         members:
-        -   Quinn Kelly
+        -   Daniel Delgado
 
     -   title: color guard captains
         members:
-        -   Abby Mulugeta
-        -   Lindsey Charlson
+        -   Lia Laurence
+        -   Rana Abdou
 
     -   title: percussion captain
         members:
         -   Evan Reed
 
-    music: Knight Templar by George Allan
+    music: >
+        Sarafand by G.H. Willcocks
 
     notes: >
 

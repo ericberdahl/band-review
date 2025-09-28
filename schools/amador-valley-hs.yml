@@ -3,55 +3,68 @@ name: Amador Valley High School
 city: Pleasanton, CA
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: Amador Valley High School Marching Band and Color Guard
+    nickname: Amador Valley High School Marching Dons
 
     directors:
     -   Jonathan Grantham
     -   Matthew Fell
     
     staff:
+    -   title: caption heads
+        members:
+        -   Marcelino Nambo
+        -   David Ziehm
+        -   Joseph Staab
+
+    -   title: design team
+        members:
+        -   Jessica Slabaugh
+        -   Peter Bates
+        -   Benji Baker
+        -   Steve Vento
+
     -   title: instructed by
         members:
-        -   David Ziehm
-        -   Ryan Madayag
-        -   Karen Eskarous
-        -   Marcelino Nambo
-        -   Everrett Henrie
         -   Ioana Ana
         -   Geo Garcia
         -   Camille Borris
         -   Marvin Reed
-        -   Victor Alcaraz
-        -   Randell Lee
-        -   Joey Staab
-        -   Tiffany Castelan
+        -   Madison Notari
+        -   Mihir Joshi
+        -   Everrett Henrie
+        -   Karen Eskarous
+        -   Jorge Ziehm-Tovar
+        -   Ryan Madayag
         -   Joey Jandeleit
-        -   Thomas Murphy
-        -   Zach Schultz
+        -   Paul Lee
         -   George Fernandez
+        -   Thomas Murphy
+        -   Crisanto Gonzales
+        -   James Borris
 
     leaders:
     -   title: field conductors
         members:
-        -   Vardaan Singhania (vehr-DAN Singhania)
         -   Emily Choe
         -   Athrv Gupta (UH-thurv Gupta)
         -   Silas Fell
         -   Nicole Zhang
+        -   Kangmin Ryu
 
     -   title: color guard captains
         members:
-        -   Malvika Nalgaraj
+        -   Malvika Nagaraj
         -   Ace Yu
+        -   Briahna Ma
 
     -   title: percussion captains
         members:
-        -   Alex Raj
-        -   Raghav Chipiri
+        -   Anish Khadikar (Anish "cattle-car")
+        -   Daniel Su
 
-    program: Color Full
+    program: Bonjour, Bonjour!
 
     music: >
 

@@ -6,28 +6,33 @@ staff:
 -   &jonathan-raman "Jonathan Raman (Jonathan RAH-men)"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: West High Wolf Pack Marching Band
 
     directors:
     -   *jonathan-raman
 
+    staff:
+    -   title: instructed by
+        members:
+        -   Michael Gregonis (Michael greh-GOH-nees)
+
     leaders:
     -   title: drum major
         members:
-        -   Rebecca Dubie
+        -   Joseph Reis (Joseph REESE)
 
     -   title: color guard captain
         members:
-        -   Goonj Gautam (GOON-j GOH-tuhm)
+        -   Goonj Gautam (GOON-juh GOH-tuhm)
 
     -   title: percussion captain
         members:
-        -   Sophia Ipong (Sophia EE-pong)
+        -   Johnny Fields
 
     music: >
-        Under the Double Eagle March by Josef Franz Wagner, arranged by Andrew Glover
+        Cyrus the Great March by Karl L. King, arranged by Alan Gregory
 
     notes: >
 

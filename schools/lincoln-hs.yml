@@ -3,7 +3,7 @@ name: "Lincoln High School"
 city: "Stockton, CA"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: &band-review-nickname Lincoln High School Marching Band
 
@@ -13,34 +13,30 @@ parade:
     -   Jazareth Valencia
 
     staff:
-    -   title: color guard instructors
+    -   title: instructed by
         members:
         -   Julia Cornejo
         -   Finn Wonacott
-
-    -   title: percussion instructors
-        members:
         -   Trish Pangan-Kennedy
-        -   Karl Udang
+        -   Leslie Vazquez
 
     leaders:
     -   title: drum major
         members:
-        -   Atticus Chan
+        -   Kaylee Villagomez
 
     -   title: color guard captains
         members:
-        -   Kylie Dahl
-        -   Max Yap
-        -   Savannika Im (sah-vah-NEE-kah ehm)
+        -   Ysabel Trimble
+        -   Maxine Yap
 
     -   title: percussion captains
         members:
         -   Glenn Pillsbury
-        -   Rei Vindiola
+        -   Michael Perez
 
     music: >
-        the Royal Welch Fusiliers by John Philip Sousa
+        Eagle Squadron by Kenneth J. Alford
 
     notes: >
 

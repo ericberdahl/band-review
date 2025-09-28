@@ -56,56 +56,38 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Del Mar High School Marching Band and Colorguard
 
     directors:
-    -   *lindsey-goetowski
+    -   *william-burkhead
 
     staff:
-    -   title: assistant director
+    -   title: instructed by
         members:
         -   *kale-duprey
-
-    -   title: visual and logistic instructor
-        members:
-        -   *lidia-luque
-
-    -   title: percussion instructor
-        members:
-        -   Desmond Rix
-
-    -   title: brass instructor
-        members:
         -   Lillian Escobar
-
-    -   title: color guard instructor
-        members:
         -   Marissa Escamilla
-
-    -   title: color guard content creator
-        members:
-        -   Victor Ramos
+        -   Desmond Rix
+        -   Ian Leutenegger
+        -   *lidia-luque
+        -   Kiran Nair
 
     leaders:
     -   title: field conductor
-        members:
-        -   *lindsey-goetowski
-
-    -   title: assistant field conductor
         members:
         -   James Butler
 
     -   title: color guard captain
         members:
-        -   Ren Lockwood
+        -   Serena Ganon
 
     -   title: percussion captain
         members:
-        -   Alessio Dyrby
+        -   Alessio Dyrby (Alessia "derby")
 
-    program: Raising Atlantis
+    program: Boldy Go!
 
     music: >
 

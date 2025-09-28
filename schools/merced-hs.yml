@@ -3,33 +3,43 @@ name: "Merced High School"
 city: "Merced, CA"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Merced Marching 100
 
     directors:
     -   Ashley Shine
+    -   David Clark
+
+    staff:
+    -   title: color guard instructors
+        members:
+        -   Hermione Guzman
+        -   Mark Ramirez
+        -   Adeneli Lopez
+
+    -   title: percussion instructors
+        members:
+        -   Fernando Barragan
+        -   Ricardo Mercado
+        -   Havy Lee
+        -   Drake Van Vloten
 
     leaders:
     -   title: drum major
         members:
-        -   Everett Viers
+        -   Kaira Quinn (KEH-ruh Quinn)
 
-    -   title: color guard captains
+    -   title: color guard captain
         members:
-        -   Hermione Guzman
-        -   Leslie Mendoza
-        -   Ruben Garcia
+        -   Katie Brown
     
-    -   title: percussion captains
+    -   title: percussion captain
         members:
-        -   Fernando Barragan
-        -   Ian Flores
-        -   Joshua Powell
-        -   Ricardo Mercado
+        -   Ezra Winek
     
     music: >
-        Under Two Flags by Bramwell Coles
+        Margam Abbey by Tom J. Powell
 
     notes: >
 

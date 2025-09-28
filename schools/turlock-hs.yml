@@ -3,7 +3,7 @@ name: "Turlock High School"
 city: Turlock, CA
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Bulldog Band and Color Guard
 
@@ -11,34 +11,38 @@ parade:
     -   Sarah Carpenter
 
     staff:
-    -   title: percussion instructors
-        members:
-        -   Justine Quiralte-Reyes
-        -   Andrew Rose
-
     -   title: color guard instructors
         members:
         -   Julia Cornejo
-        -   Hanna Whitfield
-        -   Alberto Mercado
+
+    -   title: percussion instructors
+        members:
+        -   Andrew Rose
+        -   Nathan Proctor
+        -   Anissa Jara
+
+    -   title: marching and brass instructor
+        members:
+        -   Sara Yang
 
     leaders:
     -   title: drum major
         members:
-        -   Addison Hoover
+        -   Aaron Meraz
     
     -   title: color guard captains
         members:
-        -   Ava Weatherbee
-        -   Diana Guzman
+        -   Elise Fripp
+        -   Letyssia Galster
+        -   Deeana Guzman
     
     -   title: percussion captains
         members:
-        -   Kaylee Nguyen
-        -   Nevaeh Hernandez
+        -   Dominic Giambelluca
+        -   Alex Cruz
 
     music: >
-        Glorious Victory by W.M. Kendall
+        The Picador by John Philip Sousa
 
     notes: >
 

@@ -3,7 +3,7 @@ name: "Emerald High School"
 city: "Dublin, California"
 
 parade:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: "Emerald High School Marching Band and Color Guard"
 
@@ -11,29 +11,105 @@ parade:
     -   "Jaspar Tran"
 
     staff: 
-#    -   title: "instructed by"
-#        members:
+    -   title: Color Guard Caption Head
+        members:
+        -   Onel Higginbotham
+
+    -   title: Battery Tech and Arranger
+        members:
+        -   Lyle Elster
+
+    -   title: Battery Tech
+        members:
+        -   Aditi Joshi
 
     leaders:
-#    -   title: "drum major"
-#        members:
+    -   title: drum major
+        members:
+        -   Sravya Mangamuri (SHRAH-vee-yah mung-gah-MOO-ree)
 
-    music: 
+    -   title: color guard captain
+        members:
+        -   Choksha Chamakura
+
+    -   title: percussion captain
+        members:
+        -   Jan Palma
+
+    music: >
+        Holding Out For a Hero by Bonnie Tyler
 
     notes: 
 
 fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: "Emerald High School Marching Band and Color Guard"
 
     directors: *band-review-directors
 
     staff: 
+    -   title: music and percussion arranger
+        members:
+        -   Lyle Elster
+
+    -   title: drill designer
+        members:
+        -   Tommy Roam
+
+    -   title: color guard choreographer and caption head
+        members:
+        -   Onel Higginbotham
+
+    -   title: audio system engineer and instructor
+        members:
+        -   Kai Gottschalk
+
+    -   title: visual caption head
+        members:
+        -   Matthew Sieve
+
+    -   title: visual and field conductor instructor
+        members:
+        -   Marco Duldulao
+
+    -   title: visual and design instructor
+        members:
+        -   Shawn Griddine
+
+    -   title: visual instructors
+        members:
+        -   Rebecca Miles
+        -   Marvin Reed
+        -   Ash Reyes
+        -   Korben Reyes
+
+    -   title: front ensemble tech
+        members:
+        -   Justin Shebert
+
+    -   title: battery techs
+        members:
+        -   Lyle Elster
+        -   Aditi Joshi
+        -   Cael Ross
 
     leaders:
+    -   title: field conductors
+        members:
+        -   Aadarsh Vivek
+        -   Raghuveer Marada
+        -   Clair An
 
-    program: 
+    -   title: color guard captain
+        members:
+        -   Choksha Chamakura
+
+    -   title: percussion captain
+        members:
+        -   Jan Palma
+
+    program: With You
 
     music: 
 

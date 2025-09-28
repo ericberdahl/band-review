@@ -17,7 +17,7 @@ students:
 -   &sierra-phillips "Sierra Phillips"
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Rancho Cotate High School Marching Band
 
@@ -27,27 +27,31 @@ fieldshow:
     staff: 
     -   title: instructed by
         members:
-        -   *abel-moya
         -   *daniela-hernandez
+        -   Ryan Ristine
+        -   Colin Batlett
+        -   Kaitlyn Remourin
         -   Ish Sandoval
         -   Stephanie Alcala
-        -   Ryan Ristine
 
     leaders:
     -   title: field conductor
         members:
-        -   Genesis Glenister
+        -   Ady Palomec
 
-    -   title: color guard captain
+    -   title: color guard captains
         members:
         -   Ashley Castaneda
+        -   Abril Magno
+        -   Angel Rojas
+        -   Justin Lopez
 
     -   title: percussion captains
         members:
-        -   Kyan Banzon
-        -   Milo Crowley
+        -   Anthony Alonso
+        -   Jay Rojas
 
-    program: RC3D
+    program: Three
 
     description: >
 

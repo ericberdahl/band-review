@@ -3,25 +3,27 @@ name: Edison High School
 city: "Stockton, California"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: Edison High School Marching Band
+    nickname: Marching Vikings
 
     directors:
     -   Christopher McCoy
+    -   Angelio Tela
     -   Daniel Coronado
 
     staff: 
     -   title: instructed by
         members:
-        -   Micaela Rayray-Nhan
-        -   Ghisel Escolona
         -   Jerry Hernandez
+        -   Ghisel Escolona
+        -   Efren Garnica
+        -   Anahi Saverdra
 
     leaders:
     -   title: drum major
         members:
-        -   Efren Ontiveros
+        -   Analiya Silva
 
     -   title: color guard captain
         members:
@@ -32,7 +34,7 @@ parade:
         -   Melina Alvarado
 
     music: >
-        General Mitchell March by Robert Hall
+        Headway March by Henry Fillmore, arranged by Nicholas J. Contorno
 
     notes: 
 

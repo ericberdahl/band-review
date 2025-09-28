@@ -7,25 +7,39 @@ staff:
 -   &troy-rexelle "Troy Rexelle (rex-EHL)"
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: Castro Valley Trojan Brigade
+    nickname: Castro Valley High Trojan Brigade
 
     directors:
     -   *troy-rexelle
 
     staff:
-    -   title: visual caption head
+    -   title: assistant director
+        members:
+        -   Lotan Yeung
+
+    -   title: visual caption instructor
         members:
         -   Reese Wiles
 
-    -   title: percussion caption head
+    -   title: percussion caption instructor
         members:
         -   Ryan Yee
 
-    -   title: guard caption head
+    -   title: color guard caption instructor
         members:
         -   Erin Miller
+
+    -   title: drumline lead
+        members:
+        -   Adam Roura
+
+    -   title: drumline techs
+        members:
+        -   Casey Tessier (Casey "tess-ee-AIR")
+        -   Jayden Mandler Sander
+        -   Luna Estebanez
 
     -   title: front ensemble lead
         members:
@@ -35,36 +49,37 @@ fieldshow:
         members:
         -   Christian Gerardo
 
-    -   title: guard techs
+    -   title: color guard techs
         members:
-        -   Diane Jin
-        -   Andrew Thomas
+        -   Teresa Lee
 
-    -   title: drumline tech
+    -   title: marching techs
         members:
-        -   Hudson
+        -   Soraya Roman
+        -   Oscar Hernandez
     
     leaders:
-    -   title: field conductors
+    -   title: field conductor
         members:
-        -   Aleksandra Hurka
-        -   Austin Chen
-        -   Angel Chen
+        -   Aleksaundra Hurka
+
+    -   title: assistant field conductors
+        members:
+        -   Janice Ko
+        -   Kristina Hada
         
     -   title: color guard captains
         members:
-        -   Haylie Do
+        -   Lia d'Errico
         -   Lulu Sun
     
-    -   title: drumline captain
+    -   title: percussion captains
         members:
-        -   Luna Estebenez
+        -   Lars Lund
+        -   Edward DeMartini
+        -   Claire Maricle
 
-    -   title: front ensemble captain
-        members:
-        -   Camwron Parnell
-
-    program: Shattered
+    program: The Hive
 
     music: >
 

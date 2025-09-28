@@ -3,7 +3,7 @@ name: Alhambra High School
 city: Martinez, CA
 
 parade:
-    lastUpdated: 2023-10-20 13:43:13 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Bulldog Band
 
@@ -11,21 +11,25 @@ parade:
     -   Sara Stafford
 
     staff:
-    -   title: color guard coach
+    -   title: instructed by
         members:
         -   Teresa Minervini
 
     leaders:
-    -   title: drum major
+    -   title: drum majors
         members:
-        -   Char Davenport
+        -   Landon Poston
+        -   Myron Millena
 
-    -   title: auxiliary captain
+    -   title: color guard captains
         members:
-        -   Mars Kersey
+        -   Brynn Siebenrock
+        -   Eva Shreve
 
-    music: The National Game by John Philip Sousa 
+    -   title: percussion captains
+        members:
+        -   Danny Dominguez
+
+    music: Basic Street Blues by Spencer Williams, arranged by Bill Moffit
 
     notes: >
-        The band says thank you to the Alhambra High School community for your incredible support.
-        The Bulldog Band is so proud to represent Martinez and have one thing to say…PLAY BALL! 

@@ -3,7 +3,7 @@ name: "San Ramon Valley High School"
 city: "Danville, California"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: "San Ramon Valley Marching Band and Color Guard"
 
@@ -11,24 +11,25 @@ parade:
     -   Brant Nishida
 
     staff: 
-    -   title: percussion instructor
+    -   title: instructed by
         members:
-        -   Tony Adragna
+        -   Tony Adragna (Tony ah-DRAHN-yah)
 
     leaders:
     -   title: drum major
         members:
-        -   Sean Kent
+        -   Ricky Lee
 
-    -   title: color guard captain
+    -   title: color guard captains
         members:
-        -   Divya Bhamidipati (DIH-vih-ya bah-mih-dih-PAH-ti)
+        -   Grace Burnett
+        -   Chloe Gross
 
     -   title: percussion captain
         members:
-        -   Zac Lew
+        -   Max Hsieh (Max shyeh)
 
     music: >
-        The High School Cadets by John Philip Sousa
+        Hilo March by Joseph Ae'a (Joseph ah-EH-ah)
 
     notes: 

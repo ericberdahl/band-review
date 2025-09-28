@@ -3,22 +3,37 @@ name: "Will C Wood High School"
 city: "Vacaville, California"
 
 parade:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: "Will C Wood High School Marching Band and Color Guard"
+    nickname: Will C Wood Marching Band
 
     directors: 
-    -   "Eric Roberts"
+    -   Eric Roberts
 
     staff: 
-#    -   title: "instructed by"
-#        members:
+    -   title: assistant director
+        members:
+        -   Joanna Mackinson
+
+    -   title: color guard instructor
+        members:
+        -   Xitlali Jiminez (zit-LAH-lee Jiminez)
 
     leaders:
-#    -   title: "drum major"
-#        members:
+    -   title: drum major
+        members:
+        -   Nayeli Fregoso
 
-    music: 
+    -   title: color guard captain
+        members:
+        -   Isabella Glover
+
+    -   title: percussion captain
+        members:
+        -   Dawnicah West
+
+    music: >
+        Arnhem by Albert E. Kelly
 
     notes: 
 

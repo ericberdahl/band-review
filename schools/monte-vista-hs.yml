@@ -3,7 +3,7 @@ name: Monte Vista High School
 city: Danville, CA
 
 fieldshow:
-    lastUpdated: 2022-10-14 10:26:28 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Monte Vista High School Marching Band
 
@@ -11,48 +11,35 @@ fieldshow:
     -   Ed Cloyd
 
     staff:
-    -   title: visual designer
-        members:
-        -   Peter Bates
-
-    -   title: visual instructors
-        members:
-        -   Jesse Burge
-        -   Sam Cook
-
-    -   title: music instructor
+    -   title: instructed by
         members:
         -   Dennis Aquilina
-
-    -   title: percussion instructors
-        members:
         -   Dale Pauly
         -   Matt Lowe
-        -   Maddie Chamberlain
-        -   Theo Hui
+        -   Taylor Slight
+        -   Steven Bautista
+        -   Grace Cloyd
+        -   Steven Kelly
 
     leaders:
-    -   title: drum majors
+    -   title: field conductors
         members:
-        -   David Serpan
-        -   Nora Hui
+        -   Caden Harris
+        -   Caleb Pizarro
 
-    -   title: auxiliary captains
+    -   title: color guard captains
         members:
-        -   Makena Eggiman
-        -   Izzy Feng
+        -   Mika Lewandowski
+        -   Mariella Wui
 
     -   title: percussion captains
         members:
-        -   Blake Morgan
-        -   Shaumik Prabhu
-        -   Maya Ferrante
-        -   Dominic Madeira
+        -   Jackie Rogers
+        -   Rachel Antoun
+        -   Sofia Musangkay
 
-    program: The Swan
+    program: The Art of Industry
 
     description: >
-        Through many moods and textures, "The Swan" highlights the importance of the journey beyond the destination and the conflicts to be overcome. 
 
     music: >
-        themes from Camille Saint-Saens and "The Swan" from Carnival of the Animals

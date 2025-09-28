@@ -27,7 +27,7 @@ students:
 -   &brian-tran "Brian Tran"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: &band-review-nickname Rodriguez Entertainment Unit
 
@@ -41,39 +41,42 @@ parade:
         -   *jaclyn-wren
         -   *jaleel-gospel
         -   Jordan Varner
+        -   Yahir Calvas
         -   Annadine Maramontes
-        -   Yahir Calva-Hernandez
-        -   Charles Henderson the third
-        -   *jhiana-illenberg
+        -   Charles Henderson
+        -   Nicky Carlos
+        -   Sasha
 
     leaders:
     -   title: drum major
         members:
-        -   Ryan Boothe
-        -   Emma Jones
+        -   James Brockman
 
     -   title: color guard captains
         members:
-        -   Hayden Papadopoulos
-        -   Siena Guerrera
-        -   Aaliyah Burrell
-        -   Allison Bouchard
+        -   Olivia Freire
+        -   Jesse Aguilar
 
-    -   title: percussion captains
+    -   title: battery captains
         members:
-        -   Isis Fernandez
+        -   Aubrey Richard
         -   Isabelle Capuno
         -   Alexa Belocura
+
+    -   title: front ensemble captains
+        members:
         -   Armaan Khaira
+        -   Karlson Belarmino
         -   Dylan Ny
+        -   Jai Valdez
 
     music: >
-        Bravura by C.E. Duble
+        Coat of Arms by George Kelly
 
     notes: >
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: *band-review-nickname
 
@@ -84,25 +87,29 @@ fieldshow:
     leaders:
     -   title: field conductors
         members:
-        -   Ryan Boothe
-        -   Emma Jones
+        -   James Brockman
+        -   Parmin Mahalatina
+        -   Miles Wyly
 
     -   title: color guard captains
         members:
-        -   Hayden Papadopoulos
-        -   Sienna Guerra
-        -   Allison Bouchard
-        -   Aaliyah Burrell
+        -   Olivia Freire
+        -   Jesse Aguilar
 
-    -   title: percussion captains
+    -   title: battery captains
         members:
-        -   Isis Fernandez
+        -   Aubrey Richard
         -   Isabelle Capuno
         -   Alexa Belocura
-        -   Armaan Khaira
-        -   Dylan Ny
 
-    program: I Am
+    -   title: front ensemble captains
+        members:
+        -   Armaan Khaira
+        -   Karlson Belarmino
+        -   Dylan Ny
+        -   Jai Valdez
+
+    program: Emergence
 
     description: >
 

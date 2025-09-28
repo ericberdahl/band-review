@@ -3,50 +3,26 @@ name: John Swett High School
 city: Crockett, California
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: John Swett High School Marching Band
+    nickname: John Swett High School Marching Band and Color Guard
 
     directors:
-    -   Jordan Parker
+    -   Felix Cadiz
 
     staff:
-    -   title: battery caption head
+    -   title: instructed by
         members:
-        -   Jordan Varner
-
-    -   title: front ensemble caption head
-        members:
-        -   Nathan Jalal
-
-    -   title: colorguard instructors
-        members:
+        -   Dean Colombo
         -   Steven Gray
-        -   Tayler Muelpolder (Tayler MYOO-pohl-dur)
-
-    -   title: drum major instructor
-        members:
-        -   Annalei Jones
-
-    -   title: drill designer
-        members:
-        -   Andy Zheng
+        -   Dylan Padua
 
     leaders:
-    -   title: field conductor
-        members:
-        -   Daniel Rocha
-    
     -   title: color guard captain
         members:
         -   Nicholas Hoffman
-    
-    -   title: percussion captains
-        members:
-        -   Talan Chittalath (TAHL-ahn chi-TAHL-aht)
-        -   Yatziri Montiel Cervantex
-    
-    program: Under the Red Hood
+        
+    program: Chasing Sunshine
 
     music: >
 

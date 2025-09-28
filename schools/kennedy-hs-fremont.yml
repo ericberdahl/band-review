@@ -3,33 +3,32 @@ name: "Kennedy High School"
 city: "Fremont, California"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: "Kennedy High School Marching Band"
 
     directors:
-    -   David Bickel
+    -   David Bickel (David BIK-uhl)
 
     staff: 
-    -   title: instructed by
+    -   title: Color Guard Coach
         members:
-        -   Ben Benavides
-        -   Shannon Plant
+        -   Eddy Chavarria (Eddy chah-VAHR-ee-uh)
 
     leaders:
     -   title: drum major
         members:
-        -   Ayler Ehling (EYE-ler AY-ling)
+        -   Sophia Pollock
 
     -   title: color guard captain
         members:
-        -   Zoe Oliverio
+        -   Haydden Joe Lorzenzo
 
     -   title: percussion captain
         members:
-        -   Dani Hernandez
+        -   Samantha Bottimore
 
     music: >
-        Yes by Vasily Agapkin
+        In Storm and Sunshine by John Heed
 
     notes: >

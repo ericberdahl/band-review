@@ -129,14 +129,40 @@ parade-alumni:
 fieldshow:
     isHost: true
 
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: *band-nickname
 
     directors:
     -   *moises-fagundes
 
-    staff: *band-review-staff
+    staff:
+    -   title: instructed by
+        members:
+        -   *brianna-gier
+        -   Rebecca Miles
+        -   Nathan Townsend
+        -   Aria Toofan
+        -   Gabriel Eblacas
+        -   Jose Rivera
+        -   Rosalyn Phan
+        -   Chloe Caputo
+        -   Marco Duldulao
+        -   Hunter Franklin
+        -   *ryan-myers
+        -   Lyle Elster
+        -   Ryokan Apostol
+        -   Jude Magann
+        -   Shawn Dcosta
+        -   Anna Gullet
+        -   Adam Herrera
+        -   Nic Shaw
+        -   *lily-zheng
+        -   Hasib Thayattuchira
+        -   Eddy Chavarria
+        -   *kristi-laduca
+        -   Melia Means
+        -   Grace Holmes
 
     leaders:
     -   title: field conductors
@@ -144,17 +170,20 @@ fieldshow:
         -   Jeeihn Son (jeen sohn)
         -   Elsa Lee
         -   Will Ji
+        -   Eli Chavez
 
-    -   title: color guard captain
+    -   title: color guard captains
         members:
-        -   Irene Sun
+        -   Sumit Bhunya
+        -   Nicole Armstrong
 
     -   title: percussion captains
         members:
-        -   Meghana Kumarakalva
-        -   Gabriel Thompson
+        -   Dylan Yun
+        -   Aaron Sahoo
+        -   Madison Blecha
     
-    program: Who Did It?
+    program: Four Dimensions and Beyond
 
     music: >
 

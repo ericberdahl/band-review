@@ -3,69 +3,48 @@ name: "Dublin/Emerald High School"
 city: "Dublin, CA"
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Irish Guard Marching Band and Color Guard
 
     directors:
-    -   Jack Bainton
-    -   Jasper Tran
+    -   Jack Bainton (Jack "bay-n-tuhn")
 
     staff:
-    -   title: visual caption head
+    -   title: instructed by
         members:
         -   Matt Sieve (Matt SEE-vee)
-
-    -   title: brass caption head
-        members:
-        -   Nick Garcia
-
-    -   title: percussion caption heads
-        members:
-        -   Joey Staab
-        -   Lyle Elster
-
-    -   title: percussion instructors
-        members:
-        -   Alyssa Miceli
-        -   Yannis Shpits (YAW-nihs Shpits)
+        -   Rachel Nishijima
         -   Tony Duran
-        -   Grant Bramham
-
-    -   title: color guard caption head
-        members:
+        -   Lyle Elster
+        -   Yannis Shpits (YAW-nihs Shpits)
+        -   Justin Shebert
         -   Fou Saelee
-
-    -   title: color guard instructor
-        members:
         -   Garrett Moya
         -   Andrew Lawton
         -   Grace Holmes
-        -   Michael Ohayon
+        -   Jarvis Nguyen
+        -   Ethan Cheung
+        -   Catrina Currier
         
     leaders:
-    -   title: field conductor
+    -   title: field conductors
         members:
-        -   Marco Duldulao
-
-    -   title: assistant field conductor
-        members:
-        -   Anthony Lam
         -   Ivanna Chen
         -   Tvisha Kumar
+        -   Samuel Ryu
+        -   Sydney Majaya (Sydney muh-JAH-yah)
 
     -   title: color guard captains
         members:
-        -   Elena Guo
         -   Liana Wong
+        -   Kendal Fong
 
-    -   title: percussion captains
+    -   title: percussion captain
         members:
         -   Evan Tubera
-        -   Haley Wong
-        -   CJ Ross
-    
-    program: Prometheus Unchained
+
+    program: Rivers of Paradise
 
     music: >
 

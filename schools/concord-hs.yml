@@ -3,23 +3,34 @@ name: "Concord High School"
 city: "Concord, CA"
 
 parade:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: "Concord High School Marching Band and Color Guard"
+    nickname: Concord High School Marching Bears
 
     directors: 
-    -   "Shane Barrows"
-    -   "Andrew LaBelle"
+    -   Shane Barrows
 
     staff: 
-#    -   title: "instructed by"
-#        members:
-
+    -   title: instructed by
+        members:
+        -   Andy La (Andy LAW)
+        -   Lulu Cardoza
+    
     leaders:
-#    -   title: "drum major"
-#        members:
+    -   title: drum major
+        members:
+        -   Killian Graham
 
-    music: 
+    -   title: color guard captain
+        members:
+        -   Elise Esterlin
+
+    -   title: percussion captain
+        members:
+        -   Roz Hoff
+
+    music: >
+        War March of the Tartars by Karl L. King
 
     notes: 
 

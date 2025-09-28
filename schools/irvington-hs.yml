@@ -3,9 +3,9 @@ name: Irvington High School
 city: Fremont, CA
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: Viking Varsity Marching Band
+    nickname: Viking Marching Band
 
     directors: &directors
     -   Charlie Rodda (Charlie RAH-dah)
@@ -22,39 +22,37 @@ parade:
 
     -   title: percussion coaches
         members:
-        -   Jacob Marcado
+        -   Jacob Mercado
         -   Nadja Ryan
+        -   Jeremy Lin
 
     leaders:
     -   title: drum major
         members:
-        -   Julia Fung
+        -   Riya Ragavan
 
     -   title: color guard captains
         members:
-        -   Natalie Brahan
-        -   Hemma Buddhi
+        -   Sheryl Sun
+        -   Elaine Peng
 
     -   title: percussion captains
         members:
-        -   Jing Yee Bowen
-        -   Jeremy Lin
-        -   Chelsea Wang
-        -   Jeffrey Lee
-        -   Chelsea Zhang
-        -   Brandon Chen
-        -   Samuel Abrahm
         -   Luna Yang
+        -   Samuel Abrahm
+        -   Neha Bellamkonda
+        -   Joanne Huang
+        -   Monish Sivikumar
 
     music: >
-        Mephistopheles by Shipley Douglas
+        Centaur by Derek Brodbent, arranged by Jeffrey Stratton
 
     notes: >
 
 parade-jv:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: Viking JV Marching Band
+    nickname: Irvington JV Marching Band
 
     directors: *directors
 
@@ -63,11 +61,24 @@ parade-jv:
     leaders:
     -   title: drum major
         members:
-        -   Kirstin Zhou
-        -   Ria Ragavan
+        -   Kirsten Zhou
+
+    -   title: color guard captains
+        members:
+        -   Aarushi Jain
+        -   Lavender Huang
+        -   Jason Ngo
+
+    -   title: percussion captains
+        members:
+        -   Neha Bellamkonda
+        -   Joanne Huang
+        -   Luna Yang
+        -   Jing Yee Bowen
+        -   Vihan Navalde
 
     music: >
-        March Grandioso by Roland Forest Seitz
+        In Storm and Sunshine by J. C. Heed
 
     notes: 
 

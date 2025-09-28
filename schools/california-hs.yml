@@ -3,39 +3,51 @@ name: California High School
 city: San Ramon, CA
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
-    nickname: California High School Marching Ensemble  
+    nickname: California High School Marching Grizzlies
 
     directors:
-    -   Dan Rugani
+    -   Bob Grigas
     -   Briana Berastain
 
     staff:
-    -   title: color guard instructor
-        members:
-        -   Shea Gaier (shay GAY-ehr)
-
     -   title: percussion instructor
         members:
         -   Kishan Dutt
 
+    -   title: front ensemble instructor
+        members:
+        -   Sarah Culbertson
+
+    -   title: color guard instructor
+        members:
+        -   Saariya Malik ("sorry-uh" Malik)
+
+    -   title: visual instructor
+        members:
+        -   Trey Higgins
+
+    -   title: brass instructor
+        members:
+        -   Alex Bond
+
     leaders:
-    -   title: field conductor
+    -   title: field conductors
         members:
         -   Om Iyer
-        -   Billy Piggott (Billy pih-GOHT)
+        -   Yasasri Chintapali
     
     -   title: color guard captains
         members:
-        -   Ava Mattei
-        -   Sienna Helmer
+        -   Haanah Ly
+        -   Naomi Parsons
 
     -   title: percussion captain
         members:
-        -   Ganesh Swaminathan (gah-NESH swah-mih-NAH-thahn)
+        -   Owen Burlingame
 
-    program: A Pirates Life for Me!
+    program: Sweet Deception, a Hansel and Gretel Story
 
     music: >
 

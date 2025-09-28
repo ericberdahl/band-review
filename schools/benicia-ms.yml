@@ -9,7 +9,7 @@ students:
 -   &liliya-patterson Liliya Patterson
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Benicia Middle School Viking Band
 
@@ -17,41 +17,33 @@ parade:
     -   Paul Hanna
 
     staff:
-    -   title: color guard instructors
-        members:
-        -   Xitlali Jiminez (zit-LAH-lee Jiminez)
-        -   Amaya Soler
-        -   Cheryl Morris
-
     -   title: drumline instructors
         members:
-        -   Jaleel Gospel
+        -   Erik Boquiren (Erik boh-KEE-rehn)
         -   Taylor Slight
-        -   Haylie Miller
+        -   Nadia Malone
+
+    -   title: guard instructors
+        members:
+        -   Julius Salanga
+        -   Emily Bayless
+        -   Carmella Vitale (Carmella vih-TAHL-ee)
 
     leaders:
     -   title: drum major
         members:
-        -   Aemiliano Valentin (ah-MIH-lee-ah-noh VAH-lehn-teen)
+        -   Myles Altera
 
-    -   title: color guard captains
+    -   title: color guard captain
         members:
-        -   Titi Mulugeta
-        -   Elyse Michaud
-        -   Ella Throne
-        -   Erin Bender
+        -   Makena Schooley
 
-    -   title: percussion captains
+    -   title: percussion captain
         members:
-        -   Izaiah Cabiles
-        -   Athena Saribolis
-
-    -   title: rifle captain
-        members:
-        -   Emerson Dravland
+        -   Izaiah Cabiles (Izaiah cah-BEE-lehs)
 
     music: >
-        Alamo March by Karl L. King, arranged by James Swearingen (James SWEHR-ing-ehn)
+        Allied Honor by Karl L. King, edited by James Swearingen (James SWEHR-ing-ehn)
     
     notes: >
 

@@ -14,7 +14,7 @@ students:
 -   &luis-ojeda "Luis Ojeda"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Wells Middle School Marching Band and Color Guard
 
@@ -22,31 +22,33 @@ parade:
     -   *erik-bertelson
 
     staff:
-    -   title: color guard instructors
+    -   title: instructed by
         members:
-        -   *sasha-wirchniansky
         -   *kendle-fong
         -   *ella-mcLaughlin
+        -   Kayla Hoeppner
+        -   Emily Reyes
         -   Tyler Tsui
 
     leaders:
     -   title: drum major
         members:
-        -   Elijah Buzon
+        -   Ella Brandt
 
     -   title: color guard captains
         members:
-        -   Ashlynn Hoeppner
-        -   Marion Lee
-        -   Abby Tsui
+        -   Julianna Chiu
+        -   Madison Bajarias
     
-    -   title: percussion captain
+    -   title: percussion captains
         members:
-        -   Dhakshsinaa Manmathan
+        -   Katie Hom
+        -   Mirae Kim
+        -   Anika Kalyanaraman
 
     music: >
-        Lexington March
-        by Karl L King
+        Allied Honor
+        by K. L King
 
     notes: >
 

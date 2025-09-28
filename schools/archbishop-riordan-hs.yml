@@ -3,7 +3,7 @@ name: Archbishop Riordan High School
 city: San Francisco, CA
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Archbishop Riordan High School Band
 
@@ -13,28 +13,32 @@ parade:
     staff:
     -   title: percussion instructors
         members:
-        -   Liam Kinsella
-        -   Matt Gallegos
+        -   Matthew Gallegos
 
     -   title: color guard instructor
         members:
-        -   Victor Ramos
+        -   Audrey Lai
+
+    -   title: color guard and wind instructor
+        members:
+        -   Jordan Parker
 
     leaders:
     -   title: drum major
         members:
-        -   Josh Greenbaum
+        -   Logan Dee
+        -   Dylan Dubrwiny (Dylan dub-RIHN-ee)
 
-    -   title: color guard captains
+    -   title: color guard captain
         members:
-        -   Katelyn Leong
         -   Kaitlyn Juhl
 
     -   title: percussion captain
         members:
-        -   Chloe Hui
+        -   Benjamin McClure
 
-    music: Joyce's 71st New York Regiment March by T.B. Boyer, arranged by Mayhew L. Lake
+    music: >
+        Under the Admiral's Flagge by Julius Fucik
 
     notes: >
 

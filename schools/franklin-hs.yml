@@ -3,7 +3,7 @@ name: "Franklin High School"
 city: "Elk Grove, CA"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-27 18:00:00 -07
 
     nickname: Franklin Wildcats Sound Power Marching Band
 
@@ -11,21 +11,27 @@ parade:
     -   "Matthew Mackey"
 
     staff:
-    -   title: instructed by
+    -   title: drumline instructors
         members:
-        -   Victor Ramos
+        -   Edson Saechao
+        -   Armaan Sidhu
+        -   Nathan Pham
+        -   Kenny Liu
+
+    -   title: color guard instructors
+        members:
+        -   Tammy Petborisooth
+        -   Janessa Garcia
+        -   Kennedy Mason
+        -   Shoshana Levy
 
     leaders:
-    -   title: "drum major"
+    -   title: drum major
         members:
-        -   Fotu Fuka
-
-    -   title: "color guard captain"
-        members:
-        -   Janessa Garcia
+        -   Tyler Dang
 
     music: >
-        March of the Mounted Arms by Gert Buitenhuis
+        Mit Vollen Segeln (With Full Sails) by von Klaus Strobl
     
     notes: >
 
