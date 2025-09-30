@@ -43,13 +43,14 @@ parade:
     -   ref: "kennedy-hs-fremont"
     -   ref: "san-ramon-valley-hs"
 
-    -   ref: "emerald-hs"
     -   ref: "alhambra-hs"
+    -   ref: "emerald-hs"
 
     -   ref: "deer-valley-hs"
     -   ref: "firebaugh-hs"
     -   ref: "gustine-hs"
     -   ref: "linden-hs"
+    -   ref: "terra-nova-hs"
 
     -   ref: "fairfield-hs"
     -   ref: "franklin-hs-stockton"
@@ -57,14 +58,12 @@ parade:
     -   ref: "merrill-f-west-hs"
     -   ref: "northgate-hs"
     -   ref: "san-leandro-hs"
-    -   ref: "terra-nova-hs"
     -   ref: "will-c-wood-hs"
 
     -   ref: "benicia-hs"
     -   ref: "buhach-colony-hs"
     -   ref: "concord-hs"
     -   ref: "richmond-hs"
-    -   ref: "cesar-chavez-hs"
     -   ref: "turlock-hs"
 
     -   ref: "archbishop-riordan-hs"
@@ -99,28 +98,30 @@ fieldshow:
     # TODO - anthem performer is not confirmed
     -   anthemPerformer: "to be determined"
     -   ref: "del-mar-hs"
+    -   ref: "john-c-kimball-hs"
+    -   ref: "john-swett-hs"
     -   ref: "millennium-hs"
     -   ref: "mountain-house-hs"
-    -   ref: "john-swett-hs"
-    -   ref: "john-c-kimball-hs"
     -   ref: "south-san-francisco-hs"
+    -   ref: "westmont-hs"
 
     -   ref: "clayton-valley-hs"
+    -   ref: "monte-vista-hs"
     -   ref: "rancho-cotate-hs"
     -   ref: "st-francis-hs"
     -   ref: "terra-nova-hs"
-    -   ref: "monte-vista-hs"
 
     -   ref: "california-hs"
     -   ref: "castro-valley-hs"
     -   ref: "emerald-hs"
 
+    -   ref: "foothill-hs"
+
     -   ref: "amador-valley-hs"
+    -   ref: "american-hs"
     -   ref: "dublin-hs"
     -   ref: "rodriguez-hs"
-    -   ref: "american-hs"
 
-    -   ref: "foothill-hs"
     -   break: 15
     -   break: 15
     -   awardsLabel: "Field Show Divisions 1A and 2A"
