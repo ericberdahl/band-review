@@ -1,0 +1,33 @@
+name: "Newark Memorial High School"
+
+city: "Newark, California"
+
+parade:
+    lastUpdated: 2025-10-20 17:00:00 -07
+
+    nickname: "Newark Memorial Cougar Band"
+
+    directors: 
+    -   Brian Hobbs
+
+    staff: 
+    -   title: color guard instructor
+        members:
+        -   Monique Bull
+
+    leaders:
+    -   title: drum major
+        members:
+        -   Spencer Dix
+
+    -   title: color guard captain
+        members:
+        -   Hannah Wong
+
+    -   title: percussion captain
+        members:
+        -   Zee Brown
+
+    music: Colonel Bogey by Kenneth J. Alford 
+
+    notes: 

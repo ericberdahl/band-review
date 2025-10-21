@@ -42,7 +42,7 @@ students:
 parade:
     isHost: true
 
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2025-09-30 19:00:00 -07
 
     nickname: &band-nickname Foothill High School Marching Band and Color Guard
 
@@ -52,45 +52,49 @@ parade:
     staff: &band-review-staff
     -   title: instructed by
         members:
-        -   *shawn-griddine
-        -   *matt-sieve
-        -   *carver-frazier
         -   *brianna-gier
         -   Rebecca Miles
         -   Nathan Townsend
         -   Aria Toofan
-        -   Roger Weavil
+        -   Gabriel Eblacas
+        -   Jose Rivera
+        -   Rosalyn Phan
+        -   Chloe Caputo
+        -   Marco Duldulao
         -   Hunter Franklin
-        -   Ryokan Apostol
         -   *ryan-myers
         -   Lyle Elster
+        -   Ryokan Apostol
         -   Jude Magann
         -   Shawn Dcosta
+        -   Anna Gullet
         -   Adam Herrera
-        -   *lily-zheng
         -   Nic Shaw
+        -   *lily-zheng
+        -   Hasib Thayattuchira
         -   Eddy Chavarria
         -   *kristi-laduca
         -   Melia Means
         -   Grace Holmes
-        -   Raven Batista
 
     leaders:
-    -   title: drum majors
+    -   title: drum major
         members:
-        -   Christian Brigham
+        -   Beverley Lam
     
-    -   title: color guard captain
+    -   title: color guard captains
         members:
-        -   Irene Sun
+        -   Sumit Bhunya
+        -   Nicole Armstrong
     
     -   title: percussion captains
         members:
-        -   Meghana Kumarakalva (meh-GAH-nah koo-mah-rah-KAHL-vah)
-        -   Gabriel Thompson
+        -   Dylan Yun
+        -   Aaron Sahoo
+        -   Madison Blecha
 
     music: >
-        The Black Horse Troup by John Philip Sousa
+        Military Escort by Harold Bennett
 
     notes: >
 
@@ -136,33 +140,7 @@ fieldshow:
     directors:
     -   *moises-fagundes
 
-    staff:
-    -   title: instructed by
-        members:
-        -   *brianna-gier
-        -   Rebecca Miles
-        -   Nathan Townsend
-        -   Aria Toofan
-        -   Gabriel Eblacas
-        -   Jose Rivera
-        -   Rosalyn Phan
-        -   Chloe Caputo
-        -   Marco Duldulao
-        -   Hunter Franklin
-        -   *ryan-myers
-        -   Lyle Elster
-        -   Ryokan Apostol
-        -   Jude Magann
-        -   Shawn Dcosta
-        -   Anna Gullet
-        -   Adam Herrera
-        -   Nic Shaw
-        -   *lily-zheng
-        -   Hasib Thayattuchira
-        -   Eddy Chavarria
-        -   *kristi-laduca
-        -   Melia Means
-        -   Grace Holmes
+    staff: *band-review-staff
 
     leaders:
     -   title: field conductors

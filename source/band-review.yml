@@ -34,102 +34,106 @@ parade:
         #        dedication: the Foothill Band and their favorite trumpet section
         #        message: Way to go, Thomas!
 
+    start_time: "8:30am"
 
     lineup:
     -   colors: "the color guard from Veterans of Foreign Wars Post 6298"
     -   grandMarshal: "acclaimed Latin Jazz trumpeter, Grammy-featured recording artist, and Professor of Music, Mario Silva"
+
     -   ref: "foothill-hs"
-
-    -   ref: "kennedy-hs-fremont"
-    -   ref: "san-ramon-valley-hs"
-
+    -   ref: "wells-ms"
+    -   ref: "benicia-ms"
     -   ref: "alhambra-hs"
     -   ref: "emerald-hs"
-
+    -   ref: "san-ramon-valley-hs"
+    -   ref: "kennedy-hs-fremont"
+    -   ref: "newark-hs"
     -   ref: "deer-valley-hs"
-    -   ref: "firebaugh-hs"
+
+    -   break: 5
+
     -   ref: "gustine-hs"
-    -   ref: "linden-hs"
-    -   ref: "terra-nova-hs"
+    -   ref: "firebaugh-hs"
 
-    -   ref: "fairfield-hs"
-    -   ref: "franklin-hs-stockton"
-    -   ref: "granada-hs"
-    -   ref: "merrill-f-west-hs"
+    -   break: 10
+
     -   ref: "northgate-hs"
+    -   ref: "franklin-hs-stockton"
+    -   ref: "fairfield-hs"
     -   ref: "san-leandro-hs"
+    -   ref: "merrill-f-west-hs"
+    -   ref: "terra-nova-hs"
+    -   ref: "granada-hs"
     -   ref: "will-c-wood-hs"
-
+    -   ref: "turlock-hs"
+    -   ref: "richmond-hs"
+    -   ref: "concord-hs"
     -   ref: "benicia-hs"
     -   ref: "buhach-colony-hs"
-    -   ref: "concord-hs"
-    -   ref: "richmond-hs"
-    -   ref: "turlock-hs"
+
+    -   break: 10
 
     -   ref: "archbishop-riordan-hs"
-    -   ref: "atwater-hs"
     -   ref: "edison-hs-stockton"
-    -   ref: "merced-hs"
+    -   ref: "atwater-hs"
     -   ref: "santa-cruz-hs"
-
-    -   ref: "franklin-hs"
-    -   ref: "irvington-hs"
+    -   ref: "merced-hs"
+    -   ref: "rodriguez-hs"
+    -   ref: "lincoln-hs"
+    -   ref: "washington-hs"
     -   ref: "irvington-hs"
         unit: "parade-jv"
-    -   ref: "lincoln-hs"
-    -   ref: "rodriguez-hs"
-    -   ref: "washington-hs"
+    -   ref: "irvington-hs"
+    -   ref: "franklin-hs"
 
-    -   ref: "benicia-ms"
-    -   ref: "wells-ms"
-    -   break: 10
-    -   break: 10
-    -   break: 10
-
-    awards_time: "2:00pm"
+    awards_time: "1:45pm"
 
     awards_location: "Amador Valley High School Stadium"
 
 fieldshow:
     # TODO - start time is not confirmed
-    start_time: "4:00pm"
+    start_time: "3:15pm"
 
     lineup:
-    # TODO - anthem performer is not confirmed
-    -   anthemPerformer: "to be determined"
-    -   ref: "del-mar-hs"
+    # Full attribution includes:
+    # - Foothill Sophomore
+    # - Marching Band
+    # - Honors Wind Ensemble
+    # - Honors Jazz Band
+    # - Treble Choir Student Director
+    -   anthemPerformer: "Foothill sophomore, Marching Band percussionist, Honors Wind and Jazz musician, and Treble Choir Student Director, Ansha Anant"
+
+    -   ref: "dublin-hs"
     -   ref: "john-c-kimball-hs"
-    -   ref: "john-swett-hs"
-    -   ref: "millennium-hs"
     -   ref: "mountain-house-hs"
     -   ref: "south-san-francisco-hs"
-    -   ref: "westmont-hs"
+    -   ref: "john-swett-hs"
+    -   ref: "millennium-hs"
+    -   ref: "del-mar-hs"
 
-    -   ref: "clayton-valley-hs"
+    -   break: 15
+
     -   ref: "monte-vista-hs"
+    -   ref: "clayton-valley-hs"
     -   ref: "rancho-cotate-hs"
     -   ref: "st-francis-hs"
     -   ref: "terra-nova-hs"
 
-    -   ref: "california-hs"
-    -   ref: "castro-valley-hs"
-    -   ref: "emerald-hs"
-
-    -   ref: "foothill-hs"
-
-    -   ref: "amador-valley-hs"
-    -   ref: "american-hs"
-    -   ref: "dublin-hs"
-    -   ref: "rodriguez-hs"
-
-    -   break: 15
-    -   break: 15
     -   awardsLabel: "Field Show Divisions 1A and 2A"
         location: "here"
         time: "in 30 minutes"
-        continuation: "Field Show Divisions 5A and 6A"
-        continuationTime: "at 8:00"
-    -   awardsLabel: "Field Show Divisions 4A, 5A, and 6A"
+        continuation: "Field Show Divisions 3A through 6A"
+        continuationTime: "at 7:30"
+
+    -   ref: "emerald-hs"
+    -   ref: "castro-valley-hs"
+    -   ref: "california-hs"
+    -   ref: "rodriguez-hs"
+    -   ref: "american-hs"
+    -   ref: "amador-valley-hs"
+    -   ref: "foothill-hs"
+
+    -   awardsLabel: "Field Show Divisions 3A through 6A"
         location: "here"
         time: "in 30 minutes"
 

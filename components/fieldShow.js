@@ -4,7 +4,6 @@ import CommaSeparatedList from "./commaSeparatedList";
 import Note from './note';
 import Leadership from "./leadership";
 import NumericCitation from "./numericCitation";
-import SpaceSeparatedPhrase from "./spaceSeparatedPhrase";
 import TrophySponsor from "./trophySponsor";
 
 import { DateTime } from "luxon";
@@ -106,8 +105,12 @@ function Awards({unit, show, unitCounts})
             </>}
         </p>
         <p>
-            Whether you're from Foothill or cheering your home school, you probably know how much work it takes to hold a successful band review, where student performers can share their talent with and their love of music.
-            Today, {unitCounts.parade} bands marched in parade, {unitCounts.concert} performed in concert, and {unitCounts.fieldShow} presented field shows.
+            Whether you're from Foothill or cheering your home school, you probably know how much work it takes to hold a successful band review, where student performers can share their talent with and their love of music. 
+            Today, <CommaSeparatedList>
+                {unitCounts.parade > 0 && `${unitCounts.parade} bands marched in parade`}
+                {unitCounts.concert > 0 && `${unitCounts.concert} performed in concert,`}
+                {unitCounts.fieldShow > 0 && `${unitCounts.fieldShow} presented field shows`}
+            </CommaSeparatedList>.
             All this would not happen without the work of a small army of student and parent volunteers.
             Foothill High School thanks everyone who contributed to the success of today's Band Review.
         </p>
