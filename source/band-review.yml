@@ -19,6 +19,10 @@ units:
 # -   "concert"
 
 sponsors-general: &sponsors-general
+-   Anny Kuo
+-   Ariel Wang
+-   Shoba Praveen
+-   the Wang Family
 
 version: 0.01
 
@@ -27,12 +31,11 @@ parade:
         general: *sponsors-general
 
         trophies:
-        # -   place: Parade Sweepstakes
-        #    sponsors:
-        #    -   sponsor: the Goebel family
-        #        presenter: Thomas Goebel
-        #        dedication: the Foothill Band and their favorite trumpet section
-        #        message: Way to go, Thomas!
+        -   place: Drum Major
+            sponsors:
+            -   sponsor: Tim Rubin, proud Foothill High School Drum Major, Class of 1984.
+                message: >
+                    Keep on with this amazing event and tradition!
 
     start_time: "8:30am"
 
@@ -141,12 +144,36 @@ fieldshow:
         general: *sponsors-general
 
         trophies:
-        #-   place: 3rd place brass
-        #    sponsors:
-        #    -   sponsor: the Goebel family
-        #        presenter: Thomas Goebel
-        #        dedication: the Foothill Band and their favorite trumpet section
-        #        message: Way to go, Thomas!
+        -   place: Sweepstakes
+            sponsors:
+            -   sponsor: the Kuo Family
+                presenter: Kathrine Wang
+                message: >
+                    With heartfelt appreciation, the Kuo Family, Kathrine Wang's cherished grandparents,
+                    dedicate this trophy
+                    in loving honor of grandpa, Dr. Kung Mo Kuo. Go Foothill!
+        -   place: 1st place percussion
+            sponsors:
+            -   sponsor: Zach Szukala
+                message: Congrats and kudos to the amazing musicians!
+        -   place: 1st place (caption TBD)
+            sponsors:
+            -   sponsor: the Chen Family
+                presenter: Meng Chen
+        -   place: 1st place color guard
+            sponsors:
+            -   sponsor: anonymous
+                presenter: Colie Armstrong
+                message: >
+                    Cousins from Foothill High and Cal High Schools both performed tonight in our stadium.
+                    This trophy is dedicated to Grandma and Grandpa, proud supporters of everything music, color guard, and all of their grandchildren's endeavors.
+        -   place: 2nd place brass
+            sponsors:
+            -   sponsor: the Goebel family
+                presenter: Samuel Goebel
+                message: >
+                    Dedicated to the Foothill Marching Band for all of their hard work this season,
+                    special love sent to Sam and the baritone section. 
 
 concert:
     lineup:
