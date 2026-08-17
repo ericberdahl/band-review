@@ -1,8 +1,6 @@
 import getConfig from 'next/config'
 import Link from 'next/link';
 
-const { serverRuntimeConfig } = getConfig()
-
 function internalLink(page) {
     return page;
 }
@@ -18,7 +16,7 @@ function externalLink(page) {
 }
 
 export default function PageLink({ page, anchor, children, passHref }) {
-    const href = (serverRuntimeConfig.isExport ? externalLink(page) : internalLink(page)) + (anchor && 0 < anchor.length ? '#' + anchor : '');
+    const href = (process.env.IS_EXPORT ? externalLink(page) : internalLink(page)) + (anchor && 0 < anchor.length ? '#' + anchor : '');
 
     return (
         <Link href={href} passHref={passHref}>{children}</Link>

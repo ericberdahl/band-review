@@ -5,14 +5,14 @@ module.exports = (phase, { defaultConfig }) => {
     const nextConfig = {
         output: (PHASE_PRODUCTION_BUILD == phase ? 'export' : undefined),
 
-        serverRuntimeConfig: {
-            isExport: (PHASE_PRODUCTION_BUILD == phase),
-            deployedBasePath: '/foothill/bandreview-2024'
-        }
+        env: {
+            IS_EXPORT: (PHASE_PRODUCTION_BUILD == phase),
+            DEPLOYED_BASE_PATH: '/foothill/bandreview-2024'
+        },
     };
 
-    if (nextConfig.serverRuntimeConfig.isExport) {
-        nextConfig.basePath = nextConfig.serverRuntimeConfig.deployedBasePath;
+    if (nextConfig.env.IS_EXPORT) {
+        nextConfig.basePath = nextConfig.env.DEPLOYED_BASE_PATH;
     }
 
     return nextConfig;
