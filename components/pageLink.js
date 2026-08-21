@@ -16,7 +16,7 @@ function externalLink(page) {
 }
 
 export default function PageLink({ page, anchor, children, passHref }) {
-    const href = (process.env.IS_EXPORT ? externalLink(page) : internalLink(page)) + (anchor && 0 < anchor.length ? '#' + anchor : '');
+    const href = (process.env.IS_EXPORT.toLowerCase() === "true" ? externalLink(page) : internalLink(page)) + (anchor && 0 < anchor.length ? '#' + anchor : '');
 
     return (
         <Link href={href} passHref={passHref}>{children}</Link>
