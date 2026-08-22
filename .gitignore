@@ -36,3 +36,6 @@ yarn-error.log*
 
 # historical (TODO: remove these)
 /_*/
+
+# astro
+/.astro/

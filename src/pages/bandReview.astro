@@ -1,0 +1,88 @@
+---
+import Chapter from "../components/Chapter.astro";
+import MainLayout from "../layouts/MainLayout.astro";
+
+import { getBandReview } from "../../common/bandReview";
+
+import { DateTime } from "luxon";
+
+const bandReview = await (await getBandReview()).getStaticProps();
+const generationDate = DateTime.now().toISO();
+
+const showYear = DateTime.fromISO(bandReview.show.date).year;
+
+const paradeSchools = bandReview.parade.lineup
+    .filter((li) => li.unitType == "paradeUnit")
+    .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+const fieldShowSchools = bandReview.fieldShow.lineup
+    .filter((li) => li.unitType == "fieldShowUnit")
+    .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+
+const paradeMissingData = paradeSchools.filter(
+    (s) => DateTime.fromISO(s.lastUpdated).year != showYear,
+);
+const paradeWithData = paradeSchools.filter(
+    (s) => DateTime.fromISO(s.lastUpdated).year == showYear,
+);
+
+const fieldShowMissingData = fieldShowSchools.filter(
+    (s) => DateTime.fromISO(s.lastUpdated).year != showYear,
+);
+const fieldShowWithData = fieldShowSchools.filter(
+    (s) => DateTime.fromISO(s.lastUpdated).year == showYear,
+);
+---
+
+<MainLayout>
+    <div>
+        <Chapter>
+            <h1>
+                {bandReview.show.citation}: {
+                    DateTime.fromISO(bandReview.show.date).toLocaleString(
+                        DateTime.DATE_FULL,
+                    )
+                }
+            </h1>
+            <p>
+                {bandReview.announcer.name} &lt;{bandReview.announcer.email}&gt;
+            </p>
+            <p>
+                v{bandReview.version}, {
+                    DateTime.fromISO(generationDate).toLocaleString(
+                        DateTime.DATETIME_FULL,
+                    )
+                }
+            </p>
+
+            <h2>Table of Contents</h2>
+            <ol>
+                <li>
+                    <a href="paradeBook">Parade</a>
+                    <li><a href="fieldShowBook">Field Show</a></li>
+                    <li><a href="#parade-checkup">Parade - Checkup</a></li>
+                    <li>
+                        <a href="#fieldshow-checkup">Field Show - Checkup</a>
+                    </li>
+                </li>
+            </ol>
+
+            <h2 id="parade-checkup">Parade - Checkup</h2>
+
+            <h3>{paradeMissingData.length} Schools Missing Parade Data</h3>
+            {paradeMissingData.map((s) => <p>{s.schoolName}</p>)}
+
+            <h3>{paradeWithData.length} Schools with Parade Data</h3>
+            {paradeWithData.map((s) => <p>{s.schoolName}</p>)}
+
+            <h2 id="fieldshow-checkup">Field Show - Checkup</h2>
+
+            <h3>
+                {fieldShowMissingData.length} Schools Missing Field Show Data
+            </h3>
+            {fieldShowMissingData.map((s) => <p>{s.schoolName}</p>)}
+
+            <h3>{fieldShowWithData.length} Schools with Field Show Data</h3>
+            {fieldShowWithData.map((s) => <p>{s.schoolName}</p>)}
+        </Chapter>
+    </div>
+</MainLayout>

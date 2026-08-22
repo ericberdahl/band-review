@@ -1,0 +1,45 @@
+//
+// inspired by content at https://print-css.rocks/
+//
+
+@page {
+    size: letter;
+    margin: 2cm;
+}
+
+@page {
+    counter-increment: page;
+
+    @top-center {
+        content: string(book-title);
+        font-size: 0.8em;
+        color: #aaa;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    @bottom-left {
+        content: string(chapter-name);
+        font-size: 0.8em;
+        color: #aaa;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    @bottom-right {
+        content: counter(page);
+        font-size: 0.8em;
+        color: #aaa;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+.chapter {
+    page-break-before: always;
+}
+
+h1 {
+    string-set: book-title content(text);
+}
+
+h2 {
+    string-set: chapter-name content(text);
+}
