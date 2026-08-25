@@ -24,9 +24,11 @@
   },
   "homepage": "https://github.com/ericberdahl/band-review#readme",
   "dependencies": {
+    "@astrojs/preact": "^6.0.4",
     "astro": "^7.2.4",
     "luxon": "^3.7.2",
     "next": "^15.5.2",
+    "preact": "^10.29.8",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "sanitize-filename": "^1.6.4",
