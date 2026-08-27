@@ -1,8 +1,8 @@
-import { Announcer, AnnouncerStaticProps, SerializedAnnouncer } from './announcer';
-import { Concert, ConcertStaticProps, SerializedConcert } from './concert';
-import { FieldShow, FieldShowStaticProps, SerializedFieldShow } from './fieldShow';
-import { Parade, ParadeStaticProps, SerializedParade } from './parade';
-import { ShowCitation, ShowCitationStaticProps, SerializedShowCitation } from './showCitation';
+import { Announcer, type AnnouncerStaticProps, type SerializedAnnouncer } from './announcer';
+import { Concert, type ConcertStaticProps, type SerializedConcert } from './concert';
+import { FieldShow, type FieldShowStaticProps, type SerializedFieldShow } from './fieldShow';
+import { Parade, type ParadeStaticProps, type SerializedParade } from './parade';
+import { ShowCitation, type ShowCitationStaticProps, type SerializedShowCitation } from './showCitation';
 
 import yaml from 'yaml';
 

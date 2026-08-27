@@ -1,61 +1,61 @@
-import { Role, RoleStaticProps, SerializedRole } from './role'
+import { Role, type RoleStaticProps, type SerializedRole } from './role'
 
 import { DateTime } from 'luxon';
 
 import { strict as assert } from 'assert';
 
 type SerializedUnit = {
-    isHost? : boolean;
+    isHost?: boolean;
     lastUpdated: string;
-    nickname : string;
-    directors : string[];
-    staff : SerializedRole[];
-    leaders : SerializedRole[];
-    music : string;
-    notes : string;
+    nickname: string;
+    directors: string[];
+    staff: SerializedRole[];
+    leaders: SerializedRole[];
+    music: string;
+    notes: string;
 }
 
 export type SerializedParadeUnit = {
-    [unitKey : string ] : SerializedUnit;
+    [unitKey: string]: SerializedUnit;
     // @ts-ignore name is a required field
-    name : string;
+    name: string;
     // @ts-ignore city is a required field
-    city : string;
+    city: string;
 }
 
 export type ParadeUnitStaticProps = {
-    unitType : 'paradeUnit';
-    city : string;
-    directors : string[];
-    isHost : boolean;
-    lastUpdated : string;
-    leaders : RoleStaticProps[];
-    music : string;
-    nickname : string;
-    notes : string;
-    schoolName : string;
-    staff : RoleStaticProps[];
+    unitType: 'paradeUnit';
+    city: string;
+    directors: string[];
+    isHost: boolean;
+    lastUpdated: string;
+    leaders: RoleStaticProps[];
+    music: string;
+    nickname: string;
+    notes: string;
+    schoolName: string;
+    staff: RoleStaticProps[];
 }
 
 export class ParadeUnit {
-    city : string           = '';
-    directors : string[]    = [];
-    isHost : boolean        = false;
-    lastUpdated : DateTime;
-    leaders : Role[]        = [];
-    music : string          = '';
-    nickname : string       = '';
-    notes : string          = '';
-    schoolName : string     = '';
-    staff : Role[]          = [];
+    city: string = '';
+    directors: string[] = [];
+    isHost: boolean = false;
+    lastUpdated: DateTime;
+    leaders: Role[] = [];
+    music: string = '';
+    nickname: string = '';
+    notes: string = '';
+    schoolName: string = '';
+    staff: Role[] = [];
 
-    static async deserialize(data : SerializedParadeUnit, unitKey : string = 'parade') : Promise<ParadeUnit> {
+    static async deserialize(data: SerializedParadeUnit, unitKey: string = 'parade'): Promise<ParadeUnit> {
         const result = new ParadeUnit();
 
         const unit = data[unitKey];
         assert.ok(unit, `${data.name} has no parade unit named "${unitKey}"`);
         assert.ok(unit.directors, `${data.name}'s parade unit has no directors`);
-        
+
         result.lastUpdated = DateTime.fromFormat(unit.lastUpdated, 'yyyy-MM-dd H:mm:ss Z');
 
         result.city = data.city;
@@ -75,7 +75,7 @@ export class ParadeUnit {
         return result;
     }
 
-    async getStaticProps() : Promise<ParadeUnitStaticProps> {
+    async getStaticProps(): Promise<ParadeUnitStaticProps> {
         return {
             unitType: 'paradeUnit',
             city: this.city,

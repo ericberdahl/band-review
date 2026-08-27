@@ -1,61 +1,61 @@
-import { Role, RoleStaticProps, SerializedRole } from './role';
+import { Role, type RoleStaticProps, type SerializedRole } from './role';
 
 import { DateTime } from 'luxon';
 
 import { strict as assert } from 'assert';
 
 type SerializedUnit = {
-    isHost? : boolean;
+    isHost?: boolean;
     lastUpdated: string;
-    nickname : string;
-    directors : string[];
-    staff? : SerializedRole[];
-    leaders : SerializedRole[];
-    program : string;
-    music? : string;
-    description? : string;
-    notes? : string;
+    nickname: string;
+    directors: string[];
+    staff?: SerializedRole[];
+    leaders: SerializedRole[];
+    program: string;
+    music?: string;
+    description?: string;
+    notes?: string;
 }
 
 export type SerializedFieldShowUnit = {
-    [unitKey : string] : SerializedUnit;
+    [unitKey: string]: SerializedUnit;
     // @ts-ignore name is a required field
-    name : string;
+    name: string;
     // @ts-ignore city is a required field
-    city : string;
+    city: string;
 }
 
 export type FieldShowUnitStaticProps = {
-    unitType : 'fieldShowUnit';
-    city : string;
-    description : string;
-    directors : string[];
-    isHost : boolean;
-    lastUpdated : string;
-    leaders : RoleStaticProps[];
-    music : string;
-    nickname : string;
-    notes : string;
-    program : string;
-    schoolName : string;
-    staff : RoleStaticProps[];
+    unitType: 'fieldShowUnit';
+    city: string;
+    description: string;
+    directors: string[];
+    isHost: boolean;
+    lastUpdated: string;
+    leaders: RoleStaticProps[];
+    music: string;
+    nickname: string;
+    notes: string;
+    program: string;
+    schoolName: string;
+    staff: RoleStaticProps[];
 }
 
 export class FieldShowUnit {
-    city : string           = '';
-    description : string    = '';
-    directors : string[]    = [];
-    isHost : boolean        = false;
-    lastUpdated : DateTime;
-    leaders : Role[]        = [];
-    music : string          = '';
-    nickname : string       = '';
-    notes : string          = '';
-    program : string        = '';
-    schoolName : string     = '';
-    staff : Role[]          = [];
+    city: string = '';
+    description: string = '';
+    directors: string[] = [];
+    isHost: boolean = false;
+    lastUpdated: DateTime;
+    leaders: Role[] = [];
+    music: string = '';
+    nickname: string = '';
+    notes: string = '';
+    program: string = '';
+    schoolName: string = '';
+    staff: Role[] = [];
 
-    static async deserialize(data : SerializedFieldShowUnit, unitKey : string = 'fieldshow') : Promise<FieldShowUnit> {
+    static async deserialize(data: SerializedFieldShowUnit, unitKey: string = 'fieldshow'): Promise<FieldShowUnit> {
         const result = new FieldShowUnit();
 
         const unit = data[unitKey];
@@ -83,7 +83,7 @@ export class FieldShowUnit {
         return result;
     }
 
-    async getStaticProps() : Promise<FieldShowUnitStaticProps> {
+    async getStaticProps(): Promise<FieldShowUnitStaticProps> {
         return {
             unitType: 'fieldShowUnit',
             city: this.city,

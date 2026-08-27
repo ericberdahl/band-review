@@ -1,98 +1,98 @@
-import { BreakUnit, BreakUnitStaticProps, SerializedBreakUnit } from "./breakUnit";
-import { ColorsUnit, ColorsUnitStaticProps, SerializedColorsUnit } from "./colorsUnit";
-import { GrandMarshalUnit, GrandMarshalUnitStaticProps, SerializedGrandMarshalUnit } from "./grandMarshalUnit";
-import { ParadeUnit, ParadeUnitStaticProps, SerializedParadeUnit } from "./paradeUnit";
+import { BreakUnit, type BreakUnitStaticProps, type SerializedBreakUnit } from "./breakUnit";
+import { ColorsUnit, type ColorsUnitStaticProps, type SerializedColorsUnit } from "./colorsUnit";
+import { GrandMarshalUnit, type GrandMarshalUnitStaticProps, type SerializedGrandMarshalUnit } from "./grandMarshalUnit";
+import { ParadeUnit, type ParadeUnitStaticProps, type SerializedParadeUnit } from "./paradeUnit";
 import { readSerializedUnitForSchool } from './showUnit'
-import { CompetitionSponsors, CompetitionSponsorsStaticProps, SerializedCompetitionSponsors } from "./sponsor";
+import { CompetitionSponsors, type CompetitionSponsorsStaticProps, type SerializedCompetitionSponsors } from "./sponsor";
 
 import { strict as assert } from 'assert';
 
 type SerializedParadeUnitRef = {
-    ref : string;
-    unit? : string;
+    ref: string;
+    unit?: string;
 }
 
 type SerializedParadeLineupItem = SerializedParadeUnitRef | SerializedBreakUnit | SerializedColorsUnit | SerializedGrandMarshalUnit;
 
-function isParadeUnitRef(item : SerializedParadeLineupItem) : item is SerializedParadeUnitRef {
+function isParadeUnitRef(item: SerializedParadeLineupItem): item is SerializedParadeUnitRef {
     return (item as SerializedParadeUnitRef).ref !== undefined;
 }
 
-function isBreakShowUnit(item : SerializedParadeLineupItem) : item is SerializedBreakUnit {
+function isBreakShowUnit(item: SerializedParadeLineupItem): item is SerializedBreakUnit {
     return (item as SerializedBreakUnit).break !== undefined;
 }
 
-function isColorsShowUnit(item : SerializedParadeLineupItem) : item is SerializedColorsUnit {
+function isColorsShowUnit(item: SerializedParadeLineupItem): item is SerializedColorsUnit {
     return (item as SerializedColorsUnit).colors !== undefined;
 }
 
-function isGrandMarshalShowUnit(item : SerializedParadeLineupItem) : item is SerializedGrandMarshalUnit {
+function isGrandMarshalShowUnit(item: SerializedParadeLineupItem): item is SerializedGrandMarshalUnit {
     return (item as SerializedGrandMarshalUnit).grandMarshal !== undefined;
 }
 
 export type SerializedParade = {
-    awards_location : string;
-    awards_time : string;
-    lineup : SerializedParadeLineupItem[];
-    sponsors : SerializedCompetitionSponsors;
+    awards_location: string;
+    awards_time: string;
+    lineup: SerializedParadeLineupItem[];
+    sponsors: SerializedCompetitionSponsors;
 }
 
 type ParadeLineupItemStaticProps = BreakUnitStaticProps | ParadeUnitStaticProps | ColorsUnitStaticProps | GrandMarshalUnitStaticProps;
 
 export type ParadeStaticProps = {
-    awardsTime : string;    // ISO DateTime format
-    awardsLocation : string;
-    lineup : ParadeLineupItemStaticProps[];
-    sponsors : CompetitionSponsorsStaticProps;
+    awardsTime: string;    // ISO DateTime format
+    awardsLocation: string;
+    lineup: ParadeLineupItemStaticProps[];
+    sponsors: CompetitionSponsorsStaticProps;
 }
 
 type ParadeLineupItem = ParadeUnit | BreakUnit | ColorsUnit | GrandMarshalUnit;
 
 export class Parade {
-    readonly awardsLocation : string;
-    readonly awardsTime : string;   // TODO: change to DateTime
-    readonly lineup : ParadeLineupItem[]    = [];
-    readonly sponsors : CompetitionSponsors;
+    readonly awardsLocation: string;
+    readonly awardsTime: string;   // TODO: change to DateTime
+    readonly lineup: ParadeLineupItem[] = [];
+    readonly sponsors: CompetitionSponsors;
 
-    constructor(awardsTime : string, awardsLocation : string, sponsors : CompetitionSponsors) {
+    constructor(awardsTime: string, awardsLocation: string, sponsors: CompetitionSponsors) {
         this.awardsTime = awardsTime;
         this.awardsLocation = awardsLocation;
         this.sponsors = sponsors;
     }
 
-    static async deserialize(data : SerializedParade) : Promise<Parade> {
+    static async deserialize(data: SerializedParade): Promise<Parade> {
         const result = new Parade(data.awards_time,
-                                  data.awards_location,
-                                  await CompetitionSponsors.deserialize(data.sponsors));
+            data.awards_location,
+            await CompetitionSponsors.deserialize(data.sponsors));
 
         result.lineup.push(...await Promise.all(data.lineup.map(async (li) => {
             if (isParadeUnitRef(li)) {
                 return ParadeUnit.deserialize(await readSerializedUnitForSchool<SerializedParadeUnit>(li.ref), li.unit)
-                                    .catch((e) => {
-                                        e.message = `${e.message}; deserializing ParadeUnit "${li.ref}"`
-                                        throw e;
-                                    });
+                    .catch((e) => {
+                        e.message = `${e.message}; deserializing ParadeUnit "${li.ref}"`
+                        throw e;
+                    });
             }
             else if (isBreakShowUnit(li)) {
                 return BreakUnit.deserialize(li)
-                                .catch((e) => {
-                                    e.message = `${e.message}; deserializing parade BreakUnit "${li.break}"`
-                                    throw e;
-                                });
+                    .catch((e) => {
+                        e.message = `${e.message}; deserializing parade BreakUnit "${li.break}"`
+                        throw e;
+                    });
             }
             else if (isColorsShowUnit(li)) {
                 return ColorsUnit.deserialize(li)
-                                .catch((e) => {
-                                    e.message = `${e.message}; deserializing parade ColorsUnit "${li.colors}"`
-                                    throw e;
-                                });
+                    .catch((e) => {
+                        e.message = `${e.message}; deserializing parade ColorsUnit "${li.colors}"`
+                        throw e;
+                    });
             }
             else if (isGrandMarshalShowUnit(li)) {
                 return GrandMarshalUnit.deserialize(li)
-                                .catch((e) => {
-                                    e.message = `${e.message}; deserializing parade GrandMarshalUnit "${li.grandMarshal}"`
-                                    throw e;
-                                });
+                    .catch((e) => {
+                        e.message = `${e.message}; deserializing parade GrandMarshalUnit "${li.grandMarshal}"`
+                        throw e;
+                    });
             }
             else {
                 assert.fail(`Unrecognized parade lineup item: ${JSON.stringify(li)}`)
@@ -102,7 +102,7 @@ export class Parade {
         return result;
     }
 
-    async getStaticProps() : Promise<ParadeStaticProps> {
+    async getStaticProps(): Promise<ParadeStaticProps> {
         return {
             awardsTime: this.awardsTime,
             awardsLocation: this.awardsLocation,
