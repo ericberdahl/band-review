@@ -1,0 +1,72 @@
+---
+import Chapter from "../components/chapter.jsx";
+import Parade from "../components/parade.jsx";
+import MainLayout from "../layouts/MainLayout.astro";
+
+import { getBandReview } from "../../common/bandReview";
+
+import { DateTime } from "luxon";
+
+const bandReview = await (await getBandReview()).getStaticProps();
+const generationDate = DateTime.now().toISO();
+
+const showYear = DateTime.fromISO(bandReview.show.date).year;
+
+const paradeSchools = bandReview.parade.lineup
+    .filter((li) => li.unitType == "paradeUnit")
+    .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+
+const paradeMissingData = paradeSchools.filter(
+    (s) => DateTime.fromISO(s.lastUpdated).year != showYear,
+);
+const paradeWithData = paradeSchools.filter(
+    (s) => DateTime.fromISO(s.lastUpdated).year == showYear,
+);
+---
+
+<MainLayout>
+    <div>
+        <Chapter>
+            <h1>
+                {bandReview.show.citation} : Parade Announcer's Book: {
+                    DateTime.fromISO(bandReview.show.date).toLocaleString(
+                        DateTime.DATE_FULL,
+                    )
+                }
+            </h1>
+            <p>
+                {bandReview.announcer.name} &lt;{bandReview.announcer.email}&gt;
+            </p>
+            <p>
+                v{bandReview.version}, {
+                    DateTime.fromISO(generationDate).toLocaleString(
+                        DateTime.DATETIME_FULL,
+                    )
+                }
+            </p>
+
+            {
+                paradeMissingData.length > 0 && (
+                    <>
+                        <h2>Parade Competition - Checkup</h2>
+
+                        <h3>
+                            {paradeMissingData.length} Schools Missing Parade
+                            Data
+                        </h3>
+                        {paradeMissingData.map((s) => (
+                            <p>{s.schoolName}</p>
+                        ))}
+                    </>
+                )
+            }
+        </Chapter>
+
+        <Parade
+            parade={bandReview.parade}
+            show={bandReview.show}
+            nextShow={bandReview.nextShow}
+            fieldShow={bandReview.fieldShow}
+        />
+    </div>
+</MainLayout>
