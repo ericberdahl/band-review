@@ -4,6 +4,10 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
+  base: "/foothill/bandreview-2024/",
+  build: {
+    format: 'preserve',
+  },
   integrations: [preact()],
   vite: {
     plugins: [{
