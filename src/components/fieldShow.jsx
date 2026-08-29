@@ -168,9 +168,9 @@ export default function FieldShow({ event }) {
     }
 
     return (<div>
-        <Chapter>
-            <Lineup lineup={lineup} show={show} unitCounts={unitCounts} />
+        <Lineup lineup={lineup} show={show} unitCounts={unitCounts} />
 
+        <Chapter>
             <h2>Field Show - Awards</h2>
             {fieldShow.sponsors.general.length > 0 && <>
                 <p>
@@ -184,8 +184,8 @@ export default function FieldShow({ event }) {
             <p>
                 With a score of {"{score}"}, {"{nth}"} place {"{category}"} goes to [pause] {"{name of school}"}!
             </p>
-        </Chapter>
 
-        {fieldShow.sponsors.trophies.map((t, index) => <TrophySponsor place={t.place} sponsors={t.sponsors} key={index} />)}
+            {fieldShow.sponsors.trophies.map((t, index) => <TrophySponsor place={t.place} sponsors={t.sponsors} key={index} />)}
+        </Chapter>
     </div>);
 }
