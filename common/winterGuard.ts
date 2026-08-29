@@ -1,48 +1,48 @@
-import { BreakUnit, BreakUnitStaticProps, SerializedBreakUnit } from './breakUnit';
-import { WinterGuardUnit, WinterGuardUnitStaticProps, SerializedWinterGuardUnit } from './winterGuardUnit';
+import { BreakUnit, type BreakUnitStaticProps, type SerializedBreakUnit } from './breakUnit';
+import { WinterGuardUnit, type WinterGuardUnitStaticProps, type SerializedWinterGuardUnit } from './winterGuardUnit';
 import { readSerializedUnitForSchool } from './showUnit'
-import { CompetitionSponsors, CompetitionSponsorsStaticProps, SerializedCompetitionSponsors } from './sponsor';
+import { CompetitionSponsors, type CompetitionSponsorsStaticProps, type SerializedCompetitionSponsors } from './sponsor';
 
 type SerializedWinterGuardUnitRef = {
-    ref : string;
-    unit? : string;
+    ref: string;
+    unit?: string;
 }
 
 type SerializedFieldShowLineupItem = SerializedWinterGuardUnitRef | SerializedBreakUnit;
 
-function isWinterGuardUnitRef(item : SerializedFieldShowLineupItem) : item is SerializedWinterGuardUnitRef {
+function isWinterGuardUnitRef(item: SerializedFieldShowLineupItem): item is SerializedWinterGuardUnitRef {
     return (item as SerializedWinterGuardUnitRef).ref !== undefined;
 }
 
 export type SerializedWinterGuard = {
-    lineup : SerializedFieldShowLineupItem[];
-    sponsors : SerializedCompetitionSponsors;
-    start_time : string;    // hh:mmAM
+    lineup: SerializedFieldShowLineupItem[];
+    sponsors: SerializedCompetitionSponsors;
+    start_time: string;    // hh:mmAM
 }
 
 type WinterGuardLineupItemStaticProps = BreakUnitStaticProps | WinterGuardUnitStaticProps;
 
 export type WinterGuardStaticProps = {
-    lineup : WinterGuardLineupItemStaticProps[];
-    sponsors : CompetitionSponsorsStaticProps;
-    startTime : string;
+    lineup: WinterGuardLineupItemStaticProps[];
+    sponsors: CompetitionSponsorsStaticProps;
+    startTime: string;
 }
 
 type WinterGuardLineupItem = WinterGuardUnit | BreakUnit;
 
 export class WinterGuard {
-    readonly lineup : WinterGuardLineupItem[] = [];
-    readonly sponsors : CompetitionSponsors;
-    readonly startTime : string;    // TODO: change to DateTime
+    readonly lineup: WinterGuardLineupItem[] = [];
+    readonly sponsors: CompetitionSponsors;
+    readonly startTime: string;    // TODO: change to DateTime
 
-    constructor(startTime : string, sponsors : CompetitionSponsors) {
+    constructor(startTime: string, sponsors: CompetitionSponsors) {
         this.startTime = startTime;
         this.sponsors = sponsors;
     }
 
-    static async deserialize(data : SerializedWinterGuard) : Promise<WinterGuard> {
+    static async deserialize(data: SerializedWinterGuard): Promise<WinterGuard> {
         const result = new WinterGuard(data.start_time,
-                                       await CompetitionSponsors.deserialize(data.sponsors));
+            await CompetitionSponsors.deserialize(data.sponsors));
 
         result.lineup.push(...await Promise.all(data.lineup.map(async (li) => {
             if (isWinterGuardUnitRef(li)) {
@@ -56,7 +56,7 @@ export class WinterGuard {
         return result;
     }
 
-    async getStaticProps() : Promise<WinterGuardStaticProps> {
+    async getStaticProps(): Promise<WinterGuardStaticProps> {
         return {
             startTime: this.startTime,
             lineup: await Promise.all(this.lineup.map(async (li) => li.getStaticProps())),

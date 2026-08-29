@@ -1,61 +1,61 @@
-import { Role, RoleStaticProps, SerializedRole } from './role';
+import { Role, type RoleStaticProps, type SerializedRole } from './role';
 
 import { DateTime } from 'luxon';
 
 import { strict as assert } from 'assert';
 
 type SerializedUnit = {
-    isHost? : boolean;
-    division? : string;    // division in which the unit is competing
+    isHost?: boolean;
+    division?: string;    // division in which the unit is competing
     lastUpdated: string;
-    nickname : string;
-    directors : string[];
-    staff? : SerializedRole[];
-    leaders : SerializedRole[];
-    program : string;
-    music? : string;
-    notes? : string;
+    nickname: string;
+    directors: string[];
+    staff?: SerializedRole[];
+    leaders: SerializedRole[];
+    program: string;
+    music?: string;
+    notes?: string;
 }
 
 export type SerializedWinterGuardUnit = {
-    [unitKey : string] : SerializedUnit;
+    [unitKey: string]: SerializedUnit;
     // @ts-ignore name is a required field
-    name : string;
+    name: string;
     // @ts-ignore city is a required field
-    city : string;
+    city: string;
 }
 
 export type WinterGuardUnitStaticProps = {
-    unitType : 'winterGuardUnit';
-    city : string;
-    directors : string[];
-    isHost : boolean;
-    division : string;
-    lastUpdated : string;
-    leaders : RoleStaticProps[];
-    music : string;
-    nickname : string;
-    notes : string;
-    program : string;
-    schoolName : string;
-    staff : RoleStaticProps[];
+    unitType: 'winterGuardUnit';
+    city: string;
+    directors: string[];
+    isHost: boolean;
+    division: string;
+    lastUpdated: string;
+    leaders: RoleStaticProps[];
+    music: string;
+    nickname: string;
+    notes: string;
+    program: string;
+    schoolName: string;
+    staff: RoleStaticProps[];
 }
 
 export class WinterGuardUnit {
-    city : string           = '';
-    division : string       = null;
-    directors : string[]    = [];
-    isHost : boolean        = false;
-    lastUpdated : DateTime;
-    leaders : Role[]        = [];
-    music : string          = '';
-    nickname : string       = '';
-    notes : string          = '';
-    program : string        = '';
-    schoolName : string     = '';
-    staff : Role[]          = [];
+    city: string = '';
+    division: string = null;
+    directors: string[] = [];
+    isHost: boolean = false;
+    lastUpdated: DateTime;
+    leaders: Role[] = [];
+    music: string = '';
+    nickname: string = '';
+    notes: string = '';
+    program: string = '';
+    schoolName: string = '';
+    staff: Role[] = [];
 
-    static async deserialize(data : SerializedWinterGuardUnit, unitKey : string = 'winterguard') : Promise<WinterGuardUnit> {
+    static async deserialize(data: SerializedWinterGuardUnit, unitKey: string = 'winterguard'): Promise<WinterGuardUnit> {
         const result = new WinterGuardUnit();
 
         result.city = data.city;
@@ -86,7 +86,7 @@ export class WinterGuardUnit {
         return result;
     }
 
-    async getStaticProps() : Promise<WinterGuardUnitStaticProps> {
+    async getStaticProps(): Promise<WinterGuardUnitStaticProps> {
         return {
             unitType: 'winterGuardUnit',
             city: this.city,

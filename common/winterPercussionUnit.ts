@@ -1,61 +1,61 @@
-import { Role, RoleStaticProps, SerializedRole } from './role';
+import { Role, type RoleStaticProps, type SerializedRole } from './role';
 
 import { DateTime } from 'luxon';
 
 import { strict as assert } from 'assert';
 
 type SerializedUnit = {
-    isHost? : boolean;
-    division? : string;    // division in which the unit is competing
+    isHost?: boolean;
+    division?: string;    // division in which the unit is competing
     lastUpdated: string;
-    nickname : string;
-    directors : string[];
-    staff? : SerializedRole[];
-    leaders : SerializedRole[];
-    program : string;
-    music? : string;
-    notes? : string;
+    nickname: string;
+    directors: string[];
+    staff?: SerializedRole[];
+    leaders: SerializedRole[];
+    program: string;
+    music?: string;
+    notes?: string;
 }
 
 export type SerializedWinterPercussionUnit = {
-    [unitKey : string] : SerializedUnit;
+    [unitKey: string]: SerializedUnit;
     // @ts-ignore name is a required field
-    name : string;
+    name: string;
     // @ts-ignore city is a required field
-    city : string;
+    city: string;
 }
 
 export type WinterPercussionUnitStaticProps = {
-    unitType : 'winterPercussionUnit';
-    city : string;
-    directors : string[];
-    isHost : boolean;
-    division : string;
-    lastUpdated : string;
-    leaders : RoleStaticProps[];
-    music : string;
-    nickname : string;
-    notes : string;
-    program : string;
-    schoolName : string;
-    staff : RoleStaticProps[];
+    unitType: 'winterPercussionUnit';
+    city: string;
+    directors: string[];
+    isHost: boolean;
+    division: string;
+    lastUpdated: string;
+    leaders: RoleStaticProps[];
+    music: string;
+    nickname: string;
+    notes: string;
+    program: string;
+    schoolName: string;
+    staff: RoleStaticProps[];
 }
 
 export class WinterPercussionUnit {
-    city : string           = '';
-    division : string       = null;
-    directors : string[]    = [];
-    isHost : boolean        = false;
-    lastUpdated : DateTime;
-    leaders : Role[]        = [];
-    music : string          = '';
-    nickname : string       = '';
-    notes : string          = '';
-    program : string        = '';
-    schoolName : string     = '';
-    staff : Role[]          = [];
+    city: string = '';
+    division: string = null;
+    directors: string[] = [];
+    isHost: boolean = false;
+    lastUpdated: DateTime;
+    leaders: Role[] = [];
+    music: string = '';
+    nickname: string = '';
+    notes: string = '';
+    program: string = '';
+    schoolName: string = '';
+    staff: Role[] = [];
 
-    static async deserialize(data : SerializedWinterPercussionUnit, unitKey : string = 'winterpercussion') : Promise<WinterPercussionUnit> {
+    static async deserialize(data: SerializedWinterPercussionUnit, unitKey: string = 'winterpercussion'): Promise<WinterPercussionUnit> {
         const result = new WinterPercussionUnit();
 
         result.city = data.city;
@@ -86,7 +86,7 @@ export class WinterPercussionUnit {
         return result;
     }
 
-    async getStaticProps() : Promise<WinterPercussionUnitStaticProps> {
+    async getStaticProps(): Promise<WinterPercussionUnitStaticProps> {
         return {
             unitType: 'winterPercussionUnit',
             city: this.city,
