@@ -1,0 +1,72 @@
+---
+import Chapter from "../components/chapter.jsx";
+import MainLayout from "../layouts/MainLayout.astro";
+import WinterPercussion from "../components/winterPercussion.jsx";
+
+import { getWinterShow } from "../../common/winterShow";
+
+import { DateTime } from "luxon";
+
+const winterShow = await (await getWinterShow()).getStaticProps();
+const generationDate = DateTime.now().toISO();
+
+const showYear = DateTime.fromISO(winterShow.show.date).year;
+
+const percussionSchools = winterShow.winterPercussion.lineup
+    .filter((li) => li.unitType == "winterPercussionUnit")
+    .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+
+const percussionMissingData = percussionSchools.filter(
+    (s) => DateTime.fromISO(s.lastUpdated).year != showYear,
+);
+const percussionWithData = percussionSchools.filter(
+    (s) => DateTime.fromISO(s.lastUpdated).year == showYear,
+);
+---
+
+<MainLayout>
+    <div>
+        <Chapter>
+            <h1>
+                {winterShow.show.citation} : Winter Percussion Announcer's Book: {
+                    DateTime.fromISO(winterShow.show.date).toLocaleString(
+                        DateTime.DATE_FULL,
+                    )
+                }
+            </h1>
+            <p>
+                {winterShow.announcer.name} &lt;{winterShow.announcer.email}&gt;
+            </p>
+            <p>
+                v{winterShow.version}, {
+                    DateTime.fromISO(generationDate).toLocaleString(
+                        DateTime.DATETIME_FULL,
+                    )
+                }
+            </p>
+
+            {
+                percussionMissingData.length > 0 && (
+                    <>
+                        <h2>Winter Percussion Competition - Checkup</h2>
+
+                        <h3>
+                            {percussionMissingData.length} Schools Missing
+                            Winter Percussion Data
+                        </h3>
+                        {percussionMissingData.map((s) => (
+                            <p>{s.schoolName}</p>
+                        ))}
+                    </>
+                )
+            }
+        </Chapter>
+
+        <WinterPercussion
+            winterPercussion={winterShow.winterPercussion}
+            show={winterShow.show}
+            nextShow={winterShow.nextShow}
+            winterGuard={winterShow.winterGuard}
+        />
+    </div>
+</MainLayout>
