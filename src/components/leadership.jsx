@@ -34,7 +34,7 @@ export default function Leadership({ unit }) {
         || 0 < unit.leaders.length);
     return (
         <>
-            {hasLeadership && <>
+            {hasLeadership && <p>
                 <>The {unit.nickname} is </>
                 <CommaSeparatedList>
                     {0 < unit.directors.length && <Directors directors={unit.directors} />}
@@ -42,7 +42,7 @@ export default function Leadership({ unit }) {
                     {0 < unit.leaders.length && <>led by <RoleList roles={unit.leaders} /></>}
                 </CommaSeparatedList>
                 .
-            </>}
+            </p>}
         </>
     );
 }
