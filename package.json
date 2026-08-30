@@ -3,15 +3,10 @@
   "version": "1.0.0",
   "description": "Generate Announcer's book for Band Review and Winter Show",
   "scripts": {
-    "dev": "next dev",
-    "export": "next build",
-    "postexport": "scripts/postExport.py",
-    "debug": "NODE_OPTIONS='--inspect' next dev",
-    "lint": "next lint",
-    "publish": "rsync -a --delete out/*",
-    "adev": "astro dev",
-    "abuild": "astro build",
-    "apreview": "astro preview"
+    "publish": "rsync -a --delete dist/*",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "repository": {
     "type": "git",
@@ -27,16 +22,12 @@
     "@astrojs/preact": "^6.0.4",
     "astro": "^7.2.4",
     "luxon": "^3.7.2",
-    "next": "^15.5.2",
     "preact": "^10.29.8",
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8",
     "sanitize-filename": "^1.6.4",
     "yaml": "^2.9.0"
   },
   "devDependencies": {
     "@types/node": "^26.2.0",
-    "@types/react": "^19.2.18",
     "sass": "^1.102.0",
     "typescript": "^5.9.2"
   }
