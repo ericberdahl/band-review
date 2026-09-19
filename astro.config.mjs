@@ -4,6 +4,7 @@ import preact from "@astrojs/preact";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://www.serendipity.org',
   base: "/foothill/bandreview-2024/",
   build: {
     format: 'preserve',
