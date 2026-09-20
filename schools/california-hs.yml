@@ -3,26 +3,25 @@ name: California High School
 city: San Ramon, CA
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
-    nickname: California High School Marching Grizzlies
+    nickname: Marching Grizzlies
 
     directors:
     -   Bob Grigas
-    -   Briana Berastain
 
     staff:
-    -   title: percussion instructor
+    -   title: assistant director
+        members:
+        -   Briana Berastain
+
+    -   title: drumline instructor
         members:
         -   Kishan Dutt
 
     -   title: front ensemble instructor
         members:
         -   Sarah Culbertson
-
-    -   title: color guard instructor
-        members:
-        -   Saariya Malik ("sorry-uh" Malik)
 
     -   title: visual instructor
         members:
@@ -32,22 +31,27 @@ fieldshow:
         members:
         -   Alex Bond
 
+    -   title: show designer and color guard instructor
+        members:
+        -   Alli Torf
+
     leaders:
     -   title: field conductors
         members:
-        -   Om Iyer
-        -   Yasasri Chintapali
-    
-    -   title: color guard captains
+        -   Kaleo Abadam
+        -   Chitra Parvatarju
+            
+    -   title: color guard leaders
         members:
-        -   Haanah Ly
-        -   Naomi Parsons
+        -   Carolyn Choy
+        -   Ayliah Lateef
 
-    -   title: percussion captain
+    -   title: percussion leaders
         members:
-        -   Owen Burlingame
+        -   Amiia Lyons
+        -   Luke Shulman
 
-    program: Sweet Deception, a Hansel and Gretel Story
+    program: Link
 
     music: >
 

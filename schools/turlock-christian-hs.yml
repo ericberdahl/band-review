@@ -1,4 +1,4 @@
-name: "Turlock Christian High School"
+name: Turlock Christian Schools
 
 city: "Turlock, CA"
 
@@ -28,20 +28,21 @@ parade:
         The Students would like to thank all the parents and Administration at Turlock Christian for their continued support of the music program.
 
 fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
-    nickname: "Template High School Marching Band and Color Guard"
+    nickname: Turlock Christian Schools Soaring Eagles Marching Band
 
     directors:
-    -   "Kevin L. Smith"
+    -   Kevin L. Smith
 
     staff: 
 
     leaders:
+    -   title: field conductor
+        members:
+        -   Aaliyah Davis
 
-    program: 
-
-    music: 
+    program: Everlasting
 
     description: 
 

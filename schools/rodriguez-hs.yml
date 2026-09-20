@@ -35,7 +35,7 @@ parade:
     -   *scott-miller
     -   Laurie Seibold
 
-    staff: &band-review-staff
+    staff:
     -   title: instructed by
         members:
         -   *jaclyn-wren
@@ -74,31 +74,48 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
     nickname: *band-review-nickname
 
     directors: *band-review-directors
 
-    staff: *band-review-staff
+    staff:
+    -   title: instructed by
+        members:
+        -   *jaclyn-wren
+        -   *jaleel-gospel
+        -   Jordan Varner
+        -   Yahir Calva Hernandez
+        -   Annadine Miramontes
+        -   Charles Henderson the Third
+        -   Nicky Carlos
+        -   Sasha Priante
+        -   Daniel Hernandez
+        -   Nicolas Yento
 
     leaders:
     -   title: field conductors
         members:
-        -   James Brockman
-        -   Parmin Mahalatina
-        -   Miles Wyly
+        -   Janelle Bouchard
+        -   Alexia Roustand
+        -   Hannah Doety
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Olivia Freire
-        -   Jesse Aguilar
+        -   Nathalia DiSilva
+        -   Nila Martires
+        -   Isabella Patio
+        -   Gianna Amaral
 
-    -   title: battery captains
+    -   title: battery leaders
         members:
-        -   Aubrey Richard
-        -   Isabelle Capuno
-        -   Alexa Belocura
+        -   Trinity Morris
+        -   Sofia Preston
+        -   Dominic Miller
+        -   Xandre Cerame
+        -   Makenna Braden
+        -   Devin Hart
 
     -   title: front ensemble captains
         members:
@@ -107,7 +124,7 @@ fieldshow:
         -   Dylan Ny
         -   Jai Valdez
 
-    program: Emergence
+    program: Keepers of the Light
 
     description: >
 

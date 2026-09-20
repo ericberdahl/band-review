@@ -3,7 +3,7 @@ name: John Swett High School
 city: Crockett, California
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
     nickname: John Swett High School Marching Band and Color Guard
 
@@ -14,15 +14,25 @@ fieldshow:
     -   title: instructed by
         members:
         -   Dean Colombo
-        -   Steven Gray
+        -   Kaitlyn Remorin
+        -   Lucas Galvao
         -   Dylan Padua
+        -   Steven Gray
 
     leaders:
-    -   title: color guard captain
+    -   title: drum major
         members:
-        -   Nicholas Hoffman
+        -   Daniel Rocha
+
+    -   title: color guard leader
+        members:
+        -   Donna Leon Lopez
+
+    -   title: percussion leader
+        members:
+        -   Christian Taniguchi
         
-    program: Chasing Sunshine
+    program: Beyond What We Know
 
     music: >
 

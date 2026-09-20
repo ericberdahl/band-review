@@ -3,55 +3,57 @@ name: American High School
 city: Fremont, California
 
 staff:
--   &richard-wong "Richard F. Wong"
--   &james-santiago "James Santiago"
--   &harish-prabhakaran "Harish Prabhakaran (prahb-HAH-kah-rahn)"
--   &jennie-wong "Jennifer Wong"
-
 
 students:
--   &naomi-tchao "Naomi Tchao"
--   &heather-hughes "Heather Hughes"
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
     nickname: American Eagles Marching Band
 
     directors: &directors
-    -   *richard-wong
+    -   Richard F. Wong
     
     staff:
     -   title: instructed by
         members:
-        -   *jennie-wong
-        -   Jayven Natividad
-        -   CJ Posas
+        -   Jennifer Wong
         -   Parker Spielmann
 
     leaders:
     -   title: field conductors
         members:
-        -   Benjamin Chen
-        -   Jacob Chun
-        -   Maurya Mopuri
+        -   Maurya Mopuri (MORE-ee-ah moh-POO-ree)
+        -   Charlize Cho
+        -   Jadon Rivera-Poklay (Jadon Rivera POH-klay)
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Prisha Mathur
-        -   Acintya Shenoy
+        -   Olivia Chen
+        -   Sophia Ghimire
+        -   Acintya Shenov
+        -   Suhani Thakkar
+        -   Aashna Bhagia
+        -   Henya Dudhwala
+        -   Sachi Ladole
+        -   Lekha Prasanna
+        -   Ashley Chen
+        -   Alexis Dumalig
         -   Sahana Reka
+        -   Chelsea Lee
+        -   Aarnav Raamkumaar
 
-    -   title: percussion captains
+    -   title: percussion leaders
         members:
-        -   Derick Shu
-        -   Avish Zindal
         -   Jacob Cho
         -   Ishan Parekh
+        -   Brian Chun
+        -   Emily Nguyen
         -   Connie Lu
+        -   Jun Goh
         -   Francesca Macapagal
 
-    program: Resurrection
+    program: Chicago 1930
 
     music: >
 

@@ -3,83 +3,88 @@ name: Castro Valley High School
 city: Castro Valley, CA
 
 staff:
--   &keita-hasegawa Keita Hasegawa (KAY-tah ha-say-GAH-wah)
--   &troy-rexelle "Troy Rexelle (rex-EHL)"
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
-    nickname: Castro Valley High Trojan Brigade
+    nickname: Trojan Brigade
 
     directors:
-    -   *troy-rexelle
+    -   Troy Rexelle (rex-EHL)
 
     staff:
     -   title: assistant director
         members:
-        -   Lotan Yeung
+        -   Lotan Yeung (LOW-tin young)
 
-    -   title: visual caption instructor
-        members:
-        -   Reese Wiles
-
-    -   title: percussion caption instructor
+    -   title: percussion caption head
         members:
         -   Ryan Yee
 
-    -   title: color guard caption instructor
+    -   title: visual caption
         members:
-        -   Erin Miller
+        -   Reese Wiles
 
-    -   title: drumline lead
+    -   title: guard caption
         members:
-        -   Adam Roura
-
-    -   title: drumline techs
-        members:
-        -   Casey Tessier (Casey "tess-ee-AIR")
-        -   Jayden Mandler Sander
-        -   Luna Estebanez
+        -   Erin Wiles
 
     -   title: front ensemble lead
         members:
+        -   Nicolas Shae
+
+    -   title: drumming lead
+        members:
+        -   Adam Roura
+
+    -   title: weapons lead
+        members:
+        -   Teresa Le (Teresa LEE)
+
+    -   title: visual lead
+        members:
+        -   Edmund Bascon
+
+    -   title: front ensemble techs
+        members:
         -   Thu Powell
-
-    -   title: front ensemble tech
-        members:
         -   Christian Gerardo
+        -   Nathan Jalal
 
-    -   title: color guard techs
+    -   title: visual techs
         members:
-        -   Teresa Lee
-
-    -   title: marching techs
-        members:
-        -   Soraya Roman
         -   Oscar Hernandez
+        -   Taylor Cunnanab
+        -   Soraya Roman
+        -   Daniel Reyes
+
+    -   title: battery techs
+        members:
+        -   Ian Lutenegger
+        -   Hayden Mandler Sanders
     
     leaders:
     -   title: field conductor
         members:
-        -   Aleksaundra Hurka
+        -   Kristina Hada
 
     -   title: assistant field conductors
         members:
-        -   Janice Ko
-        -   Kristina Hada
+        -   Theodore Kusiak
+        -   Darian Sandoval
         
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Lia d'Errico
-        -   Lulu Sun
+        -   Flora Chen
+        -   Jenna Xie
+        -   Elizabeth Crowell
     
-    -   title: percussion captains
+    -   title: percussion leaders
         members:
-        -   Lars Lund
-        -   Edward DeMartini
-        -   Claire Maricle
+        -   Oliver Clay
+        -   Nicolas Lund
 
-    program: The Hive
+    program: Winds of the North
 
     music: >
 

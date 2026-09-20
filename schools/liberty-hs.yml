@@ -3,14 +3,13 @@ name: Liberty High School
 city: Brentwood, California
 
 students:
--   &alec-beaulieu Alec Beaulieu (Alec BOH-loo)
 
 parade:
     lastUpdated: 2024-10-05 17:00:00 -07
 
-    nickname: &band-review-nickname Lion Pride Marching Band
+    nickname: Lion Pride Marching Band
 
-    directors: &band-review-directors
+    directors:
     -   Lindsay Kellogg
 
     staff:
@@ -48,7 +47,7 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
     nickname: Liberty High School Marching Band
 
@@ -57,40 +56,53 @@ fieldshow:
     -   Shawn Griddine
 
     staff:
-    -   title: instructed by
+    -   title: woodwind instructor
         members:
         -   Jennifer Krey
+
+    -   title: brass instructors
+        members:
         -   Charles Henderson the third
-        -   Marvin Reed
-        -   Rebecca Miles
         -   Victor Alcaraz
+
+    -   title: visual instructors
+        members:
+        -   Rebecca Miles
+        -   Jose Rivera
         -   Ian Christensen
-        -   Ian Soria
+        -   Dr. Marvin Reed
+
+    -   title: percussion instructors
+        members:
         -   Roger Weavil
-        -   Tyler Garrett
-        -   Lisette Townzen
-        -   Francisco Marin
-        -   Casey Kim
         -   Isabella Villalpando
+        -   Jacob Laure
+        -   Casey Kim
+        -   Nathan Jalal
+
+    -   title: guard instructors
+        members:
+        -   Francisco Marin
+        -   Hannah Bunker
 
     leaders:
     -   title: field conductors
         members:
-        -   Isabel Barnes
-        -   Carter Masana
-        -   Charles Joe
+        -   Piper Gray
+        -   Itzel Reyes
+        -   Masaya Evans
     
     -   title: color guard captains
         members:
-        -   Leilah Weavil
-        -   Kate Lennon
+        -   Nikki Barry
+        -   Christian Navarro
     
     -   title: percussion captains
         members:
-        -   Andrew Giles
-        -   Roxy Remrell
+        -   Nate Jenkins
+        -   Leo Smith
     
-    program: Chaos Order
+    program: Burtonized
 
     description: >
 

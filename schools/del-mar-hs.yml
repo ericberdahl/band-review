@@ -3,16 +3,10 @@ name: "Del Mar High School"
 city: "San Jose, CA"
 
 staff:
--   &josh-bacleg "Josh Bacleg (Josh BAK-leg)"
 -   &william-burkhead "William Burkhead"
 -   &dallana-corona "Dallana (pronounced Diana) Corona"
 -   &kale-duprey Kale Duprey (KALE doo-PRAY)
--   &lindsey-goetowski Lindsey Goetowski (LIHND-zee go-TAO-skee)
--   &aj-gonzales AJ Gonzales
--   &andrew-kuykendall Andrew Kuykendall (Andrew KUHR-ken-dahl)
 -   &lidia-luque Lidia Luque (Lidia loo-KAY)
--   &jd-poulson JD Poulson (JD PAUL-sun)
--   &noah-rojas Noah Rojas (Noah ROH-hoss)
 -   &bailey-morgan "Bailey J Morgan"
 -   &alyssa-mccoy "Alyssa McCoy"
 
@@ -56,7 +50,7 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
     nickname: Del Mar High School Marching Band and Colorguard
 
@@ -64,30 +58,48 @@ fieldshow:
     -   *william-burkhead
 
     staff:
-    -   title: instructed by
+    -   title: assistant director
         members:
         -   *kale-duprey
-        -   Lillian Escobar
+
+    -   title: color guard instructor
+        members:
         -   Marissa Escamilla
+
+    -   title: battery instructor
+        members:
+        -   Ian Leutenegger (Ian LEW-ten-egg-er)
+
+    -   title: front ensemble instructor
+        members:
+        -   Juniper Tran
+
+    -   title: front ensemble instructor and arranger
+        members:
         -   Desmond Rix
-        -   Ian Leutenegger
+
+    -   title: woodwinds instructor and electronics tech
+        members:
+        -   Ethan Lorenz
+
+    -   title: brass instructor
+        members:
+        -   Patrick Lockwood
+
+    -   title: logistics and props mistress
+        members:
         -   *lidia-luque
-        -   Kiran Nair
 
     leaders:
     -   title: field conductor
         members:
-        -   James Butler
+        -   Aurora Stevens
 
-    -   title: color guard captain
+    -   title: color guard leader
         members:
-        -   Serena Ganon
+        -   Kalvin Tran
 
-    -   title: percussion captain
-        members:
-        -   Alessio Dyrby (Alessia "derby")
-
-    program: Boldy Go!
+    program: Children Will Listen
 
     music: >
 

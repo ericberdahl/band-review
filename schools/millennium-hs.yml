@@ -3,33 +3,26 @@ name: Millennium High School
 city: Tracy, California
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
     nickname: Falcon Marching Band and Colorguard
 
-    directors: &directors
-    -   "Roland Zepeda (Roland zuh-PAY-duh)"
+    directors:
+    -   Roland Zepeda (Roland zuh-PAY-duh)
 
     staff:
-    -   title: color guard instructor
-        members:
-        -   Molly Contreras
         
-    leaders:
-    -   title: field conductor
+    leaders:    
+    -   title: color guard leader
         members:
-        -   Lexi Duncan
+        -   Bea Ferea
     
-    -   title: auxilliary captain
+    -   title: percussion leaders
         members:
-        -   Karen Garcia
-    
-    -   title: percussion captains
-        members:
-        -   Kaian Solomon (KEE-ahn Solomon)
-        -   Michelle Thomatis
+        -   Caden Humphrey
+        -   Thomas Masters
 
-    program: Erendira [roll final 'r'], the Warrior Princess
+    program: Marian - The Lady Hood of Sherwood Forest
 
     music: >
 

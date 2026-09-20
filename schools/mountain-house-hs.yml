@@ -3,9 +3,9 @@ name: Mountain House High School
 city: Mountain House, CA
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
-    nickname: Mountain House High School Marching Band
+    nickname: Mountain House Marching Band
 
     directors: 
     -   "Daniel Andrade (Daniel ahn-DRAH-dee)"
@@ -19,17 +19,20 @@ fieldshow:
     leaders:
     -   title: field conductor
         members:
-        -   Tvishi Kumar (tuh-VEE-shee Kumar)
+        -   Miles Davis
     
-    -   title: color guard captain
+    -   title: color guard leaders
         members:
-        -   Jacob Magpoc
+        -   Jazmin Lukban
+        -   Celine Seo
+        -   Sowmya Panguluri
 
-    -   title: percussion captains
+    -   title: percussion leaders
         members:
-        -   Mairyn Meier
+        -   Ibrahim Altintas
+        -   Ani Jayaraman
 
-    program: A Modern Twist
+    program: Symbolize 5
 
     music: >
 
