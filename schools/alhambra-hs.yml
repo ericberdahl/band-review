@@ -3,7 +3,7 @@ name: Alhambra High School
 city: Martinez, CA
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: Bulldog Band
 
@@ -18,18 +18,20 @@ parade:
     leaders:
     -   title: drum majors
         members:
-        -   Landon Poston
-        -   Myron Millena
+        -   Myron Millena (Myron mill-EH-nuh)
+        -   Vi Harrington (Vee HAIR-ing-ton)
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Brynn Siebenrock
-        -   Eva Shreve
+        -   Reese Brigance
+        -   Smaantha Yasaki (SMAHN-tha yah-SAH-kee)
 
-    -   title: percussion captains
+    -   title: percussion leader
         members:
-        -   Danny Dominguez
+        -   Braden Arriola (BRAY-den ah-ree-OH-lah)
 
-    music: Basic Street Blues by Spencer Williams, arranged by Bill Moffit
+    music: >
+        Don't Stop Me Now by Freddie Mercury, arranged by Matt Conaway,
+        and percussion arranged by Jack Holt
 
     notes: >

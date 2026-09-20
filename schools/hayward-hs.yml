@@ -3,19 +3,12 @@ name: Hayward High School
 city: Hayward, California
 
 staff:
--   &leslie-garcia "Leslie Garcia"
--   "Katrina Granados (Katrina grah-NAH-dohs)"
--   "Adriano Tecson"
 -   &nicholas-tocco "Nicholas Tocco (Nicolas TOE-ko)"
--   "fuh-TEE-ma Shefa"
 
 students:
--   "Renee Rothe"
--   "Nora Kamlin"
--   &mia-salinas "Mia Salinas"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: Pride of Hayward High
 
@@ -25,15 +18,19 @@ parade:
     staff:
     -   title: instructed by
         members:
-        -   Sho Montoya
+        -   Ryanne Mercado
     
     leaders:
     -   title: drum major
         members:
-        -   Dash Spears
-    
+        -   Cara Utanes
+
+    -   title: color guard leader
+        members:
+        -   Angelina Zaragoza
+
     music: >
-        The Voice of the Guns by Kenneth Alford
+        Nobles of the Mystic Shrine by John Philip Sousa
 
     notes: >
 

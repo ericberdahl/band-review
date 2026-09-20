@@ -3,9 +3,9 @@ name: Franklin High School
 city: Stockton, CA
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: Franklin High School Marching Yellowjackets
+    nickname: Franklin High School Marching Band
 
     directors:
     -   Jacqueline Hairston (JAH-kuh-lehn HEHR-ston)
@@ -13,32 +13,25 @@ parade:
     staff:
     -   title: instructed by
         members:
-        -   Jerry Hernandez
-        -   Patricia Carter
-        -   Efren Garnica
-        -   Winston Arancibia
-        -   Elena Balistreri
-        -   Sergio Lozano
-        -   Larissa Munoz
-        -   Janae Jones
+        -   Gerardo Hernandez Mora
 
     leaders:
     -   title: drum major
         members:
         -   Dian Ruiz-Garcia
     
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Karla Sylvie Hernandez
-        -   Lindsay Parra-Esquera
+        -   Lindsay Parra-Esquerra
+        -   Keyli Ramirez
 
-    -   title: percussion captain
+    -   title: percussion leaders
         members:
         -   Cheyenne Melendrez
         -   Paulette Mireles
 
     music: >
-        Castles in Europe by James Reese Europe
+        Americans We by Henry Fillmore, arranged by Robert E. Foster
 
     notes: >
 

@@ -3,14 +3,14 @@ announcer:
     email: "berdahl@serendipity.org"
 
 show:
-    year: 2025
-    date: "2025-10-25"
-    citation: "51st Annual Foothill High School Band Review"
-
-next_show:
     year: 2026
     date: "2026-10-24"
     citation: "52nd Annual Foothill High School Band Review"
+
+next_show:
+    year: 2027
+    date: "2027-10-23"
+    citation: "53rd Annual Foothill High School Band Review"
 
 # No concert event this year, parade and field only
 units:
@@ -19,10 +19,6 @@ units:
 # -   "concert"
 
 sponsors-general: &sponsors-general
--   Anny Kuo
--   Ariel Wang
--   Shoba Praveen
--   the Wang Family
 
 version: 0.01
 
@@ -31,65 +27,62 @@ parade:
         general: *sponsors-general
 
         trophies:
-        -   place: Drum Major
-            sponsors:
-            -   sponsor: Tim Rubin, proud Foothill High School Drum Major, Class of 1984.
-                message: >
-                    Keep on with this amazing event and tradition!
+        # -   place: Drum Major
+        #     sponsors:
+        #     -   sponsor: Tim Rubin, proud Foothill High School Drum Major, Class of 1984.
+        #         message: >
+        #             Keep on with this amazing event and tradition!
 
     start_time: "8:30am"
 
     lineup:
     -   colors: "the color guard from Veterans of Foreign Wars Post 6298"
-    -   grandMarshal: "acclaimed Latin Jazz trumpeter, Grammy-featured recording artist, and Professor of Music, Mario Silva"
+    -   grandMarshal: "Jack Balch"
 
     -   ref: "foothill-hs"
     -   ref: "wells-ms"
-    -   ref: "benicia-ms"
+    -   ref: "union-ms"
     -   ref: "alhambra-hs"
-    -   ref: "emerald-hs"
-    -   ref: "san-ramon-valley-hs"
-    -   ref: "kennedy-hs-fremont"
-    -   ref: "newark-hs"
+    -   ref: "hayward-hs"
+    -   ref: "encinal-hs"
     -   ref: "deer-valley-hs"
 
-    -   break: 5
-
-    -   ref: "gustine-hs"
-    -   ref: "firebaugh-hs"
-
     -   break: 10
 
-    -   ref: "northgate-hs"
-    -   ref: "franklin-hs-stockton"
-    -   ref: "fairfield-hs"
     -   ref: "san-leandro-hs"
-    -   ref: "merrill-f-west-hs"
-    -   ref: "terra-nova-hs"
+    -   ref: "pajaro-valley-hs"
+    -   ref: "orland-hs"
+    -   ref: "franklin-hs-stockton"
+    -   ref: "linden-hs"
+    -   ref: "tracy-hs"
+    -   ref: "san-ramon-valley-hs"
+    -   ref: "firebaugh-hs"
+    -   ref: "kennedy-hs-fremont"
     -   ref: "granada-hs"
-    -   ref: "will-c-wood-hs"
-    -   ref: "turlock-hs"
+    -   ref: "fairfield-hs"
+    -   ref: "merrill-f-west-hs"
+    -   ref: "northgate-hs"
     -   ref: "richmond-hs"
     -   ref: "concord-hs"
-    -   ref: "benicia-hs"
-    -   ref: "buhach-colony-hs"
+    -   ref: "mountain-house-hs"
+    -   ref: "archbishop-riordan-hs"
 
     -   break: 10
 
-    -   ref: "archbishop-riordan-hs"
-    -   ref: "edison-hs-stockton"
-    -   ref: "atwater-hs"
+    -   ref: "turlock-hs"
+    -   ref: "buhach-colony-hs"
     -   ref: "santa-cruz-hs"
     -   ref: "merced-hs"
     -   ref: "rodriguez-hs"
     -   ref: "lincoln-hs"
-    -   ref: "washington-hs"
     -   ref: "irvington-hs"
         unit: "parade-jv"
     -   ref: "irvington-hs"
+    -   ref: "washington-hs"
+    -   ref: "mission-sj-hs"
     -   ref: "franklin-hs"
 
-    awards_time: "1:45pm"
+    awards_time: "1:15pm"
 
     awards_location: "Amador Valley High School Stadium"
 
@@ -98,45 +91,38 @@ fieldshow:
     start_time: "3:15pm"
 
     lineup:
-    # Full attribution includes:
-    # - Foothill Sophomore
-    # - Marching Band
-    # - Honors Wind Ensemble
-    # - Honors Jazz Band
-    # - Treble Choir Student Director
     -   anthemPerformer: "Foothill sophomore, Marching Band percussionist, Honors Wind and Jazz musician, and Treble Choir Student Director, Ansha Anant"
 
     -   ref: "dublin-hs"
-    -   ref: "john-c-kimball-hs"
+    -   ref: "st-francis-hs"
+    -   ref: "turlock-christian-hs"
     -   ref: "mountain-house-hs"
-    -   ref: "south-san-francisco-hs"
+    -   ref: "terra-nova-hs"
     -   ref: "john-swett-hs"
-    -   ref: "millennium-hs"
     -   ref: "del-mar-hs"
+    -   ref: "millennium-hs"
 
     -   break: 15
 
     -   ref: "monte-vista-hs"
+    -   ref: "john-c-kimball-hs"
+    -   ref: "california-hs"
     -   ref: "clayton-valley-hs"
-    -   ref: "rancho-cotate-hs"
-    -   ref: "st-francis-hs"
-    -   ref: "terra-nova-hs"
 
-    -   awardsLabel: "Field Show Divisions 1A and 2A"
+    -   awardsLabel: "Field Show Divisions 1A, 2A, and 3A"
         location: "here"
         time: "in 30 minutes"
-        continuation: "Field Show Divisions 3A through 6A"
-        continuationTime: "at 7:30"
+        continuation: "Field Show Divisions 5A and 6A"
+        continuationTime: "at 7:45"
 
     -   ref: "emerald-hs"
     -   ref: "castro-valley-hs"
-    -   ref: "california-hs"
+    -   ref: "liberty-hs"
     -   ref: "rodriguez-hs"
     -   ref: "american-hs"
-    -   ref: "amador-valley-hs"
     -   ref: "foothill-hs"
 
-    -   awardsLabel: "Field Show Divisions 3A through 6A"
+    -   awardsLabel: "Field Show Divisions 5A and 6A"
         location: "here"
         time: "in 30 minutes"
 
@@ -144,36 +130,14 @@ fieldshow:
         general: *sponsors-general
 
         trophies:
-        -   place: Sweepstakes
-            sponsors:
-            -   sponsor: the Kuo Family
-                presenter: Kathrine Wang
-                message: >
-                    With heartfelt appreciation, the Kuo Family, Kathrine Wang's cherished grandparents,
-                    dedicate this trophy
-                    in loving honor of grandpa, Dr. Kung Mo Kuo. Go Foothill!
-        -   place: 1st place percussion
-            sponsors:
-            -   sponsor: Zach Szukala
-                message: Congrats and kudos to the amazing musicians!
-        -   place: 1st place (caption TBD)
-            sponsors:
-            -   sponsor: the Chen Family
-                presenter: Meng Chen
-        -   place: 1st place color guard
-            sponsors:
-            -   sponsor: anonymous
-                presenter: Colie Armstrong
-                message: >
-                    Cousins from Foothill High and Cal High Schools both performed tonight in our stadium.
-                    This trophy is dedicated to Grandma and Grandpa, proud supporters of everything music, color guard, and all of their grandchildren's endeavors.
-        -   place: 2nd place brass
-            sponsors:
-            -   sponsor: the Goebel family
-                presenter: Samuel Goebel
-                message: >
-                    Dedicated to the Foothill Marching Band for all of their hard work this season,
-                    special love sent to Sam and the baritone section. 
+        # -   place: Sweepstakes
+        #     sponsors:
+        #     -   sponsor: the Kuo Family
+        #         presenter: Kathrine Wang
+        #         message: >
+        #             With heartfelt appreciation, the Kuo Family, Kathrine Wang's cherished grandparents,
+        #             dedicate this trophy
+        #             in loving honor of grandpa, Dr. Kung Mo Kuo. Go Foothill!
 
 concert:
     lineup:

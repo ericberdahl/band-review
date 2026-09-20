@@ -3,7 +3,7 @@ name: "Santa Cruz High School"
 city: "Santa Cruz, CA"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: "Cardinal Regiment"
 
@@ -11,34 +11,28 @@ parade:
     -   "Christina Latham (kris-TEE-nah LAY-tham)"
 
     staff:
-    -   title: color guard instructor
+    -   title: instructed by
         members:
         -   "Keegan McCoy"
-
-    -   title: percussion instructor
-        members:
         -   Leo Reyes-Jiminez
-
-    -   title: bagpipe instructor
-        members:
         -   Jay Salter
 
     leaders:
     -   title: drum major
         members:
-        -   Joaquin Fitzsimmons
+        -   Jacob Stone
 
-    -   title: color guard captain
+    -   title: color guard leader
         members:
-        -   Georgia Polissar
+        -   Ava Storm
         
-    -   title: percussion captains
+    -   title: percussion leaders
         members:
-        -   Avery Addae
+        -   Jaxson Soto
         -   Jackson Ratan
-        -   Xander Shulman
+        -   Yale Shulman
 
     music: >
-        Spine of the Devil by Waymond O. Bullock
+        The Cardinal by Alexander Lee
     
     notes: >

@@ -3,28 +3,40 @@ name: "Union Middle School"
 city: "San Jose, California"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: "Union Middle School Tiger Marching Band"
 
     directors:
     -   Chris Kay
+    -   Rita Jaworski
 
     staff: 
-    -   title: instructed by
+    -   title: marching tech
         members:
-        -   Rita Jaworski
+        -   Joe Maguire
+
+    -   title: color guard coaches
+        members:
+        -   Alicia Arrieta
+        -   Shayla Quilles
+        -   Sonoma Geil
 
     leaders:
     -   title: drum major
         members:
-        -   Chaebin Jang
+        -   Melinda Chang
 
-    -   title: percussion captain
+    -   title: color guard leaders
         members:
-        -   Alon Barkan
+        -   Olga Mikhailova
+        -   Chelsea Zulueta
+
+    -   title: percussion leader
+        members:
+        -   Kei Suzuki
 
     music: >
-        Military Escort by Harold Bennet, arranged by Andrew Balent
+        Them Basses by G.F. Huffine
 
     notes: 

@@ -6,39 +6,40 @@ directors: &directors
 -   Kevin Misakian (Kevin mis-ACK-ee-an)
 
 parade:
-    lastUpdated: 2025-10-20 17:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: Eagle Marching Band and Color Guard
 
     directors: *directors
 
     staff: 
-    -   title: percussion instructor
-        members:
-        -   Joshua Ompad
-
     -   title: color guard instructor
         members:
         -   Eddie Silva
 
-    -   title: marching instructor
+    -   title: visual instructor
         members:
         -   Daniel Moreno
+
+    -   title: percussion instructors
+        members:
+        -   Miles Hernandez
+        -   Kyah Hill
 
     leaders:
     -   title: drum major
         members:
-        -   Benjamin Gallegos
-
-    -   title: color guard captains
-        members:
         -   Emily Santoyo
 
-    -   title: percussion captain
+    -   title: color guard leader
         members:
-        -   Brandon Molina
+        -   Melany Rodriguez
+
+    -   title: percussion leader
+        members:
+        -   Marina Hernandez
 
     music: >
-        Zacatecas by Genaro Codina
+        Mighty Mite by Ted Mesang
 
     notes: 

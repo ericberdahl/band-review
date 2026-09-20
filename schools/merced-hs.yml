@@ -3,43 +3,39 @@ name: "Merced High School"
 city: "Merced, CA"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: Merced Marching 100
 
     directors:
-    -   Ashley Shine
     -   David Clark
 
     staff:
-    -   title: color guard instructors
+    -   title: guard instructors
         members:
-        -   Hermione Guzman
         -   Mark Ramirez
-        -   Adeneli Lopez
+        -   Gabriel Rangel
 
     -   title: percussion instructors
         members:
         -   Fernando Barragan
-        -   Ricardo Mercado
-        -   Havy Lee
-        -   Drake Van Vloten
+        -   Ricky Mercado
 
     leaders:
     -   title: drum major
         members:
-        -   Kaira Quinn (KEH-ruh Quinn)
+        -   Izelic Rocha (ee-SELL-ick Rocha)
 
-    -   title: color guard captain
+    -   title: color guard leader
         members:
-        -   Katie Brown
+        -   Laci Acevedo
     
-    -   title: percussion captain
+    -   title: percussion leader
         members:
-        -   Ezra Winek
+        -   Faith Clark
     
     music: >
-        Margam Abbey by Tom J. Powell
+        Colossus of Columbia by R. Alexander
 
     notes: >
 

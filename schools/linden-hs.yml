@@ -6,7 +6,7 @@ staff:
 -   &troy-rexelle "Troy Rexelle (rex-EHL)"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: Lion Regiment
 
@@ -25,14 +25,19 @@ parade:
     leaders:
     -   title: drum major
         members:
-        -   Olivia Frennette
+        -   Larissa Gonzalez
 
-    -   title: percusson captain
+    -   title: color guard leaders
+        members:
+        -   Alejandro Moreno
+        -   Mariana Albor
+
+    -   title: percussion leader
         members:
         -   Gabby Laguna
 
     music: >
-        The Voice of the Guns by Kenneth J. Alford
+        El Manto Dorado by Jorge Vargas
 
     notes: >
 

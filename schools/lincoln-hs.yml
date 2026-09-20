@@ -3,7 +3,7 @@ name: "Lincoln High School"
 city: "Stockton, CA"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: &band-review-nickname Lincoln High School Marching Band
 
@@ -13,30 +13,34 @@ parade:
     -   Jazareth Valencia
 
     staff:
-    -   title: instructed by
+    -   title: guard instructors
         members:
         -   Julia Cornejo
-        -   Finn Wonacott
+        -   Brian Jimenez
+        -   Fin Wonacott
+
+    -   title: percussion instructors
+        members:
         -   Trish Pangan-Kennedy
-        -   Leslie Vazquez
+        -   Michael Hernandez
 
     leaders:
     -   title: drum major
         members:
-        -   Kaylee Villagomez
+        -   Jason Aranda
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
+        -   Max Yap
+        -   Anna Vargas
         -   Ysabel Trimble
-        -   Maxine Yap
 
-    -   title: percussion captains
+    -   title: percussion leader
         members:
-        -   Glenn Pillsbury
-        -   Michael Perez
+        -   Paige Gulden
 
     music: >
-        Eagle Squadron by Kenneth J. Alford
+        Army of the Nile by Kenneth J. Alford
 
     notes: >
 

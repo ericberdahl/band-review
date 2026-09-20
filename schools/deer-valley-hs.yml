@@ -3,51 +3,58 @@ name: Deer Valley High School
 city: Antioch, California
 
 staff:
--   &kevin-field "Kevin Field"
 -   &angelo-gutierrez "Angelo Gutierrez"
 -   &marissa-kittleson "Marissa Kittleson"
 -   &kate-lemonds "Kate LeMonds"
 -   &abraham-molina "Abraham Molina"
 -   &joshua-suarez "Joshua Suarez"
--   &courtney-trantham "Courtney Trantham"
 
 students:
 -   &precilla-molina "Precilla Molina"
--   "Stephany Calderon"
--   "Angela KWEN-ko"
--   "Mariah TOH-cow"
--   "Maya yoo-REE-bay"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: Teal and Black Regiment
 
     directors: 
-    -   Ryan Carr
+    -   Brian Poole
 
     staff: 
     -   title: instructed by
         members:
         -   *kate-lemonds
+
+    -   title: drumline coach
+        members:
+        -   Joey Espinosa
+
+    -   title: drumline and guard coach
+        members:
+        -   Maxine Borchard (mak-SEEN BOR-kard)
+
+    -   title: guard coach
+        members:
         -   *joshua-suarez
 
     leaders:
     -   title: drum major
         members:
-        -   Bryce Hull
+        -   Mia Serrano
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Janice Cao
+        -   Kaitlin Henriquez
+        -   Alessandra Orozco
+        -   Reiava Pouard (ray-AH-vah poo-AHR)
+
+    -   title: percussion leaders
+        members:
+        -   Jasela Marr (juh-SELL-uh MAR)
         -   Alessandra Orozco
 
-    -   title: percussion captain
-        members:
-        -   Bryce Hull
-
     music: >
-        The Voice of the Guns by Kenneth Alford
+        De Molay by Robert Browne Hall
 
     notes: >
 

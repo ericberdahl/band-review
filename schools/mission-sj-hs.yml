@@ -16,48 +16,43 @@ students:
 -   Dexton Djunaidy (Dexton joo-NAI-dee)
 
 parade:
-    lastUpdated: 2023-10-18 15:28:26 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: Warrior Marching Band and Color Guard
+    nickname: Warrior Band
 
     directors:
-    -   *bryce-beckel
-    -   David Belles
+    -   Jason Sarten
+    -   Garon Fok
 
     staff:
     -   title: instructed by
         members:
         -   Fou Saelee
-        -   Aidan Marques
-        -   Steve Slater
-        -   Jessica Lee
-        -   Harrison Cheng
-        -   Eddie Chang
+        -   James Garrity
+        -   Leo Reyes
+        -   James Lai
+        -   Kristen Zhou
 
     leaders:
-    -   title: drum majors
+    -   title: drum major
         members:
-        -   Edric Zheng
+        -   Summer Liu
     
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Ellie Tran
-        -   Charleen Pan
-        -   Patricia Wu
+        -   Alon Troy Baria
+        -   Alexandre Bringuel
+        -   Jasmine Jiang
     
-    -   title: percussion captains
+    -   title: percussion leaders
         members:
-        -   Reynold Liu
-        -   Kevin Yang
+        -   Srikar Nag
+        -   Sunny He
 
-    music: The Loyal Legion by John Philip Sousa, arranged by R.D. Becker
+    music: >
+        The Cossack by William Rimmer
 
     notes: >
-        The Mission San Jose High School Warrior Marching Band and Color Guard are proud of their decades long history of
-        musical excellence in all areas of performance.
-        The Warrior Marching Band and Color Guard have represented California and the United States internationally in the
-        United Kingdom, France, Italy, Australia, Spain, Belgium, Germany, Austria, the Czech Republic and the Netherlands.
-        Next month the band will be traveling to Southern California to compete in the 70th Annual Arcadia Festival of Bands.
 
 winterguard:
     lastUpdated: 2023-03-20 16:30:00 -08
