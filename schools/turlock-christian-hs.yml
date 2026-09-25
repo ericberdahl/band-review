@@ -1,4 +1,4 @@
-name: "Turlock Christian High School"
+name: Turlock Christian Schools
 
 city: "Turlock, CA"
 
@@ -26,6 +26,27 @@ parade:
         The Turlock Christian Marching Eagles, under the direction of Mr. Richard Winkler, have been very successful in past years, placing 2nd place at the Pitman Preview of Champions, 2nd Place at the Foothill Band Review, and 1st Place at the Central California Band Review.
         This year the band has placed 1st place at the Pitman Preview of Champions.
         The Students would like to thank all the parents and Administration at Turlock Christian for their continued support of the music program.
+
+fieldshow:
+    lastUpdated: 2026-09-20 12:00:00 -07
+
+    nickname: Turlock Christian Schools Soaring Eagles Marching Band
+
+    directors:
+    -   Kevin L. Smith
+
+    staff: 
+
+    leaders:
+    -   title: field conductor
+        members:
+        -   Aaliyah Davis
+
+    program: Everlasting
+
+    description: 
+
+    notes: 
 
 concert:
     lastUpdated: 2018-10-12 12:54:06 -07

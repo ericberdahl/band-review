@@ -3,9 +3,9 @@ name: "Dublin High School"
 city: "Dublin, CA"
 
 fieldshow:
-    lastUpdated: 2025-10-21 23:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
-    nickname: Irish Guard Marching Band and Color Guard
+    nickname: Dublin High School Irish Guard Marching Band and Color Guard
 
     directors:
     -   Jack Bainton (Jack "bay-n-tuhn")
@@ -13,38 +13,39 @@ fieldshow:
     staff:
     -   title: instructed by
         members:
-        -   Matt Sieve (Matt SEE-vee)
-        -   Rachel Nishijima
-        -   Tony Duran
-        -   Lyle Elster
-        -   Yannis Shpits (YAW-nihs Shpits)
-        -   Justin Shebert
+        -   Matthew Sieve (Matthew SEE-vee)
         -   Fou Saelee
         -   Garrett Moya
         -   Andrew Lawton
         -   Grace Holmes
-        -   Jarvis Nguyen
-        -   Ethan Cheung
-        -   Catrina Currier
+        -   Lyle Elster
+        -   Justin Shebert
+        -   Yannis Shpits (YAW-nihs Shpits)
+        -   Tony Duran
+        -   Jhon Enriqez
+        -   CJ Ross
+        -   Marvin Reed
+        -   Mary Calo (Mary KAH-loh)
+        -   Anthony Lam
         
     leaders:
     -   title: field conductors
         members:
-        -   Ivanna Chen
-        -   Tvisha Kumar
         -   Samuel Ryu
         -   Sydney Majaya (Sydney muh-JAH-yah)
+        -   Alexis Law
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Liana Wong
-        -   Kendal Fong
+        -   Carrie Chang
+        -   Emily Reyes
 
-    -   title: percussion captain
+    -   title: percussion leaders
         members:
-        -   Evan Tubera
+        -   Dylan Tran
+        -   Brooke Smith
 
-    program: Rivers of Paradise
+    program: Percolate
 
     music: >
 

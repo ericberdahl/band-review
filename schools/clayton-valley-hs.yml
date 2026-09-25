@@ -3,7 +3,7 @@ name: Clayton Valley Charter High School
 city: Concord, CA
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
     nickname: Clayton Valley Charter High School Marching Band and Color Guard
 
@@ -11,45 +11,44 @@ fieldshow:
     -   Javier Cerna
 
     staff:
-    -   title: visual instructors
-        members:
-        -   Shawn Griddine
-        -   Ash Reyes
-
-    -   title: music instructors
-        members:
-        -   Jared McNab
-        -   Alex Frank
-
     -   title: percussion instructors
         members:
         -   Kyle Boydstun
         -   Gabe Boston
         -   Ben Oxley
         -   Jacob Laure
-        -   Sohrab Bazargannia
+        -   Alex Leong
+
+    -   title: visual and winds instructors
+        members:
+        -   Shawn Griddine
+        -   Ash Reyes
+        -   Jared McNab
+        -   Alex Frank
 
     -   title: color guard instructors
         members:
-        -   Lindsey Bazua (Lindsey bah-ZOO-ah)
+        -   Lindsey Bazua (Lindsey BAH-zoo-ah)
         -   JJ Martinez
+        -   John Donham
 
     leaders:
     -   title: field conductors
         members:
-        -   Samantha Campbell
         -   Shiloh Williams
+        -   Paxton Steinhoff
 
-    -   title: color guard captain
+    -   title: color guard leaders
         members:
-        -   Shane White
+        -   Kaylee Abregana
+        -   Kira Smith
     
-    -   title: percussion captains
+    -   title: percussion leaders
         members:
-        -   Christian Boston
-        -   Shedrick Ronque
+        -   Ricardo Campos
+        -   Daphne Haury-Pua
         
-    program: Door 13
+    program: The Machine
 
     music: >
 

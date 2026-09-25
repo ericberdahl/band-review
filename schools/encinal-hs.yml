@@ -3,36 +3,25 @@ name: Encinal High School
 city: Alameda, CA
 
 parade:
-    lastUpdated: 2023-10-20 20:52:18 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: Soaring Jets
+    nickname: Encinal High School Marching Jets
 
     directors:
-    -   Mitchell Wagner
+    -   James Caswell
 
     staff:
-    -   title: instructed by
-        members:
-        -   Claudia Delgado
 
     leaders:
     -   title: drum major
         members:
-        -   Mateo Delgado
+        -   Justin Jow
 
-    -   title: color guard captain
+    -   title: percussion leader
         members:
-        -   Casey Paano
-
-    -   title: percussion captain
-        members:
-        -   Landon Wilson
+        -   Freddie Metzger
     
-    -   title: captain
-        members:
-        -   Claire Paano
-
-    music: The Invincible Eagle by John Phillip Sousa arranged by Jay Bocook
+    music: >
+        Coast Guards March by Karl L. King
 
     notes: >
-        The band says thanks to the booster's for their support, organization and participation.

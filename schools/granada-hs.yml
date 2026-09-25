@@ -7,7 +7,7 @@ staff:
 
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: Granada High School Marching Band and City of Livermore Color Guard
 
@@ -19,26 +19,25 @@ parade:
         members:
         -   Sierra Sowa
         -   Natasha Mihelcic (Natasha mih-HEHL-chich)
-        -   Zoe Vaughn
+        -   Giulia Cuppoletti
+        -   Hunter Krech
 
     leaders:
     -   title: drum major
         members:
-        -   Daniel Booth
+        -   Misha Sarwar
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Sophie de Frenchie
-        -   Caitlin Craighead
-        -   Violet McCloud
-        -   Kylie Cato
+        -   Katherina Booth
+        -   Audrey Roosa
 
-    -   title: percussion captain
+    -   title: percussion leader
         members:
-        -   Ava Taylor
+        -   Hunter Tindle
 
     music: >
-        Illinois March by Edwin Goldman
+        BB and CF by Ord Hume
 
     notes: >
 

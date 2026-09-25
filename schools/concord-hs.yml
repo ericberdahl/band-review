@@ -3,9 +3,9 @@ name: "Concord High School"
 city: "Concord, CA"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: Concord High School Marching Bears
+    nickname: Concord High Marching Band
 
     directors: 
     -   Shane Barrows
@@ -13,24 +13,26 @@ parade:
     staff: 
     -   title: instructed by
         members:
-        -   Andy La (Andy LAW)
+        -   Andy La (Andy LAH)
         -   Lulu Cardoza
     
     leaders:
     -   title: drum major
         members:
-        -   Killian Graham
+        -   Arien Swift-Wade
 
-    -   title: color guard captain
+    -   title: color guard leaders
         members:
-        -   Elise Esterlin
+        -   Mymy Papalii (MEE-mee pah-PAH-lee)
+        -   Emily Score
 
-    -   title: percussion captain
+    -   title: percussion leaders
         members:
-        -   Roz Hoff
+        -   Amari Evers
+        -   Jackson Jacobs
 
     music: >
-        War March of the Tartars by Karl L. King
+        Kinizsi Indulo by Julius Fucik
 
     notes: 
 

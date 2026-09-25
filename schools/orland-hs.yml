@@ -20,32 +20,38 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 2021-09-24 08:31:43 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: 'Trojan Marching Band'
+    nickname: 'Orland High School Trojan Marching Band'
 
     directors:
     -   'Cory Goga'
 
     staff:
-    -   title: 'instructed by'
+    -   title: percussion instructor
         members:
-        -   'Breila Martin'
+        -   Tripp Andre
+
+    -   title: color guard instructors
+        members:
+        -   Julieta Hernandez
+        -   Jedidiah Hendry
 
     leaders:
     -   title: 'drum major'
         members:
-        -   'Allison Thomas'
+        -   Sophia Cobian
 
-    -   title: 'auxiliary captain'
+    -   title: color guard leader
         members:
-        -   'Shelby Jackson'
+        -   Yaiza Garcia
     
-    -   title: 'percussion captain'
+    -   title: percussion leader
         members:
-        -   'Ethan Hebert'
+        -   Albert Ball
 
-    music: Father of Victory by Louis Ganne (Louis GAH-nay)
+    music: >
+        Peacemaker March by Karl King
 
 winterpercussion:
     lastUpdated: 1967-12-01 04:30:00 -08

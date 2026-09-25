@@ -7,7 +7,7 @@ parade:
 
     nickname: "Emerald High School Marching Band and Color Guard"
 
-    directors: &band-review-directors
+    directors:
     -   "Jaspar Tran"
 
     staff: 
@@ -42,74 +42,107 @@ parade:
     notes: 
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
     nickname: "Emerald High School Marching Band and Color Guard"
 
-    directors: *band-review-directors
+    directors:
+    -   Jaspar Tran
 
     staff: 
-    -   title: music and percussion arranger
+    -   title: percussion director and music arranger
         members:
         -   Lyle Elster
 
-    -   title: drill designer
-        members:
-        -   Tommy Roam
-
-    -   title: color guard choreographer and caption head
-        members:
-        -   Onel Higginbotham
-
-    -   title: audio system engineer and instructor
+    -   title: audio systems manager
         members:
         -   Kai Gottschalk
 
-    -   title: visual caption head
+    -   title: drill designer
         members:
-        -   Matthew Sieve
+        -   Joey Staab
 
-    -   title: visual and field conductor instructor
+    -   title: color guard director
+        members:
+        -   Onel Higginbotham
+
+    -   title: woodwind and visual tech
+        members:
+        -   Agam Singh
+
+    -   title: brass and visual tech and field conductor instructor
         members:
         -   Marco Duldulao
 
-    -   title: visual and design instructor
+    -   title: brass and visual techs
         members:
-        -   Shawn Griddine
+        -   Korben Reyes
+        -   Ash Reyes
 
-    -   title: visual instructors
+    -   title: visual caption head
+        members:
+        -   Matt Sieve
+
+    -   title: visual tech
         members:
         -   Rebecca Miles
-        -   Marvin Reed
-        -   Ash Reyes
-        -   Korben Reyes
 
-    -   title: front ensemble tech
+    -   title: visual lead
         members:
-        -   Justin Shebert
+        -   Dr. Marvin Reed
 
     -   title: battery techs
         members:
-        -   Lyle Elster
         -   Aditi Joshi
-        -   Cael Ross
+        -   Evan Tubera
+
+    -   title: front ensemble techs
+        members:
+        -   Justin Shebert
+        -   Joey Jandeleit
+        -   Thomas Hollins
+
+    -   title: color guard techs
+        members:
+        -   Jacob Magpoc
+        -   Ellie Agin
 
     leaders:
-    -   title: field conductors
+    -   title: drum major
         members:
         -   Aadarsh Vivek
+
+    -   title: assistant drum majors
+        members:
+        -   Jay Modi
         -   Raghuveer Marada
+
+    -   title: field conductor
+        members:
         -   Clair An
 
     -   title: color guard captain
         members:
         -   Choksha Chamakura
 
-    -   title: percussion captain
+    -   title: assistant color guard captains
+        members:
+        -   Jiya Jithesh
+        -   Ariana Julian
+
+    -   title: percussion captain and snare section leader
         members:
         -   Jan Palma
 
-    program: With You
+    -   title: quad section leader
+        members:
+        -   Advait Sriram
+
+    -   title: bass drum section leader
+        members:
+        -   Yashvir Jaj
+
+    program: Hide
 
     music: 
 

@@ -4,10 +4,9 @@ city: Fremont, CA
 
 staff:
 -   Amberle Mitchell (AHM-bur-lee Mitchell)
--   
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: Husky Marching Band
 
@@ -15,13 +14,10 @@ parade:
     -   Daniel Edwards
 
     staff:
-    -   title:  marching instructor
+    -   title:  marching instructors
         members:
+        -   Benjamin Chen
         -   Ben Benavides
-
-    -   title:  percussion instructors
-        members:
-        -   Adriel Flores
         -   Vince Wu
 
     -   title:  color guard instructor
@@ -31,17 +27,18 @@ parade:
     leaders:
     -   title: drum major
         members:
-        -   Anvitha Moola
+        -   Yiran Shen (YEE-rahn Shen)
     
-    -   title: color guard captain
+    -   title: color guard leader
         members:
-        -   Yilin Shen (YEE-lihn shehn)
+        -   Quinn Severance
     
-    -   title: percussion captain
+    -   title: percussion leaders
         members:
-        -   Justin Chen
+        -   Jeremy Chen
+        -   Riya Toro
 
     music: >
-        The Voice of the Guns by Kenneth J. Alford
+        Blencathra by William Rimmer
 
     notes: >

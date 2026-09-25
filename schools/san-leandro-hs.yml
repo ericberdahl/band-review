@@ -3,35 +3,37 @@ name: San Leandro High School
 city: San Leandro, CA
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: San Leandro High School Band of Pirates
 
     directors:
-    -   Ryan Phillips
     -   Geronimo Rojas
 
     staff:
     -   title: instructed by
         members:
-        -   Douglas Slocum
         -   Caleb Blankenship
+        -   Douglas Slocum
 
     leaders:
-    -   title: drum major
+    -   title: drum majors
         members:
-        -   Nicholas Van Oosting
+        -   Kaitlyn Guan
+        -   Cove Fernandez
+        -   Simon Dai
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
         -   Biehvana Castellon (bee-eh-VOHN-uh cas-TEE-yon)
-        -   Hailee Thomas
+        -   Gloribella Bravo
+        -   Kiera King
 
-    -   title: percussion captain
+    -   title: percussion leader
         members:
         -   Naoki McMahan
 
     music: >
-        Confirmed by C.E. Duble
+        A Cidade Invicta by Amilcar Morais
 
     notes: >

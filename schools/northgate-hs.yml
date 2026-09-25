@@ -3,30 +3,37 @@ name: "Northgate High School"
 city: "Walnut Creek, CA"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: Northgate Broncos
+    nickname: Northgate High School Marching Broncos
 
     directors:
-    -   Roberto Garcia-Leiva
+    -   Kevin Prough (Kevin PROH)
 
     staff:
-    -   title: instructed by
+    -   title: color guard instructor
         members:
-        -   Sabrina Myers
-        -   Kevin Prough (Kevin PROH)
+        -   Sabrina Hart
+
+    -   title: drumline instructor
+        members:
+        -   Michael Arnold
 
     leaders:
     -   title: drum major
         members:
-        -   Robyn Khaund
+        -   Megan Baack (Megan bah-AHK)
 
-    -   title: color guard captains
+    -   title: color guard leader
         members:
-        -   Sophia Lopez
-        -   Ella Jefferson
-        
+        -   Sophie Crisostomo
+
+    -   title: percussion leaders
+        members:
+        -   Joey de Lucia
+        -   Maya Melamed
+
     music: >
-        The White Rose by John Philip Sousa
+        March Grandioso by Roland Seitz
 
     notes: >

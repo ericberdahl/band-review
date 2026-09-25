@@ -3,82 +3,86 @@ name: Irvington High School
 city: Fremont, CA
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: Viking Marching Band
+    nickname: Irvington High School Varsity Marching Band
 
-    directors: &directors
-    -   Charlie Rodda (Charlie RAH-dah)
+    directors:
+    -   Patricia Danielidis (Daniel-EE-diss)
 
-    staff: &staff
-    -   title: marching coach
+    staff:
+    -   title: instructed by
         members:
-        -   Ben Benavides
-
-    -   title: color guard coaches
-        members:
-        -   Jessica Fuller
-        -   Devin Hunter
-
-    -   title: percussion coaches
-        members:
-        -   Jacob Mercado
+        -   Benjamin Benavides
         -   Nadja Ryan
+        -   Jacob Mercado
         -   Jeremy Lin
+        -   Samuel Abram
+        -   Devin Hunter
+        -   Jessica Fuller
+        -   Sierra Sowa
+        -   Thiha Aung (TEE-ha OWNG)
 
     leaders:
     -   title: drum major
         members:
-        -   Riya Ragavan
+        -   Ziva Todiwala
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Sheryl Sun
-        -   Elaine Peng
+        -   Cindy Luo
+        -   Cindy Li
+        -   I-en Chung
 
-    -   title: percussion captains
+    -   title: percussion leaders
         members:
-        -   Luna Yang
-        -   Samuel Abrahm
-        -   Neha Bellamkonda
-        -   Joanne Huang
-        -   Monish Sivikumar
+        -   Vihaan Nalavade
+        -   Jing Yee-Bowen
+        -   Aarush Sundararajan
 
     music: >
-        Centaur by Derek Brodbent, arranged by Jeffrey Stratton
+        Knight Templar by George Allen
 
     notes: >
 
 parade-jv:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: Irvington JV Marching Band
+    nickname: Irvington High School Junior Varsity
 
-    directors: *directors
+    directors:
+    -   Patricia Danielidis (Daniel-EE-diss)
 
-    staff: *staff
+    staff:
+    -   title: instructed by
+        members:
+        -   Benjamin Benavides
+        -   Nadja Ryan
+        -   Jacob Mercado
+        -   Jeremy Lin
+        -   Samuel Abram
+        -   Devin Hunter
+        -   Jessica Fuller
+        -   Sierra Sowa
+        -   Thiha Aung (TEE-ha OWNG)
 
     leaders:
     -   title: drum major
         members:
-        -   Kirsten Zhou
+        -   Nathan Fung
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Aarushi Jain
-        -   Lavender Huang
-        -   Jason Ngo
+        -   Samantha Dethberner
+        -   Jennifer Qian (Jennifer CHEN)
 
-    -   title: percussion captains
+    -   title: percussion leaders
         members:
-        -   Neha Bellamkonda
-        -   Joanne Huang
-        -   Luna Yang
-        -   Jing Yee Bowen
-        -   Vihan Navalde
+        -   Shivam Patil
+        -   Jaylen Yeung
 
     music: >
-        In Storm and Sunshine by J. C. Heed
+        Bravura by C. E. Duble, arranged by Edmonson
 
     notes: 
 

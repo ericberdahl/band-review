@@ -5,37 +5,38 @@ city: Fairfield, CA
 staff:
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
     nickname: Scarlet Brigade
 
     directors:
     -   Ross Ackerman
+    -   Justin Trujillo
 
     staff:
-    -   title: instructed by
+    -   title: parade instructors
         members:
         -   Teresa Pierce
+        -   Biridiana Aguirre (bee-ree-dee-AH-nah ah-GEER-ray)
         -   Paul Olson
-        -   Matthew Welch
-        -   Biridiana Aguirre
 
     leaders:
     -   title: drum major
         members:
-        -   Cameron Wayne
+        -   Sophia Mitchell
 
-    -   title: color guard captain
+    -   title: color guard leaders
         members:
-        -   Naomi Nichols
+        -   Annika Vergara
+        -   Sarah Saleh
 
-    -   title: percussion captains
+    -   title: percussion leaders
         members:
-        -   Julius Javier
-        -   D'Lo Santos
+        -   Deangelo Santos
+        -   Diana Palombo
 
     music: >
-        By the Centre (2022) by Stuart Dean
+        Cyrus the Great by Karl King
 
     notes: >
 

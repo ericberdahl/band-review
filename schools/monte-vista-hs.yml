@@ -3,7 +3,7 @@ name: Monte Vista High School
 city: Danville, CA
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
     nickname: Monte Vista High School Marching Band
 
@@ -14,31 +14,30 @@ fieldshow:
     -   title: instructed by
         members:
         -   Dennis Aquilina
-        -   Dale Pauly
-        -   Matt Lowe
-        -   Taylor Slight
-        -   Steven Bautista
         -   Grace Cloyd
+        -   Dale Pauly
         -   Steven Kelly
+        -   Matt Lowe
+        -   Yasasri Chintapalli
 
     leaders:
     -   title: field conductors
         members:
-        -   Caden Harris
         -   Caleb Pizarro
+        -   Allie Bauer
 
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Mika Lewandowski
         -   Mariella Wui
+        -   Patteera Laongsuwan
 
-    -   title: percussion captains
+    -   title: percussion leaders
         members:
-        -   Jackie Rogers
-        -   Rachel Antoun
+        -   Jamie Mast
         -   Sofia Musangkay
+        -   Hashim Basheer
 
-    program: The Art of Industry
+    program: Four the New World
 
     description: >
 

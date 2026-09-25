@@ -37,38 +37,32 @@ parade:
         Okay by David Reed
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
-    nickname: Terra Nova High SchoolMarching Band
+    nickname: Terra Nova Marching Band
 
     directors:
     -   Oliver Bishop-Peters
 
     staff:
-    -   title: instructed
+    -   title: instructed by
         members:
-        -   Andrew Rose
-        -   Alder Ward
-        -   Bennet Renolds
         -   Matthew Gallegos
-        -   Shaow Lawn Bisson-Yang
+        -   Juan Bautista
+        -   Noah Bishop-Peters
 
     leaders:
     -   title: field conductors
         members:
-        -   Naia Wolf
-        -   Nole Beutler
-
-    -   title: color guard captain
-        members:
-        -   Pheobe Daly
-
-    -   title: percussion captains
-        members:
         -   Daniel Salas
-        -   William Sang
+        -   Jamie Wong
 
-    program: Havana Nights
+    -   title: percussion leaders
+        members:
+        -   Dylan Jamora
+        -   Kathleen Johnson
+
+    program: Rain or Shine
 
     music: 
 

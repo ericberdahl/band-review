@@ -3,28 +3,32 @@ name: "Kennedy High School"
 city: "Fremont, California"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: "Kennedy High School Marching Band"
+    nickname: "Kennedy Marching Band"
 
     directors:
-    -   David Bickel (David BIK-uhl)
+    -   Joel Bickel (Joel BIK-uhl)
 
     staff: 
-    -   title: Color Guard Coach
+    -   title: color guard instructor
         members:
-        -   Eddy Chavarria (Eddy chah-VAHR-ee-uh)
+        -   Sarah Curran
+
+    -   title: marching instructor
+        members:
+        -   Ayler Ehling (EYE-lehr AY-ling)
+
+    -   title: percussion instructor
+        members:
+        -   Samantha Bottimore
 
     leaders:
     -   title: drum major
         members:
-        -   Wellington Martizano
-
-    -   title: percussion captain
-        members:
-        -   Samantha Bottimore
+        -   Anička Mares (an-EETCH-ka mehrs)
 
     music: >
-        In Storm and Sunshine by John Heed
+        The Purple Carnival by Harry L Alford
 
     notes: >

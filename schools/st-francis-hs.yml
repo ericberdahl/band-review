@@ -3,47 +3,52 @@ name: Saint Francis High School
 city: Mountain View, CA
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
-    nickname: Saint Francis Band and Color Guard
+    nickname: Saint Francis Lancer Band and Color Guard
 
     directors:
     -   Sadie Queally-Sammut (SAY-dee KWAY-lee SAM-ut)
 
     staff:
-    -   title: woodwind instructor
-        members:
-        -   Christian Fierro
-
-    -   title: percussion instructor
-        members:
-        -   Christine Lau
-        -   Adam Roura (Adam ROAR-uh)
-
-    -   title: color guard instructor
-        members:
-        -   Sarah Khouri
-
     -   title: visual tech
         members:
         -   Davis Zamboanga
 
+    -   title: color guard instructors
+        members:
+        -   Sarah Khouri
+        -   Jocelyn Abriam
+
+    -   title: percussion instructors
+        members:
+        -   Adam Roura (Adam ROAR-uh)
+        -   Owen Jordan-Sparks
+
+    -   title: woodwind tech
+        members:
+        -   Christian Fierro
+
+    -   title: brass tech
+        members:
+        -   Arlo Moody
+
     leaders:
     -   title: field conductors
         members:
-        -   Jamie Ramprashad
-        -   Kellyn Hu
+        -   Kellyn Hu (Kellyn HOO)
+        -   Teo Miteyski (TAY-oh miht-EHV-skee)
 
-    -   title: color guard captains
+    -   title: color guard leader
         members:
-        -   Zoe Scallon
-        -   Anya Mathew
+        -   JM Olivia
 
-    -   title: percussion captain
+    -   title: percussion leaders
         members:
-        -   Andrew Han
+        -   Neil Patel
+        -   Bryan Fan
     
-    program: The Rainbow Connection
+    program: Synchronicity
 
     music: >
     

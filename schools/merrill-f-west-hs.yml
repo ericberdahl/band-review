@@ -6,9 +6,9 @@ staff:
 -   &jonathan-raman "Jonathan Raman (Jonathan RAH-men)"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: West High Wolf Pack Marching Band
+    nickname: West Wolf Pack Marching Band
 
     directors:
     -   *jonathan-raman
@@ -16,23 +16,23 @@ parade:
     staff:
     -   title: instructed by
         members:
-        -   Michael Gregonis (Michael greh-GOH-nees)
+        -   Michael Gregonis (Michael greh-GOH-nihs)
 
     leaders:
     -   title: drum major
         members:
-        -   Joseph Reis (Joseph REESE)
+        -   Aliyah Mendez
 
-    -   title: color guard captain
+    -   title: color guard leader
         members:
-        -   Goonj Gautam (GOON-juh GOH-tuhm)
+        -   Shreva Sharma
 
     -   title: percussion captain
         members:
-        -   Johnny Fields
+        -   Hannah Abraham
 
     music: >
-        Cyrus the Great March by Karl L. King, arranged by Alan Gregory
+        Amparito Roca (Spanish March) by Jaime Texidor, arranged by James Curnow
 
     notes: >
 

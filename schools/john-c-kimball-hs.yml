@@ -3,32 +3,33 @@ name: "John C Kimball High School"
 city: "Tracy, California"
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-20 12:00:00 -07
 
-    nickname: Kimball Marching Jaguars
+    nickname: Kimball High School Marching Jaguars
 
     directors: 
-    -   Sera Wohldmann (Sera WOLD-muhn)
+    -   Sera Wohldmann (Sera VOLT-mahn)
 
     staff: 
-    -   title: instructed by
+    -   title: visual coordinator
         members:
-        -   Juan Bautista
+        -   Aashie Trivedi (AH-shee trih-VEH-dee)
 
     leaders:
     -   title: field conductor
         members:
-        -   Jack Pytlik (jahk PIHT-lihk)
+        -   Layla Morley
 
-    -   title: color guard captain
+    -   title: color guard leaders
         members:
-        -   Allyssa Smith
+        -   Gabriella Cruz
+        -   Kenny Bui (Kenny BOO-ee)
 
-    -   title: percussion captain
+    -   title: percussion leader
         members:
-        -   Surya Shreejith (SOOR-yah SHREE-jith)
+        -   Edgar Perez
 
-    program: The Approaching Storm
+    program: Metrosynthesis
 
     music: 
 

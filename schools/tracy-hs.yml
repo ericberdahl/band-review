@@ -3,9 +3,9 @@ name: Tracy High School
 city: Tracy, CA
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: &band-nickname "Pride of Tracy Marching Band and Color Guard"
+    nickname: Tracy High School Bulldog Marching Band and Color Guard
 
     directors: &band-review-directors
     -   Jacob Cortez
@@ -13,31 +13,32 @@ parade:
     staff:
     -   title: instructed by
         members:
-        -   Marnie Bradford
         -   Michael Gregonis
+        -   Marnie Bradford
 
     leaders:
     -   title: drum major
         members:
-        -   Juan Bautista
+        -   Natalia Rea Lopez
         
-    -   title: color guard captain
+    -   title: color guard leaders
         members:
-        -   Francesca Mejarito
+        -   Alicia Varela Guzman
+        -   Dayana Perez Huerta
 
-    -   title: percussion captain
+    -   title: percussion leader
         members:
-        -   Quinton Burum
+        -   Ray Romero
 
     music: >
-        The Billboard March by John N. Klohr
+        Florentiner March by Julius Fucik, arranged by M.L. Lake
 
     notes: >
 
 fieldshow:
     lastUpdated: 2022-10-18 8:38:06 -08
 
-    nickname: *band-nickname
+    nickname: Pride of Tracy Marching Band and Color Guard
 
     directors: *band-review-directors
 

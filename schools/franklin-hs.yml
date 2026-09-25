@@ -3,35 +3,48 @@ name: "Franklin High School"
 city: "Elk Grove, CA"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: 2026-09-19 15:00:00 -07
 
-    nickname: Franklin Wildcats Sound Power Marching Band
+    nickname: Franklin Sound Power Marching Band
 
     directors:
     -   "Matthew Mackey"
 
     staff:
-    -   title: drumline instructors
-        members:
-        -   Edson Saechao
-        -   Armaan Sidhu
-        -   Nathan Pham
-        -   Kenny Liu
-
     -   title: color guard instructors
         members:
-        -   Tammy Petborisooth
         -   Janessa Garcia
         -   Kennedy Mason
-        -   Shoshana Levy
+
+    -   title: percussion instructors
+        members:
+        -   Armaan Sidhu
+        -   Gabe Umali
+        -   Kenny Liu
+        -   Jonathon Yik
+        -   Asif Sadat
+        -   Nathan Pham
+        -   Jameson Kieu
 
     leaders:
     -   title: drum major
         members:
         -   Tyler Dang
 
+    -   title: color guard leaders
+        members:
+        -   Riley Tay
+        -   Aedan Lautching
+        -   Victoria Bandy
+        -   Julia Darrington
+
+    -   title: percussion leaders
+        members:
+        -   Paige Sausman
+        -   Sahkee Sidhu
+
     music: >
-        Mit Vollen Segeln (With Full Sails) by von Klaus Strobl
+        The Coldstream Colonel by James Scott
     
     notes: >
 
