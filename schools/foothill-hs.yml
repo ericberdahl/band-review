@@ -10,7 +10,7 @@ staff:
 -   &alexina-manriquez "Alexina Manriquez"
 -   &ryan-myers "Ryan Myers"
 -   &erik-nishimori "Erik Nishimori (EH-rik nih-shee-MO-ree)"
--   &marvin-reed "Marvin Reed"
+-   &marvin-reed "Dr. Marvin Reed"
 
 students:
 -   &sophia-heo "Sophia Heo"
@@ -18,62 +18,67 @@ students:
 -   &ashley-osterhaut "Ashley Osterhaut"
 -   &lily-zheng "Lily Zheng"
 
+# Please welcome the Foothill HIgh School Marching Band from Foothill HS in Pleasanton, CA. They are under the
+# direction of Moises Fagundes along with staff member(s) Brianna Gier, Rebecca Miles, Gabe Eblacas, Jose Rivera, Amir Moore, Miles Engelhard, Dr. Marvin Reed, Nathan Townsend, Luis Cruz, Hunter Franklin, Ryan Myers, Jude Magann, Lyle Elster, Shawn Dcosta, Ryoken Apostol, Anna Gullet, Adam Herrera, Nic Shaw, Hasib Thayattuchira, Charles Hendersen, Nicky Carlos, Leilah Weavil, Olivia Freire.
+# They are led down the street by drum major Momoka Arakawa. Color
+# guard leader(s) is/are Thejitha Badveli & Alisha Dubey. Percussion leader(s) is/are Dylan Yun &
+# Shivika Jain.
+# They are playing Washington Post March by John Philip Sousa.
+
 parade:
     isHost: true
 
-    lastUpdated: 2025-09-30 19:00:00 -07
+    lastUpdated: 2026-09-24 20:00:00 -07
 
-    nickname: Foothill High School Marching Band and Color Guard
+    nickname: Foothill High School Marching Band
 
     directors:
     -   *moises-fagundes
 
     staff:
     -   title: instructed by
-        members:
+        members: &band-review-staff-2026
         -   *brianna-gier
         -   Rebecca Miles
-        -   Nathan Townsend
-        -   Aria Toofan
-        -   Gabriel Eblacas
+        -   Gabe Eblacas
         -   Jose Rivera
-        -   Rosalyn Phan
-        -   Chloe Caputo
-        -   Marco Duldulao
+        -   Amir Moore
+        -   Miles Engelhard
+        -   *marvin-reed
+        -   Nathan Townsend
+        -   Luis Cruz
         -   Hunter Franklin
         -   *ryan-myers
-        -   Lyle Elster
-        -   Ryokan Apostol
         -   Jude Magann
+        -   Lyle Elster
         -   Shawn Dcosta
+        -   Ryokan Apostol
         -   Anna Gullet
         -   Adam Herrera
         -   Nic Shaw
-        -   *lily-zheng
         -   Hasib Thayattuchira
-        -   Eddy Chavarria
-        -   *kristi-laduca
-        -   Melia Means
-        -   Grace Holmes
+        -   Charles Hendersen
+        -   Nicky Carlos
+        -   Leilah Weavil
+        -   Olivia Freire
 
     leaders:
     -   title: drum major
         members:
-        -   Beverley Lam
+        -   Momoka Arakawa
     
-    -   title: color guard captains
+    -   title: color guard leaders
         members:
-        -   Sumit Bhunya
-        -   Nicole Armstrong
+        -   Thejitha Badveli
+        -   Alisha Dubey
     
     -   title: percussion captains
         members:
         -   Dylan Yun
-        -   Aaron Sahoo
-        -   Madison Blecha
+        -   Shivika Jain
 
     music: >
-        Military Escort by Harold Bennett
+        Washington Post March by John Philip Sousa
 
     notes: >
 
@@ -121,30 +126,7 @@ fieldshow:
 
     staff:
     -   title: instructed by
-        members:
-        -   *brianna-gier
-        -   Rebecca Miles
-        -   Gabe Eblacas
-        -   Jose Rivera
-        -   David Moraga
-        -   Miles Engelhard
-        -   *marvin-reed
-        -   Nathan Townsend
-        -   Luis Cruz
-        -   Hunter Franklin
-        -   *ryan-myers
-        -   Jude Magann
-        -   Lyle Elster
-        -   Shawn Dcosta
-        -   Ryokan Apostol
-        -   Anna Gullet
-        -   Herrera Herrera
-        -   Nic Shaw
-        -   Hasib Thayattuchira
-        -   Charles Hendersen
-        -   Nicky Carlos
-        -   Leilah Weavil
-        -   Olivia Freire
+        members: *band-review-staff-2026
 
     leaders:
     -   title: field conductors
