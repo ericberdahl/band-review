@@ -1,8 +1,11 @@
 ---
-import Chapter from "../components/chapter.jsx";
 import MainLayout from "../layouts/MainLayout.astro";
 
+import Chapter from "../components/chapter.jsx";
+
 import { getWinterShow } from "../../common/winterShow";
+
+import { localPathToHrefPath } from "../utils/navigation";
 
 import { DateTime } from "luxon";
 
@@ -57,13 +60,12 @@ const guardWithData = guardSchools.filter(
             <h2>Table of Contents</h2>
             <ol>
                 <li>
-                    <a
-                        href={`${import.meta.env.BASE_URL}winterPercussionBook.html`}
+                    <a href={localPathToHrefPath("winterPercussionBook.html")}
                         >Winter Percussion</a
                     >
                 </li>
                 <li>
-                    <a href={`${import.meta.env.BASE_URL}winterGuardBook.html`}
+                    <a href={localPathToHrefPath("winterGuardBook.html")}
                         >Winter Guard</a
                     >
                 </li>

@@ -1,8 +1,11 @@
 ---
-import Chapter from "../components/chapter.jsx";
 import MainLayout from "../layouts/MainLayout.astro";
 
+import Chapter from "../components/chapter.jsx";
+
 import { getBandReview } from "../../common/bandReview";
+
+import { localPathToHrefPath } from "../utils/navigation";
 
 import { DateTime } from "luxon";
 
@@ -57,12 +60,10 @@ const fieldShowWithData = fieldShowSchools.filter(
             <h2>Table of Contents</h2>
             <ol>
                 <li>
-                    <a href={`${import.meta.env.BASE_URL}paradeBook.html`}
-                        >Parade</a
-                    >
+                    <a href={localPathToHrefPath("paradeBook.html")}>Parade</a>
                 </li>
                 <li>
-                    <a href={`${import.meta.env.BASE_URL}fieldShowBook.html`}
+                    <a href={localPathToHrefPath("fieldShowBook.html")}
                         >Field Show</a
                     >
                 </li>
