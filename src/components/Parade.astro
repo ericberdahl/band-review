@@ -1,22 +1,23 @@
 ---
-import Break from "../components/Break.astro";
-import Chapter from "../components/Chapter.astro";
-import NumericCitation from "../components/NumericCitation.astro";
-import TrophySponsor from "../components/TrophySponsor.astro";
+import Break from "./Break.astro";
+import Chapter from "./Chapter.astro";
+import Lineup from "./Lineup.astro";
+import NumericCitation from "./NumericCitation.astro";
+import TrophySponsor from "./TrophySponsor.astro";
 
-import GrandMarshal from "../components/paradeUnits/GrandMarshal.astro";
-import PresentationOfColors from "../components/paradeUnits/PresentationOfColors.astro";
-import School from "../components/paradeUnits/School.astro";
+import GrandMarshal from "./paradeUnits/GrandMarshal.astro";
+import PresentationOfColors from "./paradeUnits/PresentationOfColors.astro";
+import School from "./paradeUnits/School.astro";
 
 import { renderCommaSeparatedList } from "../utils/listUtils";
 
 import { DateTime } from "luxon";
 
 interface Props {
-    parade;
-    show;
-    nextShow;
-    fieldShow;
+    parade; // TODO give proper type
+    show; // TODO give proper type
+    nextShow; // TODO give proper type
+    fieldShow; // TODO give proper type
 }
 
 const { parade, show, nextShow, fieldShow } = Astro.props;
@@ -32,6 +33,26 @@ const endOfStart = parade.lineup.findIndex(
 
 const paradeStartLinup = parade.lineup.slice(0, endOfStart);
 const paradeLineup = parade.lineup.slice(endOfStart);
+
+let schoolCount = 0;
+const paradeRenderers = {
+    grandMarshal: (unit) => ({
+        component: GrandMarshal,
+        props: { unit },
+    }),
+    presentationOfColors: (unit) => ({
+        component: PresentationOfColors,
+        props: { unit },
+    }),
+    breakUnit: (unit) => ({
+        component: Break,
+        props: { eventLabel: "Parade", unit },
+    }),
+    paradeUnit: (unit) => ({
+        component: School,
+        props: { unit, isFirst: ++schoolCount === 1 },
+    }),
+};
 ---
 
 <div>
@@ -48,20 +69,7 @@ const paradeLineup = parade.lineup.slice(endOfStart);
     </Chapter>
 
     <Chapter>
-        {
-            paradeStartLinup
-                .map((unit) => {
-                    if (unit.unitType === "grandMarshal") {
-                        return <GrandMarshal unit={unit} />;
-                    } else if (unit.unitType === "presentationOfColors") {
-                        return <PresentationOfColors unit={unit} />;
-                    }
-                    throw new Error(
-                        `Unknown parade start unit type: ${unit.unitType}`,
-                    );
-                })
-                .map((html) => <Fragment set:html={html} />)
-        }
+        <Lineup units={paradeStartLinup} renderers={paradeRenderers} />
         <h2>Parade - Recurring Announcements</h2>
         <ul>
             <li>
@@ -74,26 +82,7 @@ const paradeLineup = parade.lineup.slice(endOfStart);
         </ul>
     </Chapter>
 
-    {
-        paradeLineup.map((unit, index) => {
-            let Component = Fragment;
-            let props = {};
-            if (unit.unitType === "breakUnit") {
-                Component = Break;
-                props = { eventLabel: "Parade", unit };
-            } else if (unit.unitType === "paradeUnit") {
-                Component = School;
-                props = { unit, isFirst: index === 0 };
-            } else {
-                throw new Error(`Unknown parade unit type: ${unit.unitType}`);
-            }
-            return (
-                <Chapter>
-                    <Component {...props} />
-                </Chapter>
-            );
-        })
-    }
+    <Lineup units={paradeLineup} renderers={paradeRenderers} />
 
     <Chapter>
         <h2>Parade - Close</h2>
