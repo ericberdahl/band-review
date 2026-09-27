@@ -1,0 +1,15 @@
+---
+interface Props {
+    unit: {
+        presenter: string;
+    }; // TODO use proper type for presenter unit
+}
+
+const { unit }: Props = Astro.props;
+---
+
+<h2>Parade - Presentation of the Colors</h2>
+<p>
+    As we start our parade, please rise, remove your caps, and give your
+    attention and respect to our colors, presented by {unit.presenter}.
+</p>

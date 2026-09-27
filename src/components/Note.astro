@@ -1,0 +1,12 @@
+---
+interface Props {
+    label?: string;
+}
+
+const { label = "NOTE" }: Props = Astro.props;
+---
+
+<div>
+    {`${label.toUpperCase()}: `}
+    <slot />
+</div>

@@ -1,0 +1,65 @@
+---
+import Leadership from "../Leadership.astro";
+import Note from "../Note.astro";
+
+import { DateTime } from "luxon";
+
+interface Props {
+    unit: any;
+    isFirst?: boolean;
+}
+
+const { unit, isFirst = false }: Props = Astro.props;
+
+const ordinal = isFirst ? "first" : "next";
+---
+
+<div>
+    <h2>Parade - {unit.schoolName}</h2>
+    {
+        !unit.nickname && (
+            <Note label="important">
+                {unit.schoolName} is missing nickname.
+            </Note>
+        )
+    }
+    {
+        !unit.music && (
+            <Note label="important">
+                {unit.schoolName} is missing parade music.
+            </Note>
+        )
+    }
+    {
+        !unit.directors && (
+            <Note label="warning">{unit.schoolName} has no directors.</Note>
+        )
+    }
+    {
+        !unit.leaders && (
+            <Note label="warning">{unit.schoolName} has no leaders.</Note>
+        )
+    }
+    <Note
+        >Last updated {
+            DateTime.fromISO(unit.lastUpdated).toLocaleString(
+                DateTime.DATETIME_FULL,
+            )
+        }</Note
+    >
+    <p>
+        Our {ordinal} band is{unit.isHost && " your host,"} the {unit.nickname},
+        from {unit.schoolName} in {unit.city}.
+    </p>
+    <Leadership unit={unit} />
+    {
+        unit.music && (
+            <p>
+                The {unit.nickname} will perform {unit.music}.
+            </p>
+        )
+    }
+    {unit.notes && <p>{unit.notes}</p>}
+    <p>Please welcome the {unit.nickname}.</p>
+    {!unit.notes && <Note>{unit.schoolName} has no parade notes.</Note>}
+</div>

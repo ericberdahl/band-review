@@ -1,0 +1,143 @@
+---
+import Break from "../components/Break.astro";
+import Chapter from "../components/Chapter.astro";
+import NumericCitation from "../components/NumericCitation.astro";
+import TrophySponsor from "../components/TrophySponsor.astro";
+
+import GrandMarshal from "../components/paradeUnits/GrandMarshal.astro";
+import PresentationOfColors from "../components/paradeUnits/PresentationOfColors.astro";
+import School from "../components/paradeUnits/School.astro";
+
+import { renderCommaSeparatedList } from "../utils/listUtils";
+
+import { DateTime } from "luxon";
+
+interface Props {
+    parade;
+    show;
+    nextShow;
+    fieldShow;
+}
+
+const { parade, show, nextShow, fieldShow } = Astro.props;
+
+const numSchools = parade.lineup.filter(
+    (li) => li.unitType == "paradeUnit",
+).length;
+
+const paradeStartUnits = ["grandMarshal", "presentationOfColors"];
+const endOfStart = parade.lineup.findIndex(
+    (element) => !paradeStartUnits.includes(element.unitType),
+);
+
+const paradeStartLinup = parade.lineup.slice(0, endOfStart);
+const paradeLineup = parade.lineup.slice(endOfStart);
+---
+
+<div>
+    <Chapter>
+        <h2>Parade - Open</h2>
+        <p>
+            Good morning ladies and gentlemen. Welcome to the Parade Competition
+            for the {show.citation}. We are joined today by <NumericCitation
+                count={numSchools}
+            /> wonderful bands to entertain and delight us. Foothill High School wishes
+            good luck and good music to all the bands performing today. We hope you
+            enjoy the competition.
+        </p>
+    </Chapter>
+
+    <Chapter>
+        {
+            paradeStartLinup
+                .map((unit) => {
+                    if (unit.unitType === "grandMarshal") {
+                        return <GrandMarshal unit={unit} />;
+                    } else if (unit.unitType === "presentationOfColors") {
+                        return <PresentationOfColors unit={unit} />;
+                    }
+                    throw new Error(
+                        `Unknown parade start unit type: ${unit.unitType}`,
+                    );
+                })
+                .map((html) => <Fragment set:html={html} />)
+        }
+        <h2>Parade - Recurring Announcements</h2>
+        <ul>
+            <li>
+                As a courtesy to the performers, spectators please step back
+                fully onto the curb to allow the band to use the entire street.
+            </li>
+            <li>
+                As our parade continues, bands will get progressively larger.
+            </li>
+        </ul>
+    </Chapter>
+
+    {
+        paradeLineup.map((unit, index) => {
+            let Component = Fragment;
+            let props = {};
+            if (unit.unitType === "breakUnit") {
+                Component = Break;
+                props = { eventLabel: "Parade", unit };
+            } else if (unit.unitType === "paradeUnit") {
+                Component = School;
+                props = { unit, isFirst: index === 0 };
+            } else {
+                throw new Error(`Unknown parade unit type: ${unit.unitType}`);
+            }
+            return (
+                <Chapter>
+                    <Component {...props} />
+                </Chapter>
+            );
+        })
+    }
+
+    <Chapter>
+        <h2>Parade - Close</h2>
+        <p>
+            This concludes the Parade Competition for the {show.citation}. Thank
+            you and congratulations to all the bands we've seen this morning,
+            and thank you all for attending and cheering on these talented young
+            performers.
+        </p>
+        <p>
+            Parade Awards will be presented at {parade.awardsTime} in the {
+                parade.awardsLocation
+            }.
+        </p>
+        <p>
+            Please join us at the Foothill High School Stadium for the Field
+            Show Competition, starting at {fieldShow.startTime} this afternoon and
+            running through this evening.
+        </p>
+        <p>
+            Mark your calendars to join us again next year, on {
+                DateTime.fromISO(nextShow.date).toLocaleString(
+                    DateTime.DATE_FULL,
+                )
+            }, for the {nextShow.citation}. On behalf of Foothill High School, I
+            wish you all a safe and enjoyable weekend. Good day.
+        </p>
+    </Chapter>
+
+    <Chapter>
+        <h2>Parade and Concert - Awards</h2>
+        {
+            parade.sponsors.general.length > 0 && (
+                <p>
+                    {`Foothill High School thanks the sponsors of the ${show.citation}: ${renderCommaSeparatedList(parade.sponsors.general, (s) => `${s}`)}`}
+                </p>
+            )
+        }
+        {
+            parade.sponsors.trophies.map((t) => (
+                <TrophySponsor place={t.place} sponsors={t.sponsors} />
+            ))
+        }
+
+        <p>(announce scores and awards for Parade and Concert)</p>
+    </Chapter>
+</div>

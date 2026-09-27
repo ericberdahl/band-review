@@ -1,0 +1,49 @@
+---
+import { renderCommaSeparatedList } from "../utils/listUtils";
+
+interface Props {
+    unit: any; // TODO give unit a proper type
+}
+
+const { unit }: Props = Astro.props;
+
+function renderDirectors(directors: string[]): string {
+    return `directed by ${renderCommaSeparatedList(directors, (d) => `${d}`)}`;
+}
+
+function renderRoleList(roles: { title: string; members: string[] }[]): string {
+    // TODO proper type for leader roles
+    return renderCommaSeparatedList(
+        roles,
+        (r) =>
+            `${r.title} ${renderCommaSeparatedList(r.members, (m) => `${m}`)}`,
+    );
+}
+
+let hasLeadership =
+    0 < unit.directors.length ||
+    0 < unit.staff.length ||
+    0 < unit.leaders.length;
+---
+
+{
+    hasLeadership && (
+        <p>
+            {`The ${unit.nickname} is 
+                ${renderCommaSeparatedList(
+                    [
+                        0 < unit.directors.length
+                            ? renderDirectors(unit.directors)
+                            : null,
+                        0 < unit.staff.length
+                            ? renderRoleList(unit.staff)
+                            : null,
+                        0 < unit.leaders.length
+                            ? `led by ${renderRoleList(unit.leaders)}`
+                            : null,
+                    ].filter((x) => x != null),
+                    (s) => `${s}`,
+                )}.`}
+        </p>
+    )
+}

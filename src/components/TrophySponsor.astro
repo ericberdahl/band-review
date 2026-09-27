@@ -1,0 +1,33 @@
+---
+import { renderCommaSeparatedList } from "../utils/listUtils";
+
+interface Props {
+    place: string;
+    sponsors: Array<{
+        name: string;
+        dedication?: string;
+        message?: string;
+        presenter?: string;
+    }>;
+}
+const { place, sponsors }: Props = Astro.props;
+---
+
+<div>
+    <h3>{place}</h3>
+    <p>
+        The {place} trophy is sponsored by {
+            renderCommaSeparatedList(sponsors, (s) => `${s.name}`)
+        }. {
+            sponsors.map((s) => {
+                return [
+                    s.dedication &&
+                        `${s.name} dedicates the ${place} trophy ${s.dedication}.`,
+                    s.message,
+                    s.presenter &&
+                        `The ${place} trophy will be pressented by ${s.presenter}.`,
+                ].join(" ");
+            })
+        }
+    </p>
+</div>
