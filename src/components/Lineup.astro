@@ -1,0 +1,29 @@
+---
+import Chapter from "../components/Chapter.astro";
+
+interface Props {
+    units: any[]; // TODO give proper type to unit
+    eventName: string;
+    renderers: any; // TODO give proper type to renderers
+    container?: any; // TODO give proper type to container
+}
+
+const { units, eventName, renderers, container = Chapter }: Props = Astro.props;
+
+const Container = container;
+---
+
+{
+    units.map((unit) => {
+        if (!Object.hasOwn(renderers, unit.unitType))
+            throw new Error(`Unknown ${eventName} unit type: ${unit.unitType}`);
+
+        const renderer = renderers[unit.unitType](unit);
+        const Component = renderer.component;
+        return (
+            <Container>
+                <Component {...renderer.props} />
+            </Container>
+        );
+    })
+}

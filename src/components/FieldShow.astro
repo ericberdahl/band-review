@@ -1,0 +1,110 @@
+---
+import Chapter from "../components/Chapter.astro";
+import Lineup from "../components/Lineup.astro";
+import NumericCitation from "../components/NumericCitation.astro";
+import TrophySponsor from "../components/TrophySponsor.astro";
+
+import Break from "../components/Break.astro";
+
+import AnthemPerformer from "../components/fieldUnits/AnthemPerformer.astro";
+import Awards from "../components/fieldUnits/Awards.astro";
+import School from "../components/fieldUnits/School.astro";
+
+import { renderCommaSeparatedList } from "../utils/listUtils";
+
+interface Props {
+    event: any; // TODO give proper type to event
+}
+
+const { event }: Props = Astro.props;
+
+const concert = event.concert;
+const fieldShow = event.fieldShow;
+const parade = event.parade;
+const show = event.show;
+
+const unitCounts = {
+    fieldShow: fieldShow.lineup.filter((li) => li.unitType == "fieldShowUnit")
+        .length,
+    parade: parade.lineup.filter((li) => li.unitType == "paradeUnit").length,
+    concert: concert.lineup.filter((li) => li.unitType == "concertUnit").length,
+};
+
+const fieldShowtartUnits = ["anthemPerformer"];
+const endOfStart = fieldShow.lineup.findIndex(
+    (element) => !fieldShowtartUnits.includes(element.unitType),
+);
+
+const fieldShowStartLineup = fieldShow.lineup.slice(0, endOfStart);
+const fieldShowLineup = fieldShow.lineup.slice(endOfStart);
+
+const fieldShowRenderers = {
+    anthemPerformer: (unit) => ({
+        component: AnthemPerformer,
+        props: { unit },
+    }),
+    awardsUnit: (unit) => ({
+        component: Awards,
+        props: { unit, show, unitCounts },
+    }),
+    breakUnit: (unit) => ({
+        component: Break,
+        props: { eventLabel: "Field Show", unit },
+    }),
+    fieldShowUnit: (unit) => ({ component: School, props: { unit, show } }),
+};
+---
+
+<div>
+    <Chapter>
+        <h2>Field Show - Open</h2>
+        <p>
+            Good afternoon ladies and gentlemen. Welcome to the Field Show
+            Competition for the {show.citation}. We are joined today by <NumericCitation
+                count={unitCounts.fieldShow}
+            /> talented bands anxious to perform. Foothill High School wishes good
+            luck and good music to all the bands performing today. We hope you enjoy
+            their shows.
+        </p>
+
+        <Lineup
+            units={fieldShowStartLineup}
+            eventName="field show start"
+            renderers={fieldShowRenderers}
+            container={Fragment}
+        />
+    </Chapter>
+
+    <Lineup
+        units={fieldShowLineup}
+        eventName="field show"
+        renderers={fieldShowRenderers}
+    />
+
+    <Chapter>
+        <h2>Field Show - Awards</h2>
+        {
+            fieldShow.sponsors.general.length > 0 && (
+                <p>
+                    {`Foothill High School thanks the sponsors of the ${show.citation}: ${renderCommaSeparatedList(
+                        fieldShow.sponsors.general,
+                        (s) => `${s}`,
+                    )}`}
+                </p>
+            )
+        }
+
+        <h3>General award announcement</h3>
+        <p>
+            {
+                `With a score of ${"{score}"}, ${"{nth}"} place ${"{category}"} goes to [pause] ${"{name of school}"}!`
+            }
+        </p>
+
+        {
+            fieldShow.sponsors.trophies.map((t) => (
+                <TrophySponsor place={t.place} sponsors={t.sponsors} />
+            ))
+        }
+    </Chapter>
+</div>

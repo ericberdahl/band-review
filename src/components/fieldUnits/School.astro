@@ -1,0 +1,69 @@
+---
+import Leadership from "../Leadership.astro";
+import Note from "../Note.astro";
+
+import { DateTime } from "luxon";
+
+interface Props {
+    unit: any; // TODO give proper type to unit
+    show: any; // TODO give proper type to show
+}
+
+const { unit, show }: Props = Astro.props;
+
+const year = DateTime.fromISO(show.date).year;
+
+const appearance = unit.isHost ? "exhibition" : "competition";
+---
+
+<div>
+    <h2>Field Show - {unit.schoolName}</h2>
+    {
+        !unit.nickname && (
+            <Note label="important">
+                {unit.schoolName} is missing nickname.
+            </Note>
+        )
+    }
+    {
+        !unit.program && (
+            <Note label="important">
+                {unit.schoolName} is missing field show program.
+            </Note>
+        )
+    }
+    {
+        !unit.directors && (
+            <Note label="warning">{unit.schoolName} has no directors.</Note>
+        )
+    }
+    {
+        !unit.leaders && (
+            <Note label="warning">{unit.schoolName} has no leaders.</Note>
+        )
+    }
+    <Note
+        >Last updated {
+            DateTime.fromISO(unit.lastUpdated).toLocaleString(
+                DateTime.DATETIME_FULL,
+            )
+        }</Note
+    >
+    <p>
+        Now taking the field is{unit.isHost && " your host,"} the {
+            unit.nickname
+        }, from {unit.schoolName} in {unit.city}.
+    </p>
+    <Leadership unit={unit} />
+    {unit.notes && <p>{unit.notes}</p>}
+    {!unit.notes && <Note>{unit.schoolName} has no parade notes.</Note>}
+    <p>Please welcome the {unit.nickname}.</p>
+    <p>
+        <em>(Wait for cue from T&amp;P judge):</em> Drum Major, is your band ready?
+    </p>
+    <p>
+        <em>(After Drum Major salute):</em> Presenting their {year} field show, {
+            unit.program
+        }, {unit.nickname}, you may now take the field in {appearance}!
+    </p>
+</div>
