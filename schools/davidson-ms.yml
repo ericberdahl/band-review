@@ -5,5 +5,7 @@ city: "San Rafael, CA"
 parade:
     lastUpdated: "1967-12-01 04:30:00 -08"
 
+    nickname: "Davidson Middle School Marching Band"
+
     directors:
     -   "Dana Trillo"

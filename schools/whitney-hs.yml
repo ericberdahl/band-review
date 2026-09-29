@@ -5,6 +5,8 @@ city: "Rocklin, CA"
 parade:
     lastUpdated: "1967-12-01 04:30:00 -08"
 
+    nickname: "Whitney High School Marching Band"
+    
     directors:
     -   "Kris Harper"
 
