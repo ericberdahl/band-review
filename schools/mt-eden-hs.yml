@@ -3,7 +3,7 @@ name: "Mount Eden High School"
 city: "Hayward, CA"
 
 parade:
-    lastUpdated: 2019-09-18 17:04:55 -07
+    lastUpdated: "2019-09-18 17:04:55 -07"
 
     nickname: &nickname "Marching Monarchs"
 
@@ -43,7 +43,7 @@ parade:
         Not to mention that we consistently send individuals to the Honor Band of America for the past 12 years, including our current lead drum major, Barry.
 
 fieldshow:
-    lastUpdated: 2019-09-18 17:04:55 -07
+    lastUpdated: "2019-09-18 17:04:55 -07"
 
     nickname: *nickname
 
@@ -86,4 +86,4 @@ fieldshow:
         This boy's name… is Hammaad Hassan and he is one of us. 
 
 concert:
-    lastUpdated: 2018-10-08 11:12:32 -07
+    lastUpdated: "2018-10-08 11:12:32 -07"

@@ -3,7 +3,7 @@ name: Pajaro Valley High School
 city: Pajaro Valley, California
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: Grizzly Marching Band
 
@@ -36,7 +36,7 @@ parade:
     notes: 
 
 fieldshow:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: "2000-01-01 15:23:03 -07"
 
     nickname: "Template High School Marching Band and Color Guard"
 
@@ -55,12 +55,12 @@ fieldshow:
     notes: 
 
 concert:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: "2000-01-01 15:23:03 -07"
 
     nickname: "Template High School Concert Band"
 
 winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: "2000-01-01 15:23:03 -07"
 
     division: 
 
@@ -79,7 +79,7 @@ winterguard:
     notes: 
     
 winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: "2000-01-01 15:23:03 -07"
 
     division: 
 

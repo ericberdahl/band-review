@@ -3,7 +3,7 @@ name: 'Stockton USD Bands'
 city: 'Stockton, CA'
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -47,7 +47,7 @@ parade:
     music: Invercargill by Alex F. Lithgow
 
 winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -64,7 +64,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 

@@ -3,7 +3,7 @@ name: "Vintage High School"
 city: "Napa, CA"
 
 fieldshow:
-    lastUpdated: 2019-09-24 09:26:13 -07
+    lastUpdated: "2019-09-24 09:26:13 -07"
 
     nickname: "Crusher Marching Band"
 
@@ -42,7 +42,7 @@ fieldshow:
         We could not do it without you!
 
 winterpercussion:
-    lastUpdated: 2019-03-06 10:24:25 -08
+    lastUpdated: "2019-03-06 10:24:25 -08"
 
     nickname: "Vintage High School Winter Percussion"
 
@@ -61,7 +61,7 @@ winterpercussion:
     music: 
 
 winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: "2000-01-01 15:23:03 -07"
 
     nickname: "Vintage High School Winter Guard"
 

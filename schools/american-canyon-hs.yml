@@ -12,7 +12,7 @@ students:
 -   &ximena-nunez "Ximena Nuñez"
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: Wolfpack Marching Band
 
@@ -55,7 +55,7 @@ fieldshow:
     notes:
 
 winterpercussion:
-    lastUpdated: 2019-03-13 10:52:59 -07
+    lastUpdated: "2019-03-13 10:52:59 -07"
 
     nickname: "ACHS Winter Percussion Ensemble"
 
@@ -75,7 +75,7 @@ winterpercussion:
     music: "music by Matthew Hernandez and Chris Morales"
 
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Regional Single-A"
 

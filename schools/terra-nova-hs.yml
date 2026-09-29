@@ -3,7 +3,7 @@ name: "Terra Nova High School"
 city: "Pacifica, CA"
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: "2025-09-27 18:00:00 -07"
 
     nickname: Terra Nova High School Marching Band
 
@@ -37,7 +37,7 @@ parade:
         Okay by David Reed
 
 fieldshow:
-    lastUpdated: 2026-09-20 12:00:00 -07
+    lastUpdated: "2026-09-20 12:00:00 -07"
 
     nickname: Terra Nova Marching Band
 
@@ -69,7 +69,7 @@ fieldshow:
     notes: 
 
 winterguard:
-    lastUpdated: 2018-01-01 00:00:00 -08
+    lastUpdated: "2018-01-01 00:00:00 -08"
 
     nickname: "Terra Nova High School Winterguard"
 

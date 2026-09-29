@@ -3,7 +3,7 @@ name: John Swett High School
 city: Crockett, California
 
 fieldshow:
-    lastUpdated: 2026-09-20 12:00:00 -07
+    lastUpdated: "2026-09-20 12:00:00 -07"
 
     nickname: John Swett High School Marching Band and Color Guard
 
@@ -41,7 +41,7 @@ fieldshow:
     notes: >
 
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic National Triple-A"
 
@@ -60,7 +60,7 @@ winterguard:
     notes: 
 
 winterpercussion:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Regional Single-A"
 

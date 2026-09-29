@@ -3,7 +3,7 @@ name: Tracy High School
 city: Tracy, CA
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: Tracy High School Bulldog Marching Band and Color Guard
 
@@ -66,6 +66,6 @@ fieldshow:
         Thank you to the Band Boosters for constantly supporting the program and students.
 
 concert:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: Tracy High School Symphonic Band

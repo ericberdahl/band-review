@@ -3,7 +3,7 @@ name: "Concord High School"
 city: "Concord, CA"
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: Concord High Marching Band
 
@@ -37,7 +37,7 @@ parade:
     notes: 
 
 winterguard:
-    lastUpdated: 2019-03-18 22:03:24 -07
+    lastUpdated: "2019-03-18 22:03:24 -07"
 
     nickname: "Concord High Winter Guard"
 
@@ -61,7 +61,7 @@ winterguard:
         This performance is dedicated to you!
 
 winterpercussion:
-    lastUpdated: 2019-03-18 22:03:24 -07
+    lastUpdated: "2019-03-18 22:03:24 -07"
 
     nickname: "Concord High Winter Percussion"
 

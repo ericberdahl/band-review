@@ -17,7 +17,7 @@ students:
 -   &lyriic-williams "Lyriic Williams"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: &band-review-nickname "Pride of Antioch Marching Band and Color Guard"
 
@@ -57,7 +57,7 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: *band-review-nickname
 
@@ -93,7 +93,7 @@ fieldshow:
     notes: >
 
 winterpercussion:
-    lastUpdated: 2023-03-24 00:11:05 -08
+    lastUpdated: "2023-03-24 00:11:05 -08"
 
     nickname: "Antioch High School Winter Percussion"
 
@@ -119,7 +119,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Regional Double-A"
 

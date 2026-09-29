@@ -7,7 +7,7 @@ staff:
 
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: Granada High School Marching Band and City of Livermore Color Guard
 
@@ -42,7 +42,7 @@ parade:
     notes: >
 
 winterpercussion:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Regional Double-A"
 

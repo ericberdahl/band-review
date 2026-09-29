@@ -3,7 +3,7 @@ name: 'Lynbrook HS'
 city: 'San Jose, CA'
 
 fieldshow:
-    lastUpdated: 2021-09-24 11:02:31 -08
+    lastUpdated: "2021-09-24 11:02:31 -08"
 
     nickname: 'Marching Viking Band and Colorguard'
 
@@ -131,7 +131,7 @@ fieldshow:
         The Vikings would like to thank LIMB, our parent booster organization, for all their support!
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -144,7 +144,7 @@ parade:
     music: 
 
 winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -161,7 +161,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 

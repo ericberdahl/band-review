@@ -3,7 +3,7 @@ name: "Washington Union High School"
 city: Fresno, CA
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -20,7 +20,7 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: "2023-09-01 00:00:00 -07"
 
     nickname: Washington Union Marching Band
 
@@ -47,7 +47,7 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -64,7 +64,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 

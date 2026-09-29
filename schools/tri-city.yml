@@ -3,7 +3,7 @@ name: "Tri City Band Corps"
 city: "Fremont, California"
 
 winterpercussion:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Exhibition"
 
@@ -22,7 +22,7 @@ winterpercussion:
     notes: 
     
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Independent National Single-A"
 

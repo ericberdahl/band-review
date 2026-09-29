@@ -7,7 +7,7 @@ staff:
 -   &jayden-laumeister Jayden Laumeister (JAY-dehn LAW-mee-stur)
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: Freedom Falcon Marching Band
 
@@ -49,7 +49,7 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2024-10-25 09:30:00 -07
+    lastUpdated: "2024-10-25 09:30:00 -07"
 
     nickname: Freedom Falcon Marching Band
 
@@ -99,7 +99,7 @@ fieldshow:
 
 
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Regional Double-A"
 

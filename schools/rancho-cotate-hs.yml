@@ -17,7 +17,7 @@ students:
 -   &sierra-phillips "Sierra Phillips"
 
 fieldshow:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: "2025-09-27 18:00:00 -07"
 
     nickname: Rancho Cotate High School Marching Band
 
@@ -60,7 +60,7 @@ fieldshow:
     notes: >
 
 winterpercussion:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Open"
 
@@ -79,7 +79,7 @@ winterpercussion:
     notes: >
 
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic National Single-A"
 
@@ -98,7 +98,7 @@ winterguard:
     notes: >
 
 winterguard-jv:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Regional Triple-A"
 

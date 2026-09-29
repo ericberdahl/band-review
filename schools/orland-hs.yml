@@ -3,7 +3,7 @@ name: 'Orland High School'
 city: 'Orland, CA'
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -20,7 +20,7 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: 'Orland High School Trojan Marching Band'
 
@@ -54,7 +54,7 @@ parade:
         Peacemaker March by Karl King
 
 winterpercussion:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -71,7 +71,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 

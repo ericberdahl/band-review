@@ -3,7 +3,7 @@ name: "Lincoln High School"
 city: "Stockton, CA"
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: &band-review-nickname Lincoln High School Marching Band
 
@@ -45,7 +45,7 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: "2023-09-01 00:00:00 -07"
 
     nickname: *band-review-nickname
 
@@ -85,16 +85,16 @@ fieldshow:
     notes: >
 
 concert-1:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "Concert Band 1"
 
 concert-2:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "Concert Band 2"
 
 concert-3:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "Concert Band 3"

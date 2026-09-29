@@ -6,7 +6,7 @@ staff:
 -   &jasper-tran "Jasper Tran"
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -23,7 +23,7 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -38,7 +38,7 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-21 08:16:22 -08
+    lastUpdated: "2023-03-21 08:16:22 -08"
 
     nickname: "Cottonwood Creek Coyote Winter Percussion Ensemble"
 
@@ -65,7 +65,7 @@ winterpercussion:
         Cottonwood Creek Coyote Winter Percussion Ensemble thanks the volunteers, parents, supports, and staff that have assisted CCS through their five years.
 
 winterguard:
-    lastUpdated: 2023-03-21 08:16:22 -08
+    lastUpdated: "2023-03-21 08:16:22 -08"
 
     nickname: "Cottonwood Creek Coyote Winter Guard"
 

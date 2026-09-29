@@ -7,7 +7,7 @@ staff:
 students:
 
 fieldshow:
-    lastUpdated: 2026-09-20 12:00:00 -07
+    lastUpdated: "2026-09-20 12:00:00 -07"
 
     nickname: American Eagles Marching Band
 
@@ -62,7 +62,7 @@ fieldshow:
     notes: >
 
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Regional Double-A"
 
@@ -81,7 +81,7 @@ winterguard:
     notes: >
 
 winterpercussion:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Regional Double-A"
 

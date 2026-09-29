@@ -6,7 +6,7 @@ staff:
 -   &troy-rexelle "Troy Rexelle (rex-EHL)"
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: Linden High School Lion Regiment
 
@@ -42,7 +42,7 @@ parade:
     notes: >
 
 winterpercussion:
-    lastUpdated: 2023-03-20 16:30:00 -08
+    lastUpdated: "2023-03-20 16:30:00 -08"
 
     nickname: "Linden High School Winter Percussion"
 
@@ -61,7 +61,7 @@ winterpercussion:
         The Linden High School Winter Percussion would like to thank the Linden High School Band Boosters for their support.
 
 winterguard:
-    lastUpdated: 2023-03-20 16:30:00 -08
+    lastUpdated: "2023-03-20 16:30:00 -08"
 
     nickname: "Linden High School Winter Guard"
 

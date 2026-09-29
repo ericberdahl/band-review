@@ -7,7 +7,7 @@ staff:
 
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -24,7 +24,7 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -39,7 +39,7 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-20 16:30:00 -08
+    lastUpdated: "2023-03-20 16:30:00 -08"
 
     nickname: "Nevada Union Winter Percussion"
 
@@ -57,7 +57,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2023-03-20 16:30:00 -08
+    lastUpdated: "2023-03-20 16:30:00 -08"
 
     nickname: "Nevada Union Winter Guard"
 

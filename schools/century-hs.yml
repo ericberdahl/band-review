@@ -3,7 +3,7 @@ name: "Century High School"
 city: "Hillsboro, OR"
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -20,7 +20,7 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -35,7 +35,7 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-21 13:13:14 -08
+    lastUpdated: "2023-03-21 13:13:14 -08"
 
     nickname: "Century Indoor"
 
@@ -73,7 +73,7 @@ winterpercussion:
         In the void of this disconnection, you must chase, fight for, and catch what's been lost before it is gone forever.
 
 winterguard:
-    lastUpdated: 2023-03-21 10:11:27 -08
+    lastUpdated: "2023-03-21 10:11:27 -08"
 
     nickname: "Century High School Winterguard"
 

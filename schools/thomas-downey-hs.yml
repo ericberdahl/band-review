@@ -3,7 +3,7 @@ name: "Thomas Downey High School"
 city: "Modesto, CA"
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "Marching Blue Knights"
 
@@ -34,6 +34,6 @@ parade:
     notes: >
 
 concert:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "Concert Band"

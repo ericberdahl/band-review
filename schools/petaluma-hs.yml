@@ -13,7 +13,7 @@ students:
 -   "Cheyenne Cercos"
 
 parade:
-    lastUpdated: 2023-10-18 13:49:48 -07
+    lastUpdated: "2023-10-18 13:49:48 -07"
 
     nickname: "Trojan Marching Band"
 
@@ -42,7 +42,7 @@ parade:
         
 
 winterpercussion:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Regional Double-A"
 

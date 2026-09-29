@@ -3,13 +3,13 @@ name: "Whitney High School"
 city: "Rocklin, CA"
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     directors:
     -   "Kris Harper"
 
 fieldshow:
-    lastUpdated: 2019-10-17 16:24:45 -07
+    lastUpdated: "2019-10-17 16:24:45 -07"
 
     nickname: "Whitney High School Marching Band"
 

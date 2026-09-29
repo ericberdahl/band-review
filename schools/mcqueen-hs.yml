@@ -3,7 +3,7 @@ name: "McQueen High School"
 city: "Reno, NV"
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname:
 
@@ -15,7 +15,7 @@ fieldshow:
     program:
 
 winterpercussion:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: "2000-01-01 15:23:03 -07"
 
     nickname: "McQueen High School Winter Percussion"
 
@@ -32,7 +32,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2000-01-01 15:23:03 -07
+    lastUpdated: "2000-01-01 15:23:03 -07"
 
     nickname: "McQueen High School Winter Guard"
 

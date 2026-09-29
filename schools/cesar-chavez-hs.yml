@@ -3,7 +3,7 @@ name: "Cesar Chavez High School"
 city: "Stockton, CA"
 
 parade:
-    lastUpdated: 2019-10-21 16:30:17 -07
+    lastUpdated: "2019-10-21 16:30:17 -07"
 
     nickname: "Cesar Chavez High School Marching Band and Colorguard"
 
@@ -35,10 +35,10 @@ parade:
     notes: >
     
 concert:
-    lastUpdated: 2018-10-16 12:44:27 -07
+    lastUpdated: "2018-10-16 12:44:27 -07"
 
 winterguard:
-    lastUpdated: 2019-03-18 15:36:22 -07
+    lastUpdated: "2019-03-18 15:36:22 -07"
 
     nickname: "Cesar Chavez Winter Guard"
 
@@ -62,7 +62,7 @@ winterguard:
 
 
 winterpercussion:
-    lastUpdated: 2019-03-18 15:36:22 -07
+    lastUpdated: "2019-03-18 15:36:22 -07"
 
     nickname: "Cesar Chavez Winter Drumline"
 

@@ -6,7 +6,7 @@ students:
 -   &rosie-rojas "Rosie Rojas"
 
 parade:
-    lastUpdated: 2018-10-12 12:54:06 -07
+    lastUpdated: "2018-10-12 12:54:06 -07"
 
     nickname: "Turlock Christian Marching Eagles"
 
@@ -28,7 +28,7 @@ parade:
         The Students would like to thank all the parents and Administration at Turlock Christian for their continued support of the music program.
 
 fieldshow:
-    lastUpdated: 2026-09-20 12:00:00 -07
+    lastUpdated: "2026-09-20 12:00:00 -07"
 
     nickname: Turlock Christian Schools Soaring Eagles Marching Band
 
@@ -49,10 +49,10 @@ fieldshow:
     notes: 
 
 concert:
-    lastUpdated: 2018-10-12 12:54:06 -07
+    lastUpdated: "2018-10-12 12:54:06 -07"
 
 winterguard:
-    lastUpdated: 2023-03-20 16:30:00 -08
+    lastUpdated: "2023-03-20 16:30:00 -08"
 
     nickname: "Turlock Christian Marching Eagles Winterguard"
 

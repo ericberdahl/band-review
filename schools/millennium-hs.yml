@@ -3,7 +3,7 @@ name: Millennium High School
 city: Tracy, California
 
 fieldshow:
-    lastUpdated: 2026-09-20 12:00:00 -07
+    lastUpdated: "2026-09-20 12:00:00 -07"
 
     nickname: Falcon Marching Band and Colorguard
 
@@ -31,7 +31,7 @@ fieldshow:
     notes: >
 
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic National Double-A"
 
@@ -49,7 +49,7 @@ winterguard:
     
 
 winterpercussion:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Regional Single-A"
 

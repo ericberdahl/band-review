@@ -3,7 +3,7 @@ name: "Merced High School"
 city: "Merced, CA"
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: Merced Marching 100
 
@@ -40,6 +40,6 @@ parade:
     notes: >
 
 concert:
-    lastUpdated: 2022-09-30 12:58:56 -07
+    lastUpdated: "2022-09-30 12:58:56 -07"
 
     nickname: Merced High School Wind Ensemble

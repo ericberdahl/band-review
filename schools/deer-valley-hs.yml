@@ -13,7 +13,7 @@ students:
 -   &precilla-molina "Precilla Molina"
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: Teal and Black Regiment
 
@@ -59,7 +59,7 @@ parade:
     notes: >
 
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic National Triple-A"
 
@@ -76,7 +76,7 @@ winterguard:
     notes: >
 
 winterpercussion:
-    lastUpdated: 2023-03-21 22:28:09 -08
+    lastUpdated: "2023-03-21 22:28:09 -08"
 
     nickname: "Deer Valley High School Indoor Percussion"
 
@@ -104,6 +104,6 @@ winterpercussion:
         Deer Valley High School Indoor Percussion thank everyone who helped bring this show to life.
 
 concert:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "Concert Band"

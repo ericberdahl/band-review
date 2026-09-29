@@ -28,7 +28,7 @@ students:
 parade:
     isHost: true
 
-    lastUpdated: 2026-09-24 20:00:00 -07
+    lastUpdated: "2026-09-24 20:00:00 -07"
 
     nickname: Foothill High School Marching Band
 
@@ -83,7 +83,7 @@ parade:
     notes: >
 
 parade-alumni:
-    lastUpdated: 2024-10-08 15:23:03 -07
+    lastUpdated: "2024-10-08 15:23:03 -07"
 
     nickname: "Foothill High School Alumni Marching Band and Color Guard"
 
@@ -117,7 +117,7 @@ parade-alumni:
 fieldshow:
     isHost: true
 
-    lastUpdated: 2026-09-20 12:00:00 -07
+    lastUpdated: "2026-09-20 12:00:00 -07"
 
     nickname: Foothill High School Marching Band and Color Guard
 
@@ -157,7 +157,7 @@ fieldshow:
 winterguard:
     isHost: true
 
-    lastUpdated: 2023-03-23 15:53:23 -08
+    lastUpdated: "2023-03-23 15:53:23 -08"
 
     nickname: "Foothill Winterguard"
 
@@ -184,7 +184,7 @@ winterguard:
 winterpercussion:
     isHost: true
 
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Open"
 

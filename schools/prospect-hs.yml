@@ -3,7 +3,7 @@ name: Prospect High School
 city: Saratoga, CA
 
 fieldshow:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: Prospect Panther Marching Band and Color Guard
 
@@ -60,6 +60,6 @@ fieldshow:
     notes: 
 
 concert:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "Concert Band"

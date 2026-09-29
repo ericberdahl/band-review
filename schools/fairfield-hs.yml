@@ -5,7 +5,7 @@ city: Fairfield, CA
 staff:
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: Scarlet Brigade
 
@@ -41,6 +41,6 @@ parade:
     notes: >
 
 concert:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "Fairfield High School Wind Ensemble"

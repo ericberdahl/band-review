@@ -3,7 +3,7 @@ name: "Pacheco High School"
 city: "Los Banos, CA"
 
 parade:
-    lastUpdated: 2019-10-04 18:01:05 -07
+    lastUpdated: "2019-10-04 18:01:05 -07"
 
     nickname: "Pacheco High School Band and Guard"
 
@@ -39,6 +39,6 @@ parade:
         You truly make a difference and we would not be able to do it without you!
 
 concert:
-    lastUpdated: 2019-10-04 18:01:05 -07
+    lastUpdated: "2019-10-04 18:01:05 -07"
 
     nickname: "Pacheco High School Symphonic Band"

@@ -6,7 +6,7 @@ staff:
 -   &casson-scowcroft "Casson Scowcroft"
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -23,7 +23,7 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -38,7 +38,7 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-21 08:22:24 -08
+    lastUpdated: "2023-03-21 08:22:24 -08"
 
     nickname: "Chico Unified Winter Percussion"
 
@@ -73,7 +73,7 @@ winterpercussion:
         Mr. Scowcroft is grateful to all of you.
 
 winterguard:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 

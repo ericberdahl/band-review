@@ -6,7 +6,7 @@ staff:
 -   &ross-ackerman "Ross Ackerman"
 
 fieldshow:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -23,7 +23,7 @@ fieldshow:
     notes: 
 
 parade:
-    lastUpdated: 1967-12-01 04:30:00 -08
+    lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: 
 
@@ -38,7 +38,7 @@ parade:
     notes:
 
 winterpercussion:
-    lastUpdated: 2023-03-20 16:30:00 -08
+    lastUpdated: "2023-03-20 16:30:00 -08"
 
     nickname: "Pinole Valley High School Winter Percussion"
 
@@ -56,7 +56,7 @@ winterpercussion:
     notes: 
 
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic National Triple-A"
 

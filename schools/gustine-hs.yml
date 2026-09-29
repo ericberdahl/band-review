@@ -3,7 +3,7 @@ name: "Gustine High School"
 city: Gustine, CA
 
 parade:
-    lastUpdated: 2025-09-27 18:00:00 -07
+    lastUpdated: "2025-09-27 18:00:00 -07"
 
     nickname: Marching Reds
 
@@ -43,6 +43,6 @@ parade:
     notes:
 
 concert:
-    lastUpdated: 2023-09-01 00:00:00 -07
+    lastUpdated: "2023-09-01 00:00:00 -07"
 
     nickname: "Concert Band"

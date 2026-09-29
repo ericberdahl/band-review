@@ -14,7 +14,7 @@ students:
 -   &maiah-flores Maiah Flores (MY-ah Flores)
 
 parade:
-    lastUpdated: 2023-10-16 11:32:21 -07
+    lastUpdated: "2023-10-16 11:32:21 -07"
 
     nickname: "Del Mar High School Marching Band and Colorguard"
 
@@ -50,7 +50,7 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2026-09-20 12:00:00 -07
+    lastUpdated: "2026-09-20 12:00:00 -07"
 
     nickname: Del Mar High School Marching Band and Colorguard
 
@@ -108,12 +108,12 @@ fieldshow:
     notes: >
 
 concert:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "Del Mar High School Symphonic Band"
 
 winterpercussion:
-    lastUpdated: 2023-03-21 22:10:26 -08
+    lastUpdated: "2023-03-21 22:10:26 -08"
 
     nickname: "Del Mar High School Winter Drumline"
 
@@ -135,7 +135,7 @@ winterpercussion:
         Del Mar High School Winter Drumline sends a huge thank you to their parents!
 
 winterguard:
-    lastUpdated: 2023-03-21 22:10:26 -08
+    lastUpdated: "2023-03-21 22:10:26 -08"
 
     nickname: "Del Mar High School Winter Guard"
 

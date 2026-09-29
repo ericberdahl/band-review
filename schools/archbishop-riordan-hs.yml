@@ -3,7 +3,7 @@ name: Archbishop Riordan High School
 city: San Francisco, CA
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: Archbishop Riordan High School Band
 
@@ -34,12 +34,12 @@ parade:
     notes: >
 
 concert:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: Archbishop Riordan Concert Band
 
 winterpercussion:
-    lastUpdated: 2019-03-14 15:06:27 -07
+    lastUpdated: "2019-03-14 15:06:27 -07"
 
     nickname: "Archbishop Riordan Winter Drumline"
 
@@ -63,7 +63,7 @@ winterpercussion:
         The Archbishop Riordan Winter Drumline won first place Novice Percussion group at the Mission San Jose Winter Showcase.
 
 winterguard:
-    lastUpdated: 2019-03-14 15:06:27 -07
+    lastUpdated: "2019-03-14 15:06:27 -07"
 
     nickname: "Archbishop Riordan Winter Color Guard"
 

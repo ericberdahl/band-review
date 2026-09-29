@@ -6,7 +6,7 @@ students:
 -   &aracely-rios "Aracely Rios (ah-rah-SEHL-ee Rios)"
 
 parade:
-    lastUpdated: 2019-10-02 16:17:05 -07
+    lastUpdated: "2019-10-02 16:17:05 -07"
 
     nickname: "Cowboy Marching Band"
 
@@ -47,12 +47,12 @@ parade:
         The Livermore High School students, parents and staff would like to thank everyone involved in making this band review an ongoing success year after year. 
 
 concert:
-    lastUpdated: 2023-10-23 15:20:22 -07
+    lastUpdated: "2023-10-23 15:20:22 -07"
 
     nickname: Livermore High School Honors Symphonic Band
 
 winterguard:
-    lastUpdated: 2019-03-18 12:52:52 -07
+    lastUpdated: "2019-03-18 12:52:52 -07"
 
     nickname: "LHS Winter Guard"
 
@@ -78,7 +78,7 @@ winterguard:
         Livermore High School would like to thank the Foothill students, parents, and staff for hosting a wonderful festival!
 
 winterpercussion:
-    lastUpdated: 2019-03-18 12:52:52 -07
+    lastUpdated: "2019-03-18 12:52:52 -07"
 
     nickname: "LHS Winter Percussion"
 

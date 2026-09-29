@@ -27,7 +27,7 @@ students:
 -   &brian-tran "Brian Tran"
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: &band-review-nickname Rodriguez Entertainment Unit
 
@@ -74,7 +74,7 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2026-09-20 12:00:00 -07
+    lastUpdated: "2026-09-20 12:00:00 -07"
 
     nickname: *band-review-nickname
 

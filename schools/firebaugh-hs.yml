@@ -2,15 +2,13 @@ name: Firebaugh High School
 
 city: Firebaugh, CA
 
-directors: &directors
--   Kevin Misakian (Kevin mis-ACK-ee-an)
-
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: Eagle Marching Band
 
-    directors: *directors
+    directors:
+    -   Kevin Misakian (Kevin mis-ACK-ee-an)
 
     staff: 
     -   title: color guard instructor

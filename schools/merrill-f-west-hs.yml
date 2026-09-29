@@ -6,7 +6,7 @@ staff:
 -   &jonathan-raman "Jonathan Raman (Jonathan RAH-men)"
 
 parade:
-    lastUpdated: 2026-09-19 15:00:00 -07
+    lastUpdated: "2026-09-19 15:00:00 -07"
 
     nickname: West Wolf Pack Marching Band
 
@@ -37,7 +37,7 @@ parade:
     notes: >
 
 concert:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "West High Wolf Pack Symphonic Band"
 

@@ -5,7 +5,7 @@ city: Brentwood, California
 students:
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: Lion Pride Marching Band
 
@@ -47,7 +47,7 @@ parade:
     notes: >
 
 fieldshow:
-    lastUpdated: 2026-09-20 12:00:00 -07
+    lastUpdated: "2026-09-20 12:00:00 -07"
 
     nickname: Liberty High School Marching Band
 
@@ -111,7 +111,7 @@ fieldshow:
     notes: >
 
 winterguard:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic National Double-A"
 
@@ -130,7 +130,7 @@ winterguard:
     notes: 
 
 winterpercussion:
-    lastUpdated: 2024-03-18 18:00:00 -08
+    lastUpdated: "2024-03-18 18:00:00 -08"
 
     division: "Scholastic Open"
 

@@ -3,7 +3,7 @@ name: "Sheldon High School"
 city: Sacramento, CA
 
 parade:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: Marching Huskies
 
@@ -41,11 +41,11 @@ parade:
     notes: >
 
 symphonic:
-    lastUpdated: 2023-10-17 11:54:02 -07
+    lastUpdated: "2023-10-17 11:54:02 -07"
 
     nickname: "Concert 1"
 
 concert:
-    lastUpdated: 2024-10-05 17:00:00 -07
+    lastUpdated: "2024-10-05 17:00:00 -07"
 
     nickname: "Concert 1"
