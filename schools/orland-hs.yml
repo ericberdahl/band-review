@@ -2,23 +2,6 @@ name: 'Orland High School'
 
 city: 'Orland, CA'
 
-fieldshow:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
 parade:
     lastUpdated: "2026-09-19 15:00:00 -07"
 
@@ -52,37 +35,3 @@ parade:
 
     music: >
         Peacemaker March by Karl King
-
-winterpercussion:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 

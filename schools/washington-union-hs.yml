@@ -2,23 +2,6 @@ name: "Washington Union High School"
 
 city: Fresno, CA
 
-fieldshow:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
 parade:
     lastUpdated: "2023-09-01 00:00:00 -07"
 
@@ -45,37 +28,3 @@ parade:
     music: Queen City by W.H. Boorn
 
     notes:
-
-winterpercussion:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 

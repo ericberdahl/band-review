@@ -2,23 +2,6 @@ name: "Pacific Grove High School"
 
 city: "Pacific Grove, CA"
 
-fieldshow:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
 parade:
     lastUpdated: "2021-09-30 10:29:02 -07"
 
@@ -48,37 +31,3 @@ concert:
     lastUpdated: "1967-12-01 04:30:00 -08"
 
     nickname: "Pacific Grove Concert Band"
-
-winterpercussion:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 

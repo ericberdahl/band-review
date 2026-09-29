@@ -2,23 +2,6 @@ name: 'Stockton USD Bands'
 
 city: 'Stockton, CA'
 
-fieldshow:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
 parade:
     lastUpdated: "2021-10-11 08:46:52 -08"
 
@@ -46,36 +29,3 @@ parade:
 
     music: Invercargill by Alex F. Lithgow
 
-winterpercussion:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
-
-winterguard:
-    lastUpdated: "1967-12-01 04:30:00 -08"
-
-    nickname: 
-
-    directors:
-
-    staff:
-
-    leaders:
-
-    program: 
-
-    music: 
-
-    notes: 
