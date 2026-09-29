@@ -3,7 +3,7 @@ name: Bullard High School
 city: Fresno, CA
 
 parade:
-    lastUpdated: 2022-10-14 6:53:11 -07
+    lastUpdated: "2022-10-14 06:53:11 -07"
 
     nickname: Bullard High School Marching Band and Color Guard
 
@@ -27,6 +27,6 @@ parade:
     notes: 
 
 concert:
-    lastUpdated: 2022-10-14 6:53:11 -07
+    lastUpdated: "2022-10-14 06:53:11 -07"
 
     nickname: Bullard Concert Band
