@@ -48,7 +48,7 @@ concert:
 winterguard:
     lastUpdated: "2000-01-01 15:23:03 -07"
 
-    division: 
+    division: "division in which the school is competing. can be elided if not applicable"
 
     nickname: "Template High School Winter Guard"
 
@@ -67,7 +67,7 @@ winterguard:
 winterpercussion:
     lastUpdated: "2000-01-01 15:23:03 -07"
 
-    division: 
+    division: "division in which the school is competing. can be elided if not applicable"
 
     nickname: "Template High School Winter Percussion"
 
