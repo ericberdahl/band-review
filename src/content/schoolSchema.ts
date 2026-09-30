@@ -6,6 +6,7 @@ import { winterPercussionUnitSchema } from './winterPercussionUnitSchema';
 
 import { allowEmptyArray } from './schemaUtils';
 
+import { DateTime } from 'luxon';
 import { z } from 'zod';
 
 const unitSchema = z.union([
@@ -26,6 +27,20 @@ export const schoolSchema = z.object({
     concert: concertUnitSchema.optional(),
     winterguard: winterGuardUnitSchema.optional(),
     winterpercussion: winterPercussionUnitSchema.optional(),
-}).catchall(unitSchema);
+}).catchall(unitSchema).transform((school) => {
+    // Everything other than the skipped keys should be units, which then
+    // need to be transformed
+    const keysToSkip = ["name", "city", "staff", "students"];
+
+    for (const key of Object.keys(school)) {
+        if (!keysToSkip.includes(key)) {
+            school[key].schoolName = school.name;
+            school[key].city = school.city;
+
+            school[key].lastUpdated = DateTime.fromFormat(school[key].lastUpdated, 'yyyy-MM-dd H:mm:ss Z').toISO();
+        }
+    }
+    return school;
+});
 
 export type School = z.infer<typeof schoolSchema>;

@@ -5,6 +5,8 @@ import Chapter from "../components/chapter.jsx";
 
 import { getBandReview } from "../../common/bandReview";
 
+import { UnitType } from "../content/unitTypes";
+
 import { localPathToHrefPath } from "../utils/navigation";
 
 import { DateTime } from "luxon";
@@ -15,10 +17,10 @@ const generationDate = DateTime.now().toISO();
 const showYear = DateTime.fromISO(bandReview.show.date).year;
 
 const paradeSchools = bandReview.parade.lineup
-    .filter((li) => li.unitType == "paradeUnit")
+    .filter((li) => li.unitType == UnitType.Parade)
     .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
 const fieldShowSchools = bandReview.fieldShow.lineup
-    .filter((li) => li.unitType == "fieldShowUnit")
+    .filter((li) => li.unitType == UnitType.FieldShow)
     .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
 
 const paradeMissingData = paradeSchools.filter(

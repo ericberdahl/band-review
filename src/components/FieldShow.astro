@@ -10,10 +10,15 @@ import AnthemPerformer from "../components/fieldUnits/AnthemPerformer.astro";
 import Awards from "../components/fieldUnits/Awards.astro";
 import School from "../components/fieldUnits/School.astro";
 
+import { type BandReview } from "../content/bandReview";
+import { UnitType } from "../content/unitTypes";
+
 import { renderCommaSeparatedList } from "../utils/listUtils";
 
+import { getEntry } from "astro:content";
+
 interface Props {
-    event: any; // TODO give proper type to event
+    event: BandReview;
 }
 
 const { event }: Props = Astro.props;
@@ -24,34 +29,51 @@ const parade = event.parade;
 const show = event.show;
 
 const unitCounts = {
-    fieldShow: fieldShow.lineup.filter((li) => li.unitType == "fieldShowUnit")
+    fieldShow: fieldShow.lineup.filter(
+        (li) => li.unitType == UnitType.FieldShow,
+    ).length,
+    parade: parade.lineup.filter((li) => li.unitType == UnitType.Parade).length,
+    concert: concert.lineup.filter((li) => li.unitType == UnitType.Concert)
         .length,
-    parade: parade.lineup.filter((li) => li.unitType == "paradeUnit").length,
-    concert: concert.lineup.filter((li) => li.unitType == "concertUnit").length,
 };
 
-const fieldShowtartUnits = ["anthemPerformer"];
-const endOfStart = fieldShow.lineup.findIndex(
+const fullLineup = await Promise.all(
+    fieldShow.lineup.map((li) => {
+        if (li.unitType == UnitType.FieldShow) {
+            return getEntry(li.ref).then((school) => ({
+                ...school.data[li.unit == null ? "fieldshow" : li.unit],
+                unitType: li.unitType,
+            }));
+        }
+        return Promise.resolve(li);
+    }),
+);
+
+const fieldShowtartUnits = [UnitType.AnthemPerformer];
+const endOfStart = fullLineup.findIndex(
     (element) => !fieldShowtartUnits.includes(element.unitType),
 );
 
-const fieldShowStartLineup = fieldShow.lineup.slice(0, endOfStart);
-const fieldShowLineup = fieldShow.lineup.slice(endOfStart);
+const fieldShowStartLineup = fullLineup.slice(0, endOfStart);
+const fieldShowLineup = fullLineup.slice(endOfStart);
 
 const fieldShowRenderers = {
-    anthemPerformer: (unit) => ({
+    [UnitType.AnthemPerformer]: (unit) => ({
         component: AnthemPerformer,
         props: { unit },
     }),
-    awardsUnit: (unit) => ({
+    [UnitType.Awards]: (unit) => ({
         component: Awards,
         props: { unit, show, unitCounts },
     }),
-    breakUnit: (unit) => ({
+    [UnitType.Break]: (unit) => ({
         component: Break,
         props: { eventLabel: "Field Show", unit },
     }),
-    fieldShowUnit: (unit) => ({ component: School, props: { unit, show } }),
+    [UnitType.FieldShow]: (unit) => ({
+        component: School,
+        props: { unit, show },
+    }),
 };
 ---
 

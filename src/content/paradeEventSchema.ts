@@ -1,22 +1,23 @@
 import { breakUnitSchema } from './breakUnitSchema';
 import { competitionSponsorSchema } from './sponsorSchemas';
+import { UnitType } from './unitTypes';
 
 import { reference } from 'astro:content';
 import { z } from 'astro/zod';
 
 const colorsUnitSchema = z.object({
     colors: z.string(),
-}).strict().transform((data) => ({ ...data, unitType: 'presentationOfColors' }));
+}).strict().transform((data) => ({ ...data, unitType: UnitType.PresentationOfColors }));
 
 const grandMarshalUnitSchema = z.object({
     grandMarshal: z.union([z.string(), z.array(z.string())]),
     title: z.string().optional(),
-}).strict().transform((data) => ({ ...data, unitType: 'grandMarshal' }));
+}).strict().transform((data) => ({ ...data, unitType: UnitType.GrandMarshal }));
 
 const paradeUnitRefSchema = z.object({
     ref: reference("schools"),
     unit: z.string().optional(),
-}).strict().transform((data) => ({ ...data, unitType: 'paradeUnit' }));
+}).strict().transform((data) => ({ ...data, unitType: UnitType.Parade }));
 
 const paradeLineupItemSchema = z.union([paradeUnitRefSchema, breakUnitSchema, colorsUnitSchema, grandMarshalUnitSchema]);
 

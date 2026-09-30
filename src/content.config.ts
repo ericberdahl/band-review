@@ -6,7 +6,7 @@ import { schoolSchema } from './content/schoolSchema';
 
 //======================================
 
-export const school = defineCollection({
+export const schools = defineCollection({
     loader: glob({ pattern: "*.yml", base: "./schools/" }),
     schema: schoolSchema,
 });
@@ -16,4 +16,4 @@ export const bandReview = defineCollection({
     schema: bandReviewSchema,
 });
 
-export const collections = { bandReview, school }
+export const collections = { bandReview, schools }

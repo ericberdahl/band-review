@@ -1,9 +1,12 @@
 ---
+import type { AwardsUnit } from "../../content/fieldShowEventSchema";
+import type { BandReview } from "../../content/bandReviewSchema";
+
 import { renderCommaSeparatedList } from "../../utils/listUtils";
 
 interface Props {
-    unit: any; // TODO give proper type to unit
-    show: any; // TODO give proper type to show
+    unit: AwardsUnit;
+    show: BandReview;
     unitCounts: {
         // TODO give proper type to show
         parade: number;
@@ -15,19 +18,18 @@ interface Props {
 const { unit, show, unitCounts }: Props = Astro.props;
 ---
 
-<h2>{unit.label} - Close</h2>
+<h2>{unit.awardsLabel} - Close</h2>
 <p>
     {
-        `This concludes the ${unit.label} Competition for the ${show.citation}. Please
-    stay for the ${unit.label} Awards, presented ${unit.location} ${unit.time}. ${
-        unit.continuation
-            ? `Then please join us for the ${unit.continuation} Competition 
+        `This concludes the ${unit.awardsLabel} Competition for the ${show.citation}. Please stay for the ${unit.awardsLabel} Awards, presented ${unit.location} ${unit.time}. ${
+            unit.continuation
+                ? `Then please join us for the ${unit.continuation} Competition 
                 ${
                     unit.continuationTime &&
                     `starting here ${unit.continuationTime}`
                 }.`
-            : ``
-    }`
+                : ``
+        }`
     }
 </p>
 <p>

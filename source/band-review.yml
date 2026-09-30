@@ -6,7 +6,7 @@ show:
     date: "2026-10-24"
     citation: "52nd Annual Foothill High School Band Review"
 
-next_show:
+nextShow:
     date: "2027-10-23"
     citation: "53rd Annual Foothill High School Band Review"
 
@@ -84,7 +84,7 @@ parade:
 
     awards_location: "Amador Valley High School Stadium"
 
-fieldshow:
+fieldShow:
     # TODO - start time is not confirmed
     start_time: 15:15
 

@@ -2,10 +2,12 @@
 import Leadership from "../Leadership.astro";
 import Note from "../Note.astro";
 
+import type { FieldShowUnit } from "../../content/fieldShowUnitSchema";
+
 import { DateTime } from "luxon";
 
 interface Props {
-    unit: any; // TODO give proper type to unit
+    unit: FieldShowUnit;
     show: any; // TODO give proper type to show
 }
 

@@ -1,14 +1,12 @@
 ---
 interface Props {
     eventLabel: string;
-    unit: {
-        duration: number;
-    }; // TODO construct proper type for unit
+    unit: BreakUnit;
 }
 
 const { eventLabel, unit }: Props = Astro.props;
 ---
 
 <div>
-    <h2>{eventLabel} - {unit.duration} minute break</h2>
+    <h2>{eventLabel} - {unit.break} minute break</h2>
 </div>

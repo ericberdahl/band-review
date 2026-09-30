@@ -4,17 +4,26 @@ import MainLayout from "../layouts/MainLayout.astro";
 import Chapter from "../components/Chapter.astro";
 import FieldShow from "../components/FieldShow.astro";
 
-import { getBandReview } from "../../common/bandReview";
+import { UnitType } from "../content/unitTypes";
+
+import { getEntry } from "astro:content";
 
 import { DateTime } from "luxon";
 
-const bandReview = await (await getBandReview()).getStaticProps();
+const bandReview = await getEntry("bandReview", "band-review");
 const generationDate = DateTime.now().toISO();
 
-const showYear = DateTime.fromISO(bandReview.show.date).year;
+const showYear = DateTime.fromISO(bandReview.data.show.date).year;
 
-const fieldShowSchools = bandReview.fieldShow.lineup
-    .filter((li) => li.unitType == "fieldShowUnit")
+const fieldShowSchools = (
+    await Promise.all(
+        bandReview.data.fieldShow.lineup
+            .filter((li) => li.unitType == UnitType.FieldShow)
+            .map((li) => li.ref)
+            .map((ref) => getEntry(ref)),
+    )
+)
+    .map((entry) => entry.data.fieldshow)
     .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
 
 const fieldShowMissingData = fieldShowSchools.filter(
@@ -29,17 +38,19 @@ const fieldShowWithData = fieldShowSchools.filter(
     <div>
         <Chapter>
             <h1>
-                {bandReview.show.citation} : Field Show Announcer's Book: {
-                    DateTime.fromISO(bandReview.show.date).toLocaleString(
+                {bandReview.data.show.citation} : Field Show Announcer's Book: {
+                    DateTime.fromISO(bandReview.data.show.date).toLocaleString(
                         DateTime.DATE_FULL,
                     )
                 }
             </h1>
             <p>
-                {bandReview.announcer.name} &lt;{bandReview.announcer.email}&gt;
+                {bandReview.data.announcer.name} &lt;{
+                    bandReview.data.announcer.email
+                }&gt;
             </p>
             <p>
-                v{bandReview.version}, {
+                v{bandReview.data.version}, {
                     DateTime.fromISO(generationDate).toLocaleString(
                         DateTime.DATETIME_FULL,
                     )
@@ -63,24 +74,24 @@ const fieldShowWithData = fieldShowSchools.filter(
             }
         </Chapter>
 
-        <FieldShow event={bandReview} />
+        <FieldShow event={bandReview.data} />
 
         <Chapter>
             <h2>Band Review - Close</h2>
             <p>
-                This concludes the {bandReview.show.citation}. Thank you and
-                congratulations to all the bands we've seen today, and thank you
-                all for attending and cheering on these talented young
+                This concludes the {bandReview.data.show.citation}. Thank you
+                and congratulations to all the bands we've seen today, and thank
+                you all for attending and cheering on these talented young
                 performers.
             </p>
             <p>
                 Mark your calendars to join us again next year, on {
-                    DateTime.fromISO(bandReview.nextShow.date).toLocaleString(
-                        DateTime.DATE_FULL,
-                    )
-                }, for the {bandReview.nextShow.citation}. On behalf of Foothill
-                High School, I wish you all a safe and enjoyable weekend. Good
-                night.
+                    DateTime.fromISO(
+                        bandReview.data.nextShow.date,
+                    ).toLocaleString(DateTime.DATE_FULL)
+                }, for the {bandReview.data.nextShow.citation}. On behalf of
+                Foothill High School, I wish you all a safe and enjoyable
+                weekend. Good night.
             </p>
         </Chapter>
     </div>
