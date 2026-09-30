@@ -9,46 +9,65 @@ import GrandMarshal from "./paradeUnits/GrandMarshal.astro";
 import PresentationOfColors from "./paradeUnits/PresentationOfColors.astro";
 import School from "./paradeUnits/School.astro";
 
+import { FieldShowEvent } from "../content/fieldShowEventSchema";
+import { ParadeEvent } from "../content/paradeEventSchema";
+import { ShowCitation } from "../content/showCitationSchema";
+import { UnitType } from "../content/unitTypes";
+
 import { renderCommaSeparatedList } from "../utils/listUtils";
+
+import { getEntry } from "astro:content";
 
 import { DateTime } from "luxon";
 
 interface Props {
-    parade; // TODO give proper type
-    show; // TODO give proper type
-    nextShow; // TODO give proper type
-    fieldShow; // TODO give proper type
+    parade: ParadeEvent;
+    show: ShowCitation;
+    nextShow: ShowCitation;
+    fieldShow: FieldShowEvent;
 }
 
-const { parade, show, nextShow, fieldShow } = Astro.props;
+const { parade, show, nextShow, fieldShow }: Props = Astro.props;
 
-const numSchools = parade.lineup.filter(
-    (li) => li.unitType == "paradeUnit",
+const fullLineup = await Promise.all(
+    parade.lineup.map((li) => {
+        if (li.unitType == UnitType.Parade) {
+            return getEntry(li.ref).then((school) => ({
+                ...school.data[li.unit == null ? "parade" : li.unit],
+                unitType: li.unitType,
+            }));
+        }
+        return Promise.resolve(li);
+    }),
+);
+
+const numSchools = fullLineup.filter(
+    (li) => li.unitType == UnitType.Parade,
 ).length;
 
-const paradeStartUnits = ["grandMarshal", "presentationOfColors"];
-const endOfStart = parade.lineup.findIndex(
+const paradeStartUnits = [UnitType.GrandMarshal, UnitType.PresentationOfColors];
+const endOfStart = fullLineup.findIndex(
     (element) => !paradeStartUnits.includes(element.unitType),
 );
 
-const paradeStartLinup = parade.lineup.slice(0, endOfStart);
-const paradeLineup = parade.lineup.slice(endOfStart);
+const paradeStartLinup = fullLineup.slice(0, endOfStart);
+const paradeLineup = fullLineup.slice(endOfStart);
 
 let schoolCount = 0;
 const paradeRenderers = {
-    grandMarshal: (unit) => ({
+    [UnitType.GrandMarshal]: (unit) => ({
         component: GrandMarshal,
         props: { unit },
     }),
-    presentationOfColors: (unit) => ({
+    [UnitType.PresentationOfColors]: (unit) => ({
         component: PresentationOfColors,
         props: { unit },
     }),
-    breakUnit: (unit) => ({
+    [UnitType.Break]: (unit) => ({
         component: Break,
         props: { eventLabel: "Parade", unit },
     }),
-    paradeUnit: (unit) => ({
+    [UnitType.Parade]: (unit) => ({
         component: School,
         props: { unit, isFirst: ++schoolCount === 1 },
     }),
@@ -93,14 +112,20 @@ const paradeRenderers = {
             performers.
         </p>
         <p>
-            Parade Awards will be presented at {parade.awardsTime} in the {
-                parade.awardsLocation
-            }.
+            Parade Awards will be presented at {
+                DateTime.fromFormat(parade.awardsTime, "HH:mm").toLocaleString(
+                    DateTime.TIME_SIMPLE,
+                )
+            } in the {parade.awardsLocation}.
         </p>
         <p>
             Please join us at the Foothill High School Stadium for the Field
-            Show Competition, starting at {fieldShow.startTime} this afternoon and
-            running through this evening.
+            Show Competition, starting at {
+                DateTime.fromFormat(
+                    fieldShow.startTime,
+                    "HH:mm",
+                ).toLocaleString(DateTime.TIME_SIMPLE)
+            } this afternoon and running through this evening.
         </p>
         <p>
             Mark your calendars to join us again next year, on {

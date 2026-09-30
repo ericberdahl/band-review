@@ -1,19 +1,19 @@
 ---
+import type { GrandMarshalUnit } from "../../content/paradeEventSchema";
+
 import { renderCommaSeparatedList } from "../../utils/listUtils";
 
 interface Props {
-    unit: {
-        title: string;
-        members: string[];
-    }; // TODO use proper type for grand marshal unit
+    unit: GrandMarshalUnit;
 }
 
 const { unit }: Props = Astro.props;
+console.log(unit);
 ---
 
 <h2>Parade - Grand Marshal</h2>
 <p>
     And now… please welcome our {unit.title}, {
-        renderCommaSeparatedList(unit.members, (gm) => `${gm}`)
+        renderCommaSeparatedList(unit.grandMarshal, (gm) => `${gm}`)
     }.
 </p>

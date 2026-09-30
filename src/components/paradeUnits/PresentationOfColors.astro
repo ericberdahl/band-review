@@ -1,8 +1,8 @@
 ---
+import type { ColorsUnit } from "../../content/paradeEventSchema";
+
 interface Props {
-    unit: {
-        presenter: string;
-    }; // TODO use proper type for presenter unit
+    unit: ColorsUnit;
 }
 
 const { unit }: Props = Astro.props;
@@ -11,5 +11,5 @@ const { unit }: Props = Astro.props;
 <h2>Parade - Presentation of the Colors</h2>
 <p>
     As we start our parade, please rise, remove your caps, and give your
-    attention and respect to our colors, presented by {unit.presenter}.
+    attention and respect to our colors, presented by {unit.colors}.
 </p>

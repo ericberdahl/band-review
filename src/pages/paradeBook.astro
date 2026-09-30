@@ -4,18 +4,30 @@ import MainLayout from "../layouts/MainLayout.astro";
 import Chapter from "../components/Chapter.astro";
 import Parade from "../components/Parade.astro";
 
-import { getBandReview } from "../../common/bandReview";
+import { UnitType } from "../content/unitTypes";
+
+import { getEntry } from "astro:content";
 
 import { DateTime } from "luxon";
 
-const bandReview = await (await getBandReview()).getStaticProps();
-const generationDate = DateTime.now().toISO();
+const bandReview = await getEntry("bandReview", "band-review");
+const generationDate = DateTime.now();
 
-const showYear = DateTime.fromISO(bandReview.show.date).year;
+const showYear = DateTime.fromISO(bandReview.data.show.date).year;
 
-const paradeSchools = bandReview.parade.lineup
-    .filter((li) => li.unitType == "paradeUnit")
-    .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+const paradeSchools = await Promise.all(
+    bandReview.data.parade.lineup
+        .filter((li) => li.unitType == UnitType.Parade)
+        .map((li) =>
+            getEntry(li.ref).then((school) => ({
+                ...school.data[li.unit == null ? "parade" : li.unit],
+                unitType: li.unitType,
+            })),
+        ),
+).then((results) => {
+    results.sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+    return results;
+});
 
 const paradeMissingData = paradeSchools.filter(
     (s) => DateTime.fromISO(s.lastUpdated).year != showYear,
@@ -29,20 +41,20 @@ const paradeWithData = paradeSchools.filter(
     <div>
         <Chapter>
             <h1>
-                {bandReview.show.citation} : Parade Announcer's Book: {
-                    DateTime.fromISO(bandReview.show.date).toLocaleString(
+                {bandReview.data.show.citation} : Parade Announcer's Book: {
+                    DateTime.fromISO(bandReview.data.show.date).toLocaleString(
                         DateTime.DATE_FULL,
                     )
                 }
             </h1>
             <p>
-                {bandReview.announcer.name} &lt;{bandReview.announcer.email}&gt;
+                {bandReview.data.announcer.name} &lt;{
+                    bandReview.data.announcer.email
+                }&gt;
             </p>
             <p>
-                v{bandReview.version}, {
-                    DateTime.fromISO(generationDate).toLocaleString(
-                        DateTime.DATETIME_FULL,
-                    )
+                v{bandReview.data.version}, {
+                    generationDate.toLocaleString(DateTime.DATETIME_FULL)
                 }
             </p>
 
@@ -64,10 +76,10 @@ const paradeWithData = paradeSchools.filter(
         </Chapter>
 
         <Parade
-            parade={bandReview.parade}
-            show={bandReview.show}
-            nextShow={bandReview.nextShow}
-            fieldShow={bandReview.fieldShow}
+            parade={bandReview.data.parade}
+            show={bandReview.data.show}
+            nextShow={bandReview.data.nextShow}
+            fieldShow={bandReview.data.fieldShow}
         />
     </div>
 </MainLayout>

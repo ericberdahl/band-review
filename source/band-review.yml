@@ -31,7 +31,7 @@ parade:
         #         message: >
         #             Keep on with this amazing event and tradition!
 
-    start_time: 08:30
+    startTime: 08:30
 
     lineup:
     -   colors: "the color guard from Veterans of Foreign Wars Post 6298"
@@ -80,13 +80,13 @@ parade:
     -   ref: "mission-sj-hs"
     -   ref: "franklin-hs"
 
-    awards_time: 13:15
+    awardsTime: 13:15
 
-    awards_location: "Amador Valley High School Stadium"
+    awardsLocation: "Amador Valley High School Stadium"
 
 fieldShow:
     # TODO - start time is not confirmed
-    start_time: 15:15
+    startTime: 15:15
 
     lineup:
     -   anthemPerformer: "Foothill sophomore, Marching Band percussionist, Honors Wind and Jazz musician, and Treble Choir Student Director, Ansha Anant"

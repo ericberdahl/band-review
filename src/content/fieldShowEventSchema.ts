@@ -33,7 +33,7 @@ const fieldshowLineupItemSchema = z.union([anthemPerformerSchema, awardsUnitSche
 export const fieldShowEventSchema = z.object({
     lineup: z.array(fieldshowLineupItemSchema),
     sponsors: competitionSponsorSchema,
-    start_time: z.iso.time(),
+    startTime: z.iso.time(),
 }).strict();
 
 export type FieldShowEvent = z.infer<typeof fieldShowEventSchema>;
