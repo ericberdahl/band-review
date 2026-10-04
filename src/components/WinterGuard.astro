@@ -1,0 +1,108 @@
+---
+import Break from "./Break.astro";
+import Chapter from "./Chapter.astro";
+import Lineup from "./Lineup.astro";
+import NumericCitation from "./NumericCitation.astro";
+import TrophySponsor from "./TrophySponsor.astro";
+
+import School from "./winterGuardUnits/School.astro";
+
+import { ShowCitation } from "../content/showCitationSchema";
+import { UnitType } from "../content/unitTypes";
+import { WinterGuardEvent } from "../content.config";
+
+import { renderCommaSeparatedList } from "../utils/listUtils";
+
+import { getEntry } from "astro:content";
+
+interface Props {
+    winterGuard: WinterGuardEvent;
+    show: ShowCitation;
+}
+
+const { winterGuard, show }: Props = Astro.props;
+
+const fullLineup = await Promise.all(
+    winterGuard.lineup.map((li) => {
+        if (li.unitType == UnitType.WinterGuard) {
+            return getEntry(li.ref).then((school) => ({
+                ...school.data[li.unit == null ? "winterguard" : li.unit],
+                unitType: li.unitType,
+            }));
+        }
+        return Promise.resolve(li);
+    }),
+);
+
+const numSchools = fullLineup.filter(
+    (li) => li.unitType == UnitType.WinterGuard,
+).length;
+
+let schoolCount = 0;
+const winterGuardRenderers = {
+    [UnitType.Break]: (unit) => ({
+        component: Break,
+        props: { eventLabel: "Winter Guard", unit },
+    }),
+    [UnitType.WinterGuard]: (unit) => ({
+        component: School,
+        props: { unit, show, isFirst: ++schoolCount === 1 },
+    }),
+};
+---
+
+<div>
+    <Chapter>
+        <h2>Winter Guard - Open</h2>
+        <p>
+            Good afternoon ladies and gentlemen. Welcome to the Color Guard
+            Competition for the {show.citation}. We are joined today by <NumericCitation
+                count={numSchools}
+            /> wonderful guard units anxious to entertain and delight us. Foothill
+            High School wishes good luck to all the units performing today and hopes
+            you enjoy the competition.
+        </p>
+    </Chapter>
+
+    <Lineup
+        units={fullLineup}
+        eventName="Winter Guard"
+        renderers={winterGuardRenderers}
+    />
+
+    <Chapter>
+        <h2>Winter Guard - End of Competition</h2>
+        <p>
+            This concludes the Color Guard Competition for the {show.citation}.
+            Thank you and congratulations to all the guard units we’ve seen this
+            afternoon, and thank you all for attending and cheering on these
+            talented young performers.
+        </p>
+        <p>
+            Please stay for the Color Guard Awards, presented here in 20
+            minutes.
+        </p>
+    </Chapter>
+
+    <Chapter>
+        <h2>Winter Guard - Awards</h2>
+        {
+            winterGuard.sponsors.general.length > 0 && (
+                <p>
+                    {`Foothill High School thanks the sponsors of the ${show.citation}: ${renderCommaSeparatedList(winterGuard.sponsors.general, (s) => `${s}`)}`}
+                </p>
+            )
+        }
+        {
+            winterGuard.sponsors.trophies.map((t) => (
+                <TrophySponsor place={t.place} sponsors={t.sponsors} />
+            ))
+        }
+
+        <h3>General award announcement</h3>
+        <p>
+            With a score of {"{score}"}, {"{nth}"} place {"{category}"} goes to [pause]
+            {"{name of school}"}!
+        </p>
+    </Chapter>
+</div>

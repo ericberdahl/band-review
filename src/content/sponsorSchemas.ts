@@ -19,7 +19,7 @@ export const trophySponsorSchema = z.object({
 export type TrophySponsor = z.infer<typeof trophySponsorSchema>;
 
 export const competitionSponsorSchema = z.object({
-    general: z.array(z.string()),
+    general: allowEmptyArray(z.string()),
     trophies: allowEmptyArray(trophySponsorSchema),
 }).strict();
 

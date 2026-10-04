@@ -1,20 +1,33 @@
 ---
-import Chapter from "../components/chapter.jsx";
 import MainLayout from "../layouts/MainLayout.astro";
-import WinterGuard from "../components/winterGuard.jsx";
 
-import { getWinterShow } from "../../common/winterShow";
+import Chapter from "../components/chapter.jsx";
+import WinterGuard from "../components/WinterGuard.astro";
+
+import { UnitType } from "../content/unitTypes";
+
+import { getEntry } from "astro:content";
 
 import { DateTime } from "luxon";
 
-const winterShow = await (await getWinterShow()).getStaticProps();
-const generationDate = DateTime.now().toISO();
+const winterShow = await getEntry("winterShow", "winter-show");
+const generationDate = DateTime.now();
 
-const showYear = DateTime.fromISO(winterShow.show.date).year;
+const showYear = DateTime.fromISO(winterShow.data.show.date).year;
 
-const guardSchools = winterShow.winterGuard.lineup
-    .filter((li) => li.unitType == "winterGuardUnit")
-    .sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+const guardSchools = await Promise.all(
+    winterShow.data.winterGuard.lineup
+        .filter((li) => li.unitType == UnitType.WinterGuard)
+        .map((li) =>
+            getEntry(li.ref).then((school) => ({
+                ...school.data[li.unit == null ? "winterguard" : li.unit],
+                unitType: li.unitType,
+            })),
+        ),
+).then((results) => {
+    results.sort((a, b) => a.schoolName.localeCompare(b.schoolName));
+    return results;
+});
 
 const guardMissingData = guardSchools.filter(
     (s) => DateTime.fromISO(s.lastUpdated).year != showYear,
@@ -28,20 +41,20 @@ const guardWithData = guardSchools.filter(
     <div>
         <Chapter>
             <h1>
-                {winterShow.show.citation} : Winter Guard Announcer's Book: {
-                    DateTime.fromISO(winterShow.show.date).toLocaleString(
+                {winterShow.data.show.citation} : Winter Guard Announcer's Book: {
+                    DateTime.fromISO(winterShow.data.show.date).toLocaleString(
                         DateTime.DATE_FULL,
                     )
                 }
             </h1>
             <p>
-                {winterShow.announcer.name} &lt;{winterShow.announcer.email}&gt;
+                {winterShow.data.announcer.name} &lt;{
+                    winterShow.data.announcer.email
+                }&gt;
             </p>
             <p>
-                v{winterShow.version}, {
-                    DateTime.fromISO(generationDate).toLocaleString(
-                        DateTime.DATETIME_FULL,
-                    )
+                v{winterShow.data.version}, {
+                    generationDate.toLocaleString(DateTime.DATETIME_FULL)
                 }
             </p>
 
@@ -63,25 +76,25 @@ const guardWithData = guardSchools.filter(
         </Chapter>
 
         <WinterGuard
-            winterGuard={winterShow.winterGuard}
-            show={winterShow.show}
+            winterGuard={winterShow.data.winterGuard}
+            show={winterShow.data.show}
         />
 
         <Chapter>
             <h2>Winter Show - Close</h2>
             <p>
-                This concludes the {winterShow.show.citation}. Thank you and
-                congratulations to all the units we’ve seen today, and thank you
-                all for attending and cheering on these talented performers.
+                {
+                    `This concludes the ${winterShow.data.show.citation}. Thank you and congratulations to all the units we’ve seen today, and thank you all for attending and cheering on these talented performers.`
+                }
             </p>
             <p>
-                Mark your calendars to join us again next year, on {
-                    DateTime.fromISO(winterShow.nextShow.date).toLocaleString(
+                {
+                    `Mark your calendars to join us again next year, on ${DateTime.fromISO(
+                        winterShow.data.nextShow.date,
+                    ).toLocaleString(
                         DateTime.DATE_FULL,
-                    )
-                }, for the {winterShow.nextShow.citation}. On behalf of Foothill
-                High School, I wish you all a safe and enjoyable weekend. Good
-                night.
+                    )}, for the ${winterShow.data.nextShow.citation}. On behalf of Foothill High School, I wish you all a safe and enjoyable weekend. Good night.`
+                }
             </p>
         </Chapter>
     </div>

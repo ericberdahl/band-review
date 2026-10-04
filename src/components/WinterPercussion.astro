@@ -1,0 +1,107 @@
+---
+import Break from "./Break.astro";
+import Chapter from "./Chapter.astro";
+import Lineup from "./Lineup.astro";
+import NumericCitation from "./NumericCitation.astro";
+import TrophySponsor from "./TrophySponsor.astro";
+
+import School from "./winterPercussionUnits/School.astro";
+
+import { ShowCitation } from "../content/showCitationSchema";
+import { UnitType } from "../content/unitTypes";
+import { WinterGuardEvent, WinterPercussionEvent } from "../content.config";
+
+import { renderCommaSeparatedList } from "../utils/listUtils";
+
+import { getEntry } from "astro:content";
+
+interface Props {
+    winterPercussion: WinterPercussionEvent;
+    show: ShowCitation;
+    nextShow: ShowCitation;
+    winterGuard: WinterGuardEvent;
+}
+
+const { winterPercussion, show, nextShow, winterGuard }: Props = Astro.props;
+
+const fullLineup = await Promise.all(
+    winterPercussion.lineup.map((li) => {
+        if (li.unitType == UnitType.WinterPercussion) {
+            return getEntry(li.ref).then((school) => ({
+                ...school.data[li.unit == null ? "winterpercussion" : li.unit],
+                unitType: li.unitType,
+            }));
+        }
+        return Promise.resolve(li);
+    }),
+);
+
+const numSchools = fullLineup.filter(
+    (li) => li.unitType == UnitType.WinterPercussion,
+).length;
+
+let schoolCount = 0;
+const winterPercussionRenderers = {
+    [UnitType.Break]: (unit) => ({
+        component: Break,
+        props: { eventLabel: "Winter Percussion", unit },
+    }),
+    [UnitType.WinterPercussion]: (unit) => ({
+        component: School,
+        props: { unit, show, isFirst: ++schoolCount === 1 },
+    }),
+};
+---
+
+<div>
+    <Chapter>
+        <h2>Winter Percussion - Open</h2>
+        <p>
+            Good morning ladies and gentlemen. Welcome to the Percussion
+            Competition for the {show.citation}. We are joined today by <NumericCitation
+                count={numSchools}
+            /> talented units anxious to perform and entertain. Foothill High School
+            wishes good luck to all the units performing today. We hope you enjoy
+            their shows.
+        </p>
+    </Chapter>
+
+    <Lineup
+        units={fullLineup}
+        eventName="Winter Percussion"
+        renderers={winterPercussionRenderers}
+    />
+
+    <Chapter>
+        <h2>Winter Percussion - End of Competition</h2>
+        <p>
+            This concludes the Percussion Competition for the {show.citation}.
+            Please stay for the Percussion Awards, presented here in 20 minutes,
+            and for the Color Guard competition, beginning at {
+                winterGuard.startTime
+            }.
+        </p>
+    </Chapter>
+
+    <Chapter>
+        <h2>Winter Percussion - Awards</h2>
+        {
+            winterPercussion.sponsors.general.length > 0 && (
+                <p>
+                    {`Foothill High School thanks the sponsors of the ${show.citation}: ${renderCommaSeparatedList(winterPercussion.sponsors.general, (s) => `${s}`)}`}
+                </p>
+            )
+        }
+        {
+            winterPercussion.sponsors.trophies.map((t) => (
+                <TrophySponsor place={t.place} sponsors={t.sponsors} />
+            ))
+        }
+
+        <h3>General award announcement</h3>
+        <p>
+            With a score of {"{score}"}, {"{nth}"} place {"{category}"} goes to [pause]
+            {"{name of school}"}!
+        </p>
+    </Chapter>
+</div>

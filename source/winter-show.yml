@@ -3,11 +3,10 @@ announcer:
     email: "berdahl@serendipity.org"
 
 show:
-    year: 2024
     date: "2024-03-23"
     citation: "2024 Foothill High School Winter Show"
 
-next_show:
+nextShow:
     date: "2025-03-22"
     citation: "2025 Foothill High School Winter Show"
 
@@ -17,9 +16,9 @@ units:
 
 version: "2024.03.21"
 
-winterpercussion:
+winterPercussion:
 
-    start_time: "4:00pm"
+    startTime: "16:00"
 
     lineup:
     -   ref: "carquinez-ms"
@@ -44,8 +43,8 @@ winterpercussion:
 #                dedication:
 #                message: 
 
-winterguard:
-    start_time: "6:00pm"
+winterGuard:
+    startTime: "18:00"
 
     lineup:
     -   ref: "harvest-park-ms"

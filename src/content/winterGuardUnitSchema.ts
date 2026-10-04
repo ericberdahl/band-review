@@ -9,7 +9,7 @@ export const winterGuardUnitSchema = z.object({
     lastUpdated: dateTimeSchema,
     nickname: z.string().nonempty(),
     directors: allowEmptyArray(z.string().nonempty()),
-    staff: allowEmptyArray(roleSchema).optional(),
+    staff: allowEmptyArray(roleSchema),
     leaders: allowEmptyArray(roleSchema),
     program: allowEmpty("", z.string()),
     music: allowEmpty("", z.string()).optional(),
