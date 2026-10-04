@@ -93,24 +93,24 @@ const fieldShowWithData = fieldShowSchools.filter(
                 <li><a href="#parade-checkup">Parade - Checkup</a></li>
                 <li><a href="#fieldshow-checkup">Field Show - Checkup</a></li>
             </ol>
+
+            <h2 id="parade-checkup">Parade - Checkup</h2>
+
+            <h3>{paradeMissingData.length} Schools Missing Parade Data</h3>
+            {paradeMissingData.map((s) => <p>{s.schoolName}</p>)}
+
+            <h3>{paradeWithData.length} Schools with Parade Data</h3>
+            {paradeWithData.map((s) => <p>{s.schoolName}</p>)}
+
+            <h2 id="fieldshow-checkup">Field Show - Checkup</h2>
+
+            <h3>
+                {fieldShowMissingData.length} Schools Missing Field Show Data
+            </h3>
+            {fieldShowMissingData.map((s) => <p>{s.schoolName}</p>)}
+
+            <h3>{fieldShowWithData.length} Schools with Field Show Data</h3>
+            {fieldShowWithData.map((s) => <p>{s.schoolName}</p>)}
         </Chapter>
-
-        <h2 id="parade-checkup">Parade - Checkup</h2>
-
-        <h3>{paradeMissingData.length} Schools Missing Parade Data</h3>
-        {paradeMissingData.map((s) => <p>{s.schoolName}</p>)}
-
-        <h3>{paradeWithData.length} Schools with Parade Data</h3>
-        {paradeWithData.map((s) => <p>{s.schoolName}</p>)}
-
-        <h2 id="fieldshow-checkup">Field Show - Checkup</h2>
-
-        <h3>
-            {fieldShowMissingData.length} Schools Missing Field Show Data
-        </h3>
-        {fieldShowMissingData.map((s) => <p>{s.schoolName}</p>)}
-
-        <h3>{fieldShowWithData.length} Schools with Field Show Data</h3>
-        {fieldShowWithData.map((s) => <p>{s.schoolName}</p>)}
     </div>
 </MainLayout>
