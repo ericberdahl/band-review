@@ -18,7 +18,7 @@ units:
 
 sponsors-general: &sponsors-general []
 
-version: 0.01
+version: 2026.10.06
 
 parade:
     sponsors:
@@ -41,6 +41,7 @@ parade:
     -   ref: "wells-ms"
     -   ref: "union-ms"
     -   ref: "alhambra-hs"
+    -   ref: "richmond-hs"
     -   ref: "hayward-hs"
     -   ref: "encinal-hs"
     -   ref: "deer-valley-hs"
@@ -50,7 +51,6 @@ parade:
     -   ref: "san-leandro-hs"
     -   ref: "pajaro-valley-hs"
     -   ref: "orland-hs"
-    -   ref: "franklin-hs-stockton"
     -   ref: "linden-hs"
     -   ref: "tracy-hs"
     -   ref: "san-ramon-valley-hs"
@@ -60,7 +60,6 @@ parade:
     -   ref: "fairfield-hs"
     -   ref: "merrill-f-west-hs"
     -   ref: "northgate-hs"
-    -   ref: "richmond-hs"
     -   ref: "concord-hs"
     -   ref: "mountain-house-hs"
     -   ref: "archbishop-riordan-hs"
@@ -80,13 +79,12 @@ parade:
     -   ref: "mission-sj-hs"
     -   ref: "franklin-hs"
 
-    awardsTime: 13:15
+    awardsTime: 13:00
 
     awardsLocation: "Amador Valley High School Stadium"
 
 fieldShow:
-    # TODO - start time is not confirmed
-    startTime: 15:15
+    startTime: 15:30
 
     lineup:
     -   anthemPerformer: "Foothill sophomore, Marching Band percussionist, Honors Wind and Jazz musician, and Treble Choir Student Director, Ansha Anant"

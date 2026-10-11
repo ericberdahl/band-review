@@ -3,35 +3,40 @@ name: "Richmond High School"
 city: Richmond, CA
 
 parade:
-    lastUpdated: "2025-09-27 18:00:00 -07"
+    lastUpdated: "2026-10-07 12:00:00 -07"
 
-    nickname: Richmond High School Marching Band
+    nickname: Richmond Marching Band and Color Guard
 
     directors:
     -   Andrew Wilke
+    -   Jordyn Mader
+    -   Rod Santos
 
     staff:
     -   title: instructed by
         members:
-        -   Rod Santos
-        -   Jordyn Mader
+        -   Anthony Aguilar
+        -   John Doing
 
     leaders:
     -   title: drum majors
         members:
-        -   Bella Mariscal
+        -   Danae Cortes
+        -   Aileen Paz
     
-    -   title: color guard captain
+    -   title: color guard captains
         members:
-        -    Erik Vidaurre
+        -   Brianna Avila
+        -   Yerik Gonzalez
+        -   Zaira Santos
     
     -   title: percussion captains
         members:
-        -   Natali Mendoza
-        -   Xitlaly Sanchez
+        -   Furba Sherpa
+        -   Jonathan Melgar
 
     music: >
-        Crown of Castle by Johnny Vinson
+        Baile Inolvidable by Bad Bunny
 
     notes:
 
