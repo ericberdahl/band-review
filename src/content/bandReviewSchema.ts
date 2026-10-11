@@ -11,7 +11,7 @@ export const bandReviewSchema = z.object({
     show: showCitationSchema,
     nextShow: showCitationSchema,
     "sponsors-general": z.any(), // TODO Replace z.any() with the appropriate schema for sponsors-general if available
-    version: z.number(),
+    version: z.string(),
     units: z.array(z.string()),
     parade: paradeEventSchema,
     fieldShow: fieldShowEventSchema,
