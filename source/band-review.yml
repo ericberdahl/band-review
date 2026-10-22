@@ -18,7 +18,7 @@ units:
 
 sponsors-general: &sponsors-general []
 
-version: 2026.10.06
+version: 2026.10.19
 
 parade:
     sponsors:
@@ -50,7 +50,9 @@ parade:
 
     -   ref: "san-leandro-hs"
     -   ref: "pajaro-valley-hs"
-    -   ref: "orland-hs"
+
+    -   break: 5
+
     -   ref: "linden-hs"
     -   ref: "tracy-hs"
     -   ref: "san-ramon-valley-hs"
