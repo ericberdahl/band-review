@@ -18,7 +18,7 @@ units:
 
 sponsors-general: &sponsors-general []
 
-version: 2026.10.19
+version: 2026.10.21
 
 parade:
     sponsors:
@@ -93,7 +93,9 @@ fieldShow:
 
     -   ref: "dublin-hs"
     -   ref: "st-francis-hs"
-    -   ref: "turlock-christian-hs"
+
+    -   break: 15
+
     -   ref: "mountain-house-hs"
     -   ref: "terra-nova-hs"
     -   ref: "john-swett-hs"
