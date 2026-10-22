@@ -52,13 +52,7 @@ const ordinal = isFirst ? "first" : "next";
         from {unit.schoolName} in {unit.city}.
     </p>
     <Leadership unit={unit} />
-    {
-        unit.music && (
-            <p>
-                The {unit.nickname} will perform {unit.music}.
-            </p>
-        )
-    }
+    {unit.music && <p>{`The ${unit.nickname} will perform ${unit.music}.`}</p>}
     {unit.notes && <p>{unit.notes}</p>}
     <p>Please welcome the {unit.nickname}.</p>
     {!unit.notes && <Note>{unit.schoolName} has no parade notes.</Note>}
