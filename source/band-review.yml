@@ -35,7 +35,11 @@ parade:
 
     lineup:
     -   colors: "the color guard from Veterans of Foreign Wars Post 6298"
-    -   grandMarshal: "Pleasanton Mayor, Jack Balch"
+    -   grandMarshal: >
+            Pleasanton Mayor, Jack Balch.
+            Mayor Balch is honored to serve the amazing people of Pleasanton and Foothill's Parade Competition.
+            He is riding in a classic 2004 Porsche 911 Carrera 4S Cabriolet owned by long-time resident and Foothill graduate Jamie Yee,
+            and driven by Ken Benhamou, owner of SAS German Auto in Pleasanton and board member of the Diablo Region Porsche Club of America
 
     -   ref: "foothill-hs"
     -   ref: "wells-ms"
