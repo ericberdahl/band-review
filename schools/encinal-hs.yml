@@ -5,17 +5,26 @@ city: Alameda, CA
 parade:
     lastUpdated: "2026-09-19 15:00:00 -07"
 
-    nickname: Encinal High School Marching Jets
+    nickname: Encinal Marching Jets
 
     directors:
     -   James Caswell
 
     staff:
+    -   title: instructed by
+        members:
+        -   Meghan Ingle
+        -   Rick Ye
+        -   Laura Miller
 
     leaders:
     -   title: drum major
         members:
         -   Justin Jow
+    
+    -   title: color guard leader
+        members:
+        -   Kovia Merian
 
     -   title: percussion leader
         members:
