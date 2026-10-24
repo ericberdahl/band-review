@@ -85,8 +85,13 @@ const paradeRenderers = {
             good luck and good music to all the bands performing today. We hope you
             enjoy the competition.
         </p>
-
-        <Lineup units={paradeStartLinup} renderers={paradeRenderers} />
+    </Chapter>
+    <Chapter>
+        <Lineup
+            units={paradeStartLinup}
+            renderers={paradeRenderers}
+            container={Fragment}
+        />
         <h2>Parade - Recurring Announcements</h2>
         <ul>
             <li>
