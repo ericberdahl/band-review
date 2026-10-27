@@ -1,0 +1,88 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+
+import Chapter from "../components/Chapter.astro";
+
+import { parse as parseCsv } from "csv-parse/sync";
+
+// const AIRGRAM_FILE_ID = "1stH_Jex0TXMoh7ZcSa5l_xWkCCvG3OgSnPtQjbK_LFM"; // Original ingest sheet
+const AIRGRAM_FILE_ID = "1V3yRLpTIPyNQ4H9_qLZ26UxYtgdMGTtqO3h0rmMEn3I"; // Announcer's markup sheet
+const AIRGRAM_SHEET_GID = 0;
+
+const SCHOOL_FIELD = "School";
+const FROM_FIELD = "From";
+const TO_FIELD = "To";
+const SECTION_FIELD = "Section";
+const MESSAGE_FIELD = "Message";
+
+const airGramCsvUrl = `https://docs.google.com/spreadsheets/d/${AIRGRAM_FILE_ID}/export?format=csv&gid=${AIRGRAM_SHEET_GID}`;
+
+const airGrams = await fetch(airGramCsvUrl)
+    .then((res) => res.text())
+    .then((rawAirGrams) =>
+        parseCsv(rawAirGrams, {
+            columns: true,
+            skip_empty_lines: true,
+        }),
+    )
+    .then((airGrams) =>
+        airGrams.map((r) => ({
+            school: r[SCHOOL_FIELD],
+            from: r[FROM_FIELD],
+            to: r[TO_FIELD],
+            section: r[SECTION_FIELD],
+            message: r[MESSAGE_FIELD],
+        })),
+    )
+    .then((airGrams) => Object.groupBy(airGrams, (r) => r.school));
+---
+
+<MainLayout>
+    {
+        Object.entries(airGrams).map(([schoolName, agArray]) => (
+            <Chapter>
+                <div>{`AirGrams for ${schoolName}`}</div>
+                {agArray.map((ag, index) => (
+                    <>
+                        <div class="airgram">
+                            <div class="row">
+                                <div class="column">{`To: ${ag.to}`}</div>
+                                <div class="column">{`Section: ${ag.section}`}</div>
+                            </div>
+                            <div class="row">
+                                <div class="column">{`From: ${ag.from}`}</div>
+                            </div>
+                            <div class="row">
+                                <div class="column">{`${ag.message}`}</div>
+                            </div>
+                        </div>
+                        {index < agArray.length - 1 && <hr />}
+                    </>
+                ))}
+            </Chapter>
+        ))
+    }
+</MainLayout>
+
+<style>
+    body {
+        font-family:
+            Times New Roman,
+            serif;
+        font-size: 14pt;
+    }
+
+    /* The parent wrapper turns into a flex layout container */
+    .row {
+        display: flex;
+        gap: 15px; /* Adds a modern gap spacing between the two columns */
+    }
+
+    /* Optional styling to make the layout clear */
+    .column {
+        flex: 1; /* This forces both elements to split the screen 50/50 evenly */
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #white;
+    }
+</style>
