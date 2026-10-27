@@ -4,7 +4,7 @@ import { renderCommaSeparatedList } from "../utils/listUtils";
 interface Props {
     place: string;
     sponsors: Array<{
-        name: string;
+        sponsor: string;
         dedication?: string;
         message?: string;
         presenter?: string;
@@ -17,12 +17,12 @@ const { place, sponsors }: Props = Astro.props;
     <h3>{place}</h3>
     <p>
         The {place} trophy is sponsored by {
-            renderCommaSeparatedList(sponsors, (s) => `${s.name}`)
+            renderCommaSeparatedList(sponsors, (s) => `${s.sponsor}`)
         }. {
             sponsors.map((s) => {
                 return [
                     s.dedication &&
-                        `${s.name} dedicates the ${place} trophy ${s.dedication}.`,
+                        `${s.sponsor} dedicates the ${place} trophy ${s.dedication}.`,
                     s.message,
                     s.presenter &&
                         `The ${place} trophy will be pressented by ${s.presenter}.`,
