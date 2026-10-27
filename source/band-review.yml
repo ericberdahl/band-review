@@ -134,14 +134,17 @@ fieldShow:
         general: *sponsors-general
 
         trophies:
-        # -   place: Sweepstakes
-        #     sponsors:
-        #     -   sponsor: the Kuo Family
-        #         presenter: Kathrine Wang
-        #         message: >
-        #             With heartfelt appreciation, the Kuo Family, Kathrine Wang's cherished grandparents,
-        #             dedicate this trophy
-        #             in loving honor of grandpa, Dr. Kung Mo Kuo. Go Foothill!
+        -   place: Sweepstakes
+            sponsors:
+            -   sponsor: the Goebel Family (with much love)
+                presenter: Sam Goebel
+                message: >
+                    Thanks for the memories Falcons!
+                    We dedicate this trophy to the close of an 11 year run with our beloved Foothill Band.
+                    We wish you all the best going forward.
+                    We will always treasure our time spent with our band family.
+                    Our hearts are full having known each of you!
+                    Keep being amazing.
 
 concert:
     lineup:
